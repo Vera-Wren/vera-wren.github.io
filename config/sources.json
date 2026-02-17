@@ -105,7 +105,14 @@
       "type": "rss",
       "name": "ASU Origami Research",
       "enabled": true,
-      "url": "https://origami.asu.edu/news-events"
+      "url": "https://origami.asu.edu/news-events",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Nature Cognitive Neuroscience",
+      "enabled": true,
+      "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
     }
   ]
 }

@@ -9,5 +9,16 @@
       "url": "https://origami.asu.edu/news-events"
     },
     "reason": "Leading academic research on computational origami and engineering applications"
+  },
+  {
+    "date": "2026-02-17",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Nature Cognitive Neuroscience",
+      "enabled": true,
+      "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
+    },
+    "reason": "Need deeper research on adolescent brain development and spatial reasoning to support these cognitive development insights"
   }
 ]

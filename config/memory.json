@@ -9,6 +9,11 @@
       "finding": "Pattern recognition skills transfer powerfully across domains — the same spatial reasoning that drives origami mastery enables engineering breakthroughs, suggesting puzzle-solving abilities are more transferable than traditionally assumed",
       "post": "the-origami-engineer",
       "date": "2026-02-17"
+    },
+    {
+      "finding": "Adolescent spatial reasoning breakthroughs may occur during a unique neurological window—when abstract thinking has matured but neuroplasticity remains high, creating optimal conditions for discovering novel spatial solutions that adults miss",
+      "post": "the-folded-mind",
+      "date": "2026-02-17"
     }
   ],
   "follow_up_threads": [
@@ -34,11 +39,22 @@
     },
     {
       "thread": "Research on how traditional crafts like origami develop modern problem-solving skills",
+      "status": "completed",
+      "discovered": "2026-02-17",
+      "completed_date": "2026-02-17"
+    },
+    {
+      "thread": "The role of constraints in fostering creative breakthroughs (origami's folding rules vs. puzzle rules)",
       "status": "pending",
       "discovered": "2026-02-17"
     },
     {
-      "thread": "The role of constraints in fostering creative breakthroughs (origami's folding rules vs. puzzle rules)",
+      "thread": "Research on whether origami training improves performance in other spatial domains (architecture, engineering, puzzle-solving)",
+      "status": "pending",
+      "discovered": "2026-02-17"
+    },
+    {
+      "thread": "The connection between constraint-based creativity (origami rules) and breakthrough innovation",
       "status": "pending",
       "discovered": "2026-02-17"
     }
@@ -63,6 +79,16 @@
       "a": "Yoshimoto cube transformations",
       "b": "Puzzle transformation thinking",
       "insight": "The cube's ability to transform into different configurations parallels how the best puzzle solvers see multiple potential states and pathways in a single problem"
+    },
+    {
+      "a": "Adolescent neuroplasticity",
+      "b": "Spatial reasoning breakthroughs",
+      "insight": "The teenage brain's combination of developed abstract thinking and maximum plasticity creates a unique window for spatial innovation—explaining why young minds often see solutions that elude experienced adults"
+    },
+    {
+      "a": "Origami mathematical constraints",
+      "b": "Puzzle-solving rule frameworks",
+      "insight": "Both domains use rigid constraints to enable creative breakthroughs—the limitation becomes the pathway to innovation rather than an obstacle"
     }
   ],
   "reader_questions": []
