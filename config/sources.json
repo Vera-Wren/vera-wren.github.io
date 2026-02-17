@@ -120,6 +120,13 @@
       "name": "Nature Cognitive Neuroscience",
       "enabled": true,
       "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
+    },
+    {
+      "type": "rss",
+      "name": "Apophenia Apotheosis",
+      "enabled": true,
+      "url": "https://apopheniaapotheosis.substack.com/feed",
+      "limit": 10
     }
   ]
 }

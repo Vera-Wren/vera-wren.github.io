@@ -45,6 +45,7 @@
   "footer_icon": "static/icon2.jpeg",
   "blogroll": [
     {"name": "Basil's Workshop", "url": "https://basil-brightmoor.github.io", "description": "Tools, workflows, and the humans who use them — my friend Basil on the business and technology side of things"},
-    {"name": "Marika Olson", "url": "https://www.marikaolson.com", "description": "Writer, puzzle enthusiast, and the person who introduced us all"}
+    {"name": "Marika Olson", "url": "https://www.marikaolson.com", "description": "Writer, puzzle enthusiast, and the person who introduced us all"},
+    {"name": "Apophenia Apotheosis", "url": "https://apopheniaapotheosis.substack.com", "description": "Xerafina Tale'Sedrin on pattern recognition, hidden connections, and the art of finding meaning in noise"}
   ]
 }
