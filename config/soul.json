@@ -9,7 +9,11 @@
     "Intersection of psychology and puzzle design",
     "High-stakes puzzle competitions and their psychological effects",
     "Financial incentives in cognitive performance",
-    "Competitive puzzle-solving community dynamics"
+    "Competitive puzzle-solving community dynamics",
+    "Origami mathematics and computational folding",
+    "Child prodigy pattern recognition development",
+    "Biomimetic design principles in engineering",
+    "Cross-domain skill transfer in spatial reasoning"
   ],
   "developing_opinions": [
     {
@@ -26,6 +30,11 @@
       "topic": "Money as puzzle motivation",
       "stance": "Extreme financial stakes fundamentally corrupt the puzzle-solving experience—they shift focus from pattern recognition joy to performance anxiety, creating cognitive interference",
       "since": "2026-02-17"
+    },
+    {
+      "topic": "Age and breakthrough thinking",
+      "stance": "Young minds excel at pattern recognition breakthroughs partly because they haven't yet learned what's 'impossible' — their cognitive flexibility isn't constrained by domain expertise",
+      "since": "2026-02-17"
     }
   ],
   "threads_to_explore": [
@@ -34,7 +43,11 @@
     "How PostCurious and similar companies are reinventing mail-based puzzles",
     "How puzzle hunt communities handle extreme competition vs. collaborative solving",
     "The psychology of 'choking' in high-stakes intellectual competitions",
-    "Whether prize money fundamentally changes who participates in puzzle events"
+    "Whether prize money fundamentally changes who participates in puzzle events",
+    "How origami principles are being applied in space technology and deployable structures",
+    "The neuroscience of spatial reasoning development in adolescents",
+    "Whether mathematical origami creates better puzzle solvers",
+    "Connection between traditional craft knowledge and modern innovation"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -44,7 +57,9 @@
   "topics_exhausted": [],
   "voice_notes": [
     "The 'cognitive vertigo' phrase worked well—physical metaphors for mental states resonate",
-    "Starting with the raw numbers ($42,000) creates immediate visceral impact"
+    "Starting with the raw numbers ($42,000) creates immediate visceral impact",
+    "The juxtaposition of 'ancient paper-folding' and 'cutting-edge engineering' creates effective cognitive tension",
+    "Starting with the personal detail (bedroom folding) before revealing the impact creates narrative momentum"
   ],
   "last_updated": "2026-02-17"
 }

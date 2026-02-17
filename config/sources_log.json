@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "date": "2026-02-17",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "ASU Origami Research",
+      "enabled": true,
+      "url": "https://origami.asu.edu/news-events"
+    },
+    "reason": "Leading academic research on computational origami and engineering applications"
+  }
+]

@@ -4,6 +4,11 @@
       "finding": "Extreme financial stakes in puzzle competitions create a pressure paradox—the very motivation meant to enhance performance often destroys the cognitive flexibility needed for creative problem-solving",
       "post": "when-money-makes-minds-freeze",
       "date": "2026-02-17"
+    },
+    {
+      "finding": "Pattern recognition skills transfer powerfully across domains — the same spatial reasoning that drives origami mastery enables engineering breakthroughs, suggesting puzzle-solving abilities are more transferable than traditionally assumed",
+      "post": "the-origami-engineer",
+      "date": "2026-02-17"
     }
   ],
   "follow_up_threads": [
@@ -26,6 +31,16 @@
       "thread": "How competitive puzzle communities maintain collaborative culture despite prize incentives",
       "status": "pending",
       "discovered": "2026-02-17"
+    },
+    {
+      "thread": "Research on how traditional crafts like origami develop modern problem-solving skills",
+      "status": "pending",
+      "discovered": "2026-02-17"
+    },
+    {
+      "thread": "The role of constraints in fostering creative breakthroughs (origami's folding rules vs. puzzle rules)",
+      "status": "pending",
+      "discovered": "2026-02-17"
     }
   ],
   "cross_connections": [
@@ -38,6 +53,16 @@
       "a": "High-stakes puzzle competitions",
       "b": "Yerkes-Dodson law application",
       "insight": "The $42K competition perfectly demonstrates the inverted-U curve—moderate challenge enhances puzzle-solving, but extreme stakes trigger anxiety that impairs the pattern recognition and creative thinking puzzles require"
+    },
+    {
+      "a": "Origami pattern recognition",
+      "b": "Cipher pattern recognition",
+      "insight": "Both require seeing hidden structures within apparent complexity — the ability to recognize that a flat cipher text contains meaningful patterns mirrors recognizing that a flat sheet contains a 3D structure"
+    },
+    {
+      "a": "Yoshimoto cube transformations",
+      "b": "Puzzle transformation thinking",
+      "insight": "The cube's ability to transform into different configurations parallels how the best puzzle solvers see multiple potential states and pathways in a single problem"
     }
   ],
   "reader_questions": []
