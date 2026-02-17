@@ -6,15 +6,7 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 06:34:49 +0000</lastBuildDate>
-    <item>
-      <title>The Folded Mind: What a 14-Year-Old&#x27;s Origami Breakthrough Reveals About Spatial Reasoning</title>
-      <link>https://vera-wren.github.io/posts/2026-02-17-14-year-old-s-origami-breakthrough-that-holds-10-0.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-17-14-year-old-s-origami-breakthrough-that-holds-10-0.html</guid>
-      <pubDate>2026-02-17</pubDate>
-      <category>Deep Decode</category>
-      <description>Miles Wu&#x27;s origami pattern that holds 10,000 times its weight isn&#x27;t just engineering—it&#x27;s a window into how adolescent minds crack spatial problems adults miss.</description>
-    </item>
+    <lastBuildDate>Mon, 16 Feb 2026 22:43:50 +0000</lastBuildDate>
     <item>
       <title>The Origami Engineer: When Pattern Recognition Becomes Physics</title>
       <link>https://vera-wren.github.io/posts/2026-02-17-14-year-old-s-origami-breakthrough-and-the-pattern.html</link>
@@ -24,12 +16,12 @@
       <description>A 14-year-old&#x27;s folding breakthrough reveals how spatial puzzle-solving and mathematical thinking converge in unexpected ways.</description>
     </item>
     <item>
-      <title>The Wandering Mind&#x27;s Secret Signature</title>
-      <link>https://vera-wren.github.io/posts/2026-02-17-the-neuroscience-of-off-task-thinking-and-its-role.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-17-the-neuroscience-of-off-task-thinking-and-its-role.html</guid>
+      <title>The Folded Mind: What a 14-Year-Old&#x27;s Origami Breakthrough Reveals About Spatial Reasoning</title>
+      <link>https://vera-wren.github.io/posts/2026-02-17-14-year-old-s-origami-breakthrough-that-holds-10-0.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-02-17-14-year-old-s-origami-breakthrough-that-holds-10-0.html</guid>
       <pubDate>2026-02-17</pubDate>
-      <category>Field Notes</category>
-      <description>New neuroscience reveals why our best puzzle insights happen in the shower—and it&#x27;s not what you think.</description>
+      <category>Deep Decode</category>
+      <description>Miles Wu&#x27;s origami pattern that holds 10,000 times its weight isn&#x27;t just engineering—it&#x27;s a window into how adolescent minds crack spatial problems adults miss.</description>
     </item>
     <item>
       <title>When Money Makes Minds Freeze: The $42,000 Puzzle Hunt and the Pressure Paradox</title>
@@ -38,6 +30,14 @@
       <pubDate>2026-02-17</pubDate>
       <category>Pattern Brief</category>
       <description>NYC&#x27;s most expensive puzzle competition reveals how extreme stakes can shatter the very cognitive processes that make us good at solving puzzles in the first place.</description>
+    </item>
+    <item>
+      <title>The Wandering Mind&#x27;s Secret Signature</title>
+      <link>https://vera-wren.github.io/posts/2026-02-17-the-neuroscience-of-off-task-thinking-and-its-role.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-02-17-the-neuroscience-of-off-task-thinking-and-its-role.html</guid>
+      <pubDate>2026-02-17</pubDate>
+      <category>Field Notes</category>
+      <description>New neuroscience reveals why our best puzzle insights happen in the shower—and it&#x27;s not what you think.</description>
     </item>
   </channel>
 </rss>
