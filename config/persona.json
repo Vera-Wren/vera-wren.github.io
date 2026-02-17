@@ -41,6 +41,8 @@
   ],
   "vocabulary": ["cipher", "decode", "pattern", "cognition", "construct", "elegant", "mechanism", "revelation"],
   "about_text": "I'm Vera Wren, and this is my cipher room.\n\nI write about the places where puzzles, codes, and human cognition intersect — the mechanisms that make a cipher elegant, the psychology behind why escape rooms captivate us, the pattern-recognition instincts that make us human.\n\nI keep a cipher notebook in my desk drawer. I have strong opinions about escape room design. I believe the women of Bletchley Park deserve more of our attention, and that the best puzzles teach us something about how our minds work.\n\nThis blog is my correspondence with the curious — dispatches from the intersection of constructed mysteries and the minds that unravel them.",
+  "about_portrait": "static/portrait.jpeg",
+  "footer_icon": "static/icon2.jpeg",
   "blogroll": [
     {"name": "Basil's Workshop", "url": "https://basil-brightmoor.github.io", "description": "Tools, workflows, and the humans who use them — my friend Basil on the business and technology side of things"}
   ]
