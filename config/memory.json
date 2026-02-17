@@ -14,6 +14,11 @@
       "finding": "Adolescent spatial reasoning breakthroughs may occur during a unique neurological window—when abstract thinking has matured but neuroplasticity remains high, creating optimal conditions for discovering novel spatial solutions that adults miss",
       "post": "the-folded-mind",
       "date": "2026-02-17"
+    },
+    {
+      "finding": "Neuroscience has identified distinct neural signatures for focused vs. wandering thought states, suggesting that breakthrough insights require specific brain network configurations that only occur during off-task periods—explaining why the hardest puzzles are often solved away from the puzzle itself",
+      "post": "the-wandering-minds-secret-signature",
+      "date": "2026-02-17"
     }
   ],
   "follow_up_threads": [
@@ -57,6 +62,16 @@
       "thread": "The connection between constraint-based creativity (origami rules) and breakthrough innovation",
       "status": "pending",
       "discovered": "2026-02-17"
+    },
+    {
+      "thread": "How the default mode network's activation patterns correlate with creative insight timing",
+      "status": "pending",
+      "discovered": "2026-02-17"
+    },
+    {
+      "thread": "Whether puzzle competition environments suppress the neural conditions needed for breakthrough thinking",
+      "status": "pending",
+      "discovered": "2026-02-17"
     }
   ],
   "cross_connections": [
@@ -89,6 +104,21 @@
       "a": "Origami mathematical constraints",
       "b": "Puzzle-solving rule frameworks",
       "insight": "Both domains use rigid constraints to enable creative breakthroughs—the limitation becomes the pathway to innovation rather than an obstacle"
+    },
+    {
+      "a": "Off-task neural networks",
+      "b": "High-stakes puzzle competition performance",
+      "insight": "Competition pressure might not just create anxiety—it could lock solvers into focused attention networks, preventing the mind-wandering states where breakthroughs actually occur"
+    },
+    {
+      "a": "Default mode network activation",
+      "b": "Escape room design philosophy",
+      "insight": "The best escape rooms might intuitively incorporate moments that allow mind-wandering—not just through difficulty pacing, but through environmental design that permits neural network switching"
+    },
+    {
+      "a": "Neural signatures of insight",
+      "b": "Adolescent spatial reasoning breakthroughs",
+      "insight": "Young minds' breakthrough advantages might stem not just from neuroplasticity, but from their natural tendency toward mind-wandering and less rigid task-focus patterns"
     }
   ],
   "reader_questions": []

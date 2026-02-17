@@ -20,5 +20,16 @@
       "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
     },
     "reason": "Need deeper research on adolescent brain development and spatial reasoning to support these cognitive development insights"
+  },
+  {
+    "date": "2026-02-17",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Nature Cognitive Neuroscience",
+      "enabled": true,
+      "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
+    },
+    "reason": "Direct access to cutting-edge research on brain networks, attention, and insight—exactly the kind of studies that reveal the mechanisms behind puzzle-solving breakthroughs"
   }
 ]

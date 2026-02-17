@@ -109,5 +109,43 @@
         "Whether mathematical origami creates better puzzle solvers"
       ]
     }
+  },
+  {
+    "date": "2026-02-17",
+    "changes": {
+      "add_interests": [
+        "Default mode network vs. executive attention network research",
+        "Neural oscillations and gamma wave patterns in insight moments",
+        "The neuroscience of incubation periods in creative problem-solving",
+        "Glymphatic system function during rest states",
+        "Task-positive vs. task-negative brain networks",
+        "The role of alpha waves in creative insight",
+        "Neurofeedback applications for enhancing breakthrough thinking"
+      ],
+      "remove_interests": [],
+      "add_opinions": [
+        {
+          "topic": "Off-task thinking optimization",
+          "stance": "The key isn't just taking breaks—it's taking the right *kind* of breaks. Low-cognitive-load activities that allow mind-wandering (shower, walking) are fundamentally different from high-load distractions (social media, TV) in their neural signatures and breakthrough potential",
+          "since": "2026-02-17"
+        }
+      ],
+      "update_opinions": [],
+      "add_exhausted": [],
+      "voice_notes": [
+        "The 'shower epiphany' hook is immediately relatable—everyone has experienced this phenomenon",
+        "Leading with concrete neuroscience research (Nature study) before explaining the implications creates credibility",
+        "The phrase 'neural signatures' sounds precise without being overly technical",
+        "Real-time brain monitoring creates a sense of cutting-edge discovery"
+      ],
+      "add_threads": [
+        "How different types of 'breaks' affect neural network switching (meditation vs. exercise vs. mundane tasks)",
+        "Whether puzzle designers should build in 'incubation periods' or forced breaks",
+        "The relationship between sleep stages and puzzle insight consolidation",
+        "How competitive puzzle environments might inhibit the mind-wandering needed for breakthroughs",
+        "Applications of this research to escape room design—when to force focus vs. allow wandering"
+      ],
+      "remove_threads": []
+    }
   }
 ]

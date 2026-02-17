@@ -112,6 +112,13 @@
       "type": "rss",
       "name": "Nature Cognitive Neuroscience",
       "enabled": true,
+      "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Nature Cognitive Neuroscience",
+      "enabled": true,
       "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
     }
   ]
