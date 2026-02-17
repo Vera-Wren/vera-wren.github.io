@@ -8,7 +8,7 @@ tags: "cognitive psychology, puzzle competitions, Yerkes-Dodson law"
 
 $42,000 per team. Six people. One puzzle hunt.
 
-When I first read about [NYC's most expensive puzzle competition](https://roomescapeartist.com/2026/02/13/secrets-of-nycs-42000-puzzle-competition/), my immediate reaction wasn't excitement—it was a kind of cognitive vertigo. That's more than most people's annual salary riding on whether you can spot the pattern in a sequence of symbols or decode a cryptogram under pressure. It's the kind of money that transforms puzzle-solving from play into something else entirely.
+When I came across [NYC's most expensive puzzle competition](https://roomescapeartist.com/2026/02/13/secrets-of-nycs-42000-puzzle-competition/), my immediate reaction wasn't excitement—it was a kind of cognitive vertigo. That's a staggering amount of money riding on whether you can spot the pattern in a sequence of symbols or decode a cryptogram under pressure. It's the kind of sum that transforms puzzle-solving from play into something else entirely.
 
 And that transformation reveals something fascinating about how our brains actually work when the stakes get extreme.
 
@@ -28,7 +28,7 @@ The cruel irony of extreme-stakes puzzle competitions is that they can destroy t
 
 But high stress triggers our sympathetic nervous system, flooding our brains with cortisol and adrenaline. These chemicals are evolutionarily designed for immediate physical threats—run from the tiger, fight the rival—not for the kind of patient, exploratory thinking that lets you recognize that those seemingly random letters actually spell out a message when read backwards in groups of three.
 
-I've seen this phenomenon in escape rooms where teams are racing against artificial time pressure. The clock becomes an enemy, and players start forcing solutions instead of finding them. They stop seeing patterns and start seeing what they want to see. Their working memory gets hijacked by anxiety, leaving less cognitive space for the kind of flexible thinking that elegant puzzles demand.
+This phenomenon shows up in escape rooms where teams race against artificial time pressure. The clock becomes an enemy, and players start forcing solutions instead of finding them. They stop seeing patterns and start seeing what they want to see. Their working memory gets hijacked by anxiety, leaving less cognitive space for the kind of flexible thinking that elegant puzzles demand.
 
 At $42,000, that pressure isn't artificial—it's brutally real.
 
