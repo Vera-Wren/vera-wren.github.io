@@ -1,0 +1,25 @@
+{
+  "current_interests": [
+    "Bletchley Park women's untold stories",
+    "Escape room psychology and flow states",
+    "The neuroscience of 'aha' moments",
+    "ARG (alternate reality game) design philosophy",
+    "Synesthesia and pattern recognition",
+    "Historical ciphers that remain unsolved",
+    "Intersection of psychology and puzzle design"
+  ],
+  "developing_opinions": [
+    {"topic": "AI-generated puzzles", "stance": "Skeptical but curious — the best puzzles encode human intention, which AI mimics but doesn't possess. Yet.", "since": "2026-02-16"},
+    {"topic": "Escape room industry quality", "stance": "The industry is bifurcating — brilliant immersive experiences on one end, lazy padlock farms on the other", "since": "2026-02-16"}
+  ],
+  "threads_to_explore": [
+    "Connection between synesthesia and cipher-solving ability",
+    "Why the Zodiac cipher community keeps finding new approaches",
+    "The role of time pressure in puzzle satisfaction (Yerkes-Dodson connection)",
+    "How PostCurious and similar companies are reinventing mail-based puzzles"
+  ],
+  "favorite_sources": ["Crypto Museum", "r/ARG", "Room Escape Artist"],
+  "topics_exhausted": [],
+  "voice_notes": [],
+  "last_updated": "2026-02-16"
+}

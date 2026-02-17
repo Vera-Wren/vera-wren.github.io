@@ -1,0 +1,11 @@
+{
+  "key_findings": [],
+  "follow_up_threads": [
+    {"thread": "The Zodiac cipher community's new computational approaches", "discovered": "2026-02-16", "status": "pending"},
+    {"thread": "New research on dopamine loops in puzzle-solving", "discovered": "2026-02-16", "status": "pending"}
+  ],
+  "cross_connections": [
+    {"a": "Escape room time pressure", "b": "Yerkes-Dodson law", "insight": "Optimal difficulty mirrors optimal arousal — the best escape rooms intuitively calibrate this"}
+  ],
+  "reader_questions": []
+}
