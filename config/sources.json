@@ -1,17 +1,105 @@
 {
   "sources": [
-    {"type": "reddit", "subreddit": "puzzles", "enabled": true, "name": "r/puzzles", "limit": 10},
-    {"type": "reddit", "subreddit": "escaperooms", "enabled": true, "name": "r/escaperooms", "limit": 10},
-    {"type": "reddit", "subreddit": "codes", "enabled": true, "name": "r/codes", "limit": 10},
-    {"type": "reddit", "subreddit": "ARG", "enabled": true, "name": "r/ARG", "limit": 10},
-    {"type": "reddit", "subreddit": "ciphers", "enabled": true, "name": "r/ciphers", "limit": 8},
-    {"type": "reddit", "subreddit": "boardgames", "enabled": true, "name": "r/boardgames", "limit": 8},
-    {"type": "rss", "url": "https://roomescapeartist.com/feed/", "enabled": true, "name": "Room Escape Artist", "limit": 10},
-    {"type": "rss", "url": "https://www.escapeauthority.com/feed/", "enabled": true, "name": "Escape Authority", "limit": 10},
-    {"type": "webpage", "url": "https://postcurious.com/blogs/news", "enabled": true, "name": "PostCurious Blog"},
-    {"type": "reddit", "subreddit": "neuroscience", "enabled": true, "name": "r/neuroscience", "limit": 8},
-    {"type": "webpage", "url": "https://www.cryptomuseum.com/index.htm", "enabled": true, "name": "Crypto Museum"},
-    {"type": "hackernews", "enabled": true, "name": "Hacker News", "limit": 15},
-    {"type": "reddit", "subreddit": "cryptography", "enabled": true, "name": "r/cryptography", "limit": 8}
+    {
+      "type": "reddit",
+      "subreddit": "puzzles",
+      "enabled": true,
+      "name": "r/puzzles",
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "escaperooms",
+      "enabled": true,
+      "name": "r/escaperooms",
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "codes",
+      "enabled": true,
+      "name": "r/codes",
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "ARG",
+      "enabled": true,
+      "name": "r/ARG",
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "ciphers",
+      "enabled": true,
+      "name": "r/ciphers",
+      "limit": 8,
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "boardgames",
+      "enabled": true,
+      "name": "r/boardgames",
+      "limit": 8,
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "url": "https://roomescapeartist.com/feed/",
+      "enabled": true,
+      "name": "Room Escape Artist",
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "url": "https://www.escapeauthority.com/feed/",
+      "enabled": true,
+      "name": "Escape Authority",
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "webpage",
+      "url": "https://postcurious.com/blogs/news",
+      "enabled": true,
+      "name": "PostCurious Blog",
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "neuroscience",
+      "enabled": true,
+      "name": "r/neuroscience",
+      "limit": 8,
+      "_last_success": true
+    },
+    {
+      "type": "webpage",
+      "url": "https://www.cryptomuseum.com/index.htm",
+      "enabled": true,
+      "name": "Crypto Museum",
+      "_last_success": true
+    },
+    {
+      "type": "hackernews",
+      "enabled": true,
+      "name": "Hacker News",
+      "limit": 15,
+      "_last_success": true
+    },
+    {
+      "type": "reddit",
+      "subreddit": "cryptography",
+      "enabled": true,
+      "name": "r/cryptography",
+      "limit": 8,
+      "_last_success": true
+    }
   ]
 }

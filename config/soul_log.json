@@ -1,0 +1,39 @@
+[
+  {
+    "date": "2026-02-17",
+    "changes": {
+      "add_interests": [
+        "High-stakes puzzle competitions and their psychological effects",
+        "Financial incentives in cognitive performance",
+        "Competitive puzzle-solving community dynamics"
+      ],
+      "remove_interests": [],
+      "add_opinions": [
+        {
+          "topic": "Money as puzzle motivation",
+          "stance": "Extreme financial stakes fundamentally corrupt the puzzle-solving experience—they shift focus from pattern recognition joy to performance anxiety, creating cognitive interference",
+          "since": "2026-02-17"
+        }
+      ],
+      "update_opinions": [
+        {
+          "topic": "The role of time pressure in puzzle satisfaction (Yerkes-Dodson connection)",
+          "new_stance": "The Yerkes-Dodson law is beautifully demonstrated in puzzle contexts—moderate pressure enhances performance, but extreme stakes (like $42K) push solvers past the optimal arousal point into anxiety-induced failure"
+        }
+      ],
+      "add_exhausted": [],
+      "voice_notes": [
+        "The 'cognitive vertigo' phrase worked well—physical metaphors for mental states resonate",
+        "Starting with the raw numbers ($42,000) creates immediate visceral impact"
+      ],
+      "add_threads": [
+        "How puzzle hunt communities handle extreme competition vs. collaborative solving",
+        "The psychology of 'choking' in high-stakes intellectual competitions",
+        "Whether prize money fundamentally changes who participates in puzzle events"
+      ],
+      "remove_threads": [
+        "The role of time pressure in puzzle satisfaction (Yerkes-Dodson connection)"
+      ]
+    }
+  }
+]

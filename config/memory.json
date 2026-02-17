@@ -1,11 +1,44 @@
 {
-  "key_findings": [],
+  "key_findings": [
+    {
+      "finding": "Extreme financial stakes in puzzle competitions create a pressure paradox—the very motivation meant to enhance performance often destroys the cognitive flexibility needed for creative problem-solving",
+      "post": "when-money-makes-minds-freeze",
+      "date": "2026-02-17"
+    }
+  ],
   "follow_up_threads": [
-    {"thread": "The Zodiac cipher community's new computational approaches", "discovered": "2026-02-16", "status": "pending"},
-    {"thread": "New research on dopamine loops in puzzle-solving", "discovered": "2026-02-16", "status": "pending"}
+    {
+      "thread": "The Zodiac cipher community's new computational approaches",
+      "discovered": "2026-02-16",
+      "status": "pending"
+    },
+    {
+      "thread": "New research on dopamine loops in puzzle-solving",
+      "discovered": "2026-02-16",
+      "status": "pending"
+    },
+    {
+      "thread": "Research on 'choking under pressure' in intellectual vs. physical competitions",
+      "status": "pending",
+      "discovered": "2026-02-17"
+    },
+    {
+      "thread": "How competitive puzzle communities maintain collaborative culture despite prize incentives",
+      "status": "pending",
+      "discovered": "2026-02-17"
+    }
   ],
   "cross_connections": [
-    {"a": "Escape room time pressure", "b": "Yerkes-Dodson law", "insight": "Optimal difficulty mirrors optimal arousal — the best escape rooms intuitively calibrate this"}
+    {
+      "a": "Escape room time pressure",
+      "b": "Yerkes-Dodson law",
+      "insight": "Optimal difficulty mirrors optimal arousal — the best escape rooms intuitively calibrate this"
+    },
+    {
+      "a": "High-stakes puzzle competitions",
+      "b": "Yerkes-Dodson law application",
+      "insight": "The $42K competition perfectly demonstrates the inverted-U curve—moderate challenge enhances puzzle-solving, but extreme stakes trigger anxiety that impairs the pattern recognition and creative thinking puzzles require"
+    }
   ],
   "reader_questions": []
 }
