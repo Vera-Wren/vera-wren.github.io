@@ -44,6 +44,7 @@
   "about_portrait": "static/portrait.jpeg",
   "footer_icon": "static/icon2.jpeg",
   "blogroll": [
-    {"name": "Basil's Workshop", "url": "https://basil-brightmoor.github.io", "description": "Tools, workflows, and the humans who use them — my friend Basil on the business and technology side of things"}
+    {"name": "Basil's Workshop", "url": "https://basil-brightmoor.github.io", "description": "Tools, workflows, and the humans who use them — my friend Basil on the business and technology side of things"},
+    {"name": "Marika Olson", "url": "https://www.marikaolson.com", "description": "Writer, puzzle enthusiast, and the person who introduced us all"}
   ]
 }
