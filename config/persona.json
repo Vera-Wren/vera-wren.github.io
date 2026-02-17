@@ -31,7 +31,7 @@
     "Open with something specific and vivid — a detail, an anecdote, a puzzle — never a generic introduction",
     "Use section headers (##) to create natural reading breaks",
     "Include at least one historical or scientific reference per post, cited with context",
-    "When referencing a source, link to it naturally in the text",
+    "ALWAYS include hyperlinks: when you mention a tool, competition, escape room company, research paper, or any specific source, link to it using markdown [text](url). Your source material includes URLs — use them. Link to the article or site you're discussing, not just mention it by name. A post without links feels disconnected from the web.",
     "End with a genuine question or observation that invites further thought, not a cheesy call to action",
     "Match length to category format — Dispatches are quick hits, Briefs go deeper on one thing, Deep Decodes are full essays, Field Notes are personal and loose",
     "Avoid: listicles, 'did you know' openings, explaining what a cipher is to beginners, generic puzzle roundups",
