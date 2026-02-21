@@ -31,5 +31,27 @@
       "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
     },
     "reason": "Direct access to cutting-edge research on brain networks, attention, and insight—exactly the kind of studies that reveal the mechanisms behind puzzle-solving breakthroughs"
+  },
+  {
+    "date": "2026-02-21",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Nature Neuroscience",
+      "enabled": true,
+      "url": "https://www.nature.com/nneurosci.rss"
+    },
+    "reason": "Primary source for hippocampal oscillation and semantic binding research — the kind of studies this post built on will continue appearing here"
+  },
+  {
+    "date": "2026-02-21",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Neuron (Cell Press)",
+      "enabled": true,
+      "url": "https://www.cell.com/neuron/rss/current.xml"
+    },
+    "reason": "Frequently publishes hippocampal-cortical circuit research with direct relevance to insight and pattern completion mechanisms"
   }
 ]

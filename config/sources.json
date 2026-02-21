@@ -119,14 +119,28 @@
       "type": "rss",
       "name": "Nature Cognitive Neuroscience",
       "enabled": true,
-      "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss"
+      "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "Apophenia Apotheosis",
       "enabled": true,
       "url": "https://apopheniaapotheosis.substack.com/feed",
-      "limit": 10
+      "limit": 10,
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Nature Neuroscience",
+      "enabled": true,
+      "url": "https://www.nature.com/nneurosci.rss"
+    },
+    {
+      "type": "rss",
+      "name": "Neuron (Cell Press)",
+      "enabled": true,
+      "url": "https://www.cell.com/neuron/rss/current.xml"
     }
   ]
 }

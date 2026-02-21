@@ -24,6 +24,11 @@
       "finding": "When presented with an unexplained mystery of high craftsmanship, people systematically overestimate the complexity of the explanation — a proportionality bias where elaborate evidence demands elaborate intent",
       "post": "2026-02-20-the-coolest-fort-ever.md",
       "date": "2026-02-20"
+    },
+    {
+      "finding": "Hippocampal-cortical oscillations during semantic processing map directly onto the subjective 'click' puzzle solvers report — the hippocampus functions as a pattern completion engine, binding disparate memory traces into coherent wholes in a threshold event rather than a gradual process, explaining why insight feels instantaneous even after slow accumulation",
+      "post": "2026-02-21-the-click-hippocampal-oscillations.md",
+      "date": "2026-02-21"
     }
   ],
   "follow_up_threads": [
@@ -70,13 +75,29 @@
     },
     {
       "thread": "How the default mode network's activation patterns correlate with creative insight timing",
-      "status": "pending",
-      "discovered": "2026-02-17"
+      "status": "completed",
+      "discovered": "2026-02-17",
+      "completed_date": "2026-02-21"
     },
     {
       "thread": "Whether puzzle competition environments suppress the neural conditions needed for breakthrough thinking",
       "status": "pending",
       "discovered": "2026-02-17"
+    },
+    {
+      "thread": "Whether hippocampal theta rhythms can be primed or trained before high-stakes puzzle sessions",
+      "status": "pending",
+      "discovered": "2026-02-21"
+    },
+    {
+      "thread": "How puzzle designers can structurally create near-complete states that set up the click — rather than leaving it to chance",
+      "status": "pending",
+      "discovered": "2026-02-21"
+    },
+    {
+      "thread": "The overlap between hippocampal spatial navigation and conceptual navigation through cipher logic — same architecture, different domain",
+      "status": "pending",
+      "discovered": "2026-02-21"
     }
   ],
   "cross_connections": [
@@ -129,6 +150,26 @@
       "a": "Proportionality bias in mystery interpretation",
       "b": "Collaborative puzzle-solving dynamics",
       "insight": "When crowds solve mysteries collectively, the proportionality bias amplifies — each person's theory ratchets up complexity because no one wants to propose the boring answer"
+    },
+    {
+      "a": "Hippocampal pattern completion",
+      "b": "Escape room design philosophy",
+      "insight": "If the click requires a threshold of near-complete pattern binding in the hippocampus, then escape rooms can be designed to deliberately sequence clues to approach — but not cross — that threshold, creating the maximum impact moment when the final piece arrives"
+    },
+    {
+      "a": "Hippocampal oscillations",
+      "b": "Glymphatic system function during rest",
+      "insight": "Both implicate the same structure in offline processing — the hippocampus reactivates incomplete patterns during rest while the glymphatic system clears metabolic waste, suggesting that the 'incubation period' is neurologically active, not passive"
+    },
+    {
+      "a": "Hippocampal navigation function",
+      "b": "Cipher pattern recognition",
+      "insight": "The hippocampus evolved for spatial mapping — tracking where you are relative to landmarks. Cipher-breaking may recruit this same machinery to map symbolic positions relative to meaning-anchors, making the cipher-solver's brain literally navigate conceptual space"
+    },
+    {
+      "a": "The click moment",
+      "b": "Neural signatures of insight (prior post)",
+      "insight": "The prior post identified distinct neural signatures for focused vs. wandering thought; this post deepens that: the hippocampus may be the specific structure that crosses the threshold during the wandering-to-insight transition, binding accumulated traces into the snap of comprehension"
     }
   ],
   "reader_questions": []
