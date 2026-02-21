@@ -147,5 +147,23 @@
       ],
       "remove_threads": []
     }
+  },
+  {
+    "date": "2026-02-20",
+    "changes": {
+      "add_interests": [
+        "Spontaneous collective puzzle-solving and crowd investigation dynamics",
+        "The proportionality bias in mystery interpretation"
+      ],
+      "remove_interests": [],
+      "add_opinions": [],
+      "update_opinions": [],
+      "add_exhausted": [],
+      "voice_notes": [
+        "The police chief quote ('coolest fort ever') works as a punchline because it punctures the entire threat narrative with warmth"
+      ],
+      "add_threads": [],
+      "remove_threads": []
+    }
   }
 ]
