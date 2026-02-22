@@ -206,5 +206,56 @@
         "How the default mode network's activation patterns correlate with creative insight timing"
       ]
     }
+  },
+  {
+    "date": "2026-02-22",
+    "changes": {
+      "add_interests": [
+        "Bouba-kiki effect and cross-modal cognition research",
+        "Evolutionary origins of pre-symbolic pattern recognition",
+        "Animal cognition studies and what they reveal about human cognitive architecture",
+        "Cross-modal binding as a structural advantage in symbol decoding",
+        "Visual vocabulary design in ciphers and escape rooms",
+        "Pre-conscious meaning projection onto symbol-shape pairings",
+        "Synesthetic phenomenology and its cognitive mechanisms"
+      ],
+      "remove_interests": [],
+      "add_opinions": [
+        {
+          "topic": "Synesthetes as cipher-solvers",
+          "stance": "Synesthetes may possess a structural advantage for specific cipher classes — not because they are more intelligent, but because their involuntary cross-modal binding amplifies a recognition channel that all brains use but most run below the threshold of awareness. The advantage is architectural, not effortful.",
+          "since": "2026-02-22"
+        },
+        {
+          "topic": "Visual vocabulary in cipher and escape room design",
+          "stance": "Cipher designers and escape room builders are making cross-modal decisions whether they know it or not — every symbol shape carries pre-symbolic weight that arrives before conscious analysis. Designers who understand bouba-kiki dynamics can use this to prime or misdirect solvers at a layer beneath language.",
+          "since": "2026-02-22"
+        },
+        {
+          "topic": "The ancient roots of pattern recognition",
+          "stance": "The bouba-kiki effect in linguistically naive chicks collapses the 'cultural learning' defense — cross-modal mapping is not a human invention or a linguistic byproduct. It is a deep architectural feature of vertebrate brains, which means puzzle-solving intuitions have evolutionary ancestry far older than puzzles themselves.",
+          "since": "2026-02-22"
+        }
+      ],
+      "update_opinions": [],
+      "add_exhausted": [],
+      "voice_notes": [
+        "Using the cipher-reading metaphor to describe the act of reading a study ('the way a cipher will sometimes stop you when a pattern you weren't looking for suddenly surfaces in the noise') folds form into content — the writing enacts the phenomenon it describes",
+        "The animal cognition hook works the same way the child prodigy hook did — a surprising non-human or non-expert subject that forces a reframe of what was assumed to be a culturally-specific human capacity",
+        "Naming the post 'Before the First Letter' creates a temporal frame that signals the argument before a word of body text: this is about something prior to language, prior to symbol, prior to the reader's assumptions",
+        "The phrase 'turbocharged version' for synesthetic cross-modal binding is colloquially precise — it implies the same engine running at higher amplitude, not a different mechanism, which is exactly the neurological claim"
+      ],
+      "add_threads": [
+        "Whether synesthetes show measurably different performance on specific cipher classes — particularly substitution vs. transposition ciphers",
+        "How historical cipher designers chose their visual symbol sets — was there intuitive cross-modal priming at work in systems like the Voynich manuscript's glyphs?",
+        "Whether the bouba-kiki effect can be deliberately weaponized in ARG design to create subliminal misdirection or priming",
+        "The evolutionary timeline of cross-modal binding — how far back does the bouba-kiki mapping extend phylogenetically?",
+        "Whether escape room designers have ever systematically studied the cross-modal weight of their prop and symbol choices",
+        "The relationship between synesthetic involuntary binding and the hippocampal pattern completion mechanism — are they recruiting overlapping or parallel systems?"
+      ],
+      "remove_threads": [
+        "Connection between synesthesia and cipher-solving ability"
+      ]
+    }
   }
 ]

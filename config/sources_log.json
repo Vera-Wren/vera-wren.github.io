@@ -53,5 +53,27 @@
       "url": "https://www.cell.com/neuron/rss/current.xml"
     },
     "reason": "Frequently publishes hippocampal-cortical circuit research with direct relevance to insight and pattern completion mechanisms"
+  },
+  {
+    "date": "2026-02-22",
+    "action": "added",
+    "source": {
+      "type": "journal",
+      "name": "Science (AAAS)",
+      "enabled": true,
+      "url": "https://www.science.org/journal/science"
+    },
+    "reason": "The University of Trento bouba-kiki chick study published here — tracking this journal surfaces high-impact cognitive science findings before they filter into general coverage, which is where the best Deep Decode angles live."
+  },
+  {
+    "date": "2026-02-22",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "The Conversation – Cognitive Science",
+      "enabled": true,
+      "url": "https://theconversation.com/us/cognitive-science"
+    },
+    "reason": "Researchers writing accessibly about their own findings — strong signal-to-noise for cross-modal cognition, synesthesia, and evolutionary psychology threads without requiring journal access."
   }
 ]

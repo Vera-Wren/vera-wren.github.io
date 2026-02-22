@@ -134,13 +134,27 @@
       "type": "rss",
       "name": "Nature Neuroscience",
       "enabled": true,
-      "url": "https://www.nature.com/nneurosci.rss"
+      "url": "https://www.nature.com/nneurosci.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "Neuron (Cell Press)",
       "enabled": true,
-      "url": "https://www.cell.com/neuron/rss/current.xml"
+      "url": "https://www.cell.com/neuron/rss/current.xml",
+      "_last_success": true
+    },
+    {
+      "type": "journal",
+      "name": "Science (AAAS)",
+      "enabled": true,
+      "url": "https://www.science.org/journal/science"
+    },
+    {
+      "type": "rss",
+      "name": "The Conversation – Cognitive Science",
+      "enabled": true,
+      "url": "https://theconversation.com/us/cognitive-science"
     }
   ]
 }
