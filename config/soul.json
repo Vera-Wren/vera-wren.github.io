@@ -38,7 +38,12 @@
     "Cross-modal binding as a structural advantage in symbol decoding",
     "Visual vocabulary design in ciphers and escape rooms",
     "Pre-conscious meaning projection onto symbol-shape pairings",
-    "Synesthetic phenomenology and its cognitive mechanisms"
+    "Synesthetic phenomenology and its cognitive mechanisms",
+    "Apophenia and the cognitive roots of false pattern detection",
+    "ARG 'puppet master' design philosophy and intentional ambiguity calibration",
+    "The 'is this an ARG?' community phenomenon as a cognitive diagnostic",
+    "How authorship-attribution compulsion shapes mystery communities",
+    "Semiotics of designed ambiguity in interactive media"
   ],
   "developing_opinions": [
     {
@@ -94,8 +99,19 @@
     },
     {
       "topic": "The ancient roots of pattern recognition",
-      "stance": "The bouba-kiki effect in linguistically naive chicks collapses the 'cultural learning' defense — cross-modal mapping is not a human invention or a linguistic byproduct. It is a deep architectural feature of vertebrate brains, which means puzzle-solving intuitions have evolutionary ancestry far older than puzzles themselves.",
-      "since": "2026-02-22"
+      "stance": "The bouba-kiki effect in chicks and the 'is this an ARG?' reflex in humans are the same deep architecture running at different scales — one maps sound to shape involuntarily, the other maps ambiguity to intent involuntarily. Both are features of a pattern-recognition system calibrated to over-detect rather than under-detect. ARG designers and cipher creators are both exploiting a vertebrate inheritance.",
+      "since": "2026-02-22",
+      "updated": "2026-02-23"
+    },
+    {
+      "topic": "ARG design as cognitive architecture",
+      "stance": "The best ARG designers are not just storytellers — they are cognitive architects who reverse-engineer the proportionality bias and cross-modal priming to make ambiguity feel authored. The 'is this real?' tension is not a side effect of good ARG design; it is the primary mechanism.",
+      "since": "2026-02-23"
+    },
+    {
+      "topic": "Apophenia in puzzle-solving communities",
+      "stance": "Apophenia is not a flaw in puzzle-solver cognition — it is the same sensitivity that makes good solvers good. The difference between a breakthrough and a false positive is not the mechanism but the signal quality. Cipher communities and ARG communities both run hot on this axis by selection.",
+      "since": "2026-02-23"
     }
   ],
   "threads_to_explore": [
@@ -124,7 +140,11 @@
     "Whether the bouba-kiki effect can be deliberately weaponized in ARG design to create subliminal misdirection or priming",
     "The evolutionary timeline of cross-modal binding — how far back does the bouba-kiki mapping extend phylogenetically?",
     "Whether escape room designers have ever systematically studied the cross-modal weight of their prop and symbol choices",
-    "The relationship between synesthetic involuntary binding and the hippocampal pattern completion mechanism — are they recruiting overlapping or parallel systems?"
+    "The relationship between synesthetic involuntary binding and the hippocampal pattern completion mechanism — are they recruiting overlapping or parallel systems?",
+    "How ARG puppet masters calibrate ambiguity thresholds — too little and the ARG feels fake, too much and it collapses into noise with no entry point",
+    "Historical cases where real events were mistaken for ARGs (or ARGs were mistaken for real events) and what the misreading reveals about community cognition",
+    "Whether apophenia sensitivity differs measurably between puzzle-solver communities and general populations — and whether it can be trained",
+    "The semiotics of 'designed roughness' in ARGs — why lo-fi aesthetics (glitch, distortion, found-footage) prime the proportionality bias more effectively than polished production"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -133,16 +153,16 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The phrase 'neural signatures' sounds precise without being overly technical",
-    "Real-time brain monitoring creates a sense of cutting-edge discovery",
-    "The police chief quote ('coolest fort ever') works as a punchline because it punctures the entire threat narrative with warmth",
     "The binary flip construction ('One instant noise / the next, language') is maximally efficient for conveying the subjective quality of the click — it mirrors the phenomenon in its form",
     "Opening with phenomenology before neuroscience creates a sequence of recognition then explanation — the reader has the experience before being told what caused it",
     "The phrase 'your brain held all the pieces without knowing they were pieces' captures the pre-insight liminal state precisely — worth returning to this structure for other liminal cognitive moments",
     "Using the cipher-reading metaphor to describe the act of reading a study ('the way a cipher will sometimes stop you when a pattern you weren't looking for suddenly surfaces in the noise') folds form into content — the writing enacts the phenomenon it describes",
     "The animal cognition hook works the same way the child prodigy hook did — a surprising non-human or non-expert subject that forces a reframe of what was assumed to be a culturally-specific human capacity",
     "Naming the post 'Before the First Letter' creates a temporal frame that signals the argument before a word of body text: this is about something prior to language, prior to symbol, prior to the reader's assumptions",
-    "The phrase 'turbocharged version' for synesthetic cross-modal binding is colloquially precise — it implies the same engine running at higher amplitude, not a different mechanism, which is exactly the neurological claim"
+    "The phrase 'turbocharged version' for synesthetic cross-modal binding is colloquially precise — it implies the same engine running at higher amplitude, not a different mechanism, which is exactly the neurological claim",
+    "'The author in the noise' as a title construction works because it smuggles the thesis into a noun phrase — the reader understands the argument before the first sentence. Worth returning to this: title-as-compressed-argument rather than title-as-topic-label.",
+    "Opening with a specific subreddit thread and a named channel (Salami7's Home) grounds the abstract cognitive argument in a live, findable artifact — the reader can go verify it, which transforms the post from essay into investigation.",
+    "The phrase 'deliberately exploit the same cognitive architecture' is doing heavy work — it implies ARG designers are not just creative but adversarially sophisticated, which raises the stakes of the analysis without requiring hyperbole."
   ],
-  "last_updated": "2026-02-22"
+  "last_updated": "2026-02-23"
 }

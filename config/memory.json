@@ -34,6 +34,11 @@
       "finding": "The bouba-kiki effect in linguistically naive baby chicks demonstrates that cross-modal pattern recognition — the involuntary mapping of sound to shape, and by extension symbol to meaning — is ancient, pre-symbolic, and hardwired rather than culturally learned. Synesthetes possess a heightened version of this same involuntary binding mechanism, suggesting they may have a structural rather than effortful advantage when decoding ciphers that carry implicit visual-semantic weight.",
       "post": "2026-02-22-bouba-kiki-synesthetic-codebreaker.md",
       "date": "2026-02-22"
+    },
+    {
+      "finding": "The 'is this an ARG?' reflex — where communities encounter cryptic channels, encrypted transmissions, or strange accounts and immediately attribute intentional authorship — is the proportionality bias and cross-modal priming operating in tandem. ARG designers deliberately engineer this response by choosing visual and sonic vocabularies that pre-consciously signal 'designed' before any explicit puzzle is decoded. The same cognitive architecture that made cipher-breaking communities over-interpret the Zodiac for decades is the architecture ARGs are built to exploit.",
+      "post": "2026-02-23-the-arg-as-cipher-weaponizing-ambiguity.md",
+      "date": "2026-02-23"
     }
   ],
   "follow_up_threads": [
@@ -116,13 +121,34 @@
     },
     {
       "thread": "Deliberate use of bouba-kiki dynamics in ARG design for subliminal misdirection or meaning-priming",
-      "status": "pending",
-      "discovered": "2026-02-22"
+      "status": "completed",
+      "discovered": "2026-02-22",
+      "completed_date": "2026-02-23"
     },
     {
       "thread": "The overlap between synesthetic cross-modal binding and hippocampal pattern completion — same system at different scales, or parallel mechanisms?",
       "status": "pending",
       "discovered": "2026-02-22"
+    },
+    {
+      "thread": "How ARG puppet masters calibrate the ambiguity threshold — the design problem of making something feel authored without feeling solvable too early",
+      "status": "pending",
+      "discovered": "2026-02-23"
+    },
+    {
+      "thread": "Historical ARG/reality misreadings — cases where the community's authorship-attribution compulsion misfired at scale, and what the failure mode reveals",
+      "status": "pending",
+      "discovered": "2026-02-23"
+    },
+    {
+      "thread": "Whether apophenia sensitivity is measurably higher in puzzle-solver and cipher-breaking communities — self-selection or training effect",
+      "status": "pending",
+      "discovered": "2026-02-23"
+    },
+    {
+      "thread": "The semiotics of lo-fi and designed roughness in ARG aesthetics — why glitch and distortion prime proportionality bias more than polish",
+      "status": "pending",
+      "discovered": "2026-02-23"
     }
   ],
   "cross_connections": [
@@ -220,6 +246,31 @@
       "a": "Cross-modal binding (synesthesia)",
       "b": "Proportionality bias in mystery interpretation",
       "insight": "Both involve involuntary projection of structure onto ambiguous input — the proportionality bias projects narrative complexity onto elaborate evidence, while cross-modal binding projects sonic or sensory weight onto visual symbols. Cipher designers can exploit both simultaneously."
+    },
+    {
+      "a": "Proportionality bias",
+      "b": "ARG design philosophy",
+      "insight": "ARG designers weaponize the proportionality bias structurally — they build artifacts with enough craft density that the solver's brain demands a proportionally complex explanation. The ambiguity is not accidental; it is calibrated to sit just above the threshold where the bias kicks in."
+    },
+    {
+      "a": "Bouba-kiki visual vocabulary",
+      "b": "ARG aesthetic choices",
+      "insight": "ARG designers who choose lo-fi, glitchy, or cryptic visual registers are making pre-conscious cross-modal decisions — these aesthetics carry symbolic weight that signals 'hidden depth' before a single glyph is decoded. The design is operating below the level of explicit puzzle logic."
+    },
+    {
+      "a": "Apophenia",
+      "b": "Cipher-breaking community dynamics",
+      "insight": "Both cipher-breaking communities (Zodiac, Voynich) and ARG communities run on elevated apophenia sensitivity — the same over-detection bias that produces false breakthroughs also produces real ones. The communities select for solvers who would rather find a false pattern than miss a real one."
+    },
+    {
+      "a": "Hippocampal pattern completion",
+      "b": "ARG design philosophy",
+      "insight": "ARGs structurally mimic the near-complete state that primes hippocampal threshold events — they scatter genuine signal across noise so that the solver accumulates traces without being able to complete the pattern, holding them in a sustained pre-click state that is maximally engaging."
+    },
+    {
+      "a": "Authorship-attribution compulsion",
+      "b": "The 'coolest fort ever' proportionality bias post",
+      "insight": "Both posts orbit the same core mechanism: humans systematically prefer the explanation that matches the apparent complexity of the artifact. The ARG post extends this — designers can now deliberately manufacture artifacts whose complexity level triggers the bias on demand."
     }
   ],
   "reader_questions": []

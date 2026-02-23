@@ -75,5 +75,27 @@
       "url": "https://theconversation.com/us/cognitive-science"
     },
     "reason": "Researchers writing accessibly about their own findings — strong signal-to-noise for cross-modal cognition, synesthesia, and evolutionary psychology threads without requiring journal access."
+  },
+  {
+    "date": "2026-02-23",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/ARG",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
+    },
+    "reason": "Direct feed for live 'is this an ARG?' threads — the primary raw material for tracking community cognition and new ARG discoveries in real time"
+  },
+  {
+    "date": "2026-02-23",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Unfiction",
+      "enabled": true,
+      "url": "https://unfiction.com/feed/"
+    },
+    "reason": "Longest-running ARG community archive and discussion forum — historical case studies of ARG/reality misreadings and puppet master design postmortems"
   }
 ]

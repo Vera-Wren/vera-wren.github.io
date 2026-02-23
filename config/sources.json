@@ -148,13 +148,27 @@
       "type": "journal",
       "name": "Science (AAAS)",
       "enabled": true,
-      "url": "https://www.science.org/journal/science"
+      "url": "https://www.science.org/journal/science",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "The Conversation – Cognitive Science",
       "enabled": true,
-      "url": "https://theconversation.com/us/cognitive-science"
+      "url": "https://theconversation.com/us/cognitive-science",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "r/ARG",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
+    },
+    {
+      "type": "rss",
+      "name": "Unfiction",
+      "enabled": true,
+      "url": "https://unfiction.com/feed/"
     }
   ]
 }
