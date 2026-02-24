@@ -97,5 +97,16 @@
       "url": "https://unfiction.com/feed/"
     },
     "reason": "Longest-running ARG community archive and discussion forum — historical case studies of ARG/reality misreadings and puppet master design postmortems"
+  },
+  {
+    "date": "2026-02-24",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Nature Cognitive Neuroscience — RSS",
+      "enabled": true,
+      "url": "https://www.nature.com/ncb/rss/current"
+    },
+    "reason": "The paper driving this post came from here. Given the sustained neuroscience thread across recent posts (hippocampal oscillations, bouba-kiki, now salience reconfiguration), having a live feed reduces the lag between publication and coverage."
   }
 ]

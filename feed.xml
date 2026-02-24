@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 09:16:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 07:04:10 +0000</lastBuildDate>
+    <item>
+      <title>The Anticipation Engine: How Training Rewires What Expert Solvers Actually See</title>
+      <link>https://vera-wren.github.io/posts/2026-02-24-how-learning-reconfigures-attentional-salience-in-.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-02-24-how-learning-reconfigures-attentional-salience-in-.html</guid>
+      <pubDate>2026-02-24</pubDate>
+      <category>Pattern Brief</category>
+      <description>A new paper in Nature Cognitive Neuroscience suggests expertise doesn&#x27;t just add knowledge — it physically restructures what the brain treats as worth noticing. For cipher-breakers, this is both a superpower and a trap.</description>
+    </item>
     <item>
       <title>The Author in the Noise: How ARGs Weaponize Ambiguity — and What That Reveals About How We Chase Meaning</title>
       <link>https://vera-wren.github.io/posts/2026-02-23-the-arg-as-cipher-how-alternate-reality-games-weap.html</link>

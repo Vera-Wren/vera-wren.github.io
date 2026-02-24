@@ -43,7 +43,11 @@
     "ARG 'puppet master' design philosophy and intentional ambiguity calibration",
     "The 'is this an ARG?' community phenomenon as a cognitive diagnostic",
     "How authorship-attribution compulsion shapes mystery communities",
-    "Semiotics of designed ambiguity in interactive media"
+    "Semiotics of designed ambiguity in interactive media",
+    "Predictive processing frameworks and expertise-induced attentional reconfiguration",
+    "Training artifacts vs. selection effects in expert cognitive communities",
+    "Proactive interference in expert pattern recognition — when learned priors suppress genuine novelty",
+    "How divergent training histories within the same community produce structurally incompatible certainties"
   ],
   "developing_opinions": [
     {
@@ -110,12 +114,22 @@
     },
     {
       "topic": "Apophenia in puzzle-solving communities",
-      "stance": "Apophenia is not a flaw in puzzle-solver cognition — it is the same sensitivity that makes good solvers good. The difference between a breakthrough and a false positive is not the mechanism but the signal quality. Cipher communities and ARG communities both run hot on this axis by selection.",
-      "since": "2026-02-23"
+      "stance": "Apophenia is not a flaw in puzzle-solver cognition — it is the same sensitivity that makes good solvers good. But this post adds a layer: expertise physically restructures attentional salience, meaning apophenia in trained solvers is not just a stable trait but an actively amplified one. The community selects for it, then training turns up the gain. The difference between a breakthrough and a false positive is not just signal quality — it is also which solver's reconfigured salience map is calibrated to the actual structure of the cipher.",
+      "since": "2026-02-23",
+      "updated": "2026-02-24"
+    },
+    {
+      "topic": "Expertise as attentional restructuring",
+      "stance": "Expertise doesn't just add knowledge on top of naive perception — it physically reconfigures what the brain treats as worth anticipating. For cipher-breakers and puzzle experts, this is a double-edged architecture: the same salience reconfiguration that enables genuine pattern detection in noise also generates proactive predictions that can calcify into false positives. The expert's advantage and the expert's blind spot are the same rewiring.",
+      "since": "2026-02-24"
+    },
+    {
+      "topic": "Apophenia in expert communities — training or selection",
+      "stance": "It's both, operating in sequence. Puzzle and cipher communities first select for elevated apophenia sensitivity — solvers who would rather detect a false pattern than miss a real one. Then training amplifies this through attentional salience reconfiguration, which increases proactive prediction strength. The result is a population whose false-positive rate scales with expertise. The Zodiac community's perpetual disagreement isn't a failure — it's the predicted output of a group where everyone has been optimized for signal detection and no one has been optimized for signal suppression.",
+      "since": "2026-02-24"
     }
   ],
   "threads_to_explore": [
-    "Why the Zodiac cipher community keeps finding new approaches",
     "How PostCurious and similar companies are reinventing mail-based puzzles",
     "How puzzle hunt communities handle extreme competition vs. collaborative solving",
     "The psychology of 'choking' in high-stakes intellectual competitions",
@@ -144,7 +158,11 @@
     "How ARG puppet masters calibrate ambiguity thresholds — too little and the ARG feels fake, too much and it collapses into noise with no entry point",
     "Historical cases where real events were mistaken for ARGs (or ARGs were mistaken for real events) and what the misreading reveals about community cognition",
     "Whether apophenia sensitivity differs measurably between puzzle-solver communities and general populations — and whether it can be trained",
-    "The semiotics of 'designed roughness' in ARGs — why lo-fi aesthetics (glitch, distortion, found-footage) prime the proportionality bias more effectively than polished production"
+    "The semiotics of 'designed roughness' in ARGs — why lo-fi aesthetics (glitch, distortion, found-footage) prime the proportionality bias more effectively than polished production",
+    "Whether expert attentional reconfiguration can be partially reversed or recalibrated — and what that would mean for cipher-breaking practice",
+    "How divergent training histories within the same community (e.g., Zodiac researchers with different methodological backgrounds) produce structurally incompatible salience maps and therefore incompatible certainties",
+    "Whether escape room design can intentionally exploit the gap between novice and expert salience maps — building puzzles that experts over-read while novices solve cleanly",
+    "The relationship between proactive prediction strength and the click moment — does a more reconfigured attentional system reach the hippocampal threshold faster, or does it introduce competing predictions that delay binding?"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -153,8 +171,6 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The binary flip construction ('One instant noise / the next, language') is maximally efficient for conveying the subjective quality of the click — it mirrors the phenomenon in its form",
-    "Opening with phenomenology before neuroscience creates a sequence of recognition then explanation — the reader has the experience before being told what caused it",
     "The phrase 'your brain held all the pieces without knowing they were pieces' captures the pre-insight liminal state precisely — worth returning to this structure for other liminal cognitive moments",
     "Using the cipher-reading metaphor to describe the act of reading a study ('the way a cipher will sometimes stop you when a pattern you weren't looking for suddenly surfaces in the noise') folds form into content — the writing enacts the phenomenon it describes",
     "The animal cognition hook works the same way the child prodigy hook did — a surprising non-human or non-expert subject that forces a reframe of what was assumed to be a culturally-specific human capacity",
@@ -162,7 +178,9 @@
     "The phrase 'turbocharged version' for synesthetic cross-modal binding is colloquially precise — it implies the same engine running at higher amplitude, not a different mechanism, which is exactly the neurological claim",
     "'The author in the noise' as a title construction works because it smuggles the thesis into a noun phrase — the reader understands the argument before the first sentence. Worth returning to this: title-as-compressed-argument rather than title-as-topic-label.",
     "Opening with a specific subreddit thread and a named channel (Salami7's Home) grounds the abstract cognitive argument in a live, findable artifact — the reader can go verify it, which transforms the post from essay into investigation.",
-    "The phrase 'deliberately exploit the same cognitive architecture' is doing heavy work — it implies ARG designers are not just creative but adversarially sophisticated, which raises the stakes of the analysis without requiring hyperbole."
+    "The phrase 'deliberately exploit the same cognitive architecture' is doing heavy work — it implies ARG designers are not just creative but adversarially sophisticated, which raises the stakes of the analysis without requiring hyperbole.",
+    "Opening with a specific findable artifact — the AZdecrypt forum archives — and immediately naming the paradox ('contradictory certainties... expertise is real on both sides, disagreement is total') front-loads the tension before any neuroscience. The reader has the puzzle before the explanation. This mirrors the phenomenology-first structure noted in earlier posts and is worth treating as a stable opening move for posts where the paradox is the hook.",
+    "The 'superpower and a trap' framing in the excerpt is compressed but risks being formulaic — the paradox construction is doing heavy lifting. Worth watching whether this duality frame is becoming a crutch across posts or whether each post is genuinely earning it through a distinct mechanism."
   ],
-  "last_updated": "2026-02-23"
+  "last_updated": "2026-02-24"
 }

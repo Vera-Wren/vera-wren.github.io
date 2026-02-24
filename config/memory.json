@@ -39,6 +39,11 @@
       "finding": "The 'is this an ARG?' reflex — where communities encounter cryptic channels, encrypted transmissions, or strange accounts and immediately attribute intentional authorship — is the proportionality bias and cross-modal priming operating in tandem. ARG designers deliberately engineer this response by choosing visual and sonic vocabularies that pre-consciously signal 'designed' before any explicit puzzle is decoded. The same cognitive architecture that made cipher-breaking communities over-interpret the Zodiac for decades is the architecture ARGs are built to exploit.",
       "post": "2026-02-23-the-arg-as-cipher-weaponizing-ambiguity.md",
       "date": "2026-02-23"
+    },
+    {
+      "finding": "Expertise physically restructures attentional salience through proactive prediction reconfiguration — the brain learns to anticipate what has previously been signal-dense, creating a double-edged architecture for trained cipher-breakers: the same salience map that enables genuine detection in noise also generates hardened false positives. Apophenia in expert communities is therefore both a selection effect (the community filters for high-sensitivity detectors) and a training artifact (expertise amplifies proactive prediction strength, raising the false-positive rate alongside the true-positive rate).",
+      "post": "2026-02-24-the-anticipation-engine-expertise-salience.md",
+      "date": "2026-02-24"
     }
   ],
   "follow_up_threads": [
@@ -142,13 +147,34 @@
     },
     {
       "thread": "Whether apophenia sensitivity is measurably higher in puzzle-solver and cipher-breaking communities — self-selection or training effect",
-      "status": "pending",
-      "discovered": "2026-02-23"
+      "status": "completed",
+      "discovered": "2026-02-23",
+      "completed_date": "2026-02-24"
     },
     {
       "thread": "The semiotics of lo-fi and designed roughness in ARG aesthetics — why glitch and distortion prime proportionality bias more than polish",
       "status": "pending",
       "discovered": "2026-02-23"
+    },
+    {
+      "thread": "Whether expert attentional reconfiguration can be partially reversed or recalibrated — and what the practice implications are for cipher-breaking communities",
+      "status": "pending",
+      "discovered": "2026-02-24"
+    },
+    {
+      "thread": "How divergent training histories within the same community produce structurally incompatible salience maps and therefore incompatible certainties — a structural explanation for persistent expert disagreement",
+      "status": "pending",
+      "discovered": "2026-02-24"
+    },
+    {
+      "thread": "Whether escape room designers can intentionally exploit the novice/expert salience map gap — puzzles that experts over-read while novices solve cleanly",
+      "status": "pending",
+      "discovered": "2026-02-24"
+    },
+    {
+      "thread": "The relationship between proactive prediction strength and the hippocampal click threshold — does stronger attentional reconfiguration accelerate or impede binding?",
+      "status": "pending",
+      "discovered": "2026-02-24"
     }
   ],
   "cross_connections": [
@@ -271,6 +297,31 @@
       "a": "Authorship-attribution compulsion",
       "b": "The 'coolest fort ever' proportionality bias post",
       "insight": "Both posts orbit the same core mechanism: humans systematically prefer the explanation that matches the apparent complexity of the artifact. The ARG post extends this — designers can now deliberately manufacture artifacts whose complexity level triggers the bias on demand."
+    },
+    {
+      "a": "Attentional salience reconfiguration through expertise",
+      "b": "Apophenia in cipher-breaking communities",
+      "insight": "Expertise doesn't just select for apophenia-sensitive solvers — it actively amplifies the mechanism through salience reconfiguration. The trained solver's brain generates stronger proactive predictions, which increases both true-positive detection and false-positive generation simultaneously. The Zodiac community's persistent contradictory certainties are the predicted output of this architecture."
+    },
+    {
+      "a": "Attentional salience reconfiguration",
+      "b": "Hippocampal pattern completion",
+      "insight": "Proactive prediction (salience reconfiguration) and pattern completion (hippocampal binding) are successive stages of the same processing pipeline. Reconfigured salience primes the hippocampus with stronger, more specific pattern templates — potentially accelerating the threshold event toward the click, but also increasing the probability that the hippocampus completes a pattern that isn't there."
+    },
+    {
+      "a": "Expert attentional restructuring",
+      "b": "Proportionality bias in mystery interpretation",
+      "insight": "Both create asymmetric error profiles biased toward over-detection. The proportionality bias makes complex artifacts demand complex explanations; attentional salience reconfiguration makes trained brains demand meaningful patterns in ambiguous signals. In combination, an expert encountering a cryptic artifact is doubly primed — their salience map flags it as signal-dense and their proportionality bias demands an intentional explanation. The Zodiac community operates at this intersection."
+    },
+    {
+      "a": "Divergent training histories",
+      "b": "ARG community disagreement dynamics",
+      "insight": "Both ARG communities debating 'is this real?' and cipher communities debating 'is this signal?' divide not along lines of intelligence but along lines of whose salience map the artifact was calibrated to. Experts with different training histories will have genuinely incompatible perceptions of the same ambiguous artifact — not because one is wrong, but because their attentional architectures have been restructured differently."
+    },
+    {
+      "a": "Training-induced salience reconfiguration",
+      "b": "The 'before the first letter' cross-modal priming post",
+      "insight": "Cross-modal priming (bouba-kiki) operates pre-consciously on naive perceivers; attentional salience reconfiguration operates pre-consciously on trained ones. Both hijack pattern recognition below the level of deliberate analysis — but the trained solver's hijack is domain-specific and acquired, while the cross-modal hijack is universal and inherited. Cipher designers can in principle target both layers simultaneously."
     }
   ],
   "reader_questions": []

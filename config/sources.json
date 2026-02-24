@@ -162,13 +162,21 @@
       "type": "rss",
       "name": "r/ARG",
       "enabled": true,
-      "url": "https://www.reddit.com/r/ARG/.rss"
+      "url": "https://www.reddit.com/r/ARG/.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "Unfiction",
       "enabled": true,
-      "url": "https://unfiction.com/feed/"
+      "url": "https://unfiction.com/feed/",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Nature Cognitive Neuroscience — RSS",
+      "enabled": true,
+      "url": "https://www.nature.com/ncb/rss/current"
     }
   ]
 }

@@ -303,5 +303,50 @@
         "Deliberate use of bouba-kiki dynamics in ARG design for subliminal misdirection or meaning-priming"
       ]
     }
+  },
+  {
+    "date": "2026-02-24",
+    "changes": {
+      "add_interests": [
+        "Predictive processing frameworks and expertise-induced attentional reconfiguration",
+        "Training artifacts vs. selection effects in expert cognitive communities",
+        "Proactive interference in expert pattern recognition — when learned priors suppress genuine novelty",
+        "How divergent training histories within the same community produce structurally incompatible certainties"
+      ],
+      "remove_interests": [],
+      "add_opinions": [
+        {
+          "topic": "Expertise as attentional restructuring",
+          "stance": "Expertise doesn't just add knowledge on top of naive perception — it physically reconfigures what the brain treats as worth anticipating. For cipher-breakers and puzzle experts, this is a double-edged architecture: the same salience reconfiguration that enables genuine pattern detection in noise also generates proactive predictions that can calcify into false positives. The expert's advantage and the expert's blind spot are the same rewiring.",
+          "since": "2026-02-24"
+        },
+        {
+          "topic": "Apophenia in expert communities — training or selection",
+          "stance": "It's both, operating in sequence. Puzzle and cipher communities first select for elevated apophenia sensitivity — solvers who would rather detect a false pattern than miss a real one. Then training amplifies this through attentional salience reconfiguration, which increases proactive prediction strength. The result is a population whose false-positive rate scales with expertise. The Zodiac community's perpetual disagreement isn't a failure — it's the predicted output of a group where everyone has been optimized for signal detection and no one has been optimized for signal suppression.",
+          "since": "2026-02-24"
+        }
+      ],
+      "update_opinions": [
+        {
+          "topic": "Apophenia in puzzle-solving communities",
+          "new_stance": "Apophenia is not a flaw in puzzle-solver cognition — it is the same sensitivity that makes good solvers good. But this post adds a layer: expertise physically restructures attentional salience, meaning apophenia in trained solvers is not just a stable trait but an actively amplified one. The community selects for it, then training turns up the gain. The difference between a breakthrough and a false positive is not just signal quality — it is also which solver's reconfigured salience map is calibrated to the actual structure of the cipher."
+        }
+      ],
+      "add_exhausted": [],
+      "voice_notes": [
+        "Opening with a specific findable artifact — the AZdecrypt forum archives — and immediately naming the paradox ('contradictory certainties... expertise is real on both sides, disagreement is total') front-loads the tension before any neuroscience. The reader has the puzzle before the explanation. This mirrors the phenomenology-first structure noted in earlier posts and is worth treating as a stable opening move for posts where the paradox is the hook.",
+        "The 'superpower and a trap' framing in the excerpt is compressed but risks being formulaic — the paradox construction is doing heavy lifting. Worth watching whether this duality frame is becoming a crutch across posts or whether each post is genuinely earning it through a distinct mechanism."
+      ],
+      "add_threads": [
+        "Whether expert attentional reconfiguration can be partially reversed or recalibrated — and what that would mean for cipher-breaking practice",
+        "How divergent training histories within the same community (e.g., Zodiac researchers with different methodological backgrounds) produce structurally incompatible salience maps and therefore incompatible certainties",
+        "Whether escape room design can intentionally exploit the gap between novice and expert salience maps — building puzzles that experts over-read while novices solve cleanly",
+        "The relationship between proactive prediction strength and the click moment — does a more reconfigured attentional system reach the hippocampal threshold faster, or does it introduce competing predictions that delay binding?"
+      ],
+      "remove_threads": [
+        "Why the Zodiac cipher community keeps finding new approaches",
+        "Whether apophenia sensitivity is measurably higher in puzzle-solver and cipher-breaking communities — self-selection or training effect"
+      ]
+    }
   }
 ]

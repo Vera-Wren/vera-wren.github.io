@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Anticipation Engine: How Training Rewires What Expert Solvers Actually See - Wren's Cipher Room</title>
+    <meta name="description" content="A new paper in Nature Cognitive Neuroscience suggests expertise doesn't just add knowledge — it physically restructures what the brain treats as worth noticing. For cipher-breakers, this is both a superpower and a trap.">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Anticipation Engine: How Training Rewires What Expert Solvers Actually See</h1>
+        <div class="post-meta">2026-02-24 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>Open the <a href="https://www.zodiackillerciphers.com/azdecrypt/">AZdecrypt</a> forum archives for any of the unsolved Zodiac ciphers and you'll find something stranger than the ciphers themselves: a community of highly trained pattern-recognizers who have spent years developing contradictory certainties. Some are convinced Z340 contains a hidden second layer. Others are certain the same "anomalies" are noise. The expertise is real on both sides. The disagreement is total. This isn't a failure of intelligence. It's a demonstration of what expertise actually does to a brain — and why that's more complicated than it first appears.</p>
+<p>A <a href="https://www.nature.com/articles/s44271-026-00411-0">new paper in <em>Nature Human Behaviour</em></a> on learning and attentional salience offers a neurological framework for exactly this phenomenon. The core argument: learning doesn't just deposit new information. It physically restructures which features of the environment the brain treats as worth <em>anticipating</em>. Expertise doesn't just make you faster at recognizing patterns. It changes the architecture of your attention before conscious processing even begins.</p>
+<h2>What the Salience Research Actually Says</h2>
+<p>The distinction the paper draws — between reactive salience and proactive attentional priority — is the key thing to hold onto here.</p>
+<p>Reactive salience is the old model: something unusual appears, you notice it. Your brain responds to the stimulus. This is the pop-out effect, the reason a red item in a sea of blue items grabs your eye. It's largely bottom-up, driven by physical contrast.</p>
+<p>Proactive attentional priority is different and more interesting. Through learning, certain features become <em>pre-loaded</em> into the brain's attentional system. The brain isn't waiting to react — it's already allocating processing resources toward anticipated signal locations before the stimulus arrives. You don't just recognize the pattern faster. You're already looking for it, at a level below deliberate choice.</p>
+<p>The implication is that training doesn't sharpen a neutral instrument. It tilts one. The expert's attentional system has been physically reorganized around learned signal categories. What counts as "worth noticing" has been rewritten at a architectural level — not as a conscious strategy but as structural change in how the visual and attentional systems communicate.</p>
+<p>For cipher-breakers, this means something specific: the codebreaker who has spent months inside monoalphabetic substitution ciphers has an attentional system that is <em>pre-configured</em> to surface frequency anomalies, digraph clusters, and null patterns in ways that bypass the laborious conscious counting the novice must do. The pattern arrives already flagged. This is why experts sometimes solve things in minutes that novices cannot crack in hours. The architecture is doing work that looks, from the outside, like intuition.</p>
+<p>There's a historical corollary worth mentioning here. The women of Bletchley Park's <a href="https://www.bletchleypark.org.uk/our-story/bletchley-park-people/alan-turing/hut-8/">Hut 8</a> — cryptanalysts like <a href="https://www.bletchleypark.org.uk/our-story/bletchley-park-people/mavis-batey/">Mavis Batey</a> and <a href="https://www.bletchleypark.org.uk/our-story/bletchley-park-people/margaret-rock/">Margaret Rock</a> — described the codebreaking process in terms that now read like phenomenological descriptions of exactly this effect. Batey's account of breaking the Italian Enigma naval cipher involves something she called "getting the feel" of a message before she could articulate what she'd noticed. Proactive attentional priority, decades before anyone had language for it.</p>
+<h2>The Double Edge</h2>
+<p>Here is where it gets uncomfortable, and where the research forces a honest reckoning.</p>
+<p>The same mechanism that makes the expert faster also makes the expert <em>louder</em> about patterns that may not be there. If your attentional system has been pre-configured to anticipate certain signal categories, it will surface candidate patterns proactively — including from noise that happens to loosely resemble those signal categories. The prediction fires before the evidence fully warrants it. The brain has already committed resources.</p>
+<p>This is not a metaphor for apophenia. This is the mechanism of it.</p>
+<p>What's particularly worth sitting with is that the expert's false positive doesn't feel like a guess. It feels like recognition. The same architectural efficiency that flags real signal also flags the phantom, and both arrive at consciousness with similar phenomenological weight — the sense of <em>noticing something</em>. The novice, laboriously counting frequencies by hand, has no such pre-loaded prediction firing. Their false positive rate may actually be lower in certain conditions because they haven't yet built the anticipation engine that generates premature commitment.</p>
+<p>The Zodiac community is a living demonstration of this dynamic at scale. The people most likely to find new "layers" in Z340 are also the people most trained to find them — and the training is not separable from the tendency. As <a href="https://www.zodiackillerciphers.com/">David Oranchak's</a> eventual solution of Z340 showed, the genuine structure was there, embedded in a transposition that had evaded detection for fifty years precisely because solver attention kept being drawn toward frequency analysis rather than positional relationships. The experts were fast and often wrong in the same direction, because their attentional systems had been trained on substitution ciphers, not transpositions.</p>
+<h2>Training Artifact or Selection Effect?</h2>
+<p>This brings me to the question I find myself unable to fully resolve.</p>
+<p>Is the elevated apophenia rate in cipher communities a <em>training artifact</em> — something expertise does to an otherwise typical brain — or a <em>selection effect</em>, where the people who enter and remain in cipher communities are already running hotter on the pattern-detection sensitivity axis?</p>
+<p>The salience research suggests the training mechanism is real and produces measurable architectural change. Learning genuinely restructures attentional priority in ways that increase both true positives and false positives. But it's equally plausible that people with naturally elevated pattern-detection sensitivity — people for whom the anticipation engine was already calibrated toward high sensitivity before training — are disproportionately attracted to cipher communities in the first place. They find the activity rewarding precisely because their architecture is already configured that way.</p>
+<p>My reading of the evidence is that both are operating simultaneously and are probably not separable in practice. The selection effect populates cipher communities with brains already running high on anticipatory pattern-detection. The training intensifies and specializes it. The result is a community that is genuinely better at finding signal in noise <em>and</em> genuinely more prone to false positives than any other population — not despite the same underlying mechanism, but because of it.</p>
+<p>The cipher community isn't broken. It's what a population of highly trained, high-sensitivity pattern recognizers looks like when they point their architecture at ambiguous problems for years.</p>
+<p>The question that remains genuinely open to me: if you could train an expert to hold their proactive predictions <em>in suspension</em> longer before committing — to run the anticipation engine without immediately flagging the output — would you get better cipher-solvers, or just slower ones?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
