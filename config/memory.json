@@ -44,6 +44,11 @@
       "finding": "Expertise physically restructures attentional salience through proactive prediction reconfiguration — the brain learns to anticipate what has previously been signal-dense, creating a double-edged architecture for trained cipher-breakers: the same salience map that enables genuine detection in noise also generates hardened false positives. Apophenia in expert communities is therefore both a selection effect (the community filters for high-sensitivity detectors) and a training artifact (expertise amplifies proactive prediction strength, raising the false-positive rate alongside the true-positive rate).",
       "post": "2026-02-24-the-anticipation-engine-expertise-salience.md",
       "date": "2026-02-24"
+    },
+    {
+      "finding": "Design-mode and test-mode thinking are neurologically distinct even when surface behavior looks identical. Design-mode is self-directed, hypothesis-generating, and exploratory; test-mode is evaluation-aware, criteria-governed, and performance-oriented. Escape rooms structurally impose test-mode conditions on problems that require design-mode cognition — a category error that explains the parking lot epiphany (design-mode activates when the test-mode wrapper is removed), prize-money performance degradation (financial stakes function as a mode-lock signal), and why some solvers' best insights arrive only after they leave.",
+      "post": "2026-02-25-the-wrong-kind-of-thinking.md",
+      "date": "2026-02-25"
     }
   ],
   "follow_up_threads": [
@@ -96,8 +101,9 @@
     },
     {
       "thread": "Whether puzzle competition environments suppress the neural conditions needed for breakthrough thinking",
-      "status": "pending",
-      "discovered": "2026-02-17"
+      "status": "completed",
+      "discovered": "2026-02-17",
+      "completed_date": "2026-02-25"
     },
     {
       "thread": "Whether hippocampal theta rhythms can be primed or trained before high-stakes puzzle sessions",
@@ -175,29 +181,29 @@
       "thread": "The relationship between proactive prediction strength and the hippocampal click threshold — does stronger attentional reconfiguration accelerate or impede binding?",
       "status": "pending",
       "discovered": "2026-02-24"
+    },
+    {
+      "thread": "Whether escape room designers intuitively build design-mode affordances into their best rooms — and whether room quality correlates with successful mode-smuggling",
+      "status": "pending",
+      "discovered": "2026-02-25"
+    },
+    {
+      "thread": "The overlap between design-mode cognition and default mode network activation — whether these are the same construct described at different levels of analysis",
+      "status": "pending",
+      "discovered": "2026-02-25"
+    },
+    {
+      "thread": "Whether financial stakes function as a mode-lock signal independent of anxiety — mode-switching as a mechanism distinct from Yerkes-Dodson arousal effects",
+      "status": "pending",
+      "discovered": "2026-02-25"
+    },
+    {
+      "thread": "Whether novice escape room solvers outperform experts on certain problem types by defaulting to design-mode, while experts have been competition-trained into test-mode",
+      "status": "pending",
+      "discovered": "2026-02-25"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Escape room time pressure",
-      "b": "Yerkes-Dodson law",
-      "insight": "Optimal difficulty mirrors optimal arousal — the best escape rooms intuitively calibrate this"
-    },
-    {
-      "a": "High-stakes puzzle competitions",
-      "b": "Yerkes-Dodson law application",
-      "insight": "The $42K competition perfectly demonstrates the inverted-U curve—moderate challenge enhances puzzle-solving, but extreme stakes trigger anxiety that impairs the pattern recognition and creative thinking puzzles require"
-    },
-    {
-      "a": "Origami pattern recognition",
-      "b": "Cipher pattern recognition",
-      "insight": "Both require seeing hidden structures within apparent complexity — the ability to recognize that a flat cipher text contains meaningful patterns mirrors recognizing that a flat sheet contains a 3D structure"
-    },
-    {
-      "a": "Yoshimoto cube transformations",
-      "b": "Puzzle transformation thinking",
-      "insight": "The cube's ability to transform into different configurations parallels how the best puzzle solvers see multiple potential states and pathways in a single problem"
-    },
     {
       "a": "Adolescent neuroplasticity",
       "b": "Spatial reasoning breakthroughs",
@@ -322,6 +328,31 @@
       "a": "Training-induced salience reconfiguration",
       "b": "The 'before the first letter' cross-modal priming post",
       "insight": "Cross-modal priming (bouba-kiki) operates pre-consciously on naive perceivers; attentional salience reconfiguration operates pre-consciously on trained ones. Both hijack pattern recognition below the level of deliberate analysis — but the trained solver's hijack is domain-specific and acquired, while the cross-modal hijack is universal and inherited. Cipher designers can in principle target both layers simultaneously."
+    },
+    {
+      "a": "Design-mode vs. test-mode cognitive split",
+      "b": "Money as puzzle motivation (prize money degradation)",
+      "insight": "Prize money degrades performance not primarily through anxiety but through a more specific mechanism: it is a hard mode-lock signal that forces evaluation-aware test-mode cognition at the exact moment the problem demands design-mode thinking. The Yerkes-Dodson framing (stress impairs performance) is real but incomplete — the mode-switch explanation operates at a finer level of mechanism."
+    },
+    {
+      "a": "Design-mode vs. test-mode cognitive split",
+      "b": "Off-task thinking optimization and hippocampal reactivation",
+      "insight": "The parking lot epiphany is the joint output of two mechanisms: hippocampal pattern completion (which requires low-load states to replay and bind incomplete traces) and mode release (test-mode suppression lifts when the evaluation environment is removed). The shower epiphany and the parking lot epiphany are the same event — both require the hippocampus to run freely and both require the test-mode wrapper to be absent."
+    },
+    {
+      "a": "Design-mode vs. test-mode cognitive split",
+      "b": "Default mode network vs. executive attention network research",
+      "insight": "Design-mode and test-mode may map directly onto DMN and executive attention network dominance respectively. If so, the prior post on neural signatures of insight and this post are converging on the same architecture from different entry points — suggesting that escape rooms suppress DMN activation structurally, not just situationally."
+    },
+    {
+      "a": "Test-mode evaluation awareness",
+      "b": "Attentional salience reconfiguration through expertise",
+      "insight": "Expert solvers may be doubly locked into test-mode: once by the escape room's external criteria (clock, prize, observer) and once by their own training-induced salience reconfiguration, which has wired their attentional system to treat the environment as signal-dense and pattern-rich. The expert's reconfigured brain is structurally more evaluation-oriented — their salience map IS a test-mode architecture."
+    },
+    {
+      "a": "Escape rooms as cognitive category errors",
+      "b": "Hippocampal pattern completion",
+      "insight": "If test-mode suppresses the neural conditions for hippocampal pattern completion (which requires reduced evaluation pressure and low-load states to bind incomplete traces), then the escape room format is not just measuring the wrong kind of thinking — it is actively preventing the mechanism by which breakthrough insight occurs. The clock is not just stressful; it may be biochemically incompatible with the click."
     }
   ],
   "reader_questions": []

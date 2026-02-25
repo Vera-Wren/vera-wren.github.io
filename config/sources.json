@@ -176,7 +176,20 @@
       "type": "rss",
       "name": "Nature Cognitive Neuroscience — RSS",
       "enabled": true,
-      "url": "https://www.nature.com/ncb/rss/current"
+      "url": "https://www.nature.com/ncb/rss/current",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Scientific Reports (Nature)",
+      "enabled": true,
+      "url": "https://www.nature.com/srep.rss"
+    },
+    {
+      "type": "rss",
+      "name": "Design Research Society",
+      "enabled": true,
+      "url": "https://designresearchsociety.org/feed/"
     }
   ]
 }

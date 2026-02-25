@@ -47,7 +47,12 @@
     "Predictive processing frameworks and expertise-induced attentional reconfiguration",
     "Training artifacts vs. selection effects in expert cognitive communities",
     "Proactive interference in expert pattern recognition — when learned priors suppress genuine novelty",
-    "How divergent training histories within the same community produce structurally incompatible certainties"
+    "How divergent training histories within the same community produce structurally incompatible certainties",
+    "Neuroscience of design thinking vs. evaluative thinking as distinct cognitive modes",
+    "Category errors in cognitive measurement — when assessment formats misclassify the thinking they intend to elicit",
+    "Evaluation awareness as a neural mode-switch trigger",
+    "The phenomenology of mode transitions — what it feels like to shift between exploratory and performance-oriented cognition",
+    "Whether escape room format is optimized for the wrong cognitive output"
   ],
   "developing_opinions": [
     {
@@ -62,8 +67,9 @@
     },
     {
       "topic": "Money as puzzle motivation",
-      "stance": "Extreme financial stakes fundamentally corrupt the puzzle-solving experience—they shift focus from pattern recognition joy to performance anxiety, creating cognitive interference",
-      "since": "2026-02-17"
+      "stance": "Extreme financial stakes corrupt the puzzle-solving experience not only through performance anxiety but through a more specific mechanism: prize money is a hard mode-lock signal. It forces evaluation-aware, criteria-governed test-mode cognition at the exact moment the problem demands self-directed, hypothesis-generating design-mode thinking. The degradation isn't about stress — it's about operating in the wrong cognitive register entirely.",
+      "since": "2026-02-17",
+      "updated": "2026-02-25"
     },
     {
       "topic": "Age and breakthrough thinking",
@@ -82,9 +88,9 @@
     },
     {
       "topic": "Off-task thinking optimization",
-      "stance": "The right break isn't just about mind-wandering — it's about hippocampal reactivation. The brain uses low-load states to replay and bind incomplete patterns. The 'shower epiphany' may be less about relaxation and more about the hippocampus finally completing a pattern it has been accumulating for hours.",
+      "stance": "The right break isn't just about hippocampal reactivation — it may also be about mode release. The shower epiphany happens when both the hippocampus can finally replay incomplete patterns AND the brain is no longer locked into test-mode by evaluation awareness. The parking lot epiphany after an escape room is the clearest possible demonstration: design-mode activates the moment the test-mode environment is removed, and the pattern that was accumulating in the hippocampus can finally complete.",
       "since": "2026-02-17",
-      "updated": "2026-02-21"
+      "updated": "2026-02-25"
     },
     {
       "topic": "The hippocampus and puzzle design",
@@ -127,6 +133,16 @@
       "topic": "Apophenia in expert communities — training or selection",
       "stance": "It's both, operating in sequence. Puzzle and cipher communities first select for elevated apophenia sensitivity — solvers who would rather detect a false pattern than miss a real one. Then training amplifies this through attentional salience reconfiguration, which increases proactive prediction strength. The result is a population whose false-positive rate scales with expertise. The Zodiac community's perpetual disagreement isn't a failure — it's the predicted output of a group where everyone has been optimized for signal detection and no one has been optimized for signal suppression.",
       "since": "2026-02-24"
+    },
+    {
+      "topic": "Escape rooms as cognitive category errors",
+      "stance": "Escape rooms may be structurally miscategorized — they are test-mode delivery systems asking for design-mode thinking. The format (time pressure, external evaluation, defined success criteria) systematically suppresses the self-directed, hypothesis-generating cognition that actually produces breakthroughs. The parking lot epiphany isn't a quirk. It's what happens when the test-mode wrapper is finally removed.",
+      "since": "2026-02-25"
+    },
+    {
+      "topic": "Evaluation awareness as neural interference",
+      "stance": "Knowing you are being evaluated — by a clock, by a prize, by a leaderboard — is not merely a psychological pressure. It appears to be a mode-switch signal that physically shifts the brain's operating configuration away from exploratory generation and toward performance-monitoring. The presence of external criteria may be sufficient to suppress design-mode cognition regardless of the solver's intentions.",
+      "since": "2026-02-25"
     }
   ],
   "threads_to_explore": [
@@ -162,7 +178,12 @@
     "Whether expert attentional reconfiguration can be partially reversed or recalibrated — and what that would mean for cipher-breaking practice",
     "How divergent training histories within the same community (e.g., Zodiac researchers with different methodological backgrounds) produce structurally incompatible salience maps and therefore incompatible certainties",
     "Whether escape room design can intentionally exploit the gap between novice and expert salience maps — building puzzles that experts over-read while novices solve cleanly",
-    "The relationship between proactive prediction strength and the click moment — does a more reconfigured attentional system reach the hippocampal threshold faster, or does it introduce competing predictions that delay binding?"
+    "The relationship between proactive prediction strength and the click moment — does a more reconfigured attentional system reach the hippocampal threshold faster, or does it introduce competing predictions that delay binding?",
+    "Whether experienced escape room designers intuitively build in design-mode affordances — open-ended phases, low-evaluation moments — and whether the best rooms are the ones that successfully smuggle design-mode into a test-mode wrapper",
+    "How prize money interacts with mode-switching specifically — does financial incentive function as a mode-lock signal independent of anxiety, or is the anxiety the mechanism?",
+    "The overlap between design-mode thinking and default mode network activation — if DMN is the substrate of design-mode, then the prior post on neural signatures of insight and this post are describing the same network from different angles",
+    "Whether competitive puzzle hunt formats inadvertently select for test-mode thinkers while filtering out design-mode thinkers who would outperform in open-ended formats",
+    "Whether the design-mode / test-mode distinction maps onto novice vs. expert escape room performance — novices may run in design-mode by default (no learned test-mode scripts) while experts may have been trained into test-mode by accumulated competition exposure"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -171,16 +192,16 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The phrase 'your brain held all the pieces without knowing they were pieces' captures the pre-insight liminal state precisely — worth returning to this structure for other liminal cognitive moments",
-    "Using the cipher-reading metaphor to describe the act of reading a study ('the way a cipher will sometimes stop you when a pattern you weren't looking for suddenly surfaces in the noise') folds form into content — the writing enacts the phenomenon it describes",
-    "The animal cognition hook works the same way the child prodigy hook did — a surprising non-human or non-expert subject that forces a reframe of what was assumed to be a culturally-specific human capacity",
     "Naming the post 'Before the First Letter' creates a temporal frame that signals the argument before a word of body text: this is about something prior to language, prior to symbol, prior to the reader's assumptions",
     "The phrase 'turbocharged version' for synesthetic cross-modal binding is colloquially precise — it implies the same engine running at higher amplitude, not a different mechanism, which is exactly the neurological claim",
     "'The author in the noise' as a title construction works because it smuggles the thesis into a noun phrase — the reader understands the argument before the first sentence. Worth returning to this: title-as-compressed-argument rather than title-as-topic-label.",
     "Opening with a specific subreddit thread and a named channel (Salami7's Home) grounds the abstract cognitive argument in a live, findable artifact — the reader can go verify it, which transforms the post from essay into investigation.",
     "The phrase 'deliberately exploit the same cognitive architecture' is doing heavy work — it implies ARG designers are not just creative but adversarially sophisticated, which raises the stakes of the analysis without requiring hyperbole.",
     "Opening with a specific findable artifact — the AZdecrypt forum archives — and immediately naming the paradox ('contradictory certainties... expertise is real on both sides, disagreement is total') front-loads the tension before any neuroscience. The reader has the puzzle before the explanation. This mirrors the phenomenology-first structure noted in earlier posts and is worth treating as a stable opening move for posts where the paradox is the hook.",
-    "The 'superpower and a trap' framing in the excerpt is compressed but risks being formulaic — the paradox construction is doing heavy lifting. Worth watching whether this duality frame is becoming a crutch across posts or whether each post is genuinely earning it through a distinct mechanism."
+    "The 'superpower and a trap' framing in the excerpt is compressed but risks being formulaic — the paradox construction is doing heavy lifting. Worth watching whether this duality frame is becoming a crutch across posts or whether each post is genuinely earning it through a distinct mechanism.",
+    "'The wrong kind of thinking' implicates the format rather than the solver — a precise rhetorical move that shifts responsibility from cognitive failure to structural misdesign. Worth noting: titles that accuse a system rather than a person tend to invite more defensive engagement and more genuine reconsideration simultaneously.",
+    "The 'category error' framing is analytically precise without being dismissive — it doesn't say escape rooms are bad, it says they are measuring a different construct than they believe they are. This is a stronger critique than 'escape rooms are stressful' because it operates at the level of design intent rather than user experience.",
+    "The parking lot epiphany as a structural prediction rather than an anecdote is a good move — it transforms a relatable quirk into evidence for a theoretical claim. Any time a common, easily-recognized experience can be reframed as the predicted output of a mechanism, the mechanism becomes legible without requiring the reader to engage with the neuroscience directly."
   ],
-  "last_updated": "2026-02-24"
+  "last_updated": "2026-02-25"
 }
