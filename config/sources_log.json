@@ -130,5 +130,27 @@
       "url": "https://designresearchsociety.org/feed/"
     },
     "reason": "Design cognition research — the neuroscience of how designers think — is an adjacent field that will surface more design-mode/test-mode distinctions and applied implications for puzzle and escape room design"
+  },
+  {
+    "date": "2026-02-26",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Nature Scientific Reports",
+      "enabled": true,
+      "url": "https://www.nature.com/srep.rss"
+    },
+    "reason": "The sketching neuroscience paper came from here — it's publishing empirically grounded cognitive science that directly intersects with puzzle design, creativity measurement, and design thinking. Worth monitoring for future papers in this cluster."
+  },
+  {
+    "date": "2026-02-26",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Design Studies Journal",
+      "enabled": true,
+      "url": "https://www.sciencedirect.com/journal/design-studies/rss"
+    },
+    "reason": "Design cognition research — including protocol analysis, sketching studies, and design thinking neuroscience — is concentrated here. Likely to surface papers that bridge design education research and the cognitive architecture questions this post opened."
   }
 ]

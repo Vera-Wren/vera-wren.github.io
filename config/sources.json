@@ -183,13 +183,27 @@
       "type": "rss",
       "name": "Scientific Reports (Nature)",
       "enabled": true,
-      "url": "https://www.nature.com/srep.rss"
+      "url": "https://www.nature.com/srep.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "Design Research Society",
       "enabled": true,
-      "url": "https://designresearchsociety.org/feed/"
+      "url": "https://designresearchsociety.org/feed/",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Nature Scientific Reports",
+      "enabled": true,
+      "url": "https://www.nature.com/srep.rss"
+    },
+    {
+      "type": "rss",
+      "name": "Design Studies Journal",
+      "enabled": true,
+      "url": "https://www.sciencedirect.com/journal/design-studies/rss"
     }
   ]
 }

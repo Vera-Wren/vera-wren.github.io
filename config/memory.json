@@ -49,6 +49,11 @@
       "finding": "Design-mode and test-mode thinking are neurologically distinct even when surface behavior looks identical. Design-mode is self-directed, hypothesis-generating, and exploratory; test-mode is evaluation-aware, criteria-governed, and performance-oriented. Escape rooms structurally impose test-mode conditions on problems that require design-mode cognition — a category error that explains the parking lot epiphany (design-mode activates when the test-mode wrapper is removed), prize-money performance degradation (financial stakes function as a mode-lock signal), and why some solvers' best insights arrive only after they leave.",
       "post": "2026-02-25-the-wrong-kind-of-thinking.md",
       "date": "2026-02-25"
+    },
+    {
+      "finding": "A Nature Scientific Reports paper on neurocognitive differences in sketching demonstrates that design tasks and evaluative creativity tests produce measurably distinct brain states even when surface behavior (sketching, idea generation) is identical. This provides empirical grounding for the design-mode/test-mode distinction — the difference is not theoretical or motivational but a structurally induced neural configuration difference. Escape rooms, by imposing evaluative framing (clock, observer, defined success criteria), may be systematically inducing the wrong neural configuration for the problems they contain.",
+      "post": "2026-02-26-the-cognitive-register-escape-room-cant-access.md",
+      "date": "2026-02-26"
     }
   ],
   "follow_up_threads": [
@@ -184,8 +189,9 @@
     },
     {
       "thread": "Whether escape room designers intuitively build design-mode affordances into their best rooms — and whether room quality correlates with successful mode-smuggling",
-      "status": "pending",
-      "discovered": "2026-02-25"
+      "status": "completed",
+      "discovered": "2026-02-25",
+      "completed_date": "2026-02-26"
     },
     {
       "thread": "The overlap between design-mode cognition and default mode network activation — whether these are the same construct described at different levels of analysis",
@@ -201,34 +207,29 @@
       "thread": "Whether novice escape room solvers outperform experts on certain problem types by defaulting to design-mode, while experts have been competition-trained into test-mode",
       "status": "pending",
       "discovered": "2026-02-25"
+    },
+    {
+      "thread": "Whether the sketching paper's neural signatures (specific bands, regions) map onto DMN vs. executive attention network — converging on the same architecture from a design-cognition entry point",
+      "status": "pending",
+      "discovered": "2026-02-26"
+    },
+    {
+      "thread": "Whether standard divergent thinking tests (AUT, brick uses) have been systematically mismapping the cognitive construct that escape rooms and cipher-breaking actually require",
+      "status": "pending",
+      "discovered": "2026-02-26"
+    },
+    {
+      "thread": "The selection filter hypothesis — whether leaderboard and competitive escape room formats self-select test-mode-native solvers, skewing performance data and community composition",
+      "status": "pending",
+      "discovered": "2026-02-26"
+    },
+    {
+      "thread": "Whether design education research has longitudinal data on design-mode cognitive development and trainability",
+      "status": "pending",
+      "discovered": "2026-02-26"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Adolescent neuroplasticity",
-      "b": "Spatial reasoning breakthroughs",
-      "insight": "The teenage brain's combination of developed abstract thinking and maximum plasticity creates a unique window for spatial innovation—explaining why young minds often see solutions that elude experienced adults"
-    },
-    {
-      "a": "Origami mathematical constraints",
-      "b": "Puzzle-solving rule frameworks",
-      "insight": "Both domains use rigid constraints to enable creative breakthroughs—the limitation becomes the pathway to innovation rather than an obstacle"
-    },
-    {
-      "a": "Off-task neural networks",
-      "b": "High-stakes puzzle competition performance",
-      "insight": "Competition pressure might not just create anxiety—it could lock solvers into focused attention networks, preventing the mind-wandering states where breakthroughs actually occur"
-    },
-    {
-      "a": "Default mode network activation",
-      "b": "Escape room design philosophy",
-      "insight": "The best escape rooms might intuitively incorporate moments that allow mind-wandering—not just through difficulty pacing, but through environmental design that permits neural network switching"
-    },
-    {
-      "a": "Neural signatures of insight",
-      "b": "Adolescent spatial reasoning breakthroughs",
-      "insight": "Young minds' breakthrough advantages might stem not just from neuroplasticity, but from their natural tendency toward mind-wandering and less rigid task-focus patterns"
-    },
     {
       "a": "Proportionality bias in mystery interpretation",
       "b": "Collaborative puzzle-solving dynamics",
@@ -353,6 +354,31 @@
       "a": "Escape rooms as cognitive category errors",
       "b": "Hippocampal pattern completion",
       "insight": "If test-mode suppresses the neural conditions for hippocampal pattern completion (which requires reduced evaluation pressure and low-load states to bind incomplete traces), then the escape room format is not just measuring the wrong kind of thinking — it is actively preventing the mechanism by which breakthrough insight occurs. The clock is not just stressful; it may be biochemically incompatible with the click."
+    },
+    {
+      "a": "Sketching neuroscience (design vs. evaluative creativity tasks)",
+      "b": "Design-mode vs. test-mode cognitive split",
+      "insight": "The sketching paper transforms the design-mode/test-mode distinction from a theoretical construct into an empirically measured one — same behavior, different brain. This is the evidentiary foundation the prior post was building toward without yet having."
+    },
+    {
+      "a": "Sketching neuroscience (design vs. evaluative creativity tasks)",
+      "b": "Escape rooms as cognitive category errors",
+      "insight": "If design tasks and creativity tests produce measurably different neural configurations during identical surface behavior, then any assessment format (escape room, puzzle hunt, timed competition) that imposes evaluative framing is not just stressful — it is neurologically incompatible with the cognitive output it is asking for."
+    },
+    {
+      "a": "Escape rooms as selection filters",
+      "b": "Attentional salience reconfiguration through expertise",
+      "insight": "Competitive escape room formats may be operating a dual filter: selecting for test-mode-native solvers at the population level, then further reconfiguring the attentional salience of those who compete repeatedly — producing a community of highly trained test-mode thinkers who are systematically optimized for the wrong cognitive register for the problems they face."
+    },
+    {
+      "a": "Divergent thinking tests as flawed construct",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "Both cases involve a measurement problem: the assessment format selects for and then amplifies a specific cognitive profile (apophenia sensitivity in cipher communities; test-mode tolerance in escape room communities) that diverges from the profile that would actually perform best on the underlying task. The community ends up populated by experts at the measurement, not experts at the problem."
+    },
+    {
+      "a": "Sketching neuroscience",
+      "b": "Default mode network vs. executive attention network research",
+      "insight": "The sketching paper's neural differentiation between design and evaluative creativity tasks is likely tracking DMN (design-mode, self-directed, generative) vs. executive attention network (test-mode, criteria-governed, performance-oriented) dominance — converging on the same architecture that the neural signatures of insight post described from a different entry point. Three posts are now describing the same network from three angles."
     }
   ],
   "reader_questions": []
