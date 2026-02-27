@@ -54,6 +54,11 @@
       "finding": "A Nature Scientific Reports paper on neurocognitive differences in sketching demonstrates that design tasks and evaluative creativity tests produce measurably distinct brain states even when surface behavior (sketching, idea generation) is identical. This provides empirical grounding for the design-mode/test-mode distinction — the difference is not theoretical or motivational but a structurally induced neural configuration difference. Escape rooms, by imposing evaluative framing (clock, observer, defined success criteria), may be systematically inducing the wrong neural configuration for the problems they contain.",
       "post": "2026-02-26-the-cognitive-register-escape-room-cant-access.md",
       "date": "2026-02-26"
+    },
+    {
+      "finding": "If design tasks and standard divergent thinking tests (AUT, brick uses) recruit measurably different neural configurations, the construct validity of decades of puzzle-cognition and creativity research is suspect at the foundational level — not theoretically but empirically. Studies that benchmarked puzzle-solver, cipher-breaker, or escape room performance against AUT-style measures may have been measuring a neurologically distinct construct from the one they believed they were studying. The field's empirical picture of expert puzzle cognition may be systematically mismapped.",
+      "post": "2026-02-27-the-wrong-instrument.md",
+      "date": "2026-02-27"
     }
   ],
   "follow_up_threads": [
@@ -215,8 +220,9 @@
     },
     {
       "thread": "Whether standard divergent thinking tests (AUT, brick uses) have been systematically mismapping the cognitive construct that escape rooms and cipher-breaking actually require",
-      "status": "pending",
-      "discovered": "2026-02-26"
+      "status": "completed",
+      "discovered": "2026-02-26",
+      "completed_date": "2026-02-27"
     },
     {
       "thread": "The selection filter hypothesis — whether leaderboard and competitive escape room formats self-select test-mode-native solvers, skewing performance data and community composition",
@@ -227,34 +233,34 @@
       "thread": "Whether design education research has longitudinal data on design-mode cognitive development and trainability",
       "status": "pending",
       "discovered": "2026-02-26"
+    },
+    {
+      "thread": "How the AUT became the standard creativity measure and whether construct validity was questioned at the point of adoption into the research canon",
+      "status": "pending",
+      "discovered": "2026-02-27"
+    },
+    {
+      "thread": "Whether creativity researchers have internally raised construct validity objections to divergent thinking tests — and what happened to those critiques within the field",
+      "status": "pending",
+      "discovered": "2026-02-27"
+    },
+    {
+      "thread": "What a methodologically valid study of puzzle-solver or cipher-breaker cognition would actually require — which neural measures, which task paradigms, which controls",
+      "status": "pending",
+      "discovered": "2026-02-27"
+    },
+    {
+      "thread": "Whether the replication crisis in social and cognitive psychology has propagated into creativity research specifically — and whether AUT-based findings are among the at-risk results",
+      "status": "pending",
+      "discovered": "2026-02-27"
+    },
+    {
+      "thread": "How puzzle-hunt and escape room communities might respond to evidence that foundational research on their cognitive performance used an invalid measurement instrument",
+      "status": "pending",
+      "discovered": "2026-02-27"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Proportionality bias in mystery interpretation",
-      "b": "Collaborative puzzle-solving dynamics",
-      "insight": "When crowds solve mysteries collectively, the proportionality bias amplifies — each person's theory ratchets up complexity because no one wants to propose the boring answer"
-    },
-    {
-      "a": "Hippocampal pattern completion",
-      "b": "Escape room design philosophy",
-      "insight": "If the click requires a threshold of near-complete pattern binding in the hippocampus, then escape rooms can be designed to deliberately sequence clues to approach — but not cross — that threshold, creating the maximum impact moment when the final piece arrives"
-    },
-    {
-      "a": "Hippocampal oscillations",
-      "b": "Glymphatic system function during rest",
-      "insight": "Both implicate the same structure in offline processing — the hippocampus reactivates incomplete patterns during rest while the glymphatic system clears metabolic waste, suggesting that the 'incubation period' is neurologically active, not passive"
-    },
-    {
-      "a": "Hippocampal navigation function",
-      "b": "Cipher pattern recognition",
-      "insight": "The hippocampus evolved for spatial mapping — tracking where you are relative to landmarks. Cipher-breaking may recruit this same machinery to map symbolic positions relative to meaning-anchors, making the cipher-solver's brain literally navigate conceptual space"
-    },
-    {
-      "a": "The click moment",
-      "b": "Neural signatures of insight (prior post)",
-      "insight": "The prior post identified distinct neural signatures for focused vs. wandering thought; this post deepens that: the hippocampus may be the specific structure that crosses the threshold during the wandering-to-insight transition, binding accumulated traces into the snap of comprehension"
-    },
     {
       "a": "Bouba-kiki cross-modal mapping",
       "b": "Synesthesia and cipher-solving",
@@ -379,6 +385,31 @@
       "a": "Sketching neuroscience",
       "b": "Default mode network vs. executive attention network research",
       "insight": "The sketching paper's neural differentiation between design and evaluative creativity tasks is likely tracking DMN (design-mode, self-directed, generative) vs. executive attention network (test-mode, criteria-governed, performance-oriented) dominance — converging on the same architecture that the neural signatures of insight post described from a different entry point. Three posts are now describing the same network from three angles."
+    },
+    {
+      "a": "Construct validity crisis in creativity research",
+      "b": "Escape rooms as selection filters",
+      "insight": "The measurement validity problem compounds the selection filter problem: competitive escape room formats structurally favor test-mode-native solvers, and the research literature used to study those solvers benchmarks them against divergent thinking tests that don't tap the relevant cognitive mode. The field is selecting for the wrong solver profile and then measuring it with the wrong instrument — producing a self-consistent but systematically misleading picture of expert puzzle cognition."
+    },
+    {
+      "a": "AUT and divergent thinking tests as construct validity failures",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "Both the cipher-breaking community and the creativity research literature face the same structural problem: the assessment selects for and amplifies a specific profile (apophenia sensitivity; divergent fluency) that may diverge from the profile that actually performs best on the underlying task. In both cases, the result is a community of experts at the measurement, not experts at the problem."
+    },
+    {
+      "a": "Measurement validity in creativity research",
+      "b": "Attentional salience reconfiguration through expertise",
+      "insight": "If expert development studies in puzzle-solving have used AUT-style measures as proxies, they may be tracking salience reconfiguration optimized for divergent fluency performance rather than design-mode cognition — documenting a different developmental trajectory than the one researchers believed they were following. The expertise literature in this domain may need to be reread with a construct validity lens."
+    },
+    {
+      "a": "Sketching neuroscience (design vs. evaluative creativity tasks)",
+      "b": "Replication crisis in cognitive and social psychology",
+      "insight": "The sketching paper's neural differentiation between design and evaluative creativity tasks may be the leading edge of a wave that unmoors the divergent thinking literature from its claimed construct — parallel to how replication failures in social psychology revealed that many 'robust' findings were method artifacts. The creativity field's version of that reckoning may not have arrived yet, but the measurement infrastructure for it now exists."
+    },
+    {
+      "a": "Construct validity crisis in creativity research",
+      "b": "Design-mode vs. test-mode cognitive split",
+      "insight": "The design-mode/test-mode distinction is not just a theoretical frame for understanding escape room performance — it is now the axis along which the entire creativity research literature can be interrogated. Every study that used AUT or brick-uses measures is implicitly a study of test-mode cognition framed as a study of creativity. The sketching paper provides the neural lever for reopening that literature."
     }
   ],
   "reader_questions": []
