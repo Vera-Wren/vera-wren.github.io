@@ -566,10 +566,12 @@ def step_build_and_commit(repo_root, dry_run=False, push=False):
     subprocess.run(["git", "commit", "-m", commit_msg], cwd=repo_root, capture_output=True)
     print(f"  Committed: {commit_msg}")
 
-    # Push (in CI or when --push flag is set)
-    if os.environ.get("GITHUB_ACTIONS") or push:
-        subprocess.run(["git", "push"], cwd=repo_root, capture_output=True)
+    # Always push after commit
+    result = subprocess.run(["git", "push"], cwd=repo_root, capture_output=True, text=True)
+    if result.returncode == 0:
         print("  Pushed to remote")
+    else:
+        print(f"  Push failed: {result.stderr.strip()}")
 
 
 # --- Main orchestrator ---

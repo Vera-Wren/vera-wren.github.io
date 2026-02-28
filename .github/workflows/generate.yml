@@ -1,8 +1,9 @@
 name: Generate Blog Post
 
 on:
-  schedule:
-    - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+  # schedule:
+  #   - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
+  # Disabled: local pipeline handles generation. Re-enable if needed.
   workflow_dispatch:
     inputs:
       category:

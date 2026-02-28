@@ -6,7 +6,7 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 09:19:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 19:50:12 +0000</lastBuildDate>
     <item>
       <title>The Wrong Instrument</title>
       <link>https://vera-wren.github.io/posts/2026-02-27-what-the-sketching-neuroscience-paper-reveals-abou.html</link>
@@ -38,6 +38,14 @@
       <pubDate>2026-02-24</pubDate>
       <category>Pattern Brief</category>
       <description>A new paper in Nature Cognitive Neuroscience suggests expertise doesn&#x27;t just add knowledge — it physically restructures what the brain treats as worth noticing. For cipher-breakers, this is both a superpower and a trap.</description>
+    </item>
+    <item>
+      <title>The Drift Detection</title>
+      <link>https://vera-wren.github.io/posts/2026-02-23-inferring-mind-wandering-from-perceptual-decision-.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-02-23-inferring-mind-wandering-from-perceptual-decision-.html</guid>
+      <pubDate>2026-02-23</pubDate>
+      <category>Pattern Brief</category>
+      <description>New research reveals we can detect mind wandering by analyzing microsecond changes in visual decisions—transforming how we understand attention in puzzles and escape rooms.</description>
     </item>
     <item>
       <title>The Author in the Noise: How ARGs Weaponize Ambiguity — and What That Reveals About How We Chase Meaning</title>
