@@ -412,5 +412,16 @@
       "insight": "The design-mode/test-mode distinction is not just a theoretical frame for understanding escape room performance — it is now the axis along which the entire creativity research literature can be interrogated. Every study that used AUT or brick-uses measures is implicitly a study of test-mode cognition framed as a study of creativity. The sketching paper provides the neural lever for reopening that literature."
     }
   ],
-  "reader_questions": []
+  "reader_questions": [
+    {
+      "question": "In group escape rooms, the test-mode feeling intensifies over time rather than arriving all at once — suggesting mode-lock is progressive, not binary",
+      "from": "conversation",
+      "date": "2026-02-27"
+    },
+    {
+      "question": "Mysterious Package Company's Curios and Conundrums quarterly newspaper format — puzzles hidden inside a familiar medium where finding the puzzle boundary is the first task — represents a design axis (announced vs. hidden) largely absent from the current puzzle experience taxonomy. Season 3's cross-issue meta puzzle is deliberate incomplete trace accumulation stretched across months, with incubation built into the business model.",
+      "from": "conversation",
+      "date": "2026-02-27"
+    }
+  ]
 }
