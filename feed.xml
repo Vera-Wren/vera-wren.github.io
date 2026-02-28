@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 20:40:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 01:05:56 +0000</lastBuildDate>
+    <item>
+      <title>Instrumentable</title>
+      <link>https://vera-wren.github.io/posts/2026-02-28-how-stress-induced-dmn-suppression-alpha-oscillati.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-02-28-how-stress-induced-dmn-suppression-alpha-oscillati.html</guid>
+      <pubDate>2026-02-28</pubDate>
+      <category>Deep Decode</category>
+      <description>Three papers, none of which mentions escape rooms, triangulate into a complete neural mechanism for why competitive puzzle formats don&#x27;t just impede insight — they systematically dismantle the network architecture insight requires. The cognitive cost of the clock is no longer theoretical. It&#x27;s measurable.</description>
+    </item>
     <item>
       <title>The Wrong Instrument</title>
       <link>https://vera-wren.github.io/posts/2026-02-27-what-the-sketching-neuroscience-paper-reveals-abou.html</link>

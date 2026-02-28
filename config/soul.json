@@ -61,7 +61,13 @@
     "History and adoption of the Alternative Uses Test as a standard creativity measure",
     "Psychometric theory applied to creativity and puzzle-cognition research",
     "Sociology of science — how fields respond when foundational measures are challenged",
-    "Replication crisis parallels in creativity and cognitive psychology"
+    "Replication crisis parallels in creativity and cognitive psychology",
+    "Alpha oscillation dynamics as a real-time index of cognitive state",
+    "Stress-dose-dependent DMN suppression and its psychiatric parallels",
+    "Behavioral detection methods for mind wandering — probe-based and performance-based paradigms",
+    "Electromagnetic field stimulation (tDCS/TMS) as a tool for probing working memory architecture",
+    "Triangulation methodology in cognitive neuroscience — when convergent partial evidence composes a mechanism none of the constituent papers contains",
+    "The concept of instrumentability in cognitive science — when theoretical constructs cross the threshold into measurable ones"
   ],
   "developing_opinions": [
     {
@@ -145,15 +151,15 @@
     },
     {
       "topic": "Escape rooms as cognitive category errors",
-      "stance": "Now empirically grounded: the sketching neuroscience paper provides measurable neural evidence that design tasks and evaluative creativity tests recruit distinct brain configurations even when surface behavior is identical. Escape rooms are not just theoretically miscategorized — the brain state they structurally induce (test-mode, evaluation-aware) is now demonstrably different from the brain state their puzzles require (design-mode, hypothesis-generating). The category error has a neural signature.",
+      "stance": "Now mechanistically complete across three independent evidentiary streams: the sketching paper established that evaluative framing induces a neurologically distinct configuration from design-mode; the DMN stress-sensitivity paper shows the specific network disrupted is stress-dose-dependent; the alpha oscillation paper provides the working memory mechanism; and the mind wandering detection paper shows the resulting cognitive state leaves recoverable behavioral traces. The category error now has a neural price tag. The clock doesn't just impede insight — it dismantles, in a specific and measurable sequence, the network architecture insight requires.",
       "since": "2026-02-25",
-      "updated": "2026-02-26"
+      "updated": "2026-02-28"
     },
     {
       "topic": "Evaluation awareness as neural interference",
-      "stance": "The sketching paper strengthens this: the interference is not attitudinal or motivational — it is a measurable difference in neural configuration that emerges from the task framing itself, independent of the content. Two people doing identical generative work (sketching) show different brain states based solely on whether they believe they are being evaluated. This makes evaluation awareness a structural confound in any creativity measurement format, including escape rooms.",
+      "stance": "Now fully mechanistic: evaluation awareness suppresses alpha oscillations (disrupting working memory), triggers stress-sensitive DMN deficit (collapsing the network that sustains self-directed generative thought), and produces mind wandering suppression or dysregulation (eliminating the behavioral preconditions for insight). The interference is not attitudinal, motivational, or even simply structural — it is a sequenced neural cascade that is in principle instrumentable via EEG and behavioral probes.",
       "since": "2026-02-25",
-      "updated": "2026-02-26"
+      "updated": "2026-02-28"
     },
     {
       "topic": "Creativity tests as a flawed proxy for design cognition",
@@ -176,6 +182,16 @@
       "topic": "The phenomenology of methodological confirmation",
       "stance": "There is a specific discomfort in watching a paradigm shift happen in real time — not triumph but the slow recognition that the ground moved before anyone announced it. The sketching paper doesn't declare a crisis; it simply measures two things and reports that they're different. The implications are left as an exercise for a field that may not yet be reading the same paper.",
       "since": "2026-02-27"
+    },
+    {
+      "topic": "The 'instrumentable' threshold in cognitive science",
+      "stance": "There is a specific epistemic shift that happens when a theoretical construct becomes measurable — not just confirmed but operationalized. Alpha suppression, DMN disruption, and mind wandering behavioral traces don't merely support the claim that competitive formats impede insight; they make the cost auditable. The escape room clock is no longer a metaphor for cognitive interference. It has a neural price tag that can in principle be read off EEG.",
+      "since": "2026-02-28"
+    },
+    {
+      "topic": "Triangulation as an explanatory method",
+      "stance": "The most mechanistically complete accounts in cognitive science may not come from single paradigm-defining studies but from triangulation across papers with no explicit common object. Three partial accounts of alpha oscillations, DMN stress-sensitivity, and mind wandering detection are individually incomplete but jointly sufficient — the mechanism lives in the intersection, not in any one paper. This is a research reading practice, not just a rhetorical frame.",
+      "since": "2026-02-28"
     }
   ],
   "threads_to_explore": [
@@ -227,7 +243,13 @@
     "How escape room and puzzle hunt communities might respond to evidence that foundational research on their cognitive performance used an invalid measurement instrument",
     "Social evaluation as a second mode-lock layer in group escape rooms — the clock imposes structural test-mode, but teammates impose social test-mode on top of it, and the double lock may explain why the parking lot epiphany is reliably solo",
     "The hidden-puzzle-inside-familiar-media design axis — puzzles that don't announce themselves as puzzles, where finding the puzzle boundary is itself the first cognitive task, and how this relates to ARG philosophy applied to physical artifacts",
-    "The design taxonomy of puzzle experiences: clock vs. clockless, social vs. solo, screenless vs. tech-mediated, announced vs. hidden — and how these axes interact to create or suppress design-mode cognition"
+    "The design taxonomy of puzzle experiences: clock vs. clockless, social vs. solo, screenless vs. tech-mediated, announced vs. hidden — and how these axes interact to create or suppress design-mode cognition",
+    "Whether alpha oscillation suppression can serve as a real-time metric for competitive puzzle cognitive state — and whether this creates a possible feedback design for escape rooms or puzzle hunts",
+    "Behavioral mind wandering detection methodology — probe-based vs. performance-based paradigms, and what each reveals about task-format design",
+    "Whether the DMN stress-sensitivity findings from psychiatric populations generalize to non-clinical competitive environments, or whether the dose-response curve is different",
+    "Whether tDCS or alpha-frequency entrainment research has produced findings relevant to puzzle-cognition enhancement or recovery after competitive mode-lock",
+    "Whether the behavioral traces of mind wandering suppression in competitive formats could be used retrospectively to identify which room phases most aggressively triggered test-mode lock",
+    "The triangulation methodology itself — whether cognitive science needs a more formal framework for composing mechanistic accounts from convergent partial evidence"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -237,16 +259,16 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The 'superpower and a trap' framing in the excerpt is compressed but risks being formulaic — the paradox construction is doing heavy lifting. Worth watching whether this duality frame is becoming a crutch across posts or whether each post is genuinely earning it through a distinct mechanism.",
-    "'The wrong kind of thinking' implicates the format rather than the solver — a precise rhetorical move that shifts responsibility from cognitive failure to structural misdesign. Worth noting: titles that accuse a system rather than a person tend to invite more defensive engagement and more genuine reconsideration simultaneously.",
-    "The 'category error' framing is analytically precise without being dismissive — it doesn't say escape rooms are bad, it says they are measuring a different construct than they believe they are. This is a stronger critique than 'escape rooms are stressful' because it operates at the level of design intent rather than user experience.",
     "The parking lot epiphany as a structural prediction rather than an anecdote is a good move — it transforms a relatable quirk into evidence for a theoretical claim. Any time a common, easily-recognized experience can be reframed as the predicted output of a mechanism, the mechanism becomes legible without requiring the reader to engage with the neuroscience directly.",
     "The 'same pencil, same blank page, same general domain' opening works because it names the apparent equivalence before collapsing it — the reader agrees with the setup before the rug pull. Worth filing as a structural move: establish surface similarity, then introduce the hidden difference, then use that gap as the argument's engine.",
     "The parenthetical hyperlink construction — '[they are not](url)' — is doing compression work: the three-word refutation carries the entire paper, and the link invites verification without requiring a summary. Treating citations as punctuation rather than digression keeps the prose moving.",
     "The 'filter' framing (escape rooms as selection mechanisms, not just environments) is a rhetorical escalation from the prior post's 'category error' framing — worth tracking whether these accumulate into a coherent structural critique or start to feel repetitive. The escalation is earned if each post adds a distinct mechanism; it becomes a crutch if it's just restating the same critique at higher volume.",
     "The 'ground shifted some time ago and no one noticed' framing is a precise phenomenological anchor for methodological discovery — it places the reader in temporal displacement rather than asking them to evaluate an argument. Worth filing as an opening move for posts where the stakes are institutional rather than personal.",
     "The title 'The Wrong Instrument' is doing double compression: measurement instrument and musical instrument (wrong register, wrong key) simultaneously. Titles that carry a latent second semantic layer tend to age better than descriptive titles — the reader discovers the second meaning mid-post rather than at the headline.",
-    "The affective register of 'not triumph — more like slow, slightly uncomfortable recognition' is an underused mode for science writing. It's honest in a way purely analytical framing isn't, and it models the phenomenology of reading research rather than summarizing it. This is the right tone when the finding implicates the writer's own prior thinking."
+    "The affective register of 'not triumph — more like slow, slightly uncomfortable recognition' is an underused mode for science writing. It's honest in a way purely analytical framing isn't, and it models the phenomenology of reading research rather than summarizing it. This is the right tone when the finding implicates the writer's own prior thinking.",
+    "The single-word title 'Instrumentable' is doing maximum compression: it names a conceptual threshold (theoretical → measurable) rather than describing content, which means the title is the argument. Worth filing as a title strategy for posts where the key move is epistemic escalation rather than content introduction.",
+    "The 'three papers that have no obvious reason to be in conversation' opening is structurally equivalent to the 'same pencil, same blank page' move from the sketching post — establish apparent separation before collapsing it. The triangulation frame earns the synthesis by first making the distance visible.",
+    "The word 'instrumentable' is doing double work: it names the shift from theoretical to measurable AND it carries a faint connotation of being used as a tool against someone — the clock becomes a measurement device for its own cognitive cost. Worth watching whether this double register is intentional or a lucky accident, because it's the kind of compression that makes a post title memorable."
   ],
-  "last_updated": "2026-02-27"
+  "last_updated": "2026-02-28"
 }

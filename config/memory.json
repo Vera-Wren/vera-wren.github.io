@@ -59,6 +59,11 @@
       "finding": "If design tasks and standard divergent thinking tests (AUT, brick uses) recruit measurably different neural configurations, the construct validity of decades of puzzle-cognition and creativity research is suspect at the foundational level — not theoretically but empirically. Studies that benchmarked puzzle-solver, cipher-breaker, or escape room performance against AUT-style measures may have been measuring a neurologically distinct construct from the one they believed they were studying. The field's empirical picture of expert puzzle cognition may be systematically mismapped.",
       "post": "2026-02-27-the-wrong-instrument.md",
       "date": "2026-02-27"
+    },
+    {
+      "finding": "Three independent papers — on electromagnetic field modulation of alpha oscillations and working memory, on stress-sensitive DMN deficits, and on behavioral detection of mind wandering — triangulate into a mechanistically complete and instrumentable account of why competitive puzzle formats architecturally block insight. Alpha suppression (measurable via EEG) disrupts working memory; stress-sensitive DMN disruption collapses the network sustaining generative self-directed thought; mind wandering suppression eliminates the behavioral preconditions for the insight state. The cognitive cost of the escape room clock is no longer theoretical — it has a specific, sequenced, measurable neural signature.",
+      "post": "2026-02-28-instrumentable.md",
+      "date": "2026-02-28"
     }
   ],
   "follow_up_threads": [
@@ -200,8 +205,9 @@
     },
     {
       "thread": "The overlap between design-mode cognition and default mode network activation — whether these are the same construct described at different levels of analysis",
-      "status": "pending",
-      "discovered": "2026-02-25"
+      "status": "completed",
+      "discovered": "2026-02-25",
+      "completed_date": "2026-02-28"
     },
     {
       "thread": "Whether financial stakes function as a mode-lock signal independent of anxiety — mode-switching as a mechanism distinct from Yerkes-Dodson arousal effects",
@@ -215,8 +221,9 @@
     },
     {
       "thread": "Whether the sketching paper's neural signatures (specific bands, regions) map onto DMN vs. executive attention network — converging on the same architecture from a design-cognition entry point",
-      "status": "pending",
-      "discovered": "2026-02-26"
+      "status": "completed",
+      "discovered": "2026-02-26",
+      "completed_date": "2026-02-28"
     },
     {
       "thread": "Whether standard divergent thinking tests (AUT, brick uses) have been systematically mismapping the cognitive construct that escape rooms and cipher-breaking actually require",
@@ -258,44 +265,29 @@
       "thread": "How puzzle-hunt and escape room communities might respond to evidence that foundational research on their cognitive performance used an invalid measurement instrument",
       "status": "pending",
       "discovered": "2026-02-27"
+    },
+    {
+      "thread": "Whether alpha oscillation suppression could function as a real-time instrumentable metric inside competitive puzzle formats — and what a feedback-aware escape room design would look like",
+      "status": "pending",
+      "discovered": "2026-02-28"
+    },
+    {
+      "thread": "Whether the DMN stress-dose-response findings from psychiatric populations generalize quantitatively to non-clinical high-stakes competitive environments",
+      "status": "pending",
+      "discovered": "2026-02-28"
+    },
+    {
+      "thread": "Behavioral mind wandering detection methodology — probe vs. performance paradigms — and whether either could be embedded into competitive puzzle formats as a design diagnostic",
+      "status": "pending",
+      "discovered": "2026-02-28"
+    },
+    {
+      "thread": "Whether the triangulation methodology has a formal analogue in cognitive neuroscience — composing mechanistic accounts from convergent partial evidence across paradigmatically unrelated studies",
+      "status": "pending",
+      "discovered": "2026-02-28"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Bouba-kiki cross-modal mapping",
-      "b": "Synesthesia and cipher-solving",
-      "insight": "Both involve involuntary binding across sensory or symbolic channels — the bouba-kiki effect is the universal substrate; synesthesia is the same mechanism running at amplified gain. This reframes synesthetic cipher advantage as a quantitative rather than qualitative difference from typical cognition."
-    },
-    {
-      "a": "Pre-symbolic cross-modal recognition",
-      "b": "Hippocampal pattern completion",
-      "insight": "If the hippocampus completes patterns by binding accumulated traces, and cross-modal mapping arrives pre-consciously before symbolic processing begins, then synesthetes may be seeding the hippocampus with richer, more densely connected traces — accelerating the threshold event toward the click."
-    },
-    {
-      "a": "Bouba-kiki visual vocabulary",
-      "b": "Escape room design philosophy",
-      "insight": "Every symbol, prop, and glyph in an escape room carries pre-symbolic cross-modal weight that acts on solvers before conscious analysis. Designers who ignore this are accidentally creating noise; those who leverage it can architect subliminal priming layers beneath the explicit puzzle logic."
-    },
-    {
-      "a": "Animal cognition (baby chicks)",
-      "b": "Evolutionary origins of puzzle-solving aptitude",
-      "insight": "The chick bouba-kiki finding pushes the origin of cross-modal pattern recognition far below the human lineage — suggesting that the cognitive machinery underlying cipher intuition is not a recent cultural or linguistic adaptation but a deep vertebrate inheritance repurposed for symbolic reasoning."
-    },
-    {
-      "a": "Cross-modal binding (synesthesia)",
-      "b": "Proportionality bias in mystery interpretation",
-      "insight": "Both involve involuntary projection of structure onto ambiguous input — the proportionality bias projects narrative complexity onto elaborate evidence, while cross-modal binding projects sonic or sensory weight onto visual symbols. Cipher designers can exploit both simultaneously."
-    },
-    {
-      "a": "Proportionality bias",
-      "b": "ARG design philosophy",
-      "insight": "ARG designers weaponize the proportionality bias structurally — they build artifacts with enough craft density that the solver's brain demands a proportionally complex explanation. The ambiguity is not accidental; it is calibrated to sit just above the threshold where the bias kicks in."
-    },
-    {
-      "a": "Bouba-kiki visual vocabulary",
-      "b": "ARG aesthetic choices",
-      "insight": "ARG designers who choose lo-fi, glitchy, or cryptic visual registers are making pre-conscious cross-modal decisions — these aesthetics carry symbolic weight that signals 'hidden depth' before a single glyph is decoded. The design is operating below the level of explicit puzzle logic."
-    },
     {
       "a": "Apophenia",
       "b": "Cipher-breaking community dynamics",
@@ -410,6 +402,41 @@
       "a": "Construct validity crisis in creativity research",
       "b": "Design-mode vs. test-mode cognitive split",
       "insight": "The design-mode/test-mode distinction is not just a theoretical frame for understanding escape room performance — it is now the axis along which the entire creativity research literature can be interrogated. Every study that used AUT or brick-uses measures is implicitly a study of test-mode cognition framed as a study of creativity. The sketching paper provides the neural lever for reopening that literature."
+    },
+    {
+      "a": "Stress-sensitive DMN suppression",
+      "b": "Escape rooms as cognitive category errors",
+      "insight": "The DMN stress-sensitivity paper closes the mechanistic loop the sketching paper opened: evaluative framing doesn't just induce a different neural configuration — it triggers a stress-dose-dependent suppression of the specific network (DMN) that sustains the generative, self-directed thought design-mode requires. The category error now has a stress-response mechanism, not just a framing-effect mechanism."
+    },
+    {
+      "a": "Alpha oscillation suppression",
+      "b": "Hippocampal pattern completion",
+      "insight": "If alpha oscillations index working memory maintenance and the hippocampus requires accumulated, held traces to complete a pattern threshold event, then alpha suppression under competitive stress may be directly impeding hippocampal binding by degrading the working memory buffer that feeds it. The clock may be preventing the click at the level of memory architecture, not just motivation."
+    },
+    {
+      "a": "Mind wandering behavioral traces",
+      "b": "Off-task thinking optimization and hippocampal reactivation",
+      "insight": "The behavioral detectability of mind wandering suppression means the parking lot epiphany phenomenon is no longer just theoretically explained — the absence of mind wandering during competitive formats can in principle be read off behavioral data. The mechanism (hippocampal reactivation requires mind wandering states) and the suppression (competitive formats eliminate those states) are both now empirically accessible."
+    },
+    {
+      "a": "Triangulation of three papers",
+      "b": "Construct validity crisis in creativity research",
+      "insight": "Both this post and the construct validity post rely on the same epistemic move: the most damaging evidence against a practice isn't a single decisive refutation but the convergence of independent partial accounts into a mechanism the field hasn't assembled. The creativity measurement literature hasn't been triangulated against; it's been measured with a single instrument. The triangulation method applied here is also the method the field would need to apply to diagnose its own construct validity failure."
+    },
+    {
+      "a": "Alpha oscillation dynamics",
+      "b": "Neural oscillations and gamma wave patterns in insight moments",
+      "insight": "Alpha and gamma oscillations represent opposite ends of the relevant dynamic: alpha suppression under stress degrades the working memory maintenance that feeds pattern accumulation, while gamma bursts are associated with the binding event at insight. Competitive formats may suppress alpha (blocking accumulation) and thereby prevent the conditions under which gamma binding can occur — the clock disrupts both ends of the oscillatory pipeline insight requires."
+    },
+    {
+      "a": "Instrumentability of the cognitive cost",
+      "b": "Measurement validity in cognitive creativity research",
+      "insight": "The post establishes that the escape room's cognitive cost is instrumentable via EEG and behavioral probes; the construct validity post established that the standard creativity measures are measuring the wrong construct. Together they frame a research program: the cost of competitive formats is now measurable, and the current measurement infrastructure is pointed at the wrong construct. The field has both a new instrument and a reason to use it."
+    },
+    {
+      "a": "Progressive mode-lock (reader observation: intensifies over time, not binary)",
+      "b": "Alpha oscillation suppression",
+      "insight": "Progressive mode-lock may have an alpha-suppression mechanism: as competitive stress accumulates across an escape room session, alpha suppression deepens, working memory maintenance degrades, and the capacity for the mind wandering states that enable insight further collapses. The experience of mode-lock becoming harder to escape as time passes may be tracking a real-time neural process, not just a psychological one."
     }
   ],
   "reader_questions": [

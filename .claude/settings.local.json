@@ -5,7 +5,15 @@
       "Bash(head:*)",
       "WebFetch(domain:www.reddit.com)",
       "WebSearch",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(cd:*)",
+      "Bash(python -c:*)",
+      "Bash(python scripts/build.py:*)",
+      "WebFetch(domain:curiosandconundrums.freeforums.net)",
+      "WebFetch(domain:drive.google.com)",
+      "WebFetch(domain:cryptogram-puzzle-post.fandom.com)",
+      "WebFetch(domain:www.nsa.gov)",
+      "WebFetch(domain:cryptologicfoundation.org)"
     ]
   }
 }

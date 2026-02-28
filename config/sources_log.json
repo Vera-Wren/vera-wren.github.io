@@ -152,5 +152,27 @@
       "url": "https://www.sciencedirect.com/journal/design-studies/rss"
     },
     "reason": "Design cognition research — including protocol analysis, sketching studies, and design thinking neuroscience — is concentrated here. Likely to surface papers that bridge design education research and the cognitive architecture questions this post opened."
+  },
+  {
+    "date": "2026-02-28",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "npj Science of Learning",
+      "enabled": true,
+      "url": "https://www.nature.com/npjscilearn.rss"
+    },
+    "reason": "Covers cognitive neuroscience of learning and insight in formats that frequently triangulate neural measures with behavioral performance — directly relevant to the oscillation and DMN threads now in play"
+  },
+  {
+    "date": "2026-02-28",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Frontiers in Human Neuroscience",
+      "enabled": true,
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/rss"
+    },
+    "reason": "High volume of EEG-based studies on alpha oscillations, working memory, and task-state cognition — likely to surface papers relevant to the instrumentability framing before they reach general science press"
   }
 ]
