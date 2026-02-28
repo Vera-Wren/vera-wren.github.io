@@ -43,6 +43,9 @@ jobs:
           git config user.name "Vera Wren"
           git config user.email "vera-wren@users.noreply.github.com"
 
+      - name: Install dependencies
+        run: pip install wordcloud
+
       - name: Run generation cycle
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
