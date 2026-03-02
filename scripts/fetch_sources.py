@@ -83,25 +83,13 @@ def _extract_text(html_str, max_len=2000):
 # Source fetchers
 
 def fetch_reddit_json(subreddit, limit=10):
-    """Fetch top posts from a subreddit using Reddit's public JSON API."""
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}"
-    data = _make_json_request(url)
-    if not data or "data" not in data:
-        return []
-    results = []
-    for child in data["data"].get("children", []):
-        post = child.get("data", {})
-        title = post.get("title", "")
-        permalink = post.get("permalink", "")
-        selftext = post.get("selftext", "")[:300]
-        link_url = post.get("url", "")
-        results.append({
-            "title": title,
-            "url": f"https://www.reddit.com{permalink}" if permalink else link_url,
-            "snippet": selftext or title,
-            "source_name": f"r/{subreddit}",
-        })
-    return results
+    """Fetch top posts from a subreddit using Reddit's RSS feed.
+
+    Reddit aggressively blocks non-browser user agents on its JSON API,
+    so we use the .rss (Atom feed) endpoint instead.
+    """
+    url = f"https://www.reddit.com/r/{subreddit}/hot.rss?limit={limit}"
+    return fetch_rss(url, source_name=f"r/{subreddit}", limit=limit)
 
 
 def fetch_hackernews(limit=15):

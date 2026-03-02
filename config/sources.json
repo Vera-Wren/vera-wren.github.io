@@ -160,13 +160,6 @@
     },
     {
       "type": "rss",
-      "name": "r/ARG",
-      "enabled": true,
-      "url": "https://www.reddit.com/r/ARG/.rss",
-      "_last_success": true
-    },
-    {
-      "type": "rss",
       "name": "Unfiction",
       "enabled": true,
       "url": "https://unfiction.com/feed/",
