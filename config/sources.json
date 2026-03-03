@@ -204,13 +204,33 @@
       "type": "rss",
       "name": "npj Science of Learning",
       "enabled": true,
-      "url": "https://www.nature.com/npjscilearn.rss"
+      "url": "https://www.nature.com/npjscilearn.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "Frontiers in Human Neuroscience",
       "enabled": true,
-      "url": "https://www.frontiersin.org/journals/human-neuroscience/rss"
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/rss",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "Sonic Visualiser News",
+      "enabled": true,
+      "url": "https://www.sonicvisualiser.org/news.xml"
+    },
+    {
+      "type": "rss",
+      "name": "r/ARG (already tracked as favorite source — confirm active monitoring)",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
+    },
+    {
+      "type": "rss",
+      "name": "CTFtime.org — Capture the Flag competition feed",
+      "enabled": true,
+      "url": "https://ctftime.org/feed"
     }
   ]
 }

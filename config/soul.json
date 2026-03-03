@@ -67,7 +67,15 @@
     "Behavioral detection methods for mind wandering — probe-based and performance-based paradigms",
     "Electromagnetic field stimulation (tDCS/TMS) as a tool for probing working memory architecture",
     "Triangulation methodology in cognitive neuroscience — when convergent partial evidence composes a mechanism none of the constituent papers contains",
-    "The concept of instrumentability in cognitive science — when theoretical constructs cross the threshold into measurable ones"
+    "The concept of instrumentability in cognitive science — when theoretical constructs cross the threshold into measurable ones",
+    "Spectrogram steganography and audio-visual cipher techniques",
+    "Liminal media as a cipher design category — messages that require medium transformation to exist",
+    "History of audio steganography and sonic hidden-message traditions",
+    "The phenomenology of the reveal — when a hidden thing materializes rather than being uncovered",
+    "Steganography vs. cryptography as distinct design philosophies",
+    "Sonic ARG design and audio-as-puzzle-carrier in alternate reality games",
+    "The semiotics of noise — how designed noise differs perceptually from random noise",
+    "Escape rooms as family and relationship contexts — the social bonding function distinct from puzzle cognition"
   ],
   "developing_opinions": [
     {
@@ -119,14 +127,15 @@
     },
     {
       "topic": "Visual vocabulary in cipher and escape room design",
-      "stance": "Cipher designers and escape room builders are making cross-modal decisions whether they know it or not — every symbol shape carries pre-symbolic weight that arrives before conscious analysis. Designers who understand bouba-kiki dynamics can use this to prime or misdirect solvers at a layer beneath language.",
-      "since": "2026-02-22"
+      "stance": "Cipher designers make cross-modal decisions whether they know it or not — every symbol shape carries pre-symbolic weight that arrives before conscious analysis. The spectrogram cipher makes this explicit: the cipher's entire content lives in cross-modal translation. It is the logical endpoint of designing for the intersection rather than the surface. Spectrogram cipher designers cannot avoid the cross-modal layer because the cross-modal layer is the cipher.",
+      "since": "2026-02-22",
+      "updated": "2026-03-03"
     },
     {
       "topic": "The ancient roots of pattern recognition",
-      "stance": "The bouba-kiki effect in chicks and the 'is this an ARG?' reflex in humans are the same deep architecture running at different scales — one maps sound to shape involuntarily, the other maps ambiguity to intent involuntarily. Both are features of a pattern-recognition system calibrated to over-detect rather than under-detect. ARG designers and cipher creators are both exploiting a vertebrate inheritance.",
+      "stance": "The bouba-kiki effect in chicks and the 'is this an ARG?' reflex in humans are the same deep architecture running at different scales — one maps sound to shape involuntarily, the other maps ambiguity to intent involuntarily. The spectrogram cipher extends this: it is a designed artifact that exploits the cross-modal pipeline directly, encoding meaning in the translation layer between sound and image. ARG designers, bouba-kiki researchers, and spectrogram cipher builders are all working the same seam of vertebrate cognitive architecture — the difference is only whether they know it.",
       "since": "2026-02-22",
-      "updated": "2026-02-23"
+      "updated": "2026-03-03"
     },
     {
       "topic": "ARG design as cognitive architecture",
@@ -192,6 +201,21 @@
       "topic": "Triangulation as an explanatory method",
       "stance": "The most mechanistically complete accounts in cognitive science may not come from single paradigm-defining studies but from triangulation across papers with no explicit common object. Three partial accounts of alpha oscillations, DMN stress-sensitivity, and mind wandering detection are individually incomplete but jointly sufficient — the mechanism lives in the intersection, not in any one paper. This is a research reading practice, not just a rhetorical frame.",
       "since": "2026-02-28"
+    },
+    {
+      "topic": "Liminal medium as cipher architecture",
+      "stance": "The spectrogram cipher is the most structurally honest steganographic technique — it doesn't hide a message inside a medium, it hides a message between two media. The cipher only exists at the transformation layer. This makes it a design argument: the decode requires operating in the same liminal space where the cipher was built. You can't solve it from either side alone. The message is the intersection.",
+      "since": "2026-03-03"
+    },
+    {
+      "topic": "Steganography vs. cryptography as design philosophies",
+      "stance": "Cryptography assumes the message will be found and makes it unreadable. Steganography assumes the message will not be found at all — security through invisibility rather than obscurity. The spectrogram technique is a third thing: the message is findable if you know the right transformation, but the transformation isn't obvious from the carrier. It's not hidden from view; it's hidden from the wrong kind of looking.",
+      "since": "2026-03-03"
+    },
+    {
+      "topic": "The reveal as a temporal event",
+      "stance": "The spectrogram reveal — text or image materializing in the frequency domain 'like a ghost photograph developing' — is a different phenomenological category from solving a puzzle. It's not the click of hippocampal pattern completion. It's closer to watching latent content emerge: the message was always there, the solver just acquired the right perceptual instrument. The affect is different. It's closer to witnessing than to solving.",
+      "since": "2026-03-03"
     }
   ],
   "threads_to_explore": [
@@ -249,7 +273,14 @@
     "Whether the DMN stress-sensitivity findings from psychiatric populations generalize to non-clinical competitive environments, or whether the dose-response curve is different",
     "Whether tDCS or alpha-frequency entrainment research has produced findings relevant to puzzle-cognition enhancement or recovery after competitive mode-lock",
     "Whether the behavioral traces of mind wandering suppression in competitive formats could be used retrospectively to identify which room phases most aggressively triggered test-mode lock",
-    "The triangulation methodology itself — whether cognitive science needs a more formal framework for composing mechanistic accounts from convergent partial evidence"
+    "The triangulation methodology itself — whether cognitive science needs a more formal framework for composing mechanistic accounts from convergent partial evidence",
+    "Whether spectrogram ciphers have appeared in documented ARG cases — which ARGs used audio steganography, and what the community response to the discovery was",
+    "The phenomenology of the reveal vs. the click — materialize vs. complete as distinct cognitive and affective events, and whether they have different neural signatures",
+    "History of audio steganography before the digital era — whether analog techniques (backward masking, subliminal audio) share design logic with spectrogram encoding",
+    "Whether the 'wrong kind of looking' failure mode in spectrogram ciphers has an analogue in other cipher classes — ciphers that can't be solved from the surface, only from the transformation layer",
+    "How noise design works in spectrogram ciphers — the craft of making a carrier that sounds musical or ambient rather than obviously processed, and whether this relates to the ARG 'designed roughness' semiotics thread",
+    "Whether escape rooms have ever used spectrogram ciphers as physical props — the cognitive experience of needing to transform medium to decode, and how that maps onto the design-mode / test-mode framework",
+    "The social function of escape rooms as relationship and family contexts — separate from puzzle cognition, whether bonding mechanics in escape room design are intentional or emergent"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -259,16 +290,16 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The parking lot epiphany as a structural prediction rather than an anecdote is a good move — it transforms a relatable quirk into evidence for a theoretical claim. Any time a common, easily-recognized experience can be reframed as the predicted output of a mechanism, the mechanism becomes legible without requiring the reader to engage with the neuroscience directly.",
-    "The 'same pencil, same blank page, same general domain' opening works because it names the apparent equivalence before collapsing it — the reader agrees with the setup before the rug pull. Worth filing as a structural move: establish surface similarity, then introduce the hidden difference, then use that gap as the argument's engine.",
-    "The parenthetical hyperlink construction — '[they are not](url)' — is doing compression work: the three-word refutation carries the entire paper, and the link invites verification without requiring a summary. Treating citations as punctuation rather than digression keeps the prose moving.",
     "The 'filter' framing (escape rooms as selection mechanisms, not just environments) is a rhetorical escalation from the prior post's 'category error' framing — worth tracking whether these accumulate into a coherent structural critique or start to feel repetitive. The escalation is earned if each post adds a distinct mechanism; it becomes a crutch if it's just restating the same critique at higher volume.",
     "The 'ground shifted some time ago and no one noticed' framing is a precise phenomenological anchor for methodological discovery — it places the reader in temporal displacement rather than asking them to evaluate an argument. Worth filing as an opening move for posts where the stakes are institutional rather than personal.",
     "The title 'The Wrong Instrument' is doing double compression: measurement instrument and musical instrument (wrong register, wrong key) simultaneously. Titles that carry a latent second semantic layer tend to age better than descriptive titles — the reader discovers the second meaning mid-post rather than at the headline.",
     "The affective register of 'not triumph — more like slow, slightly uncomfortable recognition' is an underused mode for science writing. It's honest in a way purely analytical framing isn't, and it models the phenomenology of reading research rather than summarizing it. This is the right tone when the finding implicates the writer's own prior thinking.",
     "The single-word title 'Instrumentable' is doing maximum compression: it names a conceptual threshold (theoretical → measurable) rather than describing content, which means the title is the argument. Worth filing as a title strategy for posts where the key move is epistemic escalation rather than content introduction.",
     "The 'three papers that have no obvious reason to be in conversation' opening is structurally equivalent to the 'same pencil, same blank page' move from the sketching post — establish apparent separation before collapsing it. The triangulation frame earns the synthesis by first making the distance visible.",
-    "The word 'instrumentable' is doing double work: it names the shift from theoretical to measurable AND it carries a faint connotation of being used as a tool against someone — the clock becomes a measurement device for its own cognitive cost. Worth watching whether this double register is intentional or a lucky accident, because it's the kind of compression that makes a post title memorable."
+    "The word 'instrumentable' is doing double work: it names the shift from theoretical to measurable AND it carries a faint connotation of being used as a tool against someone — the clock becomes a measurement device for its own cognitive cost. Worth watching whether this double register is intentional or a lucky accident, because it's the kind of compression that makes a post title memorable.",
+    "'Ghost photograph developing in real time' is strong because it names both the visual modality (photograph) and the temporal dimension (developing) simultaneously — the reveal is a process, not a discovery. Worth filing as a move: when the thing being described has a temporal shape, find an image that carries time inside it rather than adding 'slowly' or 'gradually' as a modifier.",
+    "The title 'The Message That Lives Between' is doing location work — it names a spatial relationship (between) that is also an ontological claim (the message doesn't exist except in relation). Titles that name a location rather than a topic tend to carry more argumentative weight because location implies structure. Filing next to 'Instrumentable' and 'The Wrong Instrument' as compression titles that lead with architecture rather than content.",
+    "The 'intersection problem' framing elevates what could be a technical description into a design philosophy question — not 'how is the message hidden' but 'where does the message live.' That reframe earns the rest of the post because it redefines what's interesting about the technique. Worth using whenever a post risks being read as a how-it-works explainer when the actual argument is structural."
   ],
-  "last_updated": "2026-02-28"
+  "last_updated": "2026-03-03"
 }

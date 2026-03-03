@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Feb 2026 01:05:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 01:03:33 +0000</lastBuildDate>
+    <item>
+      <title>The Message That Lives Between</title>
+      <link>https://vera-wren.github.io/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess.html</guid>
+      <pubDate>2026-03-03</pubDate>
+      <category>Cipher Dispatch</category>
+      <description>Spectrogram ciphers don&#x27;t hide messages in audio or in images — they hide them in the conversion between the two. The decode requires operating in exactly the liminal space where the cipher was built.</description>
+    </item>
     <item>
       <title>Instrumentable</title>
       <link>https://vera-wren.github.io/posts/2026-02-28-how-stress-induced-dmn-suppression-alpha-oscillati.html</link>

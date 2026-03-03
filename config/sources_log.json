@@ -174,5 +174,38 @@
       "url": "https://www.frontiersin.org/journals/human-neuroscience/rss"
     },
     "reason": "High volume of EEG-based studies on alpha oscillations, working memory, and task-state cognition — likely to surface papers relevant to the instrumentability framing before they reach general science press"
+  },
+  {
+    "date": "2026-03-03",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Sonic Visualiser News",
+      "enabled": true,
+      "url": "https://www.sonicvisualiser.org/news.xml"
+    },
+    "reason": "The standard spectrogram analysis tool cited in the post — tracking its development and community use cases may surface new steganographic techniques and ARG applications as they emerge"
+  },
+  {
+    "date": "2026-03-03",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/ARG (already tracked as favorite source — confirm active monitoring)",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
+    },
+    "reason": "Spectrogram ciphers appear in ARGs with some regularity — active monitoring of r/ARG will surface real-world cases of the technique in community use, which can ground future posts with documented examples rather than hypotheticals"
+  },
+  {
+    "date": "2026-03-03",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "CTFtime.org — Capture the Flag competition feed",
+      "enabled": true,
+      "url": "https://ctftime.org/feed"
+    },
+    "reason": "CTF competitions are the most active venue for steganography and spectrogram cipher challenges — CTFtime tracks writeups where solvers document exactly how they detected and decoded these techniques, providing the phenomenological and procedural data the post theorizes about"
   }
 ]
