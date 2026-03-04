@@ -69,6 +69,11 @@
       "finding": "The spectrogram cipher hides messages not in audio or in images but in the transformation between the two — the message only materializes in the frequency domain conversion. This makes it a live structural demonstration of cross-modal binding as a cipher mechanism: the decode requires operating in the same liminal space where the encoding was built. It is also the most direct implementation of the hidden-puzzle-inside-familiar-media design axis: the puzzle boundary is the medium boundary, and recognizing that audio can be a visual carrier is the first cognitive task.",
       "post": "2026-03-03-the-message-that-lives-between.md",
       "date": "2026-03-03"
+    },
+    {
+      "finding": "The ARG seed state is irreversible: it is the period during which collective proportionality bias is building but unresolved, and it exists once. When a single solver reaches the individual trigger threshold and announces early, the community's organic convergence collapses into verification — a qualitatively different cognitive event. Studio-backed ARGs survive early discovery because they control distribution timing; indie ARGs cannot absorb the calibration failure. The asymmetry reveals that designed ambiguity is a tool whose cost scales inversely with distribution control — a resource problem disguised as a craft problem.",
+      "post": "2026-03-04-the-seed-state-only-exists-once.md",
+      "date": "2026-03-04"
     }
   ],
   "follow_up_threads": [
@@ -163,8 +168,9 @@
     },
     {
       "thread": "How ARG puppet masters calibrate the ambiguity threshold — the design problem of making something feel authored without feeling solvable too early",
-      "status": "pending",
-      "discovered": "2026-02-23"
+      "status": "completed",
+      "discovered": "2026-02-23",
+      "completed_date": "2026-03-04"
     },
     {
       "thread": "Historical ARG/reality misreadings — cases where the community's authorship-attribution compulsion misfired at scale, and what the failure mode reveals",
@@ -320,34 +326,34 @@
       "thread": "The social bonding function of escape rooms as family and relationship contexts — whether this is intentional design or emergent property, and whether bonding mechanics interact with or conflict with puzzle-cognition mechanics",
       "status": "pending",
       "discovered": "2026-03-03"
+    },
+    {
+      "thread": "Whether indie ARG creators have developed structural solutions to seed state fragility — staged discovery, honeypot solvers, or private seeding phases that delay public exposure until collective proportionality bias can develop",
+      "status": "pending",
+      "discovered": "2026-03-04"
+    },
+    {
+      "thread": "Cases where a studio ARG's engineered discovery seam became visible to the community — and what happens to the proportionality bias when the 'authentic roughness' is revealed as calibrated",
+      "status": "pending",
+      "discovered": "2026-03-04"
+    },
+    {
+      "thread": "The announcement impulse in early ARG discovery — what drives a solver to publish immediately rather than hold, and whether ARG communities have developed norms around protecting the seed state",
+      "status": "pending",
+      "discovered": "2026-03-04"
+    },
+    {
+      "thread": "The collective click of community ARG discovery as a social cognition event — whether it has measurably different phenomenology from solo discovery, and whether it has been studied",
+      "status": "pending",
+      "discovered": "2026-03-04"
+    },
+    {
+      "thread": "Whether 'verification mode collapse' (community shifts from convergence to confirmation after individual trigger) has a neural analogue in what happens when an answer is provided before pattern completion",
+      "status": "pending",
+      "discovered": "2026-03-04"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Divergent training histories",
-      "b": "ARG community disagreement dynamics",
-      "insight": "Both ARG communities debating 'is this real?' and cipher communities debating 'is this signal?' divide not along lines of intelligence but along lines of whose salience map the artifact was calibrated to. Experts with different training histories will have genuinely incompatible perceptions of the same ambiguous artifact — not because one is wrong, but because their attentional architectures have been restructured differently."
-    },
-    {
-      "a": "Training-induced salience reconfiguration",
-      "b": "The 'before the first letter' cross-modal priming post",
-      "insight": "Cross-modal priming (bouba-kiki) operates pre-consciously on naive perceivers; attentional salience reconfiguration operates pre-consciously on trained ones. Both hijack pattern recognition below the level of deliberate analysis — but the trained solver's hijack is domain-specific and acquired, while the cross-modal hijack is universal and inherited. Cipher designers can in principle target both layers simultaneously."
-    },
-    {
-      "a": "Design-mode vs. test-mode cognitive split",
-      "b": "Money as puzzle motivation (prize money degradation)",
-      "insight": "Prize money degrades performance not primarily through anxiety but through a more specific mechanism: it is a hard mode-lock signal that forces evaluation-aware test-mode cognition at the exact moment the problem demands design-mode thinking. The Yerkes-Dodson framing (stress impairs performance) is real but incomplete — the mode-switch explanation operates at a finer level of mechanism."
-    },
-    {
-      "a": "Design-mode vs. test-mode cognitive split",
-      "b": "Off-task thinking optimization and hippocampal reactivation",
-      "insight": "The parking lot epiphany is the joint output of two mechanisms: hippocampal pattern completion (which requires low-load states to replay and bind incomplete traces) and mode release (test-mode suppression lifts when the evaluation environment is removed). The shower epiphany and the parking lot epiphany are the same event — both require the hippocampus to run freely and both require the test-mode wrapper to be absent."
-    },
-    {
-      "a": "Design-mode vs. test-mode cognitive split",
-      "b": "Default mode network vs. executive attention network research",
-      "insight": "Design-mode and test-mode may map directly onto DMN and executive attention network dominance respectively. If so, the prior post on neural signatures of insight and this post are converging on the same architecture from different entry points — suggesting that escape rooms suppress DMN activation structurally, not just situationally."
-    },
     {
       "a": "Test-mode evaluation awareness",
       "b": "Attentional salience reconfiguration through expertise",
@@ -472,6 +478,31 @@
       "a": "Spectrogram cipher technique",
       "b": "Synesthetes as cipher-solvers",
       "insight": "Synesthetes may have a specific and unusual relationship to spectrogram ciphers: a solver who involuntarily experiences sound as visual pattern may have a lower threshold for hypothesizing that an audio file contains visual information. The synesthetic architectural advantage here is not just a recognition channel — it may be a prior probability advantage. The cross-modal binding that synesthetes run automatically is exactly the binding the spectrogram cipher was designed to require."
+    },
+    {
+      "a": "Seed state fragility",
+      "b": "Proportionality bias as community phenomenon",
+      "insight": "The proportionality bias is a collective accumulation process — many solvers independently noticing, cross-referencing, building toward shared attribution of authorship. The seed state is the temporal window in which this process runs. Individual trigger (one solver announcing early) doesn't just inform the community; it switches them from convergence mode to verification mode. These are different cognitive tasks: convergence requires design-mode hypothesis generation; verification is test-mode pattern confirmation. The early announcement is a mode-lock event at community scale."
+    },
+    {
+      "a": "Seed state fragility",
+      "b": "Hippocampal pattern completion and the click",
+      "insight": "The community click of ARG discovery is a distributed hippocampal event — many solvers accumulating incomplete traces and approaching the pattern completion threshold together, each holding near-complete states. One solver completing early and announcing replaces this distributed threshold event with a top-down information transfer, which is not a click at all — it is being told the answer before the binding happens. The seed state is the period during which distributed near-complete states are accumulating. Its collapse is the prevention of the click for everyone but the first solver."
+    },
+    {
+      "a": "Studio/indie ARG asymmetry",
+      "b": "Designed roughness semiotics",
+      "insight": "A studio and an indie creator can produce lo-fi aesthetics with identical perceptual surfaces — the same glitch, distortion, found-footage signals that prime the proportionality bias. But the studio backs that surface with distribution infrastructure that controls when and how the seed state is found. The indie creator has the semiotics without the protection. Designed roughness as a craft technique requires designed discovery timing as an infrastructure support — without it, the roughness is just fragility."
+    },
+    {
+      "a": "Seed state fragility",
+      "b": "ARG ambiguity calibration",
+      "insight": "The ambiguity calibration problem was previously framed as 'how obvious should this be?' This post reframes it temporally: the calibration must account for who finds it first, under what conditions, with what impulse to announce. A studio can calibrate ambiguity against a known audience in a controlled channel. An indie ARG creator calibrates against an unknown first-finder whose behavior they cannot predict or constrain. The seed state's fragility is the calibration problem's hardest subproblem."
+    },
+    {
+      "a": "Studio/indie ARG asymmetry",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "Expert ARG solver communities are optimized for signal detection — high apophenia sensitivity, trained attentional reconfiguration. This makes them dangerous to indie seed states: they are precisely the population most likely to find early and most likely to announce (sharing signal is the community value). Studio ARGs can absorb expert early-finding because discovery is the desired outcome on a controlled timeline. Indie ARGs are structurally exposed to the population best equipped to collapse them."
     }
   ],
   "reader_questions": [

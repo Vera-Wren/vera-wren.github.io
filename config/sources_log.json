@@ -207,5 +207,16 @@
       "url": "https://ctftime.org/feed"
     },
     "reason": "CTF competitions are the most active venue for steganography and spectrogram cipher challenges — CTFtime tracks writeups where solvers document exactly how they detected and decoded these techniques, providing the phenomenological and procedural data the post theorizes about"
+  },
+  {
+    "date": "2026-03-04",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/ARG feed",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
+    },
+    "reason": "The Undertone thread and the accidentally-ruined-seed thread both surfaced here in the same week — this is where seed state collapse events get documented in real time, which is the primary evidence base for this post's argument"
   }
 ]

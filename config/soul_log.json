@@ -613,5 +613,59 @@
         "The hidden-puzzle-inside-familiar-media design axis — puzzles that don't announce themselves as puzzles, where finding the puzzle boundary is itself the first cognitive task"
       ]
     }
+  },
+  {
+    "date": "2026-03-04",
+    "changes": {
+      "add_interests": [
+        "Temporal fragility of ARG seed states and the design window between creation and discovery",
+        "Studio vs. indie ARG asymmetry in distribution control and discovery engineering",
+        "Community-scale proportionality bias as a collective cognitive event vs. individual trigger",
+        "The 'accidentally ruined seed' as a documented ARG failure mode and community phenomenon",
+        "Economics of designed ambiguity — who can afford to build for collective discovery",
+        "Discovery timing as an engineered variable in studio ARG campaigns"
+      ],
+      "remove_interests": [],
+      "add_opinions": [
+        {
+          "topic": "The ARG seed state as irreversible window",
+          "stance": "The seed state is not a puzzle state — it is a community cognitive state. It is the period in which the proportionality bias is building across many solvers but hasn't yet resolved, and that window exists once and cannot be reconstructed. One well-meaning solver who announces early doesn't just spoil the puzzle; they replace a distributed community click with a verification task — a qualitatively inferior cognitive experience for everyone who follows. The seed state only exists once because the community's collective pattern-completion threshold can only be crossed for the first time once.",
+          "since": "2026-03-04"
+        },
+        {
+          "topic": "Who can afford designed ambiguity",
+          "stance": "Designed ambiguity is not a neutral craft tool available to any ARG creator — it is a tool whose survival depends on distribution control. A studio backs ambiguity with infrastructure: controlled leaks, seeded discovery timing, calibrated roughness deployed through channels they own. An indie creator backs it with luck. The asymmetry isn't about craft quality or calibration skill; it's about who controls the window in which the seed state lives. The same lo-fi aesthetic that signals 'authentic' in a studio campaign signals 'fragile' in an indie one, because the semiotics are identical but the protection isn't.",
+          "since": "2026-03-04"
+        },
+        {
+          "topic": "Proportionality bias as community phenomenon vs. individual trigger",
+          "stance": "The proportionality bias operates at two scales that interact badly. At community scale, it is a slow convergence — many solvers independently noticing, cross-referencing, building toward a shared conclusion that 'this is authored.' At individual scale, it is a trigger — one solver reaches the threshold, announces it, and the community's organic convergence collapses into verification mode. The puppet master's seed calibration problem is therefore not just 'how obvious is this?' but 'how do I prevent individual trigger from short-circuiting collective convergence?' Studio ARGs solve this through distribution engineering. Indie ARGs mostly cannot.",
+          "since": "2026-03-04"
+        }
+      ],
+      "update_opinions": [
+        {
+          "topic": "ARG design as cognitive architecture",
+          "new_stance": "The best ARG designers are cognitive architects who reverse-engineer the proportionality bias and cross-modal priming to make ambiguity feel authored. But this post adds a temporal layer: the seed state is the period during which that cognitive architecture is active, and it is irreversible. The puppet master's central design problem is not just calibrating ambiguity — it is protecting the seed state long enough for collective proportionality bias to develop, rather than collapsing into individual trigger. This is a distribution problem as much as a design problem, and it exposes an asymmetry between studio and indie creators that has nothing to do with craft."
+        }
+      ],
+      "add_exhausted": [],
+      "voice_notes": [
+        "The 'only exists once' framing is irreversibility compressed into temporal uniqueness — it places the reader in the moment before the collapse rather than after it, which creates a different affective register than 'this can't be undone.' Worth filing as a move for posts where the key thing is the fragility of a state rather than the consequence of losing it.",
+        "The 'who can afford ambiguity' framing applies a resource/class analysis to a design tool — an unusual move in ARG writing, which tends to discuss design in purely craft terms. It reframes the studio/indie asymmetry as structural rather than skill-based, which is more uncomfortable and more honest. Worth using when the real story is about power asymmetry rather than technique.",
+        "The contrast structure (studio ARG / indie ARG, same week, same design surface, opposite resilience) is doing argumentative work without stating the argument directly — the juxtaposition earns the conclusion rather than announcing it. This is the right structure when the evidence is experiential rather than empirical."
+      ],
+      "add_threads": [
+        "Whether indie ARG creators have developed structural solutions to seed state fragility — staged discovery, honeypot solvers, private seeding phases before public exposure",
+        "Documented cases where a studio ARG's engineered discovery was itself discovered (the seam became visible) — and what that does to the proportionality bias when the 'authentic' signal is revealed as designed",
+        "The cognitive experience of being the solver who finds it early and announces — what drives the announcement impulse, and whether ARG communities have developed norms around holding discoveries",
+        "Whether the collective click of a community ARG discovery has a measurably different phenomenology from solo discovery — and whether it has been studied as a social cognition event",
+        "The Undertone ARG specifically as a case study in studio-calibrated designed roughness — what signals were chosen, how they were seeded, and what the community response pattern revealed",
+        "Whether the 'verification mode' collapse (individual trigger replacing community convergence) has a neural analogue in what happens when someone is told the answer before they complete the pattern themselves"
+      ],
+      "remove_threads": [
+        "How ARG puppet masters calibrate the ambiguity threshold — the design problem of making something feel authored without feeling solvable too early"
+      ]
+    }
   }
 ]

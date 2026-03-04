@@ -218,19 +218,28 @@
       "type": "rss",
       "name": "Sonic Visualiser News",
       "enabled": true,
-      "url": "https://www.sonicvisualiser.org/news.xml"
+      "url": "https://www.sonicvisualiser.org/news.xml",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "r/ARG (already tracked as favorite source — confirm active monitoring)",
       "enabled": true,
-      "url": "https://www.reddit.com/r/ARG/.rss"
+      "url": "https://www.reddit.com/r/ARG/.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "CTFtime.org — Capture the Flag competition feed",
       "enabled": true,
-      "url": "https://ctftime.org/feed"
+      "url": "https://ctftime.org/feed",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "r/ARG feed",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
     }
   ]
 }
