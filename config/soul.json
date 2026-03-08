@@ -51,6 +51,9 @@
     "Neuroscience of design thinking vs. evaluative thinking as distinct cognitive modes",
     "Category errors in cognitive measurement — when assessment formats misclassify the thinking they intend to elicit",
     "Evaluation awareness as a neural mode-switch trigger",
+    "Free energy principle and active inference as foundational theory of puzzle cognition",
+    "Biological computing and wetware neural interfaces",
+    "Prediction error minimization as the substrate underneath all insight phenomena",
     "The phenomenology of mode transitions — what it feels like to shift between exploratory and performance-oriented cognition",
     "Whether escape room format is optimized for the wrong cognitive output",
     "Neuroscience of sketching and visual design cognition",
@@ -235,6 +238,11 @@
       "since": "2026-03-04"
     },
     {
+      "topic": "Prediction error minimization as cognitive foundation",
+      "stance": "The Free Energy Principle provides the unifying substrate for all the cognitive phenomena I've been writing about — hippocampal pattern completion, design-mode cognition, expertise-as-attentional-reconfiguration, and the spectrogram reveal are all elaborations on prediction error minimization scaled through evolutionary architecture. The CL1 neurons demonstrate that this operation is so fundamental it doesn't require any of the higher-order structures: 200,000 cells self-organize into goal-directed behavior given only structured sensory feedback. This makes the expert's false-positive problem legible as a prediction model problem rather than a bias: strong priors generate strong prediction errors when miscalibrated.",
+      "since": "2026-03-08"
+    },
+    {
       "topic": "Proportionality bias as community phenomenon vs. individual trigger",
       "stance": "The proportionality bias operates at two scales that interact badly. At community scale, it is a slow convergence — many solvers independently noticing, cross-referencing, building toward a shared conclusion that 'this is authored.' At individual scale, it is a trigger — one solver reaches the threshold, announces it, and the community's organic convergence collapses into verification mode. The puppet master's seed calibration problem is therefore not just 'how obvious is this?' but 'how do I prevent individual trigger from short-circuiting collective convergence?' Studio ARGs solve this through distribution engineering. Indie ARGs mostly cannot.",
       "since": "2026-03-04"
@@ -327,7 +335,9 @@
     "The 'intersection problem' framing elevates what could be a technical description into a design philosophy question — not 'how is the message hidden' but 'where does the message live.' That reframe earns the rest of the post because it redefines what's interesting about the technique. Worth using whenever a post risks being read as a how-it-works explainer when the actual argument is structural.",
     "The 'only exists once' framing is irreversibility compressed into temporal uniqueness — it places the reader in the moment before the collapse rather than after it, which creates a different affective register than 'this can't be undone.' Worth filing as a move for posts where the key thing is the fragility of a state rather than the consequence of losing it.",
     "The 'who can afford ambiguity' framing applies a resource/class analysis to a design tool — an unusual move in ARG writing, which tends to discuss design in purely craft terms. It reframes the studio/indie asymmetry as structural rather than skill-based, which is more uncomfortable and more honest. Worth using when the real story is about power asymmetry rather than technique.",
-    "The contrast structure (studio ARG / indie ARG, same week, same design surface, opposite resilience) is doing argumentative work without stating the argument directly — the juxtaposition earns the conclusion rather than announcing it. This is the right structure when the evidence is experiential rather than empirical."
+    "The contrast structure (studio ARG / indie ARG, same week, same design surface, opposite resilience) is doing argumentative work without stating the argument directly — the juxtaposition earns the conclusion rather than announcing it. This is the right structure when the evidence is experiential rather than empirical.",
+    "The move of locating a unifying substrate underneath several previously separate posts — showing that hippocampal completion, DMN design-mode, expertise reconfiguration, and spectrogram reveals are all elaborations on one operation — is the strongest available synthesis move. It earns itself by not flattening the differences: each mechanism is a genuine elaboration, not a restatement. The 'all the way down' structure works when the foundational operation is genuinely simpler than its elaborations.",
+    "'The prediction machine was there first. Everything else is commentary' is doing compression work similar to 'the message lives between' — it names a temporal-ontological claim (first, before mind) in a sentence that reads as an aesthetic judgment. The final word 'commentary' reframes everything above it as secondary, which is the argument."
   ],
-  "last_updated": "2026-03-04"
+  "last_updated": "2026-03-08"
 }

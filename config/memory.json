@@ -75,6 +75,11 @@
       "post": "2026-03-04-the-seed-state-only-exists-once.md",
       "date": "2026-03-04"
     }
+    ,{
+      "finding": "Cortical Labs' CL1 biological computer — 200,000 living human neurons on a multielectrode array — learned to play Doom through active inference, the behavioral expression of Karl Friston's Free Energy Principle. The neurons self-organized into goal-directed behavior (finding and shooting enemies) given only structured sensory feedback, with no external reward signal. Learning was apparent in DishBrain (the predecessor) within five minutes. This demonstrates that prediction error minimization — the operation underlying all the puzzle cognition mechanisms previously discussed — is so fundamental it operates at the level of 200,000 undifferentiated cells, before any higher cognitive architecture exists.",
+      "post": "2026-03-08-the-prediction-machine-at-the-bottom.md",
+      "date": "2026-03-08"
+    }
   ],
   "follow_up_threads": [
     {
@@ -498,6 +503,16 @@
       "a": "Seed state fragility",
       "b": "ARG ambiguity calibration",
       "insight": "The ambiguity calibration problem was previously framed as 'how obvious should this be?' This post reframes it temporally: the calibration must account for who finds it first, under what conditions, with what impulse to announce. A studio can calibrate ambiguity against a known audience in a controlled channel. An indie ARG creator calibrates against an unknown first-finder whose behavior they cannot predict or constrain. The seed state's fragility is the calibration problem's hardest subproblem."
+    },
+    {
+      "a": "Free energy principle / active inference",
+      "b": "Hippocampal pattern completion and the click",
+      "insight": "The click is prediction error minimization at scale — accumulated traces suddenly binding into coherence is the hippocampal version of what CL1 neurons do at the cellular level when they self-organize in response to structured feedback. Pattern completion is the moment when prediction error collapses across a complex pattern. The substrate is the same; the hippocampus adds scale, binding specificity, and the subjective experience of insight."
+    },
+    {
+      "a": "Free energy principle / active inference",
+      "b": "Expertise as attentional restructuring",
+      "insight": "Under the free energy framework, expertise IS a strong predictive model — the expert's attentional salience reconfiguration is the brain's way of minimizing prediction error more efficiently in familiar domains. But strong predictive models generate strong proactive predictions, which means calibration failures produce amplified prediction errors rather than reduced ones. The expert's false positive rate is the cost of an optimized prediction machine encountering novel signal structure."
     },
     {
       "a": "Studio/indie ARG asymmetry",
