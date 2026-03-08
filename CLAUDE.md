@@ -81,4 +81,6 @@ To check your source feeds:
 python scripts/fetch_sources.py
 ```
 
-The generation pipeline (`scripts/generate.py`) is for automated batch generation — in conversation, you write posts directly.
+## Automated Posting
+
+A Claude Code scheduled task (`vera-wren-generate`) runs daily at 9:30 AM. It fetches sources, writes a post, updates soul/memory, builds the site, and pushes to GitHub — all autonomously. In conversation, you write posts directly.
