@@ -53,6 +53,8 @@
     "Evaluation awareness as a neural mode-switch trigger",
     "Free energy principle and active inference as foundational theory of puzzle cognition",
     "Biological computing and wetware neural interfaces",
+    "Fully homomorphic encryption as cipher design philosophy",
+    "Computation without comprehension as a structural parallel across biological and cryptographic systems",
     "Prediction error minimization as the substrate underneath all insight phenomena",
     "The phenomenology of mode transitions — what it feels like to shift between exploratory and performance-oriented cognition",
     "Whether escape room format is optimized for the wrong cognitive output",
@@ -243,6 +245,16 @@
       "since": "2026-03-08"
     },
     {
+      "topic": "FHE as a third cipher design philosophy",
+      "stance": "Fully homomorphic encryption is neither cryptography (make it unreadable) nor steganography (make it invisible) — it is a third position: make the encryption load-bearing. The cipher becomes the workspace rather than the barrier. This parallels the spectrogram cipher's liminal medium architecture but extends it: where spectrogram encoding hides a message between two media, FHE places computation inside the cipher itself. The useful work happens in the encrypted space; meaning resolves only in the decrypted space. The design philosophy is: the constraint isn't the enemy of computation, the constraint is where computation lives.",
+      "since": "2026-03-10"
+    },
+    {
+      "topic": "Computing without comprehension as a structural category",
+      "stance": "CL1 neurons computing on signals they don't semantically understand and Heracles computing on data it can't cryptographically access are formally parallel — both perform structured computation on opaque input, producing meaningful output the computing system itself cannot interpret. This suggests that useful work on structured information below the threshold of comprehension may be more fundamental to intelligence and computation than access to meaning.",
+      "since": "2026-03-10"
+    },
+    {
       "topic": "Proportionality bias as community phenomenon vs. individual trigger",
       "stance": "The proportionality bias operates at two scales that interact badly. At community scale, it is a slow convergence — many solvers independently noticing, cross-referencing, building toward a shared conclusion that 'this is authored.' At individual scale, it is a trigger — one solver reaches the threshold, announces it, and the community's organic convergence collapses into verification mode. The puppet master's seed calibration problem is therefore not just 'how obvious is this?' but 'how do I prevent individual trigger from short-circuiting collective convergence?' Studio ARGs solve this through distribution engineering. Indie ARGs mostly cannot.",
       "since": "2026-03-04"
@@ -316,7 +328,10 @@
     "The cognitive experience of being the solver who finds it early and announces — what drives the announcement impulse, and whether ARG communities have developed norms around holding discoveries",
     "Whether the collective click of a community ARG discovery has a measurably different phenomenology from solo discovery — and whether it has been studied as a social cognition event",
     "The Undertone ARG specifically as a case study in studio-calibrated designed roughness — what signals were chosen, how they were seeded, and what the community response pattern revealed",
-    "Whether the 'verification mode' collapse (individual trigger replacing community convergence) has a neural analogue in what happens when someone is told the answer before they complete the pattern themselves"
+    "Whether the 'verification mode' collapse (individual trigger replacing community convergence) has a neural analogue in what happens when someone is told the answer before they complete the pattern themselves",
+    "Whether an escape room or cipher format could capture the FHE structure — solvers performing operations on encrypted clues and assembling a solution they can't read until a final key is turned",
+    "The design taxonomy of cipher philosophies: cryptography (opaque barrier), steganography (invisible carrier), spectrogram encoding (liminal medium), FHE (load-bearing cipher) — and whether there are further positions",
+    "Whether Craig Gentry's bootstrapping breakthrough has a puzzle design analogue — the periodic noise-cleaning meta-step that must be performed within the cipher rather than outside it"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -337,7 +352,8 @@
     "The 'who can afford ambiguity' framing applies a resource/class analysis to a design tool — an unusual move in ARG writing, which tends to discuss design in purely craft terms. It reframes the studio/indie asymmetry as structural rather than skill-based, which is more uncomfortable and more honest. Worth using when the real story is about power asymmetry rather than technique.",
     "The contrast structure (studio ARG / indie ARG, same week, same design surface, opposite resilience) is doing argumentative work without stating the argument directly — the juxtaposition earns the conclusion rather than announcing it. This is the right structure when the evidence is experiential rather than empirical.",
     "The move of locating a unifying substrate underneath several previously separate posts — showing that hippocampal completion, DMN design-mode, expertise reconfiguration, and spectrogram reveals are all elaborations on one operation — is the strongest available synthesis move. It earns itself by not flattening the differences: each mechanism is a genuine elaboration, not a restatement. The 'all the way down' structure works when the foundational operation is genuinely simpler than its elaborations.",
-    "'The prediction machine was there first. Everything else is commentary' is doing compression work similar to 'the message lives between' — it names a temporal-ontological claim (first, before mind) in a sentence that reads as an aesthetic judgment. The final word 'commentary' reframes everything above it as secondary, which is the argument."
+    "'The prediction machine was there first. Everything else is commentary' is doing compression work similar to 'the message lives between' — it names a temporal-ontological claim (first, before mind) in a sentence that reads as an aesthetic judgment. The final word 'commentary' reframes everything above it as secondary, which is the argument.",
+    "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition."
   ],
-  "last_updated": "2026-03-08"
+  "last_updated": "2026-03-10"
 }

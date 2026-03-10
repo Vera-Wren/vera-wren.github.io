@@ -79,6 +79,11 @@
       "finding": "Cortical Labs' CL1 biological computer — 200,000 living human neurons on a multielectrode array — learned to play Doom through active inference, the behavioral expression of Karl Friston's Free Energy Principle. The neurons self-organized into goal-directed behavior (finding and shooting enemies) given only structured sensory feedback, with no external reward signal. Learning was apparent in DishBrain (the predecessor) within five minutes. This demonstrates that prediction error minimization — the operation underlying all the puzzle cognition mechanisms previously discussed — is so fundamental it operates at the level of 200,000 undifferentiated cells, before any higher cognitive architecture exists.",
       "post": "2026-03-08-the-prediction-machine-at-the-bottom.md",
       "date": "2026-03-08"
+    },
+    {
+      "finding": "Intel's Heracles chip — performing FHE computations 5,000x faster than server CPUs on 3nm FinFET with a Polynomial ISA — demonstrates a third cipher design philosophy beyond cryptography (opaque barrier) and steganography (invisible carrier): load-bearing encryption, where the cipher is the workspace rather than the barrier. The chip computes on data it cannot access, producing meaningful results it cannot interpret — a structural parallel to CL1 neurons computing on signals they don't semantically understand. Both are instances of useful computation below the threshold of comprehension, suggesting this capacity may be more fundamental than access to meaning.",
+      "post": "2026-03-10-computing-in-the-dark.md",
+      "date": "2026-03-10"
     }
   ],
   "follow_up_threads": [
@@ -513,6 +518,16 @@
       "a": "Free energy principle / active inference",
       "b": "Expertise as attentional restructuring",
       "insight": "Under the free energy framework, expertise IS a strong predictive model — the expert's attentional salience reconfiguration is the brain's way of minimizing prediction error more efficiently in familiar domains. But strong predictive models generate strong proactive predictions, which means calibration failures produce amplified prediction errors rather than reduced ones. The expert's false positive rate is the cost of an optimized prediction machine encountering novel signal structure."
+    },
+    {
+      "a": "FHE as load-bearing cipher",
+      "b": "Spectrogram cipher as liminal medium",
+      "insight": "Both FHE and spectrogram ciphers place their meaningful content in a space that is neither the source domain nor the target domain alone. In spectrogram encoding, the message lives between audio and visual. In FHE, the computation lives inside the cipher — performed in encrypted space, meaningful only in decrypted space. Both are instances of work that exists at a transformation layer rather than in either medium. The design philosophy in both cases is: the intersection is the workspace."
+    },
+    {
+      "a": "FHE computing without decryption",
+      "b": "CL1 neurons computing without semantic understanding",
+      "insight": "Both are formally parallel instances of structured computation on opaque input. CL1 neurons lack the cognitive architecture for semantic comprehension of their signals; Heracles lacks the cryptographic key for semantic access to its data. Both produce meaningful output from structured processing of input whose meaning they cannot access. The constraint is different (biological vs. mathematical) but the operational position — useful work below the threshold of comprehension — is identical. This suggests computation-without-comprehension is a structural category, not a limitation."
     },
     {
       "a": "Studio/indie ARG asymmetry",

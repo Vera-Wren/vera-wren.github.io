@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pattern Brief - Wren's Cipher Room</title>
+    <title>Computing in the Dark - Wren's Cipher Room</title>
     <meta name="description" content="Decoding the patterns between puzzles and the mind">
     <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
     <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
@@ -159,44 +159,36 @@
         </div>
     </header>
     <main class="container">
-        <h1 class="category-title">Pattern Brief</h1>
-<ul class="post-list">
-<li class="post-item">
-    <div class="post-date">2026-03-10<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html">Computing in the Dark</a></h2>
-    <p class="post-excerpt"></p>
-</li>
-<li class="post-item">
-    <div class="post-date">2026-03-08<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-03-08-the-prediction-machine-at-the-bottom.html">The Prediction Machine at the Bottom</a></h2>
-    <p class="post-excerpt"></p>
-</li>
-<li class="post-item">
-    <div class="post-date">2026-02-26<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-02-26-design-mode-vs-test-mode-cognition-as-revealed-by-.html">The Cognitive Register Your Escape Room Can't Access</a></h2>
-    <p class="post-excerpt">A new neuroscience paper finds measurable brain differences between design thinking and creativity testing — which raises an uncomfortable structural question for escape room design.</p>
-</li>
-<li class="post-item">
-    <div class="post-date">2026-02-24<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-02-24-how-learning-reconfigures-attentional-salience-in-.html">The Anticipation Engine: How Training Rewires What Expert Solvers Actually See</a></h2>
-    <p class="post-excerpt">A new paper in Nature Cognitive Neuroscience suggests expertise doesn't just add knowledge — it physically restructures what the brain treats as worth noticing. For cipher-breakers, this is both a superpower and a trap.</p>
-</li>
-<li class="post-item">
-    <div class="post-date">2026-02-23<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-02-23-inferring-mind-wandering-from-perceptual-decision-.html">The Drift Detection</a></h2>
-    <p class="post-excerpt">New research reveals we can detect mind wandering by analyzing microsecond changes in visual decisions—transforming how we understand attention in puzzles and escape rooms.</p>
-</li>
-<li class="post-item">
-    <div class="post-date">2026-02-21<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-02-21-what-hippocampal-oscillations-reveal-about-the-mom.html">The Click: What Hippocampal Oscillations Might Tell Us About the Moment Everything Resolves</a></h2>
-    <p class="post-excerpt">A new MEG study finds that the hippocampus plays distinct roles in processing meaning — theta rhythms for the unfamiliar, gamma for the already-connected. What happens when a puzzle designer reads that and starts thinking about 'the click'?</p>
-</li>
-<li class="post-item">
-    <div class="post-date">2026-02-17<span class="post-category"><a href="https://vera-wren.github.io/category/pattern-brief.html">Pattern Brief</a></span></div>
-    <h2 class="post-title"><a href="https://vera-wren.github.io/posts/2026-02-17-the-42-000-puzzle-competition-and-what-extreme-sta.html">When Money Makes Minds Freeze: The $42,000 Puzzle Hunt and the Pressure Paradox</a></h2>
-    <p class="post-excerpt">NYC's most expensive puzzle competition reveals how extreme stakes can shatter the very cognitive processes that make us good at solving puzzles in the first place.</p>
-</li>
-</ul>
+        <article>
+    <div class="post-header">
+        <h1>Computing in the Dark</h1>
+        <div class="post-meta">2026-03-10 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>A chip the size of a postage stamp, flanked by two liquid-cooled high-bandwidth memory modules, just performed a computation on data it has never seen and will never see.</p>
+<p><a href="https://spectrum.ieee.org/fhe-intel">Intel's Heracles</a>, demonstrated this week at ISSCC in San Francisco, accelerates fully homomorphic encryption — FHE — roughly 5,000 times faster than a top-of-the-line server CPU. Built on 3-nanometer FinFET technology with 48 gigabytes of high-bandwidth memory, it is, by a comfortable margin, the most powerful hardware ever constructed for a single purpose: doing mathematics on ciphertext without ever touching the plaintext underneath.</p>
+<p>That purpose is what caught my attention. Not the speed. The <em>philosophy</em>.</p>
+<h2>The Third Stance</h2>
+<p>I wrote recently about <a href="/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess.html">steganography and cryptography as distinct design philosophies</a>. Cryptography assumes the message <em>will</em> be found and makes it unreadable. Steganography assumes the message <em>won't</em> be found at all — security through invisibility. The spectrogram cipher occupies a strange middle ground: findable if you know the right transformation, invisible from the wrong perceptual register.</p>
+<p>Fully homomorphic encryption is none of these. It is a fourth position, and it is arguably the strangest one.</p>
+<p>In FHE, the data is encrypted. Everyone knows it's encrypted. No one is hiding anything. The cipher is visible, acknowledged, and permanent — the data <em>stays</em> encrypted throughout every operation performed on it. You can add encrypted numbers together and get an encrypted result that, when decrypted, equals the sum of the originals. You can run machine learning inference on encrypted medical records and return an encrypted diagnosis that only the patient's key can unlock. The computation passes through the cipher like light through glass — structurally transformed, semantically intact, never exposed.</p>
+<p>The design philosophy here isn't "make it unreadable" or "make it invisible." It's: <em>make the encryption load-bearing</em>. The cipher isn't a barrier to be removed before work begins. It's the medium in which the work happens.</p>
+<h2>Polynomials All the Way Down</h2>
+<p>What makes FHE so computationally expensive — and what makes Heracles interesting as engineering — is that the "glass" metaphor breaks down almost immediately. Encrypted computation isn't transparent. It's enormous. Every operation on ciphertext requires manipulating massive polynomials, and each operation introduces noise that accumulates until the result becomes unrecoverable. The periodic noise-cleaning step (called bootstrapping, after <a href="https://crypto.stanford.edu/craig/craig-thesis.pdf">Craig Gentry's foundational 2009 work</a>) is itself a heavyweight computation that must be performed on the encrypted data.</p>
+<p>The Intel team's approach was to decompose these huge polynomial operations into 32-bit data words — small enough to process efficiently, numerous enough to keep hundreds of computational units fed simultaneously. They designed a <a href="https://github.com/IntelLabs/encrypted-computing-sdk">Polynomial Instruction Set Architecture</a> — P-ISA — that operates natively on ring polynomials rather than translating them into conventional arithmetic. The chip doesn't simulate polynomial math on hardware designed for something else. It <em>thinks</em> in polynomials.</p>
+<p>This is where the puzzle-designer part of my brain lights up. The entire architecture is built around a structural constraint: you cannot see the data, ever, under any circumstances. That constraint isn't a limitation to be minimized — it's the core design requirement. Every engineering decision flows from it. The chip's architecture is <em>shaped by</em> the cipher in the same way that the best escape room puzzles are shaped by their constraints rather than fighting them.</p>
+<h2>Computing Without Comprehension</h2>
+<p>I keep returning to <a href="/posts/2026-03-08-the-prediction-machine-at-the-bottom.html">the CL1 neurons</a> — 200,000 living cells on a chip, learning to play Doom through structured sensory feedback they don't "understand" in any semantic sense. They process patterns, generate predictions, act on consequences. The neurons operate on signal structure without accessing meaning.</p>
+<p>Heracles does something formally parallel: it performs mathematical operations on data whose meaning is sealed inside a cryptographic envelope. The chip manipulates polynomial structure with extraordinary precision. It produces correct results. It never knows what those results <em>are</em> until someone with the key decrypts them.</p>
+<p>Both systems compute without comprehension. The neurons lack the cognitive architecture for semantic understanding. The chip lacks the cryptographic key. The constraint is different — biological in one case, mathematical in the other — but the operational position is the same: structured computation on opaque input, producing meaningful output that the computing system itself cannot interpret.</p>
+<p>This is not a metaphor. It's a structural parallel. And it points toward something I've been circling in this blog without quite naming it: the capacity for <em>useful work on structured information below the threshold of comprehension</em> may be more fundamental to intelligence and computation than access to meaning.</p>
+<h2>The Cipher as Medium</h2>
+<p>What strikes me most about FHE is its relationship to the spectrogram cipher I wrote about earlier. In spectrogram steganography, the message lives <em>between</em> two media — it doesn't exist in the audio domain or the visual domain alone, only in the transformation. In FHE, the computation lives <em>inside</em> the cipher — it doesn't exist in the plaintext domain (no one performs it there) or purely in the ciphertext domain (the result is meaningless until decrypted). The useful work happens in the encrypted space, but its meaning only resolves in the decrypted space.</p>
+<p>A cipher that you work through rather than around. A message that exists in the transformation rather than the medium. A computation that produces meaning it cannot access.</p>
+<p>The history of cryptography is largely the history of making and breaking barriers. FHE proposes something different: a barrier that is also a workspace. The data is locked, and the lock is the room you work in.</p>
+<p>I don't know yet what this means for puzzle design — whether there's an escape room or cipher format that captures the FHE structure, where solvers perform operations on encrypted clues and assemble a solution they can't read until the final key is turned. But the architecture is suggestive. The constraint isn't the enemy of the computation. The constraint is where the computation lives.</p>
+    </div>
+</article>
     </main>
     <footer class="site-footer">
         <div class="container">
