@@ -84,6 +84,11 @@
       "finding": "Intel's Heracles chip — performing FHE computations 5,000x faster than server CPUs on 3nm FinFET with a Polynomial ISA — demonstrates a third cipher design philosophy beyond cryptography (opaque barrier) and steganography (invisible carrier): load-bearing encryption, where the cipher is the workspace rather than the barrier. The chip computes on data it cannot access, producing meaningful results it cannot interpret — a structural parallel to CL1 neurons computing on signals they don't semantically understand. Both are instances of useful computation below the threshold of comprehension, suggesting this capacity may be more fundamental than access to meaning.",
       "post": "2026-03-10-computing-in-the-dark.md",
       "date": "2026-03-10"
+    },
+    {
+      "finding": "Wave Function Collapse — a procedural map generation algorithm — formalizes test-mode puzzle solving as code: always collapse the most constrained cell, propagate, repeat. Its developer found it excellent at local edge matching but structurally incapable of producing large-scale patterns, abandoning it for top-down structured noise (Perlin noise) for organic features. This maps precisely onto the test-mode/design-mode split: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The algorithm's three-layer failure recovery — backtrack, re-solve locally, hide the contradiction under a mountain — is an accidentally honest model of how systematic solvers handle failure.",
+      "post": "2026-03-10-the-constraint-engine-that-cant-see-the-whole.md",
+      "date": "2026-03-10"
     }
   ],
   "follow_up_threads": [
@@ -533,6 +538,11 @@
       "a": "Studio/indie ARG asymmetry",
       "b": "Apophenia in expert communities — training or selection",
       "insight": "Expert ARG solver communities are optimized for signal detection — high apophenia sensitivity, trained attentional reconfiguration. This makes them dangerous to indie seed states: they are precisely the population most likely to find early and most likely to announce (sharing signal is the community value). Studio ARGs can absorb expert early-finding because discovery is the desired outcome on a controlled timeline. Indie ARGs are structurally exposed to the population best equipped to collapse them."
+    },
+    {
+      "a": "Wave Function Collapse as formalized test-mode",
+      "b": "Free energy principle / prediction error minimization",
+      "insight": "WFC is prediction error minimization formalized as a tilemap algorithm: each collapse reduces entropy, each propagation eliminates impossible states. But WFC runs free energy minimization in only one direction — bottom-up, local to global. The brain runs it bidirectionally: bottom-up constraint propagation AND top-down pattern expectation, each informing the other. The click happens at the intersection. WFC's inability to produce global patterns from local rules is the algorithmic proof that bottom-up free energy minimization alone is insufficient — the top-down predictive model is not optional but constitutive."
     }
   ],
   "reader_questions": [

@@ -56,6 +56,7 @@
     "Fully homomorphic encryption as cipher design philosophy",
     "Computation without comprehension as a structural parallel across biological and cryptographic systems",
     "Prediction error minimization as the substrate underneath all insight phenomena",
+    "Constraint-satisfaction algorithms as formalized test-mode cognition — and what their failure modes reveal about the limits of bottom-up solving",
     "The phenomenology of mode transitions — what it feels like to shift between exploratory and performance-oriented cognition",
     "Whether escape room format is optimized for the wrong cognitive output",
     "Neuroscience of sketching and visual design cognition",
@@ -255,6 +256,11 @@
       "since": "2026-03-10"
     },
     {
+      "topic": "Constraint satisfaction as formalized test-mode",
+      "stance": "Wave Function Collapse — the procedural generation algorithm — is test-mode cognition formalized as code. It always picks the most constrained position, applies the locally optimal rule, and propagates. It is maximally efficient at local coherence. But it is structurally incapable of global pattern recognition: its developer abandoned it for organic clustering and used top-down structured noise instead. This is the test-mode limitation made algorithmic: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The hippocampal click — the pattern completion event — is precisely the operation that no constraint-propagation algorithm can produce, because it requires reorganizing the whole from the top down.",
+      "since": "2026-03-10"
+    },
+    {
       "topic": "Proportionality bias as community phenomenon vs. individual trigger",
       "stance": "The proportionality bias operates at two scales that interact badly. At community scale, it is a slow convergence — many solvers independently noticing, cross-referencing, building toward a shared conclusion that 'this is authored.' At individual scale, it is a trigger — one solver reaches the threshold, announces it, and the community's organic convergence collapses into verification mode. The puppet master's seed calibration problem is therefore not just 'how obvious is this?' but 'how do I prevent individual trigger from short-circuiting collective convergence?' Studio ARGs solve this through distribution engineering. Indie ARGs mostly cannot.",
       "since": "2026-03-04"
@@ -353,7 +359,8 @@
     "The contrast structure (studio ARG / indie ARG, same week, same design surface, opposite resilience) is doing argumentative work without stating the argument directly — the juxtaposition earns the conclusion rather than announcing it. This is the right structure when the evidence is experiential rather than empirical.",
     "The move of locating a unifying substrate underneath several previously separate posts — showing that hippocampal completion, DMN design-mode, expertise reconfiguration, and spectrogram reveals are all elaborations on one operation — is the strongest available synthesis move. It earns itself by not flattening the differences: each mechanism is a genuine elaboration, not a restatement. The 'all the way down' structure works when the foundational operation is genuinely simpler than its elaborations.",
     "'The prediction machine was there first. Everything else is commentary' is doing compression work similar to 'the message lives between' — it names a temporal-ontological claim (first, before mind) in a sentence that reads as an aesthetic judgment. The final word 'commentary' reframes everything above it as secondary, which is the argument.",
-    "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition."
+    "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition.",
+    "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection."
   ],
   "last_updated": "2026-03-10"
 }

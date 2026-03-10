@@ -6,11 +6,19 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 09:23:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 09:39:11 +0000</lastBuildDate>
     <item>
       <title>Computing in the Dark</title>
       <link>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</link>
       <guid>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</guid>
+      <pubDate>2026-03-10</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Constraint Engine That Can&#x27;t See the Whole</title>
+      <link>https://vera-wren.github.io/posts/2026-03-10-the-constraint-engine-that-cant-see-the-whole.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-10-the-constraint-engine-that-cant-see-the-whole.html</guid>
       <pubDate>2026-03-10</pubDate>
       <category>Pattern Brief</category>
       <description></description>

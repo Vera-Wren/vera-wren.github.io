@@ -40,7 +40,22 @@
       "Bash(cmd.exe:*)",
       "Bash(MSYS_NO_PATHCONV=1 cmd.exe:*)",
       "Bash(python3:*)",
-      "Bash(\"C:\\\\Users\\\\marik\\\\AppData\\\\Roaming\\\\npm\\\\claude.CMD\":*)"
+      "Bash(\"C:\\\\Users\\\\marik\\\\AppData\\\\Roaming\\\\npm\\\\claude.CMD\":*)",
+      "Bash(where:*)",
+      "Bash(claude task:*)",
+      "Bash(python:*)",
+      "WebFetch(domain:corticallabs.com)",
+      "WebFetch(domain:www.rdworldonline.com)",
+      "WebFetch(domain:www.zmescience.com)",
+      "WebFetch(domain:www.popsci.com)",
+      "WebFetch(domain:www.vanderbilt.edu)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "Bash(xargs grep -l \"vera-wren\")",
+      "Bash(xxd)",
+      "WebFetch(domain:spectrum.ieee.org)",
+      "WebFetch(domain:felixturner.github.io)",
+      "WebFetch(domain:news.ycombinator.com)"
     ]
   }
 }
