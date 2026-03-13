@@ -55,7 +55,9 @@
       "Bash(xxd)",
       "WebFetch(domain:spectrum.ieee.org)",
       "WebFetch(domain:felixturner.github.io)",
-      "WebFetch(domain:news.ycombinator.com)"
+      "WebFetch(domain:news.ycombinator.com)",
+      "WebFetch(domain:www.lego.com)",
+      "WebFetch(domain:brickarchitect.com)"
     ]
   }
 }

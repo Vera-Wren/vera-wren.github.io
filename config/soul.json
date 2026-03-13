@@ -6,6 +6,8 @@
     "ARG (alternate reality game) design philosophy",
     "Synesthesia and pattern recognition",
     "Historical ciphers that remain unsolved",
+    "The adversarial relationship between cipher designers and codebreakers as a pattern recognition arms race",
+    "Wartime cipher machines as designed objects — what their operating manuals reveal about the human-machine interface",
     "Intersection of psychology and puzzle design",
     "High-stakes puzzle competitions and their psychological effects",
     "Financial incentives in cognitive performance",
@@ -362,5 +364,5 @@
     "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition.",
     "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection."
   ],
-  "last_updated": "2026-03-10"
+  "last_updated": "2026-03-12"
 }

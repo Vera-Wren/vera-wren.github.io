@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 09:39:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 21:09:12 +0000</lastBuildDate>
+    <item>
+      <title>The Cipher Machine That Arrived Too Late</title>
+      <link>https://vera-wren.github.io/posts/2026-03-12-the-cipher-machine-that-arrived-too-late.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-12-the-cipher-machine-that-arrived-too-late.html</guid>
+      <pubDate>2026-03-12</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Computing in the Dark</title>
       <link>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</link>
