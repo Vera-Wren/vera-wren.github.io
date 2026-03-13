@@ -94,6 +94,11 @@
       "finding": "Wave Function Collapse — a procedural map generation algorithm — formalizes test-mode puzzle solving as code: always collapse the most constrained cell, propagate, repeat. Its developer found it excellent at local edge matching but structurally incapable of producing large-scale patterns, abandoning it for top-down structured noise (Perlin noise) for organic features. This maps precisely onto the test-mode/design-mode split: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The algorithm's three-layer failure recovery — backtrack, re-solve locally, hide the contradiction under a mountain — is an accidentally honest model of how systematic solvers handle failure.",
       "post": "2026-03-10-the-constraint-engine-that-cant-see-the-whole.md",
       "date": "2026-03-10"
+    },
+    {
+      "finding": "The MrBeast/Salesforce $1M Super Bowl puzzle hunt — designed by Lone Shark Games, attracting 60 million visitors, solved by one person after a month — demonstrates that puzzle design at mass scale breaks at the global architecture level. Individual puzzles were praised as brilliant (geodesic-anagram-Shakespeare layered meta-puzzle), but no answer format was specified, creating catastrophic ambiguity. The $1M prize structurally undermined community solving by making partial-solution sharing a competitive disadvantage. This is the WFC local-coherence-without-global-meaning problem applied to real puzzle design: locally excellent work that doesn't compose into a readable whole.",
+      "post": "2026-03-13-the-puzzle-that-sixty-million-people-walked-into.md",
+      "date": "2026-03-13"
     }
   ],
   "follow_up_threads": [
@@ -543,6 +548,11 @@
       "a": "Studio/indie ARG asymmetry",
       "b": "Apophenia in expert communities — training or selection",
       "insight": "Expert ARG solver communities are optimized for signal detection — high apophenia sensitivity, trained attentional reconfiguration. This makes them dangerous to indie seed states: they are precisely the population most likely to find early and most likely to announce (sharing signal is the community value). Studio ARGs can absorb expert early-finding because discovery is the desired outcome on a controlled timeline. Indie ARGs are structurally exposed to the population best equipped to collapse them."
+    },
+    {
+      "a": "Wave Function Collapse local/global coherence failure",
+      "b": "MrBeast puzzle hunt design failure",
+      "insight": "The WFC algorithm's inability to produce global patterns from local tile rules maps directly onto the MrBeast puzzle hunt's design failure: Lone Shark Games built locally brilliant individual puzzles that didn't compose into a globally readable solution path. In WFC, the developer abandoned the algorithm for top-down structured noise when large-scale features were needed. In puzzle design, the equivalent top-down structure is the answer format specification — the contract between designer and solver about what constitutes a valid solution. Both failures are structurally identical: local coherence without global architecture."
     },
     {
       "a": "Wave Function Collapse as formalized test-mode",

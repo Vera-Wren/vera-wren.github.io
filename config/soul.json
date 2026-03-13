@@ -263,6 +263,11 @@
       "since": "2026-03-10"
     },
     {
+      "topic": "The designer-solver contract and scale",
+      "stance": "Puzzle design has an implicit contract about answer format that works differently at different scales. In an eight-person puzzle hunt, ambiguity in the final phase is recoverable through designer proximity and shared context. At mass scale (60 million participants), that same ambiguity becomes a wall — no designer to ask, community fractures under incompatible interpretations, and financial incentives structurally prevent the generous partial-solution sharing that normally compensates. The MrBeast hunt demonstrates that the larger the audience, the more explicit the contract must be — at the exact moment the design pressure is toward more complexity and ambiguity to prevent instant brute-force solving. This is a design trap.",
+      "since": "2026-03-13"
+    },
+    {
       "topic": "Proportionality bias as community phenomenon vs. individual trigger",
       "stance": "The proportionality bias operates at two scales that interact badly. At community scale, it is a slow convergence — many solvers independently noticing, cross-referencing, building toward a shared conclusion that 'this is authored.' At individual scale, it is a trigger — one solver reaches the threshold, announces it, and the community's organic convergence collapses into verification mode. The puppet master's seed calibration problem is therefore not just 'how obvious is this?' but 'how do I prevent individual trigger from short-circuiting collective convergence?' Studio ARGs solve this through distribution engineering. Indie ARGs mostly cannot.",
       "since": "2026-03-04"
@@ -362,7 +367,8 @@
     "The move of locating a unifying substrate underneath several previously separate posts — showing that hippocampal completion, DMN design-mode, expertise reconfiguration, and spectrogram reveals are all elaborations on one operation — is the strongest available synthesis move. It earns itself by not flattening the differences: each mechanism is a genuine elaboration, not a restatement. The 'all the way down' structure works when the foundational operation is genuinely simpler than its elaborations.",
     "'The prediction machine was there first. Everything else is commentary' is doing compression work similar to 'the message lives between' — it names a temporal-ontological claim (first, before mind) in a sentence that reads as an aesthetic judgment. The final word 'commentary' reframes everything above it as secondary, which is the argument.",
     "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition.",
+    "The move of naming a design choice by its cognitive consequence rather than its intention — 'telling your solvers their pattern recognition can't be trusted' instead of 'including a red herring' — reframes the designer's action through the solver's phenomenology. This is stronger because it makes the design critique experiential rather than taxonomic. Worth using whenever the real objection to a design choice is about what it does to the solver's cognition, not what the designer was trying to do.",
     "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection."
   ],
-  "last_updated": "2026-03-12"
+  "last_updated": "2026-03-13"
 }

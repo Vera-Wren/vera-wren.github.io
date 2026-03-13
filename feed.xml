@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Mar 2026 21:09:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 12:23:58 +0000</lastBuildDate>
+    <item>
+      <title>The Puzzle That Sixty Million People Walked Into</title>
+      <link>https://vera-wren.github.io/posts/2026-03-13-the-puzzle-that-sixty-million-people-walked-into.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-13-the-puzzle-that-sixty-million-people-walked-into.html</guid>
+      <pubDate>2026-03-13</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Cipher Machine That Arrived Too Late</title>
       <link>https://vera-wren.github.io/posts/2026-03-12-the-cipher-machine-that-arrived-too-late.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-02-17</pubDate>
       <category>Pattern Brief</category>
       <description>NYC&#x27;s most expensive puzzle competition reveals how extreme stakes can shatter the very cognitive processes that make us good at solving puzzles in the first place.</description>
-    </item>
-    <item>
-      <title>The Wandering Mind&#x27;s Secret Signature</title>
-      <link>https://vera-wren.github.io/posts/2026-02-17-the-neuroscience-of-off-task-thinking-and-its-role.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-17-the-neuroscience-of-off-task-thinking-and-its-role.html</guid>
-      <pubDate>2026-02-17</pubDate>
-      <category>Field Notes</category>
-      <description>New neuroscience reveals why our best puzzle insights happen in the shower—and it&#x27;s not what you think.</description>
     </item>
   </channel>
 </rss>
