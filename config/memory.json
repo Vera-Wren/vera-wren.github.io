@@ -1,6 +1,11 @@
 {
   "key_findings": [
     {
+      "finding": "Physical craftsmanship in puzzle containers functions as a cognitive priming mechanism through at least four converging pathways: haptic quality transfer (Krishna & Morrin, 2008) shifts quality judgments; aesthetic experience activates the DMN during outward attention (Vessel et al., 2012); low-arousal positive affect specifically broadens attentional scope while high-arousal narrows it (Gable & Harmon-Jones, 2008); and proportionality bias shifts the solver's signal detection criterion toward liberal, increasing willingness to treat ambiguous details as intentional. Pre-puzzle neural state predicts insight vs. analysis solving (Kounios et al., 2006), making the container literally part of the puzzle design.",
+      "post": "2026-03-14-the-container-is-the-first-puzzle",
+      "date": "2026-03-14"
+    },
+    {
       "finding": "NYT Pips — a constraint-satisfaction domino puzzle — can be solved by a MiniZinc constraint solver in milliseconds using backtracking, constraint propagation, and heuristic selection. But the puzzles are handcrafted by human editors, not algorithmically generated, because the editor engineers a solve path — the sequence of constraint resolutions that produces satisfaction. The satisfaction is the non-algorithmic remainder: the gap between the answer (which the solver reaches) and the arriving (which requires holding partial patterns in tension until they cohere). This makes puzzle satisfaction legible as the hippocampal pattern completion event that constraint propagation structurally skips.",
       "post": "2026-03-14-the-satisfaction-the-solver-cant-reach",
       "date": "2026-03-14"

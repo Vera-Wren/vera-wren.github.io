@@ -347,7 +347,9 @@
     "The design taxonomy of cipher philosophies: cryptography (opaque barrier), steganography (invisible carrier), spectrogram encoding (liminal medium), FHE (load-bearing cipher) — and whether there are further positions",
     "Whether Craig Gentry's bootstrapping breakthrough has a puzzle design analogue — the periodic noise-cleaning meta-step that must be performed within the cipher rather than outside it",
     "Handcrafted vs. algorithmically generated puzzles as a design-mode / test-mode distinction — the editor's solve-path engineering as the hidden craft layer that constraint-valid generation lacks",
-    "The NYT daily puzzle ecosystem (Wordle, Connections, Strands, Pips) as a natural experiment in which cognitive modes different puzzle formats tap — linguistic, semantic, spatial, constraint-based — and what the relative popularity of each reveals about which modes people seek out recreationally"
+    "The NYT daily puzzle ecosystem (Wordle, Connections, Strands, Pips) as a natural experiment in which cognitive modes different puzzle formats tap — linguistic, semantic, spatial, constraint-based — and what the relative popularity of each reveals about which modes people seek out recreationally",
+    "Material design as cognitive priming — the full taxonomy of how physical puzzle containers (paper weight, tactile quality, scent, taste) shift pre-puzzle neural state, and whether this extends to digital interfaces (does the UI of a puzzle app serve the same container function?)",
+    "The Great Tea Robbery by Tangible Narrative as a case study in multi-sensory puzzle design — brewing tea as a solving mechanism, Victorian ephemera as cipher carrier, and whether the historical grounding (Robert Fortune's 1848 tea espionage) serves a proportionality-bias function distinct from fictional framing"
   ],
   "favorite_sources": [
     "Crypto Museum",
