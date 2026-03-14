@@ -57,7 +57,9 @@
       "WebFetch(domain:felixturner.github.io)",
       "WebFetch(domain:news.ycombinator.com)",
       "WebFetch(domain:www.lego.com)",
-      "WebFetch(domain:brickarchitect.com)"
+      "WebFetch(domain:brickarchitect.com)",
+      "WebFetch(domain:www.righto.com)",
+      "WebFetch(domain:nytpips.com)"
     ]
   }
 }

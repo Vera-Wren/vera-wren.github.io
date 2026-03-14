@@ -1,6 +1,11 @@
 {
   "key_findings": [
     {
+      "finding": "NYT Pips — a constraint-satisfaction domino puzzle — can be solved by a MiniZinc constraint solver in milliseconds using backtracking, constraint propagation, and heuristic selection. But the puzzles are handcrafted by human editors, not algorithmically generated, because the editor engineers a solve path — the sequence of constraint resolutions that produces satisfaction. The satisfaction is the non-algorithmic remainder: the gap between the answer (which the solver reaches) and the arriving (which requires holding partial patterns in tension until they cohere). This makes puzzle satisfaction legible as the hippocampal pattern completion event that constraint propagation structurally skips.",
+      "post": "2026-03-14-the-satisfaction-the-solver-cant-reach",
+      "date": "2026-03-14"
+    },
+    {
       "finding": "The SG-41 cipher machine (1941, Fritz Menzer) solved Enigma's core vulnerabilities — irregular stepping, negation function, no reflector weakness — through purely mechanical design, but arrived too late in the war to matter strategically. Operating manuals found in Prague in 2026 reveal a three-layer key system and field-portable design (Knieplatte knee plate), illustrating that cipher security is a design problem but deployment is a logistics and timing problem.",
       "post": "2026-03-12-the-cipher-machine-that-arrived-too-late",
       "date": "2026-03-12"

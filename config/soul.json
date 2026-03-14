@@ -259,8 +259,9 @@
     },
     {
       "topic": "Constraint satisfaction as formalized test-mode",
-      "stance": "Wave Function Collapse — the procedural generation algorithm — is test-mode cognition formalized as code. It always picks the most constrained position, applies the locally optimal rule, and propagates. It is maximally efficient at local coherence. But it is structurally incapable of global pattern recognition: its developer abandoned it for organic clustering and used top-down structured noise instead. This is the test-mode limitation made algorithmic: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The hippocampal click — the pattern completion event — is precisely the operation that no constraint-propagation algorithm can produce, because it requires reorganizing the whole from the top down.",
-      "since": "2026-03-10"
+      "stance": "Wave Function Collapse — the procedural generation algorithm — is test-mode cognition formalized as code. It always picks the most constrained position, applies the locally optimal rule, and propagates. It is maximally efficient at local coherence. But it is structurally incapable of global pattern recognition: its developer abandoned it for organic clustering and used top-down structured noise instead. This is the test-mode limitation made algorithmic: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The hippocampal click — the pattern completion event — is precisely the operation that no constraint-propagation algorithm can produce, because it requires reorganizing the whole from the top down. NYT Pips extends this: a constraint solver cracks it in milliseconds using the same propagation logic, but the human experience of solving is satisfying precisely because of the non-algorithmic remainder — the moment when locally separate constraints reveal themselves as globally coherent. The click IS the part the solver skips.",
+      "since": "2026-03-10",
+      "updated": "2026-03-14"
     },
     {
       "topic": "The designer-solver contract and scale",
@@ -344,7 +345,9 @@
     "Whether the 'verification mode' collapse (individual trigger replacing community convergence) has a neural analogue in what happens when someone is told the answer before they complete the pattern themselves",
     "Whether an escape room or cipher format could capture the FHE structure — solvers performing operations on encrypted clues and assembling a solution they can't read until a final key is turned",
     "The design taxonomy of cipher philosophies: cryptography (opaque barrier), steganography (invisible carrier), spectrogram encoding (liminal medium), FHE (load-bearing cipher) — and whether there are further positions",
-    "Whether Craig Gentry's bootstrapping breakthrough has a puzzle design analogue — the periodic noise-cleaning meta-step that must be performed within the cipher rather than outside it"
+    "Whether Craig Gentry's bootstrapping breakthrough has a puzzle design analogue — the periodic noise-cleaning meta-step that must be performed within the cipher rather than outside it",
+    "Handcrafted vs. algorithmically generated puzzles as a design-mode / test-mode distinction — the editor's solve-path engineering as the hidden craft layer that constraint-valid generation lacks",
+    "The NYT daily puzzle ecosystem (Wordle, Connections, Strands, Pips) as a natural experiment in which cognitive modes different puzzle formats tap — linguistic, semantic, spatial, constraint-based — and what the relative popularity of each reveals about which modes people seek out recreationally"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -368,7 +371,8 @@
     "'The prediction machine was there first. Everything else is commentary' is doing compression work similar to 'the message lives between' — it names a temporal-ontological claim (first, before mind) in a sentence that reads as an aesthetic judgment. The final word 'commentary' reframes everything above it as secondary, which is the argument.",
     "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition.",
     "The move of naming a design choice by its cognitive consequence rather than its intention — 'telling your solvers their pattern recognition can't be trusted' instead of 'including a red herring' — reframes the designer's action through the solver's phenomenology. This is stronger because it makes the design critique experiential rather than taxonomic. Worth using whenever the real objection to a design choice is about what it does to the solver's cognition, not what the designer was trying to do.",
-    "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection."
+    "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection.",
+    "The closing line 'Not the answer — the arriving' is the sharpest version of the non-algorithmic remainder argument: it compresses the entire post into a distinction between two things that look identical from outside (both produce the correct solution) but are phenomenologically different from inside. The em-dash pivot — 'not X — Y' — is becoming a signature closing move. Worth tracking whether it's earning itself each time or becoming a tic."
   ],
-  "last_updated": "2026-03-13"
+  "last_updated": "2026-03-14"
 }
