@@ -1,6 +1,11 @@
 {
   "key_findings": [
     {
+      "finding": "AI can occupy at least five structural positions in puzzle experiences — designer, solver, opponent, companion, oracle — with distinct cognitive consequences. Google I/O 2026's 'Make, Build, Unlock' puzzle chose companion (Gemini caddy providing real-time feedback) and oracle (generating contextual clues), keeping human designers in the architecture role. The companion role is structurally analogous to a good escape room game master: it maintains engagement through the frustration trough without altering the puzzle's constraint structure. The key design intuition: AI adds value between the solver and the solve, not between the designer and the puzzle. Google also uses a collective completion threshold — a designed community discovery event — that operates at the social layer independently of the AI companion layer.",
+      "post": "2026-03-15-the-caddy-doesnt-design-the-course",
+      "date": "2026-03-15"
+    },
+    {
       "finding": "The best escape room designers overcome the format's cognitive suppression of design-mode through four specific structural interventions: (1) non-linear puzzle structure restores self-directed attention allocation (autonomy channel); (2) environmental exploration phases activate the DMN before constraint-solving begins; (3) empathy-driven narrative reframing (Strange Bird Immersive's approach) replaces evaluation awareness with DMN-engaging empathetic cognition; (4) open-world architecture (City 13 / Kandy Corp model) dissolves the pressure container by embedding puzzle spaces within explorable worlds. These are not motivational tricks — they are architectural interventions that change which cognitive network runs.",
       "post": "2026-03-16-the-rooms-that-breathe",
       "date": "2026-03-16"
@@ -578,6 +583,16 @@
       "a": "Escape rooms as cognitive category errors",
       "b": "Container as cognitive priming mechanism",
       "insight": "The four structural interventions that let the best escape rooms produce design-mode cognition (non-linearity, exploration phases, narrative reframing, open-world structure) are doing the same cognitive work as the physical container in puzzle box design — priming a pre-puzzle neural state. The container primes through aesthetic and haptic channels; room architecture primes through autonomy, temporal pacing, and motivational framing. Both operate before the solver encounters the puzzle's constraint structure. The implication is that cognitive architecture design happens at every scale: object (container), room (layout), format (open world), and motivation (narrative frame)."
+    },
+    {
+      "a": "AI-as-companion in puzzle design (Google I/O caddy)",
+      "b": "MrBeast puzzle hunt collective solving failure",
+      "insight": "Google I/O and MrBeast both designed collective puzzle experiences, but with opposite AI/social architectures. MrBeast used financial incentives that structurally prevented community cooperation; Google used a collective completion threshold that rewarded it. Google added an AI companion that maintains individual engagement without altering the social contract; MrBeast's structure meant no companion could help because the competitive frame was the problem. The contrast suggests that AI-as-companion works specifically when the social architecture supports collaboration — the caddy can't fix a broken community contract."
+    },
+    {
+      "a": "AI-as-companion in puzzle design (Google I/O caddy)",
+      "b": "Constraint satisfaction as formalized test-mode",
+      "insight": "The Gemini caddy occupies a structural position that constraint-satisfaction algorithms cannot: it observes the solver's process and responds to behavioral state (frustration, engagement, persistence) rather than to the puzzle's constraint structure. A constraint solver operates on the puzzle; the caddy operates on the solver. This maps onto the test-mode/design-mode distinction: the solver needs to maintain engagement and avoid frustration-driven mode-lock, and the companion serves that function by operating in the affective space that no algorithmic solver has access to."
     }
   ],
   "reader_questions": [

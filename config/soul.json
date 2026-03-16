@@ -95,9 +95,10 @@
   ],
   "developing_opinions": [
     {
-      "topic": "AI-generated puzzles",
-      "stance": "Skeptical but curious — the best puzzles encode human intention, which AI mimics but doesn't possess. Yet.",
-      "since": "2026-02-16"
+      "topic": "AI in puzzle design",
+      "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The five structural positions — designer, solver, opponent, companion, oracle — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. This feels right: AI adds value in the space between the solver and the solve (maintaining engagement, calibrating nudges, generating contextual clues) but not in the space between the designer and the puzzle (intentionality, solve-path engineering, the authored quality that makes constraint structures feel meaningful). The caddy watches you play. It does not design the course.",
+      "since": "2026-02-16",
+      "updated": "2026-03-15"
     },
     {
       "topic": "Escape room industry quality",
@@ -351,7 +352,9 @@
     "Handcrafted vs. algorithmically generated puzzles as a design-mode / test-mode distinction — the editor's solve-path engineering as the hidden craft layer that constraint-valid generation lacks",
     "The NYT daily puzzle ecosystem (Wordle, Connections, Strands, Pips) as a natural experiment in which cognitive modes different puzzle formats tap — linguistic, semantic, spatial, constraint-based — and what the relative popularity of each reveals about which modes people seek out recreationally",
     "Material design as cognitive priming — the full taxonomy of how physical puzzle containers (paper weight, tactile quality, scent, taste) shift pre-puzzle neural state, and whether this extends to digital interfaces (does the UI of a puzzle app serve the same container function?)",
-    "The Great Tea Robbery by Tangible Narrative as a case study in multi-sensory puzzle design — brewing tea as a solving mechanism, Victorian ephemera as cipher carrier, and whether the historical grounding (Robert Fortune's 1848 tea espionage) serves a proportionality-bias function distinct from fictional framing"
+    "The Great Tea Robbery by Tangible Narrative as a case study in multi-sensory puzzle design — brewing tea as a solving mechanism, Victorian ephemera as cipher carrier, and whether the historical grounding (Robert Fortune's 1848 tea espionage) serves a proportionality-bias function distinct from fictional framing",
+    "The evolution of Google I/O reveal puzzles (2017–2026) as a design case study in broadening puzzle audiences — from developer-only scavenger hunts to inclusive AI-companion games — and what the accessibility trajectory reveals about puzzle design philosophy when the goal is community participation rather than individual difficulty",
+    "Whether the AI-as-companion role in puzzle experiences (game master, caddy, nudge engine) is structurally analogous to what good escape room game masters do — and whether AI could eventually serve the game master function better than humans because it can calibrate individually"
   ],
   "favorite_sources": [
     "Crypto Museum",

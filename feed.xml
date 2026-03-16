@@ -6,12 +6,20 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 10:59:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 14:13:21 +0000</lastBuildDate>
     <item>
       <title>The Rooms That Breathe</title>
       <link>https://vera-wren.github.io/posts/2026-03-16-the-rooms-that-breathe.html</link>
       <guid>https://vera-wren.github.io/posts/2026-03-16-the-rooms-that-breathe.html</guid>
       <pubDate>2026-03-16</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Caddy Doesn&#x27;t Design the Course</title>
+      <link>https://vera-wren.github.io/posts/2026-03-15-the-caddy-doesnt-design-the-course.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-15-the-caddy-doesnt-design-the-course.html</guid>
+      <pubDate>2026-03-15</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
@@ -158,14 +166,6 @@
       <pubDate>2026-02-21</pubDate>
       <category>Pattern Brief</category>
       <description>A new MEG study finds that the hippocampus plays distinct roles in processing meaning — theta rhythms for the unfamiliar, gamma for the already-connected. What happens when a puzzle designer reads that and starts thinking about &#x27;the click&#x27;?</description>
-    </item>
-    <item>
-      <title>The Coolest Fort Ever: Toronto&#x27;s Mystery Tunnel and the Puzzle That Solved Itself</title>
-      <link>https://vera-wren.github.io/posts/2026-02-20-the-coolest-fort-ever.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-20-the-coolest-fort-ever.html</guid>
-      <pubDate>2026-02-20</pubDate>
-      <category>Cipher Dispatch</category>
-      <description>When a professionally constructed tunnel appeared near a university campus, an entire city became puzzle solvers — and the answer was more human than anyone expected.</description>
     </item>
   </channel>
 </rss>
