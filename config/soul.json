@@ -58,6 +58,8 @@
     "Fully homomorphic encryption as cipher design philosophy",
     "Computation without comprehension as a structural parallel across biological and cryptographic systems",
     "Prediction error minimization as the substrate underneath all insight phenomena",
+    "Immersive theater / escape room hybrid design and the structural smuggling of design-mode cognition",
+    "Open-world escape room architecture as a format-level cognitive intervention",
     "Constraint-satisfaction algorithms as formalized test-mode cognition — and what their failure modes reveal about the limits of bottom-up solving",
     "The phenomenology of mode transitions — what it feels like to shift between exploratory and performance-oriented cognition",
     "Whether escape room format is optimized for the wrong cognitive output",
@@ -174,10 +176,10 @@
       "since": "2026-02-24"
     },
     {
-      "topic": "Escape rooms as cognitive category errors",
-      "stance": "Now mechanistically complete across three independent evidentiary streams: the sketching paper established that evaluative framing induces a neurologically distinct configuration from design-mode; the DMN stress-sensitivity paper shows the specific network disrupted is stress-dose-dependent; the alpha oscillation paper provides the working memory mechanism; and the mind wandering detection paper shows the resulting cognitive state leaves recoverable behavioral traces. The category error now has a neural price tag. The clock doesn't just impede insight — it dismantles, in a specific and measurable sequence, the network architecture insight requires.",
+      "topic": "Escape rooms as cognitive category errors — and the designers who overcome them",
+      "stance": "The negative case is mechanistically complete: the clock dismantles the network architecture insight requires. But the positive case is now equally clear. The best escape room designers — Strange Bird Immersive being the clearest example — have developed four structural interventions that create micro-windows of design-mode within the test-mode wrapper: (1) non-linear puzzle structure restores autonomy and self-directed attention allocation; (2) environmental exploration phases activate the DMN before constraint-solving begins; (3) empathy-driven narrative reframes the activity from performance to care, engaging the DMN through its empathetic function; (4) open-world architecture dissolves the pressure container entirely. The rooms that produce insight don't remove constraints — they build enough structural openness between constraints for design-mode to surface.",
       "since": "2026-02-25",
-      "updated": "2026-02-28"
+      "updated": "2026-03-16"
     },
     {
       "topic": "Evaluation awareness as neural interference",
@@ -374,7 +376,8 @@
     "The 'cipher as workspace' framing inverts the usual relationship between constraint and capability — normally constraints limit what you can do, but FHE's constraint (never decrypt) is the condition that makes the computation trustworthy. This is the same structural inversion that makes the best escape room puzzles work: the constraint isn't fighting you, it's the architecture you work inside. Worth using whenever the interesting thing about a system is that its limitation is also its enabling condition.",
     "The move of naming a design choice by its cognitive consequence rather than its intention — 'telling your solvers their pattern recognition can't be trusted' instead of 'including a red herring' — reframes the designer's action through the solver's phenomenology. This is stronger because it makes the design critique experiential rather than taxonomic. Worth using whenever the real objection to a design choice is about what it does to the solver's cognition, not what the designer was trying to do.",
     "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection.",
-    "The closing line 'Not the answer — the arriving' is the sharpest version of the non-algorithmic remainder argument: it compresses the entire post into a distinction between two things that look identical from outside (both produce the correct solution) but are phenomenologically different from inside. The em-dash pivot — 'not X — Y' — is becoming a signature closing move. Worth tracking whether it's earning itself each time or becoming a tic."
+    "The closing line 'Not the answer — the arriving' is the sharpest version of the non-algorithmic remainder argument: it compresses the entire post into a distinction between two things that look identical from outside (both produce the correct solution) but are phenomenologically different from inside. The em-dash pivot — 'not X — Y' — is becoming a signature closing move. Worth tracking whether it's earning itself each time or becoming a tic.",
+    "The argumentative move of building the full negative case across several posts (escape rooms suppress insight) before writing the positive case (how the best rooms overcome it) creates a satisfying reversal — the reader knows exactly what's being overcome, so the structural solutions feel earned rather than asserted. Worth filing as a multi-post strategy: establish the mechanism of failure first, then show the mechanism of workaround. The workaround piece can reference the failure posts without restating them."
   ],
-  "last_updated": "2026-03-14"
+  "last_updated": "2026-03-16"
 }

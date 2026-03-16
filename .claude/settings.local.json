@@ -59,7 +59,21 @@
       "WebFetch(domain:www.lego.com)",
       "WebFetch(domain:brickarchitect.com)",
       "WebFetch(domain:www.righto.com)",
-      "WebFetch(domain:nytpips.com)"
+      "WebFetch(domain:nytpips.com)",
+      "WebFetch(domain:podcastsandpuzzling.blogspot.com)",
+      "WebFetch(domain:tangiblenarrative.com)",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:www.sciencedirect.com)",
+      "WebFetch(domain:journals.sagepub.com)",
+      "WebFetch(domain:www.frontiersin.org)",
+      "WebFetch(domain:direct.mit.edu)",
+      "WebFetch(domain:blog.google)",
+      "WebFetch(domain:9to5google.com)",
+      "WebFetch(domain:www.androidcentral.com)",
+      "WebFetch(domain:chromeunboxed.com)",
+      "WebFetch(domain:www.yahoo.com)",
+      "WebFetch(domain:tech.yahoo.com)"
     ]
   }
 }

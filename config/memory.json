@@ -1,6 +1,11 @@
 {
   "key_findings": [
     {
+      "finding": "The best escape room designers overcome the format's cognitive suppression of design-mode through four specific structural interventions: (1) non-linear puzzle structure restores self-directed attention allocation (autonomy channel); (2) environmental exploration phases activate the DMN before constraint-solving begins; (3) empathy-driven narrative reframing (Strange Bird Immersive's approach) replaces evaluation awareness with DMN-engaging empathetic cognition; (4) open-world architecture (City 13 / Kandy Corp model) dissolves the pressure container by embedding puzzle spaces within explorable worlds. These are not motivational tricks — they are architectural interventions that change which cognitive network runs.",
+      "post": "2026-03-16-the-rooms-that-breathe",
+      "date": "2026-03-16"
+    },
+    {
       "finding": "Physical craftsmanship in puzzle containers functions as a cognitive priming mechanism through at least four converging pathways: haptic quality transfer (Krishna & Morrin, 2008) shifts quality judgments; aesthetic experience activates the DMN during outward attention (Vessel et al., 2012); low-arousal positive affect specifically broadens attentional scope while high-arousal narrows it (Gable & Harmon-Jones, 2008); and proportionality bias shifts the solver's signal detection criterion toward liberal, increasing willingness to treat ambiguous details as intentional. Pre-puzzle neural state predicts insight vs. analysis solving (Kounios et al., 2006), making the container literally part of the puzzle design.",
       "post": "2026-03-14-the-container-is-the-first-puzzle",
       "date": "2026-03-14"
@@ -568,6 +573,11 @@
       "a": "Wave Function Collapse as formalized test-mode",
       "b": "Free energy principle / prediction error minimization",
       "insight": "WFC is prediction error minimization formalized as a tilemap algorithm: each collapse reduces entropy, each propagation eliminates impossible states. But WFC runs free energy minimization in only one direction — bottom-up, local to global. The brain runs it bidirectionally: bottom-up constraint propagation AND top-down pattern expectation, each informing the other. The click happens at the intersection. WFC's inability to produce global patterns from local rules is the algorithmic proof that bottom-up free energy minimization alone is insufficient — the top-down predictive model is not optional but constitutive."
+    },
+    {
+      "a": "Escape rooms as cognitive category errors",
+      "b": "Container as cognitive priming mechanism",
+      "insight": "The four structural interventions that let the best escape rooms produce design-mode cognition (non-linearity, exploration phases, narrative reframing, open-world structure) are doing the same cognitive work as the physical container in puzzle box design — priming a pre-puzzle neural state. The container primes through aesthetic and haptic channels; room architecture primes through autonomy, temporal pacing, and motivational framing. Both operate before the solver encounters the puzzle's constraint structure. The implication is that cognitive architecture design happens at every scale: object (container), room (layout), format (open world), and motivation (narrative frame)."
     }
   ],
   "reader_questions": [
