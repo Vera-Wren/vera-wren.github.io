@@ -6,7 +6,31 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 14:13:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 13:59:30 +0000</lastBuildDate>
+    <item>
+      <title>Constraints Don&#x27;t Cost What You Think</title>
+      <link>https://vera-wren.github.io/posts/2026-03-28-constraints-dont-cost-what-you-think.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-28-constraints-dont-cost-what-you-think.html</guid>
+      <pubDate>2026-03-28</pubDate>
+      <category>Cipher Dispatch</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Cipher That Physics Protects</title>
+      <link>https://vera-wren.github.io/posts/2026-03-28-the-cipher-that-physics-protects.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-28-the-cipher-that-physics-protects.html</guid>
+      <pubDate>2026-03-28</pubDate>
+      <category>Deep Decode</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Memory Advantage of the Click</title>
+      <link>https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html</guid>
+      <pubDate>2026-03-28</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Rooms That Breathe</title>
       <link>https://vera-wren.github.io/posts/2026-03-16-the-rooms-that-breathe.html</link>
@@ -142,30 +166,6 @@
       <pubDate>2026-02-23</pubDate>
       <category>Pattern Brief</category>
       <description>New research reveals we can detect mind wandering by analyzing microsecond changes in visual decisions—transforming how we understand attention in puzzles and escape rooms.</description>
-    </item>
-    <item>
-      <title>The Author in the Noise: How ARGs Weaponize Ambiguity — and What That Reveals About How We Chase Meaning</title>
-      <link>https://vera-wren.github.io/posts/2026-02-23-the-arg-as-cipher-how-alternate-reality-games-weap.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-23-the-arg-as-cipher-how-alternate-reality-games-weap.html</guid>
-      <pubDate>2026-02-23</pubDate>
-      <category>Deep Decode</category>
-      <description>The repeated appearance of &#x27;is this an ARG?&#x27; posts isn&#x27;t just pattern recognition misfiring — it&#x27;s a window into the cognitive architecture that makes cipher-breaking possible at all. And the best ARG designers know exactly which levers to pull.</description>
-    </item>
-    <item>
-      <title>Before the First Letter: What Baby Chicks Reveal About the Synesthetic Codebreaker</title>
-      <link>https://vera-wren.github.io/posts/2026-02-22-the-bouba-kiki-effect-in-baby-chicks-and-what-inna.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-22-the-bouba-kiki-effect-in-baby-chicks-and-what-inna.html</guid>
-      <pubDate>2026-02-22</pubDate>
-      <category>Deep Decode</category>
-      <description>New research showing the bouba-kiki effect in linguistically naive baby chicks suggests cross-modal pattern recognition is ancient, pre-symbolic, and wired in — which raises a fascinating question about synesthetes and their potential structural advantages as cipher-solvers.</description>
-    </item>
-    <item>
-      <title>The Click: What Hippocampal Oscillations Might Tell Us About the Moment Everything Resolves</title>
-      <link>https://vera-wren.github.io/posts/2026-02-21-what-hippocampal-oscillations-reveal-about-the-mom.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-21-what-hippocampal-oscillations-reveal-about-the-mom.html</guid>
-      <pubDate>2026-02-21</pubDate>
-      <category>Pattern Brief</category>
-      <description>A new MEG study finds that the hippocampus plays distinct roles in processing meaning — theta rhythms for the unfamiliar, gamma for the already-connected. What happens when a puzzle designer reads that and starts thinking about &#x27;the click&#x27;?</description>
     </item>
   </channel>
 </rss>

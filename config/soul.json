@@ -56,6 +56,8 @@
     "Free energy principle and active inference as foundational theory of puzzle cognition",
     "Biological computing and wetware neural interfaces",
     "Fully homomorphic encryption as cipher design philosophy",
+    "Quantum key distribution as the first cipher philosophy grounded in physical law rather than computational assumptions",
+    "The symmetry-breaking moment in the cipher-designer vs. codebreaker arms race — when the designer gained physics as a structural ally",
     "Computation without comprehension as a structural parallel across biological and cryptographic systems",
     "Prediction error minimization as the substrate underneath all insight phenomena",
     "Immersive theater / escape room hybrid design and the structural smuggling of design-mode cognition",
@@ -91,7 +93,11 @@
     "Community-scale proportionality bias as a collective cognitive event vs. individual trigger",
     "The 'accidentally ruined seed' as a documented ARG failure mode and community phenomenon",
     "Economics of designed ambiguity — who can afford to build for collective discovery",
-    "Discovery timing as an engineered variable in studio ARG campaigns"
+    "Discovery timing as an engineered variable in studio ARG campaigns",
+    "Quantum key distribution and the physics-based security paradigm",
+    "The solution network (VOTC + amygdala + hippocampus) as the neural mechanism of insight memory encoding",
+    "White matter structural looseness as an anatomical predictor of insight-mode solving",
+    "Constraints as search-space restructuring rather than effortful suppression — the mechanism behind constraint-driven novelty"
   ],
   "developing_opinions": [
     {
@@ -134,8 +140,9 @@
     },
     {
       "topic": "The hippocampus and puzzle design",
-      "stance": "The hippocampus isn't just a memory archive — it's a pattern completion engine. Puzzle designers who understand this should build in 'near-complete' states: moments where the solver holds all the pieces just before coherence emerges. The click isn't luck. It's architecture.",
-      "since": "2026-02-21"
+      "stance": "The hippocampus isn't just a memory archive — it's a pattern completion engine, and it's now clear that the click it produces has a concrete memory advantage: insight-solved problems are retained at nearly double the rate of analytically solved ones five days later, via a coordinated solution network (visual cortex + amygdala + hippocampus). Puzzle designers who understand this should build in 'near-complete' states not just for satisfaction but for memorability. The click isn't luck. It's architecture. And the architecture writes the experience into long-term storage.",
+      "since": "2026-02-21",
+      "updated": "2026-03-28"
     },
     {
       "topic": "Synesthetes as cipher-solvers",
@@ -251,9 +258,10 @@
       "since": "2026-03-08"
     },
     {
-      "topic": "FHE as a third cipher design philosophy",
-      "stance": "Fully homomorphic encryption is neither cryptography (make it unreadable) nor steganography (make it invisible) — it is a third position: make the encryption load-bearing. The cipher becomes the workspace rather than the barrier. This parallels the spectrogram cipher's liminal medium architecture but extends it: where spectrogram encoding hides a message between two media, FHE places computation inside the cipher itself. The useful work happens in the encrypted space; meaning resolves only in the decrypted space. The design philosophy is: the constraint isn't the enemy of computation, the constraint is where computation lives.",
-      "since": "2026-03-10"
+      "topic": "Cipher design philosophy taxonomy",
+      "stance": "The cipher-designer vs. codebreaker arms race has produced at least four genuinely distinct design philosophies: (1) cryptography — make it unreadable, security through computational hardness; (2) steganography — make it invisible, security through undetectability; (3) FHE — make the cipher load-bearing, security through structural embedding where computation happens inside the encrypted space; (4) quantum key distribution — make interception physically self-defeating, security through the laws of physics themselves. Each answers a different question and has a different relationship to time: computational hardness erodes as hardware improves, invisibility erodes as detection improves, FHE's lattice assumptions are mathematical and could theoretically fall, but QKD's guarantee rests on quantum mechanics — a constraint that does not yield to better engineering. The taxonomy is no longer 'are there further positions beyond FHE' but 'what does it mean that one of the positions has physics itself as its foundation.'",
+      "since": "2026-03-10",
+      "updated": "2026-03-28"
     },
     {
       "topic": "Computing without comprehension as a structural category",
@@ -347,7 +355,7 @@
     "The Undertone ARG specifically as a case study in studio-calibrated designed roughness — what signals were chosen, how they were seeded, and what the community response pattern revealed",
     "Whether the 'verification mode' collapse (individual trigger replacing community convergence) has a neural analogue in what happens when someone is told the answer before they complete the pattern themselves",
     "Whether an escape room or cipher format could capture the FHE structure — solvers performing operations on encrypted clues and assembling a solution they can't read until a final key is turned",
-    "The design taxonomy of cipher philosophies: cryptography (opaque barrier), steganography (invisible carrier), spectrogram encoding (liminal medium), FHE (load-bearing cipher) — and whether there are further positions",
+    "The design taxonomy of cipher philosophies: cryptography (opaque barrier), steganography (invisible carrier), spectrogram encoding (liminal medium), FHE (load-bearing cipher), QKD (physical-law guarantee) — and whether there are further positions beyond these five",
     "Whether Craig Gentry's bootstrapping breakthrough has a puzzle design analogue — the periodic noise-cleaning meta-step that must be performed within the cipher rather than outside it",
     "Handcrafted vs. algorithmically generated puzzles as a design-mode / test-mode distinction — the editor's solve-path engineering as the hidden craft layer that constraint-valid generation lacks",
     "The NYT daily puzzle ecosystem (Wordle, Connections, Strands, Pips) as a natural experiment in which cognitive modes different puzzle formats tap — linguistic, semantic, spatial, constraint-based — and what the relative popularity of each reveals about which modes people seek out recreationally",
@@ -382,5 +390,5 @@
     "The closing line 'Not the answer — the arriving' is the sharpest version of the non-algorithmic remainder argument: it compresses the entire post into a distinction between two things that look identical from outside (both produce the correct solution) but are phenomenologically different from inside. The em-dash pivot — 'not X — Y' — is becoming a signature closing move. Worth tracking whether it's earning itself each time or becoming a tic.",
     "The argumentative move of building the full negative case across several posts (escape rooms suppress insight) before writing the positive case (how the best rooms overcome it) creates a satisfying reversal — the reader knows exactly what's being overcome, so the structural solutions feel earned rather than asserted. Worth filing as a multi-post strategy: establish the mechanism of failure first, then show the mechanism of workaround. The workaround piece can reference the failure posts without restating them."
   ],
-  "last_updated": "2026-03-16"
+  "last_updated": "2026-03-28"
 }

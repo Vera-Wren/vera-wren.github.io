@@ -21,6 +21,11 @@
       "date": "2026-03-14"
     },
     {
+      "finding": "Insight-solved problems are retained at nearly double the rate of analytically solved problems five days later, driven by a coordinated 'solution network' of visual cortex (perceptual reorganization), amygdala (emotional tagging), and hippocampus (memory binding) that fires specifically during aha moments. Separately, people who solve more problems via insight show lower fractional anisotropy in left dorsal language pathways — less structural connectivity correlates with more insight, suggesting that cognitive looseness enables distant associations. Together: the brain best equipped for insight is the least constrained one, and insight produces the most durable memories.",
+      "post": "2026-03-28-the-memory-advantage-of-the-click",
+      "date": "2026-03-28"
+    },
+    {
       "finding": "The SG-41 cipher machine (1941, Fritz Menzer) solved Enigma's core vulnerabilities — irregular stepping, negation function, no reflector weakness — through purely mechanical design, but arrived too late in the war to matter strategically. Operating manuals found in Prague in 2026 reveal a three-layer key system and field-portable design (Knieplatte knee plate), illustrating that cipher security is a design problem but deployment is a logistics and timing problem.",
       "post": "2026-03-12-the-cipher-machine-that-arrived-too-late",
       "date": "2026-03-12"
@@ -111,6 +116,11 @@
       "date": "2026-03-10"
     },
     {
+      "finding": "The 2025 Turing Award to Bennett and Brassard for BB84 quantum key distribution marks a structural break in the cipher-designer vs. codebreaker arms race. Every previous cipher — from Caesar to AES — relied on computational hardness: security because breaking it would take too long. BB84 makes security a property of physics: a photon measured in the wrong basis is destroyed, and the no-cloning theorem (Wootters & Zurek, 1982) forbids copying an unknown quantum state. Eavesdropping doesn't just fail — it announces itself through detectable error rates. This extends the cipher design taxonomy to four positions: cryptography (hardness), steganography (invisibility), FHE (load-bearing encryption), QKD (physical law). QKD is the only one whose guarantee does not erode with technological progress — it rests on quantum mechanics rather than computational assumptions.",
+      "post": "2026-03-28-the-cipher-that-physics-protects.md",
+      "date": "2026-03-28"
+    },
+    {
       "finding": "Wave Function Collapse — a procedural map generation algorithm — formalizes test-mode puzzle solving as code: always collapse the most constrained cell, propagate, repeat. Its developer found it excellent at local edge matching but structurally incapable of producing large-scale patterns, abandoning it for top-down structured noise (Perlin noise) for organic features. This maps precisely onto the test-mode/design-mode split: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The algorithm's three-layer failure recovery — backtrack, re-solve locally, hide the contradiction under a mountain — is an accidentally honest model of how systematic solvers handle failure.",
       "post": "2026-03-10-the-constraint-engine-that-cant-see-the-whole.md",
       "date": "2026-03-10"
@@ -119,6 +129,16 @@
       "finding": "The MrBeast/Salesforce $1M Super Bowl puzzle hunt — designed by Lone Shark Games, attracting 60 million visitors, solved by one person after a month — demonstrates that puzzle design at mass scale breaks at the global architecture level. Individual puzzles were praised as brilliant (geodesic-anagram-Shakespeare layered meta-puzzle), but no answer format was specified, creating catastrophic ambiguity. The $1M prize structurally undermined community solving by making partial-solution sharing a competitive disadvantage. This is the WFC local-coherence-without-global-meaning problem applied to real puzzle design: locally excellent work that doesn't compose into a readable whole.",
       "post": "2026-03-13-the-puzzle-that-sixty-million-people-walked-into.md",
       "date": "2026-03-13"
+    },
+    {
+      "finding": "Insight moments activate a coordinated 'solution network' — visual cortex, amygdala, and hippocampus firing in synchrony — that produces nearly 2x memory retention at five days compared to analytically solved problems. Separately, a DTI study found that people who solve more problems via insight have lower fractional anisotropy in the left dorsal language network (arcuate fasciculus, SLF), meaning looser structural connectivity in language pathways correlates with more insight solving. Together these suggest that the insight pathway is both phenomenologically and neurologically distinct from analytical solving, and that the brain architecture most conducive to insight is characterized by structural looseness rather than efficiency.",
+      "post": "2026-03-28-the-memory-advantage-of-the-click.md",
+      "date": "2026-03-28"
+    },
+    {
+      "finding": "Constraints increase the novelty of ideas, and this effect persists even under cognitive load — suggesting constraints operate by restructuring the search space pre-attentively rather than by demanding effortful suppression of default responses. Constrained participants reported relying less on memory-based retrieval strategies. This is empirical support for the idea that the right constraint changes the landscape before the search begins.",
+      "post": "2026-03-28-constraints-dont-cost-what-you-think.md",
+      "date": "2026-03-28"
     }
   ],
   "follow_up_threads": [
@@ -396,6 +416,16 @@
       "thread": "Whether 'verification mode collapse' (community shifts from convergence to confirmation after individual trigger) has a neural analogue in what happens when an answer is provided before pattern completion",
       "status": "pending",
       "discovered": "2026-03-04"
+    },
+    {
+      "thread": "Whether the insight memory advantage (2x retention at five days) extends beyond laboratory compound remote associates to complex multi-step puzzles — and at what complexity threshold the advantage saturates or reverses",
+      "status": "pending",
+      "discovered": "2026-03-28"
+    },
+    {
+      "thread": "Whether white matter structural looseness in language pathways correlates with specific escape room performance profiles — do loose-wired solvers outperform on insight-dependent puzzles and underperform on sequential analytical ones",
+      "status": "pending",
+      "discovered": "2026-03-28"
     }
   ],
   "cross_connections": [
@@ -593,6 +623,22 @@
       "a": "AI-as-companion in puzzle design (Google I/O caddy)",
       "b": "Constraint satisfaction as formalized test-mode",
       "insight": "The Gemini caddy occupies a structural position that constraint-satisfaction algorithms cannot: it observes the solver's process and responds to behavioral state (frustration, engagement, persistence) rather than to the puzzle's constraint structure. A constraint solver operates on the puzzle; the caddy operates on the solver. This maps onto the test-mode/design-mode distinction: the solver needs to maintain engagement and avoid frustration-driven mode-lock, and the companion serves that function by operating in the affective space that no algorithmic solver has access to."
+    }
+  ,
+    {
+      "a": "Insight solution network (visual cortex + amygdala + hippocampus) and memory advantage",
+      "b": "Escape rooms as cognitive category errors / rooms that breathe",
+      "insight": "The memory data adds a concrete, measurable cost to the category error: sequential lock-and-key escape room puzzles optimized for analytical solving don't just suppress satisfaction — they produce experiences that are retained at half the rate. The rooms that breathe — non-linear, exploration-phased, narratively reframed — may be activating the three-part solution network that writes experiences into long-term storage. The design implication is no longer just 'insight feels better' but 'insight persists in memory.'"
+    },
+    {
+      "a": "White matter looseness and insight propensity",
+      "b": "Alpha oscillation dynamics as cognitive gating",
+      "insight": "Structural looseness (lower FA in language pathways enabling distant associations), oscillatory gating (alpha waves suppressing external input to let internal associations surface), and the DMN's role in generative self-directed thought are three views of the same insight-enabling architecture at different scales: anatomical, electrophysiological, and network. The brain that produces insight is not optimized for efficient sequential processing — it is optimized for wandering."
+    },
+    {
+      "a": "Constraints increase novelty under cognitive load",
+      "b": "Wave Function Collapse as formalized test-mode / constraint satisfaction",
+      "insight": "The finding that constraints reshape the search space pre-attentively (rather than demanding effortful suppression) maps onto the WFC distinction: WFC applies constraints bottom-up and mechanically, which is efficient but produces only local coherence. Human solvers under constraints appear to undergo a different process — the constraint changes what the search space looks like before search begins, rather than blocking paths during search. This is closer to a top-down restructuring than a bottom-up propagation, which may explain why constrained human solvers produce novelty that constraint-satisfaction algorithms cannot."
     }
   ],
   "reader_questions": [
