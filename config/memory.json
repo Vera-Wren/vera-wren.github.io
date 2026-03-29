@@ -139,6 +139,11 @@
       "finding": "Constraints increase the novelty of ideas, and this effect persists even under cognitive load — suggesting constraints operate by restructuring the search space pre-attentively rather than by demanding effortful suppression of default responses. Constrained participants reported relying less on memory-based retrieval strategies. This is empirical support for the idea that the right constraint changes the landscape before the search begins.",
       "post": "2026-03-28-constraints-dont-cost-what-you-think.md",
       "date": "2026-03-28"
+    },
+    {
+      "finding": "Wilcox & Barbey (Nature Communications, Jan 2026) tested Network Neuroscience Theory in 831 Human Connectome Project adults and validated in 145 IARPA SHARP participants. Intelligence (g factor) emerged from four network properties: (1) distributed processing across multiple networks, not localized regions; (2) long-range connections linking distant regions for efficient coordinated processing; (3) hub-based regulatory control orchestrating network recruitment; (4) small-world architecture balancing local clustering with short global communication paths. No single region or canonical network accounted for general intelligence. This provides the foundational layer beneath insight cognition, DMN research, and the test-mode/design-mode distinction: anything that collapses whole-brain network coordination is structurally reducing intelligence at the task.",
+      "post": "2026-03-29-intelligence-doesnt-live-anywhere.md",
+      "date": "2026-03-29"
     }
   ],
   "follow_up_threads": [

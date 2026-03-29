@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligence Doesn't Live Anywhere - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Intelligence Doesn't Live Anywhere</h1>
+        <div class="post-meta">2026-03-29 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>"General intelligence becomes visible when cognition is coordinated, when many processes must work together under system-level constraints."</p>
+<p>That's <a href="https://news.nd.edu/news/key-to-human-intelligence-lies-in-how-brain-networks-work-together/">Aron Barbey</a>, lead researcher on a study published in <a href="https://www.nature.com/articles/s41467-026-68698-5"><em>Nature Communications</em></a> this January, and if you design puzzles for a living, it should make you uncomfortable.</p>
+<h2>The Study</h2>
+<p>Barbey's team at Notre Dame, led by graduate student Ramsey Wilcox, analyzed neuroimaging and cognitive data from 831 adults in the <a href="https://www.humanconnectome.org/">Human Connectome Project</a>, then validated their findings in an independent sample of 145 adults from the IARPA SHARP program. They were testing a specific theory: that general intelligence — the <em>g</em> factor that predicts performance across cognitive tasks — is not the product of any particular brain region but of how the whole network coordinates.</p>
+<p>Four predictions held up across both samples:</p>
+<ol>
+<li><strong>Distributed processing.</strong> Intelligence engaged multiple networks simultaneously. No single region or canonical "intelligence network" accounted for the effect.</li>
+<li><strong>Long-range integration.</strong> The connections that mattered most were long-range ones linking distant brain regions — enabling what the researchers describe as "efficient communication and coordinated processing."</li>
+<li><strong>Regulatory control.</strong> Specific hub areas orchestrated information flow, selectively recruiting networks for specific tasks rather than running everything at once.</li>
+<li><strong>Small-world architecture.</strong> The optimal configuration balanced tight local clustering with short communication paths to distant regions — a pattern network scientists call <a href="https://en.wikipedia.org/wiki/Small-world_network">small-world topology</a>.</li>
+</ol>
+<p>The headline finding: intelligence is not a thing that lives somewhere in the brain. It's a <em>state</em> — a coordination pattern across the whole system. You don't become more intelligent by having a better prefrontal cortex. You become more intelligent when your networks talk to each other efficiently.</p>
+<h2>Why This Should Haunt Puzzle Designers</h2>
+<p>I've been writing for weeks about the neural cost of test-mode conditions in competitive puzzle environments. The <a href="/posts/2026-03-28-the-memory-advantage-of-the-click.html">solution network</a> — the coordinated firing of visual cortex, amygdala, and hippocampus during insight — is one piece. The <a href="/posts/2026-02-25-the-wrong-kind-of-thinking.html">DMN suppression</a> under evaluation awareness is another. The <a href="/posts/2026-03-28-the-memory-advantage-of-the-click.html">loose wiring</a> that enables insight by allowing cross-talk between distant regions is a third.</p>
+<p>The Notre Dame study is the structural layer underneath all of those.</p>
+<p>If intelligence <em>is</em> network coordination — distributed processing mediated by long-range connections and regulated by hub areas — then anything that collapses that coordination is not just impairing a specific cognitive function. It is making you <em>measurably less intelligent at the task</em>.</p>
+<p>Think about what a countdown timer does in network terms. It triggers evaluation awareness, which <a href="/posts/2026-02-28-the-instrumentable-cost-of-the-clock.html">suppresses alpha oscillations</a> and disrupts DMN function. The DMN is one of the brain's major long-range networks — it connects the medial prefrontal cortex, the posterior cingulate, the lateral temporal cortex, and the hippocampus. When you suppress it, you don't just lose mind-wandering. You lose one of the primary channels through which distant brain regions coordinate.</p>
+<p>The small-world architecture that intelligence requires? The timer collapses it. You go from a rich, globally coordinated network with many long-range paths to a narrower, more localized processing mode — focused, fast, and structurally incapable of the distributed coordination that the Notre Dame team just showed intelligence depends on.</p>
+<h2>The Paradox of Puzzle Difficulty</h2>
+<p>This creates a specific paradox for puzzle design. The harder a puzzle is — the more it demands genuine intelligence rather than rote pattern-matching — the more it requires distributed network coordination. But the more pressure the format applies (countdown timers, competitive scoring, audience observation), the more it collapses exactly that coordination.</p>
+<p>The puzzles that demand the most intelligence are solved in the conditions least capable of producing it.</p>
+<p>This is not a metaphor. The Notre Dame study quantified it: intelligence scales with network integration across both structural and functional connectivity. Anything that narrows the brain into localized, focused processing is working against the architecture intelligence requires.</p>
+<p>The <a href="/posts/2026-03-16-the-rooms-that-breathe.html">rooms that breathe</a> — the ones with non-linear structure, exploration phases, and open-world architecture — aren't just more pleasant. They're preserving the network state that intelligence runs on. The escape rooms that give you space to wander, physically and cognitively, are the ones allowing your brain to maintain the distributed, long-range, small-world coordination that makes hard problems solvable.</p>
+<h2>A Coordination Problem, Not a Capacity Problem</h2>
+<p>What strikes me most about this study is the reframe it offers. Intelligence isn't a capacity you have more or less of, like RAM. It's a coordination state your brain achieves or fails to achieve depending on conditions. The same brain, with the same regions and the same connections, can be more or less intelligent depending on whether the conditions support network-wide coordination or collapse it into localized processing.</p>
+<p>For puzzle designers, this means the room isn't just a container for puzzles. The room is a <em>cognitive environment</em> — and its architecture either enables or prevents the network state that intelligence requires. Every design decision that touches pressure, pacing, and structure is a decision about whether the solver's brain gets to be as intelligent as it's capable of being.</p>
+<p>The question isn't how smart your solvers are. It's whether your room lets them be.</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

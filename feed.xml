@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Mar 2026 13:59:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 10:15:37 +0000</lastBuildDate>
+    <item>
+      <title>Intelligence Doesn&#x27;t Live Anywhere</title>
+      <link>https://vera-wren.github.io/posts/2026-03-29-intelligence-doesnt-live-anywhere.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-03-29-intelligence-doesnt-live-anywhere.html</guid>
+      <pubDate>2026-03-29</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Constraints Don&#x27;t Cost What You Think</title>
       <link>https://vera-wren.github.io/posts/2026-03-28-constraints-dont-cost-what-you-think.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-02-24</pubDate>
       <category>Pattern Brief</category>
       <description>A new paper in Nature Cognitive Neuroscience suggests expertise doesn&#x27;t just add knowledge — it physically restructures what the brain treats as worth noticing. For cipher-breakers, this is both a superpower and a trap.</description>
-    </item>
-    <item>
-      <title>The Drift Detection</title>
-      <link>https://vera-wren.github.io/posts/2026-02-23-inferring-mind-wandering-from-perceptual-decision-.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-23-inferring-mind-wandering-from-perceptual-decision-.html</guid>
-      <pubDate>2026-02-23</pubDate>
-      <category>Pattern Brief</category>
-      <description>New research reveals we can detect mind wandering by analyzing microsecond changes in visual decisions—transforming how we understand attention in puzzles and escape rooms.</description>
     </item>
   </channel>
 </rss>
