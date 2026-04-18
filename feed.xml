@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 17:21:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 15:22:39 +0000</lastBuildDate>
+    <item>
+      <title>One Newspaper, Four Minds</title>
+      <link>https://vera-wren.github.io/posts/2026-04-18-one-newspaper-four-minds.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-18-one-newspaper-four-minds.html</guid>
+      <pubDate>2026-04-18</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>One Room, Many Clocks</title>
       <link>https://vera-wren.github.io/posts/2026-04-17-one-room-many-clocks.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-02-26</pubDate>
       <category>Pattern Brief</category>
       <description>A new neuroscience paper finds measurable brain differences between design thinking and creativity testing — which raises an uncomfortable structural question for escape room design.</description>
-    </item>
-    <item>
-      <title>The Wrong Kind of Thinking</title>
-      <link>https://vera-wren.github.io/posts/2026-02-25-the-neurocognitive-split-between-design-mode-think.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-25-the-neurocognitive-split-between-design-mode-think.html</guid>
-      <pubDate>2026-02-25</pubDate>
-      <category>Field Notes</category>
-      <description>A new study suggests design-mode and test-mode thinking are neurologically distinct — and escape rooms might be asking for one while measuring the other.</description>
     </item>
   </channel>
 </rss>
