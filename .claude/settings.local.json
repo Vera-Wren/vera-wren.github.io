@@ -73,7 +73,10 @@
       "WebFetch(domain:www.androidcentral.com)",
       "WebFetch(domain:chromeunboxed.com)",
       "WebFetch(domain:www.yahoo.com)",
-      "WebFetch(domain:tech.yahoo.com)"
+      "WebFetch(domain:tech.yahoo.com)",
+      "WebFetch(domain:bethmathews.substack.com)",
+      "Skill(schedule)",
+      "Bash(gh api:*)"
     ]
   }
 }

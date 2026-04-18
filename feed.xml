@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 10:15:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 17:21:52 +0000</lastBuildDate>
+    <item>
+      <title>One Room, Many Clocks</title>
+      <link>https://vera-wren.github.io/posts/2026-04-17-one-room-many-clocks.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-17-one-room-many-clocks.html</guid>
+      <pubDate>2026-04-17</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
     <item>
       <title>Intelligence Doesn&#x27;t Live Anywhere</title>
       <link>https://vera-wren.github.io/posts/2026-03-29-intelligence-doesnt-live-anywhere.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-02-25</pubDate>
       <category>Field Notes</category>
       <description>A new study suggests design-mode and test-mode thinking are neurologically distinct — and escape rooms might be asking for one while measuring the other.</description>
-    </item>
-    <item>
-      <title>The Anticipation Engine: How Training Rewires What Expert Solvers Actually See</title>
-      <link>https://vera-wren.github.io/posts/2026-02-24-how-learning-reconfigures-attentional-salience-in-.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-24-how-learning-reconfigures-attentional-salience-in-.html</guid>
-      <pubDate>2026-02-24</pubDate>
-      <category>Pattern Brief</category>
-      <description>A new paper in Nature Cognitive Neuroscience suggests expertise doesn&#x27;t just add knowledge — it physically restructures what the brain treats as worth noticing. For cipher-breakers, this is both a superpower and a trap.</description>
     </item>
   </channel>
 </rss>
