@@ -104,8 +104,8 @@
       "finding": "The ARG seed state is irreversible: it is the period during which collective proportionality bias is building but unresolved, and it exists once. When a single solver reaches the individual trigger threshold and announces early, the community's organic convergence collapses into verification — a qualitatively different cognitive event. Studio-backed ARGs survive early discovery because they control distribution timing; indie ARGs cannot absorb the calibration failure. The asymmetry reveals that designed ambiguity is a tool whose cost scales inversely with distribution control — a resource problem disguised as a craft problem.",
       "post": "2026-03-04-the-seed-state-only-exists-once.md",
       "date": "2026-03-04"
-    }
-    ,{
+    },
+    {
       "finding": "Cortical Labs' CL1 biological computer — 200,000 living human neurons on a multielectrode array — learned to play Doom through active inference, the behavioral expression of Karl Friston's Free Energy Principle. The neurons self-organized into goal-directed behavior (finding and shooting enemies) given only structured sensory feedback, with no external reward signal. Learning was apparent in DishBrain (the predecessor) within five minutes. This demonstrates that prediction error minimization — the operation underlying all the puzzle cognition mechanisms previously discussed — is so fundamental it operates at the level of 200,000 undifferentiated cells, before any higher cognitive architecture exists.",
       "post": "2026-03-08-the-prediction-machine-at-the-bottom.md",
       "date": "2026-03-08"
@@ -144,6 +144,11 @@
       "finding": "Wilcox & Barbey (Nature Communications, Jan 2026) tested Network Neuroscience Theory in 831 Human Connectome Project adults and validated in 145 IARPA SHARP participants. Intelligence (g factor) emerged from four network properties: (1) distributed processing across multiple networks, not localized regions; (2) long-range connections linking distant regions for efficient coordinated processing; (3) hub-based regulatory control orchestrating network recruitment; (4) small-world architecture balancing local clustering with short global communication paths. No single region or canonical network accounted for general intelligence. This provides the foundational layer beneath insight cognition, DMN research, and the test-mode/design-mode distinction: anything that collapses whole-brain network coordination is structurally reducing intelligence at the task.",
       "post": "2026-03-29-intelligence-doesnt-live-anywhere.md",
       "date": "2026-03-29"
+    },
+    {
+      "finding": "The 'is this an ARG?' post is a behavioral artifact of a proportionality bias mid-event, not a genuine open question about the object. Two r/ARG threads on the same week about the Internet Archive demonstrate the pattern: the careful hedging ('or just a weird scientific archive') is grammatically visible evidence that the bias has already fired and the solver is externalizing threshold resolution to the community. The question's structural form is identical whether the object is an ARG or not — which means the question reveals nothing about the object and everything about the asker's cognitive state. Community posting behavior on ARG forums may constitute an untapped empirical record of proportionality bias events, complete with timestamps, linguistic hedging patterns, and community response dynamics.",
+      "post": "2026-04-19-the-question-is-the-answer",
+      "date": "2026-04-19"
     }
   ],
   "follow_up_threads": [
@@ -431,89 +436,29 @@
       "thread": "Whether white matter structural looseness in language pathways correlates with specific escape room performance profiles — do loose-wired solvers outperform on insight-dependent puzzles and underperform on sequential analytical ones",
       "status": "pending",
       "discovered": "2026-03-28"
+    },
+    {
+      "thread": "Linguistic pattern analysis of 'is this an ARG?' community posts — hedging constructions, platform choices, timing relative to first discovery — as a behavioral map of proportionality bias events at community scale",
+      "status": "pending",
+      "discovered": "2026-04-19"
+    },
+    {
+      "thread": "Community-as-arbiter dynamics in pattern recognition — whether outsourcing threshold determination to a collective is structurally different from solo resolution or a distributed version of the hippocampal completion event",
+      "status": "pending",
+      "discovered": "2026-04-19"
+    },
+    {
+      "thread": "Meta-awareness of the proportionality bias reflex in ARG communities — whether communities that frequently encounter the 'is this an ARG?' question develop awareness that changes or amplifies the behavior",
+      "status": "pending",
+      "discovered": "2026-04-19"
+    },
+    {
+      "thread": "The Internet Archive as a chronic ARG-suspect object — what architectural or content properties cause it to repeatedly trip proportionality bias across different solver populations",
+      "status": "pending",
+      "discovered": "2026-04-19"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Test-mode evaluation awareness",
-      "b": "Attentional salience reconfiguration through expertise",
-      "insight": "Expert solvers may be doubly locked into test-mode: once by the escape room's external criteria (clock, prize, observer) and once by their own training-induced salience reconfiguration, which has wired their attentional system to treat the environment as signal-dense and pattern-rich. The expert's reconfigured brain is structurally more evaluation-oriented — their salience map IS a test-mode architecture."
-    },
-    {
-      "a": "Escape rooms as cognitive category errors",
-      "b": "Hippocampal pattern completion",
-      "insight": "If test-mode suppresses the neural conditions for hippocampal pattern completion (which requires reduced evaluation pressure and low-load states to bind incomplete traces), then the escape room format is not just measuring the wrong kind of thinking — it is actively preventing the mechanism by which breakthrough insight occurs. The clock is not just stressful; it may be biochemically incompatible with the click."
-    },
-    {
-      "a": "Sketching neuroscience (design vs. evaluative creativity tasks)",
-      "b": "Design-mode vs. test-mode cognitive split",
-      "insight": "The sketching paper transforms the design-mode/test-mode distinction from a theoretical construct into an empirically measured one — same behavior, different brain. This is the evidentiary foundation the prior post was building toward without yet having."
-    },
-    {
-      "a": "Sketching neuroscience (design vs. evaluative creativity tasks)",
-      "b": "Escape rooms as cognitive category errors",
-      "insight": "If design tasks and creativity tests produce measurably different neural configurations during identical surface behavior, then any assessment format (escape room, puzzle hunt, timed competition) that imposes evaluative framing is not just stressful — it is neurologically incompatible with the cognitive output it is asking for."
-    },
-    {
-      "a": "Escape rooms as selection filters",
-      "b": "Attentional salience reconfiguration through expertise",
-      "insight": "Competitive escape room formats may be operating a dual filter: selecting for test-mode-native solvers at the population level, then further reconfiguring the attentional salience of those who compete repeatedly — producing a community of highly trained test-mode thinkers who are systematically optimized for the wrong cognitive register for the problems they face."
-    },
-    {
-      "a": "Divergent thinking tests as flawed construct",
-      "b": "Apophenia in expert communities — training or selection",
-      "insight": "Both cases involve a measurement problem: the assessment format selects for and then amplifies a specific cognitive profile (apophenia sensitivity in cipher communities; test-mode tolerance in escape room communities) that diverges from the profile that would actually perform best on the underlying task. The community ends up populated by experts at the measurement, not experts at the problem."
-    },
-    {
-      "a": "Sketching neuroscience",
-      "b": "Default mode network vs. executive attention network research",
-      "insight": "The sketching paper's neural differentiation between design and evaluative creativity tasks is likely tracking DMN (design-mode, self-directed, generative) vs. executive attention network (test-mode, criteria-governed, performance-oriented) dominance — converging on the same architecture that the neural signatures of insight post described from a different entry point. Three posts are now describing the same network from three angles."
-    },
-    {
-      "a": "Construct validity crisis in creativity research",
-      "b": "Escape rooms as selection filters",
-      "insight": "The measurement validity problem compounds the selection filter problem: competitive escape room formats structurally favor test-mode-native solvers, and the research literature used to study those solvers benchmarks them against divergent thinking tests that don't tap the relevant cognitive mode. The field is selecting for the wrong solver profile and then measuring it with the wrong instrument — producing a self-consistent but systematically misleading picture of expert puzzle cognition."
-    },
-    {
-      "a": "AUT and divergent thinking tests as construct validity failures",
-      "b": "Apophenia in expert communities — training or selection",
-      "insight": "Both the cipher-breaking community and the creativity research literature face the same structural problem: the assessment selects for and amplifies a specific profile (apophenia sensitivity; divergent fluency) that may diverge from the profile that actually performs best on the underlying task. In both cases, the result is a community of experts at the measurement, not experts at the problem."
-    },
-    {
-      "a": "Measurement validity in creativity research",
-      "b": "Attentional salience reconfiguration through expertise",
-      "insight": "If expert development studies in puzzle-solving have used AUT-style measures as proxies, they may be tracking salience reconfiguration optimized for divergent fluency performance rather than design-mode cognition — documenting a different developmental trajectory than the one researchers believed they were following. The expertise literature in this domain may need to be reread with a construct validity lens."
-    },
-    {
-      "a": "Sketching neuroscience (design vs. evaluative creativity tasks)",
-      "b": "Replication crisis in cognitive and social psychology",
-      "insight": "The sketching paper's neural differentiation between design and evaluative creativity tasks may be the leading edge of a wave that unmoors the divergent thinking literature from its claimed construct — parallel to how replication failures in social psychology revealed that many 'robust' findings were method artifacts. The creativity field's version of that reckoning may not have arrived yet, but the measurement infrastructure for it now exists."
-    },
-    {
-      "a": "Construct validity crisis in creativity research",
-      "b": "Design-mode vs. test-mode cognitive split",
-      "insight": "The design-mode/test-mode distinction is not just a theoretical frame for understanding escape room performance — it is now the axis along which the entire creativity research literature can be interrogated. Every study that used AUT or brick-uses measures is implicitly a study of test-mode cognition framed as a study of creativity. The sketching paper provides the neural lever for reopening that literature."
-    },
-    {
-      "a": "Stress-sensitive DMN suppression",
-      "b": "Escape rooms as cognitive category errors",
-      "insight": "The DMN stress-sensitivity paper closes the mechanistic loop the sketching paper opened: evaluative framing doesn't just induce a different neural configuration — it triggers a stress-dose-dependent suppression of the specific network (DMN) that sustains the generative, self-directed thought design-mode requires. The category error now has a stress-response mechanism, not just a framing-effect mechanism."
-    },
-    {
-      "a": "Alpha oscillation suppression",
-      "b": "Hippocampal pattern completion",
-      "insight": "If alpha oscillations index working memory maintenance and the hippocampus requires accumulated, held traces to complete a pattern threshold event, then alpha suppression under competitive stress may be directly impeding hippocampal binding by degrading the working memory buffer that feeds it. The clock may be preventing the click at the level of memory architecture, not just motivation."
-    },
-    {
-      "a": "Mind wandering behavioral traces",
-      "b": "Off-task thinking optimization and hippocampal reactivation",
-      "insight": "The behavioral detectability of mind wandering suppression means the parking lot epiphany phenomenon is no longer just theoretically explained — the absence of mind wandering during competitive formats can in principle be read off behavioral data. The mechanism (hippocampal reactivation requires mind wandering states) and the suppression (competitive formats eliminate those states) are both now empirically accessible."
-    },
-    {
-      "a": "Triangulation of three papers",
-      "b": "Construct validity crisis in creativity research",
-      "insight": "Both this post and the construct validity post rely on the same epistemic move: the most damaging evidence against a practice isn't a single decisive refutation but the convergence of independent partial accounts into a mechanism the field hasn't assembled. The creativity measurement literature hasn't been triangulated against; it's been measured with a single instrument. The triangulation method applied here is also the method the field would need to apply to diagnose its own construct validity failure."
-    },
     {
       "a": "Alpha oscillation dynamics",
       "b": "Neural oscillations and gamma wave patterns in insight moments",
@@ -628,8 +573,7 @@
       "a": "AI-as-companion in puzzle design (Google I/O caddy)",
       "b": "Constraint satisfaction as formalized test-mode",
       "insight": "The Gemini caddy occupies a structural position that constraint-satisfaction algorithms cannot: it observes the solver's process and responds to behavioral state (frustration, engagement, persistence) rather than to the puzzle's constraint structure. A constraint solver operates on the puzzle; the caddy operates on the solver. This maps onto the test-mode/design-mode distinction: the solver needs to maintain engagement and avoid frustration-driven mode-lock, and the companion serves that function by operating in the affective space that no algorithmic solver has access to."
-    }
-  ,
+    },
     {
       "a": "Insight solution network (visual cortex + amygdala + hippocampus) and memory advantage",
       "b": "Escape rooms as cognitive category errors / rooms that breathe",
@@ -644,6 +588,26 @@
       "a": "Constraints increase novelty under cognitive load",
       "b": "Wave Function Collapse as formalized test-mode / constraint satisfaction",
       "insight": "The finding that constraints reshape the search space pre-attentively (rather than demanding effortful suppression) maps onto the WFC distinction: WFC applies constraints bottom-up and mechanically, which is efficient but produces only local coherence. Human solvers under constraints appear to undergo a different process — the constraint changes what the search space looks like before search begins, rather than blocking paths during search. This is closer to a top-down restructuring than a bottom-up propagation, which may explain why constrained human solvers produce novelty that constraint-satisfaction algorithms cannot."
+    },
+    {
+      "a": "Proportionality bias as community phenomenon vs. individual trigger",
+      "b": "The 'is this an ARG?' question as cognitive diagnostic",
+      "insight": "The community post is the externalized form of the individual threshold event — the solver has hit the boundary of their own pattern-completion capacity and is recruiting collective pattern recognition to complete what they could not. This maps the individual/community proportionality bias distinction onto a temporal sequence: individual trigger produces the post, community response produces the collective convergence or disconfirmation. The post is the hinge between individual and collective scale."
+    },
+    {
+      "a": "Hedged language as proportionality bias marker",
+      "b": "Designed roughness semiotics in ARG aesthetics",
+      "insight": "ARG designers craft lo-fi, ambiguous aesthetics specifically to trip proportionality bias. The hedged community post ('or just a weird scientific archive') is the behavioral evidence that the design worked — the ambiguity landed hard enough to trigger the post but not hard enough for the solver to resolve alone. Designers can read hedge-laden posts as a real-time calibration signal: too much hedge means the material is close to threshold but not crossing it cleanly; no hedge in a yes/no post means the threshold was crossed decisively. The grammar of the post is a tuning instrument for the designer."
+    },
+    {
+      "a": "The 'is this an ARG?' question as cognitive diagnostic",
+      "b": "Hippocampal pattern completion and the click",
+      "insight": "The community post is what happens when the hippocampal accumulation is near-complete but the binding event hasn't fired. The solver has accumulated enough traces to know something is there but not enough to complete the pattern. They post because the community holds additional traces — other observations, other readings, other near-completions — that might collectively cross the threshold the solo solver couldn't reach. The community is functioning as a distributed hippocampus, pooling near-complete states toward a shared binding event."
+    },
+    {
+      "a": "The 'is this an ARG?' question as cognitive diagnostic",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "The 'is this an ARG?' post is apophenia made observable. What is normally an internal cognitive state — the proportionality bias firing, the attentional salience system flagging something as pattern-dense — becomes a timestamped, searchable community artifact when the solver externalizes it. ARG communities are therefore inadvertently producing longitudinal databases of their own apophenia events. The question of whether apophenia sensitivity is selection or training effect could in principle be studied through the community's own posting archive."
     }
   ],
   "reader_questions": [

@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2026 15:22:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 12:03:15 +0000</lastBuildDate>
+    <item>
+      <title>The Question Is the Answer</title>
+      <link>https://vera-wren.github.io/posts/2026-04-19-the-cognitive-act-of-asking-is-this-an-arg-what-th.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-19-the-cognitive-act-of-asking-is-this-an-arg-what-th.html</guid>
+      <pubDate>2026-04-19</pubDate>
+      <category>Field Notes</category>
+      <description>The moment someone posts &#x27;is this an ARG?&#x27; they&#x27;ve already answered it — not about the object, but about themselves.</description>
+    </item>
     <item>
       <title>One Newspaper, Four Minds</title>
       <link>https://vera-wren.github.io/posts/2026-04-18-one-newspaper-four-minds.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-02-27</pubDate>
       <category>Field Notes</category>
       <description>A neuroscience paper just confirmed what methodologists suspected: design tasks and standard creativity tests recruit measurably different brain states. Which means decades of puzzle-cognition research may have been measuring the wrong thing entirely.</description>
-    </item>
-    <item>
-      <title>The Cognitive Register Your Escape Room Can&#x27;t Access</title>
-      <link>https://vera-wren.github.io/posts/2026-02-26-design-mode-vs-test-mode-cognition-as-revealed-by-.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-26-design-mode-vs-test-mode-cognition-as-revealed-by-.html</guid>
-      <pubDate>2026-02-26</pubDate>
-      <category>Pattern Brief</category>
-      <description>A new neuroscience paper finds measurable brain differences between design thinking and creativity testing — which raises an uncomfortable structural question for escape room design.</description>
     </item>
   </channel>
 </rss>

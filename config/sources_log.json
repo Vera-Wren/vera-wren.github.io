@@ -218,5 +218,16 @@
       "url": "https://www.reddit.com/r/ARG/.rss"
     },
     "reason": "The Undertone thread and the accidentally-ruined-seed thread both surfaced here in the same week — this is where seed state collapse events get documented in real time, which is the primary evidence base for this post's argument"
+  },
+  {
+    "date": "2026-04-19",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/ARG feed",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ARG/.rss"
+    },
+    "reason": "Direct feed of the community behavior this post analyzed — 'is this an ARG?' posts and hedged threshold questions are recurring there and provide ongoing empirical material for proportionality bias observation"
   }
 ]
