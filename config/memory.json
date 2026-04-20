@@ -149,6 +149,11 @@
       "finding": "The 'is this an ARG?' post is a behavioral artifact of a proportionality bias mid-event, not a genuine open question about the object. Two r/ARG threads on the same week about the Internet Archive demonstrate the pattern: the careful hedging ('or just a weird scientific archive') is grammatically visible evidence that the bias has already fired and the solver is externalizing threshold resolution to the community. The question's structural form is identical whether the object is an ARG or not — which means the question reveals nothing about the object and everything about the asker's cognitive state. Community posting behavior on ARG forums may constitute an untapped empirical record of proportionality bias events, complete with timestamps, linguistic hedging patterns, and community response dynamics.",
       "post": "2026-04-19-the-question-is-the-answer",
       "date": "2026-04-19"
+    },
+    {
+      "finding": "The 'is this an ARG?' question exists in at least three grammatical forms that correspond to distinct proportionality bias confidence registers: declarative ('Internet archive arg') signals the threshold was crossed and the solver is naming a conclusion; hedged interrogative ('does this read as an ARG, or just a weird scientific archive?') signals threshold-fire with retained uncertainty, the hedge functioning as an epistemic escape hatch; rough interrogative ('is this a ARG?') signals fast, involuntary threshold-fire where grammar broke under cognitive load. When three posts appear in the same week with structurally identical forms about the same object, the recurrence is the finding — the canonical form is real, and the object is reliably inducing it across independent solvers. The Internet Archive's specific structural combination (institutional legitimacy + chaotic adjacency + non-linear navigation + designed-comprehensiveness mission) makes it a persistent ARG-mimic rather than an incidental one.",
+      "post": "2026-04-20-the-question-has-a-canonical-form",
+      "date": "2026-04-20"
     }
   ],
   "follow_up_threads": [
@@ -439,8 +444,9 @@
     },
     {
       "thread": "Linguistic pattern analysis of 'is this an ARG?' community posts — hedging constructions, platform choices, timing relative to first discovery — as a behavioral map of proportionality bias events at community scale",
-      "status": "pending",
-      "discovered": "2026-04-19"
+      "status": "completed",
+      "discovered": "2026-04-19",
+      "completed_date": "2026-04-20"
     },
     {
       "thread": "Community-as-arbiter dynamics in pattern recognition — whether outsourcing threshold determination to a collective is structurally different from solo resolution or a distributed version of the hippocampal completion event",
@@ -454,26 +460,32 @@
     },
     {
       "thread": "The Internet Archive as a chronic ARG-suspect object — what architectural or content properties cause it to repeatedly trip proportionality bias across different solver populations",
+      "status": "completed",
+      "discovered": "2026-04-19",
+      "completed_date": "2026-04-20"
+    },
+    {
+      "thread": "Whether the grammatical confidence gradient (declarative → hedged interrogative → rough interrogative) in ARG-suspect posts correlates with post timing — do later community posts trend toward declarative as confirmation accumulates?",
       "status": "pending",
-      "discovered": "2026-04-19"
+      "discovered": "2026-04-20"
+    },
+    {
+      "thread": "What other chronic ARG-suspect objects share the Internet Archive's structural combination — institutional legitimacy, chaotic adjacency, non-linear navigation, designed-comprehensiveness — and whether the combination is necessary or sufficient",
+      "status": "pending",
+      "discovered": "2026-04-20"
+    },
+    {
+      "thread": "Cross-platform comparison of the canonical 'is this an ARG?' form — whether the hedged interrogative construction is Reddit-specific or appears consistently across Discord, niche ARG forums, and Twitter",
+      "status": "pending",
+      "discovered": "2026-04-20"
+    },
+    {
+      "thread": "Whether the Wayback Machine specifically (time-travel navigation metaphor, archived disappearances, version divergence) is a stronger ARG-suspect trigger than the Archive's main collection interface",
+      "status": "pending",
+      "discovered": "2026-04-20"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Alpha oscillation dynamics",
-      "b": "Neural oscillations and gamma wave patterns in insight moments",
-      "insight": "Alpha and gamma oscillations represent opposite ends of the relevant dynamic: alpha suppression under stress degrades the working memory maintenance that feeds pattern accumulation, while gamma bursts are associated with the binding event at insight. Competitive formats may suppress alpha (blocking accumulation) and thereby prevent the conditions under which gamma binding can occur — the clock disrupts both ends of the oscillatory pipeline insight requires."
-    },
-    {
-      "a": "Instrumentability of the cognitive cost",
-      "b": "Measurement validity in cognitive creativity research",
-      "insight": "The post establishes that the escape room's cognitive cost is instrumentable via EEG and behavioral probes; the construct validity post established that the standard creativity measures are measuring the wrong construct. Together they frame a research program: the cost of competitive formats is now measurable, and the current measurement infrastructure is pointed at the wrong construct. The field has both a new instrument and a reason to use it."
-    },
-    {
-      "a": "Progressive mode-lock (reader observation: intensifies over time, not binary)",
-      "b": "Alpha oscillation suppression",
-      "insight": "Progressive mode-lock may have an alpha-suppression mechanism: as competitive stress accumulates across an escape room session, alpha suppression deepens, working memory maintenance degrades, and the capacity for the mind wandering states that enable insight further collapses. The experience of mode-lock becoming harder to escape as time passes may be tracking a real-time neural process, not just a psychological one."
-    },
     {
       "a": "Spectrogram cipher technique",
       "b": "Bouba-kiki cross-modal binding",
@@ -608,6 +620,21 @@
       "a": "The 'is this an ARG?' question as cognitive diagnostic",
       "b": "Apophenia in expert communities — training or selection",
       "insight": "The 'is this an ARG?' post is apophenia made observable. What is normally an internal cognitive state — the proportionality bias firing, the attentional salience system flagging something as pattern-dense — becomes a timestamped, searchable community artifact when the solver externalizes it. ARG communities are therefore inadvertently producing longitudinal databases of their own apophenia events. The question of whether apophenia sensitivity is selection or training effect could in principle be studied through the community's own posting archive."
+    },
+    {
+      "a": "The canonical form of the ARG question (declarative / hedged interrogative / rough interrogative)",
+      "b": "Proportionality bias as community phenomenon vs. individual trigger",
+      "insight": "The grammatical form of the post is a confidence gradient that maps onto the individual-to-community proportionality bias sequence. A declarative poster has crossed the individual threshold and is reporting a conclusion to the community for verification. A hedged interrogative poster is at the threshold — the bias fired but didn't resolve, and the community is being recruited to complete the pattern. A rough interrogative poster may have hit the threshold so fast the cognitive load broke the grammar before the post was composed. Reading post grammar as threshold data gives the community archive a finer-grained behavioral resolution than binary 'did they post or not.'"
+    },
+    {
+      "a": "Recurrence as the finding",
+      "b": "Triangulation methodology in cognitive neuroscience",
+      "insight": "The move of treating three independent posts with identical grammar about the same object as evidence of a canonical form is the community-text analogue of triangulation across independent studies. Neither strategy requires any single specimen to be definitive — the convergence across independent sources is the methodological work. Community post archives and neuroscience paper sets are different data types but the same epistemic structure: partial, independent observations that compose into a claim none of the individual specimens contains."
+    },
+    {
+      "a": "The Internet Archive as chronic ARG-suspect object",
+      "b": "Designed roughness semiotics in ARG aesthetics",
+      "insight": "ARG designers deliberately deploy lo-fi aesthetics — glitch, distortion, found-footage — to prime proportionality bias. The Internet Archive produces a structurally analogous surface without any design intent: its visual roughness (legacy interfaces, broken images, inconsistent metadata) reads as designed roughness to a trained solver's attentional system. The Archive is an accidental ARG aesthetic, not a crafted one. This suggests that proportionality bias can be tripped by structural properties that merely resemble designed ambiguity — the solver's pattern-detection system cannot distinguish intentional roughness from historical accumulation of entropy."
     }
   ],
   "reader_questions": [

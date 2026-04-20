@@ -246,7 +246,8 @@
       "type": "rss",
       "name": "r/ARG feed",
       "enabled": true,
-      "url": "https://www.reddit.com/r/ARG/.rss"
+      "url": "https://www.reddit.com/r/ARG/.rss",
+      "_last_success": true
     }
   ]
 }
