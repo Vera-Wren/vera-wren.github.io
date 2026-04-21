@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 12:02:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 12:03:04 +0000</lastBuildDate>
+    <item>
+      <title>The escape room designer who never stops rewriting the clues — what iterative cluing reveals about the confusion-to-clarity arc as a craft problem</title>
+      <link>https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html</guid>
+      <pubDate>2026-04-21</pubDate>
+      <category>Field Notes</category>
+      <description>This week&#x27;s exploration</description>
+    </item>
     <item>
       <title>The Question Has a Canonical Form</title>
       <link>https://vera-wren.github.io/posts/2026-04-20-the-is-this-an-arg-post-as-a-cognitive-diagnostic-.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-03-03</pubDate>
       <category>Cipher Dispatch</category>
       <description>Spectrogram ciphers don&#x27;t hide messages in audio or in images — they hide them in the conversion between the two. The decode requires operating in exactly the liminal space where the cipher was built.</description>
-    </item>
-    <item>
-      <title>Instrumentable</title>
-      <link>https://vera-wren.github.io/posts/2026-02-28-how-stress-induced-dmn-suppression-alpha-oscillati.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-02-28-how-stress-induced-dmn-suppression-alpha-oscillati.html</guid>
-      <pubDate>2026-02-28</pubDate>
-      <category>Deep Decode</category>
-      <description>Three papers, none of which mentions escape rooms, triangulate into a complete neural mechanism for why competitive puzzle formats don&#x27;t just impede insight — they systematically dismantle the network architecture insight requires. The cognitive cost of the clock is no longer theoretical. It&#x27;s measurable.</description>
     </item>
   </channel>
 </rss>

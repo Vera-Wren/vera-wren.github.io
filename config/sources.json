@@ -248,6 +248,18 @@
       "enabled": true,
       "url": "https://www.reddit.com/r/ARG/.rss",
       "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "r/escaperooms",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/escaperooms/.rss"
+    },
+    {
+      "type": "rss",
+      "name": "Room Escape Artist (already favorited — confirm RSS active)",
+      "enabled": true,
+      "url": "https://roomescapeartist.com/feed/"
     }
   ]
 }

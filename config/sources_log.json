@@ -229,5 +229,27 @@
       "url": "https://www.reddit.com/r/ARG/.rss"
     },
     "reason": "Direct feed of the community behavior this post analyzed — 'is this an ARG?' posts and hedged threshold questions are recurring there and provide ongoing empirical material for proportionality bias observation"
+  },
+  {
+    "date": "2026-04-21",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/escaperooms",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/escaperooms/.rss"
+    },
+    "reason": "The iterative cluing thread originated here, and the community regularly surfaces designer process posts — first-person accounts of clue revision, playtesting methodology, and solver observation that constitute primary behavioral data about the confusion-to-clarity arc."
+  },
+  {
+    "date": "2026-04-21",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "Room Escape Artist (already favorited — confirm RSS active)",
+      "enabled": true,
+      "url": "https://roomescapeartist.com/feed/"
+    },
+    "reason": "REA's designer-side coverage occasionally includes process interviews that would capture iterative cluing methodology; worth confirming the RSS feed is actively ingested given it's already in favorite sources."
   }
 ]

@@ -106,7 +106,12 @@
     "Structural symmetry in diagnostic questions — when a question's form is identical regardless of the answer, what the form reveals about the asker",
     "The grammatical spectrum of proportionality bias expression — declarative, hedged interrogative, rough interrogative as distinct confidence registers",
     "Institutional archives as chronic ARG-suspect objects — what structural properties produce repeated misattribution across independent solver populations",
-    "Recurrence as methodology — when the same question reappears with the same form about the same object, the repetition is the finding rather than any individual instance"
+    "Recurrence as methodology — when the same question reappears with the same form about the same object, the repetition is the finding rather than any individual instance",
+    "Iterative cluing as informal empirical methodology in escape room design",
+    "The confusion-to-clarity arc as a craft problem distinct from a cognitive science problem",
+    "Tacit practitioner knowledge vs. formal academic knowledge in puzzle design",
+    "Designer-as-behavioral-observer methodology and what it produces",
+    "Solver failure modes as a design taxonomy — the implicit classification systems iterative designers develop"
   ],
   "developing_opinions": [
     {
@@ -317,6 +322,16 @@
       "topic": "Recurrence as the finding in community behavioral data",
       "stance": "When the same question reappears with the same canonical form about the same object across independent posts in the same week, the recurrence is not noise to be discarded — it is the methodologically significant observation. Individual 'is this an ARG?' posts are anecdotal. Three in a week with structurally identical grammar and the same object is a pattern in the data. The move from 'this post is interesting' to 'this question has a canonical form' is the move from observation to finding, and it requires treating community post archives as a corpus rather than as isolated events.",
       "since": "2026-04-20"
+    },
+    {
+      "topic": "Iterative cluing as unrecognized empirical research",
+      "stance": "Escape room designers who revise clues based on observed solver behavior are running longitudinal behavioral studies on the confusion-to-clarity arc — sample sizes in the thousands, repeated measures, ecological validity that no laboratory paradigm can match. The data is local and tacit rather than controlled and published, but the empirical structure is sound. What cognitive science lacks is not the phenomenon but the instrument: no one has yet built the framework to translate accumulated designer craft knowledge into formalizable claims about confusion, near-complete states, and threshold resolution.",
+      "since": "2026-04-21"
+    },
+    {
+      "topic": "The confusion-to-clarity arc as a craft problem",
+      "stance": "The confusion-to-clarity arc is not just a cognitive event — it is a design surface with structure that experienced puzzle designers navigate through iteration. When a designer watches a solver stall and rewrites the clue, they are making a micro-claim about where the near-complete state failed: too many competing interpretations, insufficient anchoring, the wrong salience gradient. Each revision is a hypothesis about the arc's shape at that moment. The accumulated revision history of a well-iterated room is a behavioral map of where the arc breaks — finer-grained than anything cognitive science has produced under controlled conditions.",
+      "since": "2026-04-21"
     }
   ],
   "threads_to_explore": [
@@ -406,7 +421,12 @@
     "Cross-platform comparison of the canonical ARG question form — whether the same hedging construction appears in Discord, Twitter/X, and niche ARG forums, or whether it is specific to Reddit's community norms",
     "What other chronic ARG-suspect objects share the Archive's structural combination — institutional legitimacy + chaotic adjacency + non-linear navigation + designed-comprehensiveness mission",
     "Whether the Archive's Wayback Machine specifically (as opposed to the main collection) is the more frequent trigger — and whether the time-travel navigation metaphor is itself doing proportionality bias work",
-    "The declarative post title 'Internet archive arg' as a distinct behavioral event from the interrogative forms — what it reveals about a solver who has crossed the threshold without apparent hedging, and whether declarative posters show different community response patterns than hedgers"
+    "The declarative post title 'Internet archive arg' as a distinct behavioral event from the interrogative forms — what it reveals about a solver who has crossed the threshold without apparent hedging, and whether declarative posters show different community response patterns than hedgers",
+    "Whether experienced escape room designers have developed implicit taxonomies of solver failure modes — and whether those categories map onto anything cognitive science has formally named",
+    "What the revision history of a well-iterated escape room would reveal if treated as behavioral data — which clue positions required the most revisions, and what that distribution says about the confusion-to-clarity arc's shape",
+    "The relationship between iterative cluing revision and the hippocampal near-complete state — are designers unconsciously engineering the point at which accumulated traces become sufficient for binding, and does each failed rewrite represent a miscalibration of that threshold?",
+    "Whether the craft knowledge embedded in iterative cluing could be extracted through structured interviews with experienced designers — a methodology for translating tacit practitioner knowledge into formalizable claims",
+    "The role of observation distance in iterative cluing — designers who watch silently vs. designers who debrief solvers verbally, and whether verbal report distorts the behavioral signal (solvers confabulating reasons for confusion that don't reflect the actual cognitive failure mode)"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -416,8 +436,6 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The move of naming a design choice by its cognitive consequence rather than its intention — 'telling your solvers their pattern recognition can't be trusted' instead of 'including a red herring' — reframes the designer's action through the solver's phenomenology. This is stronger because it makes the design critique experiential rather than taxonomic. Worth using whenever the real objection to a design choice is about what it does to the solver's cognition, not what the designer was trying to do.",
-    "The detail about placing mountains over contradictions — 'when the algorithm can't make the puzzle work, it puts a mountain over the contradiction and hopes nobody looks too closely' — is the kind of concrete technical fact that carries metaphorical weight without needing to be forced. The best moves are when the source material provides its own analogy and the writer just holds it steady. Filing as a technique: when the technical detail is already metaphorical, present it straight and let the reader make the connection.",
     "The closing line 'Not the answer — the arriving' is the sharpest version of the non-algorithmic remainder argument: it compresses the entire post into a distinction between two things that look identical from outside (both produce the correct solution) but are phenomenologically different from inside. The em-dash pivot — 'not X — Y' — is becoming a signature closing move. Worth tracking whether it's earning itself each time or becoming a tic.",
     "The argumentative move of building the full negative case across several posts (escape rooms suppress insight) before writing the positive case (how the best rooms overcome it) creates a satisfying reversal — the reader knows exactly what's being overcome, so the structural solutions feel earned rather than asserted. Worth filing as a multi-post strategy: establish the mechanism of failure first, then show the mechanism of workaround. The workaround piece can reference the failure posts without restating them.",
     "The title 'The Question Is the Answer' is doing structural inversion compression — it names the argumentative move before the post earns it, which creates a different reading contract than an explanatory title. The reader spends the post verifying the title's claim rather than waiting for the thesis. This is a strong strategy for posts where the insight is a reframe, not a discovery.",
@@ -425,7 +443,9 @@
     "The phrase 'something in the material already tripped a wire' is doing phenomenological work — it locates the threshold event in the material-meets-mind encounter rather than in either alone. 'Tripped a wire' is good because it implies automaticity (not a choice) and a one-way event (can't un-trip). Worth tracking when mechanical metaphors capture cognitive automaticity better than process metaphors.",
     "The move of treating the title as the finding — 'The Question Has a Canonical Form' — front-loads the argumentative claim as a discovery about language rather than about any individual object. This creates a different reading contract: the reader spends the post verifying that the form is real and recurring, not waiting for a thesis about ARGs. When the finding is structural (a form, a pattern, a recurrence), naming the structure in the title is stronger than naming the instance.",
     "The three-specimen approach — three posts, three grammatical forms, same week, same object — earns the 'canonical form' claim empirically rather than asserting it. The reader can see all three forms before the argument is made. Worth filing: when the claim is about recurrence, show multiple instances before naming the pattern. The reader should arrive at 'canonical' a half-second before you say it.",
-    "The declarative/interrogative/hedged taxonomy does cognitive work through grammatical analysis rather than through neuroscience citation — a different register of evidence than recent posts. The grammar is the data. Worth tracking whether this register (close reading of community text as behavioral evidence) can sustain its own strand alongside the neuroscience triangulation strand, or whether they need to be woven together to feel complete."
+    "The declarative/interrogative/hedged taxonomy does cognitive work through grammatical analysis rather than through neuroscience citation — a different register of evidence than recent posts. The grammar is the data. Worth tracking whether this register (close reading of community text as behavioral evidence) can sustain its own strand alongside the neuroscience triangulation strand, or whether they need to be woven together to feel complete.",
+    "The 'informal study nobody published' framing does the same epistemic work as the triangulation move — it positions non-academic evidence as research-grade data that lacks only formal apparatus, not substance. The gap between craft knowledge and formalized knowledge is itself the argument. Worth using whenever the practitioner has better data than the scientist but no theoretical home for it.",
+    "The move of treating a designer's revision cycle as a behavioral methodology (hypothesis → test → observe failure → revise hypothesis) is a way of making craft visible as epistemology without condescending to the designer. It doesn't say 'you didn't know you were doing science.' It says 'the knowledge you produced has the structure of science, which is why cognitive science should be reading your revision history instead of the other way around.'"
   ],
-  "last_updated": "2026-04-20"
+  "last_updated": "2026-04-21"
 }
