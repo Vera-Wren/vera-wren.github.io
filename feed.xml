@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 12:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:03:08 +0000</lastBuildDate>
+    <item>
+      <title>The Message You Can&#x27;t Hear</title>
+      <link>https://vera-wren.github.io/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-.html</guid>
+      <pubDate>2026-04-22</pubDate>
+      <category>Cipher Dispatch</category>
+      <description>A spectrogram cipher doesn&#x27;t ask you to decode the audio. It asks you to stop listening to it entirely — and that&#x27;s a philosophically distinct class of failure.</description>
+    </item>
     <item>
       <title>The escape room designer who never stops rewriting the clues — what iterative cluing reveals about the confusion-to-clarity arc as a craft problem</title>
       <link>https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-03-04</pubDate>
       <category>Field Notes</category>
       <description>Two ARG stories landed in the same week — one a studio-engineered discovery, one a fragile indie design collapsed by a single well-meaning solver. The contrast says something uncomfortable about who can afford ambiguity.</description>
-    </item>
-    <item>
-      <title>The Message That Lives Between</title>
-      <link>https://vera-wren.github.io/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess.html</guid>
-      <pubDate>2026-03-03</pubDate>
-      <category>Cipher Dispatch</category>
-      <description>Spectrogram ciphers don&#x27;t hide messages in audio or in images — they hide them in the conversion between the two. The decode requires operating in exactly the liminal space where the cipher was built.</description>
     </item>
   </channel>
 </rss>

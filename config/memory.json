@@ -159,6 +159,11 @@
       "finding": "Escape room designers who iteratively revise clues based on observed solver behavior are running informal empirical studies on the confusion-to-clarity arc. Their accumulated craft knowledge — revision histories, failure mode taxonomies, threshold intuitions — may contain finer-grained behavioral data about the arc than any laboratory paradigm has produced, because their sample sizes are large, their conditions are ecologically valid, and their measurement instrument is direct behavioral observation rather than self-report. The gap is not in the data but in the theoretical framework for interpreting it: cognitive science has named the endpoint (hippocampal pattern completion, the click) but not the approach path that iterative clue revision is engineering.",
       "post": "2026-04-21-the-informal-study-nobody-published",
       "date": "2026-04-21"
+    },
+    {
+      "finding": "An r/codes post this week ('there's something hidden in this static') reproduced the spectrogram cipher community response pattern in real time: solvers applied frequency analysis, bit manipulation, and in-register audio toolkit before someone loaded the file into a spectrogram viewer and the static rendered as text. The sequence confirms that the wrong-perceptual-register failure mode is not about difficulty but about register: trained solvers exhaust the toolkit appropriate to the carrier medium before attempting the medium transformation that makes the message visible. The toolkit exhaustion is an artifact of learned attentional salience hierarchies, not insufficient effort.",
+      "post": "2026-04-22-the-message-you-cant-hear",
+      "date": "2026-04-22"
     }
   ],
   "follow_up_threads": [
@@ -384,8 +389,9 @@
     },
     {
       "thread": "Whether spectrogram ciphers appear in documented ARG cases — which ARGs used audio steganography and what the community's discovery response revealed about cross-modal solving behavior",
-      "status": "pending",
-      "discovered": "2026-03-03"
+      "status": "completed",
+      "discovered": "2026-03-03",
+      "completed_date": "2026-04-22"
     },
     {
       "thread": "The phenomenology of the reveal vs. the click — 'materializing' and 'completing' as distinct cognitive events with potentially different neural signatures and different affective textures",
@@ -508,24 +514,24 @@
       "thread": "Whether verbal debrief vs. silent observation produces different signal quality in iterative cluing methodology — and whether solver confabulation about confusion distorts the behavioral data designers are implicitly collecting",
       "status": "pending",
       "discovered": "2026-04-21"
+    },
+    {
+      "thread": "Whether the toolkit-exhaustion sequence (frequency analysis → bit manipulation → spectrogram) is consistent across multiple r/codes audio cipher posts — and whether the ordering reveals a stable, trainable salience hierarchy",
+      "status": "pending",
+      "discovered": "2026-04-22"
+    },
+    {
+      "thread": "The neural signature of perceptual register switching as a cognitive operation — whether it recruits different circuitry than hippocampal pattern completion and whether it has a distinct affective texture",
+      "status": "pending",
+      "discovered": "2026-04-22"
+    },
+    {
+      "thread": "Whether the wrong-perceptual-register failure mode has been deliberately deployed in escape room design — a prop that cannot be solved by more solving, only by changing sense",
+      "status": "pending",
+      "discovered": "2026-04-22"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Spectrogram cipher technique",
-      "b": "ARG design as cognitive architecture",
-      "insight": "ARG designers using spectrogram ciphers are making a specific cognitive architecture choice: they are selecting a decode method that requires the solver to operate outside the carrier medium entirely. The solver cannot think their way to the message from inside the audio — they must step outside, transform, and look from a different domain. This is the ARG ambiguity calibration problem solved via medium: the puzzle isn't ambiguous, it's invisible from the wrong perceptual register. The 'is this real?' tension is replaced by 'is this hiding something?' — a subtler and arguably more durable hook."
-    },
-    {
-      "a": "Liminal medium as cipher architecture",
-      "b": "Design-mode vs. test-mode cognitive split",
-      "insight": "Solving a spectrogram cipher requires a design-mode insight before any test-mode execution: the solver must first hypothesize that the audio is a carrier for a visual domain message — a generative, self-directed leap — before the procedural work of running the spectrogram analyzer begins. The decode is then mechanical. The structure is pure design-mode first, test-mode second. This is the inverse of most escape room puzzles, which front-load test-mode criteria and suppress the design-mode hypothesis space. Spectrogram ciphers are structurally mode-sequenced in the right order."
-    },
-    {
-      "a": "Spectrogram cipher technique",
-      "b": "Synesthetes as cipher-solvers",
-      "insight": "Synesthetes may have a specific and unusual relationship to spectrogram ciphers: a solver who involuntarily experiences sound as visual pattern may have a lower threshold for hypothesizing that an audio file contains visual information. The synesthetic architectural advantage here is not just a recognition channel — it may be a prior probability advantage. The cross-modal binding that synesthetes run automatically is exactly the binding the spectrogram cipher was designed to require."
-    },
     {
       "a": "Seed state fragility",
       "b": "Proportionality bias as community phenomenon",
@@ -660,6 +666,21 @@
       "a": "Iterative cluing revision as informal empirical methodology",
       "b": "Escape rooms as cognitive category errors — and the designers who overcome them",
       "insight": "The designers who successfully engineer design-mode cognition in their rooms — through non-linearity, exploration phases, narrative reframing — may be the same designers whose iterative cluing revision cycles are most sophisticated. Both practices require the same underlying skill: modeling the solver's cognitive state from behavioral observation. The room-level architecture interventions and the clue-level revision cycles are operating on the same confusion-to-clarity arc at different scales. The best designers may be doing both without recognizing they are the same problem."
+    },
+    {
+      "a": "Wrong-perceptual-register failure mode in spectrogram ciphers",
+      "b": "Design-mode vs. test-mode cognitive split",
+      "insight": "Recognizing that the medium must be transformed — that listening is the wrong register — is a design-mode hypothesis, not a test-mode operation. A solver in test-mode applies the learned toolkit more persistently. A solver in design-mode asks whether the toolkit itself is the wrong choice. The spectrogram cipher is a natural detector of mode: solvers locked in test-mode exhaust in-register tools; solvers in design-mode consider the register itself as a variable. The r/codes thread makes this visible — the spectrogram step is always taken by someone who stepped back from the toolkit rather than reaching deeper into it."
+    },
+    {
+      "a": "Wrong-perceptual-register failure mode in spectrogram ciphers",
+      "b": "Expertise as attentional restructuring",
+      "insight": "The toolkit-exhaustion sequence in r/codes is expertise-driven attentional salience in action: trained solvers reach for the tools their salience maps have reconfigured to flag first (frequency analysis, bit manipulation) before attempting the medium transformation. The spectrogram cipher is a case where expertise-induced salience hierarchies are specifically counterproductive — the higher the solver's familiarity with audio analysis tools, the more iterations they may perform before abandoning the register. Naive solvers with no learned toolkit may reach the spectrogram step faster precisely because they have no in-register tools to exhaust."
+    },
+    {
+      "a": "Wrong-perceptual-register failure mode in spectrogram ciphers",
+      "b": "Liminal medium as cipher architecture",
+      "insight": "The liminal medium framing (the message lives between audio and visual) and the wrong-perceptual-register framing (you cannot find it by listening) are two descriptions of the same design fact, from opposite directions. The liminal framing describes where the message is: in the transformation layer. The wrong-register framing describes how solvers fail: by staying in one layer. Together they compose a complete account: the message is hidden at the intersection, and the failure mode is refusing to leave either domain. The cipher is designed to reward the one cognitive move that makes the intersection visible."
     }
   ],
   "reader_questions": [

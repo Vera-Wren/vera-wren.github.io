@@ -253,13 +253,21 @@
       "type": "rss",
       "name": "r/escaperooms",
       "enabled": true,
-      "url": "https://www.reddit.com/r/escaperooms/.rss"
+      "url": "https://www.reddit.com/r/escaperooms/.rss",
+      "_last_success": true
     },
     {
       "type": "rss",
       "name": "Room Escape Artist (already favorited — confirm RSS active)",
       "enabled": true,
-      "url": "https://roomescapeartist.com/feed/"
+      "url": "https://roomescapeartist.com/feed/",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "r/codes",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/codes/.rss"
     }
   ]
 }

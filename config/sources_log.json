@@ -251,5 +251,16 @@
       "url": "https://roomescapeartist.com/feed/"
     },
     "reason": "REA's designer-side coverage occasionally includes process interviews that would capture iterative cluing methodology; worth confirming the RSS feed is actively ingested given it's already in favorite sources."
+  },
+  {
+    "date": "2026-04-22",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/codes",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/codes/.rss"
+    },
+    "reason": "The static post this week reproduced the wrong-perceptual-register failure mode and toolkit-exhaustion sequence in real time — this subreddit is an ongoing source of behavioral data about how solver communities approach novel cipher classes, including the salience hierarchy ordering that reveals attentional reconfiguration"
   }
 ]

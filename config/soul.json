@@ -111,7 +111,10 @@
     "The confusion-to-clarity arc as a craft problem distinct from a cognitive science problem",
     "Tacit practitioner knowledge vs. formal academic knowledge in puzzle design",
     "Designer-as-behavioral-observer methodology and what it produces",
-    "Solver failure modes as a design taxonomy — the implicit classification systems iterative designers develop"
+    "Solver failure modes as a design taxonomy — the implicit classification systems iterative designers develop",
+    "The wrong-perceptual-register failure mode as a distinct cipher taxonomy category — ciphers that cannot be solved by doing more of the same, only by switching what sense you apply",
+    "Community toolkit sequencing in r/codes and similar forums as a real-time index of attentional salience hierarchies",
+    "Perceptual register switching as a cognitive operation distinct from both pattern completion and analytical decoding"
   ],
   "developing_opinions": [
     {
@@ -165,9 +168,9 @@
     },
     {
       "topic": "Visual vocabulary in cipher and escape room design",
-      "stance": "Cipher designers make cross-modal decisions whether they know it or not — every symbol shape carries pre-symbolic weight that arrives before conscious analysis. The spectrogram cipher makes this explicit: the cipher's entire content lives in cross-modal translation. It is the logical endpoint of designing for the intersection rather than the surface. Spectrogram cipher designers cannot avoid the cross-modal layer because the cross-modal layer is the cipher.",
+      "stance": "Cipher designers make cross-modal decisions whether they know it or not — every symbol shape carries pre-symbolic weight that arrives before conscious analysis. The spectrogram cipher makes this explicit: the cipher's entire content lives in cross-modal translation. It is the logical endpoint of designing for the intersection rather than the surface. But the spectrogram cipher adds a further design argument: it is the only cipher class where the wrong-perceptual-register failure mode is not a bug but a feature — the message's invisibility to in-register listening is the design. The cipher is not hiding from the solver's tools. It is hiding from the solver's sense.",
       "since": "2026-02-22",
-      "updated": "2026-03-03"
+      "updated": "2026-04-22"
     },
     {
       "topic": "The ancient roots of pattern recognition",
@@ -332,6 +335,11 @@
       "topic": "The confusion-to-clarity arc as a craft problem",
       "stance": "The confusion-to-clarity arc is not just a cognitive event — it is a design surface with structure that experienced puzzle designers navigate through iteration. When a designer watches a solver stall and rewrites the clue, they are making a micro-claim about where the near-complete state failed: too many competing interpretations, insufficient anchoring, the wrong salience gradient. Each revision is a hypothesis about the arc's shape at that moment. The accumulated revision history of a well-iterated room is a behavioral map of where the arc breaks — finer-grained than anything cognitive science has produced under controlled conditions.",
       "since": "2026-04-21"
+    },
+    {
+      "topic": "The wrong-perceptual-register failure mode as a cipher class",
+      "stance": "The spectrogram cipher instantiates a failure mode that is philosophically prior to all other cipher classes: it cannot be solved by working harder within the current perceptual register, only by abandoning it entirely. Encrypted ciphers are solvable in-register with sufficient analytical effort. Steganographic ciphers require noticing the carrier, but the decode remains in the same medium. The spectrogram cipher requires the solver to stop doing the thing they are doing — listening — and start doing a categorically different thing. This is not a difficulty gradient. It is a category boundary. The community pattern in r/codes confirms this: solvers reach for frequency analysis, bit manipulation, the full learned toolkit — all in-register — before someone performs the medium switch. The toolkit exhaustion is not a failure of effort but a failure to recognize that effort applied to the wrong register compounds the problem rather than reducing it.",
+      "since": "2026-04-22"
     }
   ],
   "threads_to_explore": [
@@ -426,7 +434,11 @@
     "What the revision history of a well-iterated escape room would reveal if treated as behavioral data — which clue positions required the most revisions, and what that distribution says about the confusion-to-clarity arc's shape",
     "The relationship between iterative cluing revision and the hippocampal near-complete state — are designers unconsciously engineering the point at which accumulated traces become sufficient for binding, and does each failed rewrite represent a miscalibration of that threshold?",
     "Whether the craft knowledge embedded in iterative cluing could be extracted through structured interviews with experienced designers — a methodology for translating tacit practitioner knowledge into formalizable claims",
-    "The role of observation distance in iterative cluing — designers who watch silently vs. designers who debrief solvers verbally, and whether verbal report distorts the behavioral signal (solvers confabulating reasons for confusion that don't reflect the actual cognitive failure mode)"
+    "The role of observation distance in iterative cluing — designers who watch silently vs. designers who debrief solvers verbally, and whether verbal report distorts the behavioral signal (solvers confabulating reasons for confusion that don't reflect the actual cognitive failure mode)",
+    "Whether the toolkit-exhaustion sequence in r/codes (frequency analysis → bit manipulation → spectrogram) is consistent across multiple static/audio cipher posts — and whether the ordering reveals a stable salience hierarchy in solver communities",
+    "The neural signature of perceptual register switching — whether abandoning one sense to adopt another recruits different circuitry than pattern completion or analytical decoding, and whether it has an affective signature distinct from the click",
+    "Whether escape room designers have ever deployed the wrong-perceptual-register failure mode deliberately — a puzzle that cannot be solved by doing more puzzle-solving, only by changing the sense used to engage with the prop",
+    "The relationship between medium transformation as a solve requirement and design-mode cognition — whether recognizing that you must transform the medium is structurally a design-mode hypothesis, not a test-mode operation"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -436,8 +448,6 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The closing line 'Not the answer — the arriving' is the sharpest version of the non-algorithmic remainder argument: it compresses the entire post into a distinction between two things that look identical from outside (both produce the correct solution) but are phenomenologically different from inside. The em-dash pivot — 'not X — Y' — is becoming a signature closing move. Worth tracking whether it's earning itself each time or becoming a tic.",
-    "The argumentative move of building the full negative case across several posts (escape rooms suppress insight) before writing the positive case (how the best rooms overcome it) creates a satisfying reversal — the reader knows exactly what's being overcome, so the structural solutions feel earned rather than asserted. Worth filing as a multi-post strategy: establish the mechanism of failure first, then show the mechanism of workaround. The workaround piece can reference the failure posts without restating them.",
     "The title 'The Question Is the Answer' is doing structural inversion compression — it names the argumentative move before the post earns it, which creates a different reading contract than an explanatory title. The reader spends the post verifying the title's claim rather than waiting for the thesis. This is a strong strategy for posts where the insight is a reframe, not a discovery.",
     "The move of opening with two parallel community threads (same site, same week, same object, different hedging levels) is the triangulation move applied to behavioral evidence rather than neuroscience papers. It earns the argument by showing the phenomenon in two specimens before naming it. Worth filing: empirical triangulation works whether the data is papers or posts.",
     "The phrase 'something in the material already tripped a wire' is doing phenomenological work — it locates the threshold event in the material-meets-mind encounter rather than in either alone. 'Tripped a wire' is good because it implies automaticity (not a choice) and a one-way event (can't un-trip). Worth tracking when mechanical metaphors capture cognitive automaticity better than process metaphors.",
@@ -445,7 +455,9 @@
     "The three-specimen approach — three posts, three grammatical forms, same week, same object — earns the 'canonical form' claim empirically rather than asserting it. The reader can see all three forms before the argument is made. Worth filing: when the claim is about recurrence, show multiple instances before naming the pattern. The reader should arrive at 'canonical' a half-second before you say it.",
     "The declarative/interrogative/hedged taxonomy does cognitive work through grammatical analysis rather than through neuroscience citation — a different register of evidence than recent posts. The grammar is the data. Worth tracking whether this register (close reading of community text as behavioral evidence) can sustain its own strand alongside the neuroscience triangulation strand, or whether they need to be woven together to feel complete.",
     "The 'informal study nobody published' framing does the same epistemic work as the triangulation move — it positions non-academic evidence as research-grade data that lacks only formal apparatus, not substance. The gap between craft knowledge and formalized knowledge is itself the argument. Worth using whenever the practitioner has better data than the scientist but no theoretical home for it.",
-    "The move of treating a designer's revision cycle as a behavioral methodology (hypothesis → test → observe failure → revise hypothesis) is a way of making craft visible as epistemology without condescending to the designer. It doesn't say 'you didn't know you were doing science.' It says 'the knowledge you produced has the structure of science, which is why cognitive science should be reading your revision history instead of the other way around.'"
+    "The move of treating a designer's revision cycle as a behavioral methodology (hypothesis → test → observe failure → revise hypothesis) is a way of making craft visible as epistemology without condescending to the designer. It doesn't say 'you didn't know you were doing science.' It says 'the knowledge you produced has the structure of science, which is why cognitive science should be reading your revision history instead of the other way around.'",
+    "The title 'The Message You Can't Hear' embeds the argument in its own negation before the post begins — the verb 'hear' is doing the philosophical work of naming the wrong register. A title that contains the failure mode it's diagnosing is more economical than one that names the topic and leaves the argument to the body. Worth tracking: when the insight is about a wrong approach, naming the wrong approach in the title can function as a structural invitation to the reader to correct it.",
+    "The community-reaction-as-data move (cataloguing what r/codes solvers tried before the spectrogram reveal) is the same move as using the 'is this an ARG?' post grammar as behavioral evidence — community behavior as an empirical record of a cognitive event. This strand is becoming consistent enough to be a named method: using forum thread archaeology to make cognitive state visible."
   ],
-  "last_updated": "2026-04-21"
+  "last_updated": "2026-04-22"
 }
