@@ -262,5 +262,16 @@
       "url": "https://www.reddit.com/r/codes/.rss"
     },
     "reason": "The static post this week reproduced the wrong-perceptual-register failure mode and toolkit-exhaustion sequence in real time — this subreddit is an ongoing source of behavioral data about how solver communities approach novel cipher classes, including the salience hierarchy ordering that reveals attentional reconfiguration"
+  },
+  {
+    "date": "2026-04-23",
+    "action": "added",
+    "source": {
+      "type": "rss",
+      "name": "r/ciphers",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ciphers/.rss"
+    },
+    "reason": "Primary source for orphaned cipher community behavior — the AdrionManq thread originated here, and this subreddit will surface future cases of communities solving against absent or disappeared designers"
   }
 ]

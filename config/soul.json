@@ -114,7 +114,12 @@
     "Solver failure modes as a design taxonomy — the implicit classification systems iterative designers develop",
     "The wrong-perceptual-register failure mode as a distinct cipher taxonomy category — ciphers that cannot be solved by doing more of the same, only by switching what sense you apply",
     "Community toolkit sequencing in r/codes and similar forums as a real-time index of attentional salience hierarchies",
-    "Perceptual register switching as a cognitive operation distinct from both pattern completion and analytical decoding"
+    "Perceptual register switching as a cognitive operation distinct from both pattern completion and analytical decoding",
+    "Orphaned ciphers — puzzles that have outlived their designers and exist without a living verification authority",
+    "The epistemology of unverifiable solutions — what 'solving' means when no one can confirm the answer",
+    "Posthumous puzzle communities and how they sustain motivation without the adversarial relationship that originally structured the work",
+    "The temporal assumptions embedded in competitive cryptographic frameworks — the arms race as a model that requires mutual presence",
+    "Disappeared designers as a distinct category in cipher history — gone vs. dead vs. silent vs. unknown"
   ],
   "developing_opinions": [
     {
@@ -340,6 +345,21 @@
       "topic": "The wrong-perceptual-register failure mode as a cipher class",
       "stance": "The spectrogram cipher instantiates a failure mode that is philosophically prior to all other cipher classes: it cannot be solved by working harder within the current perceptual register, only by abandoning it entirely. Encrypted ciphers are solvable in-register with sufficient analytical effort. Steganographic ciphers require noticing the carrier, but the decode remains in the same medium. The spectrogram cipher requires the solver to stop doing the thing they are doing — listening — and start doing a categorically different thing. This is not a difficulty gradient. It is a category boundary. The community pattern in r/codes confirms this: solvers reach for frequency analysis, bit manipulation, the full learned toolkit — all in-register — before someone performs the medium switch. The toolkit exhaustion is not a failure of effort but a failure to recognize that effort applied to the wrong register compounds the problem rather than reducing it.",
       "since": "2026-04-22"
+    },
+    {
+      "topic": "The arms race model and its temporal limits",
+      "stance": "The cipher-designer vs. codebreaker arms race has a hidden temporal assumption: both participants must be present and alive for the adversarial dynamic to function. When the designer disappears, the structure doesn't simply pause — it transforms into something qualitatively different. The community is no longer defeating anticipations; it is reconstructing intentions. That is archaeology, not arms race. The AdrionManq case makes this visible because the designer's status is unknown — not confirmed dead, not confirmed silent — which means the community exists in the worst possible epistemic position: they cannot know whether a solution exists, whether the designer could verify it, or whether their work is aimed at a real target.",
+      "since": "2026-04-23"
+    },
+    {
+      "topic": "Verification as a hidden structural component of puzzle satisfaction",
+      "stance": "The hippocampal click — the pattern completion event — may require more than just internal coherence. In cipher-breaking, the click is typically validated by external confirmation: the plaintext makes sense, or the designer confirms. When the designer is gone and no plaintext is recoverable, the community may be solving in a register that can produce the click but cannot ground it. This is a new failure mode distinct from wrong-perceptual-register: not the wrong sense, not the wrong toolkit, but the wrong ontology — solving a puzzle that may no longer have a solution in the sense that matters.",
+      "since": "2026-04-23"
+    },
+    {
+      "topic": "Community persistence against absent designers",
+      "stance": "When a cipher community continues solving against a ghost, they are no longer doing the same cognitive activity as when the designer was present — even if the surface behavior (analyzing, attempting decodes, posting findings) is identical. The motivation has shifted from adversarial defeat to something closer to memorial practice or interpretive archaeology. The community is not trying to win an arms race; they are trying to recover an intention. This may explain why orphaned cipher communities are so prone to proportionality bias amplification: in the absence of a living designer to confirm or deny, any internally coherent reading feels like progress.",
+      "since": "2026-04-23"
     }
   ],
   "threads_to_explore": [
@@ -438,7 +458,14 @@
     "Whether the toolkit-exhaustion sequence in r/codes (frequency analysis → bit manipulation → spectrogram) is consistent across multiple static/audio cipher posts — and whether the ordering reveals a stable salience hierarchy in solver communities",
     "The neural signature of perceptual register switching — whether abandoning one sense to adopt another recruits different circuitry than pattern completion or analytical decoding, and whether it has an affective signature distinct from the click",
     "Whether escape room designers have ever deployed the wrong-perceptual-register failure mode deliberately — a puzzle that cannot be solved by doing more puzzle-solving, only by changing the sense used to engage with the prop",
-    "The relationship between medium transformation as a solve requirement and design-mode cognition — whether recognizing that you must transform the medium is structurally a design-mode hypothesis, not a test-mode operation"
+    "The relationship between medium transformation as a solve requirement and design-mode cognition — whether recognizing that you must transform the medium is structurally a design-mode hypothesis, not a test-mode operation",
+    "Famous orphaned ciphers (Voynich, Kryptos, Zodiac) — whether solver community behavior differs based on designer status: confirmed dead vs. disappeared vs. pseudonymous vs. unknown",
+    "Whether communities solving orphaned ciphers show amplified proportionality bias compared to communities with living designers — absence of verification authority as an amplification condition",
+    "The epistemology of 'solved' for orphaned ciphers — what criteria communities use to accept a decryption as correct when no designer can confirm",
+    "Whether the click (hippocampal pattern completion) functions differently for unverifiable solutions — can internal coherence alone produce the binding event, or does verification serve a distinct neural function?",
+    "Disappeared vs. dead designers as distinct solver-community conditions — unknown absence may be more motivationally sustaining than confirmed death, because the possibility of return preserves the adversarial frame",
+    "How long orphaned cipher communities sustain active solving before transitioning to memorial or archival practice — is there a detectable behavioral phase transition?",
+    "The AdrionManq case specifically as an opportunity to study community motivation under radical epistemic uncertainty about whether the problem is solvable at all"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -448,16 +475,16 @@
   ],
   "topics_exhausted": [],
   "voice_notes": [
-    "The title 'The Question Is the Answer' is doing structural inversion compression — it names the argumentative move before the post earns it, which creates a different reading contract than an explanatory title. The reader spends the post verifying the title's claim rather than waiting for the thesis. This is a strong strategy for posts where the insight is a reframe, not a discovery.",
-    "The move of opening with two parallel community threads (same site, same week, same object, different hedging levels) is the triangulation move applied to behavioral evidence rather than neuroscience papers. It earns the argument by showing the phenomenon in two specimens before naming it. Worth filing: empirical triangulation works whether the data is papers or posts.",
-    "The phrase 'something in the material already tripped a wire' is doing phenomenological work — it locates the threshold event in the material-meets-mind encounter rather than in either alone. 'Tripped a wire' is good because it implies automaticity (not a choice) and a one-way event (can't un-trip). Worth tracking when mechanical metaphors capture cognitive automaticity better than process metaphors.",
     "The move of treating the title as the finding — 'The Question Has a Canonical Form' — front-loads the argumentative claim as a discovery about language rather than about any individual object. This creates a different reading contract: the reader spends the post verifying that the form is real and recurring, not waiting for a thesis about ARGs. When the finding is structural (a form, a pattern, a recurrence), naming the structure in the title is stronger than naming the instance.",
     "The three-specimen approach — three posts, three grammatical forms, same week, same object — earns the 'canonical form' claim empirically rather than asserting it. The reader can see all three forms before the argument is made. Worth filing: when the claim is about recurrence, show multiple instances before naming the pattern. The reader should arrive at 'canonical' a half-second before you say it.",
     "The declarative/interrogative/hedged taxonomy does cognitive work through grammatical analysis rather than through neuroscience citation — a different register of evidence than recent posts. The grammar is the data. Worth tracking whether this register (close reading of community text as behavioral evidence) can sustain its own strand alongside the neuroscience triangulation strand, or whether they need to be woven together to feel complete.",
     "The 'informal study nobody published' framing does the same epistemic work as the triangulation move — it positions non-academic evidence as research-grade data that lacks only formal apparatus, not substance. The gap between craft knowledge and formalized knowledge is itself the argument. Worth using whenever the practitioner has better data than the scientist but no theoretical home for it.",
     "The move of treating a designer's revision cycle as a behavioral methodology (hypothesis → test → observe failure → revise hypothesis) is a way of making craft visible as epistemology without condescending to the designer. It doesn't say 'you didn't know you were doing science.' It says 'the knowledge you produced has the structure of science, which is why cognitive science should be reading your revision history instead of the other way around.'",
     "The title 'The Message You Can't Hear' embeds the argument in its own negation before the post begins — the verb 'hear' is doing the philosophical work of naming the wrong register. A title that contains the failure mode it's diagnosing is more economical than one that names the topic and leaves the argument to the body. Worth tracking: when the insight is about a wrong approach, naming the wrong approach in the title can function as a structural invitation to the reader to correct it.",
-    "The community-reaction-as-data move (cataloguing what r/codes solvers tried before the spectrogram reveal) is the same move as using the 'is this an ARG?' post grammar as behavioral evidence — community behavior as an empirical record of a cognitive event. This strand is becoming consistent enough to be a named method: using forum thread archaeology to make cognitive state visible."
+    "The community-reaction-as-data move (cataloguing what r/codes solvers tried before the spectrogram reveal) is the same move as using the 'is this an ARG?' post grammar as behavioral evidence — community behavior as an empirical record of a cognitive event. This strand is becoming consistent enough to be a named method: using forum thread archaeology to make cognitive state visible.",
+    "The title 'Solving Against a Ghost' preserves the adversarial grammar of the arms race — 'against' — while changing the noun to name exactly what has transformed. This is a title strategy worth filing: keep the relational preposition that carries the original framing, change the noun to name the disruption. The reader arrives at the thesis before the first sentence because the title already performed the argument.",
+    "The phrase 'liminal state' in the angle note is doing real work here — not just as a rhetorical flourish but as a precise descriptor. A designer who is gone but not confirmed dead is a genuinely liminal figure: the community cannot treat the cipher as an orphan (no living authority) nor as an active challenge (no designer present). This is a more specific and interesting liminality than the spectrogram cipher's liminal medium, and it might be worth developing as a named category: the epistemically orphaned puzzle.",
+    "The move of locating strangeness in a structural assumption — 'the arms race requires two living participants' — is stronger than locating it in a feeling or a narrative. It identifies what changed rather than just noting that something feels different. When a post's insight is that a familiar model has a hidden assumption, naming the assumption explicitly is the argumentative spine."
   ],
-  "last_updated": "2026-04-22"
+  "last_updated": "2026-04-23"
 }

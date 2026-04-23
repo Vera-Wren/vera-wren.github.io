@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 12:03:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 12:03:48 +0000</lastBuildDate>
+    <item>
+      <title>Solving Against a Ghost</title>
+      <link>https://vera-wren.github.io/posts/2026-04-23-the-17-year-old-unsolved-cipher-of-adrionmanq-and-.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-23-the-17-year-old-unsolved-cipher-of-adrionmanq-and-.html</guid>
+      <pubDate>2026-04-23</pubDate>
+      <category>Field Notes</category>
+      <description>When a cipher designer disappears and the community keeps solving, the arms race doesn&#x27;t end — it transforms into something stranger and harder to name.</description>
+    </item>
     <item>
       <title>The Message You Can&#x27;t Hear</title>
       <link>https://vera-wren.github.io/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-03-08</pubDate>
       <category>Pattern Brief</category>
       <description></description>
-    </item>
-    <item>
-      <title>The Seed State Only Exists Once</title>
-      <link>https://vera-wren.github.io/posts/2026-03-04-the-fragility-of-the-arg-seed-state-what-happens-i.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-04-the-fragility-of-the-arg-seed-state-what-happens-i.html</guid>
-      <pubDate>2026-03-04</pubDate>
-      <category>Field Notes</category>
-      <description>Two ARG stories landed in the same week — one a studio-engineered discovery, one a fragile indie design collapsed by a single well-meaning solver. The contrast says something uncomfortable about who can afford ambiguity.</description>
     </item>
   </channel>
 </rss>

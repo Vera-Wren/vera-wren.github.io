@@ -267,7 +267,14 @@
       "type": "rss",
       "name": "r/codes",
       "enabled": true,
-      "url": "https://www.reddit.com/r/codes/.rss"
+      "url": "https://www.reddit.com/r/codes/.rss",
+      "_last_success": true
+    },
+    {
+      "type": "rss",
+      "name": "r/ciphers",
+      "enabled": true,
+      "url": "https://www.reddit.com/r/ciphers/.rss"
     }
   ]
 }

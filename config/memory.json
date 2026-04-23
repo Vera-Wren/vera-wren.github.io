@@ -164,6 +164,11 @@
       "finding": "An r/codes post this week ('there's something hidden in this static') reproduced the spectrogram cipher community response pattern in real time: solvers applied frequency analysis, bit manipulation, and in-register audio toolkit before someone loaded the file into a spectrogram viewer and the static rendered as text. The sequence confirms that the wrong-perceptual-register failure mode is not about difficulty but about register: trained solvers exhaust the toolkit appropriate to the carrier medium before attempting the medium transformation that makes the message visible. The toolkit exhaustion is an artifact of learned attentional salience hierarchies, not insufficient effort.",
       "post": "2026-04-22-the-message-you-cant-hear",
       "date": "2026-04-22"
+    },
+    {
+      "finding": "The AdrionManq case — a cipher designer who disappeared 17 years ago, leaving communities still actively solving — reveals that the cipher-designer vs. codebreaker arms race has a hidden temporal assumption: both participants must be present. When the designer is gone, the adversarial dynamic transforms into something qualitatively different: not an arms race but an archaeological practice, with one critical distinction — the community cannot know whether a solution exists, whether it is recoverable, or whether their internal coherence signals are pointing toward a real target or a ghost of one. This is a new failure mode: not wrong-perceptual-register, not wrong toolkit, but wrong ontology — solving against a fixed snapshot of an intelligence that can no longer adapt, confirm, or deny.",
+      "post": "2026-04-23-solving-against-a-ghost",
+      "date": "2026-04-23"
     }
   ],
   "follow_up_threads": [
@@ -529,34 +534,34 @@
       "thread": "Whether the wrong-perceptual-register failure mode has been deliberately deployed in escape room design — a prop that cannot be solved by more solving, only by changing sense",
       "status": "pending",
       "discovered": "2026-04-22"
+    },
+    {
+      "thread": "Whether communities solving orphaned ciphers show amplified proportionality bias compared to those with living designers — and whether the absence of a verification authority functions as a structural amplifier of apophenia",
+      "status": "pending",
+      "discovered": "2026-04-23"
+    },
+    {
+      "thread": "The epistemology of 'solved' for orphaned ciphers — what internal criteria communities adopt for accepting a decryption when no designer can confirm",
+      "status": "pending",
+      "discovered": "2026-04-23"
+    },
+    {
+      "thread": "Whether the hippocampal pattern completion event (the click) functions differently for unverifiable solutions — whether external verification is a distinct component of insight satisfaction or whether internal coherence alone produces the binding",
+      "status": "pending",
+      "discovered": "2026-04-23"
+    },
+    {
+      "thread": "Disappeared vs. confirmed-dead designers as distinct solver-community conditions — unknown absence may sustain adversarial framing longer than confirmed death because it preserves the possibility of return",
+      "status": "pending",
+      "discovered": "2026-04-23"
+    },
+    {
+      "thread": "The AdrionManq case as a study site for community motivation under radical epistemic uncertainty — active solving behavior sustained for 17 years with no confirmation that a solution exists",
+      "status": "pending",
+      "discovered": "2026-04-23"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Seed state fragility",
-      "b": "Proportionality bias as community phenomenon",
-      "insight": "The proportionality bias is a collective accumulation process — many solvers independently noticing, cross-referencing, building toward shared attribution of authorship. The seed state is the temporal window in which this process runs. Individual trigger (one solver announcing early) doesn't just inform the community; it switches them from convergence mode to verification mode. These are different cognitive tasks: convergence requires design-mode hypothesis generation; verification is test-mode pattern confirmation. The early announcement is a mode-lock event at community scale."
-    },
-    {
-      "a": "Seed state fragility",
-      "b": "Hippocampal pattern completion and the click",
-      "insight": "The community click of ARG discovery is a distributed hippocampal event — many solvers accumulating incomplete traces and approaching the pattern completion threshold together, each holding near-complete states. One solver completing early and announcing replaces this distributed threshold event with a top-down information transfer, which is not a click at all — it is being told the answer before the binding happens. The seed state is the period during which distributed near-complete states are accumulating. Its collapse is the prevention of the click for everyone but the first solver."
-    },
-    {
-      "a": "Studio/indie ARG asymmetry",
-      "b": "Designed roughness semiotics",
-      "insight": "A studio and an indie creator can produce lo-fi aesthetics with identical perceptual surfaces — the same glitch, distortion, found-footage signals that prime the proportionality bias. But the studio backs that surface with distribution infrastructure that controls when and how the seed state is found. The indie creator has the semiotics without the protection. Designed roughness as a craft technique requires designed discovery timing as an infrastructure support — without it, the roughness is just fragility."
-    },
-    {
-      "a": "Seed state fragility",
-      "b": "ARG ambiguity calibration",
-      "insight": "The ambiguity calibration problem was previously framed as 'how obvious should this be?' This post reframes it temporally: the calibration must account for who finds it first, under what conditions, with what impulse to announce. A studio can calibrate ambiguity against a known audience in a controlled channel. An indie ARG creator calibrates against an unknown first-finder whose behavior they cannot predict or constrain. The seed state's fragility is the calibration problem's hardest subproblem."
-    },
-    {
-      "a": "Free energy principle / active inference",
-      "b": "Hippocampal pattern completion and the click",
-      "insight": "The click is prediction error minimization at scale — accumulated traces suddenly binding into coherence is the hippocampal version of what CL1 neurons do at the cellular level when they self-organize in response to structured feedback. Pattern completion is the moment when prediction error collapses across a complex pattern. The substrate is the same; the hippocampus adds scale, binding specificity, and the subjective experience of insight."
-    },
     {
       "a": "Free energy principle / active inference",
       "b": "Expertise as attentional restructuring",
@@ -681,6 +686,31 @@
       "a": "Wrong-perceptual-register failure mode in spectrogram ciphers",
       "b": "Liminal medium as cipher architecture",
       "insight": "The liminal medium framing (the message lives between audio and visual) and the wrong-perceptual-register framing (you cannot find it by listening) are two descriptions of the same design fact, from opposite directions. The liminal framing describes where the message is: in the transformation layer. The wrong-register framing describes how solvers fail: by staying in one layer. Together they compose a complete account: the message is hidden at the intersection, and the failure mode is refusing to leave either domain. The cipher is designed to reward the one cognitive move that makes the intersection visible."
+    },
+    {
+      "a": "The adversarial relationship between cipher designers and codebreakers as a pattern recognition arms race",
+      "b": "The ARG seed state as irreversible window",
+      "insight": "The seed state ends when the designer's presence ends — either through the ARG concluding or through the designer disappearing. AdrionManq represents the pathological version of seed state expiry: the window closed not through resolution but through abandonment, and the community has been in a permanent post-seed state for 17 years. Unlike a normal ARG seed collapse (where individual trigger replaces community convergence), the AdrionManq community has no designer to trigger against. The proportionality bias has nowhere to resolve."
+    },
+    {
+      "a": "Orphaned ciphers and posthumous puzzle communities",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "Orphaned cipher communities may exhibit pathologically amplified apophenia because the normal correction mechanism — designer confirmation or denial — is absent. In a living-designer arms race, false positives are correctable: the designer (or the plaintext) disconfirms. In an orphaned cipher, every internally coherent reading is equally unverifiable. Expert attentional reconfiguration continues generating proactive predictions, but the prediction error signal that normally calibrates those predictions never arrives. The community's false-positive rate may accumulate unchecked over years."
+    },
+    {
+      "a": "Orphaned ciphers and posthumous puzzle communities",
+      "b": "The hippocampal pattern completion and the click",
+      "insight": "The click requires two things: internal pattern coherence (the hippocampal binding event) and, in cipher-breaking specifically, external confirmation that the coherence maps to the designer's intent. For orphaned ciphers, solvers may be experiencing the click — the subjective aha — while being structurally unable to ground it. This would make orphaned cipher communities repositories of unanchored clicks: experiences of insight that feel complete but cannot be verified. Whether ungrounded clicks produce the same memory advantage as confirmed ones is an open question with direct implications for what the community is actually doing cognitively."
+    },
+    {
+      "a": "Orphaned ciphers and posthumous puzzle communities",
+      "b": "Iterative cluing revision as informal empirical methodology",
+      "insight": "The iterative cluing methodology depends on a living designer who can observe, revise, and recalibrate. An orphaned cipher has no such mechanism — the clues are fixed at the moment of abandonment, and the community cannot distinguish 'this clue is ambiguous by design' from 'this clue is ambiguous because the designer was sloppy' from 'this clue is ambiguous because the cipher is unsolvable.' The designer's disappearance collapses the distinction between intentional ambiguity and noise — which is exactly the distinction the iterative process was designed to maintain."
+    },
+    {
+      "a": "Orphaned ciphers and posthumous puzzle communities",
+      "b": "The Internet Archive as chronic ARG-suspect object",
+      "insight": "Both the Internet Archive and AdrionManq's ciphers are objects that trip proportionality bias without a living designer to confirm or deny authorship. The Archive does it through structural combination (institutional legitimacy + chaotic adjacency); AdrionManq does it through temporal combination (demonstrated craft + radical absence). In both cases, the solver cannot distinguish 'this is designed ambiguity' from 'this is designed without explanation' from 'this is accidental complexity.' The absence of verification authority is the shared property that makes both objects chronic suspect-objects rather than resolvable ones."
     }
   ],
   "reader_questions": [
