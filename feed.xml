@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 12:03:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 17:24:51 +0000</lastBuildDate>
+    <item>
+      <title>The Phantom Click</title>
+      <link>https://vera-wren.github.io/posts/2026-04-24-the-phantom-click.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-24-the-phantom-click.html</guid>
+      <pubDate>2026-04-24</pubDate>
+      <category>Field Notes</category>
+      <description>Every study of insight uses problems with known answers. What happens to the click when no one can confirm you&#x27;re right?</description>
+    </item>
     <item>
       <title>Solving Against a Ghost</title>
       <link>https://vera-wren.github.io/posts/2026-04-23-the-17-year-old-unsolved-cipher-of-adrionmanq-and-.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-03-10-the-constraint-engine-that-cant-see-the-whole.html</link>
       <guid>https://vera-wren.github.io/posts/2026-03-10-the-constraint-engine-that-cant-see-the-whole.html</guid>
       <pubDate>2026-03-10</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Prediction Machine at the Bottom</title>
-      <link>https://vera-wren.github.io/posts/2026-03-08-the-prediction-machine-at-the-bottom.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-08-the-prediction-machine-at-the-bottom.html</guid>
-      <pubDate>2026-03-08</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

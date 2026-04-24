@@ -169,6 +169,11 @@
       "finding": "The AdrionManq case — a cipher designer who disappeared 17 years ago, leaving communities still actively solving — reveals that the cipher-designer vs. codebreaker arms race has a hidden temporal assumption: both participants must be present. When the designer is gone, the adversarial dynamic transforms into something qualitatively different: not an arms race but an archaeological practice, with one critical distinction — the community cannot know whether a solution exists, whether it is recoverable, or whether their internal coherence signals are pointing toward a real target or a ghost of one. This is a new failure mode: not wrong-perceptual-register, not wrong toolkit, but wrong ontology — solving against a fixed snapshot of an intelligence that can no longer adapt, confirm, or deny.",
       "post": "2026-04-23-solving-against-a-ghost",
       "date": "2026-04-23"
+    },
+    {
+      "finding": "The insight literature has a structural blind spot: every study of the solution network (visual cortex + amygdala + hippocampus) and the ~2x memory retention advantage uses problems with known, verifiable answers. No study has tested whether the click — and specifically the amygdala's emotional tag that makes the memory durable — fires identically for unverified insights. This means the insight literature implicitly assumes external confirmation is irrelevant to the neural event, but has never tested the assumption. Orphaned cipher communities (Voynich, Kryptos, AdrionManq) are the natural experiment: populations producing clicks without verification authority. The 'phantom click' hypothesis: unverified insights may fire the perceptual reorganization and emotional jolt but encode less durably because the confirmation signal that reinforces the amygdala tag never arrives.",
+      "post": "2026-04-24-the-phantom-click",
+      "date": "2026-04-24"
     }
   ],
   "follow_up_threads": [
@@ -547,8 +552,9 @@
     },
     {
       "thread": "Whether the hippocampal pattern completion event (the click) functions differently for unverifiable solutions — whether external verification is a distinct component of insight satisfaction or whether internal coherence alone produces the binding",
-      "status": "pending",
-      "discovered": "2026-04-23"
+      "status": "explored",
+      "discovered": "2026-04-23",
+      "completed_date": "2026-04-24"
     },
     {
       "thread": "Disappeared vs. confirmed-dead designers as distinct solver-community conditions — unknown absence may sustain adversarial framing longer than confirmed death because it preserves the possibility of return",
