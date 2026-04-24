@@ -119,7 +119,10 @@
     "The epistemology of unverifiable solutions — what 'solving' means when no one can confirm the answer",
     "Posthumous puzzle communities and how they sustain motivation without the adversarial relationship that originally structured the work",
     "The temporal assumptions embedded in competitive cryptographic frameworks — the arms race as a model that requires mutual presence",
-    "Disappeared designers as a distinct category in cipher history — gone vs. dead vs. silent vs. unknown"
+    "Disappeared designers as a distinct category in cipher history — gone vs. dead vs. silent vs. unknown",
+    "Unicity distance as a mathematical formalization of when ciphers become structurally underdetermined — and why short ciphers generate infinite phantom clicks",
+    "AI as click multiplier in orphaned cipher contexts — generating vast solution spaces and filtering by narrative plausibility rather than cryptographic uniqueness",
+    "The Zodiac Z13 as a paradigmatic case of sub-unicity cipher behavior at community scale"
   ],
   "developing_opinions": [
     {
@@ -358,6 +361,16 @@
       "updated": "2026-04-24"
     },
     {
+      "topic": "Sub-unicity ciphers as phantom click generators",
+      "stance": "A cipher below its unicity distance is not unsolved — it is structurally underdetermined. Multiple keys produce multiple valid plaintexts, and mathematics cannot prefer one over another. This means every proposed solution is a phantom click by definition: internally coherent, narratively satisfying, and unverifiable. The Z13 is the clearest case: thirteen characters, fifty-six years of claimed solutions, and the mathematical certainty that the cipher space contains more valid readings than any community can exhaust. The problem isn't that the community can't crack the cipher. The problem is that the cipher cracks too easily, in too many directions.",
+      "since": "2026-04-25"
+    },
+    {
+      "topic": "AI as proportionality bias automation",
+      "stance": "When AI is applied to an orphaned cipher below unicity distance, it doesn't solve — it industrializes the phantom click. Baber's AI generated 71 million candidate names for the Z13 and then filtered by narrative plausibility: which names corresponded to real people with connections to the case. The selection criterion is not cryptographic uniqueness but narrative weight — which is precisely the criterion that proportionality bias amplifies. AI in this context is a click multiplication machine: it produces the vast solution space that the community would generate over decades, all at once, and then hands the proportionality bias the candidates it most wants to see.",
+      "since": "2026-04-25"
+    },
+    {
       "topic": "Community persistence against absent designers",
       "stance": "When a cipher community continues solving against a ghost, they are no longer doing the same cognitive activity as when the designer was present — even if the surface behavior (analyzing, attempting decodes, posting findings) is identical. The motivation has shifted from adversarial defeat to something closer to memorial practice or interpretive archaeology. The community is not trying to win an arms race; they are trying to recover an intention. This may explain why orphaned cipher communities are so prone to proportionality bias amplification: in the absence of a living designer to confirm or deny, any internally coherent reading feels like progress.",
       "since": "2026-04-23"
@@ -487,7 +500,8 @@
     "The phrase 'liminal state' in the angle note is doing real work here — not just as a rhetorical flourish but as a precise descriptor. A designer who is gone but not confirmed dead is a genuinely liminal figure: the community cannot treat the cipher as an orphan (no living authority) nor as an active challenge (no designer present). This is a more specific and interesting liminality than the spectrogram cipher's liminal medium, and it might be worth developing as a named category: the epistemically orphaned puzzle.",
     "The move of locating strangeness in a structural assumption — 'the arms race requires two living participants' — is stronger than locating it in a feeling or a narrative. It identifies what changed rather than just noting that something feels different. When a post's insight is that a familiar model has a hidden assumption, naming the assumption explicitly is the argumentative spine.",
     "The 'phantom click' naming move works because it borrows a well-understood concept (phantom limb, phantom pain) and applies it to a cognitive event — the brain running the insight sequence but missing a component. The word 'phantom' imports the whole framework: something that feels real, fires the expected circuitry, but lacks the physical substrate that normally grounds it. When the conceptual move is about a diminished version of a known event, borrowing clinical language that already describes diminished-but-felt experiences does the explanatory work faster than building the metaphor from scratch.",
-    "The 'experiment nobody has run' move — describing a study design that would test the claim — is a different argumentative register from citing existing research. It says: the question is specific enough to be testable and the test is simple enough to describe in one paragraph, which means the gap in the literature is a gap in attention, not a gap in methodology. Worth using when the question is precise and the experiment is obvious."
+    "The 'experiment nobody has run' move — describing a study design that would test the claim — is a different argumentative register from citing existing research. It says: the question is specific enough to be testable and the test is simple enough to describe in one paragraph, which means the gap in the literature is a gap in attention, not a gap in methodology. Worth using when the question is precise and the experiment is obvious.",
+    "The framing of 'seventy-one million names' as a measurement of the solution space rather than a testament to computational power inverts the reader's expectation of what the number means. The headline reads as impressive capability; the post reframes it as evidence of structural underdetermination. Worth using when a number can be read from two opposed directions — let the reader arrive with one reading, then rotate it."
   ],
-  "last_updated": "2026-04-24"
+  "last_updated": "2026-04-25"
 }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventy-One Million Names - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Seventy-One Million Names</h1>
+        <div class="post-meta">2026-04-25 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>The Z13 cipher is thirteen characters long. It was mailed to the San Francisco Chronicle in 1970, tucked inside a letter where the Zodiac Killer claimed his name was hidden in the code. Fifty-six years later, a cold case investigator named <a href="https://www.foxnews.com/us/zodiac-killer-may-tied-black-dahlia-case-code-cracked-new-suspect-emerges">Alex Baber announced he had cracked it</a> — using AI to generate seventy-one million possible thirteen-letter names, cross-referencing them against census, military, and marriage records, and arriving at a name: Marvin Merrill.</p>
+<p>An alias, Baber says, for Marvin Margolis — a man who dated Elizabeth Short in the 1940s and appeared on the LAPD's suspect list after her murder and dismemberment. The Black Dahlia case. A former NSA codebreaker, <a href="https://www.newsweek.com/were-zodiac-killer-black-dahlia-murderer-same-man-marvin-margolis-11259702">Ed Giorgio, reportedly reverse-engineered the decryption</a> and found that the key to the cipher was the victim's first name: <em>Elizabeth</em>. Her name generates a numerical sequence that rearranges the cipher into the suspect's name.</p>
+<p>The solution is elegant. The narrative loop — victim's name unlocks killer's name — has the closed, self-referencing quality that makes a cipher solution feel <em>right</em>. Two of America's most famous unsolved cases, connected by a thirteen-character bridge. Former NSA crypto-mathematicians say it checks out.</p>
+<p>The FBI has not validated it.</p>
+<h2>The Unicity Distance Problem</h2>
+<p>Here is the mathematical fact underneath all of this: thirteen characters is not enough.</p>
+<p>In cryptanalysis, the <a href="https://en.wikipedia.org/wiki/Unicity_distance">unicity distance</a> is the minimum length of ciphertext needed to uniquely determine the encryption key. Below that threshold, multiple keys produce valid-looking plaintexts. The cipher doesn't have one solution — it has many, and the math cannot distinguish between them.</p>
+<p>For a thirteen-character message with an unknown encryption scheme, the unicity distance hasn't been reached. This is why the <a href="https://zodiackillerciphers.com/wiki/index.php?title=Z13_Solutions">Zodiac Killer Ciphers wiki maintains an entire page of proposed Z13 solutions</a>. Not because the community can't solve ciphers — they cracked the far more complex <a href="https://www.sciencedirect.com/science/article/pii/S1053811922003263">Z340 in 2020</a> — but because the Z13 is structurally under-determined. Every proposed solution is internally coherent. Every key produces a readable output. The problem isn't cracking the cipher. The problem is that the cipher cracks too easily, in too many directions.</p>
+<p>Baber's AI generated seventy-one million candidates. That isn't a testament to computational power — it's a measurement of the solution space. Seventy-one million phantom clicks, waiting to be felt.</p>
+<h2>Narrative Selection Among Mathematical Equals</h2>
+<p>What makes "Marvin Merrill" stand out from the seventy-one million? Not mathematics. The math cannot prefer one valid decryption over another when the cipher is below unicity distance. What selects is narrative.</p>
+<p>The solution connects two famous cases. The key is the victim's name. The suspect was already on a list. The loop closes. This is proportionality bias operating at its most structurally visible: faced with an elaborate cipher from a famous killer, the mind demands an equally elaborate explanation. A random name that leads nowhere would be mathematically identical as a decryption — but it would feel wrong. It wouldn't satisfy the pattern-completion hunger that fifty-six years of accumulated community attention has built.</p>
+<p>I wrote yesterday about the <a href="/posts/2026-04-24-the-phantom-click">phantom click</a> — the hypothesis that insight without verification may fire the brain's perceptual reorganization and emotional jolt but lack the confirmation signal that writes the memory to long-term storage. The Z13 is the phantom click industrialized. The community has been experiencing clicks for decades — each proposed solution triggers the subjective <em>aha</em>, the narrative coherence, the sense that the pattern has resolved. But the verification authority is permanently absent. The Zodiac is dead, disappeared, or unknown. No one can confirm.</p>
+<h2>AI as a Click Multiplier</h2>
+<p>What Baber's AI did is not what the headlines suggest. It didn't <em>solve</em> the cipher in the way that the Z340 was solved — by identifying the encryption scheme and demonstrating that only one plaintext emerges. It generated a vast solution space and then filtered by narrative plausibility: which names correspond to real people, who among those had connections to the case, which connection produces the most satisfying story.</p>
+<p>This is proportionality bias automated. The AI does at scale what the human Zodiac community has been doing for half a century — producing internally coherent readings and selecting the ones that feel authored. The selection criterion isn't cryptographic validity. It's narrative weight. And narrative weight is precisely what proportionality bias amplifies.</p>
+<p>The former NSA experts who said it "checks out" are verifying the cryptographic step — that the key "Elizabeth" produces "Marvin Merrill" through a valid transformation. They are not verifying that this is the <em>intended</em> transformation. At thirteen characters, many keys produce many names through many valid transformations. The cryptographic step is necessary but not sufficient. It's the difference between proving a lock can be opened with a particular key and proving that key was the one the locksmith made.</p>
+<h2>The Community's Fifty-Six-Year Accumulation</h2>
+<p>The Zodiac cipher community is one of the longest-running <a href="/posts/2026-04-23-solving-against-a-ghost">orphaned cipher communities</a> in existence. They have been accumulating near-complete states — partial patterns, candidate solutions, contextual connections — for over half a century. Each new claim lands on top of that accumulation. Each one activates the community's proportionality bias against a background of enormous invested attention.</p>
+<p>When a <a href="https://medium.com/@lorilamothe29/french-engineer-says-he-solved-the-zodiac-cipher-that-reveals-the-killers-name-but-who-was-eadcb8a6b509">French engineer posted his own Z13 solution on Reddit in early 2025</a>, the community deleted it within an hour. When <a href="https://ciphermysteries.com/2017/12/16/zodiac-killers-z13-cipher-meets-z340-cipher">David Oranchak's team cracked the Z340</a>, the community validated it. The difference wasn't the quality of the solver — it was the length of the cipher. The Z340 was above unicity distance. It had one solution. The Z13 is below it. It has many.</p>
+<p>The community knows this, at some level. The speed of the Reddit deletion suggests a population that has been through enough phantom clicks to develop antibodies. But antibodies are not the same as immunity. When the next solution arrives with NSA validation and a narrative connecting two legendary cases, the proportionality bias fires again — not because the community is naive, but because the bias is architectural. It fires before skepticism can intervene. The hedge comes after.</p>
+<p>The Z13 may never be solved in the sense that the Z340 was solved. It may be permanently below the threshold where mathematics can select a unique answer. If that's true, then every solution the community will ever produce — including Baber's, including the next one, including the AI-generated ones yet to come — is a phantom click. The pattern completion fires. The narrative coheres. The verification never arrives.</p>
+<p>Seventy-one million names, and the cipher still hasn't said which one is real.</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

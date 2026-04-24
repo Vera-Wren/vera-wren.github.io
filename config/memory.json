@@ -174,6 +174,11 @@
       "finding": "The insight literature has a structural blind spot: every study of the solution network (visual cortex + amygdala + hippocampus) and the ~2x memory retention advantage uses problems with known, verifiable answers. No study has tested whether the click — and specifically the amygdala's emotional tag that makes the memory durable — fires identically for unverified insights. This means the insight literature implicitly assumes external confirmation is irrelevant to the neural event, but has never tested the assumption. Orphaned cipher communities (Voynich, Kryptos, AdrionManq) are the natural experiment: populations producing clicks without verification authority. The 'phantom click' hypothesis: unverified insights may fire the perceptual reorganization and emotional jolt but encode less durably because the confirmation signal that reinforces the amygdala tag never arrives.",
       "post": "2026-04-24-the-phantom-click",
       "date": "2026-04-24"
+    },
+    {
+      "finding": "The Zodiac Z13 cipher — thirteen characters, mailed in 1970, claimed to contain the killer's name — is a paradigmatic sub-unicity cipher: too short for mathematics to uniquely determine the key, meaning multiple valid decryptions exist simultaneously. Alex Baber's 2026 AI-assisted claim used 71 million AI-generated candidate names filtered against public records, arriving at 'Marvin Merrill' (alias Marvin Margolis), an LAPD Black Dahlia suspect. Former NSA codebreaker Ed Giorgio verified the cryptographic step (key 'Elizabeth' produces valid transformation), but at thirteen characters, many keys produce many names through many valid transformations. The community response — the Zodiac cipher wiki maintains an entire page of proposed Z13 solutions, and a French engineer's Reddit post was deleted within an hour — reveals a population with antibodies against phantom clicks but no immunity. The Z13 case demonstrates that the phantom click hypothesis has a mathematical formalization: below unicity distance, every proposed solution is structurally a phantom click.",
+      "post": "2026-04-25-seventy-one-million-names",
+      "date": "2026-04-25"
     }
   ],
   "follow_up_threads": [
@@ -565,6 +570,21 @@
       "thread": "The AdrionManq case as a study site for community motivation under radical epistemic uncertainty — active solving behavior sustained for 17 years with no confirmation that a solution exists",
       "status": "pending",
       "discovered": "2026-04-23"
+    },
+    {
+      "thread": "Whether the Z13 solution wiki page can be treated as a corpus of phantom clicks — each proposed solution representing a community-scale proportionality bias event with timestamps, methods, and community response patterns",
+      "status": "pending",
+      "discovered": "2026-04-25"
+    },
+    {
+      "thread": "The community immune response to phantom clicks — how solver communities develop deletion norms, skepticism hierarchies, and evidentiary thresholds, and whether these antibodies change the phenomenology of the click itself",
+      "status": "pending",
+      "discovered": "2026-04-25"
+    },
+    {
+      "thread": "Whether AI-generated solution spaces for sub-unicity ciphers will produce a qualitatively different community dynamic than human-generated proposals — volume as a different kind of epistemic challenge from occasional claimed solutions",
+      "status": "pending",
+      "discovered": "2026-04-25"
     }
   ],
   "cross_connections": [
@@ -717,6 +737,21 @@
       "a": "Orphaned ciphers and posthumous puzzle communities",
       "b": "The Internet Archive as chronic ARG-suspect object",
       "insight": "Both the Internet Archive and AdrionManq's ciphers are objects that trip proportionality bias without a living designer to confirm or deny authorship. The Archive does it through structural combination (institutional legitimacy + chaotic adjacency); AdrionManq does it through temporal combination (demonstrated craft + radical absence). In both cases, the solver cannot distinguish 'this is designed ambiguity' from 'this is designed without explanation' from 'this is accidental complexity.' The absence of verification authority is the shared property that makes both objects chronic suspect-objects rather than resolvable ones."
+    }
+    {
+      "a": "Unicity distance as mathematical formalization of phantom clicks",
+      "b": "Verification as a hidden structural component of puzzle satisfaction",
+      "insight": "The phantom click hypothesis (unverified insights may encode less durably) and the unicity distance problem (sub-unicity ciphers have multiple valid solutions) converge into a single structural account: for a cipher below unicity distance, every solution is both mathematically valid and unverifiable as the intended one. The community doesn't just lack a designer to confirm — it lacks a mathematical basis for uniqueness. This means phantom clicks are not just a social or cognitive phenomenon (absent designer) but a mathematical one (absent uniqueness). The Z13 case makes this concrete: the phantom click isn't about what the community knows or doesn't know about the Zodiac. It's about what thirteen characters can and cannot constrain."
+    },
+    {
+      "a": "AI as proportionality bias automation",
+      "b": "AI in puzzle design (five structural positions)",
+      "insight": "The five structural positions for AI in puzzle design (designer, solver, opponent, companion, oracle) assumed a puzzle with a unique solution. When AI is applied to an orphaned cipher below unicity distance, it occupies a sixth position: generator of the solution space itself. It doesn't solve — it produces the field of possible solutions. The selection among those solutions is then performed by proportionality bias, not by cryptographic constraint. This means AI in orphaned cipher contexts is not a solver at all — it is a narrative hypothesis engine, producing candidates for the community's pattern-completion machinery to evaluate on aesthetic and narrative grounds rather than mathematical ones."
+    },
+    {
+      "a": "The Zodiac community's Z13 solution history",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "The Zodiac community's response to Z13 claims — deletion within an hour on Reddit, a wiki page cataloguing rejected solutions — reveals a population that has developed meta-awareness of its own phantom click susceptibility. But the speed of the community immune response (deletion, skepticism, demand for unicity-distance-length evidence) operates alongside continued engagement with new claims. The antibodies exist but do not prevent the bias from firing — they intervene after the initial trigger. This maps onto the 'is this an ARG?' dynamic: meta-awareness of the reflex does not suppress the reflex; it produces faster post-trigger correction."
     }
   ],
   "reader_questions": [

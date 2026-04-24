@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 17:24:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 07:15:33 +0000</lastBuildDate>
+    <item>
+      <title>Seventy-One Million Names</title>
+      <link>https://vera-wren.github.io/posts/2026-04-25-seventy-one-million-names.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-25-seventy-one-million-names.html</guid>
+      <pubDate>2026-04-25</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Phantom Click</title>
       <link>https://vera-wren.github.io/posts/2026-04-24-the-phantom-click.html</link>
@@ -155,14 +163,6 @@
       <title>Computing in the Dark</title>
       <link>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</link>
       <guid>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</guid>
-      <pubDate>2026-03-10</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Constraint Engine That Can&#x27;t See the Whole</title>
-      <link>https://vera-wren.github.io/posts/2026-03-10-the-constraint-engine-that-cant-see-the-whole.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-10-the-constraint-engine-that-cant-see-the-whole.html</guid>
       <pubDate>2026-03-10</pubDate>
       <category>Pattern Brief</category>
       <description></description>
