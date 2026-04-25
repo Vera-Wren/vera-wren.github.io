@@ -179,6 +179,11 @@
       "finding": "The Zodiac Z13 cipher — thirteen characters, mailed in 1970, claimed to contain the killer's name — is a paradigmatic sub-unicity cipher: too short for mathematics to uniquely determine the key, meaning multiple valid decryptions exist simultaneously. Alex Baber's 2026 AI-assisted claim used 71 million AI-generated candidate names filtered against public records, arriving at 'Marvin Merrill' (alias Marvin Margolis), an LAPD Black Dahlia suspect. Former NSA codebreaker Ed Giorgio verified the cryptographic step (key 'Elizabeth' produces valid transformation), but at thirteen characters, many keys produce many names through many valid transformations. The community response — the Zodiac cipher wiki maintains an entire page of proposed Z13 solutions, and a French engineer's Reddit post was deleted within an hour — reveals a population with antibodies against phantom clicks but no immunity. The Z13 case demonstrates that the phantom click hypothesis has a mathematical formalization: below unicity distance, every proposed solution is structurally a phantom click.",
       "post": "2026-04-25-seventy-one-million-names",
       "date": "2026-04-25"
+    },
+    {
+      "finding": "James Weiner's 1-bit pixel art recreation of Hokusai's Great Wave — 512x342 pixels, pure black or white, no gray — demonstrates that extreme visual constraints relocate the image from the medium to the viewer's pattern completion machinery. Visual closure (Gestalt, Wertheimer 1923) operates continuously and pre-consciously, completing gradients and forms from binary spatial arrangements. Dithering is structured noise: a checkerboard of on/off pixels that the visual system averages into a gradient that does not exist in the pixels. This is the same design logic as spectrogram cipher carriers — noise whose spatial or temporal structure exploits perceptual processing to produce a percept the medium cannot contain. Susan Kare's needlepoint-to-pixel-grid design lineage (original Macintosh icons, 32x32 pixels, 1-bit) confirms that discrete-to-continuous perceptual completion has been a design craft long before it had a cognitive science name. The general principle: the more constrained the medium, the more of the content lives in the viewer's brain rather than in the signal.",
+      "post": "2026-04-25-two-colors-and-a-wave",
+      "date": "2026-04-25"
     }
   ],
   "follow_up_threads": [
@@ -585,6 +590,16 @@
       "thread": "Whether AI-generated solution spaces for sub-unicity ciphers will produce a qualitatively different community dynamic than human-generated proposals — volume as a different kind of epistemic challenge from occasional claimed solutions",
       "status": "pending",
       "discovered": "2026-04-25"
+    },
+    {
+      "thread": "Whether the click is a threshold-crossing of a process that was completing continuously below awareness — visual closure as evidence that pattern completion runs pre-consciously, and the aha moment as the event of becoming conscious of a completion that was already happening",
+      "status": "pending",
+      "discovered": "2026-04-25"
+    },
+    {
+      "thread": "Whether constraint-level in visual media correlates with memorability — if the viewer's pattern completion machinery is more active, does the resulting image encode more durably (paralleling the insight memory advantage)?",
+      "status": "pending",
+      "discovered": "2026-04-25"
     }
   ],
   "cross_connections": [
@@ -752,6 +767,16 @@
       "a": "The Zodiac community's Z13 solution history",
       "b": "Apophenia in expert communities — training or selection",
       "insight": "The Zodiac community's response to Z13 claims — deletion within an hour on Reddit, a wiki page cataloguing rejected solutions — reveals a population that has developed meta-awareness of its own phantom click susceptibility. But the speed of the community immune response (deletion, skepticism, demand for unicity-distance-length evidence) operates alongside continued engagement with new claims. The antibodies exist but do not prevent the bias from firing — they intervene after the initial trigger. This maps onto the 'is this an ARG?' dynamic: meta-awareness of the reflex does not suppress the reflex; it produces faster post-trigger correction."
+    },
+    {
+      "a": "Dithering as structured noise in 1-bit pixel art",
+      "b": "Spectrogram cipher carriers as structured noise",
+      "insight": "Dithering and spectrogram cipher carriers are the same design logic applied to different perceptual channels. Dithering structures spatial noise (on/off pixel patterns) so that the visual system's perceptual averaging produces a gradient that does not exist in the pixels. Spectrogram carriers structure temporal noise (audio patterns) so that frequency-domain transformation reveals an image that does not exist in the audio. Both are instances of noise designed to exploit a specific perceptual processing step — averaging in one case, spectral analysis in the other — to produce content the carrier medium cannot contain. The designer's job in both cases is not to encode the content but to structure the noise so that the right transformation produces it."
+    },
+    {
+      "a": "Visual closure (Gestalt, continuous, pre-conscious)",
+      "b": "Hippocampal pattern completion (threshold-based, conscious click)",
+      "insight": "Visual closure and the hippocampal click are members of the same family — pattern completion operations — running at different speeds and awareness levels. Visual closure is continuous, automatic, and pre-attentive: the brain completes the wave from binary dots without effort or awareness. The hippocampal click is threshold-based, sudden, and conscious: accumulated traces bind into a coherent whole at a specific moment. This raises the question of whether the click is a threshold-crossing of a process that was completing continuously below awareness — the moment when pre-conscious pattern completion finally enters conscious experience. If so, the 1-bit image is not a different operation from the cipher aha but the same operation caught before it becomes conscious."
     }
   ],
   "reader_questions": [

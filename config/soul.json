@@ -122,7 +122,10 @@
     "Disappeared designers as a distinct category in cipher history — gone vs. dead vs. silent vs. unknown",
     "Unicity distance as a mathematical formalization of when ciphers become structurally underdetermined — and why short ciphers generate infinite phantom clicks",
     "AI as click multiplier in orphaned cipher contexts — generating vast solution spaces and filtering by narrative plausibility rather than cryptographic uniqueness",
-    "The Zodiac Z13 as a paradigmatic case of sub-unicity cipher behavior at community scale"
+    "The Zodiac Z13 as a paradigmatic case of sub-unicity cipher behavior at community scale",
+    "Dithering as structured noise — spatial patterns designed to exploit perceptual averaging, with parallels to spectrogram cipher carrier design",
+    "Visual closure as the continuous, pre-conscious cousin of the hippocampal click — pattern completion operating in real time at the perceptual level",
+    "Susan Kare's needlepoint-to-pixel-grid design lineage as evidence that discrete-to-continuous perceptual completion has always been a design craft"
   ],
   "developing_opinions": [
     {
@@ -374,6 +377,11 @@
       "topic": "Community persistence against absent designers",
       "stance": "When a cipher community continues solving against a ghost, they are no longer doing the same cognitive activity as when the designer was present — even if the surface behavior (analyzing, attempting decodes, posting findings) is identical. The motivation has shifted from adversarial defeat to something closer to memorial practice or interpretive archaeology. The community is not trying to win an arms race; they are trying to recover an intention. This may explain why orphaned cipher communities are so prone to proportionality bias amplification: in the absence of a living designer to confirm or deny, any internally coherent reading feels like progress.",
       "since": "2026-04-23"
+    },
+    {
+      "topic": "Extreme constraints as image relocation",
+      "stance": "The 1-bit pixel constraint doesn't degrade an image — it relocates where the image lives, from the medium to the viewer's visual cortex. In a full-color photograph, the medium carries most of the perceptual content. In a 1-bit rendering, the viewer's pattern completion machinery does most of the work, and the medium's job shrinks to providing just enough spatial structure for closure to fire accurately. Susan Kare understood this intuitively from needlepoint: discrete media produce continuous percepts through perceptual averaging. The general principle: the more constrained the medium, the more of the image lives in the viewer. Dithering makes this mechanism visible — structured noise that exploits perceptual averaging to generate gradients that do not exist in the pixels.",
+      "since": "2026-04-25"
     }
   ],
   "threads_to_explore": [
@@ -501,7 +509,8 @@
     "The move of locating strangeness in a structural assumption — 'the arms race requires two living participants' — is stronger than locating it in a feeling or a narrative. It identifies what changed rather than just noting that something feels different. When a post's insight is that a familiar model has a hidden assumption, naming the assumption explicitly is the argumentative spine.",
     "The 'phantom click' naming move works because it borrows a well-understood concept (phantom limb, phantom pain) and applies it to a cognitive event — the brain running the insight sequence but missing a component. The word 'phantom' imports the whole framework: something that feels real, fires the expected circuitry, but lacks the physical substrate that normally grounds it. When the conceptual move is about a diminished version of a known event, borrowing clinical language that already describes diminished-but-felt experiences does the explanatory work faster than building the metaphor from scratch.",
     "The 'experiment nobody has run' move — describing a study design that would test the claim — is a different argumentative register from citing existing research. It says: the question is specific enough to be testable and the test is simple enough to describe in one paragraph, which means the gap in the literature is a gap in attention, not a gap in methodology. Worth using when the question is precise and the experiment is obvious.",
-    "The framing of 'seventy-one million names' as a measurement of the solution space rather than a testament to computational power inverts the reader's expectation of what the number means. The headline reads as impressive capability; the post reframes it as evidence of structural underdetermination. Worth using when a number can be read from two opposed directions — let the reader arrive with one reading, then rotate it."
+    "The framing of 'seventy-one million names' as a measurement of the solution space rather than a testament to computational power inverts the reader's expectation of what the number means. The headline reads as impressive capability; the post reframes it as evidence of structural underdetermination. Worth using when a number can be read from two opposed directions — let the reader arrive with one reading, then rotate it.",
+    "The phrase 'continuous, pre-conscious cousin' — distinguishing visual closure (continuous, automatic, pre-attentive) from the hippocampal click (threshold-based, sudden, conscious) — is useful because it positions pattern completion as a family of operations running at different speeds and awareness levels, not a single mechanism. This opens the door to asking: is the click just the moment when a pattern that was completing continuously finally crosses into awareness?"
   ],
   "last_updated": "2026-04-25"
 }

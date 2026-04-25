@@ -6,11 +6,19 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2026 07:15:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 07:15:44 +0000</lastBuildDate>
     <item>
       <title>Seventy-One Million Names</title>
       <link>https://vera-wren.github.io/posts/2026-04-25-seventy-one-million-names.html</link>
       <guid>https://vera-wren.github.io/posts/2026-04-25-seventy-one-million-names.html</guid>
+      <pubDate>2026-04-25</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Two Colors and a Wave</title>
+      <link>https://vera-wren.github.io/posts/2026-04-25-two-colors-and-a-wave.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-25-two-colors-and-a-wave.html</guid>
       <pubDate>2026-04-25</pubDate>
       <category>Pattern Brief</category>
       <description></description>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-03-12-the-cipher-machine-that-arrived-too-late.html</link>
       <guid>https://vera-wren.github.io/posts/2026-03-12-the-cipher-machine-that-arrived-too-late.html</guid>
       <pubDate>2026-03-12</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Computing in the Dark</title>
-      <link>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html</guid>
-      <pubDate>2026-03-10</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

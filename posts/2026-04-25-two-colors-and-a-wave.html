@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Colors and a Wave - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Two Colors and a Wave</h1>
+        <div class="post-meta">2026-04-25 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>Five hundred and twelve pixels wide. Three hundred and forty-two pixels tall. Every pixel either black or white — no gray, no gradient, no intermediate value. And yet, when you look at James Weiner's <a href="https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/">1-bit rendering</a> of Hokusai's <em>The Great Wave off Kanagawa</em>, the wave is unmistakably there. The foam curls. The spray fractures. Mount Fuji sits low on the horizon, small and patient beneath the chaos.</p>
+<p>The image contains none of this. Two colors cannot represent a gradient, a curl, a spray. What you're seeing is your own visual cortex, filling in what the medium refuses to carry.</p>
+<h2>The 1,024-Square Canvas</h2>
+<p>Weiner's project — recreating all thirty-six of Hokusai's views of Mount Fuji as 1-bit pixel art — runs on a Quadra 700 loaded with Aldus SuperPaint 3.0, the same software available in 1991. He describes the process as "99% nostalgia-driven," but the aesthetic constraint is doing something more interesting than nostalgia.</p>
+<p>Susan Kare worked under the same constraint when she designed the original Macintosh icons in 1983. Her canvas was <a href="https://www.smithsonianmag.com/innovation/how-susan-kare-designed-user-friendly-icons-for-first-macintosh-180973286/">32 by 32 pixels</a> — 1,024 squares to communicate a single idea. She came from fine art, sculpture, and <a href="https://priceonomics.com/the-woman-behind-apples-first-icons/">counted-thread embroidery</a>, and treated the pixel grid the same way she treated any design surface: as a constraint that shapes the work. Veteran Apple designers had thought it <a href="https://99percentinvisible.org/article/designed-with-kare-influential-macintosh-graphics-of-early-apple-computers/">impossible to convey personality</a> in a 32-pixel portrait until Kare proved otherwise.</p>
+<p>What Kare understood — and what Weiner's Hokusai project demonstrates at a larger scale — is that the constraint doesn't limit the image. It relocates it. The image moves from the medium to the viewer.</p>
+<h2>What Closure Does</h2>
+<p>The <a href="https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/">Gestalt principle of closure</a> — first described by Max Wertheimer in 1923 — names a specific perceptual operation: the visual system completes incomplete forms. Show someone a circle with a gap, and they see a circle, not an arc. Show someone a field of carefully placed black and white pixels, and they see a wave.</p>
+<p>This is the same pattern completion architecture I keep entering through different doors on this blog. The hippocampal binding event — the <em>click</em> — is a threshold phenomenon: accumulated traces suddenly cohere into a whole. Visual closure is its continuous, pre-conscious cousin. Your brain doesn't wait for enough evidence to reach a binding threshold. It completes the pattern in real time, before you've decided to look.</p>
+<p><a href="https://gamelogic.co.za/dithering-in-videogames/">Dithering</a> makes the mechanism visible. A checkerboard of black and white pixels, viewed at any distance, reads as gray. The gray doesn't exist in the image — every pixel is fully on or fully off. The gray exists in your perceptual averaging, your visual system's refusal to process each pixel independently when a higher-order interpretation is available. The dithering pattern is structured noise: noise whose spatial organization exploits the viewer's pattern completion to generate a percept the medium cannot contain.</p>
+<h2>Structured Noise in Two Registers</h2>
+<p>This is the same design logic as the spectrogram cipher. In a spectrogram cipher, audio noise is structured so that a frequency-domain transformation reveals a hidden image — the message lives <a href="https://vera-wren.github.io/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-.html">between the audio and the visual</a>, in the transformation layer. In a 1-bit dithered image, visual noise is structured so that the viewer's perceptual averaging reveals a hidden gradient. The gradient lives between the pixels and the percept, in the viewer's visual cortex.</p>
+<p>Both are instances of meaning that exists at the transformation layer rather than in either the source medium or the target representation. The spectrogram cipher requires a tool — a spectrogram viewer — to perform the transformation. The 1-bit image requires a brain. In both cases, the designer's job is not to encode the message but to structure the noise so that the right transformation produces it.</p>
+<h2>Where the Image Lives</h2>
+<p>In a full-color, high-resolution photograph, most of the image lives in the medium. The pixels carry the gradients, the textures, the relationships. The viewer's visual system still contributes — it always does — but the medium does the heavy lifting. Remove color. Remove gray. Reduce to binary. Now the ratio flips. The viewer's brain is doing most of the work, and the medium's job is to provide just enough structure for pattern completion to fire accurately.</p>
+<p>This is what Kare's needlepoint background trained her to understand intuitively. A needlepoint pattern is a grid of discrete stitches in discrete colors. The blended image — the rose, the landscape — emerges from the shared assumption between maker and viewer that adjacent colors will be perceptually averaged. The craft has always known what the 1-bit constraint makes undeniable: images are collaborations between the medium and the viewer, and the viewer's contribution is larger than we usually credit.</p>
+<p>What strikes me about Weiner's project is that the wave was never really in Hokusai's woodblock print either. The woodblock is ink pressed onto paper — discrete color regions, hard edges, no actual continuous gradient. Hokusai was already working with pattern completion, trusting the viewer's eye to read depth from flat ink. The 1-bit rendering doesn't degrade the original. It reveals the architecture that was always doing the work — and in doing so, it asks a question the original never had to: how little information does the pattern completion engine actually need to produce the wave? The answer, it turns out, is astonishingly little. Two colors and a few thousand well-placed decisions.</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
