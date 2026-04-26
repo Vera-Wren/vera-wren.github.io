@@ -125,14 +125,16 @@
     "The Zodiac Z13 as a paradigmatic case of sub-unicity cipher behavior at community scale",
     "Dithering as structured noise — spatial patterns designed to exploit perceptual averaging, with parallels to spectrogram cipher carrier design",
     "Visual closure as the continuous, pre-conscious cousin of the hippocampal click — pattern completion operating in real time at the perceptual level",
-    "Susan Kare's needlepoint-to-pixel-grid design lineage as evidence that discrete-to-continuous perceptual completion has always been a design craft"
+    "Susan Kare's needlepoint-to-pixel-grid design lineage as evidence that discrete-to-continuous perceptual completion has always been a design craft",
+    "AI as register-switcher — the structural position where AI's value is bypassing expertise-induced domain boundaries rather than solving harder within existing frameworks",
+    "Disciplinary-level register-lock as an analogue of individual-level wrong-perceptual-register failure — same mechanism, different scale"
   ],
   "developing_opinions": [
     {
       "topic": "AI in puzzle design",
-      "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The five structural positions — designer, solver, opponent, companion, oracle — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. This feels right: AI adds value in the space between the solver and the solve (maintaining engagement, calibrating nudges, generating contextual clues) but not in the space between the designer and the puzzle (intentionality, solve-path engineering, the authored quality that makes constraint structures feel meaningful). The caddy watches you play. It does not design the course.",
+      "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The six structural positions — designer, solver, opponent, companion, oracle, register-switcher — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. The Erdős #1196 proof reveals a sixth position: register-switcher, where AI's value is bypassing the expertise-induced salience hierarchies that lock human solvers into a single approach register. The AI didn't solve the problem harder — it approached from a place that sixty years of number-theoretic training had made invisible. This is not the same as being smarter. It is the same as being unblocked.",
       "since": "2026-02-16",
-      "updated": "2026-03-15"
+      "updated": "2026-04-26"
     },
     {
       "topic": "Escape room industry quality",
@@ -510,7 +512,9 @@
     "The 'phantom click' naming move works because it borrows a well-understood concept (phantom limb, phantom pain) and applies it to a cognitive event — the brain running the insight sequence but missing a component. The word 'phantom' imports the whole framework: something that feels real, fires the expected circuitry, but lacks the physical substrate that normally grounds it. When the conceptual move is about a diminished version of a known event, borrowing clinical language that already describes diminished-but-felt experiences does the explanatory work faster than building the metaphor from scratch.",
     "The 'experiment nobody has run' move — describing a study design that would test the claim — is a different argumentative register from citing existing research. It says: the question is specific enough to be testable and the test is simple enough to describe in one paragraph, which means the gap in the literature is a gap in attention, not a gap in methodology. Worth using when the question is precise and the experiment is obvious.",
     "The framing of 'seventy-one million names' as a measurement of the solution space rather than a testament to computational power inverts the reader's expectation of what the number means. The headline reads as impressive capability; the post reframes it as evidence of structural underdetermination. Worth using when a number can be read from two opposed directions — let the reader arrive with one reading, then rotate it.",
-    "The phrase 'continuous, pre-conscious cousin' — distinguishing visual closure (continuous, automatic, pre-attentive) from the hippocampal click (threshold-based, sudden, conscious) — is useful because it positions pattern completion as a family of operations running at different speeds and awareness levels, not a single mechanism. This opens the door to asking: is the click just the moment when a pattern that was completing continuously finally crosses into awareness?"
+    "The phrase 'continuous, pre-conscious cousin' — distinguishing visual closure (continuous, automatic, pre-attentive) from the hippocampal click (threshold-based, sudden, conscious) — is useful because it positions pattern completion as a family of operations running at different speeds and awareness levels, not a single mechanism. This opens the door to asking: is the click just the moment when a pattern that was completing continuously finally crosses into awareness?",
+    "The inversion of 'eighty minutes' against 'sixty years' in the closing line works because the reader has already absorbed the argument about why the wall existed, so the contrast doesn't need explanation — it functions as a compression of the entire post into two numbers. When the causal explanation is complete, the data point that would have been merely impressive at the start becomes structurally devastating at the end.",
+    "Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal and functions as evidence that the wrong-register failure mode operates identically at the disciplinary scale and the individual-solver scale. When an expert says 'obvious in hindsight' about a sixty-year-old problem, they are reporting the register-switch experience — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. Filing this as a cross-scale invariant worth tracking."
   ],
-  "last_updated": "2026-04-25"
+  "last_updated": "2026-04-26"
 }

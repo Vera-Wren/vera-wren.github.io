@@ -184,6 +184,11 @@
       "finding": "James Weiner's 1-bit pixel art recreation of Hokusai's Great Wave — 512x342 pixels, pure black or white, no gray — demonstrates that extreme visual constraints relocate the image from the medium to the viewer's pattern completion machinery. Visual closure (Gestalt, Wertheimer 1923) operates continuously and pre-consciously, completing gradients and forms from binary spatial arrangements. Dithering is structured noise: a checkerboard of on/off pixels that the visual system averages into a gradient that does not exist in the pixels. This is the same design logic as spectrogram cipher carriers — noise whose spatial or temporal structure exploits perceptual processing to produce a percept the medium cannot contain. Susan Kare's needlepoint-to-pixel-grid design lineage (original Macintosh icons, 32x32 pixels, 1-bit) confirms that discrete-to-continuous perceptual completion has been a design craft long before it had a cognitive science name. The general principle: the more constrained the medium, the more of the content lives in the viewer's brain rather than in the signal.",
       "post": "2026-04-25-two-colors-and-a-wave",
       "date": "2026-04-25"
+    },
+    {
+      "finding": "Liam Price (23, no advanced math training) used GPT-5.4 Pro to crack Erdős Problem #1196 — a 60-year-old conjecture on primitive sets — in 80 minutes. The AI applied a Markov chain approach combined with von Mangoldt weights, a technique from probability theory that was well-known in its home field but never applied to primitive set analysis. Human mathematicians had narrowed the bound to ~1.399 but couldn't close it. Terence Tao called it 'a previously undescribed connection' that 'now seems obvious in hindsight.' This is the wrong-perceptual-register failure mode at the disciplinary scale: the solution was hiding not behind complexity but behind the trained attentional salience hierarchies of number theorists. The AI has no such hierarchies — it cannot distinguish between standard and non-standard tools for a given problem class — which made it structurally capable of the register switch that sixty years of expertise had prevented. This identifies a sixth structural position for AI in problem-solving: register-switcher.",
+      "post": "2026-04-26-the-proof-that-was-hiding-in-the-wrong-field",
+      "date": "2026-04-26"
     }
   ],
   "follow_up_threads": [
@@ -600,6 +605,16 @@
       "thread": "Whether constraint-level in visual media correlates with memorability — if the viewer's pattern completion machinery is more active, does the resulting image encode more durably (paralleling the insight memory advantage)?",
       "status": "pending",
       "discovered": "2026-04-25"
+    },
+    {
+      "thread": "Whether other long-standing conjectures that have resisted domain-standard approaches might be similarly vulnerable to cross-domain register switching via AI — and whether 'time spent unsolved' is a proxy for 'strength of disciplinary register-lock'",
+      "status": "pending",
+      "discovered": "2026-04-26"
+    },
+    {
+      "thread": "Whether 'obvious in hindsight' is a reliable phenomenological marker of register-switch reveals across domains — and whether it appears in post-solution accounts of spectrogram cipher discoveries, ARG unmasking, and other cross-register insight events",
+      "status": "pending",
+      "discovered": "2026-04-26"
     }
   ],
   "cross_connections": [
@@ -772,6 +787,16 @@
       "a": "Dithering as structured noise in 1-bit pixel art",
       "b": "Spectrogram cipher carriers as structured noise",
       "insight": "Dithering and spectrogram cipher carriers are the same design logic applied to different perceptual channels. Dithering structures spatial noise (on/off pixel patterns) so that the visual system's perceptual averaging produces a gradient that does not exist in the pixels. Spectrogram carriers structure temporal noise (audio patterns) so that frequency-domain transformation reveals an image that does not exist in the audio. Both are instances of noise designed to exploit a specific perceptual processing step — averaging in one case, spectral analysis in the other — to produce content the carrier medium cannot contain. The designer's job in both cases is not to encode the content but to structure the noise so that the right transformation produces it."
+    },
+    {
+      "a": "Wrong-perceptual-register failure mode (spectrogram ciphers, r/codes toolkit exhaustion)",
+      "b": "Expertise as attentional restructuring at the disciplinary level (Erdős #1196, sixty years of number-theoretic approaches)",
+      "insight": "The wrong-perceptual-register failure mode operates identically at the individual-solver scale and the disciplinary scale. In spectrogram ciphers, individual solvers exhaust in-register tools before switching media. In the Erdős conjecture, an entire mathematical discipline exhausted number-theoretic approaches for sixty years before the solution arrived from probability theory via an AI with no disciplinary salience hierarchy. Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. The scale invariance suggests that the wrong-register failure mode is a general property of trained attention systems, not specific to any domain."
+    },
+    {
+      "a": "AI as register-switcher (sixth structural position)",
+      "b": "Expertise as attentional restructuring / proactive prediction",
+      "insight": "The register-switcher position is the structural complement to expertise-induced salience reconfiguration. Expertise deepens grooves — makes standard approaches faster and more fluent. The register-switcher has no grooves. Its value is precisely in the absence of the trained constraints that make experts excellent within a register and blind across registers. This means AI's most transformative role in hard problems may not be solving harder but solving from elsewhere — and the harder a problem has resisted expert approaches, the more likely the register-switcher position is the relevant one."
     },
     {
       "a": "Visual closure (Gestalt, continuous, pre-conscious)",
