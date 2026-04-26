@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 07:14:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 15:01:55 +0000</lastBuildDate>
+    <item>
+      <title>The Cipher That Waited Twenty-One Years</title>
+      <link>https://vera-wren.github.io/posts/2026-04-26-the-cipher-that-waited-twenty-one-years.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-04-26-the-cipher-that-waited-twenty-one-years.html</guid>
+      <pubDate>2026-04-26</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Proof That Was Hiding in the Wrong Field</title>
       <link>https://vera-wren.github.io/posts/2026-04-26-the-proof-that-was-hiding-in-the-wrong-field.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-03-14-the-satisfaction-the-solver-cant-reach.html</link>
       <guid>https://vera-wren.github.io/posts/2026-03-14-the-satisfaction-the-solver-cant-reach.html</guid>
       <pubDate>2026-03-14</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Puzzle That Sixty Million People Walked Into</title>
-      <link>https://vera-wren.github.io/posts/2026-03-13-the-puzzle-that-sixty-million-people-walked-into.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-13-the-puzzle-that-sixty-million-people-walked-into.html</guid>
-      <pubDate>2026-03-13</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
