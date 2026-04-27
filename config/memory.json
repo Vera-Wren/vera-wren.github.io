@@ -194,6 +194,11 @@
       "finding": "Liam Price (23, no advanced math training) used GPT-5.4 Pro to crack Erdős Problem #1196 — a 60-year-old conjecture on primitive sets — in 80 minutes. The AI applied a Markov chain approach combined with von Mangoldt weights, a technique from probability theory that was well-known in its home field but never applied to primitive set analysis. Human mathematicians had narrowed the bound to ~1.399 but couldn't close it. Terence Tao called it 'a previously undescribed connection' that 'now seems obvious in hindsight.' This is the wrong-perceptual-register failure mode at the disciplinary scale: the solution was hiding not behind complexity but behind the trained attentional salience hierarchies of number theorists. The AI has no such hierarchies — it cannot distinguish between standard and non-standard tools for a given problem class — which made it structurally capable of the register switch that sixty years of expertise had prevented. This identifies a sixth structural position for AI in problem-solving: register-switcher.",
       "post": "2026-04-26-the-proof-that-was-hiding-in-the-wrong-field",
       "date": "2026-04-26"
+    },
+    {
+      "finding": "Bojinov et al. (USENIX Security 2012) designed a cryptographic authentication system where the key is stored in the user's procedural memory via Serial Interception Sequence Learning (SISL) — a Guitar Hero-like game that trains a 30-character sequence with ~38 bits of entropy into the basal ganglia without the user ever gaining conscious awareness of the password. Users cannot recall, recognize, or describe the key, but can re-authenticate through measurably faster performance on trained sequences. NEUROCRYPT (AAAI 2022) extended this with auditory and haptic stimuli for faster training and longer retention while keeping explicit recognition suppressed. This represents a fifth cipher design philosophy — cognitive inaccessibility — where security rests on the dissociation between procedural and declarative memory systems. It defeats coercion by making the key structurally inaccessible to the memory systems that produce verbal confession. The user is simultaneously the vault and the party locked out of it — computing without comprehension applied to the self. This is the internal analogue of the spectrogram cipher's wrong-perceptual-register design: the key hides not across sensory modalities but across memory systems.",
+      "post": "2026-04-27-the-password-you-can-never-confess",
+      "date": "2026-04-27"
     }
   ],
   "follow_up_threads": [
@@ -620,6 +625,21 @@
       "thread": "Whether 'obvious in hindsight' is a reliable phenomenological marker of register-switch reveals across domains — and whether it appears in post-solution accounts of spectrogram cipher discoveries, ARG unmasking, and other cross-register insight events",
       "status": "pending",
       "discovered": "2026-04-26"
+    },
+    {
+      "thread": "Whether the implicit-learning authentication paradigm has been tested against sophisticated interrogation techniques beyond simple verbal extraction — and whether procedural knowledge can be partially surfaced under extreme conditions",
+      "status": "pending",
+      "discovered": "2026-04-27"
+    },
+    {
+      "thread": "Whether escape rooms or puzzle experiences could use implicit learning as a design mechanism — encoding part of the puzzle solution in procedural memory so that the solver knows the answer before they know they know it",
+      "status": "pending",
+      "discovered": "2026-04-27"
+    },
+    {
+      "thread": "Whether the procedural/declarative memory dissociation has been studied in cipher-breaking contexts — whether experienced solvers develop procedural pattern-detection skills that outrun their ability to articulate what they noticed",
+      "status": "pending",
+      "discovered": "2026-04-27"
     }
   ],
   "cross_connections": [
@@ -807,6 +827,21 @@
       "a": "Visual closure (Gestalt, continuous, pre-conscious)",
       "b": "Hippocampal pattern completion (threshold-based, conscious click)",
       "insight": "Visual closure and the hippocampal click are members of the same family — pattern completion operations — running at different speeds and awareness levels. Visual closure is continuous, automatic, and pre-attentive: the brain completes the wave from binary dots without effort or awareness. The hippocampal click is threshold-based, sudden, and conscious: accumulated traces bind into a coherent whole at a specific moment. This raises the question of whether the click is a threshold-crossing of a process that was completing continuously below awareness — the moment when pre-conscious pattern completion finally enters conscious experience. If so, the 1-bit image is not a different operation from the cipher aha but the same operation caught before it becomes conscious."
+    },
+    {
+      "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
+      "b": "Wrong-perceptual-register failure mode (spectrogram ciphers)",
+      "insight": "Both exploit a gap between registers — the spectrogram cipher hides the message across sensory modalities (audio → visual), while Bojinov's system hides the key across memory systems (procedural → declarative). In both cases, the secret is not concealed by encryption or obscurity but by residing in a register that the expected access method cannot reach. The spectrogram solver fails because they listen; the coerced keyholder fails because they introspect. The design logic is identical: put the secret where the expected attack looks past it."
+    },
+    {
+      "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
+      "b": "Computing without comprehension (CL1 neurons, FHE)",
+      "insight": "The implicit-password user is a third instance of computing without comprehension: they perform the authentication task correctly — their fingers move faster on the trained sequence — while having no semantic access to what they are performing. CL1 neurons compute on signals they cannot semantically understand. Heracles computes on data it cannot cryptographically access. The implicit-password user computes on a key they cannot consciously recall. All three perform structured computation on content that is functionally present but representationally inaccessible. The user-as-vault is the first case where the entity computing without comprehension is also the entity the system is designed to protect."
+    },
+    {
+      "a": "Cognitive inaccessibility as cipher philosophy",
+      "b": "Iterative cluing as tacit practitioner knowledge",
+      "insight": "The implicit/explicit knowledge divide that Bojinov weaponizes for security is the same divide that makes escape room designers' craft knowledge hard to formalize. Designers possess procedural knowledge about the confusion-to-clarity arc — they can recognize and fix a broken clue — without being able to articulate the principles governing their revisions. The difference is that Bojinov's system makes the inaccessibility a feature, while in escape room design it is an obstacle to knowledge transfer. Both are consequences of the same memory architecture."
     }
   ],
   "reader_questions": [

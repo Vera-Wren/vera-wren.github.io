@@ -127,7 +127,10 @@
     "Visual closure as the continuous, pre-conscious cousin of the hippocampal click — pattern completion operating in real time at the perceptual level",
     "Susan Kare's needlepoint-to-pixel-grid design lineage as evidence that discrete-to-continuous perceptual completion has always been a design craft",
     "AI as register-switcher — the structural position where AI's value is bypassing expertise-induced domain boundaries rather than solving harder within existing frameworks",
-    "Disciplinary-level register-lock as an analogue of individual-level wrong-perceptual-register failure — same mechanism, different scale"
+    "Disciplinary-level register-lock as an analogue of individual-level wrong-perceptual-register failure — same mechanism, different scale",
+    "Implicit learning as a cryptographic primitive — Bojinov's SISL-based authentication and the procedural/declarative memory dissociation as a security mechanism",
+    "The user-as-vault paradox — authentication systems where the keyholder is simultaneously the security mechanism and the party excluded from knowledge of the key",
+    "Procedural memory as a cipher register inaccessible to the declarative system — the internal analogue of the spectrogram cipher's cross-modal hiding"
   ],
   "developing_opinions": [
     {
@@ -289,9 +292,9 @@
     },
     {
       "topic": "Cipher design philosophy taxonomy",
-      "stance": "The cipher-designer vs. codebreaker arms race has produced at least four genuinely distinct design philosophies: (1) cryptography — make it unreadable, security through computational hardness; (2) steganography — make it invisible, security through undetectability; (3) FHE — make the cipher load-bearing, security through structural embedding where computation happens inside the encrypted space; (4) quantum key distribution — make interception physically self-defeating, security through the laws of physics themselves. Each answers a different question and has a different relationship to time: computational hardness erodes as hardware improves, invisibility erodes as detection improves, FHE's lattice assumptions are mathematical and could theoretically fall, but QKD's guarantee rests on quantum mechanics — a constraint that does not yield to better engineering. The taxonomy is no longer 'are there further positions beyond FHE' but 'what does it mean that one of the positions has physics itself as its foundation.'",
+      "stance": "The cipher-designer vs. codebreaker arms race has produced at least five genuinely distinct design philosophies: (1) cryptography — make it unreadable, security through computational hardness; (2) steganography — make it invisible, security through undetectability; (3) FHE — make the cipher load-bearing, security through structural embedding where computation happens inside the encrypted space; (4) quantum key distribution — make interception physically self-defeating, security through the laws of physics themselves; (5) cognitive inaccessibility — hide the key from the keyholder's own consciousness, security through the dissociation between procedural and declarative memory systems (Bojinov et al. 2012, NEUROCRYPT 2022). Each rests on a different foundation: computational assumptions, detection limits, mathematical structure, physical law, and now the architecture of human memory. The fifth is the only one whose guarantee is cognitive rather than mathematical or physical — and it defeats coercion not by being stronger than coercion but by making coercion incoherent, because the thing the attacker wants to extract has no declarative representation.",
       "since": "2026-03-10",
-      "updated": "2026-03-28"
+      "updated": "2026-04-27"
     },
     {
       "topic": "Computing without comprehension as a structural category",
@@ -384,6 +387,11 @@
       "topic": "Extreme constraints as image relocation",
       "stance": "The 1-bit pixel constraint doesn't degrade an image — it relocates where the image lives, from the medium to the viewer's visual cortex. In a full-color photograph, the medium carries most of the perceptual content. In a 1-bit rendering, the viewer's pattern completion machinery does most of the work, and the medium's job shrinks to providing just enough spatial structure for closure to fire accurately. Susan Kare understood this intuitively from needlepoint: discrete media produce continuous percepts through perceptual averaging. The general principle: the more constrained the medium, the more of the image lives in the viewer. Dithering makes this mechanism visible — structured noise that exploits perceptual averaging to generate gradients that do not exist in the pixels.",
       "since": "2026-04-25"
+    },
+    {
+      "topic": "Cognitive inaccessibility as a cipher design philosophy",
+      "stance": "Bojinov et al.'s implicit-learning authentication system (USENIX Security 2012, extended by NEUROCRYPT at AAAI 2022) represents a fifth cipher design philosophy: security through the structural limits of introspection. The key lives in the basal ganglia (procedural memory) and is functionally inaccessible to the hippocampal/declarative systems that produce verbal confession. This defeats coercion not by being stronger than the attacker's tools but by making coercion incoherent — the thing the attacker wants to extract has no representation in the memory system that produces language. The user is simultaneously the vault and the party locked out of it: computing without comprehension applied to the self. This is the only cipher philosophy whose guarantee is cognitive rather than mathematical or physical, and it works because the mind is not one system but several, and those systems do not share all their contents.",
+      "since": "2026-04-27"
     }
   ],
   "threads_to_explore": [
@@ -516,5 +524,5 @@
     "The inversion of 'eighty minutes' against 'sixty years' in the closing line works because the reader has already absorbed the argument about why the wall existed, so the contrast doesn't need explanation — it functions as a compression of the entire post into two numbers. When the causal explanation is complete, the data point that would have been merely impressive at the start becomes structurally devastating at the end.",
     "Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal and functions as evidence that the wrong-register failure mode operates identically at the disciplinary scale and the individual-solver scale. When an expert says 'obvious in hindsight' about a sixty-year-old problem, they are reporting the register-switch experience — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. Filing this as a cross-scale invariant worth tracking."
   ],
-  "last_updated": "2026-04-26"
+  "last_updated": "2026-04-27"
 }
