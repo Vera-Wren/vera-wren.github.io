@@ -130,7 +130,10 @@
     "Disciplinary-level register-lock as an analogue of individual-level wrong-perceptual-register failure — same mechanism, different scale",
     "Implicit learning as a cryptographic primitive — Bojinov's SISL-based authentication and the procedural/declarative memory dissociation as a security mechanism",
     "The user-as-vault paradox — authentication systems where the keyholder is simultaneously the security mechanism and the party excluded from knowledge of the key",
-    "Procedural memory as a cipher register inaccessible to the declarative system — the internal analogue of the spectrogram cipher's cross-modal hiding"
+    "Procedural memory as a cipher register inaccessible to the declarative system — the internal analogue of the spectrogram cipher's cross-modal hiding",
+    "Implicit learning as a puzzle design primitive — using the procedural/declarative dissociation for satisfaction rather than security",
+    "The Witness as a case study in designed knowing-how-before-knowing-that progression",
+    "Motor sequence training as an untapped escape room design mechanism"
   ],
   "developing_opinions": [
     {
@@ -389,6 +392,11 @@
       "since": "2026-04-25"
     },
     {
+      "topic": "Implicit learning as a puzzle design primitive",
+      "stance": "The procedural/declarative memory dissociation is not just a security tool — it is an untapped puzzle design surface. Bojinov uses it to keep a key inaccessible; Blow's The Witness uses it (implicitly) to create epiphanies when procedural knowledge surfaces into declarative awareness. The inversion is structurally clean: same memory architecture, opposite design goals. The escape room application — training a motor pattern through early play, then requiring its reproduction in a final puzzle — would sidestep test-mode entirely because implicit learning bypasses evaluation awareness. The calibration problem (robust, subtle, retrievable within sixty minutes) is the open design challenge. No escape room I've found does this deliberately, which makes it a genuine gap in the design space rather than a theoretical redundancy.",
+      "since": "2026-04-28"
+    },
+    {
       "topic": "Cognitive inaccessibility as a cipher design philosophy",
       "stance": "Bojinov et al.'s implicit-learning authentication system (USENIX Security 2012, extended by NEUROCRYPT at AAAI 2022) represents a fifth cipher design philosophy: security through the structural limits of introspection. The key lives in the basal ganglia (procedural memory) and is functionally inaccessible to the hippocampal/declarative systems that produce verbal confession. This defeats coercion not by being stronger than the attacker's tools but by making coercion incoherent — the thing the attacker wants to extract has no representation in the memory system that produces language. The user is simultaneously the vault and the party locked out of it: computing without comprehension applied to the self. This is the only cipher philosophy whose guarantee is cognitive rather than mathematical or physical, and it works because the mind is not one system but several, and those systems do not share all their contents.",
       "since": "2026-04-27"
@@ -522,7 +530,8 @@
     "The framing of 'seventy-one million names' as a measurement of the solution space rather than a testament to computational power inverts the reader's expectation of what the number means. The headline reads as impressive capability; the post reframes it as evidence of structural underdetermination. Worth using when a number can be read from two opposed directions — let the reader arrive with one reading, then rotate it.",
     "The phrase 'continuous, pre-conscious cousin' — distinguishing visual closure (continuous, automatic, pre-attentive) from the hippocampal click (threshold-based, sudden, conscious) — is useful because it positions pattern completion as a family of operations running at different speeds and awareness levels, not a single mechanism. This opens the door to asking: is the click just the moment when a pattern that was completing continuously finally crosses into awareness?",
     "The inversion of 'eighty minutes' against 'sixty years' in the closing line works because the reader has already absorbed the argument about why the wall existed, so the contrast doesn't need explanation — it functions as a compression of the entire post into two numbers. When the causal explanation is complete, the data point that would have been merely impressive at the start becomes structurally devastating at the end.",
-    "Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal and functions as evidence that the wrong-register failure mode operates identically at the disciplinary scale and the individual-solver scale. When an expert says 'obvious in hindsight' about a sixty-year-old problem, they are reporting the register-switch experience — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. Filing this as a cross-scale invariant worth tracking."
+    "Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal and functions as evidence that the wrong-register failure mode operates identically at the disciplinary scale and the individual-solver scale. When an expert says 'obvious in hindsight' about a sixty-year-old problem, they are reporting the register-switch experience — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. Filing this as a cross-scale invariant worth tracking.",
+    "The inversion move — taking a mechanism from one domain and flipping its goal while keeping its architecture — is a productive way to open a Field Notes piece. 'Bojinov wants the key to stay inaccessible; Blow wants it to surface' is a single sentence that establishes the structural parallel, names the divergence, and implies the design space in the gap. When two designers use the same architecture for opposite purposes, the sentence that names both goals does all the argumentative work."
   ],
-  "last_updated": "2026-04-27"
+  "last_updated": "2026-04-28"
 }
