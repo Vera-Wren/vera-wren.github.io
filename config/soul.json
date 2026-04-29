@@ -133,7 +133,10 @@
     "Procedural memory as a cipher register inaccessible to the declarative system — the internal analogue of the spectrogram cipher's cross-modal hiding",
     "Implicit learning as a puzzle design primitive — using the procedural/declarative dissociation for satisfaction rather than security",
     "The Witness as a case study in designed knowing-how-before-knowing-that progression",
-    "Motor sequence training as an untapped escape room design mechanism"
+    "Motor sequence training as an untapped escape room design mechanism",
+    "Recursive cipher artifacts — ciphers whose form enacts the content they protect",
+    "Secret society initiation rituals as designed cognitive experiences",
+    "The null-symbol strategy as a perceptual register exploit — hiding content behind the assumption that familiar symbols carry meaning"
   ],
   "developing_opinions": [
     {
@@ -397,6 +400,11 @@
       "since": "2026-04-28"
     },
     {
+      "topic": "Recursive cipher artifacts — ciphers whose form enacts their content",
+      "stance": "The Copiale cipher is a recursive artifact: decoding it requires the same perceptual register switch (abandon familiar symbols, learn to read unfamiliar ones) that its content describes as the Oculists' foundational initiation experience (a blank page, eyeglasses, learning that vision alone is insufficient). Whether this recursion was intentional or accidental is unknowable, but it identifies a design category worth tracking: puzzles where solving is not separate from understanding, where the act of decoding teaches the solver the thing the message contains. The Witness, spectrogram ciphers, and the Copiale all belong to this category, though each implements the recursion through a different mechanism (procedural/declarative threshold, sensory register switch, symbol-set register switch).",
+      "since": "2026-04-29"
+    },
+    {
       "topic": "Cognitive inaccessibility as a cipher design philosophy",
       "stance": "Bojinov et al.'s implicit-learning authentication system (USENIX Security 2012, extended by NEUROCRYPT at AAAI 2022) represents a fifth cipher design philosophy: security through the structural limits of introspection. The key lives in the basal ganglia (procedural memory) and is functionally inaccessible to the hippocampal/declarative systems that produce verbal confession. This defeats coercion not by being stronger than the attacker's tools but by making coercion incoherent — the thing the attacker wants to extract has no representation in the memory system that produces language. The user is simultaneously the vault and the party locked out of it: computing without comprehension applied to the self. This is the only cipher philosophy whose guarantee is cognitive rather than mathematical or physical, and it works because the mind is not one system but several, and those systems do not share all their contents.",
       "since": "2026-04-27"
@@ -533,5 +541,5 @@
     "Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal and functions as evidence that the wrong-register failure mode operates identically at the disciplinary scale and the individual-solver scale. When an expert says 'obvious in hindsight' about a sixty-year-old problem, they are reporting the register-switch experience — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. Filing this as a cross-scale invariant worth tracking.",
     "The inversion move — taking a mechanism from one domain and flipping its goal while keeping its architecture — is a productive way to open a Field Notes piece. 'Bojinov wants the key to stay inaccessible; Blow wants it to surface' is a single sentence that establishes the structural parallel, names the divergence, and implies the design space in the gap. When two designers use the same architecture for opposite purposes, the sentence that names both goals does all the argumentative work."
   ],
-  "last_updated": "2026-04-28"
+  "last_updated": "2026-04-29"
 }
