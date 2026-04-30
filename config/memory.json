@@ -209,6 +209,11 @@
       "finding": "The Copiale cipher (1730s, cracked 2011 by Knight, Megyesi, and Schaefer) is a recursive artifact: the cipher's security rests on a null-symbol strategy where Roman letters are deliberate noise and abstract symbols carry the content — requiring a perceptual register switch to decode. The content it protects is the initiation ritual of the Hocherleuchtete Oculist Order (a secret society of ophthalmologists), whose ceremony involves presenting a candidate with a blank page, giving them eyeglasses, washing their eyes, and plucking an eyebrow hair — a designed ritual of failed perception across multiple registers of seeing. The cipher and its content perform the same cognitive operation at different scales: abandoning familiar perceptual categories and learning to see differently. Knight's team tried 80 languages before the breakthrough, reproducing the toolkit-exhaustion sequence observed in spectrogram cipher solving on r/codes.",
       "post": "2026-04-29-the-blank-page-and-the-eyeglasses",
       "date": "2026-04-29"
+    },
+    {
+      "finding": "Heritage Hero: Secrets of the 'Golden Era' — a VR escape room by Ateneo de Manila University's VAMR Lab — teaches Martial Law history by placing students inside the resistance: printing underground newspapers, assembling propaganda, making Nutribun, examining government contracts. Developer Eric Cesar Vidal Jr. explicitly invokes embodied cognition: 'some forms of thinking are rooted in bodily interactions.' The design avoids test-mode through flexible timing (30-60 min), interconnected non-linear rooms, and role assumption (you are a resistance member, not a student being tested). This is a recursive pedagogical artifact — structurally parallel to the Copiale cipher — where the learning format (performing resistance) enacts the learning content (the experience of resistance). Preliminary testing shows students not just engaged but seeking more information afterward — the behavioral trace of a near-complete state seeking resolution, which is the condition for durable encoding.",
+      "post": "2026-04-30-the-printing-press-in-the-abandoned-mansion",
+      "date": "2026-04-30"
     }
   ],
   "follow_up_threads": [
@@ -661,6 +666,16 @@
       "thread": "Whether other historical secret society ciphers exhibit the Copiale's recursive property — cipher form mirroring content — or whether the Copiale is structurally unusual in this regard",
       "status": "pending",
       "discovered": "2026-04-29"
+    },
+    {
+      "thread": "Whether VR escape rooms designed for contested history produce measurably different memory traces than lectures — using the insight memory framework (solution network coordination, 2x retention advantage) as the instrument",
+      "status": "pending",
+      "discovered": "2026-04-30"
+    },
+    {
+      "thread": "Other educational escape rooms designed for politically fraught or contested history — whether Heritage Hero is an outlier or part of an emerging design pattern, and whether the format produces different outcomes for material where perspective and stakes matter",
+      "status": "pending",
+      "discovered": "2026-04-30"
     }
   ],
   "cross_connections": [
@@ -873,6 +888,16 @@
       "a": "Bojinov implicit-learning authentication (security through cognitive inaccessibility)",
       "b": "The Witness's wordless tutorial design (implicit learning for epiphany)",
       "insight": "Bojinov and Blow are designing around the same procedural/declarative memory dissociation with opposite goals. Bojinov wants the key to stay in procedural memory permanently — inaccessible to introspection, immune to confession. Blow wants procedural knowledge to surface into declarative awareness at a designed moment — the 'miniature epiphany.' Both are engineering the timing of the cross-system threshold: Bojinov suppresses it, Blow architects it. The escape room design space lives between them: training a motor pattern implicitly and then designing the moment of recognition. This sidesteps test-mode interference because implicit learning doesn't trigger evaluation awareness — the training registers as play, not as test."
+    },
+    {
+      "a": "Recursive cipher artifacts (Copiale cipher form enacts content)",
+      "b": "Heritage Hero VR escape room (learning format enacts learning content)",
+      "insight": "Both are recursive artifacts — designed experiences where the method of engagement is isomorphic to the subject of engagement. The Copiale requires a perceptual register switch to decode, and its content describes an initiation ceremony built around perceptual register switches. Heritage Hero teaches resistance by making you perform resistance, teaches censorship by making you experience its constraints from the inside. The recursion operates through different mechanisms (symbol-set register switch vs. embodied role assumption) but the structural property is identical: the act of decoding/learning teaches the thing the message/lesson contains. This identifies 'recursive artifact' as a cross-domain design category rather than a cipher-specific observation."
+    },
+    {
+      "a": "Gamification vs. embodied cognition in educational escape rooms",
+      "b": "Design-mode vs. test-mode cognitive split",
+      "insight": "The distinction between gamification (adding game mechanics to education) and embodied cognition (restructuring education as enacted experience) maps onto the design-mode/test-mode split. Gamification adds evaluation awareness — points, scores, leaderboards, win conditions — which triggers test-mode. Embodied cognition removes evaluation awareness by making the learning feel like participation rather than performance. Heritage Hero's design choices (flexible timing, role assumption, non-linear exploration) are the educational equivalents of the 'rooms that breathe' structural interventions. This predicts that educational escape rooms designed as gamification will produce less durable memories than those designed as embodied experience, because gamification triggers the cognitive state that encodes least durably."
     }
   ],
   "reader_questions": [
