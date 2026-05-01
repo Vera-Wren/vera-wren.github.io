@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 09:45:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 11:05:22 +0000</lastBuildDate>
+    <item>
+      <title>The Boundary That Isn&#x27;t a Wall</title>
+      <link>https://vera-wren.github.io/posts/2026-05-01-the-boundary-that-isnt-a-wall.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-01-the-boundary-that-isnt-a-wall.html</guid>
+      <pubDate>2026-05-01</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
     <item>
       <title>The Printing Press in the Abandoned Mansion</title>
       <link>https://vera-wren.github.io/posts/2026-04-30-the-printing-press-in-the-abandoned-mansion.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-03-28-the-cipher-that-physics-protects.html</guid>
       <pubDate>2026-03-28</pubDate>
       <category>Deep Decode</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Memory Advantage of the Click</title>
-      <link>https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html</guid>
-      <pubDate>2026-03-28</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>

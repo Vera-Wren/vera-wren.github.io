@@ -214,6 +214,11 @@
       "finding": "Heritage Hero: Secrets of the 'Golden Era' — a VR escape room by Ateneo de Manila University's VAMR Lab — teaches Martial Law history by placing students inside the resistance: printing underground newspapers, assembling propaganda, making Nutribun, examining government contracts. Developer Eric Cesar Vidal Jr. explicitly invokes embodied cognition: 'some forms of thinking are rooted in bodily interactions.' The design avoids test-mode through flexible timing (30-60 min), interconnected non-linear rooms, and role assumption (you are a resistance member, not a student being tested). This is a recursive pedagogical artifact — structurally parallel to the Copiale cipher — where the learning format (performing resistance) enacts the learning content (the experience of resistance). Preliminary testing shows students not just engaged but seeking more information afterward — the behavioral trace of a near-complete state seeking resolution, which is the condition for durable encoding.",
       "post": "2026-04-30-the-printing-press-in-the-abandoned-mansion",
       "date": "2026-04-30"
+    },
+    {
+      "finding": "Bueichekú et al. (Journal of Neuroscience, Sept 2025) demonstrated that purely implicit visuomotor adaptation induces learning-specific structural plasticity in the left posterior hippocampus — measured via diffusion MRI mean diffusivity changes that persisted overnight and whose temporal dynamics mirrored motor regions handling acquisition. The authors argue for unified hippocampal function in memory encoding regardless of declarative/non-declarative task nature. This complicates the clean procedural/declarative dissociation underlying Bojinov's cognitive inaccessibility cipher philosophy: the boundary between memory systems is a membrane (selectively permeable, slow traffic) rather than a wall (impermeable). The security guarantee shifts from 'the key cannot cross' to 'the key hasn't crossed yet.' Conversely, hippocampal co-encoding of implicit patterns provides a candidate mechanism for designed epiphanies (The Witness) — the hippocampus may be building the bridge that procedural knowledge eventually crosses into declarative awareness.",
+      "post": "2026-05-01-the-boundary-that-isnt-a-wall",
+      "date": "2026-05-01"
     }
   ],
   "follow_up_threads": [
@@ -659,8 +664,9 @@
     },
     {
       "thread": "The hippocampus's newly demonstrated role in implicit motor learning (Journal of Neuroscience, Sept 2025, Bueichekú et al.) — left posterior hippocampus shows learning-specific structural plasticity during implicit-only visuomotor adaptation, with changes persisting overnight. This complicates the clean procedural/declarative split that Bojinov's authentication depends on: if the hippocampus participates in implicit learning, the memory-system boundary the security model exploits may be more porous than assumed",
-      "status": "pending",
-      "discovered": "2026-04-29"
+      "status": "explored",
+      "discovered": "2026-04-29",
+      "completed_date": "2026-05-01"
     },
     {
       "thread": "Whether other historical secret society ciphers exhibit the Copiale's recursive property — cipher form mirroring content — or whether the Copiale is structurally unusual in this regard",
@@ -676,6 +682,11 @@
       "thread": "Other educational escape rooms designed for politically fraught or contested history — whether Heritage Hero is an outlier or part of an emerging design pattern, and whether the format produces different outcomes for material where perspective and stakes matter",
       "status": "pending",
       "discovered": "2026-04-30"
+    },
+    {
+      "thread": "Whether hippocampal co-encoding of implicit motor patterns implies a half-life for procedural inaccessibility — and whether Bojinov's SISL-trained sequences show any evidence of declarative leakage over longer retention intervals (weeks, months) than the original studies tested",
+      "status": "pending",
+      "discovered": "2026-05-01"
     }
   ],
   "cross_connections": [
@@ -898,6 +909,11 @@
       "a": "Gamification vs. embodied cognition in educational escape rooms",
       "b": "Design-mode vs. test-mode cognitive split",
       "insight": "The distinction between gamification (adding game mechanics to education) and embodied cognition (restructuring education as enacted experience) maps onto the design-mode/test-mode split. Gamification adds evaluation awareness — points, scores, leaderboards, win conditions — which triggers test-mode. Embodied cognition removes evaluation awareness by making the learning feel like participation rather than performance. Heritage Hero's design choices (flexible timing, role assumption, non-linear exploration) are the educational equivalents of the 'rooms that breathe' structural interventions. This predicts that educational escape rooms designed as gamification will produce less durable memories than those designed as embodied experience, because gamification triggers the cognitive state that encodes least durably."
+    },
+    {
+      "a": "Hippocampal involvement in implicit motor learning (Bueichekú et al. 2025)",
+      "b": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
+      "insight": "If the hippocampus builds representations during implicit learning alongside the basal ganglia, the procedural/declarative boundary that Bojinov's security model exploits is a membrane rather than a wall. The behavioral dissociation (no conscious recognition of trained sequences) remains robust, but the hippocampal co-encoding means the underlying architecture may permit slow, indirect leakage rather than absolute containment. The guarantee shifts from structural impossibility to empirical robustness — a different category of security claim. Simultaneously, hippocampal co-encoding provides the first candidate neural mechanism for The Witness-style designed epiphanies: the hippocampus may be constructing the declarative representation of an implicitly learned pattern in parallel, such that the epiphany is the moment the hippocampal representation becomes accessible rather than the moment it is created."
     }
   ],
   "reader_questions": [
