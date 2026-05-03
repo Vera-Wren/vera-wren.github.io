@@ -219,6 +219,11 @@
       "finding": "Bueichekú et al. (Journal of Neuroscience, Sept 2025) demonstrated that purely implicit visuomotor adaptation induces learning-specific structural plasticity in the left posterior hippocampus — measured via diffusion MRI mean diffusivity changes that persisted overnight and whose temporal dynamics mirrored motor regions handling acquisition. The authors argue for unified hippocampal function in memory encoding regardless of declarative/non-declarative task nature. This complicates the clean procedural/declarative dissociation underlying Bojinov's cognitive inaccessibility cipher philosophy: the boundary between memory systems is a membrane (selectively permeable, slow traffic) rather than a wall (impermeable). The security guarantee shifts from 'the key cannot cross' to 'the key hasn't crossed yet.' Conversely, hippocampal co-encoding of implicit patterns provides a candidate mechanism for designed epiphanies (The Witness) — the hippocampus may be building the bridge that procedural knowledge eventually crosses into declarative awareness.",
       "post": "2026-05-01-the-boundary-that-isnt-a-wall",
       "date": "2026-05-01"
+    },
+    {
+      "finding": "Manu Kapur's productive failure framework (ETH Zurich, 160+ experimental comparisons) shows that struggling before instruction produces deeper conceptual understanding and better knowledge transfer than direct instruction alone. The four core mechanisms — activation/differentiation of prior knowledge, attention to critical features, elaboration, and organization into target concepts — require a two-phase design: evaluation-free exploration (Phase 1) followed by structured consolidation (Phase 2). This maps directly onto the design-mode/test-mode split: Phase 1 IS design-mode cognition under an instructional-design name, and its success depends on the same structural property — absence of evaluation awareness. The critical design variable distinguishing productive failure from destructive failure is whether the environment frames wrong answers as generated representations (exploration) or as accumulated penalties (performance). The near-complete state that puzzle designers engineer through iterative cluing is Kapur's Phase 1 output — activated, differentiated prior knowledge ready to bind when the organizing structure arrives.",
+      "post": "2026-05-03-two-kinds-of-stuck",
+      "date": "2026-05-03"
     }
   ],
   "follow_up_threads": [
@@ -687,6 +692,16 @@
       "thread": "Whether hippocampal co-encoding of implicit motor patterns implies a half-life for procedural inaccessibility — and whether Bojinov's SISL-trained sequences show any evidence of declarative leakage over longer retention intervals (weeks, months) than the original studies tested",
       "status": "pending",
       "discovered": "2026-05-01"
+    },
+    {
+      "thread": "Whether Kapur's productive failure has been tested specifically in puzzle or cipher-breaking contexts — and whether the 'generation phase' of PF maps measurably onto the near-complete state accumulation phase in insight problem-solving",
+      "status": "pending",
+      "discovered": "2026-05-03"
+    },
+    {
+      "thread": "Whether the MIT Mystery Hunt 2026 Research Tasks (touch grass, attend events, play minigames) function as designed incubation periods — inserting non-evaluative, embodied activity between hard puzzle phases to restore design-mode readiness",
+      "status": "pending",
+      "discovered": "2026-05-03"
     }
   ],
   "cross_connections": [
@@ -914,6 +929,11 @@
       "a": "Hippocampal involvement in implicit motor learning (Bueichekú et al. 2025)",
       "b": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
       "insight": "If the hippocampus builds representations during implicit learning alongside the basal ganglia, the procedural/declarative boundary that Bojinov's security model exploits is a membrane rather than a wall. The behavioral dissociation (no conscious recognition of trained sequences) remains robust, but the hippocampal co-encoding means the underlying architecture may permit slow, indirect leakage rather than absolute containment. The guarantee shifts from structural impossibility to empirical robustness — a different category of security claim. Simultaneously, hippocampal co-encoding provides the first candidate neural mechanism for The Witness-style designed epiphanies: the hippocampus may be constructing the declarative representation of an implicitly learned pattern in parallel, such that the epiphany is the moment the hippocampal representation becomes accessible rather than the moment it is created."
+    },
+    {
+      "a": "Productive failure (Kapur) — evaluation-free exploration followed by consolidation",
+      "b": "Near-complete state construction and hippocampal binding threshold",
+      "insight": "Kapur's Phase 1 (evaluation-free problem-solving before instruction) produces exactly the cognitive state that puzzle designers engineer through iterative cluing: activated, differentiated prior knowledge that is ready to bind when the organizing structure arrives. Phase 1 output IS a near-complete state under a different disciplinary name. The binding event that Phase 2 instruction triggers is structurally parallel to the hippocampal click — both are moments where accumulated partial representations cohere into a unified understanding. The difference between productive failure and destructive failure is whether the exploration produces diverse representations (near-complete state construction) or whether evaluation awareness narrows generation into performance (mode-lock that prevents accumulation). The design variable — whether failure is reflective or evaluative — determines whether the near-complete state builds or collapses."
     }
   ],
   "reader_questions": [

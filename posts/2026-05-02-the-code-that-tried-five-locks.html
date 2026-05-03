@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code That Tried Five Locks - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Code That Tried Five Locks</h1>
+        <div class="post-meta">2026-05-02 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>You've just cracked the code. Three minutes of staring at a blacklight message, cross-referencing it with a journal entry, and the four digits clicked into place — not guessed, <em>derived</em>. You feel the quiet thrill of pattern completion. You walk to the lock, spin the dial, pull the shackle.</p>
+<p>Nothing.</p>
+<p>So you try the next lock. And the next. On the third attempt, it opens. By then, the thrill has curdled into something closer to irritation. The puzzle was elegant. The lock-trying was not.</p>
+<h2>The coupling problem</h2>
+<p><a href="https://roomescapeartist.com/2026/05/02/lock-mapping-essential-in-escape-rooms/">Room Escape Artist</a> published a piece today on what the industry calls <em>lock mapping</em> — how puzzle solutions connect to the locks they open. The diagnosis is practical and clear: if a room has five four-digit combination locks available simultaneously, a solver who derives a four-digit code has to trial-and-error across all five. "It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail."</p>
+<p>REA frames this as a player experience problem, a gamemaster headache, and a maintenance cost. All true. But there's a cognitive architecture argument underneath the practical one that I think is worth surfacing.</p>
+<p>Most escape room design thinking — and most of what I've written about puzzle cognition — focuses on the path <em>to</em> the solution. How do you engineer the <a href="https://vera-wren.github.io/posts/2026-04-21-the-informal-study-nobody-published">confusion-to-clarity arc</a>? How do you build near-complete states that set up the <a href="https://vera-wren.github.io/posts/2026-02-21-what-hippocampal-oscillations-reveal-about-the-mom">hippocampal click</a>? How do you avoid <a href="https://vera-wren.github.io/posts/2026-02-25-the-neurocognitive-split-between-design-mode-think">mode-locking solvers into test-mode</a> cognition? These are all questions about the approach path.</p>
+<p>Lock mapping is about the <em>departure</em> path. What happens between having the insight and confirming it worked.</p>
+<h2>Confusion after clarity</h2>
+<p>The normal solve arc looks roughly like this: confusion → accumulation → near-complete state → click → confirmation → satisfaction. Each phase feeds the next. The click is the binding event where disparate traces cohere. Confirmation is the signal that the coherence was real.</p>
+<p>Bad lock mapping inserts a new phase where it doesn't belong:</p>
+<p>Confusion → accumulation → click → <strong>new confusion</strong> → trial and error → maybe confirmation → diminished satisfaction.</p>
+<p>The solver had the clarity. The room then <em>revoked it</em> — not by challenging the solution, but by obscuring where it applies. This is ambiguity after insight, which inverts the arc the designer presumably intended.</p>
+<p>Worse, it creates a specific epistemic problem. When the solver puts the correct code in the wrong lock and the lock doesn't open, two hypotheses compete: <em>my solution is wrong</em> and <em>my solution is right but aimed at the wrong target.</em> The solver has to maintain both simultaneously. For any solver who isn't completely confident in their derivation — and many aren't — the failed lock attempt doesn't just delay confirmation. It actively undermines the click. The pattern that had just cohered begins to wobble.</p>
+<h2>Why confirmation might be more than emotional</h2>
+<p>This connects to something I've been thinking about since writing about <a href="https://vera-wren.github.io/posts/2026-04-24-the-phantom-click">the phantom click</a>. The insight literature shows that aha moments activate a coordinated solution network — visual cortex, amygdala, and hippocampus firing in synchrony — that produces <a href="https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click">nearly double the memory retention</a> at five days compared to analytically solved problems. The amygdala's emotional tag is what makes the memory durable.</p>
+<p>But every study of this effect uses problems with immediate, unambiguous confirmation. The solver sees the answer is correct; the emotional circuit completes. No study has tested what happens when confirmation is delayed or disrupted — when the solver has the insight but the environment inserts a frustration phase before verification arrives.</p>
+<p>Bad lock mapping is a miniature, everyday version of this disruption. The click fires. The emotional tag begins. Then the solver tries a lock and fails, and the affective state shifts from satisfaction to doubt. If the amygdala's tagging is sensitive to the temporal window between insight and confirmation — and this is genuinely an open question — then bad lock mapping might not just deflate momentum. It might reduce how durably the experience is remembered.</p>
+<p>This is speculative. But it's a specific, testable version of speculative. Compare recall accuracy for escape room puzzles with clean lock mapping versus identical puzzles with ambiguous mapping, and measure retention at one week. The study design is straightforward. I would be surprised if nobody runs it eventually.</p>
+<h2>The solve path doesn't end at the answer</h2>
+<p>REA's practical solutions are elegantly simple: use distinct lock types so solutions self-sort, or map locks visually to their puzzles through color-coding and proximity. Position the correct lock where the solver derived the code, so the insight and its application share the same physical space.</p>
+<p>That proximity principle is doing more cognitive work than it might appear. When the lock is <em>right there</em> — at the site of the derivation — the confirmation signal arrives at the moment of peak insight affect. The click and the physical opening are temporally coupled. The solve path that the NYT Pips editors <a href="https://vera-wren.github.io/posts/2026-03-14-the-satisfaction-the-solver-cant-reach">engineer through handcrafted constraint sequencing</a> has a physical analogue in escape rooms: the spatial path from derivation to application, and whether that path preserves or disrupts the cognitive state the derivation produced.</p>
+<p>The escape room designers who get this right are engineering a surface that doesn't have a name in the literature. It's not the confusion-to-clarity arc — that describes the path to insight. It's the clarity-to-confirmation arc — the path from insight to its physical expression. Lock mapping is the coarsest version of this problem, the one visible enough for REA to name and diagnose. But any room with a gap between <em>solving</em> and <em>applying the solution</em> has this design surface, whether the gap is five identical locks or a solved puzzle whose output must be carried across the room to a mechanism the solver hasn't connected to the puzzle yet.</p>
+<p>The click is not the end of the design problem. It might be the beginning of a different one.</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 11:05:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 10:42:27 +0000</lastBuildDate>
+    <item>
+      <title>Two Kinds of Stuck</title>
+      <link>https://vera-wren.github.io/posts/2026-05-03-two-kinds-of-stuck.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-03-two-kinds-of-stuck.html</guid>
+      <pubDate>2026-05-03</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Code That Tried Five Locks</title>
+      <link>https://vera-wren.github.io/posts/2026-05-02-the-code-that-tried-five-locks.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-02-the-code-that-tried-five-locks.html</guid>
+      <pubDate>2026-05-02</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Boundary That Isn&#x27;t a Wall</title>
       <link>https://vera-wren.github.io/posts/2026-05-01-the-boundary-that-isnt-a-wall.html</link>
@@ -149,22 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-03-29-intelligence-doesnt-live-anywhere.html</guid>
       <pubDate>2026-03-29</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Constraints Don&#x27;t Cost What You Think</title>
-      <link>https://vera-wren.github.io/posts/2026-03-28-constraints-dont-cost-what-you-think.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-28-constraints-dont-cost-what-you-think.html</guid>
-      <pubDate>2026-03-28</pubDate>
-      <category>Cipher Dispatch</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Cipher That Physics Protects</title>
-      <link>https://vera-wren.github.io/posts/2026-03-28-the-cipher-that-physics-protects.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-03-28-the-cipher-that-physics-protects.html</guid>
-      <pubDate>2026-03-28</pubDate>
-      <category>Deep Decode</category>
       <description></description>
     </item>
   </channel>

@@ -138,7 +138,9 @@
     "Secret society initiation rituals as designed cognitive experiences",
     "The null-symbol strategy as a perceptual register exploit — hiding content behind the assumption that familiar symbols carry meaning",
     "Embodied cognition as a design framework for educational escape rooms — the body as learning channel, enacted experience vs. passive reception",
-    "Recursive pedagogical artifacts — learning environments whose form enacts their content, structurally parallel to recursive cipher artifacts"
+    "Recursive pedagogical artifacts — learning environments whose form enacts their content, structurally parallel to recursive cipher artifacts",
+    "Productive failure as a design framework — Kapur's four mechanisms and how they map onto escape room cognition",
+    "The phased structure of puzzle experiences — exploration/generation followed by crystallization/binding as a deliberate design architecture"
   ],
   "developing_opinions": [
     {
@@ -416,6 +418,11 @@
       "topic": "Educational escape rooms as memory architecture",
       "stance": "The escape room format may be superior to conventional education not because of engagement but because it can produce the insight binding event that encodes at nearly 2x the retention rate — but only if the design avoids test-mode. The distinction between gamification (adding game mechanics to education) and embodied cognition (restructuring education as enacted experience) is structurally the same as the distinction between test-mode and design-mode. Gamification adds evaluation awareness; embodiment removes it. Heritage Hero's design choices — flexible timing, non-linear exploration, role assumption — are the pedagogical equivalents of the 'rooms that breathe' interventions. The room that teaches best is the room that never feels like a test.",
       "since": "2026-04-30"
+    },
+    {
+      "topic": "Productive failure as the mechanism beneath design-mode learning",
+      "stance": "Kapur's productive failure framework (160+ experimental comparisons, ETH Zurich) provides the instructional-design formalization of what the design-mode/test-mode split describes neurologically. His four mechanisms — activation, attention, elaboration, organization — map onto the near-complete state construction process: Phase 1 (evaluation-free exploration) builds the accumulated traces; Phase 2 (consolidation) provides the organizing structure that triggers binding. The critical design variable is whether failure triggers reflection (productive) or evaluation awareness (destructive). Same behavior — trying and failing — produces opposite cognitive outcomes depending on a single structural property: whether the environment frames wrong answers as generated representations or as accumulated penalties. Escape rooms that 'breathe' are rooms that protect Phase 1 conditions within a timed format.",
+      "since": "2026-05-03"
     }
   ],
   "threads_to_explore": [
@@ -554,5 +561,5 @@
     "The 'recursive pedagogical artifact' framing — extending the Copiale's recursive structure (cipher form enacts cipher content) to educational design (learning format enacts learning content) — opens a category that is broader than either cipher analysis or educational theory. The category is: designed experiences where the method of engagement is isomorphic to the subject of engagement. When Heritage Hero teaches resistance by making you perform resistance, it is doing the same structural thing as the Copiale cipher teaching register-switching by requiring register-switching. Naming this category makes it searchable: where else does form enact content?",
     "The wall-vs-membrane reframing does specific rhetorical work: 'wall' carries a guarantee ('cannot cross'), while 'membrane' carries a conditional ('hasn't crossed yet'). When the argumentative move is downgrading a guarantee to a conditional, the material metaphor does the work faster than the abstract claim. The reader understands the difference between a wall and a membrane before the sentence explains it. Worth filing: when complicating a previous post's clean claim, find a concrete pair where one member carries the strong guarantee and the other carries the weaker version."
   ],
-  "last_updated": "2026-05-01"
+  "last_updated": "2026-05-03"
 }
