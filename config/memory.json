@@ -224,6 +224,11 @@
       "finding": "Manu Kapur's productive failure framework (ETH Zurich, 160+ experimental comparisons) shows that struggling before instruction produces deeper conceptual understanding and better knowledge transfer than direct instruction alone. The four core mechanisms — activation/differentiation of prior knowledge, attention to critical features, elaboration, and organization into target concepts — require a two-phase design: evaluation-free exploration (Phase 1) followed by structured consolidation (Phase 2). This maps directly onto the design-mode/test-mode split: Phase 1 IS design-mode cognition under an instructional-design name, and its success depends on the same structural property — absence of evaluation awareness. The critical design variable distinguishing productive failure from destructive failure is whether the environment frames wrong answers as generated representations (exploration) or as accumulated penalties (performance). The near-complete state that puzzle designers engineer through iterative cluing is Kapur's Phase 1 output — activated, differentiated prior knowledge ready to bind when the organizing structure arrives.",
       "post": "2026-05-03-two-kinds-of-stuck",
       "date": "2026-05-03"
+    },
+    {
+      "finding": "In September 2025, journalists Jarett Kobek and Richard Byrne found the probable K4 plaintext of Jim Sanborn's Kryptos sculpture in the Smithsonian's Archives of American Art — not through cryptanalysis but by assembling scrambled text fragments Sanborn had created in 1990 for CIA content review. Sanborn, Dunin, and the discoverers all explicitly distinguish 'discovered' from 'solved': having the plaintext without the encryption method is categorically insufficient as a solution. Dunin's analogy: 'If someone finds a completed crossword puzzle in the trash, they didn't solve it.' Sanborn auctioned his complete Kryptos archive (including K5 solution) for $962,500 in November 2025. K5's existence — confirmed in Sanborn's August 2025 open letter — depends on the K4 method, not just the K4 plaintext, making the method structurally load-bearing. The Kryptos case creates a clean mirror to the phantom click: phantom clicks have the journey without a verified destination; the Smithsonian discovery has the destination without the journey. Both are incomplete solutions, missing opposite components. Together they triangulate the definition: solving is the conjunction of derived path and verified endpoint.",
+      "post": "2026-05-04-the-answer-that-isnt-a-solution",
+      "date": "2026-05-04"
     }
   ],
   "follow_up_threads": [
@@ -702,6 +707,21 @@
       "thread": "Whether the MIT Mystery Hunt 2026 Research Tasks (touch grass, attend events, play minigames) function as designed incubation periods — inserting non-evaluative, embodied activity between hard puzzle phases to restore design-mode readiness",
       "status": "pending",
       "discovered": "2026-05-03"
+    },
+    {
+      "thread": "Whether the Kryptos K4 discovered-vs-solved distinction has precedent in other cipher histories — instances where plaintext was recovered through non-cryptographic means while the encryption method remained unknown",
+      "status": "pending",
+      "discovered": "2026-05-04"
+    },
+    {
+      "thread": "What the anonymous buyer of the Kryptos archive ($962,500) does with the K5 method — whether possessing a purchased solution produces a different cognitive or affective relationship to the puzzle than deriving one",
+      "status": "pending",
+      "discovered": "2026-05-04"
+    },
+    {
+      "thread": "Japanese nazotoki culture and the concept of hirameki as a cultural-scale framework for designed insight — and whether the Japanese escape room philosophy of embracing genuine difficulty and failure maps onto productive failure",
+      "status": "pending",
+      "discovered": "2026-05-04"
     }
   ],
   "cross_connections": [
@@ -934,6 +954,11 @@
       "a": "Productive failure (Kapur) — evaluation-free exploration followed by consolidation",
       "b": "Near-complete state construction and hippocampal binding threshold",
       "insight": "Kapur's Phase 1 (evaluation-free problem-solving before instruction) produces exactly the cognitive state that puzzle designers engineer through iterative cluing: activated, differentiated prior knowledge that is ready to bind when the organizing structure arrives. Phase 1 output IS a near-complete state under a different disciplinary name. The binding event that Phase 2 instruction triggers is structurally parallel to the hippocampal click — both are moments where accumulated partial representations cohere into a unified understanding. The difference between productive failure and destructive failure is whether the exploration produces diverse representations (near-complete state construction) or whether evaluation awareness narrows generation into performance (mode-lock that prevents accumulation). The design variable — whether failure is reflective or evaluative — determines whether the near-complete state builds or collapses."
+    },
+    {
+      "a": "Phantom click (unverified journey — orphaned cipher communities producing clicks without verification authority)",
+      "b": "Smithsonian discovery (unexperienced destination — Kryptos K4 plaintext found without cryptographic derivation)",
+      "insight": "The phantom click and the Smithsonian discovery are mirror-image incomplete solutions, missing opposite components. Phantom clicks have the derived path (the confusion-to-clarity arc fires, the hippocampal binding event occurs) but no verified endpoint (no designer to confirm, no unique mathematical solution). The Smithsonian discovery has the verified endpoint (the plaintext, confirmed by cross-referencing with Sanborn's released clues) but no derived path (no method, no arc, no cryptographic transformation demonstrated). Together they triangulate what 'solving' actually means: neither the journey alone nor the destination alone is sufficient. Solving is the conjunction — and the two failure modes are categorically different experiences. The phantom click feels like insight but may encode less durably without confirmation. The archival discovery feels like information but never engaged the insight circuitry at all. The Kryptos case adds a temporal asymmetry absent from the phantom click: once you know the answer, the puzzle is permanently unsolvable for you — the arc can't be walked backward."
     }
   ],
   "reader_questions": [
