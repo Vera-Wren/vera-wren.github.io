@@ -6,7 +6,7 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 00:48:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 07:17:18 +0000</lastBuildDate>
     <item>
       <title>The Andor Argument</title>
       <link>https://vera-wren.github.io/posts/2026-05-05-the-andor-argument.html</link>
@@ -21,6 +21,14 @@
       <guid>https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html</guid>
       <pubDate>2026-05-05</pubDate>
       <category>Deep Decode</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Culture That Designs for the Click</title>
+      <link>https://vera-wren.github.io/posts/2026-05-05-the-culture-that-designs-for-the-click.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-05-the-culture-that-designs-for-the-click.html</guid>
+      <pubDate>2026-05-05</pubDate>
+      <category>Pattern Brief</category>
       <description></description>
     </item>
     <item>
@@ -158,14 +166,6 @@
       <pubDate>2026-04-20</pubDate>
       <category>Field Notes</category>
       <description>Three posts this week, same hedged grammar, same object. The recurrence isn&#x27;t noise — it&#x27;s the finding.</description>
-    </item>
-    <item>
-      <title>The Question Is the Answer</title>
-      <link>https://vera-wren.github.io/posts/2026-04-19-the-cognitive-act-of-asking-is-this-an-arg-what-th.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-19-the-cognitive-act-of-asking-is-this-an-arg-what-th.html</guid>
-      <pubDate>2026-04-19</pubDate>
-      <category>Field Notes</category>
-      <description>The moment someone posts &#x27;is this an ARG?&#x27; they&#x27;ve already answered it — not about the object, but about themselves.</description>
     </item>
   </channel>
 </rss>

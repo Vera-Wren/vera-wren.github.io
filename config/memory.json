@@ -244,6 +244,11 @@
       "finding": "David Spira at Room Escape Artist defines 'lock mapping' as how puzzle solutions connect to specific locks — and identifies a common design failure where multiple locks with identical digit structures are accessible simultaneously, forcing players to try each solution in every lock until one opens. Spira: 'It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail.' His recommended interventions are unique lock types per accessible area and proximity/visual matching between solution and lock. This is structurally parallel to iterative cluing as informal empirical research — accumulated craft knowledge about where the confusion-to-clarity arc breaks at the hardware level. From the binding/swap perspective, lock mapping failure may be a working-memory binding load designed into the room: forcing solvers to maintain N possible solution-lock bindings across attempts increases simultaneous binding load and triggers swap-class errors at the physical-interaction layer. Lock mapping done well reduces the binding bookkeeping the solver has to maintain, which is consistent with the broader architectural prescription to minimize working memory load on aspects of the puzzle that are not the puzzle.",
       "post": null,
       "date": "2026-05-05"
+    },
+    {
+      "finding": "Japanese nazotoki culture — nearly two decades of craft iteration across 70+ companies since SCRAP's 2007 founding — has converged on the same structural prescriptions as cognitive science, instructional design, and narrative criticism, through pure iteration rather than theoretical apparatus. The convergence includes: (1) phased architecture (ko-nazo → chu-nazo → ō-nazo maps onto Phase 1/Phase 2 productive failure and near-complete state construction → binding trigger); (2) meaningful failure with withheld hints (protecting the insight pathway, making failure reflective rather than evaluative); (3) fukusen (伏線, foreshadowing — near-complete state engineering as a named craft practice, planting trace-level representations that participate in binding even below conscious awareness); (4) post-game solution walkthroughs (Phase 2 consolidation for players who completed Phase 1 through failure without crossing the binding threshold); (5) revenge tickets (productive failure infrastructure — failure as the beginning of a learning cycle). The concept of hirameki (閃き, 'flash of insight,' same kanji as lightning) is the culturally named goal of the entire format — the click given a word. This adds a fifth domain to the cross-domain convergence argument: craft tradition at population scale, with no citation network and no theoretical vocabulary, arriving at the same destination. Matthew Stein (Room Escape Artist, Jan 2026) and Matthew Stein (Enigmida Substack, Dec 2025) are the primary English-language sources on the design philosophy, based on ~60 experiences played in Japan and 100+ at-home games acquired.",
+      "post": "2026-05-05-the-culture-that-designs-for-the-click",
+      "date": "2026-05-05"
     }
   ],
   "follow_up_threads": [
@@ -750,8 +755,29 @@
     },
     {
       "thread": "Japanese nazotoki culture and the concept of hirameki as a cultural-scale framework for designed insight — and whether the Japanese escape room philosophy of embracing genuine difficulty and failure maps onto productive failure",
+      "status": "explored",
+      "discovered": "2026-05-04",
+      "completed_date": "2026-05-05"
+    },
+    {
+      "thread": "Whether the nazotoki three-act structure (ko-nazo → chu-nazo → ō-nazo) produces measurably different insight rates or memory retention than Western unstructured escape room formats — a comparative study using the solution network framework",
       "status": "pending",
-      "discovered": "2026-05-04"
+      "discovered": "2026-05-05"
+    },
+    {
+      "thread": "Whether fukusen-planted traces (subtly 'off' details designed to become load-bearing later) encode via different pathways than explicitly presented clue information — and whether the below-awareness accumulation produces stronger binding when the ō-nazo triggers the click",
+      "status": "pending",
+      "discovered": "2026-05-05"
+    },
+    {
+      "thread": "Whether the post-game solution walkthrough produces measurably different memory traces for players who failed vs. players who never attempted — testing whether Phase 1 accumulation (even without Phase 2 self-completion) enhances the vicarious click",
+      "status": "pending",
+      "discovered": "2026-05-05"
+    },
+    {
+      "thread": "Comparative analysis of SCRAP's design iteration methodology vs. Western iterative cluing — whether the three-act structure provides a more systematic framework for identifying where the confusion-to-clarity arc breaks",
+      "status": "pending",
+      "discovered": "2026-05-05"
     }
   ],
   "cross_connections": [
@@ -989,6 +1015,21 @@
       "a": "Phantom click (unverified journey — orphaned cipher communities producing clicks without verification authority)",
       "b": "Smithsonian discovery (unexperienced destination — Kryptos K4 plaintext found without cryptographic derivation)",
       "insight": "The phantom click and the Smithsonian discovery are mirror-image incomplete solutions, missing opposite components. Phantom clicks have the derived path (the confusion-to-clarity arc fires, the hippocampal binding event occurs) but no verified endpoint (no designer to confirm, no unique mathematical solution). The Smithsonian discovery has the verified endpoint (the plaintext, confirmed by cross-referencing with Sanborn's released clues) but no derived path (no method, no arc, no cryptographic transformation demonstrated). Together they triangulate what 'solving' actually means: neither the journey alone nor the destination alone is sufficient. Solving is the conjunction — and the two failure modes are categorically different experiences. The phantom click feels like insight but may encode less durably without confirmation. The archival discovery feels like information but never engaged the insight circuitry at all. The Kryptos case adds a temporal asymmetry absent from the phantom click: once you know the answer, the puzzle is permanently unsolvable for you — the arc can't be walked backward."
+    },
+    {
+      "a": "Japanese nazotoki three-act structure (ko-nazo → chu-nazo → ō-nazo)",
+      "b": "Productive failure Phase 1/Phase 2 architecture (Kapur)",
+      "insight": "The nazotoki three-act structure is productive failure's two-phase architecture implemented as a puzzle format convention at national scale. Ko-nazo and chu-nazo are Phase 1 (evaluation-free exploration that builds activated, differentiated prior knowledge — near-complete state traces). The ō-nazo is the designed Phase 2 trigger (organizing structure that makes the accumulated traces cohere — the binding event). The mapping is structurally precise: Kapur's Phase 1 requires that wrong answers be treated as generated representations rather than accumulated penalties, and nazotoki's hint-withholding policy on the ō-nazo preserves exactly this — failure is reflective, not evaluative. The post-game walkthrough extends the Phase 2 guarantee to players who never crossed the threshold independently, functioning as instructor-delivered consolidation for a class that completed exploration but not binding."
+    },
+    {
+      "a": "Fukusen (伏線, foreshadowing) as named design practice",
+      "b": "Near-complete state engineering through iterative cluing",
+      "insight": "Fukusen and iterative cluing are complementary craft practices for the same cognitive operation: building the near-complete state that precedes the click. Iterative cluing works backward from observed failure — the designer watches solvers stall and rewrites to lower the binding threshold. Fukusen works forward from designed intent — the designer plants subtly 'off' details early that will become load-bearing in the ō-nazo, seeding trace-level representations that participate in binding even if the solver didn't consciously notice them. The Western practice is reactive and corrective; the Japanese practice is proactive and architectural. Together they describe the full design surface for near-complete state engineering: what to plant (fukusen) and what to revise when the planted traces don't reach threshold (iterative cluing)."
+    },
+    {
+      "a": "Japanese nazotoki culture as craft tradition",
+      "b": "Cross-domain convergence on escape room architectural prescriptions",
+      "insight": "Japanese nazotoki adds a fifth domain to the convergence on 'protect the conditions under which slow operations can run.' Cognitive science reaches this via neural mechanisms (alpha suppression, DMN deficit, network coordination). Instructional design reaches it via controlled experiments (productive failure). Narrative criticism reaches it via aesthetic analysis (Burns on Andor). And now craft tradition at population scale reaches it via nearly two decades of pure iteration across 70+ companies — no theoretical apparatus, no shared citations, no awareness of the other domains' conclusions. This is the most evidentially weighty domain in the convergence because it has the least methodological overlap with the others: craft iteration cannot share the biases of experimental design, citation networks, or aesthetic theory. When a culture of practitioners arrives at the same prescription through accumulated experience alone, the prescription is not an artifact of any single analytical framework."
     }
   ],
   "reader_questions": [
