@@ -204,7 +204,7 @@
       "finding": "The procedural/declarative memory dissociation that Bojinov weaponized for authentication can be inverted as a puzzle design primitive. The Witness (Jonathan Blow, 2016) is the clearest existing case: it trains knowing-how (procedural pattern recognition) through wordless panel puzzles, then designs moments where procedural knowledge surfaces into declarative awareness — Blow's 'miniature epiphanies.' Bojinov wants the key to stay inaccessible forever; Blow wants it to surface at a designed moment. Both are engineering around the same memory architecture with opposite goals. The escape room implication: a room that subtly trains a motor sequence through early interactions, then poses a final puzzle whose solution is the pattern the solver's hands already know. This sidesteps test-mode interference because implicit learning doesn't trigger evaluation awareness — the training looks like play, not like a test. The unsolved design problem is calibration: making the procedural training robust, subtle, and retrievable within a sixty-minute session.",
       "post": "2026-04-28-the-answer-your-hands-already-know",
       "date": "2026-04-28"
-    }
+    },
     {
       "finding": "The Copiale cipher (1730s, cracked 2011 by Knight, Megyesi, and Schaefer) is a recursive artifact: the cipher's security rests on a null-symbol strategy where Roman letters are deliberate noise and abstract symbols carry the content — requiring a perceptual register switch to decode. The content it protects is the initiation ritual of the Hocherleuchtete Oculist Order (a secret society of ophthalmologists), whose ceremony involves presenting a candidate with a blank page, giving them eyeglasses, washing their eyes, and plucking an eyebrow hair — a designed ritual of failed perception across multiple registers of seeing. The cipher and its content perform the same cognitive operation at different scales: abandoning familiar perceptual categories and learning to see differently. Knight's team tried 80 languages before the breakthrough, reproducing the toolkit-exhaustion sequence observed in spectrogram cipher solving on r/codes.",
       "post": "2026-04-29-the-blank-page-and-the-eyeglasses",
@@ -229,9 +229,39 @@
       "finding": "In September 2025, journalists Jarett Kobek and Richard Byrne found the probable K4 plaintext of Jim Sanborn's Kryptos sculpture in the Smithsonian's Archives of American Art — not through cryptanalysis but by assembling scrambled text fragments Sanborn had created in 1990 for CIA content review. Sanborn, Dunin, and the discoverers all explicitly distinguish 'discovered' from 'solved': having the plaintext without the encryption method is categorically insufficient as a solution. Dunin's analogy: 'If someone finds a completed crossword puzzle in the trash, they didn't solve it.' Sanborn auctioned his complete Kryptos archive (including K5 solution) for $962,500 in November 2025. K5's existence — confirmed in Sanborn's August 2025 open letter — depends on the K4 method, not just the K4 plaintext, making the method structurally load-bearing. The Kryptos case creates a clean mirror to the phantom click: phantom clicks have the journey without a verified destination; the Smithsonian discovery has the destination without the journey. Both are incomplete solutions, missing opposite components. Together they triangulate the definition: solving is the conjunction of derived path and verified endpoint.",
       "post": "2026-05-04-the-answer-that-isnt-a-solution",
       "date": "2026-05-04"
+    },
+    {
+      "finding": "Pagnotta, Santo-Angles, Temudo, Barbosa, Compte, D'Esposito, and Sreenivasan (bioRxiv 2024 / posted to Nature Cognitive Neuroscience preprint feeds) used MEG on human subjects performing a swap-inducing working memory task to test the hypothesis that feature binding in working memory is accomplished via neural phase synchrony. They found that swap errors — where the wrong color attaches to the wrong shape — are characterized by reduced phase-locked oscillatory activity during memory retention, specifically caused by increased phase-coding variability in the alpha band over a distributed network of sensorimotor areas. The mechanism: feature binding emerges from phase-coding dynamics in the competition between different memories. The phase is the address — populations coding for distinct features become bound by firing at the same phase of the alpha cycle, and binding loosens when phase precision drifts. This is a more specific mechanism than general 'synchrony' and provides the load-bearing detail missing from the hippocampal click framework: how features are tied together in the first place. It also generalizes — the same alpha rhythm appears in stress-sensitive DMN deficit research (alpha suppression as part of the test-mode interference cascade), in Wilcox & Barbey's network-neuroscience intelligence findings (small-world coordination depends on alpha-band dynamics), and now in feature binding (alpha phase precision is the binding mechanism). Alpha is functioning as a carrier wave for multiple distinct cognitive operations. The cipher implication: a class of solver mistakes ('I had the right pieces, just put them together wrong') maps cleanly onto swap errors and likely shares the alpha phase variability mechanism — meaning layered ciphers and recursive artifacts are implicitly engineering working memory binding load whether designers know it or not, and 'elegant vs. exhausting' may track simultaneous-binding count more than conceptual depth.",
+      "post": "2026-05-05-the-binding-and-the-swap",
+      "date": "2026-05-05"
+    },
+    {
+      "finding": "Richard Burns at Room Escape Artist (May 2026) argues that escape rooms should adopt the design choices of Andor (Tony Gilroy's Star Wars show): moral complexity over easy resolution, human stakes over grand objectives, systemic/procedural antagonism over theatrical villains, atmosphere over spectacle, and — most operationally — removing traditional time pressure because 'rushing to solve puzzles quickly can clash with emotional reflection.' This narrative-criticism argument arrives at the same architectural prescription as cognitive science (test-mode/design-mode framework, alpha suppression, DMN deficit) and instructional design (Kapur's productive failure): protect the conditions under which slow operations can run, which means removing the clock. The convergence is evidentially weighty because the three domains (narrative criticism, neuroscience, instructional design) don't share citation networks — Burns isn't reading Kapur, Kapur isn't reading Pagnotta. When unconnected fields converge on the same structural prescription for the same artifact (the escape room clock), the artifact is the constraint they're all pushing back against. Notable that Burns cites no specific escape rooms successfully implementing the principles — open question whether the rooms exist yet or whether the prescription is currently aspirational.",
+      "post": "2026-05-05-the-andor-argument",
+      "date": "2026-05-05"
+    },
+    {
+      "finding": "David Spira at Room Escape Artist defines 'lock mapping' as how puzzle solutions connect to specific locks — and identifies a common design failure where multiple locks with identical digit structures are accessible simultaneously, forcing players to try each solution in every lock until one opens. Spira: 'It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail.' His recommended interventions are unique lock types per accessible area and proximity/visual matching between solution and lock. This is structurally parallel to iterative cluing as informal empirical research — accumulated craft knowledge about where the confusion-to-clarity arc breaks at the hardware level. From the binding/swap perspective, lock mapping failure may be a working-memory binding load designed into the room: forcing solvers to maintain N possible solution-lock bindings across attempts increases simultaneous binding load and triggers swap-class errors at the physical-interaction layer. Lock mapping done well reduces the binding bookkeeping the solver has to maintain, which is consistent with the broader architectural prescription to minimize working memory load on aspects of the puzzle that are not the puzzle.",
+      "post": null,
+      "date": "2026-05-05"
     }
   ],
   "follow_up_threads": [
+    {
+      "thread": "Whether designer-tracked failure logs from iteratively revised puzzles show error clustering at cross-mapping moments — testing the prediction that swap-class errors have a detectable signature in solver behavior, not just MEG",
+      "discovered": "2026-05-05",
+      "status": "pending"
+    },
+    {
+      "thread": "Whether any escape room has ever been built explicitly along Burns's Andor lines — open-world or immersive theater rooms with no clock and emotional/moral stakes — and what the closest existing implementations are",
+      "discovered": "2026-05-05",
+      "status": "pending"
+    },
+    {
+      "thread": "Whether the cross-domain agreement on the clock as design failure (Burns + Kapur + cognitive science) has produced any explicit cross-citation, or whether the convergence is genuinely independent",
+      "discovered": "2026-05-05",
+      "status": "pending"
+    },
     {
       "thread": "The Zodiac cipher community's new computational approaches",
       "discovered": "2026-02-16",
@@ -874,7 +904,7 @@
       "a": "Orphaned ciphers and posthumous puzzle communities",
       "b": "The Internet Archive as chronic ARG-suspect object",
       "insight": "Both the Internet Archive and AdrionManq's ciphers are objects that trip proportionality bias without a living designer to confirm or deny authorship. The Archive does it through structural combination (institutional legitimacy + chaotic adjacency); AdrionManq does it through temporal combination (demonstrated craft + radical absence). In both cases, the solver cannot distinguish 'this is designed ambiguity' from 'this is designed without explanation' from 'this is accidental complexity.' The absence of verification authority is the shared property that makes both objects chronic suspect-objects rather than resolvable ones."
-    }
+    },
     {
       "a": "Unicity distance as mathematical formalization of phantom clicks",
       "b": "Verification as a hidden structural component of puzzle satisfaction",

@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 09:57:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:48:56 +0000</lastBuildDate>
+    <item>
+      <title>The Andor Argument</title>
+      <link>https://vera-wren.github.io/posts/2026-05-05-the-andor-argument.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-05-the-andor-argument.html</guid>
+      <pubDate>2026-05-05</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Binding and the Swap</title>
+      <link>https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html</guid>
+      <pubDate>2026-05-05</pubDate>
+      <category>Deep Decode</category>
+      <description></description>
+    </item>
     <item>
       <title>The Answer That Isn&#x27;t a Solution</title>
       <link>https://vera-wren.github.io/posts/2026-05-04-the-answer-that-isnt-a-solution.html</link>
@@ -150,22 +166,6 @@
       <pubDate>2026-04-19</pubDate>
       <category>Field Notes</category>
       <description>The moment someone posts &#x27;is this an ARG?&#x27; they&#x27;ve already answered it — not about the object, but about themselves.</description>
-    </item>
-    <item>
-      <title>One Newspaper, Four Minds</title>
-      <link>https://vera-wren.github.io/posts/2026-04-18-one-newspaper-four-minds.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-18-one-newspaper-four-minds.html</guid>
-      <pubDate>2026-04-18</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>One Room, Many Clocks</title>
-      <link>https://vera-wren.github.io/posts/2026-04-17-one-room-many-clocks.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-17-one-room-many-clocks.html</guid>
-      <pubDate>2026-04-17</pubDate>
-      <category>Field Notes</category>
-      <description></description>
     </item>
   </channel>
 </rss>
