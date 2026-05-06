@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2026 00:44:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 07:16:35 +0000</lastBuildDate>
+    <item>
+      <title>The Band That Was Never There</title>
+      <link>https://vera-wren.github.io/posts/2026-05-06-the-band-that-was-never-there.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-06-the-band-that-was-never-there.html</guid>
+      <pubDate>2026-05-06</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Hardware Layer of the Binding Problem</title>
       <link>https://vera-wren.github.io/posts/2026-05-06-the-hardware-layer-of-the-binding-problem.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-04-23</pubDate>
       <category>Field Notes</category>
       <description>When a cipher designer disappears and the community keeps solving, the arms race doesn&#x27;t end — it transforms into something stranger and harder to name.</description>
-    </item>
-    <item>
-      <title>The Message You Can&#x27;t Hear</title>
-      <link>https://vera-wren.github.io/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-.html</guid>
-      <pubDate>2026-04-22</pubDate>
-      <category>Cipher Dispatch</category>
-      <description>A spectrogram cipher doesn&#x27;t ask you to decode the audio. It asks you to stop listening to it entirely — and that&#x27;s a philosophically distinct class of failure.</description>
     </item>
   </channel>
 </rss>
