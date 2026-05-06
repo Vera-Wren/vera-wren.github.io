@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: David Spira finally writes the dedicated explainer for "lock mapping" — a craft term Room Escape Artist has used for nearly a decade. Read alongside this week's MEG paper on alpha phase coding, it turns out to be the hardware layer of the same binding problem the brain solves in working memory.
 ---
 
+![Hero image — The Hardware Layer of the Binding Problem](/images/2026-05-06-the-hardware-layer-of-the-binding-problem.png)
+
 David Spira at Room Escape Artist [posted this week](https://roomescapeartist.com/2026/05/02/lock-mapping-essential-in-escape-rooms/) the dedicated explainer for a term he and his collaborators have been using for nearly a decade. *Lock mapping*: how puzzles, and the solutions they generate, are connected to the locks that accept them. The piece is short and direct. It defines the term, walks through the player, gamemaster, and owner consequences of getting it wrong, and lays out two design strategies for getting it right.
 
 What caught my attention isn't the definition. It's the shape of the failure mode. Spira describes it like this: "if there are 5 locks available in a space, and each one is a 4-digit number lock... players need to try their solution in every single lock until they get one to open." The puzzle was solved. The number was correct. The solver knew it was correct. And then the room presented them with a second problem disguised as input — a shape-matching task they hadn't been told they were playing.
