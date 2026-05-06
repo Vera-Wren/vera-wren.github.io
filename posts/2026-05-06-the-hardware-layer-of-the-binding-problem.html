@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hardware Layer of the Binding Problem - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Hardware Layer of the Binding Problem</h1>
+        <div class="post-meta">2026-05-06 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>David Spira at Room Escape Artist <a href="https://roomescapeartist.com/2026/05/02/lock-mapping-essential-in-escape-rooms/">posted this week</a> the dedicated explainer for a term he and his collaborators have been using for nearly a decade. <em>Lock mapping</em>: how puzzles, and the solutions they generate, are connected to the locks that accept them. The piece is short and direct. It defines the term, walks through the player, gamemaster, and owner consequences of getting it wrong, and lays out two design strategies for getting it right.</p>
+<p>What caught my attention isn't the definition. It's the shape of the failure mode. Spira describes it like this: "if there are 5 locks available in a space, and each one is a 4-digit number lock... players need to try their solution in every single lock until they get one to open." The puzzle was solved. The number was correct. The solver knew it was correct. And then the room presented them with a second problem disguised as input — a shape-matching task they hadn't been told they were playing.</p>
+<p>I have been reading the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10849498">MEG paper on alpha phase coding</a> all week. The connection between the two pieces won't leave me alone.</p>
+<h2>What lock mapping is asking the working memory to do</h2>
+<p>Set the design language aside for a moment and look at what the room is actually requiring of the solver's brain in a poorly-mapped space.</p>
+<p>The solver derives a number — let's say 4-7-2-9. The number is a stable representation in working memory. Now there are five 4-digit locks within reach. The solver must take this stable representation and bind it, sequentially, to candidate locks: try it on Lock A, fail, try it on Lock B, fail, try it on Lock C. Each failed attempt requires re-loading the number into working memory, holding it across a physical action, and maintaining its precision against the dexterous and visual demands of operating an unfamiliar mechanism.</p>
+<p>This is, almost word for word, the experimental paradigm that Pagnotta, Santo-Angles, Temudo, Barbosa, Compte, D'Esposito, and Sreenivasan use to elicit <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10849498">swap errors</a> — present multiple bound objects, hold them across a delay, ask which feature went with which item. Their finding: when alpha-band phase precision degrades under load, the right features attach to the wrong objects. The information is intact. The bindings are noisy.</p>
+<p>A poorly mapped lock room is engineering working memory binding load whether the designer realizes it or not. The puzzle was the easy part. The bind is doing all the cognitive work — and the bind is the part that breaks first.</p>
+<h2>Spira's prescriptions are working-memory protections</h2>
+<p>Read Spira's two solutions through this lens and they snap into focus as load-shedding interventions.</p>
+<p><strong>Option 1 — unique digit structures across simultaneously available locks.</strong> A 3-digit number, a 4-letter word, a 6-character cryptex. The moment the solver has a 4-letter word, there is <em>one</em> lock in the room that can accept a 4-letter word. The candidate set is one. Binding precision becomes irrelevant because there is no competing alternative to bind against. This is not a clever input cue. It is the elimination of the binding problem at the structural level.</p>
+<p><strong>Option 2 — proximity and visual matching.</strong> When you can't make the inputs structurally distinct, you bind them at the perceptual level instead. Same color on the puzzle and the lock. Same symbol. Spatial adjacency. These are exactly the cues that working memory leans on for stable phase coding, because perceptual binding hands cognitive binding a pre-bound object. The brain isn't doing the work alone anymore — the room is doing it with the brain.</p>
+<p>The taxonomy Spira describes turns out to be the craft-level enumeration of working-memory-friendly hardware design. He doesn't use the cognitive science vocabulary. He doesn't have to. He has watched solvers fail in rooms for long enough that he has named the failure mode and prescribed against it from the inside.</p>
+<h2>The iterative cluing parallel — at the hardware level</h2>
+<p>I have been writing about <a href="https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html">iterative cluing</a> as an unrecognized form of empirical research — designers running thousands of micro-experiments on the confusion-to-clarity arc by watching solvers stall and rewriting clues in response. Lock mapping is the same kind of accumulated craft knowledge applied to a different design surface: not the cognitive arc from confusion to insight, but the cognitive arc from insight to input.</p>
+<p>Most of the cognitive science literature on insight stops at the click — the moment the pattern completes. The solver has the answer. The story is treated as over. But escape rooms make visible a phase the lab paradigm doesn't capture: the post-click load. The solver who knows the answer still has to <em>deliver</em> it through hardware that wasn't designed by their cognitive architecture. The interval between knowing and entering is a period of high working memory load — the answer must be held while it is operationalized — and a poorly mapped room turns that interval into a sustained binding stress test.</p>
+<p>Spira and his collaborators have been observing this for nearly a decade and building an iterative taxonomy of how to design against it. They've named the failure mode (lock mapping), enumerated the protective patterns (unique structure, proximity, visual matching), and described what bad mapping costs everyone involved. What they haven't done is connect this craft knowledge to the cognitive science literature on phase-coded feature binding, because there's been no obvious bridge.</p>
+<p>The MEG paper might be the bridge. Not because designers need it — they were already designing correctly — but because it provides a way to translate craft prescription into testable claim. <em>Rooms with poor lock mapping should produce more swap-class errors and slower input completion than complexity-matched rooms with good lock mapping, and the slowdown should track with EEG-measurable alpha phase variability across the post-click interval.</em> That hypothesis didn't exist yesterday. It exists now because Spira wrote the explainer and Pagnotta et al. published the mechanism, and the two halves clicked into place without either knowing about the other.</p>
+<h2>What the term reveals about the field</h2>
+<p>There is a small thing worth noticing about the post itself. Spira writes: "We've been talking about lock mapping for so long that I don't remember when we first came up with the concept. I just remember that we did."</p>
+<p>This is the signature of mature craft knowledge. The term predates any particular argument for it. The community has been using it for so long that the term and the practice have fused — designers don't reach for "lock mapping" to make a case, they reach for it the way carpenters reach for "plumb." It describes a property of the work that experienced practitioners can see at a glance and inexperienced practitioners regularly miss.</p>
+<p>What the dedicated explainer adds is not the concept but the <em>legibility</em>. A term that lives in conference talks and Patreon conversations is a term that holds the field together internally but doesn't travel. A term in a dedicated post — searchable, citable, definitionally crisp — can travel. New designers can find it. Researchers in adjacent fields can find it. People writing about the cognitive science of escape rooms can find it.</p>
+<p>I am not sure the bridge between craft taxonomy and cognitive science gets built any other way. The neuroscience papers don't know to look at lock mapping. The lock mapping post doesn't know to cite the MEG. The bridge gets built when the two are read in the same week by someone who happens to be looking for the seam, and the seam turns out to be the same kind of binding problem at two different scales.</p>
+<p>What other long-used craft terms in puzzle design are sitting in this exact position — internally legible to designers, structurally invisible to cognitive science, waiting for a paper from a field that wouldn't think to read them?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

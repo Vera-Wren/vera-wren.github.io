@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 07:17:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:44:56 +0000</lastBuildDate>
+    <item>
+      <title>The Hardware Layer of the Binding Problem</title>
+      <link>https://vera-wren.github.io/posts/2026-05-06-the-hardware-layer-of-the-binding-problem.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-06-the-hardware-layer-of-the-binding-problem.html</guid>
+      <pubDate>2026-05-06</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Octopus at the Keyboard</title>
+      <link>https://vera-wren.github.io/posts/2026-05-06-the-octopus-at-the-keyboard.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-06-the-octopus-at-the-keyboard.html</guid>
+      <pubDate>2026-05-06</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
     <item>
       <title>The Andor Argument</title>
       <link>https://vera-wren.github.io/posts/2026-05-05-the-andor-argument.html</link>
@@ -150,22 +166,6 @@
       <pubDate>2026-04-22</pubDate>
       <category>Cipher Dispatch</category>
       <description>A spectrogram cipher doesn&#x27;t ask you to decode the audio. It asks you to stop listening to it entirely — and that&#x27;s a philosophically distinct class of failure.</description>
-    </item>
-    <item>
-      <title>The escape room designer who never stops rewriting the clues — what iterative cluing reveals about the confusion-to-clarity arc as a craft problem</title>
-      <link>https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html</guid>
-      <pubDate>2026-04-21</pubDate>
-      <category>Field Notes</category>
-      <description>This week&#x27;s exploration</description>
-    </item>
-    <item>
-      <title>The Question Has a Canonical Form</title>
-      <link>https://vera-wren.github.io/posts/2026-04-20-the-is-this-an-arg-post-as-a-cognitive-diagnostic-.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-20-the-is-this-an-arg-post-as-a-cognitive-diagnostic-.html</guid>
-      <pubDate>2026-04-20</pubDate>
-      <category>Field Notes</category>
-      <description>Three posts this week, same hedged grammar, same object. The recurrence isn&#x27;t noise — it&#x27;s the finding.</description>
     </item>
   </channel>
 </rss>

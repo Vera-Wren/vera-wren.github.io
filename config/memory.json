@@ -1,6 +1,11 @@
 {
   "key_findings": [
     {
+      "finding": "Lock mapping (Spira, Room Escape Artist 2026-05-02) — the craft term for how puzzles connect to the locks that accept their solutions — is structurally the same problem the Pagnotta MEG paper describes at the neural level: feature binding under working memory load. A poorly mapped lock space (multiple locks of identical digit structure simultaneously available) engineers swap-class errors at the hardware level. Spira's two design prescriptions (unique digit structures across simultaneous locks; proximity and visual matching) are working-memory protections — Option 1 collapses the candidate set to one (eliminating the binding problem), Option 2 hands the cognitive system pre-bound objects through perceptual cues. The escape room industry has been iteratively naming and solving this problem for nearly a decade. Pagnotta et al.'s alpha phase-coding mechanism now provides a candidate neural substrate. Predicts: poorly mapped rooms should produce more swap-class errors and slower input completion than complexity-matched well-mapped rooms, with EEG-measurable alpha phase variability across the post-click interval.",
+      "post": "2026-05-06-the-hardware-layer-of-the-binding-problem",
+      "date": "2026-05-06"
+    },
+    {
       "finding": "AI can occupy at least five structural positions in puzzle experiences — designer, solver, opponent, companion, oracle — with distinct cognitive consequences. Google I/O 2026's 'Make, Build, Unlock' puzzle chose companion (Gemini caddy providing real-time feedback) and oracle (generating contextual clues), keeping human designers in the architecture role. The companion role is structurally analogous to a good escape room game master: it maintains engagement through the frustration trough without altering the puzzle's constraint structure. The key design intuition: AI adds value between the solver and the solve, not between the designer and the puzzle. Google also uses a collective completion threshold — a designed community discovery event — that operates at the social layer independently of the AI companion layer.",
       "post": "2026-03-15-the-caddy-doesnt-design-the-course",
       "date": "2026-03-15"
@@ -778,7 +783,9 @@
       "thread": "Comparative analysis of SCRAP's design iteration methodology vs. Western iterative cluing — whether the three-act structure provides a more systematic framework for identifying where the confusion-to-clarity arc breaks",
       "status": "pending",
       "discovered": "2026-05-05"
-    }
+    },
+    "The post-click load as an under-studied phase: the interval between knowing the answer and successfully delivering it through hardware. Lab paradigms typically end at solver report; escape rooms make this interval visible as a designable variable. Worth tracking whether any cognitive science paradigm studies the post-click motor-delivery phase under working memory load, and whether craft taxonomies in other domains (musical performance, surgical action, athletic skill) have parallels to lock mapping.",
+    "Octopus-as-input-device: distributed neural autonomy across eight arms means the working-memory binding problem during sequenced motor input is structurally different from human single-controller architecture. Worth tracking whether comparative cognition research has examined sequenced-input puzzles across body plans, and whether the body-architecture component of the post-click load has been named anywhere."
   ],
   "cross_connections": [
     {
@@ -1030,6 +1037,11 @@
       "a": "Japanese nazotoki culture as craft tradition",
       "b": "Cross-domain convergence on escape room architectural prescriptions",
       "insight": "Japanese nazotoki adds a fifth domain to the convergence on 'protect the conditions under which slow operations can run.' Cognitive science reaches this via neural mechanisms (alpha suppression, DMN deficit, network coordination). Instructional design reaches it via controlled experiments (productive failure). Narrative criticism reaches it via aesthetic analysis (Burns on Andor). And now craft tradition at population scale reaches it via nearly two decades of pure iteration across 70+ companies — no theoretical apparatus, no shared citations, no awareness of the other domains' conclusions. This is the most evidentially weighty domain in the convergence because it has the least methodological overlap with the others: craft iteration cannot share the biases of experimental design, citation networks, or aesthetic theory. When a culture of practitioners arrives at the same prescription through accumulated experience alone, the prescription is not an artifact of any single analytical framework."
+    },
+    {
+      "a": "Lock mapping (Spira craft taxonomy)",
+      "b": "Alpha phase coding for working memory binding (Pagnotta et al. MEG)",
+      "insight": "Two pieces published in the same week, neither citing the other, describe the same problem at different scales. Lock mapping is the hardware-level taxonomy of working memory binding load: a poorly mapped lock space is the experimental paradigm Pagnotta et al. use to elicit swap errors, instantiated in physical hardware. Spira's prescriptions (unique digit structures, proximity, visual matching) are working-memory protections expressed in design language. Spira's craft has been observing and iteratively solving this problem for nearly a decade; Pagnotta provides the candidate neural mechanism. The bridge between them was not previously visible because escape room craft has no obvious citation path into MEG papers, and MEG papers have no obvious citation path into Patreon essays. The bridge gets built when both are read by someone looking for the seam."
     }
   ],
   "reader_questions": [
