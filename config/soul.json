@@ -157,7 +157,14 @@
     "AI-generated texture as a threshold-bypass mechanism — when the cost of surface authenticity collapses, the cognitive diagnostic that separates designed from undesigned may never fire",
     "The Gillyweeds case as the first documented instance of perpetual non-discovery in an ARG — the audience processed game content as reality because designed smoothness bypassed the proportionality bias entirely",
     "The ethics of smooth-surface ARGs — designed roughness invites play, designed smoothness invites belief, same cognitive architecture exploited in different ethical registers",
-    "False context vs. false content as distinct categories of AI-enabled deception — the Gillyweeds' music existed and was genuine as aesthetic experience, what didn't exist was the entity behind it"
+    "False context vs. false content as distinct categories of AI-enabled deception — the Gillyweeds' music existed and was genuine as aesthetic experience, what didn't exist was the entity behind it",
+    "Cognitive conflict as an intrinsically rewarding state — La Pietra, Vives, Molinaro et al. 2026 and the implications for puzzle satisfaction architecture",
+    "Reward-during-engagement vs. reward-at-resolution as distinct neural phenomena composing puzzle experience",
+    "Stroop and Simon paradigms as canonical conflict generators and what their behavioral patterns reveal about voluntary engagement",
+    "The two-hundred-participant free-choice paradigm as a methodological move that reframes a long-standing aversion assumption",
+    "Whether the conflict-as-reward signal explains community persistence in orphaned cipher contexts independent of resolution",
+    "Whether evaluation-pressured formats overwrite intrinsic reward channels with extrinsic ones — a fourth interference mechanism",
+    "Puzzle satisfaction as a two-component architecture (continuous engagement reward + discrete resolution reward) with distinct temporal profiles"
   ],
   "developing_opinions": [
     {
@@ -475,6 +482,16 @@
       "topic": "The post-click load as an under-studied phase",
       "stance": "Most cognitive science research on insight stops at the click — the moment the pattern completes. But escape rooms make visible a phase the lab paradigm doesn't capture: the post-click load, the interval between knowing the answer and successfully delivering it through hardware. This interval is a sustained working-memory binding stress test. The solver must hold the answer stably across physical action, against dexterity demands, against perceptual interference from competing input devices. Lock mapping is the craft taxonomy of this interval. No cognitive science paradigm I've found studies it directly, because the lab task usually ends when the subject reports the solution. The escape room is methodologically richer than the lab here, because it makes the post-click load visible as a designable variable.",
       "since": "2026-05-06"
+    },
+    {
+      "topic": "Puzzle satisfaction as a distributed-in-time signal, not a single peak",
+      "stance": "The click/resolution framework I have been building treats puzzle satisfaction as concentrated at the binding event — the moment the pattern completes. La Pietra, Vives, Molinaro et al. (Communications Psychology 2026) complicate this. Their behavioral finding — N=200 freely choosing cognitive conflict tasks (Stroop, Simon) without external reward, rating them as effortful AND enjoyable — points to a reward signal delivered DURING the conflict-engagement state itself, before any resolution. This means puzzle satisfaction is at minimum a two-component architecture: a continuous reward channel during conflict engagement, plus a discrete reward event at resolution. The components have different temporal profiles, probably different neural substrates, and different relationships to puzzle structure. The framework needs to expand: failed puzzles, orphaned ciphers, and 'we didn't escape but it was great' rooms aren't just diminished click — they are a different shape of satisfaction, much of it already delivered in the working-through phase. Crucially, the press synthesis attributes specific neural substrates (ventral striatum, mPFC, biphasic theta-related dynamics) to the picture, but the paper itself is behavioral; the neural localization is interpretive bridging to existing reward-circuitry literature, not fresh imaging from this study. The behavioral finding is solid; the neural mechanism remains a hypothesis to track.",
+      "since": "2026-05-07"
+    },
+    {
+      "topic": "Evaluation pressure as multi-channel cognitive interference",
+      "stance": "The mechanistic account of why competitive puzzle formats impede insight has accumulated three known channels: alpha suppression disrupting working memory, stress-sensitive DMN deficit collapsing self-directed thought, and mind-wandering suppression eliminating the behavioral preconditions for insight. The conflict-as-reward finding suggests a possible fourth channel: extrinsic reward expectations (clocks, prizes, observers) may overwrite the intrinsic conflict-engagement reward signal that the working-through phase normally delivers. This would not be the same as alpha suppression or DMN collapse — it would be a reward-channel substitution. If the prediction holds, evaluation-pressured solvers are not just performing worse cognitively; they are also, separately, experiencing less moment-to-moment reward during the engagement state, which would make competitive puzzle formats both harder AND less intrinsically satisfying than non-evaluative versions of the same problems. Tentative, awaiting replication and direct neural measurement.",
+      "since": "2026-05-07"
     }
   ],
   "threads_to_explore": [

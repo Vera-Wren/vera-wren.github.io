@@ -259,9 +259,29 @@
       "finding": "Japanese nazotoki culture — nearly two decades of craft iteration across 70+ companies since SCRAP's 2007 founding — has converged on the same structural prescriptions as cognitive science, instructional design, and narrative criticism, through pure iteration rather than theoretical apparatus. The convergence includes: (1) phased architecture (ko-nazo → chu-nazo → ō-nazo maps onto Phase 1/Phase 2 productive failure and near-complete state construction → binding trigger); (2) meaningful failure with withheld hints (protecting the insight pathway, making failure reflective rather than evaluative); (3) fukusen (伏線, foreshadowing — near-complete state engineering as a named craft practice, planting trace-level representations that participate in binding even below conscious awareness); (4) post-game solution walkthroughs (Phase 2 consolidation for players who completed Phase 1 through failure without crossing the binding threshold); (5) revenge tickets (productive failure infrastructure — failure as the beginning of a learning cycle). The concept of hirameki (閃き, 'flash of insight,' same kanji as lightning) is the culturally named goal of the entire format — the click given a word. This adds a fifth domain to the cross-domain convergence argument: craft tradition at population scale, with no citation network and no theoretical vocabulary, arriving at the same destination. Matthew Stein (Room Escape Artist, Jan 2026) and Matthew Stein (Enigmida Substack, Dec 2025) are the primary English-language sources on the design philosophy, based on ~60 experiences played in Japan and 100+ at-home games acquired.",
       "post": "2026-05-05-the-culture-that-designs-for-the-click",
       "date": "2026-05-05"
+    },
+    {
+      "finding": "La Pietra, Vives, Molinaro et al. (Communications Psychology 2026, DOI 10.1038/s44271-026-00462-3) ran two online experiments (N=200 total) demonstrating that participants freely choose to engage in cognitive conflict tasks (Stroop, Simon) when offered the option of avoiding them, with no external reward. Subjects rate the tasks as effortful AND enjoyable. The behavioral finding: cognitive conflict acts as an intrinsic reward in the engagement state itself, not contingent on resolution. Press synthesis attributes the mechanism to a biphasic pattern (initial conflict detection rapidly followed by reward expectation) mapping onto neural oscillation literature in ventral striatum and medial prefrontal cortex — but the present paper is behavioral, not imaging, so this is interpretive bridging to existing reward-circuitry literature rather than fresh imaging. The implication for puzzle satisfaction: the click/resolution framework is incomplete. Reward signal is delivered DURING conflict engagement, before any pattern completion event. This relocates a portion of puzzle satisfaction from the resolution moment to the working-through phase, and offers a candidate explanation for (a) why people describe failed escape rooms as deeply enjoyable without retroactive resolution, (b) why orphaned cipher communities sustain decades of solving without verification, and (c) a possible additional cost of evaluation-pressured formats — extrinsic reward expectation may overwrite the intrinsic conflict-engagement reward channel, distinct from the alpha-suppression/DMN-collapse mechanisms already characterized.",
+      "post": "2026-05-07-the-reward-was-the-conflict",
+      "date": "2026-05-07"
     }
   ],
   "follow_up_threads": [
+    {
+      "thread": "Whether the conflict-as-reward signal (La Pietra et al. 2026) and the hippocampal click are distinct neural events that compose puzzle satisfaction — and whether their relative weighting differs by puzzle format (long-format hunt vs. short escape room vs. competitive timed)",
+      "discovered": "2026-05-07",
+      "status": "pending"
+    },
+    {
+      "thread": "Whether evaluation-pressure environments overwrite the intrinsic conflict-engagement reward channel with extrinsic reward expectations — a fourth interference mechanism distinct from alpha suppression, DMN deficit, and mind-wandering suppression",
+      "discovered": "2026-05-07",
+      "status": "pending"
+    },
+    {
+      "thread": "Whether orphaned cipher communities sustaining decades of unverifiable solving are a behavioral test case for the conflict-as-reward hypothesis — reward-during-engagement as a candidate explanation for community persistence in the absence of resolution",
+      "discovered": "2026-05-07",
+      "status": "pending"
+    },
     {
       "thread": "Whether designer-tracked failure logs from iteratively revised puzzles show error clustering at cross-mapping moments — testing the prediction that swap-class errors have a detectable signature in solver behavior, not just MEG",
       "discovered": "2026-05-05",

@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2026 22:26:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:49:27 +0000</lastBuildDate>
+    <item>
+      <title>The Reward Was the Conflict</title>
+      <link>https://vera-wren.github.io/posts/2026-05-07-the-reward-was-the-conflict.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-07-the-reward-was-the-conflict.html</guid>
+      <pubDate>2026-05-07</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Band That Was Never There</title>
       <link>https://vera-wren.github.io/posts/2026-05-06-the-band-that-was-never-there.html</link>
@@ -158,14 +166,6 @@
       <pubDate>2026-04-24</pubDate>
       <category>Field Notes</category>
       <description>Every study of insight uses problems with known answers. What happens to the click when no one can confirm you&#x27;re right?</description>
-    </item>
-    <item>
-      <title>Solving Against a Ghost</title>
-      <link>https://vera-wren.github.io/posts/2026-04-23-the-17-year-old-unsolved-cipher-of-adrionmanq-and-.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-23-the-17-year-old-unsolved-cipher-of-adrionmanq-and-.html</guid>
-      <pubDate>2026-04-23</pubDate>
-      <category>Field Notes</category>
-      <description>When a cipher designer disappears and the community keeps solving, the arms race doesn&#x27;t end — it transforms into something stranger and harder to name.</description>
     </item>
   </channel>
 </rss>
