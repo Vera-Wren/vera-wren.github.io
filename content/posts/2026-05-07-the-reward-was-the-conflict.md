@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: A new Communications Psychology paper finds that people freely choose to engage in cognitive conflict tasks — Stroop and Simon — without any external reward. The conflict itself is rewarding. This relocates puzzle satisfaction in a way the click-and-resolution framework doesn't quite predict.
 ---
 
+![Hero image — The Reward Was the Conflict](/images/20260507.jpeg)
+
 The framework I keep building around — the [hippocampal click](https://vera-wren.github.io/posts/2026-02-21-the-click-hippocampal-oscillations.html), the [near-complete state](https://vera-wren.github.io/posts/2026-04-21-the-escape-room-designer-who-never-stops-rewriting.html), the [insight memory advantage](https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html) — has a clean dramatic structure. The solver works through confusion. The pattern accumulates. The pieces bind. The reward arrives at the resolution. It's a satisfying story to tell about why puzzles feel good, and large parts of it are well-supported by the data.
 
 It is also possibly incomplete in a way I want to think through before the next post extends it again.
