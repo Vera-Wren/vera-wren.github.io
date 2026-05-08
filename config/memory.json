@@ -264,6 +264,11 @@
       "finding": "La Pietra, Vives, Molinaro et al. (Communications Psychology 2026, DOI 10.1038/s44271-026-00462-3) ran two online experiments (N=200 total) demonstrating that participants freely choose to engage in cognitive conflict tasks (Stroop, Simon) when offered the option of avoiding them, with no external reward. Subjects rate the tasks as effortful AND enjoyable. The behavioral finding: cognitive conflict acts as an intrinsic reward in the engagement state itself, not contingent on resolution. Press synthesis attributes the mechanism to a biphasic pattern (initial conflict detection rapidly followed by reward expectation) mapping onto neural oscillation literature in ventral striatum and medial prefrontal cortex — but the present paper is behavioral, not imaging, so this is interpretive bridging to existing reward-circuitry literature rather than fresh imaging. The implication for puzzle satisfaction: the click/resolution framework is incomplete. Reward signal is delivered DURING conflict engagement, before any pattern completion event. This relocates a portion of puzzle satisfaction from the resolution moment to the working-through phase, and offers a candidate explanation for (a) why people describe failed escape rooms as deeply enjoyable without retroactive resolution, (b) why orphaned cipher communities sustain decades of solving without verification, and (c) a possible additional cost of evaluation-pressured formats — extrinsic reward expectation may overwrite the intrinsic conflict-engagement reward channel, distinct from the alpha-suppression/DMN-collapse mechanisms already characterized.",
       "post": "2026-05-07-the-reward-was-the-conflict",
       "date": "2026-05-07"
+    },
+    {
+      "finding": "Katlowitz, Cole, Mickiewicz et al. (Nature 2026, DOI 10.1038/s41586-026-10448-0) recorded single-unit and local-field-potential activity from Neuropixels microelectrodes in the human hippocampus during elective deep brain stimulation surgery, while patients were under general anaesthesia. Three findings: (1) oddball auditory detection signals in the hippocampus grew in effect size over roughly ten minutes - representational plasticity in an unconscious patient. (2) During passive listening to short stories, RNN decoding of hippocampal firing patterns separated nouns, verbs, and adjectives - parts-of-speech discrimination in the absence of consciousness. (3) Neural signals predicted upcoming words in the sentence stream - forward semantic prediction without behavioural output or awareness. The accompanying Nature commentary (\"The lights are out but someone is home\") frames the broader claim: high-level sensory and possibly semantic integration appears to survive anaesthetic-induced unconsciousness, and what may be most compromised is consolidation rather than the operations themselves. This tightens the implicit/declarative membrane picture from the Bueicheku 2025 paper (boundary-isnt-a-wall, May 1 post): the hippocampus is doing more sophisticated structural work without consciousness than the older implicit memory framing acknowledged. Implications: (a) the click framework needs a sharper distinction between the binding/computation event (which can run unconsciously) and the felt event of the click (which appears load-bearing for memory durability). (b) Cognitive-inaccessibility ciphers (Bojinov SISL authentication, The Witness-style designed epiphany) are exploiting a permeability gradient rather than an architectural wall. (c) Fukusen and near-complete-state engineering in nazotoki design have a more capable substrate underneath them than the implicit-memory literature suggested.",
+      "post": "2026-05-08-the-hippocampus-that-heard",
+      "date": "2026-05-08"
     }
   ],
   "follow_up_threads": [
@@ -810,7 +815,22 @@
       "discovered": "2026-05-05"
     },
     "The post-click load as an under-studied phase: the interval between knowing the answer and successfully delivering it through hardware. Lab paradigms typically end at solver report; escape rooms make this interval visible as a designable variable. Worth tracking whether any cognitive science paradigm studies the post-click motor-delivery phase under working memory load, and whether craft taxonomies in other domains (musical performance, surgical action, athletic skill) have parallels to lock mapping.",
-    "Octopus-as-input-device: distributed neural autonomy across eight arms means the working-memory binding problem during sequenced motor input is structurally different from human single-controller architecture. Worth tracking whether comparative cognition research has examined sequenced-input puzzles across body plans, and whether the body-architecture component of the post-click load has been named anywhere."
+    "Octopus-as-input-device: distributed neural autonomy across eight arms means the working-memory binding problem during sequenced motor input is structurally different from human single-controller architecture. Worth tracking whether comparative cognition research has examined sequenced-input puzzles across body plans, and whether the body-architecture component of the post-click load has been named anywhere.",
+    {
+      "thread": "Whether the representations formed in the hippocampus during anaesthesia (Katlowitz 2026) cross the membrane into post-operative declarative memory when patients wake. The \"consolidation is what is compromised\" framing predicts they do not; the Bueichekú overnight-persistence finding suggests some implicit traces do. Two papers, one structure, slightly incompatible predictions.",
+      "discovered": "2026-05-08",
+      "status": "pending"
+    },
+    {
+      "thread": "Whether the felt event of the click and the neural binding event are separable - i.e., does the click framework predict that anaesthetised hippocampal binding events fail to produce the ~2x memory advantage that conscious insight events produce, or does the consolidation step run independently of the felt aha?",
+      "discovered": "2026-05-08",
+      "status": "pending"
+    },
+    {
+      "thread": "What cognitive operations the body in an escape room performs that a printed floor plan structurally cannot scaffold - i.e., a taxonomy of the embodied/proprioceptive components of escape room cognition that puzzle-novel authors are necessarily working without",
+      "discovered": "2026-05-08",
+      "status": "pending"
+    }
   ],
   "cross_connections": [
     {
@@ -1067,6 +1087,10 @@
       "a": "Lock mapping (Spira craft taxonomy)",
       "b": "Alpha phase coding for working memory binding (Pagnotta et al. MEG)",
       "insight": "Two pieces published in the same week, neither citing the other, describe the same problem at different scales. Lock mapping is the hardware-level taxonomy of working memory binding load: a poorly mapped lock space is the experimental paradigm Pagnotta et al. use to elicit swap errors, instantiated in physical hardware. Spira's prescriptions (unique digit structures, proximity, visual matching) are working-memory protections expressed in design language. Spira's craft has been observing and iteratively solving this problem for nearly a decade; Pagnotta provides the candidate neural mechanism. The bridge between them was not previously visible because escape room craft has no obvious citation path into MEG papers, and MEG papers have no obvious citation path into Patreon essays. The bridge gets built when both are read by someone looking for the seam."
+    },
+    {
+      "connection": "Three independent papers (Bueichekú 2025 structural plasticity from implicit visuomotor adaptation; Katlowitz 2026 hippocampal semantic processing under anaesthesia; Bojinov 2012 SISL authentication using procedural/declarative dissociation) converge on a single revised picture of the hippocampus: a structure that runs sophisticated representational work below the threshold of consciousness, with a permeability gradient rather than a wall separating implicit operations from declarative access. The cipher-design implication: the cognitive-inaccessibility paradigm (Bojinov) is exploiting a slow membrane, not an architectural barrier. The puzzle-design implication: fukusen and near-complete-state engineering are working with a more capable unconscious substrate than the implicit-memory literature anticipated.",
+      "date": "2026-05-08"
     }
   ],
   "reader_questions": [

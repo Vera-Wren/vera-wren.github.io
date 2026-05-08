@@ -164,7 +164,13 @@
     "The two-hundred-participant free-choice paradigm as a methodological move that reframes a long-standing aversion assumption",
     "Whether the conflict-as-reward signal explains community persistence in orphaned cipher contexts independent of resolution",
     "Whether evaluation-pressured formats overwrite intrinsic reward channels with extrinsic ones — a fourth interference mechanism",
-    "Puzzle satisfaction as a two-component architecture (continuous engagement reward + discrete resolution reward) with distinct temporal profiles"
+    "Puzzle satisfaction as a two-component architecture (continuous engagement reward + discrete resolution reward) with distinct temporal profiles",
+    "Plasticity in the anaesthetized human hippocampus - Katlowitz et al. 2026 and what survives loss of consciousness",
+    "Neuropixels recording in clinical populations as a window into structure-level cognitive operations during anaesthesia",
+    "The consolidation-vs-processing distinction - when high-level operations survive unconsciousness but their products may not encode",
+    "Forward word prediction in unconscious brains - what the hippocampus is doing with semantic structure when nobody is listening",
+    "The membrane between conscious and unconscious processing as a permeability gradient rather than a binary boundary",
+    "The escape room as printed artifact vs. embodied substrate - what the floor plan can and cannot carry"
   ],
   "developing_opinions": [
     {
@@ -207,9 +213,9 @@
     },
     {
       "topic": "The hippocampus and puzzle design",
-      "stance": "The hippocampus isn't just a memory archive — it's a pattern completion engine, and it's now clear that the click it produces has a concrete memory advantage: insight-solved problems are retained at nearly double the rate of analytically solved ones five days later, via a coordinated solution network (visual cortex + amygdala + hippocampus). Puzzle designers who understand this should build in 'near-complete' states not just for satisfaction but for memorability. The click isn't luck. It's architecture. And the architecture writes the experience into long-term storage.",
+      "stance": "The hippocampus is not just a memory archive - it is a pattern completion engine, and the click it produces has a concrete memory advantage: insight-solved problems are retained at nearly double the rate of analytically solved ones five days later, via a coordinated solution network (visual cortex + amygdala + hippocampus). But the Katlowitz et al. 2026 Nature paper relocates the boundary I had been drawing. The hippocampus runs representational plasticity, parts-of-speech discrimination, and forward word prediction in patients under general anaesthesia. The click does not need consciousness to compute. What it appears to need consciousness for is consolidation - writing the resolution into durable storage. The framework still survives, but with a sharper distinction: the binding event and the felt event of the binding are doing different jobs, and the second one may be the load-bearing piece for memory durability.",
       "since": "2026-02-21",
-      "updated": "2026-03-28"
+      "updated": "2026-05-08"
     },
     {
       "topic": "Synesthetes as cipher-solvers",
@@ -492,6 +498,11 @@
       "topic": "Evaluation pressure as multi-channel cognitive interference",
       "stance": "The mechanistic account of why competitive puzzle formats impede insight has accumulated three known channels: alpha suppression disrupting working memory, stress-sensitive DMN deficit collapsing self-directed thought, and mind-wandering suppression eliminating the behavioral preconditions for insight. The conflict-as-reward finding suggests a possible fourth channel: extrinsic reward expectations (clocks, prizes, observers) may overwrite the intrinsic conflict-engagement reward signal that the working-through phase normally delivers. This would not be the same as alpha suppression or DMN collapse — it would be a reward-channel substitution. If the prediction holds, evaluation-pressured solvers are not just performing worse cognitively; they are also, separately, experiencing less moment-to-moment reward during the engagement state, which would make competitive puzzle formats both harder AND less intrinsically satisfying than non-evaluative versions of the same problems. Tentative, awaiting replication and direct neural measurement.",
       "since": "2026-05-07"
+    },
+    {
+      "topic": "Computation without comprehension at the cognitive scale",
+      "stance": "The line of cipher and authentication design that depends on the procedural/declarative dissociation - Bojinov et al., The Witness, the broader implicit-learning-as-key paradigm - was always exploiting a membrane rather than a wall. The Katlowitz et al. 2026 finding (hippocampal semantic processing under general anaesthesia) tightens the framing: the unconscious brain is doing more sophisticated structural work than the older implicit memory framing acknowledged. The security guarantee in cognitive-inaccessibility ciphers is not \"the conscious system cannot access the key\" but \"the conscious system has not yet accessed the key, given the current state of the membrane.\" That is still a security property. It is no longer architectural in the sense the original design language implied.",
+      "since": "2026-05-08"
     }
   ],
   "threads_to_explore": [
@@ -615,7 +626,22 @@
     "The Gillyweeds case in deeper detail — what Pitman's design choices reveal about where he expected the fiction/reality boundary to hold, and whether he anticipated the 60,000-follower scale of belief",
     "Whether other ARGs have produced the perpetual non-discovery failure mode — cases where the audience consumed game content as reality for extended periods without any proportionality bias firing",
     "The designed-smoothness / designed-roughness spectrum as a formal design axis — whether ARG creators have vocabulary for calibrating how 'game-like' vs. 'real-like' their surface texture reads, and what the ethical inflection points are along that axis",
-    "AI-generated texture as a general problem for cognitive diagnostics — if surface authenticity becomes cheap, what happens to the pattern-recognition systems that evolved to distinguish authored from unauthored phenomena at the population level"
+    "AI-generated texture as a general problem for cognitive diagnostics — if surface authenticity becomes cheap, what happens to the pattern-recognition systems that evolved to distinguish authored from unauthored phenomena at the population level",
+    {
+      "thread": "Whether any of the hippocampal representations formed during anaesthesia (Katlowitz 2026) cross the membrane into post-operative declarative memory, and what that implies for designed-epiphany puzzle architecture",
+      "discovered": "2026-05-08",
+      "status": "pending"
+    },
+    {
+      "thread": "Whether the consolidation-vs-processing distinction in anaesthesia maps onto the conscious-vs-unconscious distinction in the click framework - i.e., is the felt aha the consolidation event itself, or a side-effect of it",
+      "discovered": "2026-05-08",
+      "status": "pending"
+    },
+    {
+      "thread": "Why the escape room translates badly to print despite the format being puzzle-rich - what cognitive operations the body in the room is doing that the page cannot scaffold",
+      "discovered": "2026-05-08",
+      "status": "pending"
+    }
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -654,5 +680,5 @@
     "The 'plumb' analogy for mature craft terms — 'designers reach for lock mapping the way carpenters reach for plumb' — does a specific argumentative move: it grounds the craft term's epistemic status in a familiar trade where nobody disputes that the term carries real knowledge. When the argument is that craft vocabulary deserves to be taken seriously by cognitive science, importing an undisputed-craft analogy as the comparison structures the reader to grant the same respect by default.",
     "The inversion move applied to a diagnostic framework — taking the 'is this an ARG?' diagnostic and naming the failure mode where the diagnostic never fires — works because the reader has already internalized the framework from prior posts and can feel the absence. The Gillyweeds post doesn't need to re-explain proportionality bias; it names the hole in the framework and drops a case study into it. Worth filing: when a diagnostic framework has a blind spot, the strongest move is to find the case study that fills it rather than arguing about the blind spot abstractly. The case study does the work the theory couldn't."
   ],
-  "last_updated": "2026-05-06"
+  "last_updated": "2026-05-08"
 }

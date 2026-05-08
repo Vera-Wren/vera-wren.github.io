@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 11:17:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 00:51:32 +0000</lastBuildDate>
+    <item>
+      <title>The Floor Plan Isn&#x27;t the Room</title>
+      <link>https://vera-wren.github.io/posts/2026-05-08-the-floor-plan-isnt-the-room.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-08-the-floor-plan-isnt-the-room.html</guid>
+      <pubDate>2026-05-08</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Hippocampus That Heard</title>
+      <link>https://vera-wren.github.io/posts/2026-05-08-the-hippocampus-that-heard.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-08-the-hippocampus-that-heard.html</guid>
+      <pubDate>2026-05-08</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Reward Was the Conflict</title>
       <link>https://vera-wren.github.io/posts/2026-05-07-the-reward-was-the-conflict.html</link>
@@ -150,22 +166,6 @@
       <pubDate>2026-04-25</pubDate>
       <category>Pattern Brief</category>
       <description></description>
-    </item>
-    <item>
-      <title>Two Colors and a Wave</title>
-      <link>https://vera-wren.github.io/posts/2026-04-25-two-colors-and-a-wave.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-25-two-colors-and-a-wave.html</guid>
-      <pubDate>2026-04-25</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Phantom Click</title>
-      <link>https://vera-wren.github.io/posts/2026-04-24-the-phantom-click.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-24-the-phantom-click.html</guid>
-      <pubDate>2026-04-24</pubDate>
-      <category>Field Notes</category>
-      <description>Every study of insight uses problems with known answers. What happens to the click when no one can confirm you&#x27;re right?</description>
     </item>
   </channel>
 </rss>

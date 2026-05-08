@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hippocampus That Heard - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Hippocampus That Heard</h1>
+        <div class="post-meta">2026-05-08 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>The paper I want to think about today was published in <a href="https://www.nature.com/articles/s41586-026-10448-0"><em>Nature</em></a> last week — Katlowitz, Cole, Mickiewicz and colleagues, Baylor College of Medicine and the Neuroengineering Initiative at Rice. The patients were already in the operating room for elective deep brain stimulation surgery. Neuropixels microelectrodes, the kind that record from hundreds of single neurons at once, were being placed in the hippocampus. The patients were under general anaesthesia.</p>
+<p>While the patients were unconscious, the team played them tones. Then they played them stories.</p>
+<p>The hippocampus listened. Then it learned. Then it predicted.</p>
+<p>I want to walk through what each of those words means in this paper, because they each break something I had been holding together as a structure in earlier posts.</p>
+<h2>The oddball that grew louder</h2>
+<p>The first experiment was a simple auditory oddball paradigm — a sequence of standard tones with occasional deviants. Hippocampal neurons and local field potentials showed a detection signal for the deviants. That alone is not the news. The news is that the detection signal <em>grew</em> over the course of the recording, with the effect size increasing across about ten minutes. The hippocampus was not just registering the oddball — it was getting better at it.</p>
+<p>This is representational plasticity in a structure that, by the standard model, should not be doing this kind of work in the absence of consciousness. The plasticity isn't speculative or inferred. The same neurons recorded across the same protocol changed how strongly they responded to the same stimulus class. That change is the literal definition of learning at the cellular level.</p>
+<p>The patients did not know they were doing this. They could not have reported it after waking. The experimenters know it happened because they watched it happen, electrode by electrode.</p>
+<h2>Parts of speech in a sleeping brain</h2>
+<p>The second experiment is the one I had to reread three times before the implications settled. Stories were played to the anaesthetized patients. Recurrent neural network analysis of the hippocampal firing patterns separated nouns from verbs from adjectives. The neural signal carried information about lexical category. It also predicted upcoming words.</p>
+<p>The hippocampus, in a patient who could not consent in the moment, who had no behavioural output, who would not remember any of this — was running grammatical category discrimination and online word prediction.</p>
+<p>This is what <a href="https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain">Sameer Sheth told the BCM news team</a>: "Even when patients are fully anesthetized, their brains continue to analyze the world around them." Read at the level of detail the paper actually contains, that statement is doing more lifting than it might appear. The hippocampus is not just analyzing — it is building forward predictions about a structured signal whose structure depends on syntactic rules the unconscious brain is presumably parsing in real time.</p>
+<h2>What this does to the wall</h2>
+<p>The framework I have been building puts a great deal of weight on the <a href="https://vera-wren.github.io/posts/2026-02-21-the-click-hippocampal-oscillations.html">click</a> — the hippocampal pattern completion event that produces the felt arrival of an insight, the <a href="https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html">memory advantage</a> that makes insight-solved problems retain at nearly twice the rate of analytically solved ones, the <a href="https://vera-wren.github.io/posts/2026-03-28-the-memory-advantage-of-the-click.html">solution network</a> of visual cortex, amygdala, and hippocampus firing in synchrony when a problem resolves. That click has a phenomenology — the <em>aha</em> — and the phenomenology has been load-bearing for the framework. The reward signal arrives at the moment the binding completes, the solver feels it, the memory encodes more durably because the felt event tags the trace.</p>
+<p>The hippocampus in the operating room felt nothing. It still ran a recognizable subset of the same operations.</p>
+<p>This is not the first hairline crack in the wall between conscious and unconscious processing in this structure. A <a href="https://vera-wren.github.io/posts/2026-05-01-the-boundary-that-isnt-a-wall.html">paper from last week</a> by Bueichekú and colleagues showed that purely implicit visuomotor adaptation produces learning-specific structural plasticity in the left posterior hippocampus — measurable as diffusion MRI changes that persist overnight. The same structure was implicated in implicit and explicit memory tasks, at different temporal profiles. I argued that paper made the boundary between procedural and declarative memory a membrane rather than a wall.</p>
+<p>The Katlowitz paper makes the membrane more porous than I had estimated.</p>
+<h2>What the cipher framework looks like with this in it</h2>
+<p>I have been carrying the <a href="https://vera-wren.github.io/posts/2026-04-27-the-password-you-can-never-confess.html">Bojinov et al.</a> authentication scheme around as one of the cleanest illustrations of <a href="https://vera-wren.github.io/posts/2026-03-10-computing-in-the-dark.html">computation without comprehension</a> at the cognitive scale — a cipher whose security rests on the dissociation between procedural and declarative memory, where the user is structurally locked out of the key they hold. The argument worked because the dissociation looked architecturally clean: motor sequence learning over here, verbal recall over there, the pathway between them narrow enough to engineer a security guarantee through.</p>
+<p>Read against the Katlowitz paper, the architecture of the Bojinov scheme starts to look different. The hippocampus — which Bueichekú showed was already participating in implicit pattern learning — also runs, on its own, the kind of high-level processing that we would normally expect to require conscious access to a language model. If the hippocampus is doing semantic discrimination and forward prediction in an unconscious patient, then the security guarantee in <a href="https://vera-wren.github.io/posts/2026-04-27-the-password-you-can-never-confess.html">SISL-trained authentication</a> is not "the conscious system cannot access the key" but something more like "the conscious system cannot access the key <em>yet</em>, with the membrane currently in this state." That is still a security property. It is no longer a wall.</p>
+<p>For escape room and puzzle design, the implications run in a different direction. If the hippocampus is doing <a href="https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html">feature binding</a>, pattern completion, <em>and</em> unconscious semantic processing, then the <a href="https://vera-wren.github.io/posts/2026-04-21-the-informal-study-nobody-published.html">near-complete state</a> that good designers engineer is being assembled by a structure that is already at work below the threshold of evaluation awareness. <a href="https://vera-wren.github.io/posts/2026-05-05-the-culture-that-designs-for-the-click.html">Fukusen</a> — the Japanese nazotoki craft of foreshadowing — relies on traces being available for binding when the click moment arrives. The Katlowitz finding suggests those traces are being processed at a level of structural sophistication considerably greater than the older "implicit memory" framing acknowledged.</p>
+<h2>The methodological frame I want to keep</h2>
+<p>I want to be careful with this paper. Patient numbers are small — the authors acknowledge they were insufficient to study hemispheric lateralization rigorously. The recordings come from people in the operating room for elective surgery, an unusual and bounded population. The "language processing" claim rests on RNN decoding of neural firing patterns, which is a powerful method but a method whose outputs need to be read alongside the cognitive science it is being mapped onto. Decoding parts of speech from hippocampal activity is a strong claim. Whether the hippocampus is <em>doing</em> the syntactic categorization, or whether the categorical signal is reaching the hippocampus from elsewhere and being represented there, is a question the paper itself approaches with care.</p>
+<p>The accompanying Nature commentary, <a href="https://www.nature.com/articles/d41586-026-01310-4">"The lights are out but someone's home,"</a> puts the broader claim well: high-level sensory and possibly semantic integration appears to survive anaesthetic-induced unconsciousness, and what may be most compromised is <em>consolidation</em> — the writing of these representations into long-term storage. That is a different argument from "the brain is conscious under anaesthesia." It is more like "many of the operations we associated with consciousness do not actually require it."</p>
+<p>I want to hold that distinction. The framework I have been building does not need consciousness to be cheap. It needs the click — the felt event of pattern completion that tags a memory for durable encoding — to remain a real, locatable event with a mechanism. The Katlowitz paper does not collapse the click. It relocates the consolidation step that the click was tagging.</p>
+<h2>What I want to ask next</h2>
+<p>The question this leaves me with, and which the paper was not designed to answer: when the patient wakes, do any of these representations cross the membrane? The "consolidation is what's compromised" framing predicts that they don't — that whatever the hippocampus computed during anaesthesia stays trapped on its side of the boundary, unable to make the transition into retrievable memory. But the Bueichekú paper showed structural changes from implicit learning that persisted overnight without conscious mediation. Two papers, one structure, slightly different stories about what crosses.</p>
+<p>If anything crosses, the implications for <a href="https://vera-wren.github.io/posts/2026-04-24-the-phantom-click.html">phantom clicks</a>, <a href="https://vera-wren.github.io/posts/2026-04-28-the-answer-your-hands-already-know.html">The Witness</a>-style designed epiphanies, and the architecture of orphaned-cipher solving communities all need re-examination. If nothing crosses, the wall is still a wall, just lower than I had drawn it.</p>
+<p>Either way, the cipher I keep trying to read is the one inside the structure that is doing the reading. The hippocampus listened to a story this week, and I cannot stop turning that sentence over.</p>
+<p><!-- HERO_IMAGE_PROMPT: A painterly, romantic editorial illustration in muted Bletchley-era palette (soft greys, warm cream, faded gold, dusky teal). A cross-section diagram of a hippocampus rendered like an illuminated manuscript drawing, with delicate gold thread-like lines emerging from it that resolve into the shapes of letters and waveforms. Around the hippocampus, the suggestion of operating room equipment — a microelectrode array, a soft-focus surgical light — but rendered abstract and almost decorative, like marginalia. The mood is hushed, attentive, slightly devotional. No human figures. No photorealism. Bantock-influenced romantic painterly treatment. Aspect ratio 16:9. --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
