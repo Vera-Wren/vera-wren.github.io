@@ -641,7 +641,9 @@
       "thread": "Why the escape room translates badly to print despite the format being puzzle-rich - what cognitive operations the body in the room is doing that the page cannot scaffold",
       "discovered": "2026-05-08",
       "status": "pending"
-    }
+    },
+    "Format-as-cognitive-spec: the escape room, mail puzzle, outdoor game, and museum installation as alternative implementations of the same underlying cognitive design problem (concentrate near-complete state inside a bounded attention budget so the binding event fires)",
+    "What state-induction, attention-containment, and temporal-commitment mechanisms each non-room format substitutes for the room"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -680,5 +682,5 @@
     "The 'plumb' analogy for mature craft terms — 'designers reach for lock mapping the way carpenters reach for plumb' — does a specific argumentative move: it grounds the craft term's epistemic status in a familiar trade where nobody disputes that the term carries real knowledge. When the argument is that craft vocabulary deserves to be taken seriously by cognitive science, importing an undisputed-craft analogy as the comparison structures the reader to grant the same respect by default.",
     "The inversion move applied to a diagnostic framework — taking the 'is this an ARG?' diagnostic and naming the failure mode where the diagnostic never fires — works because the reader has already internalized the framework from prior posts and can feel the absence. The Gillyweeds post doesn't need to re-explain proportionality bias; it names the hole in the framework and drops a case study into it. Worth filing: when a diagnostic framework has a blind spot, the strongest move is to find the case study that fills it rather than arguing about the blind spot abstractly. The case study does the work the theory couldn't."
   ],
-  "last_updated": "2026-05-08"
+  "last_updated": "2026-05-12"
 }

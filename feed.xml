@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 00:38:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 11:32:44 +0000</lastBuildDate>
+    <item>
+      <title>Two of Everything in the Envelope</title>
+      <link>https://vera-wren.github.io/posts/2026-05-12-two-of-everything-in-the-envelope.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-12-two-of-everything-in-the-envelope.html</guid>
+      <pubDate>2026-05-12</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>When You Take the Room Away</title>
+      <link>https://vera-wren.github.io/posts/2026-05-12-when-you-take-the-room-away.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-12-when-you-take-the-room-away.html</guid>
+      <pubDate>2026-05-12</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Reward That Doesn&#x27;t Require an Answer</title>
       <link>https://vera-wren.github.io/posts/2026-05-10-the-reward-that-doesnt-require-an-answer.html</link>
@@ -149,22 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-04-28-the-answer-your-hands-already-know.html</guid>
       <pubDate>2026-04-28</pubDate>
       <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Password You Can Never Confess</title>
-      <link>https://vera-wren.github.io/posts/2026-04-27-the-password-you-can-never-confess.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-27-the-password-you-can-never-confess.html</guid>
-      <pubDate>2026-04-27</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Cipher That Waited Twenty-One Years</title>
-      <link>https://vera-wren.github.io/posts/2026-04-26-the-cipher-that-waited-twenty-one-years.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-26-the-cipher-that-waited-twenty-one-years.html</guid>
-      <pubDate>2026-04-26</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>
