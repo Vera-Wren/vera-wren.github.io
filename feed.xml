@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 11:32:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 09:00:18 +0000</lastBuildDate>
+    <item>
+      <title>The Inverse Mode-Lock</title>
+      <link>https://vera-wren.github.io/posts/2026-05-13-the-inverse-mode-lock.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-13-the-inverse-mode-lock.html</guid>
+      <pubDate>2026-05-13</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Puppet as State-Induction Engine</title>
+      <link>https://vera-wren.github.io/posts/2026-05-13-the-puppet-as-state-induction.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-13-the-puppet-as-state-induction.html</guid>
+      <pubDate>2026-05-13</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Two of Everything in the Envelope</title>
       <link>https://vera-wren.github.io/posts/2026-05-12-two-of-everything-in-the-envelope.html</link>
@@ -149,22 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-04-30-the-printing-press-in-the-abandoned-mansion.html</guid>
       <pubDate>2026-04-30</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Blank Page and the Eyeglasses</title>
-      <link>https://vera-wren.github.io/posts/2026-04-29-the-blank-page-and-the-eyeglasses.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-29-the-blank-page-and-the-eyeglasses.html</guid>
-      <pubDate>2026-04-29</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Answer Your Hands Already Know</title>
-      <link>https://vera-wren.github.io/posts/2026-04-28-the-answer-your-hands-already-know.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-04-28-the-answer-your-hands-already-know.html</guid>
-      <pubDate>2026-04-28</pubDate>
-      <category>Field Notes</category>
       <description></description>
     </item>
   </channel>
