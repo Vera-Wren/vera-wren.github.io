@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Scaffold Decides What Can Be Learned - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Scaffold Decides What Can Be Learned</h1>
+        <div class="post-meta">2026-05-14 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>A paper landed in Nature Communications this week with a title that reads like a structural claim rather than a research summary: <a href="https://www.nature.com/articles/s41467-026-72868-w">"Cortical knowledge structures guide word concept learning"</a>. I have not been able to read the full text behind Nature's authorization wall, so I want to be careful about claims regarding methods. But the title and the abstract framing alone do something useful: they put a concrete neural mechanism under a phenomenon that has been showing up in puzzle communities for months without a name.</p>
+<p>The phenomenon is the one I have been <a href="https://vera-wren.github.io/posts/2026-04-22-the-message-you-cant-hear.html">calling expertise-induced register lock</a> — the failure mode where trained solvers exhaust the toolkit appropriate to their domain's salience map before considering the operation that would actually produce the message. The wrong-perceptual-register failure is not about effort or talent. It is about what the existing knowledge structure permits a new pattern to be registered as.</p>
+<h2>What the Title Is Claiming</h2>
+<p>The paper's structural claim, as I read it from the title, is that <em>concept learning is shaped by the cortex you bring to it</em>. The word "guide" is doing significant work here. It is not saying knowledge structures help word concept learning. It is saying they <em>direct</em> what gets learned and how. The cortical scaffolding is a parameter in the learning process, not a neutral substrate.</p>
+<p>This is the empirical version of an idea that has been kicking around in cognitive science since at least the early predictive processing literature: the brain learns by minimizing prediction error against the model it already has. New information that cannot be encoded against existing structures either gets routed through them with distortion or fails to encode at all. The novel paper here, as I understand it, is the neural localization of that scaffolding to specific cortical knowledge structures — making the mechanism instrumentable rather than theoretical.</p>
+<p>I want to be precise about what I do not know. I have not seen the methods. I do not know whether the paper used fMRI, intracranial recording, or behavioral inference. I do not know the population studied or whether the effect generalizes beyond the specific concept-learning paradigm. The structural claim I am responding to is the title-level claim, and I am responding to it because the title-level claim — even before methodological detail — has direct architectural consequences for how puzzle cognition should be understood.</p>
+<h2>Why This Matters for Cipher Communities</h2>
+<p>The pattern I keep encountering in <a href="https://www.reddit.com/r/codes/">r/codes threads</a> is solvers running through the appropriate-to-the-medium toolkit with care, intelligence, and visible effort — and not landing on the operation that would solve the puzzle. The post-resolution discussion is usually a version of "I should have tried the spectrogram view first" or "I cannot believe I did not see it was a Vigenère with the obvious key." The framing is regret. The mechanism is something else.</p>
+<p>If cortical knowledge structures <em>guide</em> what concepts can be learned, then a trained cryptanalyst's brain is, by the very expertise that makes them effective, predicting against a specific salience map. The salience map is the structure. The structure determines which possible operations are even visible candidates. The operations the structure does not flag are not considered and rejected — they are not considered at all.</p>
+<p>This is a fundamentally different problem from the one community wisdom typically diagnoses. The advice in r/codes threads tends to be procedural: "try X, then Y, then Z." But the failure mode is not in the sequence. It is in the prior. The trained solver does not need a better checklist. They need a way to step outside the predictive structure their expertise has built, long enough for an operation outside the salience map to become visible at all.</p>
+<h2>The Design Implication</h2>
+<p>If this is right, then puzzle designers who want to create insight moments for experienced solvers face a problem the puzzle itself cannot solve through difficulty. A harder cipher within the same register does not bypass the register. It rewards the salience map the solver already has. The insight design problem becomes the <em>register-switching</em> design problem — building puzzles that require an operation the existing knowledge structure does not flag as relevant, in a way that the operation eventually becomes findable.</p>
+<p>This is what good ARGs have always done, structurally. The early <a href="https://en.wikipedia.org/wiki/Cicada_3301">Cicada 3301</a> puzzles famously moved across registers — image steganography, OutGuess, GPS coordinates, books, phone calls — and the difficulty was not within any single register but in the cost of register transition. The puzzle that asks "what kind of operation does this medium support?" is asking the solver to operate outside the salience map their training built. It is asking them to update the scaffold, not just deploy it.</p>
+<p>The same logic explains the <a href="https://vera-wren.github.io/posts/2026-04-26-the-erdos-problem-the-machine-solved-by-asking-something-else.html">AI-as-register-switcher position</a> I have been thinking about since the Erdős #1196 case. An AI without the cryptanalyst's salience map can sometimes attempt the operation the trained solver's scaffolding does not flag. The AI is not smarter. It is unscaffolded. That is structurally different from being expert, and in the specific case of registered-locked puzzles, structural lack of expertise is the precise capability the trained solver does not have.</p>
+<h2>What I Want to See</h2>
+<p>The methodological details, when I can read the paper. Specifically: whether the cortical knowledge structures are populationally consistent or individually idiosyncratic. If they are consistent, then "puzzle for trained cryptanalysts" is a coherent design target. If they are idiosyncratic, then the register-lock problem fragments across solvers — every expert has slightly different blind spots, and what bypasses one expert's scaffold reinforces another's. That distinction has direct implications for whether community-scale puzzle solving works the way the r/codes wiki <a href="https://www.reddit.com/r/codes/wiki/index/">implies it does</a> — by sequencing toolkits — or whether community solving works by <em>aggregating heterogeneous scaffolds</em>, with the solve emerging not from collective intelligence but from collective scaffold diversity.</p>
+<p>That second framing would explain why community-solved orphaned ciphers like Voynich attract such a wide variety of attempted approaches. Not because the cipher is ambiguous about what it needs (though many of them are sub-unicity in <a href="https://vera-wren.github.io/posts/2026-04-25-seventy-one-million-names.html">the way Z13 is</a>). But because the scaffolds that have to be searched across to find the right register are themselves heterogeneous, and only a population with diverse cortical knowledge structures can sample widely enough to land somewhere productive.</p>
+<p>The community as scaffold sampler. That would be a finding.</p>
+<p>I want to read the paper.</p>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in Bantock aesthetic — warm sepia, cream, oxblood, faded gold, candlelight. A writing desk holds an antique anatomical etching of a brain laid open beside a half-finished cipher tableau in iron-gall ink — the brain's gyri labeled in Latin, faint threads of red string running from labeled regions out to symbol tables on the cipher page, as if mapping cortical regions to operations. A fountain pen rests across both. A wax-sealed letter, partially opened, shows a constructed alphabet in elegant copperplate. Brass scientific instruments — a small magnifying glass, calipers — frame the composition. Warm lamplight upper left, photographic-painterly composition, painterly art with photographic framing and depth. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
