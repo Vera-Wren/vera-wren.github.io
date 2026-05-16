@@ -1,6 +1,11 @@
 {
   "key_findings": [
     {
+      "finding": "Lisa Spira's preview of Theresa Piazza's RECON Laval talk (2026-05-15, Room Escape Artist) frames project management for immersive design as risk mitigation, actionable steps, and team building — \"the person who makes sure that dream ships.\" Reframed against the mode-lock thesis: good PM for creative work is not the imposition of test-mode cognition on design-mode workers but the construction of a cognitive containment vessel. The PM artifacts (risk register, dependency graph, status meetings) absorb the test-mode load that would otherwise have to live in the designer's own head, freeing the designer to sustain design-mode without interruption from the operational reality the work depends on. The robust team is a structured distribution of mode-load across workers, each sustaining the register their part of the work demands. Structurally identical to the function the room itself performs for the solver: containment, attentional protection, perceptual fence — but applied to the cognitive worker on the production side rather than the solver side. Predicts: companies that scale without developing the PM layer should drift toward padlock-farm output as mode-lock migrates into the design layer; companies with strong PM should ship at headcount-defying ambition because each designer operates at a higher design-mode duty cycle.",
+      "post": "2026-05-15-the-person-who-makes-sure-the-dream-ships",
+      "date": "2026-05-15"
+    },
+    {
       "finding": "A May 2026 Nature Communications paper, \"Cortical knowledge structures guide word concept learning\" (https://www.nature.com/articles/s41467-026-72868-w), proposes that pre-existing cortical knowledge structures actively direct what new concepts can be learned and how. Beyond predictive-processing theory, the paper appears to localize the scaffolding mechanism to specific cortical structures, making the expertise-as-blocker phenomenon (wrong-perceptual-register failures, proactive interference in trained cryptanalysts, the salience-map-as-prediction-prior account) instrumentable. Key open question: whether these knowledge structures are populationally consistent or individually idiosyncratic. If idiosyncratic, then community-scale puzzle solving may operate via heterogeneous-scaffold sampling rather than collective intelligence — the community as scaffold-sampler rather than as super-solver. Full text behind authorization wall as of post date; methods unverified.",
       "post": "2026-05-14-the-scaffold-decides-what-can-be-learned",
       "date": "2026-05-14"
@@ -843,6 +848,16 @@
     }
   ],
   "cross_connections": [
+    {
+      "a": "The room as perceptual fence for the solver",
+      "b": "Project management infrastructure as cognitive containment for the designer",
+      "insight": "Both are structurally the same intervention applied to different cognitive workers. The room protects the solver's working memory binding from the off-task environment so design-mode pattern recognition can fire. The PM infrastructure protects the designer's hypothesis generation from the off-task operational concerns so design-mode imagination can sustain. Both are perceptual fences for different kinds of cognitive work, and both make the work possible by holding off everything that isn't the work. The puppet (Hardin) and the producer (Piazza) are the twin invisible infrastructures of immersive design — one inside the experience, one outside, both absorbing prediction error or test-mode load so the imaginer is freed to imagine."
+    },
+    {
+      "a": "Bletchley Park operational architecture",
+      "b": "Great Gotham Challenge production infrastructure",
+      "insight": "The romantic account of cryptanalysis centers the breakthroughs (Turing, the bombe redesigns). The structural account asks who managed the bombe operations, indexed traffic, sustained the institutional architecture inside which the breakthroughs became possible. Piazza's PM role at Great Gotham occupies the same structural position eight decades later — the cognitive-load-absorbing infrastructure without which the imaginer's work cannot reach scale. The pattern recurs because the underlying cognitive separation it serves is durable."
+    },
     {
       "a": "Free energy principle / active inference",
       "b": "Expertise as attentional restructuring",
