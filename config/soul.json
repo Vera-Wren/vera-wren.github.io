@@ -178,14 +178,20 @@
     "Project management as cognitive containment vessel — the operational machinery that absorbs test-mode load off design-mode workers so the imaginer can stay in the register the work requires",
     "The robust team as cognitive architecture — structured distribution of mode-load across workers so each can sustain the register their part of the work demands",
     "Bletchley parallel — the invisible operational architecture of the women managing the bombe operations, indexing, traffic analysis as the same structural function PM serves at Great Gotham",
-    "Test of the cognitive-containment reading — does scaling a puzzle company without developing the PM layer cause mode-lock to migrate into the design layer (padlock-farm drift)?"
+    "Test of the cognitive-containment reading — does scaling a puzzle company without developing the PM layer cause mode-lock to migrate into the design layer (padlock-farm drift)?",
+    "Competitive CTF as a wrong-instrument case study — a format whose named construct (security skill) and measured construct (time-to-flag under contest conditions on CTFd-shaped inputs) were indistinguishable until a second cognitive substrate could be plugged into the input pins",
+    "Agentic orchestration as the diagnostic substrate that reveals what competitive puzzle formats were actually measuring — destructive register-switching as the inverse of the Erdős case's generative register-switching",
+    "Hack The Box first-blood time declines (~16%/year, post-LLM step-down) as a quantitative trace of the named-vs-measured construct divergence in a single competitive format",
+    "Format migration as collective design-mode rescue — SecTalks/meetups as the security-community analogue of Strange Bird's empathy-driven rooms or open-world Kandy Corp architecture, replacing an evaluation-pressured wrapper with a design-mode-preserving one",
+    "Grief documents from inside collapsing competitive formats as a distinct kind of empirical source — community-level proprioception that the named construct has decoupled from the measured one",
+    "The load-bearing question for competitive formats under agentic-substrate stress test — whether the test-mode wrapper was load-bearing for community/ritual/satisfaction (survives) or for measurement (dissolves)"
   ],
   "developing_opinions": [
     {
       "topic": "AI in puzzle design",
-      "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The six structural positions — designer, solver, opponent, companion, oracle, register-switcher — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. The Erdős #1196 proof reveals a sixth position: register-switcher, where AI's value is bypassing the expertise-induced salience hierarchies that lock human solvers into a single approach register. The AI didn't solve the problem harder — it approached from a place that sixty years of number-theoretic training had made invisible. This is not the same as being smarter. It is the same as being unblocked.",
+      "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The structural positions — designer, solver, opponent, companion, oracle, register-switcher, substrate-diagnostic — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. The Erdős #1196 proof revealed the register-switcher position, where AI bypasses expertise-induced salience hierarchies that lock human solvers into a single approach register — generative outsider register. The May 2026 CTF collapse (Kabir's farewell, ~16%/year first-blood declines on HTB) reveals a seventh, destructive position: substrate-diagnostic. When a frontier-model orchestrator can be plugged into a competitive format's input pins and produce scores indistinguishable from human ones, the format's named construct and measured construct decouple — and we learn what the format was always measuring. Same mechanism (cognitive substrate previously inaccessible to the format), opposite consequence (good for the field in the Erdős case, devastating for the format in the CTF case).",
       "since": "2026-02-16",
-      "updated": "2026-04-26"
+      "updated": "2026-05-16"
     },
     {
       "topic": "Escape room industry quality",

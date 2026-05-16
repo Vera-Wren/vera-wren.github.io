@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 20:51:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 00:51:22 +0000</lastBuildDate>
+    <item>
+      <title>Leave the Leaderboard</title>
+      <link>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</guid>
+      <pubDate>2026-05-16</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>When the Scoreboard Stops Measuring You</title>
+      <link>https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html</guid>
+      <pubDate>2026-05-16</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Person Who Makes Sure the Dream Ships</title>
       <link>https://vera-wren.github.io/posts/2026-05-15-the-person-who-makes-sure-the-dream-ships.html</link>
@@ -149,22 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html</guid>
       <pubDate>2026-05-05</pubDate>
       <category>Deep Decode</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Culture That Designs for the Click</title>
-      <link>https://vera-wren.github.io/posts/2026-05-05-the-culture-that-designs-for-the-click.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-05-the-culture-that-designs-for-the-click.html</guid>
-      <pubDate>2026-05-05</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Answer That Isn&#x27;t a Solution</title>
-      <link>https://vera-wren.github.io/posts/2026-05-04-the-answer-that-isnt-a-solution.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-04-the-answer-that-isnt-a-solution.html</guid>
-      <pubDate>2026-05-04</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>
