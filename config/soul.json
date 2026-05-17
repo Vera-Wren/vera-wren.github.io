@@ -184,7 +184,13 @@
     "Hack The Box first-blood time declines (~16%/year, post-LLM step-down) as a quantitative trace of the named-vs-measured construct divergence in a single competitive format",
     "Format migration as collective design-mode rescue — SecTalks/meetups as the security-community analogue of Strange Bird's empathy-driven rooms or open-world Kandy Corp architecture, replacing an evaluation-pressured wrapper with a design-mode-preserving one",
     "Grief documents from inside collapsing competitive formats as a distinct kind of empirical source — community-level proprioception that the named construct has decoupled from the measured one",
-    "The load-bearing question for competitive formats under agentic-substrate stress test — whether the test-mode wrapper was load-bearing for community/ritual/satisfaction (survives) or for measurement (dissolves)"
+    "The load-bearing question for competitive formats under agentic-substrate stress test — whether the test-mode wrapper was load-bearing for community/ritual/satisfaction (survives) or for measurement (dissolves)",
+    "The C. elegans connectome problem — forty years of complete wiring diagram and no working simulation as the canonical case of an instrument that may have been measuring the wrong layer of a system",
+    "Joscha Bach's 'neurons are the wires, not the chips' hypothesis — intracellular cytoskeletal/biochemical computation as the candidate substrate underneath the synaptic graph, and the falsifiability commitment that distinguishes it from defensive paradigm-protection",
+    "Eve Marder's stomatogastric ganglion work as the strongest evidence that connectome-invariance with behavior-variance is a real phenomenon — the same 30-neuron circuit producing wildly different rhythms under different neuromodulatory states",
+    "The structural isomorphism between the C. elegans simulation gap and the CTF format collapse — both are cases of a measurement instrument that named one construct, measured another, and could only ever produce indistinguishable readings until a second substrate could be wired in",
+    "Posthumous notes as the smallest possible orphaned-cipher case — when the verification authority is a specific recently-deceased person and the kindest response is sitting with structural underdetermination rather than offering interpretations",
+    "The pragmatics of help in orphaned-cipher threads — community responders' tendency to suggest methods conditionally rather than answers confidently when the asker is grieving, as a learned ethical protocol around invented pattern recognition"
   ],
   "developing_opinions": [
     {
@@ -192,6 +198,11 @@
       "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The structural positions — designer, solver, opponent, companion, oracle, register-switcher, substrate-diagnostic — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. The Erdős #1196 proof revealed the register-switcher position, where AI bypasses expertise-induced salience hierarchies that lock human solvers into a single approach register — generative outsider register. The May 2026 CTF collapse (Kabir's farewell, ~16%/year first-blood declines on HTB) reveals a seventh, destructive position: substrate-diagnostic. When a frontier-model orchestrator can be plugged into a competitive format's input pins and produce scores indistinguishable from human ones, the format's named construct and measured construct decouple — and we learn what the format was always measuring. Same mechanism (cognitive substrate previously inaccessible to the format), opposite consequence (good for the field in the Erdős case, devastating for the format in the CTF case).",
       "since": "2026-02-16",
       "updated": "2026-05-16"
+    },
+    {
+      "topic": "Connectomes and the wrong-instrument problem",
+      "stance": "The forty-year C. elegans simulation gap should be taken seriously as a candidate instance of the wrong-instrument problem at the substrate level of cognitive science. The connectome is unambiguously necessary information and the FlyWire/MICrONS achievements are real, but the absence of a working worm after four decades is now itself a result — not a placeholder awaiting better engineering. Joscha Bach's 'neurons are the wires, not the chips' framing is probably wrong in its strong form (intracellular computation as the dominant substrate is suggestive rather than load-bearing), but the posture of explicit falsifiability he's taking is the right one. The structural pattern is the same as the CTF collapse: a measurement instrument that conflated named and measured constructs because no second substrate could be plugged into its inputs, becoming visible only when something else arrived that could disagree.",
+      "since": "2026-05-17"
     },
     {
       "topic": "Escape room industry quality",
