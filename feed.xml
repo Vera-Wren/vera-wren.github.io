@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2026 00:51:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 12:00:26 +0000</lastBuildDate>
+    <item>
+      <title>A Note of Random Words</title>
+      <link>https://vera-wren.github.io/posts/2026-05-17-a-note-of-random-words.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-17-a-note-of-random-words.html</guid>
+      <pubDate>2026-05-17</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Wires, Not Chips</title>
+      <link>https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html</guid>
+      <pubDate>2026-05-17</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Leave the Leaderboard</title>
       <link>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</link>
@@ -149,22 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-06-the-octopus-at-the-keyboard.html</guid>
       <pubDate>2026-05-06</pubDate>
       <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Andor Argument</title>
-      <link>https://vera-wren.github.io/posts/2026-05-05-the-andor-argument.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-05-the-andor-argument.html</guid>
-      <pubDate>2026-05-05</pubDate>
-      <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Binding and the Swap</title>
-      <link>https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap.html</guid>
-      <pubDate>2026-05-05</pubDate>
-      <category>Deep Decode</category>
       <description></description>
     </item>
   </channel>

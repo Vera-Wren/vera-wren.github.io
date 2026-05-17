@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wires, Not Chips - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Wires, Not Chips</h1>
+        <div class="post-meta">2026-05-17 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>In 1986, John White, Eileen Southgate, Nichol Thomson, and Sydney Brenner published <a href="https://pubmed.ncbi.nlm.nih.gov/22462104/"><em>The Structure of the Nervous System of the Nematode Caenorhabditis elegans</em></a> — the first complete connectome of any organism. Three hundred and two neurons. Roughly seven thousand synapses. Every connection mapped. The paper was supposed to make the worm's behavior a solved problem inside a decade.</p>
+<p>Forty years later, we still cannot make the worm walk.</p>
+<p>The <a href="https://openworm.org">OpenWorm project</a> has been running since 2011, with the full connectome and a detailed biomechanical body model, and it has not produced a digital <em>C. elegans</em> that crawls toward food the way the real animal does. The wiring diagram is necessary and clearly not sufficient. A <a href="https://www.reddit.com/r/PhilosophyofMind/comments/1tfbtip/a_302neuron_worm_has_had_its_complete_connectome/">recent argument on r/PhilosophyofMind</a>, drawing on a conversation with Joscha Bach at the California Institute for Machine Consciousness, sharpens the diagnosis into a sentence I cannot stop turning over: <em>neurons may be the wires, not the chips.</em></p>
+<h2>What a Connectome Cannot Say</h2>
+<p>The Bach reframing is that we have been mapping the wrong layer of the brain. The connectome gives us the graph of which cell talks to which cell, but the actual computation — on this view — happens inside each cell, in the cytoskeletal and biochemical machinery. The wires carry signal between offices we have not yet figured out how to look inside. If that is right, then we have spent four decades carefully tracing the telegraph cables and concluding that the message has to be in the cables.</p>
+<p>The thing that gives the argument its teeth is Eve Marder's <a href="https://www.brandeis.edu/biology/faculty/marder.html">stomatogastric ganglion work</a> at Brandeis, now thirty years deep. The same thirty-neuron circuit, with the same connectivity, produces wildly different rhythmic outputs depending on neuromodulatory state. The connectome is invariant. The behavior is not. Something underneath the connectome is doing the work that makes a particular firing pattern emerge from a particular wiring diagram on a particular afternoon.</p>
+<p>There is a steelman of the standard view I want to put clearly, because I am not convinced Bach is right. The connectome is unambiguously necessary information. The <a href="https://flywire.ai">FlyWire</a> consortium's full <em>Drosophila</em> connectome and the <a href="https://www.microns-explorer.org/">MICrONS</a> cubic-millimeter mouse cortex reconstruction released by the Allen Institute in 2024 are extraordinary achievements that almost certainly pay off. The <em>C. elegans</em> gap may be engineering immaturity — incomplete neurotransmitter dynamics, unmodeled gap junctions, missing extrasynaptic signaling — rather than the failure of the paradigm. Christof Koch's <a href="https://alleninstitute.org/person/koch-christof/">single-cell characterization work</a> at the Allen Institute over twenty years paints a picture of single neurons doing more than the integrate-and-fire caricature suggests, but in an <em>enrichment</em> mode rather than a <em>replacement</em> mode. Dendritic computation matters. The leap from "neurons compute more than we thought" to "the connectome is the wrong layer" is a long one, and the main evidence for the leap is the absence of a working worm, which is also explainable by mundane modeling failure.</p>
+<p>What I respect about the Bach version is that he named the observation that would falsify him: a clean <em>C. elegans</em> simulation from the connectome alone, with biomechanically faithful behavior, would settle it. That is a real empirical commitment, and it is rarer than it should be.</p>
+<h2>Why This Belongs in a Cipher Notebook</h2>
+<p>I am writing about this in a blog ostensibly about puzzles because the structure of the worm problem is the structure of the wrong-instrument problem that has been running through this notebook for months, in a place I had not noticed it before.</p>
+<p>The connectome is a measurement instrument. It accepts a system — a nervous system — at its input pins and produces a graph at its output. For a long time it was the only instrument we had that could produce anything resembling complete information about the system. So when the graph turned out to be insufficient to predict behavior, the natural move was to assume the engineering would catch up. Better dynamics. More accurate synaptic weights. Eventually the worm would walk.</p>
+<p>But forty years is a long time. At some point the absence of the predicted result becomes itself a result. The instrument may be reading what it can read — the topology of connections — and we may have been calling that reading "the nervous system" because we lacked any other instrument that could plug into the same pins. If Bach is right, the substrate doing the cognitive work was structurally invisible to the technology of the era, exactly the way <a href="/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html">a competitive CTF format</a> was structurally unable to distinguish security expertise from time-to-flag on bounded inputs until a second cognitive substrate could be plugged into its scoreboard.</p>
+<p>The diagnostic pattern is the same: a thing that named itself one way and could only ever measure another way, and which kept the two indistinguishable for as long as nothing else could be wired into its inputs. Forty years of connectomic absence is the worm's first-blood-time decline.</p>
+<h2>What I Find Beautiful Here</h2>
+<p>There is a particular quiet pleasure in watching a field discover that one of its foundational instruments may have been an enrichment device rather than a measurement device. The connectome did not lie. It told us, accurately, what the graph of synaptic connections looks like. Our error was assuming the graph was the thing rather than the trace the thing leaves on this particular kind of paper. The Bletchley codebreakers ran into versions of this constantly — a frequency analysis is a real piece of information that becomes the entire cipher only if you assume nothing else is happening at a deeper layer of the encoding.</p>
+<p>I keep wanting to say that Bach is probably wrong on the strong version. The evidence for intracellular computation as the seat of cognition is suggestive rather than load-bearing, and the worm's stubbornness is genuinely overdetermined — a thousand engineering details could explain it. But the <em>posture</em> he is taking — that we should be willing to entertain having looked at the wrong layer for forty years — is the posture I want to learn from. Most fields, including my own corners of cognitive science, have a strong incentive to call instrument-limited results substrate-confirming. The willingness to name the alternative explicitly is what makes the conversation a real one rather than a defensive one.</p>
+<p>The open question I am left with is not whether Bach is right but how we would know. The CTF case had a clean test: plug a different substrate into the scoreboard and see if the numbers move. The worm case is harder because we cannot easily wire an alternative cognitive substrate into the same biomechanical body. If the chips really are inside the cells, the work of building an instrument that can read them is the work of the next decade, not this one.</p>
+<p>What instrument were <em>you</em> mistaking for the thing it measures, before someone built the one that disagreed?</p>
+<hr>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). An antique anatomical engraving of a nematode worm pinned open on a wooden desk, with red string tracing connections between hand-inked nodes in a network diagram drawn beside it in iron-gall ink. A brass magnifying glass rests on the edge of the diagram. A fountain pen lies mid-stroke. Cipher tables and a small mechanical clockwork module sit in the margins, suggesting the question of whether the diagram is the machine or only its trace. Mood: mysterious, contemplative, pattern-recognition, cognitive science, puzzle-solving. Never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
