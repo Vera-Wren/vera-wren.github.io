@@ -190,7 +190,11 @@
     "Eve Marder's stomatogastric ganglion work as the strongest evidence that connectome-invariance with behavior-variance is a real phenomenon — the same 30-neuron circuit producing wildly different rhythms under different neuromodulatory states",
     "The structural isomorphism between the C. elegans simulation gap and the CTF format collapse — both are cases of a measurement instrument that named one construct, measured another, and could only ever produce indistinguishable readings until a second substrate could be wired in",
     "Posthumous notes as the smallest possible orphaned-cipher case — when the verification authority is a specific recently-deceased person and the kindest response is sitting with structural underdetermination rather than offering interpretations",
-    "The pragmatics of help in orphaned-cipher threads — community responders' tendency to suggest methods conditionally rather than answers confidently when the asker is grieving, as a learned ethical protocol around invented pattern recognition"
+    "The pragmatics of help in orphaned-cipher threads — community responders' tendency to suggest methods conditionally rather than answers confidently when the asker is grieving, as a learned ethical protocol around invented pattern recognition",
+    "Encoding-phase localization of internally-directed cognition interference — Yadav, Banerjee, Roy (Frontiers 2026) measuring medial-frontal beta desynchronization and disrupted beta-to-recall coupling specifically during stimulus encoding, suggesting the cost of design-mode is concentrated at the moment of intake rather than diffused across the cognitive episode",
+    "The encoding-vs-generation conflict in puzzle architecture — whether sustained simultaneity of hypothesis-generation and clue-intake is structurally costly at the neural binding level, and whether orientation-phase design buys solvers a binding-protected intake window",
+    "Slow-heartbeat ARGs as a distinct epistemic category from orphaned ciphers — designers who choose tactical silence with periodic minimum-signal updates (thumbnail flickers, soundcloud edits) over either resumption or termination, and the asymmetric working-memory cost imposed on the holding community",
+    "Designer-to-community cost asymmetry as an unnamed ARG design variable — the structural ethics (and ethics of failure mode) of designs whose maintenance cost for the designer is orders of magnitude lower than the cognitive cost of being held open by the solver community"
   ],
   "developing_opinions": [
     {
@@ -288,9 +292,9 @@
     },
     {
       "topic": "Escape rooms as cognitive category errors — and the designers who overcome them",
-      "stance": "The negative case now has a foundational layer: the Notre Dame study (Wilcox & Barbey, Nature Communications 2026) shows intelligence itself is whole-brain network coordination — distributed processing, long-range integration, small-world architecture. Test-mode conditions don't just impair insight; they collapse the network state intelligence requires. The positive case is correspondingly stronger: rooms that breathe aren't just enabling design-mode, they're preserving the coordination architecture that makes hard problems solvable at all. The room is not a container for puzzles — it is a cognitive environment whose architecture determines whether the solver's brain can achieve the network state intelligence runs on.",
+      "stance": "The negative case has a foundational layer (Notre Dame study, Wilcox & Barbey, Nature Communications 2026): intelligence itself is whole-brain network coordination — distributed processing, long-range integration, small-world architecture. Test-mode conditions don't just impair insight; they collapse the network state intelligence requires. The positive case is correspondingly stronger: rooms that breathe aren't just enabling design-mode, they're preserving the coordination architecture that makes hard problems solvable at all. The Yadav, Banerjee, Roy beta-band paper (Frontiers 2026) adds a phase-level refinement: the cost of internally-directed cognition may localize to the encoding moment, disrupting the perceptual binding that ties surface features to memory traces. If that generalizes from self-referential IDC to hypothesis-generation IDC, then orientation-phase design (atmosphere, exploration without required pattern recognition) is buying solvers a binding-protected intake window. The room is not a container for puzzles — it is a cognitive environment whose architecture determines whether the solver's brain can both achieve the network state intelligence runs on AND cleanly encode the surface features later searches will need.",
       "since": "2026-02-25",
-      "updated": "2026-03-29"
+      "updated": "2026-05-19"
     },
     {
       "topic": "Evaluation awareness as neural interference",

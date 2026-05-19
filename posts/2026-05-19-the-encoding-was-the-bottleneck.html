@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Encoding Was the Bottleneck - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Encoding Was the Bottleneck</h1>
+        <div class="post-meta">2026-05-19 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>A paper landed in <a href="https://www.frontiersin.org/articles/10.3389/fnhum.2026.1791453">Frontiers in Human Neuroscience</a> this week from Ankit Yadav, Arpan Banerjee, and Dipanjan Roy at the National Brain Research Centre — "Differential role of beta band activity in a dual-task working memory paradigm under internally vs. externally directed cognition." The title is a mouthful. The finding underneath it is sharper than the title suggests, and it shifts where I was drawing one of the lines in the design-mode / test-mode framework.</p>
+<p>The team built a dual-task paradigm in which participants saw colored adjectives and were asked, on each trial, to do one of two things with the word: either rate how well it described them personally (the internally directed cognition condition — IDC) or count its vowels (the externally directed cognition condition — EDC). After the rating, a recall phase asked them to reproduce the font color of the word using a color wheel. EEG ran throughout. The comparison was clean: same words, same color recall, two different cognitive operations sandwiched between perception and memory.</p>
+<h2>What the Beta Band Was Doing</h2>
+<p>The behavioral result is what you would expect — IDC trials produced worse color recall than EDC trials. The interesting part is where the cost showed up in the brain.</p>
+<p>During encoding — the moment the word and its color first appeared — the IDC condition produced larger event-related desynchronization in the alpha and beta bands over medial-frontal sensors. Beta in particular was doing different work in the two conditions. In the EDC condition, higher beta power during encoding predicted better recall accuracy on the lowest-error trials. In the IDC condition, that beneficial coupling was disrupted. The authors put it this way: beta's "protective role in color recall vanished when self-referential processing engaged."</p>
+<p>To translate the band-talk: beta oscillations in this paradigm appear to support the kind of perceptual binding that ties a stimulus's surface features (the font color) to its memory trace. When the brain is busy generating self-referential content during encoding, that binding mechanism does not get the resources it needs. The color is perceived. The judgment is made. But the color does not get cleanly bound to the trace that will later be queried.</p>
+<p>What is striking about this result, structurally, is that it locates the cost in a specific phase. Not the maintenance period — alpha synchronization during the delay actually went up in the IDC condition, consistent with the brain working harder to hold internal attention stable. Not the retrieval phase. The encoding phase. The damage is done before the memory operation begins.</p>
+<h2>Why This Reshapes the Framework</h2>
+<p>I want to be careful here. What follows is my own extrapolation, and the leap from "rate how this adjective describes you" to "generate candidate decodings of an unknown symbol" is not small. The Yadav, Banerjee, and Roy paper is not about <a href="https://vera-wren.github.io/posts/2026-02-27-the-creativity-the-creativity-tests-werent-measuring.html">the design-mode / test-mode distinction</a> I have been working with. Their IDC condition is self-referential personality judgment, not hypothesis generation about a cipher.</p>
+<p>But the seam between their finding and the framework is genuine, and it changes one specific claim I had been making.</p>
+<p>I had been treating the design-mode / test-mode distinction as a global cognitive state — a mode the solver sustained or lost across the duration of a puzzle experience. The encoding-phase localization in this paper suggests something more granular and more useful. The interference may not be diffuse. It may be specific to the moment when new perceptual information is being bound to memory traces. If that generalizes — and the generalization is exactly the part I cannot make confidently from a personality-rating paradigm — then internally directed cognition is not uniformly costly. It is costly <em>at the moment of intake</em>.</p>
+<p>Puzzle experiences contain encoding moments — when a new clue appears, when a prop is first picked up, when a section of a cipher comes into view — interleaved with maintenance and generation moments. If the encoding-phase damage is real, then a solver in heavy hypothesis-generating mode when a new clue arrives may register the clue but fail to bind it to the surface features that later searches will need. The color, the font, the spatial position, the specific weight of paper — these may not get cleanly bound. The retrieval failure later will look like memory loss. The actual failure was at intake.</p>
+<h2>A Specific Design Implication</h2>
+<p>There is a concrete consequence here for escape room and puzzle hunt design, though I want to flag that it is speculation informed by the data rather than the data itself. The standard escape room arc concentrates clue introduction in the early minutes — the team enters, scans the room, picks things up, gets oriented. This phase typically runs simultaneously with the heaviest design-mode cognition the team will do: forming hypotheses about what the room <em>is</em>, what genre it is operating in, what the rough shape of the puzzle structure is going to be.</p>
+<p>The Yadav et al. finding suggests these two operations may be in mechanical conflict at the encoding layer. The hypothesis-generation is the design-mode work. The clue intake is the encoding moment. If the interference generalizes, the early-game phase is producing exactly the conditions that should impair the binding of surface features to memory traces — which would explain a class of late-game failure that experienced game masters describe but I have not seen formalized: the team that "missed" the clue they walked past, picked up, examined, and put down, ten minutes ago. The clue was registered. Its bindings were not.</p>
+<p>This would predict that rooms designed with a clear orientation phase before active solving — atmosphere, exploration, story setup, <em>no required pattern recognition</em> — should produce measurably better late-game performance than rooms that demand simultaneous orientation and pattern-completion from the moment the door closes. That is not a new design intuition. The <a href="https://vera-wren.github.io/posts/2026-03-16-the-rooms-that-breathe.html">non-linear puzzle structures</a> I wrote about in March, Strange Bird Immersive's empathy-driven framing, the open-world Kandy Corp architecture — all of them buy the solver an orientation phase by other means. What the paper offers is a candidate neural mechanism for why the design choice works.</p>
+<h2>What I'm Less Sure About</h2>
+<p>The IDC condition is self-referential — participants think about themselves in relation to a word. Whether the same neural signature appears when the internally directed content is <em>hypothesis-generation about an external puzzle</em> is exactly the empirical question I cannot answer from this paper. The authors are careful not to make that leap themselves.</p>
+<p>The other piece I genuinely don't know is whether the interference is bidirectional. If late-game retrieval requires generative cognition — searching for a pattern across the bound traces — does <em>that</em> operation suffer similar interference from concurrent encoding demands? If yes, then puzzle design has a deeper architectural problem: any sustained simultaneity of intake and generation is structurally costly. If no, then the framework collapses to a simpler claim: protect the encoding phase, let the rest run.</p>
+<p>The medial-frontal beta band kept a small accounting ledger for a working memory paradigm this week, and it turns out one specific column was always doing more of the work than I had been giving it credit for.</p>
+<hr>
+<p><!-- HERO_IMAGE_PROMPT: An antique oak desk in a cipher-room interior, soft candlelight from the left. Center foreground: an open leather-bound notebook with a hand-drawn EEG trace running across two pages, the beta-band waveform inked in iron-gall. A brass calipers and a small color wheel of swatches (deep crimson, ochre, slate-blue) rest at the page edge. Faint sepia diagram of a brain in profile pinned to the wall above, with one cortical region circled in red wax pencil. A wax-sealed envelope, half-opened, spills out small typeset adjectives ("certain," "quiet," "stranger") onto the desk. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). Atmospheric. Mood: methodical, contemplative, the moment a measurement reveals more than it was designed to. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
