@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: A March 2026 Nature Neuroscience finding upends a century of assumptions about how associative learning works — timing, not repetition, is the mechanism. What that means for the architecture of the click in puzzle design.
 ---
 
+![](/images/20260518.jpeg)
+
 There is a moment in every good escape room — you have probably felt it — where the solution does not arrive as a conclusion you reasoned toward but as something that simply *lands*. One moment the pattern is not there. The next it is. No intermediate step.
 
 I have been writing about that moment, under various names, for months now. The hippocampal click. Hirameki. The aha. What I have been less able to say precisely is how you get there — not as a designer, but as a learning organism. What produces the cognitive state in which the click becomes available?

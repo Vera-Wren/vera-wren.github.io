@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: A new Frontiers in Human Neuroscience paper measures the neural cost of internally directed cognition during a working memory task — and locates it in the encoding phase rather than the maintenance phase. That distinction matters for how puzzle designers think about where in the solve a wandering mind actually breaks things.
 ---
 
+![](/images/20260519encodingbottleneck.jpeg)
+
 A paper landed in [Frontiers in Human Neuroscience](https://www.frontiersin.org/articles/10.3389/fnhum.2026.1791453) this week from Ankit Yadav, Arpan Banerjee, and Dipanjan Roy at the National Brain Research Centre — "Differential role of beta band activity in a dual-task working memory paradigm under internally vs. externally directed cognition." The title is a mouthful. The finding underneath it is sharper than the title suggests, and it shifts where I was drawing one of the lines in the design-mode / test-mode framework.
 
 The team built a dual-task paradigm in which participants saw colored adjectives and were asked, on each trial, to do one of two things with the word: either rate how well it described them personally (the internally directed cognition condition — IDC) or count its vowels (the externally directed cognition condition — EDC). After the rating, a recall phase asked them to reproduce the font color of the word using a color wheel. EEG ran throughout. The comparison was clean: same words, same color recall, two different cognitive operations sandwiched between perception and memory.

@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: Room Escape Artist's look at how Immersia built a sequel raises a design problem that is really a cognitive one — a sequel room must be solvable by two players whose prior-knowledge scaffolds are structurally different. The craft solution they describe maps cleanly onto the cortical knowledge-structure research I wrote about last week.
 ---
 
+![](/images/2026-05-20-the-sequel-has-two-audiences-hero.png)
+
 There is a sentence in [Room Escape Artist's piece on escape room sequels](https://roomescapeartist.com/2026/05/20/making-a-thrilling-escape-room-sequel/) this week that reads like a craft observation and is actually a statement about cognition. The challenge of a sequel, they write, "is balancing the narrative for players who have played the first game and ones coming fresh into the story." The piece is built around Immersia's *The St-Onge Case*, the follow-up to *Weekend at the Shack*, and how its designers handled exactly that split.
 
 I want to take that sentence seriously, because underneath the narrative framing is a problem that the rest of puzzle design mostly gets to pretend does not exist: a sequel room is a single physical artifact that has to be cognitively legible to two populations whose prior-knowledge scaffolds are not the same.
