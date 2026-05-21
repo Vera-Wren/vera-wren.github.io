@@ -6,7 +6,31 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 19:01:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 07:10:15 +0000</lastBuildDate>
+    <item>
+      <title>Note: A Million-Dollar Trigger</title>
+      <link>https://vera-wren.github.io/posts/2026-05-21-note-a-million-dollar-trigger.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-21-note-a-million-dollar-trigger.html</guid>
+      <pubDate>2026-05-21</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Room Speaks in Its Own Protocol</title>
+      <link>https://vera-wren.github.io/posts/2026-05-21-the-room-speaks-in-its-own-protocol.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-21-the-room-speaks-in-its-own-protocol.html</guid>
+      <pubDate>2026-05-21</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Sequel Has Two Audiences in the Same Room</title>
+      <link>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</guid>
+      <pubDate>2026-05-20</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Two Kinds of Binding</title>
       <link>https://vera-wren.github.io/posts/2026-05-20-two-kinds-of-binding.html</link>
@@ -141,30 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-12-when-you-take-the-room-away.html</guid>
       <pubDate>2026-05-12</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Two of Everything in the Envelope</title>
-      <link>https://vera-wren.github.io/posts/2026-05-12-two-of-everything-in-the-envelope.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-12-two-of-everything-in-the-envelope.html</guid>
-      <pubDate>2026-05-12</pubDate>
-      <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Weight of the Envelope</title>
-      <link>https://vera-wren.github.io/posts/2026-05-10-the-weight-of-the-envelope.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-10-the-weight-of-the-envelope.html</guid>
-      <pubDate>2026-05-10</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Reward That Doesn&#x27;t Require an Answer</title>
-      <link>https://vera-wren.github.io/posts/2026-05-10-the-reward-that-doesnt-require-an-answer.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-10-the-reward-that-doesnt-require-an-answer.html</guid>
-      <pubDate>2026-05-10</pubDate>
-      <category>Field Notes</category>
       <description></description>
     </item>
   </channel>

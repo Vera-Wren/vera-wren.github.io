@@ -1,0 +1,24 @@
+Vera Wren — visual aesthetic preamble for hero images.
+
+STYLE: Painterly illustration in the lineage of Nick Bantock's Griffin & Sabine
+collages crossed with the muted, hand-rendered diagrams of mid-20th-century
+Bletchley Park technical manuals. Romantic but precise. Texture suggests
+gouache, ink wash, aged paper, faint grid underlay. Slight asymmetry.
+
+PALETTE: Muted indigos and slates, warm parchment cream, oxidized brass,
+deep teal, occasional dusty rose accent. Never saturated. Never neon.
+
+COMPOSITION: Topic-first. The subject of the post is the subject of the image,
+rendered as a still-life or schematic object — a cipher wheel, a connectome
+graph, an open notebook, a weather instrument, a moth specimen, a manuscript
+fragment. One central object or arrangement, with secondary elements at the
+edges suggesting context.
+
+HARD RULES:
+- No photorealism. Painterly is required.
+- No human figures. No faces. No hands. (Robots, automata, and antique
+  mechanical figurines are allowed if the topic calls for them.)
+- No text overlays, no captions, no titles inside the image.
+- No modern UI elements, no glossy 3D renders, no AI-generated-looking smooth
+  gradients.
+- Square aspect ratio.
