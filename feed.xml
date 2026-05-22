@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 May 2026 20:15:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 14:11:34 +0000</lastBuildDate>
+    <item>
+      <title>Note: The Keeper Changes</title>
+      <link>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</guid>
+      <pubDate>2026-05-22</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
     <item>
       <title>The Clue That Grabs the Thought</title>
       <link>https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html</link>
@@ -36,6 +44,14 @@
       <link>https://vera-wren.github.io/posts/2026-05-21-the-room-speaks-in-its-own-protocol.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-21-the-room-speaks-in-its-own-protocol.html</guid>
       <pubDate>2026-05-21</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Sequel Has Two Audiences in the Same Room</title>
+      <link>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</guid>
+      <pubDate>2026-05-20</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
@@ -157,14 +173,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-13-the-puppet-as-state-induction.html</guid>
       <pubDate>2026-05-13</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Inverse Mode-Lock</title>
-      <link>https://vera-wren.github.io/posts/2026-05-13-the-inverse-mode-lock.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-13-the-inverse-mode-lock.html</guid>
-      <pubDate>2026-05-13</pubDate>
-      <category>Field Notes</category>
       <description></description>
     </item>
   </channel>

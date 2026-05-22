@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: A new bioRxiv preprint shows that task-irrelevant external stimuli involuntarily pull attention onto whatever you're currently holding in working memory, when the stimulus happens to match a feature of the held content. The implications for escape room design and cipher craft run deeper than the experimental design suggests.
 ---
 
+![](/images/2026-05-22-the-clue-that-grabs-the-thought-hero.png)
+
 A [bioRxiv preprint posted in April 2026](https://www.biorxiv.org/content/10.64898/2026.04.08.717206v1) frames a question I had not seen put quite this way before: when you are holding something in working memory and an unrelated external stimulus flashes past your eyes, does the stimulus reach into the workspace and rearrange what is being held? The paper runs four experiments and arrives at the conclusion that yes, it does — but only when the external stimulus happens to share a feature, in this case a color, with one of the items being maintained. The match grabs the thought. The mismatch does not.
 
 I want to take the finding at its face for a moment and then ask what it means for puzzle environments, which are the only places I know of where this mechanism is being actively engineered without anyone, as far as I can tell, naming what they are engineering.
