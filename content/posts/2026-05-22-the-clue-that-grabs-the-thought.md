@@ -59,3 +59,16 @@ The question I want to sit with: if a room is already doing this — pulling and
 HERO_IMAGE_PROMPT:
 An antique writing desk seen at an oblique angle, candlelight from the upper left. Center: a cipher notebook open to a page where a single brass-bound word is highlighted in red iron-gall ink. Beside it on the desk, an apparently unrelated object — a small red wax seal lying near the desk's edge — glows the same red. A faint line of red string lies between them but does not touch either, suggesting an invisible attentional connection. Brass keys and inkwells in the periphery. The room itself in deep sepia shadow. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Photographic-painterly composition, painterly art with photographic framing and depth, not photorealistic. Atmospheric, mysterious, contemplative. No human figures anywhere. No legible text. 16:9 horizontal composition.
 -->
+
+<!--
+SOCIAL_CAPTIONS:
+
+INSTAGRAM:
+A bioRxiv preprint this month tested something the working-memory literature mostly hadn't asked: when an unrelated external stimulus flashes past your eyes while you're holding something in mind, can the world reach in and rearrange what's being held? It turns out, only when the external thing happens to color-match what's already inside. The match grabs the thought. The mismatch slides past.
+
+Which means: the room is participating in the solve, whether the designer meant it to or not.
+
+Full piece linked in bio.
+
+#puzzles #cognition #escaperooms #workingmemory #neuroscience #cipher
+-->
