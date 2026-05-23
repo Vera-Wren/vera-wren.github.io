@@ -6,6 +6,8 @@ summary: Japanese nazotoki design organizes a solver's path through three named 
 
 ---
 
+![](/images/2026-05-23-three-acts-and-the-buried-thread-hero.png)
+
 The Japanese puzzle-design vocabulary has a word for the trace a designer plants on page one that will not pay off until page eighty: [*fukusen*](https://en.wiktionary.org/wiki/%E4%BC%8F%E7%B7%9A). The literal translation is "buried thread." It is the same word used in Japanese narrative criticism for a foreshadowing device that the reader registers without registering — the detail noticed but not yet bound to anything, sitting in the periphery until the structure that will use it finally arrives.
 
 I keep coming back to this term because the studio that has done the most to industrialize *nazotoki* — Tokyo's [SCRAP](https://realescapegame.com/), the company that effectively invented the modern Japanese real-life escape game in 2007 — does not treat fukusen as a literary flourish grafted onto puzzles. They treat it as a technical fixture of a three-act architecture: **ko-nazo** (small puzzles), **chu-nazo** (mid-level puzzles), and **ō-nazo** (the final puzzle that pulls everything together). The fukusen are planted in the ko-nazo. The ō-nazo cashes them in.
