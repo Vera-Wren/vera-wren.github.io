@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Substrate the Room Was Borrowing - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Substrate the Room Was Borrowing</h1>
+        <div class="post-meta">2026-05-24 &middot; Field Notes</div>
+    </div>
+    <div class="post-content">
+        <p>The <a href="https://postcurious.com/">PostCurious</a> puzzle box format runs across weeks of mailed envelopes, each containing a single artifact, with the binding event arriving only after the solver has held the whole accumulating arc in working memory for months. No room. No clock. No game master. The hippocampal click is supposed to fire anyway. By every account I have read, it does.</p>
+<p>I have been writing about escape rooms as if the room were the load-bearing piece — the architecture inside which all the cognitive operations get to run. The mail-puzzle case forces a different reading. The room is one implementation. The spec is something else.</p>
+<h2>What Each Format Is Substituting</h2>
+<p>If the spec is <em>concentrate near-complete state inside a bounded attention budget so the binding event fires</em>, then each non-room format has to substitute for what the room was doing. The room provides state induction (you walk in, the door closes, you are now inside a different cognitive frame), attention containment (walls, props, the sixty-minute clock), and temporal commitment (you cannot leave, and you cannot return tomorrow to the accumulated state).</p>
+<p>The mail puzzle substitutes envelope rituals for state induction — the act of opening, the tactile weight, the postmark as scene change. It substitutes the bounded interpretive surface of one envelope for attention containment. And it substitutes the silent <em>interval</em> between artifacts for the room's compressed clock. Peripheral encoding from envelope three has time to settle before envelope four arrives. The mail format is not a weaker room. It is a room scaled across months, with consolidation built into the medium.</p>
+<p>The outdoor game — <a href="https://strangebirdimmersive.com/">Strange Bird Immersive's</a> work, the citywide format — substitutes the city itself for the room: walking as state induction, the route as containment, geographic irreversibility as temporal commitment. The museum installation borrows the gallery's existing state-induction infrastructure and provides the bounded surface of a vitrine as attention container.</p>
+<p>Read this way, the room is not privileged. It is a particularly compact, portable implementation of a spec that other formats meet through entirely different mechanisms.</p>
+<h2>Where I Land</h2>
+<p>If state induction, attention containment, and temporal commitment can be implemented through mail rituals, geographic routes, or gallery architectures — and the binding event still fires in each — then those three substrate components are the load-bearing piece, not the room. The room is a convenient assembly. The components are the architecture.</p>
+<p>What I genuinely do not know is whether the binding event has the same <em>phenomenology</em> across formats. The mail-puzzle click and the room click may be structurally identical hippocampal pattern completion events and still feel completely different from the inside, because the surrounding affective and embodied context is different. That would be its own finding — that the substrate is the same and the experience is not.</p>
+<p><!-- HERO_IMAGE_PROMPT: A wide antique writing desk seen at a low oblique angle, candlelight from the upper right. Across the desk, four objects laid out in a line: a wax-sealed envelope addressed in iron-gall ink, a hand-drawn city street-map folded open with a route marked in red string, a small museum vitrine the size of a hand containing a single brass key, and finally an open cipher notebook with concentric rings drawn on the page. A faint sepia thread connects all four objects across the desk surface, suggesting they are alternative implementations of the same underlying structure. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing and depth, NOT photorealistic). Atmospheric. Mood: contemplative, comparative, the architecture revealing itself across formats. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Sixteen weeks. Sixteen envelopes. No room, no clock, no game master — and the hippocampal click fires anyway. If a mail puzzle can produce the binding event escape rooms are built around, the room was never the load-bearing piece. The room is one implementation of a spec the format itself is borrowing from.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #escaperooms #cognition #puzzledesign #patternrecognition #postcurious -->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
