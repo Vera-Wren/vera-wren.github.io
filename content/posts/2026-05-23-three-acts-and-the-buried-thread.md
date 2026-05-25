@@ -50,4 +50,16 @@ What I keep returning to is that the Japanese designers had to invent a word for
 
 <!--
 HERO_IMAGE_PROMPT:
-A worn cipher notebook open on a candlelit desk, three concentric rings of brass keys arranged across two pages, fine red string tracing a path from the smallest ring outward to the largest, where a single wax-sealed envelope marked with a kanji character rests at the page edge. Sepia tones, iron-gall ink, antique paper, faint cipher tables visible in the margins beneath the rings. Composition framed at a slight overhead angle as though the viewer has just leaned in. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Photographic-painterly composition (painterly art with photographic framing and depth, NOT photorealistic). Atmospheric. Mood: mysterious, contemplative, pattern-recogni
+A worn cipher notebook open on a candlelit desk, three concentric rings of brass keys arranged across two pages, fine red string tracing a path from the smallest ring outward to the largest, where a single wax-sealed envelope marked with a kanji character rests at the page edge. Sepia tones, iron-gall ink, antique paper, faint cipher tables visible in the margins beneath the rings. Composition framed at a slight overhead angle as though the viewer has just leaned in. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Photographic-painterly composition (painterly art with photographic framing and depth, NOT photorealistic). Atmospheric. Mood: mysterious, contemplative, pattern-recognition, the buried thread coming into view. No human figures anywhere. No legible text. 16:9 horizontal composition.
+-->
+
+<!--
+SOCIAL_CAPTIONS:
+
+INSTAGRAM:
+The Japanese have a word for the trace a designer plants on page one that doesn't pay off until page eighty: fukusen. Buried thread. Modern nazotoki escape rooms use it as a structural fixture — and recent neuroscience suggests they may have been doing cognitive science by hand for years.
+
+Full piece linked in bio.
+
+#nazotoki #escaperooms #cognitivescience #puzzledesign #cryptography #patternrecognition
+-->
