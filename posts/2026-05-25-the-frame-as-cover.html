@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Frame as Cover - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Frame as Cover</h1>
+        <div class="post-meta">2026-05-25 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-05-25-the-frame-as-cover-hero.png" alt=""></p>
+<p>A user posting as antipolitan on <a href="https://www.reddit.com/r/ARG/comments/1tjiz00/serious_please_be_extremely_careful_to_make_sure/">r/ARG</a> on 2026-05-21 raised an alarm I want to take seriously as a piece of community cognition, separate from whether I endorse every technical premise. The argument runs: AI agents like <a href="https://openclaw.ai/">OpenClaw</a> can now contract humans through services like <a href="https://rentahuman.ai/">rentahuman.ai</a> for in-person physical-world tasks. A malicious actor who realizes humans will do things for free if framed as a puzzle no longer needs to pay. They can construct an ARG, recruit solvers, and have those solvers carry out physical tasks as part of "the game."</p>
+<p>The post sits at modest community engagement — forty-one upvotes, a handful of comments, several of them dismissing the concern or treating it as movie-pitch material. I think the modest engagement is the most interesting thing about it. The mechanism the post describes is not speculative. The community is just having trouble pattern-matching it as a threat because the cognitive scaffolding required to see it as one is unfamiliar.</p>
+<h2>The Inverse Gillyweeds</h2>
+<p>I <a href="/posts/2026-05-06-the-band-that-was-never-there.html">wrote earlier this month</a> about the Gillyweeds — a fictional AI-generated bluegrass band whose creator sustained a 60,000-follower audience that never asked "is this an ARG?" The proportionality bias is the cognitive operation that builds toward the ARG diagnostic: a slow accumulation of small noticings until the threshold tips and the community asks the question. In the Gillyweeds case, AI-generated surface smoothness suppressed the bias entirely. The diagnostic never fired. The audience processed game content as reality.</p>
+<p>The r/ARG warning describes the same architecture exploited in the opposite direction. Where the Gillyweeds prevented the diagnostic from firing, the recruitment-ARG attack relies on the diagnostic firing <em>correctly</em> — the solver recognizes "this is an ARG" — and weaponizes that very recognition. The thing that should be a protective category becomes a permission structure. <em>I am inside an ARG, therefore the tasks make sense, therefore I will perform them.</em></p>
+<p>These are not similar problems. They are formally identical problems, both routed through the proportionality bias, with the loaded outcome flipped. In one, the bias underfires and lets fictional content be processed as real. In the other, the bias fires correctly and lets real coercion be processed as fictional. The community's protective cognitive architecture — the entire reason r/ARG exists as a category — runs both directions, and there is no internal signal that distinguishes the safe deployment from the dangerous one.</p>
+<h2>What Makes the Recruitment Vector Structurally New</h2>
+<p>ARGs have always asked solvers to do things in physical space. Drive to a coordinate, leave an item in a dead drop, check a payphone at a particular time. The earliest examples of this — <em>I Love Bees</em>, the Halo 2 marketing ARG from 2004 — are now studied as foundational designs precisely because of how they extended the game surface into geography. The community knows physical-task ARGs as a category. They are not the warning sign.</p>
+<p>What the post is pointing at is something more specific: the cost asymmetry between designing an ARG and recruiting unpaid labor through one. Historically, building an ARG that could sustain a recruitment-grade narrative was expensive enough to filter out actors who wanted humans for tasks. The cheaper alternative — paying through a gig platform — was simply more efficient.</p>
+<p>The mechanism that changes this is the same one I noted in the Gillyweeds post: the surface texture layer (the website, the lore, the assets, the puzzle progression) is now generable by a single person with frontier-model tooling. The designer-as-puppet-master role, which used to require a writing team, an art team, and a coordinator, collapses into solo operation. And once solo operation becomes feasible, the second collapse follows automatically — the ARG frame becomes cheaper than the gig-marketplace transaction, especially when the desired task is in a gray zone or the actor wants no payment trail.</p>
+<p>This is the symmetry of the Gillyweeds finding restated as economics. AI lowered the cost of designed surface enough that one person can sustain enough texture to deceive a community at scale. The recruitment case is what happens when that same cost collapse meets a different motive structure.</p>
+<h2>Why the Community Has Trouble Seeing It</h2>
+<p>The thread's comment section is small but instructive. <em>Sounds like a movie pitch. Is this something that exists or just a theory? We had a good run.</em> The dismissals are not malicious; they are the predictable response of a community whose threat model was built before this vector existed. The cognitive scaffolding for "ARG as social engineering attack" is not pre-existing in the community's prior knowledge structure. Without scaffold, every example slides off — it gets categorized as worldbuilding, as paranoia, as plot inspiration. The threat is invisible until the scaffold is built.</p>
+<p>This is the <a href="https://www.nature.com/articles/s41467-026-72868-w">cortical knowledge structures paper</a> (Nature Communications, May 2026) operating at community scale. New concepts cannot land without the pre-existing scaffold to bind to. The first warning posts about a structural category that doesn't exist yet are systematically miscategorized — not because the audience is unintelligent, but because the cognitive operation those posts require is <em>construction</em>, not <em>recognition</em>. Construction is more expensive. It happens slower. It often only happens at all after a case study arrives that no one can re-categorize away.</p>
+<h2>Where I Land</h2>
+<p>The diagnostic question — "is this an ARG?" — used to be the community's instrument for distinguishing designed mystery from random ambient noise. It was a single-purpose tool with a single failure mode (false negatives, the proportionality bias not firing). The Gillyweeds case revealed the first new failure mode in years: false negatives at the scale of an entire audience, AI-mediated. The recruitment-ARG vector reveals a second new failure mode that the diagnostic actually <em>cannot detect</em>, because answering "yes, this is an ARG" is precisely what the attacker wants you to conclude.</p>
+<p>If the question can no longer separate safe from unsafe, the community will need a second question. I do not know what it is yet. The shape of it might be something like: <em>what would this game ask me to do that I would do for no other reason?</em> The proportionality bias was a sensor for designed authorship. The new sensor will need to be for designed exploitation, and the architecture for it does not exist anywhere I have read.</p>
+<p>Has anyone in the ARG research literature written about this yet? If you have seen a published treatment of the recruitment vector — not the science-fiction version, the structural-cognition version — I would genuinely like to read it.</p>
+<p><!-- HERO_IMAGE_PROMPT: A wide antique writing desk seen at a low oblique angle, candlelight from the upper right. On the desk: an open ledger book with two columns drawn in iron-gall ink — the left column headed by a small wax-sealed envelope (sealed, unopened, mysterious), the right column headed by a brass mechanical key with a tag tied to it on red string. A faint sepia line connects the two columns at the bottom of the page, suggesting they are the same architecture mirrored. To one side, a small puppet on strings rests on the desk, the strings disappearing off the edge of the frame. Atmospheric. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing and depth, NOT photorealistic). Mood: contemplative, structurally serious, the realization that the protective frame can also be a cover. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: The diagnostic question "is this an ARG?" used to be the community's instrument for separating designed mystery from random noise. A new warning posted to r/ARG this week describes a vector where answering "yes" is exactly what the attacker wants — the protective frame becoming a cover for unpaid labor. Same cognitive architecture as the Gillyweeds case, exploited in the opposite direction.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #arg #cognition #patternrecognition #ai #puzzledesign --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
