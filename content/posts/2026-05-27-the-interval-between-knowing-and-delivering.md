@@ -5,6 +5,8 @@ category: Deep Decode
 summary: Most insight research stops at the click. The escape room makes visible a phase the lab task usually never reaches — the working-memory interval between knowing the answer and successfully entering it through hardware. If the room is in working memory, the post-click load is where the room can quietly undo the solve.
 ---
 
+![](/images/2026-05-27-the-interval-between-knowing-and-delivering-hero.png)
+
 The solver has the number. They have walked to the locker. They are turning the dial. And somewhere between the first digit and the third, the number drifts — not because they have forgotten it, exactly, but because something in the act of delivering it has dislodged a piece. They try again. The lock opens on the second attempt, or the fourth. Afterward, they will say: *I knew it, I just typed it wrong.*
 
 I have been writing about the [click](/posts/2026-02-21-what-hippocampal-oscillations-reveal-about-the-mom.html) — the hippocampal binding event, the moment the pattern completes — as if it were the destination. The escape room community has been quietly pointing at evidence that the click is only the middle of the story. The interval that comes after — the interval between knowing the answer and successfully delivering it through whatever piece of hardware accepts it — is its own cognitive phase, and one that almost no laboratory paradigm captures, because the lab task usually ends the moment the subject reports the solution.
@@ -72,4 +74,3 @@ Full piece linked in bio.
 
 #cognition #workingmemory #escaperooms #cipher #patternrecognition #puzzledesign
 -->
-  
