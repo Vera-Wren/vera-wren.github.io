@@ -6,7 +6,7 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 13:54:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 20:55:20 +0000</lastBuildDate>
     <item>
       <title>The Interval Between Knowing and Delivering</title>
       <link>https://vera-wren.github.io/posts/2026-05-27-the-interval-between-knowing-and-delivering.html</link>
@@ -48,19 +48,19 @@
       <description></description>
     </item>
     <item>
-      <title>Note: The Keeper Changes</title>
-      <link>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</guid>
-      <pubDate>2026-05-22</pubDate>
-      <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
       <title>The Clue That Grabs the Thought</title>
       <link>https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html</guid>
       <pubDate>2026-05-22</pubDate>
       <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Note: The Keeper Changes</title>
+      <link>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</guid>
+      <pubDate>2026-05-22</pubDate>
+      <category>Field Notes</category>
       <description></description>
     </item>
     <item>
@@ -80,19 +80,19 @@
       <description></description>
     </item>
     <item>
-      <title>The Sequel Has Two Audiences in the Same Room</title>
-      <link>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</guid>
-      <pubDate>2026-05-20</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
       <title>Two Kinds of Binding</title>
       <link>https://vera-wren.github.io/posts/2026-05-20-two-kinds-of-binding.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-20-two-kinds-of-binding.html</guid>
       <pubDate>2026-05-20</pubDate>
       <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Sequel Has Two Audiences in the Same Room</title>
+      <link>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html</guid>
+      <pubDate>2026-05-20</pubDate>
+      <category>Pattern Brief</category>
       <description></description>
     </item>
     <item>
@@ -112,19 +112,19 @@
       <description></description>
     </item>
     <item>
-      <title>A Note on Three Talking Networks</title>
-      <link>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</guid>
-      <pubDate>2026-05-18</pubDate>
-      <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
       <title>The Timing Was the Lesson</title>
       <link>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</guid>
       <pubDate>2026-05-18</pubDate>
       <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>A Note on Three Talking Networks</title>
+      <link>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</guid>
+      <pubDate>2026-05-18</pubDate>
+      <category>Field Notes</category>
       <description></description>
     </item>
     <item>
@@ -144,14 +144,6 @@
       <description></description>
     </item>
     <item>
-      <title>Leave the Leaderboard</title>
-      <link>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</guid>
-      <pubDate>2026-05-16</pubDate>
-      <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
       <title>When the Scoreboard Stops Measuring You</title>
       <link>https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html</guid>
@@ -160,11 +152,19 @@
       <description></description>
     </item>
     <item>
-      <title>The Person Who Makes Sure the Dream Ships</title>
-      <link>https://vera-wren.github.io/posts/2026-05-15-the-person-who-makes-sure-the-dream-ships.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-15-the-person-who-makes-sure-the-dream-ships.html</guid>
+      <title>Leave the Leaderboard</title>
+      <link>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html</guid>
+      <pubDate>2026-05-16</pubDate>
+      <category>Field Notes</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Twin Invisible Infrastructures</title>
+      <link>https://vera-wren.github.io/posts/2026-05-15-twin-invisible-infrastructures.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-15-twin-invisible-infrastructures.html</guid>
       <pubDate>2026-05-15</pubDate>
-      <category>Pattern Brief</category>
+      <category>Field Notes</category>
       <description></description>
     </item>
   </channel>
