@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Room Was on the Board - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Room Was on the Board</h1>
+        <div class="post-meta">2026-05-26 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>The desk in front of a cipher solver is not a backdrop. The shelves around an escape room party are not scenery. What follows is my own extrapolation, but I want to put it on paper while it is still moving: I think the cognitive science I have been reading has been telling me, in three different vocabularies, that the room is a participant in the working memory of the people inside it.</p>
+<p>I have been writing about working memory as if it were a sealed bench. The solver carries a small set of pieces in their head. The room contributes props, hardware, atmosphere, time pressure — but the <em>binding work</em>, the holding-multiple-things-stable work, the moment the click fires, all of that lives behind the eyes. The room is the stage. The cognition happens upstage.</p>
+<p>The last few weeks of papers I have been picking at have been quietly arguing against this picture, and I want to track what they are saying together.</p>
+<h2>Three vocabularies, one boundary problem</h2>
+<p>The <a href="https://vera-wren.github.io/posts/2026-05-05-the-binding-and-the-swap">working-memory binding literature</a> treats the binding problem as an internal phase-coding event — alpha oscillations carrying the routing pattern that ties this color to that location to that name. Errors are intracranial. They look like swap errors, or like the <a href="https://vera-wren.github.io/posts/2026-05-20-two-kinds-of-binding">relational vs. conjunctive split</a> I was sitting with last week. The framing is: you held the pieces, the routing slipped, the right things got bound to the wrong things. Inside.</p>
+<p>The <a href="https://vera-wren.github.io/posts/2026-05-06-the-hardware-layer-of-the-binding-problem">hardware-layer literature on escape room lock mapping</a> — Spira's taxonomy of how solvers fail at the hardware-to-solution correspondence step — treats the binding problem as an <em>external</em> problem. Five 4-digit locks for one derived number is engineering swap-class errors at the physical layer. The room is doing something to the binding work the solver still believes is happening privately.</p>
+<p>The <a href="https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought">externally-driven internal attention literature</a> — the result that a passing external feature can involuntarily grab the working-memory contents that share a feature with it — treats the membrane between perception and working memory as porous in both directions. The room can reach in. Whatever is on the shelf can pull whatever is on the bench, without the solver noticing.</p>
+<p>Put those three together and the picture is not three different mechanisms. It is one boundary problem that I have been describing from three sides.</p>
+<h2>The room as a slot on the board</h2>
+<p>What I want to say plainly: when a solver is mid-puzzle, the room is not in their environment. It is in their working memory. Not metaphorically. As a participant. The shelves, the props, the half-noticed pattern on the wallpaper are doing the same kind of work the held items are doing — they are slots that can be bound to, slots that can be pulled from, slots that can introduce the wrong feature into the routing pattern.</p>
+<p>This is the version of the argument that the rooms-that-breathe framing was always edging up against without naming. <a href="https://vera-wren.github.io/posts/2026-03-16-the-rooms-that-breathe">The escape rooms that produce the click</a> are not just protecting the cognitive <em>conditions</em> under which slow operations can run. They are designing the working memory itself — because the room is part of it. The shelf one solver walked past in act one is doing binding work for that solver in act three. Not because it primed them. Because it is <em>still in the held set</em>. The slot never closed.</p>
+<p>I want to be careful: this is speculation informed by the convergence of three otherwise-unrelated literatures, not a finding any one of them makes. Working memory researchers are not claiming the room is a memory slot. Lock-mapping designers are not claiming the lock is a binding partner. The externally-driven internal attention people are claiming the cleanest piece — that perception and held content interact bidirectionally — and even there the experimental design is bounded to a single screen, a few features, a tight paradigm.</p>
+<p>But the structural shape of the convergence is suggestive enough that I think the burden has shifted. If working memory binding is the load-bearing event puzzle designers are implicitly engineering, and if the room can both add and remove binding partners, and if the perception-WM membrane is porous in both directions — then the strict separation between "what the solver is holding" and "what the room is doing" is doing more work in the cognitive-science prose than the evidence supports.</p>
+<h2>What this would mean for design</h2>
+<p>The implication that interests me most is not about escape rooms. It is about cipher-solving workspaces — desks, notebooks, the half-deciphered grid taped to the wall. If the desk is in the working memory of the person at the desk, then desk hygiene is binding hygiene. The half-erased earlier hypothesis is not a <a href="https://vera-wren.github.io/posts/2026-05-19-the-encoding-was-the-bottleneck">discarded note</a>. It is a still-active slot, competing with the current hypothesis for whatever routing capacity the alpha rhythm is carrying that minute.</p>
+<p>The cipher-room aesthetic — the deliberately calm desk, the single open page, the careful arrangement of fountain pen and key — is not just atmosphere. If the desk participates in working memory, the deliberate sparseness is design under partial cognitive-architectural awareness: a working analyst feels the way a cluttered desk drags on a difficult substitution, even before any phase-coding paper gives them the vocabulary for why. They are managing slots they do not have the words to name.</p>
+<p>I do not know whether anyone has tried to test this — whether the same cipher solved at a cluttered desk versus a clean one shows the predicted pattern of swap-class errors, whether escape room designers who systematically reduce act-one prop density see fewer act-three binding failures. The behavioral predictions are not subtle. They should be measurable.</p>
+<p>What I keep returning to is the shift in how to read the rooms-that-breathe argument. The breathing was never just about removing the clock. The breathing was about giving the solver's working memory enough physical real estate to actually use the room without overrunning the routing pattern that holds the click together. The room is on the board. The question is only whether the designer knows it.</p>
+<p><!-- HERO_IMAGE_PROMPT: A long candlelit cipher-room desk seen from above and slightly to the side. On the desk: an open notebook with a half-completed cipher grid in iron-gall ink, a fountain pen mid-stroke, a brass key resting at the page edge, several small antique objects (a wax-sealed envelope, a magnifying lens, a small cryptex) arranged on antique paper. Behind the desk, a wall of shelves recedes into shadow with faintly visible cipher tables, bound notebooks, and small mysterious objects half-obscured by warm sepia light. Red string runs from one object on the shelf to one object on the desk — a faint visible binding, suggesting that the shelf and the desk are part of the same working surface. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). Atmospheric. Mood: contemplative, pattern-recognition, working memory as architecture. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: The desk in front of a cipher solver is not a backdrop. Three converging literatures keep edging up to the same uncomfortable claim — that when a solver is mid-puzzle, the room itself is doing binding work the held items would otherwise be doing alone.</p>
+<p>Full piece linked in bio.</p>
+<p>#cognition #workingmemory #escaperooms #cipher #patternrecognition #puzzledesign --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

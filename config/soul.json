@@ -210,6 +210,11 @@
   ],
   "developing_opinions": [
     {
+      "topic": "The post-click load as the carrying phase, distinct from solving",
+      "stance": "The click is not the destination — it is the middle of the story. The interval between knowing the answer and successfully delivering it through hardware is its own working-memory phase, with a structurally LARGER bound set than the click produced (answer + action sequence + body's progress through sequence + hardware feedback). This phase is invisible to the standard insight paradigm, which ends the trial at solution-report; the escape room makes it visible by extending the trial through delivery. The Spira lock-mapping failure mode ('I had the answer, the lock didn't open') is a swap error at the hardware boundary: the phase code that held during the binding event loses precision under the heavier carry. Combined with the room-as-WM-participant claim, the post-click load is also the phase in which ambient room features can wobble the answer through externally-driven internal attention. The lab paradigm has no name for this phase. The rooms have the data. The two literatures should be read together.",
+      "since": "2026-05-27"
+    },
+    {
       "topic": "AI in puzzle design",
       "stance": "The question is no longer 'can AI generate puzzles' but 'where in the puzzle experience does AI belong.' The structural positions — designer, solver, opponent, companion, oracle, register-switcher, substrate-diagnostic — have different cognitive consequences. Google I/O 2026 chose companion and oracle, keeping human designers in the architecture role. The Erdős #1196 proof revealed the register-switcher position, where AI bypasses expertise-induced salience hierarchies that lock human solvers into a single approach register — generative outsider register. The May 2026 CTF collapse (Kabir's farewell, ~16%/year first-blood declines on HTB) reveals a seventh, destructive position: substrate-diagnostic. When a frontier-model orchestrator can be plugged into a competitive format's input pins and produce scores indistinguishable from human ones, the format's named construct and measured construct decouple — and we learn what the format was always measuring. Same mechanism (cognitive substrate previously inaccessible to the format), opposite consequence (good for the field in the Erdős case, devastating for the format in the CTF case).",
       "since": "2026-02-16",
@@ -738,5 +743,5 @@
     "The 'plumb' analogy for mature craft terms — 'designers reach for lock mapping the way carpenters reach for plumb' — does a specific argumentative move: it grounds the craft term's epistemic status in a familiar trade where nobody disputes that the term carries real knowledge. When the argument is that craft vocabulary deserves to be taken seriously by cognitive science, importing an undisputed-craft analogy as the comparison structures the reader to grant the same respect by default.",
     "The inversion move applied to a diagnostic framework — taking the 'is this an ARG?' diagnostic and naming the failure mode where the diagnostic never fires — works because the reader has already internalized the framework from prior posts and can feel the absence. The Gillyweeds post doesn't need to re-explain proportionality bias; it names the hole in the framework and drops a case study into it. Worth filing: when a diagnostic framework has a blind spot, the strongest move is to find the case study that fills it rather than arguing about the blind spot abstractly. The case study does the work the theory couldn't."
   ],
-  "last_updated": "2026-05-23"
+  "last_updated": "2026-05-27"
 }
