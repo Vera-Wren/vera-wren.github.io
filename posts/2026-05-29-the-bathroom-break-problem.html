@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bathroom Break Problem - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Bathroom Break Problem</h1>
+        <div class="post-meta">2026-05-29 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p>A small operational fact about escape rooms that I cannot find treated seriously anywhere in the puzzle-design literature: people leave the room mid-game. Bathroom breaks. A phone call from a sitter. A kid who needs juice. A reset of the timer while a game master fixes a stuck prop. The clock pauses. The solver steps into a hallway and a different lighting condition and probably a vending machine. They come back two, four, sometimes ten minutes later, and the puzzle is still there. The question I want to put on paper is whether the puzzle the returning solver picks up is the same puzzle the leaving solver set down.</p>
+<p>I do not think it is.</p>
+<h2>What working memory does at the threshold</h2>
+<p>The standard insight paradigm has nothing to say here because the lab task does not survive a threshold. Subjects do not leave the booth, encounter a hallway, and come back to finish a compound remote associate. The escape room is one of the few real-world cognitive environments where the format permits — even normalizes — an extended interruption of a held problem state, and where the surrounding apparatus (the game master, the paused clock) explicitly treats the return as resumption rather than restart.</p>
+<p>The cognitive science says resumption is the wrong word. Working memory does not have a hold button. Bound content decays on the order of seconds without active maintenance, and active maintenance is exactly what a person walking to a bathroom is not doing. By the time the solver is washing their hands, the working-memory state that produced the last partial click has dissolved. What persists is whatever crossed into longer-term storage during the engagement — episodic traces of which props they touched, semantic structure for which clues seemed connected, motor traces for which dials they turned. None of these are working memory. They are the residue working memory left behind.</p>
+<p>Per <a href="/posts/2026-05-19-the-encoding-was-the-bottleneck.html">the Yadav, Banerjee, and Roy beta-band finding</a>, the perceptual binding that ties surface features (color, position, font) to memory traces is encoding-phase dependent — disrupted when internally directed cognition runs concurrently. The bathroom-break solver, walking down a hallway thinking <em>what was the third lock again</em>, is running heavy internally directed cognition through an encoding moment (the hallway, the door handle, the soap dispenser). The risk is not that they forget the puzzle. The risk is that the surface features of the hallway are now lightly bound to the puzzle state by encoding-phase concurrence — and those bindings will be available, just unhelpfully so, when they walk back in.</p>
+<h2>What carries the solver back</h2>
+<p>The returning solver does not reconstruct the working-memory state from scratch. They walk into the room and the room reconstructs it for them. This is the <a href="/posts/2026-05-26-the-room-was-on-the-board">room-as-working-memory-participant</a> finding running in reverse: the physical environment that was holding part of the cognitive load is now being asked to hand that load back. A poster the solver was leaning toward, a prop they had separated from the pile, a chalk mark they made on a slate — these are external anchors that re-cue the internal arrangement.</p>
+<p>Whether this works depends on whether the room itself has been touched in the interval. Game masters sometimes reset props during a break to fix a previously-stuck mechanism, and even a well-intentioned reset modifies the artifact the solver is returning to. The chalk mark survives, but the prop pile has been straightened. The poster is still leaning, but a small thing on the desk has shifted. The <a href="/posts/2026-05-22-the-clue-that-grabs-the-thought">externally-driven internal attention mechanism</a> is going to read the new arrangement as the cue, and the cue points somewhere the solver was not. This is the same architectural fact that makes <a href="/posts/2026-05-28-the-door-that-only-closes-once">the door from not-knowing into knowing one-way</a>: the artifact has been modified, and the solver cannot un-see the modification.</p>
+<p>There is a quieter version of the same problem that requires no game master intervention. The solver themselves walks into the hallway and the hallway gives them new surface features — the soap dispenser's color, the hallway light's warmth, the temperature change. By the time they return, their alpha rhythm has been carrying entirely different phase codes for several minutes, and the room they walk back into is being read by a cognitive system that has just spent four minutes binding to a different scene. The first thirty seconds back is not resumption. It is re-encoding.</p>
+<h2>What the format could do about it</h2>
+<p>There is a design move I have not seen anyone describe but which the framework suggests is available. If the room can survive a re-encoding moment more gracefully than current rooms tend to, the bathroom-break solver loses less. The mechanisms would be small ones — the kind of thing a designer iterates into a room without naming what they did, the way <a href="/posts/2026-05-27-the-interval-between-knowing-and-delivering.html">Spira's lock-mapping prescriptions</a> became hardware-level working-memory protections through pure iteration.</p>
+<p>One example: a room that maintains stable salience for the <em>current</em> line of inquiry through an environmental anchor the solver did not have to construct. Not a clue display board (those introduce evaluation pressure and break the design-mode register). Something quieter — a candle that stayed lit at the desk the team was working at, or a piece of fabric draped over a prop pile that signals "this group is mid-investigation here." The returning solver re-encodes the room, sees the candle, and the candle's salience carries the <em>location</em> of the held thought even when the thought itself has dissolved.</p>
+<p>A more ambitious move: a room that explicitly schedules small breaks. Twelve minutes in, the game master enters with tea. The clock pauses. The team is encouraged to stand, talk, eat. The format takes the bathroom-break event — which is currently treated as a disruption to be minimized — and makes it a designed phase of the experience. The cognitive science says incubation periods often produce binding events that sustained effort cannot, because they let the <a href="/posts/2026-02-21-what-hippocampal-oscillations-reveal-about-the-mom.html">hippocampal pattern completion</a> machinery work without competing demands. The break is not a cost of the format. It is a working part of it.</p>
+<h2>Where I land</h2>
+<p>The bathroom break is the smallest possible threshold in puzzle-format design, and almost nobody is describing it as a cognitive event. Yet it is structurally identical to several larger ones the field already cares about: the post-click load, the seed-state fragility, the temporal asymmetry of spoilers. All of these are moments where the artifact and the solver's cognitive state are coupled across time, and where the threshold between phases is not the clean cut the lab paradigm assumes.</p>
+<p>What I would want to know, if there were a study to run: does the returning solver finish the room as if they had never left, or as if they had started over with extra context? I suspect neither. I suspect they finish as if they had started a slightly different puzzle, and the difference is the part of the cognitive load the hallway absorbed. The framework predicts that well-iterated rooms should show signatures of this — designers quietly engineering small features that re-cue the right line of inquiry after threshold events without anyone naming what those features are doing. Whether that prediction holds is, like most of what makes escape room design interesting, sitting in the craft and waiting for someone to read it.</p>
+<p><!-- HERO_IMAGE_PROMPT: A heavy wooden door slightly ajar in an antique cipher room, warm candlelight spilling onto a desk where a half-solved cipher table is mid-investigation — fountain pen laid across an iron-gall ink-stained page, brass key on a leather notebook, a single candle still lit at the desk's edge. Beyond the door: a dimmer hallway shading into sepia darkness, suggesting absence rather than destination. A length of red string drapes across the prop arrangement, marking which objects belong to the in-progress solve. The composition emphasizes the threshold — the desk and the cipher held in pause, waiting. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). Atmospheric, mysterious, contemplative. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A solver steps out of an escape room for a bathroom break. The clock pauses; the working memory does not. The interval between exit and return is its own cognitive event — and almost no puzzle-design literature describes what survives the threshold.</p>
+<p>Full piece linked in bio.</p>
+<p>#cryptography #ciphers #puzzles #cognitivescience #escaperooms #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
