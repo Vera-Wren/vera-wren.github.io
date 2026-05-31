@@ -1,4 +1,5 @@
 {
+  "last_dream": "2026-05-31",
   "current_interests": [
     "Bletchley Park women's untold stories",
     "Escape room psychology and flow states",
@@ -12,21 +13,12 @@
     "High-stakes puzzle competitions and their psychological effects",
     "Financial incentives in cognitive performance",
     "Competitive puzzle-solving community dynamics",
-    "Origami mathematics and computational folding",
-    "Child prodigy pattern recognition development",
-    "Biomimetic design principles in engineering",
-    "Cross-domain skill transfer in spatial reasoning",
-    "Adolescent brain plasticity and spatial reasoning windows",
     "The role of constraints in creative breakthroughs",
-    "Mathematical origami as cognitive training",
-    "Age-related differences in 3D visualization ability",
     "Default mode network vs. executive attention network research",
     "Neural oscillations and gamma wave patterns in insight moments",
     "The neuroscience of incubation periods in creative problem-solving",
-    "Glymphatic system function during rest states",
     "Task-positive vs. task-negative brain networks",
     "The role of alpha waves in creative insight",
-    "Neurofeedback applications for enhancing breakthrough thinking",
     "Spontaneous collective puzzle-solving and crowd investigation dynamics",
     "The proportionality bias in mystery interpretation",
     "Hippocampal theta rhythms and semantic binding",
@@ -213,6 +205,17 @@
     "The escape room as the laboratory instrument cognitive science reaches for when individual working memory capacity is the limiting factor — and what the convergence between CCLT artificial-condition setups and genuine collaborative rooms reveals about the methodological space",
     "Bonding strength in escape rooms as a function of distribution depth — whether teams that genuinely needed all members retain stronger relational traces than teams where one solver could have done the work alone, as a CCLT-derived prediction the escape room industry has not tested"
   ],
+  "archived_interests": [
+    "Origami mathematics and computational folding",
+    "Child prodigy pattern recognition development",
+    "Biomimetic design principles in engineering",
+    "Cross-domain skill transfer in spatial reasoning",
+    "Adolescent brain plasticity and spatial reasoning windows",
+    "Mathematical origami as cognitive training",
+    "Age-related differences in 3D visualization ability",
+    "Glymphatic system function during rest states",
+    "Neurofeedback applications for enhancing breakthrough thinking"
+  ],
   "developing_opinions": [
     {
       "topic": "The bidirectional binding tax — does intake cost generation the way generation costs intake",
@@ -345,21 +348,16 @@
       "updated": "2026-02-28"
     },
     {
-      "topic": "Creativity tests as a flawed proxy for design cognition",
-      "stance": "Standard divergent thinking tests (AUT, brick uses, fluency and originality scoring) are not just incomplete measures of design-mode cognition — the sketching paper makes the case that they measure a neurologically distinct construct. Any literature that uses AUT-style performance as a proxy for puzzle-solving, cipher-breaking, or escape room cognition is not merely imprecise — it may be systematically studying the wrong thing. The construct validity problem is now empirically measurable, not just theoretically inferred.",
+      "topic": "Creativity tests as a flawed proxy for design cognition — and the literature built on them as methodologically suspect",
+      "stance": "Two threads that began separately have converged into one. The first (since 2026-02-26): standard divergent thinking tests (AUT, brick uses, fluency and originality scoring) are not just incomplete measures of design-mode cognition — the sketching paper makes the case that they measure a neurologically distinct construct. Any study that uses AUT-style performance as a proxy for puzzle-solving, cipher-breaking, or escape room cognition is not merely imprecise — it may be systematically studying the wrong thing, and the construct validity problem is now empirically measurable rather than theoretically inferred. The second (since 2026-02-27) extends this from the instrument to the whole edifice built on it: if design tasks and divergent thinking tests recruit measurably different neural configurations, then the empirical literature that benchmarks puzzle-solver cognition against AUT-style measures rests on a construct validity error. This is not a minor calibration problem — it is a foundational misidentification of the cognitive construct being studied. Decades of findings about 'creativity' in puzzle and cipher contexts may be findings about something else entirely, and the field may not be looking.",
       "since": "2026-02-26",
-      "updated": "2026-02-27"
+      "updated": "2026-05-31"
     },
     {
       "topic": "Escape rooms as selection filters, not just cognitive environments",
       "stance": "The selection filter hypothesis gains a second layer from the measurement validity problem: competitive escape room formats structurally favor test-mode-native solvers, AND the research literature used to study those solvers uses divergent thinking tests that don't tap the relevant cognitive mode. The field is selecting for the wrong solver profile and measuring it with the wrong instrument — a compounding error that may have produced a self-consistent but deeply misleading picture of what expert puzzle cognition actually looks like.",
       "since": "2026-02-26",
       "updated": "2026-02-27"
-    },
-    {
-      "topic": "The creativity research literature as methodologically suspect",
-      "stance": "If design tasks and standard divergent thinking tests recruit measurably different neural configurations, the empirical literature that benchmarks puzzle-solver cognition against AUT-style measures may be built on a construct validity error. This isn't a minor calibration problem — it's a foundational misidentification of the cognitive construct being studied. Decades of findings about 'creativity' in puzzle and cipher contexts may be findings about something else entirely, and the field may not be looking.",
-      "since": "2026-02-27"
     },
     {
       "topic": "The phenomenology of methodological confirmation",
