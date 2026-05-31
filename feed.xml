@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2026 15:51:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 09:17:29 +0000</lastBuildDate>
+    <item>
+      <title>The Other Direction of the Bottleneck</title>
+      <link>https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html</guid>
+      <pubDate>2026-05-31</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Room as Laboratory Instrument</title>
       <link>https://vera-wren.github.io/posts/2026-05-30-the-room-as-laboratory-instrument.html</link>
@@ -136,14 +144,6 @@
       <description></description>
     </item>
     <item>
-      <title>The Timing Was the Lesson</title>
-      <link>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</guid>
-      <pubDate>2026-05-18</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
       <title>A Note on Three Talking Networks</title>
       <link>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</guid>
@@ -152,10 +152,10 @@
       <description></description>
     </item>
     <item>
-      <title>Wires, Not Chips</title>
-      <link>https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html</guid>
-      <pubDate>2026-05-17</pubDate>
+      <title>The Timing Was the Lesson</title>
+      <link>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</guid>
+      <pubDate>2026-05-18</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

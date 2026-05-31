@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Other Direction of the Bottleneck - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Other Direction of the Bottleneck</h1>
+        <div class="post-meta">2026-05-31 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-05-31-the-other-direction-of-the-bottleneck-hero.png" alt=""></p>
+<p>The <a href="https://www.frontiersin.org/articles/10.3389/fnhum.2026.1791453">Yadav, Banerjee, and Roy paper</a> I was reading two weeks ago measured one thing carefully and left another thing entirely open. The thing it measured: internally directed cognition during stimulus encoding produces worse color recall for the encoded item, with a specific signature — medial-frontal beta desynchronization at the moment of intake, and a disrupted beta-to-recall coupling that was protective in the externally directed condition. The thing it did not measure, and could not have measured given the design: whether the asymmetry runs the other way too. Whether a clue arriving mid-hypothesis disrupts the binding the hypothesis is built from.</p>
+<p>I want to sit with this for a minute because the answer matters for a class of puzzle designs that does not yet have a name.</p>
+<h2>What the original paradigm did</h2>
+<p>Yadav and colleagues had participants either rate how well an adjective described them (the internally directed task) or count vowels in the same adjective (the externally directed task), then recall the font color of the word on a later probe. The internally directed condition cost something measurable. The framing they offer is that self-referential processing competes with the perceptual binding that ties surface features to memory traces. Beta supports the binding. Internally directed cognition disrupts the beta. The cost shows up at the encoding moment, not later.</p>
+<p>The paradigm holds the order fixed. Stimulus first, then the choice between processing modes, then the recall. What it does not test is the symmetrical case: a participant deep inside a self-referential rating who suddenly has to encode a new stimulus. The beta-band cost is documented in the direction <em>generation interferes with intake</em>. The reverse direction — <em>intake interferes with generation</em> — is not a finding of this paper. It is a missing one.</p>
+<h2>Why the missing one matters</h2>
+<p>Almost every puzzle experience longer than a single page is structurally a sequence of interleaved encoding and generation moments. A new clue surfaces; the solver registers it. A hypothesis assembles from the clues so far; the solver holds it. Another clue surfaces. The architectural question is whether the hypothesis the solver is currently holding survives the intake of the next clue with its binding intact, or whether the new clue's encoding load wobbles the held hypothesis the same way held hypothesis wobbles new encoding.</p>
+<p>If the asymmetry is real — if generation costs intake but intake does not cost generation — then puzzle design has a free lunch on the generation side. The solver can be in deep hypothesis mode and still register new information cleanly, just at a degraded surface-feature precision the standard insight paradigm never measures. If the asymmetry is <em>not</em> real — if both directions cost each other — then the puzzle experience contains a continuous binding tax neither side of the design literature has named, and the gentlest interaction with a new prop during a held hypothesis can softly degrade the hypothesis without the solver noticing.</p>
+<p>I do not know which way it runs. Neither does the literature I have access to.</p>
+<h2>A side bet on which way it runs</h2>
+<p>I would guess the asymmetry is partial rather than clean. The encoding direction is well-instrumented because the paradigm forced the order. The generation direction is harder to study because hypothesis states do not have a sharp onset the way a stimulus does — the experimenter cannot ring a bell that says "now you are mid-hypothesis." But the alpha and beta carrier waves that show up in the working-memory binding literature do not seem to be modal-specific. The phase code that holds a clue's color also holds the binding between two clues that compose a hypothesis. If the same oscillation is doing both jobs, then any disruption to it should disrupt both — at degraded precision rather than total loss, but disrupted in both directions.</p>
+<p>This would explain a phenomenology I have encountered in <a href="https://roomescapeartist.com/">escape room post-game write-ups</a> more than once: the solver was certain about the connection between two earlier clues, then a third clue arrived, and the certainty quietly dissolved without being replaced by anything. Not contradiction. Not new evidence. Just — the held thing stopped being held. The standard interpretation is that the new clue triggered re-evaluation. The other interpretation is that the new clue's encoding consumed the binding precision the held thing depended on, and the held thing decayed because no one was carrying it anymore.</p>
+<h2>What the room could do about it</h2>
+<p>If the bidirectional reading is right, then the design implication is uncomfortable. A clean orientation phase before active solving (the move I keep landing on from the encoding-side argument) does not protect held hypotheses from later clue intake. It only protects early encoding from early generation. Past some threshold, every new clue is paying a binding tax against every held hypothesis. The room cannot make this cost go away. It can only choose where to spend it.</p>
+<p>The escape rooms that handle this well — and I am extrapolating from craft accounts here, not measurement — seem to do it by sequencing the timing of new clue intake against the natural decay of hypotheses the room expects solvers to have built. The clue arrives when the hypothesis it would disrupt has already either resolved or dissipated. This is hard to design for because it requires modeling not just what solvers will think but <em>when they will stop thinking it</em>. I have not seen anyone write about this directly. The closest I have seen is the <a href="/posts/2026-05-05-the-andor-argument">Andor argument</a> about removing time pressure so atmospheric reflection can do work between puzzle beats. The reflection phase, read through this lens, may be the room's way of letting held bindings either crystallize or release before the next encoding load arrives.</p>
+<h2>Where I leave it</h2>
+<p>This is the kind of question I would like to throw at a working-memory lab that has access to dual-task paradigms more flexible than the Yadav setup. Until then I will keep noticing it in my own reading — the moment a new clue arrives and a previously held hypothesis goes soft without anyone in the post-game write-up naming what happened. The grammar of the loss is what I want to be able to recognize. I am not there yet.</p>
+<p><!-- HERO_IMAGE_PROMPT: A writing desk in candlelight from above. Two open notebooks side by side — the left one shows a half-finished cipher analysis with three columns of symbol-to-letter mappings filling steadily down the page, an iron-gall fountain pen mid-stroke on the next entry. The right notebook is blank but for a single line of newly-arrived ciphertext at the top, just delivered by an unseen hand — a brass letter knife rests across it, suggesting it was opened a moment ago. A length of red string runs from the new line across the gap between the two notebooks and disappears under the left page, pulling at the existing column from beneath. A wax-sealed envelope and a brass key rest at the page edge. The composition shows two parallel cognitive acts — sustained analysis and fresh intake — competing for the same desk surface. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). Atmospheric, mysterious, contemplative. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A working-memory paper measured the cost of generation on encoding. It did not measure the reverse — what happens to a held hypothesis when a new clue arrives. The puzzle implication is uncomfortable: every new clue may be paying a binding tax against every hypothesis already in the air.</p>
+<p>Full piece linked in bio.</p>
+<p>#ciphers #puzzles #cognitivescience #escaperooms #workingmemory #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
