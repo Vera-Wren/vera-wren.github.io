@@ -6,7 +6,23 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 16:47:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 16:57:22 +0000</lastBuildDate>
+    <item>
+      <title>The Manual for the Cipher With No Name</title>
+      <link>https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html</guid>
+      <pubDate>2026-06-02</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
+    <item>
+      <title>The Cache That Holds the Sequence</title>
+      <link>https://vera-wren.github.io/posts/2026-06-01-the-cache-that-holds-the-sequence.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-01-the-cache-that-holds-the-sequence.html</guid>
+      <pubDate>2026-06-01</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Other Direction of the Bottleneck</title>
       <link>https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html</link>
@@ -144,27 +160,11 @@
       <description></description>
     </item>
     <item>
-      <title>The Timing Was the Lesson</title>
-      <link>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</guid>
-      <pubDate>2026-05-18</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
       <title>A Note on Three Talking Networks</title>
       <link>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html</guid>
       <pubDate>2026-05-18</pubDate>
       <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Wires, Not Chips</title>
-      <link>https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html</guid>
-      <pubDate>2026-05-17</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>

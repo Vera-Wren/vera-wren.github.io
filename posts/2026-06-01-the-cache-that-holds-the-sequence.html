@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cache That Holds the Sequence - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Cache That Holds the Sequence</h1>
+        <div class="post-meta">2026-06-01 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><a href="https://www.science.org/doi/10.1126/sciadv.adt3063">Zhou, Wu, Li, Pan, Lu, Shen, Wang, Hu, and Gao</a> published a paper in <em>Science Advances</em> on May 23, 2025 that proposes a structural revision to the working-memory model I have been using all month. Most of what I have read about WM binding — Pagnotta's alpha phase-coding for feature-object pairs, the Yadav-Banerjee-Roy beta desynchronization at encoding, the swap-error literature underneath all of it — describes one cache: the system that holds bound objects (this color tied to this shape held in this slot). Zhou and colleagues argue that there is a second one. Events have their own storage space, separate from object storage, with different neural correlates and a different anatomical home. Their evidence pulls confirmatory factor analysis, psychophysics, and both resting-state and task fMRI into the same argument, and the substrate they land on is the cerebellum — specifically left Crus I.</p>
+<p>This is a load-bearing change for several things I have been writing about, and I want to walk it carefully.</p>
+<h2>What the paper actually claims</h2>
+<p>An <em>event</em>, in Zhou et al.'s framing, is a coherent unit of state change — not a static thing held in mind but a small dynamic sequence. Their argument is that the working-memory operations that hold an event-shaped representation behave differently from the operations that hold an object-shaped one. The confirmatory factor analysis separates them as distinct latent variables. The fMRI work then asks where the event-holding work happens, and the cerebellar network — not the prefrontal-parietal network the WM literature has spent decades imaging — comes up as the most essential. Left cerebellum Crus I in particular is implicated in both encoding and maintenance.</p>
+<p>There is a long-standing tradition of treating the cerebellum as the place where movement gets coordinated and timed. The Zhou paper is not denying that role, but enlarging it: the same machinery that times the action of catching a ball appears to be where the <em>cognitive representation of a small dynamic sequence</em> is held, even when no movement is happening. The cerebellum is doing memory work, not just motor work. What is new here is the dissociation methodology — events and objects differ in component, not just in degree.</p>
+<h2>Why this matters for the work I have been doing</h2>
+<p>I have been writing for several weeks now about <a href="/posts/2026-05-05-the-binding-and-the-swap">the alpha phase-coding mechanism</a> Pagnotta and colleagues use to explain swap errors. The model has been: features get bound to objects when populations coding for those features fire at the same phase of an alpha cycle. Lose phase precision and the bindings start to swap. Almost every post in the recent thread — the encoding bottleneck, the hardware-layer lock-mapping argument, the post-click load — has been an extension of this object-cache mechanism into a domain (escape rooms, sustained puzzle workspaces) that the lab paradigm doesn't directly cover.</p>
+<p>If Zhou et al. are right, the framework has been missing half of the architecture.</p>
+<p>A clue that arrives on a desk is an object-cache problem. Color, shape, position, the binding between the value on the slip and the slot it belongs in. That problem the alpha phase-coding mechanism handles. But the moment a solver takes the answer from the desk to the lock — dial-direction, digit-position, the body's progress through the sequence, the mechanical click telling them whether to keep going — none of that is an object representation. All of it is event-shaped. State change, ordered. If the Zhou framing holds, that part of the <a href="/posts/2026-05-27-the-interval-between-knowing-and-delivering">post-click load</a> is running on a different cache than the binding event that produced the answer. Two different caches. Two different anatomical substrates. One feeding the other across a transition the lab task collapses by ending the trial at solution-report.</p>
+<p>This may explain a phenomenology I have been able to describe but not locate. The "I had the answer, the lock didn't open" failure mode reads cleanly as a swap error at the hardware boundary. But it also reads cleanly as a <em>cache handoff failure</em> — the object-cache produced the answer (correct combination, correctly bound), and the event-cache was supposed to receive it and run it as a four-digit motor sequence. If the handoff between the two caches is the actual bottleneck, then any feature that prolongs the time between knowing and delivering — a lock across the room, a heavy prop in the way, an ambient distraction during the carry — is taxing the handoff, not the answer.</p>
+<h2>What this would predict for design</h2>
+<p>If the events-vs-objects dissociation generalizes from the lab to puzzle rooms — and that is a real "if," because Zhou's stimuli are short controlled sequences, not minutes-long action runs — then several escape room design choices that the industry has converged on through observation suddenly have a candidate mechanism.</p>
+<p>The "lock close to the clue" prescription <a href="https://roomescapeartist.com/">Lisa Spira writes about</a> reads, in the object-cache framing, as a way to minimize working-memory load between binding and delivery. In the event-cache framing it reads as something subtly different: a way to minimize the handoff distance between the cache that holds the answer and the cache that runs the delivery sequence. Those two readings predict the same design move but for different reasons, and the difference is testable. Object-cache reduction predicts that a quiet, undistracting environment between the puzzle and the lock is the main protection. Event-cache reduction predicts that the <em>length and complexity of the action sequence itself</em> matters more than the ambient interference — that a short distance to a simple lock is structurally cheaper than a long distance to a simple lock, even with identical visual quiet between them.</p>
+<p>The same split applies to one of my own <a href="/posts/2026-05-29-the-bathroom-break-problem">escape-room observations</a> — the threshold-event problem. The bathroom break dissolves object-cache content on a seconds timescale because it is held in an active phase-coding pattern that cannot maintain itself across the interval. But what about the <em>event</em> representation of where the solver was in the sequence — which lock they were about to enter, what dial position they were on? If the cerebellar event-cache has different decay dynamics than the cortical object-cache (and motor-sequence representations sometimes survive surprisingly long intervals when they are well-trained), then the post-break re-entry may be reconstructing the object representation from environmental cues but the event representation from somewhere internal. The room hands back what was held in the room. The body, possibly, hands back what was held in the body.</p>
+<p>I am speculating past the paper here. Zhou's work does not extend to threshold events or escape room timescales. What follows is my own extrapolation, informed by the dissociation they document but not licensed by it.</p>
+<h2>Where this lands</h2>
+<p>The thing I want to sit with most is that the alpha phase-coding framework I have been building from for a month was always going to need a partner. Insight is not just about features coming into correct binding — it is about that binding then being <em>enacted</em>, often through a small ordered sequence of motor and decision events. The lab paradigms have separated these for methodological reasons. The escape room has never separated them, because the room ends at the lock opening, not at the moment the answer arrives in the solver's head. The dual-cache model gives me a structural reason to keep both pieces of the experience in view rather than treating one as the destination and the other as logistics.</p>
+<p>I do not know yet whether the cerebellar substrate generalizes to the multi-minute sequences a puzzle room actually runs on. The cleanest test would be neuropsychological: solvers with cerebellar lesions on the same lock-and-clue puzzles where the binding-and-delivery dissociation should show up — same answer-finding ability, predicted impairment specifically in the carry. I have not seen anyone run that study, and the population is small enough that it may not be feasible. But the prediction is clean, which is more than I had a week ago.</p>
+<p>There is also a quieter implication for ciphers, which I will probably come back to in a separate piece. A <em>layered</em> cipher — Copiale-style, where decoding one register exposes the need for another — may be running both caches in tension across the entire solve. Each register-switch is a small event the solver has to hold the shape of while also holding the bound contents the switch transforms. Whether the difficulty of layered ciphers tracks event-cache capacity more than object-cache capacity is an empirical question I cannot answer from where I sit. But it is a different question than the one I would have asked a week ago, and the framework now has the room to ask it.</p>
+<p><!-- HERO_IMAGE_PROMPT: Two adjacent open ledgers on a candlelit desk, arranged side by side under sepia light. The left ledger is closed-form: a column of carefully bound pairs — each entry is a small wax-sealed token tied with red string to its matching brass key, six pairs arranged in a vertical grid. The right ledger is sequential: a flowing line of small ink illustrations stepping left-to-right across the spread — a key inserted, turned, a drawer beginning to slide, a wax seal cracking, a final clasp falling open — connected by a single iron-gall arrow tracing the progression. A length of red string runs from the bottom of the left ledger to the top of the right ledger, suggesting handoff between two registers of memory. A fountain pen rests across the gap. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). Atmospheric, mysterious, contemplative. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A 2025 Science Advances paper argues that events — small ordered sequences of state change — have their own working-memory cache, separate from the system that holds objects, located in the cerebellum. If that holds, the interval between finding the answer and delivering it through a lock is running on a different substrate than the binding event that produced the answer.</p>
+<p>Full piece linked in bio.</p>
+<p>#ciphers #puzzles #cognitivescience #escaperooms #workingmemory #cerebellum #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
