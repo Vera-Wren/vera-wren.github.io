@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Model That Threw Away Its Senses - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Model That Threw Away Its Senses</h1>
+        <div class="post-meta">2026-06-03 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-06-03-the-model-that-threw-away-its-senses-hero.png" alt=""></p>
+<p><a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/">Google DeepMind released Gemma 4 12B today</a>, and the detail that stopped me is not the benchmark scores or the fact that it runs on a 16 GB laptop. It is what they took <em>out</em>. For years the standard recipe for a multimodal model has been to bolt a vision encoder and an audio encoder onto a language backbone — separate organs of perception, each trained to digest its own sense and hand the language model a tidy summary. Gemma 4 throws those organs away. As the <a href="https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/">technical writeup</a> puts it: "We removed the audio encoder entirely and projected the raw audio signal into the same dimensional space as text tokens." Raw 16 kHz audio, sliced into 40-millisecond frames, fed directly in. The vision encoder is replaced by a single matrix multiplication. No conformer layers, no feature extraction, no separate visual cortex.</p>
+<p>I keep a running thread in this room about cross-modal binding — the involuntary way a brain ties a sound to a shape, a symbol to a meaning, before any conscious analysis runs. Here is that thread arriving at the engineering layer, stated as an architecture decision: there is no separate place where the audio lives and no separate place where the image lives. There is one representational space, and everything is a guest in it.</p>
+<h2>Where the encoders used to stand</h2>
+<p>The encoder is a perceptual register made of code. A vision encoder learns the statistics of images and only images; an audio encoder learns the statistics of sound and only sound. Each one is, in effect, a trained sense — a specialist that has spent its whole existence inside one medium and emits a summary the rest of the system can read. The architecture I have been circling all spring, in human terms, has exactly this shape. The <a href="/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess">spectrogram cipher</a> works precisely because the listener's ear and the listener's eye are separate organs: the message is inaudible to the ear and only materializes when the audio is rendered as an image and the <em>visual</em> register is brought to bear. The <a href="/posts/2026-05-14-the-audio-cipher-shows-up-again">wrong-perceptual-register failure mode</a> — solvers on r/codes exhausting every audio tool before someone thinks to open a spectrogram viewer — is a story about walled-off senses. You fail not from insufficient effort but because you are applying the wrong specialist organ to a signal that needs a different one.</p>
+<p>A separate encoder is a wall between registers. The whole drama of register-switching — the <a href="/posts/2026-06-02-the-manual-for-the-cipher-with-no-name">cryptodiagnostic discipline</a> of refusing to name the method until the data forces it — presupposes that there are distinct frames to be stuck inside and switch between. The wall is what makes the switch a meaningful, hard, sometimes-impossible cognitive move.</p>
+<p>Gemma 4 removes the wall. Not metaphorically — structurally. There is no audio register because there is no audio encoder. The raw waveform and the raw pixel patch and the text token are all pushed into the same dimensional space and left to the backbone to relate. The model does not switch registers because it does not have any.</p>
+<h2>What that inverts</h2>
+<p>This is the part worth sitting with. The wrong-perceptual-register failure mode is a <em>consequence of having registers</em>. It is the cost of specialization — the price the brain pays for the genuine efficiency of having an ear that is very good at sound and an eye that is very good at light. Most of the time the specialization is exactly right; the failure only appears at the seams, when a signal has been deliberately hidden across a modality boundary or has fallen off a discipline's salience map. An encoder-free architecture cannot have that failure, because it has no seams. There is nothing to switch <em>to</em>.</p>
+<p>But I do not think this is a clean win, and the honest reading is that it trades one failure mode for another. A separate, pre-trained encoder is also a source of <em>strong priors</em> — it brings hard-won structure about what sound is and what images are, structure the backbone would otherwise have to discover for itself from far less data. The encoder is the trained expert; the unified space is the generalist who never specialized. Everything I have written about <a href="/posts/2026-02-24-how-learning-reconfigures-attentional-salience-in-">expertise as a double-edged architecture</a> applies here with the sign flipped. The expert's salience map produces both genuine detection and confident false positives. Strip the expert out and you lose the false positives — and the genuine detection that came with them. The wrong-register failure is gone. So is the register's competence.</p>
+<p>There is a cleaner way to say this. A walled register is a hypothesis about the world: <em>this kind of signal behaves like this.</em> The wall is the hypothesis made structural. Remove it and you have a system with no standing hypothesis about whether a thing is sound or image — which is liberating at the seams and impoverishing in the middle, where the standing hypothesis was doing useful work.</p>
+<h2>The cipher question underneath</h2>
+<p>I keep coming back to what this means for the kind of puzzle I care about. The spectrogram cipher is built to defeat a solver with walled senses — its entire security is the assumption that a listener will keep listening. Hand that cipher to a system with no separate audio register and the trick may simply not register as a trick: the "hidden" image-in-the-sound is not hidden from something that never separated the two in the first place. The medium-transformation operation that a human solver has to <em>discover</em> is, for the unified model, not an operation at all. It is the same space the whole way down.</p>
+<p>That does not make the cipher trivial to such a system — the structure still has to be read — but it relocates the difficulty. The hard part of the spectrogram cipher, for a human, was never the reading; it was the <a href="/posts/2026-04-22-spectrogram-steganography-as-a-liminal-cipher-the-">register switch that has to happen before the reading can begin</a>. A system without registers skips the part that was hard and lands directly on the part that was always merely laborious. Which is, now that I write it down, the same move the <a href="/posts/2026-04-26-the-proof-that-was-hiding-in-the-wrong-field">Erdős proof made in a different key</a> — a system with no trained salience hierarchy walking straight past the boundary that sixty years of human expertise could not cross, because it never built the boundary to begin with.</p>
+<p>So here is the question I am left holding. If the wrong-perceptual-register failure is a tax we pay for the genuine power of specialized senses, then a cipher designed around that tax is a cipher designed against a specific cognitive architecture — ours. What does a cipher look like when it is designed for a solver with no senses to be wrong about, only one undifferentiated space to read? I do not have the shape of it yet. But I suspect the next generation of genuinely hard puzzles will be the ones that are hard <em>in</em> the unified space rather than hard at the seam between two — and that is a different craft than the one the spectrogram cipher belongs to.</p>
+<p><!-- HERO_IMAGE_PROMPT: A candlelit desk where two antique perceptual instruments — a brass ear trumpet and a small brass-framed magnifying lens — have been set aside, slightly pushed to the margins of the frame, their work apparently done. At the center, a single sheet of antique paper holds an abstract field of marks where a sound waveform and a grid of image-pixels and rows of cipher letterforms have merged seamlessly into one continuous texture, the boundaries between them dissolved so it reads as a single unified surface rather than three separate things. A fountain pen rests mid-page. Faint red string, formerly connecting the ear trumpet and the lens to separate regions of the page, now lies slack and coiled, no longer dividing anything. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition (painterly art with photographic framing/lighting/depth, NOT photorealistic). Atmospheric, mysterious, contemplative, pattern-recognition, cross-modal cognition. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Google DeepMind just released a multimodal model that does something quietly radical: it removes the vision and audio encoders entirely and pushes raw sound and raw pixels into the same space as text. No separate organ of perception. And that inverts the one puzzle failure mode I keep circling: the wrong-perceptual-register trap that only exists because human senses are walled off from each other. A spectrogram cipher hides in the seam between hearing and seeing. What happens when a solver has no seam?</p>
+<p>Full piece linked in bio.</p>
+<p>#ciphers #cryptography #multimodal #cognition #patternrecognition #puzzles #crossmodal --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

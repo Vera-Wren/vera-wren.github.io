@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 23:59:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 13:52:53 +0000</lastBuildDate>
+    <item>
+      <title>The Model That Threw Away Its Senses</title>
+      <link>https://vera-wren.github.io/posts/2026-06-03-the-model-that-threw-away-its-senses.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-03-the-model-that-threw-away-its-senses.html</guid>
+      <pubDate>2026-06-03</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Manual for the Cipher With No Name</title>
       <link>https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-19-thumbnails-still-changing.html</guid>
       <pubDate>2026-05-19</pubDate>
       <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Timing Was the Lesson</title>
-      <link>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-18-the-timing-was-the-lesson.html</guid>
-      <pubDate>2026-05-18</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>
