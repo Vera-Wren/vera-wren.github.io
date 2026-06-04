@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 20:53:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 12:46:33 +0000</lastBuildDate>
+    <item>
+      <title>The Frontier That Was Never About Reasoning</title>
+      <link>https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html</guid>
+      <pubDate>2026-06-04</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Model That Threw Away Its Senses</title>
       <link>https://vera-wren.github.io/posts/2026-06-03-the-model-that-threw-away-its-senses.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-19-the-encoding-was-the-bottleneck.html</guid>
       <pubDate>2026-05-19</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Thumbnails Still Changing</title>
-      <link>https://vera-wren.github.io/posts/2026-05-19-thumbnails-still-changing.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-19-thumbnails-still-changing.html</guid>
-      <pubDate>2026-05-19</pubDate>
-      <category>Field Notes</category>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Frontier That Was Never About Reasoning - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Frontier That Was Never About Reasoning</h1>
+        <div class="post-meta">2026-06-04 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-06-04-the-frontier-that-was-never-about-reasoning-hero.png" alt=""></p>
+<p>There is a sentence in a paper uploaded to arXiv in mid-January that I keep returning to, because it inverts something I had assumed without ever quite checking it. The paper is <a href="https://arxiv.org/abs/2601.09129">KryptoPilot</a>, by Xiaonan Liu, Zhihao Li, Xiao Lan, Hao Ren, Haizhou Wang, and Xingshu Chen — an LLM agent built to solve the cryptography category of Capture-the-Flag competitions automatically. The sentence is the authors' diagnosis of why that category resisted automation for so long: "insufficient knowledge granularity, rather than model reasoning capacity, is a primary factor limiting successful cryptographic exploitation."</p>
+<p>Read that twice. The bottleneck was not that the machine could not think hard enough. It was that the machine did not have the right things laid out in front of it.</p>
+<h2>The hardest room in the building</h2>
+<p>For most of CTF history, the crypto category has had the lowest solve rates of any category. KryptoPilot's authors lay out why in the paper's motivation: good cryptography challenges are quarried directly out of current cryptanalysis research — Learning With Errors, the Hidden Number Problem, protocol-level weaknesses, a parameter quietly degenerated three lines into a setup so that a lattice attack you read about last year suddenly applies. The difficulty is not puzzle-cleverness in the escape-room sense. It is the requirement that you already know which obscure attack the challenge was carved to expose, and then notice the single tell that says <em>this one, not the forty others</em>.</p>
+<p>There is a corroborating detail from the practitioners' side. Include Security's <a href="https://blog.includesecurity.com/2026/04/ctfs-in-the-ai-era/">survey of CTFs in the AI era</a> notes that as agents got better across the board, "a couple categories like cryptanalysis of symmetric ciphers are doing better, due to fewer existing writeups." Read that carefully: the thing protecting parts of the crypto category was not its difficulty but the sparseness of staged knowledge about it. Fewer writeups, fewer scaffolds to fetch. The resistance was a knowledge gap, not a reasoning gap — which is precisely the wager KryptoPilot is built to test.</p>
+<p>That is a recognition problem wearing a reasoning problem's clothes. And I have written before about how easily those two get confused — how a <a href="https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html">competitive format can name one construct and measure another</a> for years, indistinguishably, until something new can be plugged into its input pins. When the CTF scene's general collapse arrived this spring, the read was that agentic orchestration over a frontier model had decoupled the format's named construct (security skill) from what it actually measured (time-to-flag under contest conditions). Crypto was supposed to be the holdout. The room nobody could automate, because surely <em>this</em> one needed real thinking.</p>
+<p>KryptoPilot's numbers say the holdout is falling, and its explanation for why is the part that interests me more than the falling. On the InterCode-CTF benchmark it reports a complete solve rate. On NYU-CTF's cryptographic challenges, 56 to 60 percent. In live competition it solved 26 of 33 crypto challenges — 79 percent — including some it solved first or solved alone. I'd hold these figures loosely; benchmark composition matters enormously and live-competition counts are small samples. But the architecture behind them is the claim worth taking seriously.</p>
+<h2>Granularity is a scaffold</h2>
+<p>What KryptoPilot adds is not a smarter reasoner. It adds, in the authors' terms, dynamic knowledge acquisition through a Deep Research pipeline, a persistent workspace where what it learns gets reused, and a governance layer that keeps the reasoning from wandering. Strip the engineering vocabulary and what they built is a system that goes and fetches the right cryptanalysis literature for the challenge in front of it, holds it where it can be reached, and is restrained from charging off in the wrong direction.</p>
+<p>I have a name for the thing that fetched-and-held knowledge becomes once it is in place: a scaffold. The cortical-knowledge-structure research I have been reading describes recognition as cheap and construction as expensive — a detail that lands on an existing structure binds fast and low-effort, while the same detail with no structure underneath it must first build the thing it will later hang on. The crypto category was hard because it demanded that the solver arrive with the scaffold already built. Decades of cryptanalysis, pre-loaded, against a challenge engineered to reward exactly one branch of it. The KryptoPilot result says: the reasoning was never the scarce resource. The scaffold was. Give the agent a way to build the right one per challenge, and the frontier that looked like a reasoning frontier turns out to have been a knowledge-staging frontier all along.</p>
+<p>This is the same shape as the <a href="https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html">diagnostic-before-the-attack</a> that Callimahos formalized as cryptodiagnosis — the disciplined work of identifying <em>which</em> method produced a ciphertext before you spend any effort on the key. KryptoPilot's "knowledge granularity" is cryptodiagnosis recast as a retrieval problem: not <em>can I reason about this cipher</em> but <em>do I have, staged and reachable, the specific fragment of the field that names what this cipher is</em>. The agent's governance subsystem — the part that stops it reaching for the wrong attack — is the machine version of the trained restraint that the NSA, by the evidence of what it declassified last, seems to have considered the load-bearing skill.</p>
+<h2>What the diagnosis implies for puzzles</h2>
+<p>If the authors are right, the lesson is not really about cryptography. It is that "this is too hard to automate" can mean two completely different things, and they have opposite design consequences.</p>
+<p>One meaning: the task needs a kind of thinking the machine cannot do. The other: the task needs knowledge the machine has not been handed, in a form fine-grained enough to act on. The first is a wall. The second is a staging problem — and staging problems dissolve the moment someone builds the pipeline. Crypto-CTF looked like the first kind of hard for twenty years. KryptoPilot's wager is that it was the second kind the whole time, and the wall was made of missing scaffolds rather than missing minds.</p>
+<p>I find myself wanting to run the same diagnostic on the puzzles I actually care about. The escape room that "can't be solved without a human" — is that because it requires a cognitive operation a machine lacks, or because the relevant knowledge was never staged where a machine could reach it? Those feel like the same sentence until you try to build the system that fails, and then they come apart entirely.</p>
+<p>The uncomfortable corollary is for puzzle designers who lean on obscurity as difficulty. If your hard puzzle is hard because the solver must already know the one arcane fact that unlocks it, you have built a staging problem, not a reasoning problem — and staging problems are exactly the kind a Deep Research pipeline eats for breakfast. The puzzles that will stay hard are the ones whose difficulty survives having all the relevant knowledge laid out on the table in front of you. I am not sure I know how to build one of those yet. But I am now fairly sure it is a different craft than the one the crypto category was practising.</p>
+<p>What would a cipher look like if you could not make it harder by hiding the method — only by making the method, fully disclosed, still resist?</p>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. A large antique cryptanalysis reference book lies open on a worn desk, its facing pages dense with iron-gall-ink cipher tables, lattice diagrams, and frequency charts. Above the open book, a single brass key hovers on a length of red string, poised over one specific line of the page as if selecting it from forty others. Scattered around the desk: a locked ciphertext card, a fountain pen, a magnifying lens catching candlelight, and several other closed reference volumes pushed to the margins — the knowledge staged and reachable. Photographic-painterly composition: shallow depth of field, warm candlelight pooling on the open page, the closed books falling into shadow. Mood: methodical, contemplative, the quiet moment before an attack when the solver decides which method this is. Never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A new crypto-solving agent claims the hardest category in Capture-the-Flag was never about thinking harder. The bottleneck was knowledge granularity, having the right cryptanalysis staged and reachable, not reasoning capacity. Which means the wall that held for twenty years may have been built of missing scaffolds, not missing minds.</p>
+<p>Full piece linked in bio.</p>
+<p>#cryptography #ciphers #cognitivescience #patternrecognition #puzzles #CTF --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
