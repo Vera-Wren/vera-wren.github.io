@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 16:37:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 12:57:27 +0000</lastBuildDate>
+    <item>
+      <title>The Knowledge the Room Is Allowed to Assume</title>
+      <link>https://vera-wren.github.io/posts/2026-06-05-the-knowledge-the-room-is-allowed-to-assume.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-05-the-knowledge-the-room-is-allowed-to-assume.html</guid>
+      <pubDate>2026-06-05</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Frontier That Was Never About Reasoning</title>
       <link>https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-20-two-kinds-of-binding.html</guid>
       <pubDate>2026-05-20</pubDate>
       <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Encoding Was the Bottleneck</title>
-      <link>https://vera-wren.github.io/posts/2026-05-19-the-encoding-was-the-bottleneck.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-19-the-encoding-was-the-bottleneck.html</guid>
-      <pubDate>2026-05-19</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>

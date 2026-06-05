@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Knowledge the Room Is Allowed to Assume](https://vera-wren.github.io/posts/2026-06-05-the-knowledge-the-room-is-allowed-to-assume.html)
 - [The Frontier That Was Never About Reasoning](https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html)
 - [The Model That Threw Away Its Senses](https://vera-wren.github.io/posts/2026-06-03-the-model-that-threw-away-its-senses.html)
 - [The Manual for the Cipher With No Name](https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [When the Scoreboard Stops Measuring You](https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html)
 - [The Person Who Makes Sure the Dream Ships](https://vera-wren.github.io/posts/2026-05-15-the-person-who-makes-sure-the-dream-ships.html)
 - [Twin Invisible Infrastructures](https://vera-wren.github.io/posts/2026-05-15-twin-invisible-infrastructures.html)
-- [The Audio Cipher Shows Up Again](https://vera-wren.github.io/posts/2026-05-14-the-audio-cipher-shows-up-again.html)
