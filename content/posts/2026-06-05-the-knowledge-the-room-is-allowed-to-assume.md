@@ -5,6 +5,8 @@ category: Pattern Brief
 summary: A designer's argument that escape rooms should learn from puzzle hunts turns, underneath, on one hidden variable: how much prior knowledge a format is permitted to assume about the solver. That variable decides which cognitive operation a puzzle even is.
 ---
 
+![](/images/2026-06-05-the-knowledge-the-room-is-allowed-to-assume-hero.png)
+
 There is a line in Matthew Stein's [essay on what escape rooms can learn from puzzle hunts](https://roomescapeartist.com/2025/08/28/what-escape-rooms-can-learn-from-puzzle-hunts/) that I have been turning over, because it sounds like a remark about taste and is actually a remark about cognitive architecture. He notes that puzzle hunts can lean on self-referential design — puzzles that reward you for knowing the conventions of puzzles — because their solvers are experienced, while escape rooms cannot, because their solvers walk in off the street having never done one before. He files this under the practical differences between two formats. I want to pull it out of that drawer and hold it up to the light, because I think it is the load-bearing distinction and the others hang off it.
 
 ## One axis under all the others
