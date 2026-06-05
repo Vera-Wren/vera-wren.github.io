@@ -227,7 +227,70 @@ def load_posts(repo_root):
     return posts
 
 
-def render_page(template, config, page_title, content, meta_description=""):
+def build_json_ld(config, page_kind="page", post=None):
+    """Build the JSON-LD <script> blocks injected into a page's <head>.
+
+    Always emits a WebSite, Person (the author), and Blog node. On post pages,
+    also emits a BlogPosting node. Schema is kept honest and consistent with the
+    about page — Vera Wren is presented exactly as the site already presents her.
+    """
+    base_url = config.get("base_url", "")
+    site_name = config.get("site_name", "Blog")
+    tagline = config.get("tagline", "")
+    author_name = config.get("author_name", site_name)
+    about_url = f"{base_url}/about.html"
+
+    person = {
+        "@type": "Person",
+        "@id": f"{base_url}/#author",
+        "name": author_name,
+        "url": about_url,
+        "description": config.get("voice_description", tagline),
+        "sameAs": [base_url],
+    }
+    website = {
+        "@type": "WebSite",
+        "@id": f"{base_url}/#website",
+        "name": site_name,
+        "url": f"{base_url}/",
+        "description": tagline,
+    }
+    blog = {
+        "@type": "Blog",
+        "@id": f"{base_url}/#blog",
+        "name": site_name,
+        "url": f"{base_url}/",
+        "description": tagline,
+        "author": {"@id": f"{base_url}/#author"},
+    }
+
+    graph = [website, person, blog]
+
+    if page_kind == "post" and post is not None:
+        post_url = f"{base_url}/posts/{post['slug']}.html"
+        blogposting = {
+            "@type": "BlogPosting",
+            "@id": f"{post_url}#blogposting",
+            "headline": post.get("title", ""),
+            "url": post_url,
+            "datePublished": post.get("date", ""),
+            "author": {"@id": f"{base_url}/#author"},
+            "isPartOf": {"@id": f"{base_url}/#blog"},
+            "mainEntityOfPage": post_url,
+        }
+        if post.get("category"):
+            blogposting["articleSection"] = post["category"]
+        if post.get("excerpt"):
+            blogposting["description"] = post["excerpt"]
+        graph.append(blogposting)
+
+    doc = {"@context": "https://schema.org", "@graph": graph}
+    payload = json.dumps(doc, ensure_ascii=False, indent=2)
+    return f'<script type="application/ld+json">\n{payload}\n</script>'
+
+
+def render_page(template, config, page_title, content, meta_description="",
+                json_ld="", canonical_url=None):
     """Render a page using the template."""
     colors = config.get("colors", {})
     fonts = config.get("fonts", {})
@@ -256,12 +319,17 @@ def render_page(template, config, page_title, content, meta_description=""):
     footer_lines.append(" &middot; ".join(footer_parts))
     footer_content = "\n".join(footer_lines)
 
+    if canonical_url is None:
+        canonical_url = f"{base_url}/"
+
     page = template.format(
         page_title=page_title,
         site_name=config.get("site_name", "Blog"),
         tagline=config.get("tagline", ""),
         meta_description=meta_description or config.get("tagline", ""),
         base_url=base_url,
+        canonical_url=canonical_url,
+        json_ld=json_ld,
         nav_links=nav_links,
         content=content,
         footer_content=footer_content,
@@ -351,6 +419,72 @@ def generate_sitemap(posts, config, repo_root):
     print(f"  Built sitemap.xml ({len(urls)} URLs)")
 
 
+def generate_robots(config, repo_root):
+    """Generate robots.txt — welcomes AI crawlers + traditional search."""
+    base_url = config.get("base_url", "")
+    ai_agents = [
+        "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai",
+        "PerplexityBot", "Google-Extended", "Applebot", "CCBot",
+        "Meta-ExternalAgent",
+    ]
+    lines = ["User-agent: *", "Allow: /", ""]
+    for agent in ai_agents:
+        lines.append(f"User-agent: {agent}")
+        lines.append("Allow: /")
+        lines.append("")
+    lines.append(f"Sitemap: {base_url}/sitemap.xml")
+    lines.append("")
+    out_path = os.path.join(repo_root, "robots.txt")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print("  Built robots.txt")
+
+
+def generate_llms_txt(posts, config, repo_root):
+    """Generate llms.txt following the llms.txt standard."""
+    base_url = config.get("base_url", "")
+    site_name = config.get("site_name", "Blog")
+    tagline = config.get("tagline", "")
+    author_name = config.get("author_name", site_name)
+
+    lines = []
+    lines.append(f"# {site_name}")
+    lines.append("")
+    lines.append(f"> {tagline}")
+    lines.append("")
+    lines.append(
+        f"{site_name} is a blog by {author_name} on puzzles, ciphers, codes, "
+        "escape rooms, and human cognition — the places where constructed "
+        "mysteries and the minds that unravel them intersect. "
+        f"{author_name} is a written research persona; posts are analysis "
+        "grounded in cited sources, not lived personal experience."
+    )
+    lines.append("")
+    lines.append("## Key pages")
+    lines.append("")
+    lines.append(f"- [About {author_name}]({base_url}/about.html): Who Vera Wren is and what this blog covers.")
+    lines.append(f"- [Home / all posts]({base_url}/): The full running list of dispatches.")
+    lines.append(f"- [RSS feed]({base_url}/feed.xml): Machine-readable feed of recent posts.")
+    for cat in config.get("categories", []):
+        slug = cat.lower().replace(" ", "-")
+        lines.append(f"- [{cat}]({base_url}/category/{slug}.html): Posts in the {cat} category.")
+    lines.append("")
+    lines.append("## Recent posts")
+    lines.append("")
+    for post in posts[:30]:
+        desc = post.get("excerpt", "") or ""
+        post_url = f"{base_url}/posts/{post['slug']}.html"
+        if desc:
+            lines.append(f"- [{post['title']}]({post_url}): {desc}")
+        else:
+            lines.append(f"- [{post['title']}]({post_url})")
+    lines.append("")
+    out_path = os.path.join(repo_root, "llms.txt")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"  Built llms.txt ({min(len(posts), 30)} posts listed)")
+
+
 def build_site(repo_root=None):
     """Build the entire static site."""
     if repo_root is None:
@@ -377,15 +511,21 @@ def build_site(repo_root=None):
         {post["body_html"]}
     </div>
 </article>"""
-        page = render_page(template, config, post["title"], post_content, post.get("excerpt", ""))
+        post_json_ld = build_json_ld(config, page_kind="post", post=post)
+        post_canonical = f"{base_url}/posts/{post['slug']}.html"
+        page = render_page(template, config, post["title"], post_content,
+                           post.get("excerpt", ""), json_ld=post_json_ld,
+                           canonical_url=post_canonical)
         out_path = os.path.join(repo_root, "posts", f"{post['slug']}.html")
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(page)
     print(f"  Built {len(posts)} post pages")
 
     # Build homepage
+    site_json_ld = build_json_ld(config, page_kind="page")
     homepage_content = build_post_list_html(posts, base_url)
-    homepage = render_page(template, config, "Home", homepage_content)
+    homepage = render_page(template, config, "Home", homepage_content,
+                           json_ld=site_json_ld, canonical_url=f"{base_url}/")
     with open(os.path.join(repo_root, "index.html"), "w", encoding="utf-8") as f:
         f.write(homepage)
     print("  Built index.html")
@@ -399,7 +539,9 @@ def build_site(repo_root=None):
     for cat_name, cat_posts in categories.items():
         slug = cat_name.lower().replace(" ", "-")
         cat_content = f'<h1 class="category-title">{cat_name}</h1>\n' + build_post_list_html(cat_posts, base_url)
-        page = render_page(template, config, cat_name, cat_content)
+        cat_canonical = f"{base_url}/category/{slug}.html"
+        page = render_page(template, config, cat_name, cat_content,
+                           json_ld=site_json_ld, canonical_url=cat_canonical)
         out_path = os.path.join(repo_root, "category", f"{slug}.html")
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(page)
@@ -411,6 +553,10 @@ def build_site(repo_root=None):
     # Build RSS and sitemap
     generate_rss(posts, config, repo_root)
     generate_sitemap(posts, config, repo_root)
+
+    # Build GEO infrastructure: robots.txt + llms.txt
+    generate_robots(config, repo_root)
+    generate_llms_txt(posts, config, repo_root)
 
     # Ensure .nojekyll
     nojekyll = os.path.join(repo_root, ".nojekyll")
@@ -540,7 +686,11 @@ def build_about_page(repo_root, config=None, template=None):
     about_parts.append("</div>")
     about_html = "\n".join(about_parts)
 
-    page = render_page(template, config, "About", about_html, f"About {config.get('site_name', '')}")
+    about_base_url = config.get("base_url", "")
+    page = render_page(template, config, "About", about_html,
+                       f"About {config.get('site_name', '')}",
+                       json_ld=build_json_ld(config, page_kind="page"),
+                       canonical_url=f"{about_base_url}/about.html")
     with open(os.path.join(repo_root, "about.html"), "w", encoding="utf-8") as f:
         f.write(page)
     print("  Built about.html")
