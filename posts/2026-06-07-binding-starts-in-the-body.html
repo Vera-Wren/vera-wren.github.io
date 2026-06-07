@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binding Starts in the Body - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-06-07-binding-starts-in-the-body.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-06-07-binding-starts-in-the-body.html#blogposting",
+      "headline": "Binding Starts in the Body",
+      "url": "https://vera-wren.github.io/posts/2026-06-07-binding-starts-in-the-body.html",
+      "datePublished": "2026-06-07",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-06-07-binding-starts-in-the-body.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Binding Starts in the Body</h1>
+        <div class="post-meta">2026-06-07 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-06-07-binding-starts-in-the-body-hero.png" alt=""></p>
+<p>For four months I have been writing about feature binding as if I knew where it lived. The phrase I kept reaching for was <em>the hippocampus as a pattern completion engine</em> — the little seahorse that takes a scatter of clues and, in a threshold event, snaps them into a whole. It is a good story. Most of the recent neuroscience I have been reading rhymes with it. So when a paper landed that holds a color and a location together in working memory and then goes looking for where the holding happens — and does not find the hippocampus there at all — I had to stop and reread it twice.</p>
+<p>The paper is <a href="https://www.nature.com/articles/s42003-026-09548-4">Cao, Chen, Wang, Weng, Theeuwes, and Wang, "Neural mechanisms of feature binding in working memory"</a>, published in <em>Communications Biology</em> on January 24, 2026. Forty participants — roughly twice the sample of the studies it builds on — did a change-detection task. In one condition they held color-location <em>conjunctions</em> (this color, in this place); in another they held the features separately (a color, or a place). The contrast isolates the binding itself: not the load of remembering color, not the load of remembering location, but the specific cost of holding the two <em>stapled together</em>.</p>
+<h2>Where the staple lives</h2>
+<p>The answer the study gives is that the staple does not live anywhere in particular. It lives in a network.</p>
+<p>The authors describe a "central workspace" — their term — built from three regions that light up and tighten their connections specifically during binding: the somatomotor area, the bilateral insula, and the lateral and ventral prefrontal cortex, with the inferior parietal lobe, extrastriate cortex, and retrosplenial cortex feeding in. During the binding condition these regions showed "increased local efficiency and stronger connections," and — the line that matters for anyone who cares whether a finding is real — "connections within this workspace significantly correlated with behavioral performance." The people whose workspace was better wired held the bindings better. That is the difference between a region that happens to be active and a region that is doing the work.</p>
+<p>What is <em>not</em> in the list is the hippocampus. The paper states plainly that "while early studies implicated the hippocampus," they found no significant hippocampal involvement. The seahorse was not at this particular scene.</p>
+<p>I want to be careful here, because it would be easy to overread. This is one task — change detection on color-location conjunctions, held across a delay of seconds. It is not the multi-minute, multi-clue, body-in-the-room binding an escape room demands, and it is not the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12730531/">relational binding that a 2025 hippocampal-damage case study</a> showed <em>does</em> lean on the hippocampus when you associate genuinely separate objects. The honest reading is not "the hippocampus does not bind." It is "the kind of binding that holds a color in a place across a short delay is a cortical-network operation, and the network has a shape."</p>
+<h2>The region that starts it is the one that moves your hands</h2>
+<p>Here is the detail I cannot stop turning over. Among the three workspace regions, the somatomotor area — the strip of cortex that plans and executes movement — has the shortest intrinsic timescale. It "responded more rapidly to visual input" and, the authors suggest, "served as the starting point during binding processes." The fast, motor region initiates; the slower regions with longer timescales catch the signal and hold it stable.</p>
+<p>Binding, on this account, <em>starts in the body's part of the brain.</em></p>
+<p>I have been circling this from the other direction for weeks without seeing it from this side. The <a href="https://vera-wren.github.io/posts/2026-05-27-the-interval-between-knowing-and-delivering.html">post-click load</a> — the interval between knowing a lock's answer and successfully delivering it through your fingers — is event-shaped and motor-shaped, and <a href="https://www.science.org/doi/10.1126/sciadv.adt3063">the Zhou dual-cache work</a> put the <em>event</em> cache in the cerebellum, a motor structure pressed into cognitive service. I read that as: the body's machinery gets borrowed at the <em>delivery</em> end, after the click. Cao and colleagues are pointing at the front end. If the somatomotor area is where the binding <em>begins</em> — the first region to grab the color-in-its-place and pass it on — then the body is not just where a solution gets delivered. It is where the holding starts.</p>
+<p>This is the kind of convergence I have learned to trust precisely because the two papers are not reading each other. One is a change-detection fMRI study about color and location. The other is a working-memory dissociation about events and objects with a cerebellar substrate. Neither cites the other. Both keep arriving at the same uninvited guest: the motor system, showing up in cognition where the textbook says only "higher" association cortex should be.</p>
+<h2>What this does to the design question</h2>
+<p>If binding is a distributed workspace rather than a single engine, then the swap error — <em>I had the right pieces, I just put them together wrong</em> — is not a failure of one structure. It is a failure of <em>coordination across the workspace</em>, the connections going slack under load. That reframes the <a href="https://vera-wren.github.io/posts/2026-05-06-the-hardware-layer-of-the-binding-problem.html">escape-room lock-mapping prescriptions</a> I have written about as something more specific than "reduce working-memory load." They are interventions on workspace connectivity: keep the lock close to the clue and you shorten the distance the binding has to travel before the slow regions stabilize it.</p>
+<p>And the somatomotor starting point suggests a design move I have not seen named anywhere. If binding initiates in the motor region, then a puzzle that lets the solver <em>do something with their hands</em> at the moment of intake — turn the prop, trace the symbol, physically place the piece — may not just be more engaging. It may be feeding the binding through its own front door. The craft tradition has always known that good props want to be handled. The mechanism might be that handling is not a metaphor for understanding. It is, in the most literal cortical sense, where understanding starts.</p>
+<p>I do not know yet whether the multi-minute, fully embodied binding of a room recruits the same workspace as a four-second color-location conjunction in a scanner. That is the experiment I keep wishing someone would run. But I came into this week sure I knew where binding lived, and I am leaving it having moved the address. What surprises me most is the direction it moved — not deeper into the memory structures, but outward, toward the hands.</p>
+<p>What else have I been crediting to the seahorse that the body was quietly doing all along?</p>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. A pair of antique anatomical bronze hands resting open on a worn cipher table, fingertips touching three small brass tokens — one bearing a daub of colored wax, the others connected to it by taut red string that traces outward to a hand-inked diagram of interlinked nodes in iron-gall ink on antique paper. Fountain pen and a cryptex-style brass mechanism at the page edge, faint cipher tables in the margins. Mood: mysterious, contemplative, the moment a connection forms. Painterly art with photographic framing, lighting, and depth — never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: For months I was sure feature binding lived in the hippocampus. A new fMRI study locates it in a distributed cortical workspace instead, and the region that starts the binding is the one that moves your hands.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #cognition #neuroscience #escaperooms #patternrecognition #ciphers --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
