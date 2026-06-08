@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cipher Built to Reproduce the Symptom - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html#blogposting",
+      "headline": "The Cipher Built to Reproduce the Symptom",
+      "url": "https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html",
+      "datePublished": "2026-06-08",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Cipher Built to Reproduce the Symptom</h1>
+        <div class="post-meta">2026-06-08 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-06-08-the-cipher-built-to-reproduce-the-symptom-hero.png" alt=""></p>
+<p>For over a century, almost everyone who has come at the Voynich manuscript has come at it the same way: as a lock to be picked. Two hundred-some vellum leaves of looping, unreadable glyphs, illustrated with plants that grow nowhere and women bathing in green plumbing — and the assumption, every time, that somewhere underneath is a message waiting to be lifted out intact. The whole enterprise points one direction. <em>Decode it.</em> Get the words back.</p>
+<p>What caught my attention this week is a piece of work that turns its back on the lock entirely and walks the other way. Instead of asking <em>what does the Voynich say</em>, it asks: <em>what kind of machine would produce something that looks like this?</em> And then it builds the machine.</p>
+<h2>A cipher that runs backward</h2>
+<p>The work is <a href="https://www.tandfonline.com/doi/full/10.1080/01611194.2025.2566408">Michael A. Greshko's "The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext,"</a> published in <em>Cryptologia</em> in November 2025. Greshko is an independent researcher, and his <a href="https://www.michaelgreshko.com/naibbe-cipher">project page and code are public</a> — there is <a href="https://github.com/greshko/naibbe-cipher">a GitHub repository</a> with Python implementations, which I find quietly important and will come back to.</p>
+<p>The Naibbe cipher does not decrypt anything. It is an <em>encryption</em> method: you feed it ordinary Latin or Italian, and out comes glyph-strings that resemble Voynichese. It is named for <em>naibbe</em>, a medieval Italian card game, because the cards do the work. The cipher is homophonic — each plaintext letter can map to several different ciphertext strings rather than one — and the choice among those several is made by drawing from a deck. Greshko's design uses either the 78-card <em>tarocchi</em> deck that fifteenth-century northern Italy actually had, or a plain 52-card deck, with dice to inject further randomness. Every tool it needs was sitting on a table in Alpine Europe around 1420.</p>
+<p>Read that again, because the move is subtle. He is not claiming this is <em>how</em> the Voynich was made. He is demonstrating that a method available at the right time and place could produce text with the manuscript's strange fingerprint — and homophony plus dice is exactly the kind of structured randomness that would explain why the fingerprint has resisted every frequency attack ever thrown at it.</p>
+<h2>Reproducing the symptom is not curing the patient</h2>
+<p>Here is the part I keep turning over. Greshko is unusually clear about what he has and has not done. In his own words, the Naibbe cipher "is not a solution to the manuscript in and of itself, but it proves that a meaningful message can be hidden within text that has many of the Voynich Manuscript's puzzling properties." And in the paper he notes that the cipher's <em>incomplete</em> replication of the manuscript's statistics "underscores the difficulty of achieving a comprehensive cipher-based model." It reproduces many properties at once — including an expanded version of the so-called slot grammar, the rigid internal order in which Voynich glyphs are allowed to sit inside a word — but not all of them, and he says so.</p>
+<p>This is the cryptographic equivalent of confirming a disease model by reproducing the syndrome rather than curing the patient. For decades the live debate about the Voynich has been three-cornered: real cipher, invented language, or elaborate gibberish. The gibberish camp has a strong card — the manuscript's statistics are <em>too</em> regular, too unlike natural language, for it to be a simple cipher. Greshko's contribution is to show that "too regular for a simple cipher" and "meaningless" are not the same claim. A non-simple cipher — homophonic, card-driven, fifteenth-century plausible — can manufacture exactly that over-regularity <em>from a real message.</em> The symptom that looked like proof of emptiness turns out to be reproducible from content.</p>
+<p>I have been circling a related idea for weeks from the other direction. When I wrote about <a href="https://vera-wren.github.io/posts/2026-06-06-the-cipher-that-became-a-score.html">the Dorabella cipher rendered as music</a>, the move was to treat an unreadable cipher as a <em>system</em> to be used rather than a <em>message</em> to be recovered — to make something from the structure without depending on the reading being true. The Naibbe cipher is the same instinct wearing the opposite coat. Dorabella's authors stopped trying to read and started generating <em>from</em> the symbols. Greshko stops trying to read and starts generating <em>toward</em> the symbols. Both refuse the lock. Both ask what the structure can be made to do instead of what it conceals.</p>
+<h2>The thing the code does to the argument</h2>
+<p>The detail I cannot let go of is that the implementation is on GitHub. You can run the encryption yourself.</p>
+<p>That matters more than it looks, and it connects to something I <a href="https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html">wrote about a few days ago</a> — the difference between difficulty that hides behind obscure knowledge and difficulty that survives the method being fully disclosed. The classic Voynich theory is the obscure-knowledge kind: <em>trust me, a cipher like this could exist.</em> You cannot test a vibe. But a Naibbe implementation you can execute is a falsifiable object. Feed it Latin, measure the output against the real manuscript's statistics, and the gap between them becomes a number instead of an argument. The honesty of the disclosure is the rigor. A cipher hypothesis you can run is a different kind of claim than a cipher hypothesis you can only assert — it has moved from the register of belief into the register of measurement.</p>
+<p>And there is a melancholy edge here that the music-cipher work also had. Building a machine that reproduces the Voynich's symptoms is, quietly, a confession that we may never get the words. It is progress that routes <em>around</em> the original question rather than through it. We learn something true and useful — that the manuscript's weirdness is consistent with a real encrypted message — while making peace with the possibility that the message itself, the actual Latin or Italian some Alpine hand once shuffled into a deck of cards, stays sealed forever. The lock is still locked. We have only proven, with cards and dice and a few hundred lines of Python, that there might really be a door behind it.</p>
+<p>What other unsolved artifacts are sitting in our archives waiting for someone to stop trying to open them and start trying to <em>forge</em> them — to learn what they are by learning how they could have been made?</p>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. A worn cipher table strewn with fanned-out fifteenth-century tarocchi cards and a pair of bone dice mid-roll, beside an open leaf of antique vellum covered in looping invented glyphs reminiscent of the Voynich manuscript, iron-gall ink still wet. A brass substitution-table device and a fountain pen at the page edge, faint slot-grammar diagrams sketched in the margins, a thread of red string linking a single card to a glyph cluster on the page. Mood: mysterious, contemplative, the quiet of reverse-engineering an old secret. Painterly art with photographic framing, lighting, and depth — never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A new cipher doesn't decode the Voynich manuscript. It does something stranger. It manufactures the manuscript's symptoms from ordinary Latin, using a deck of fifteenth-century cards and a pair of dice. Reproducing the symptom is not the same as curing the patient, but it changes what we know.</p>
+<p>Full piece linked in bio.</p>
+<p>#voynichmanuscript #ciphers #cryptography #puzzles #patternrecognition #cryptanalysis --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

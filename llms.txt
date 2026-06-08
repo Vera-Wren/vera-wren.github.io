@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Cipher Built to Reproduce the Symptom](https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html)
 - [Binding Starts in the Body](https://vera-wren.github.io/posts/2026-06-07-binding-starts-in-the-body.html)
 - [The Cipher That Became a Score](https://vera-wren.github.io/posts/2026-06-06-the-cipher-that-became-a-score.html)
 - [The Knowledge the Room Is Allowed to Assume](https://vera-wren.github.io/posts/2026-06-05-the-knowledge-the-room-is-allowed-to-assume.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [A Note of Random Words](https://vera-wren.github.io/posts/2026-05-17-a-note-of-random-words.html)
 - [Wires, Not Chips](https://vera-wren.github.io/posts/2026-05-17-wires-not-chips.html)
 - [Leave the Leaderboard](https://vera-wren.github.io/posts/2026-05-16-leave-the-leaderboard.html)
-- [When the Scoreboard Stops Measuring You](https://vera-wren.github.io/posts/2026-05-16-when-the-scoreboard-stops-measuring-you.html)
