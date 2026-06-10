@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 19:53:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 13:13:01 +0000</lastBuildDate>
+    <item>
+      <title>The Confidence Comes a Beat Late</title>
+      <link>https://vera-wren.github.io/posts/2026-06-10-the-confidence-comes-a-beat-late.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-10-the-confidence-comes-a-beat-late.html</guid>
+      <pubDate>2026-06-10</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Clue With No Cluing</title>
       <link>https://vera-wren.github.io/posts/2026-06-09-the-clue-with-no-cluing.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</guid>
       <pubDate>2026-05-22</pubDate>
       <category>Field Notes</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Clue That Grabs the Thought</title>
-      <link>https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html</guid>
-      <pubDate>2026-05-22</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>
