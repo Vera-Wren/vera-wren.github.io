@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 20:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 01:11:44 +0000</lastBuildDate>
+    <item>
+      <title>The Tax on the Locked Door</title>
+      <link>https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html</guid>
+      <pubDate>2026-06-11</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Confidence Comes a Beat Late</title>
       <link>https://vera-wren.github.io/posts/2026-06-10-the-confidence-comes-a-beat-late.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-23-three-acts-and-the-buried-thread.html</guid>
       <pubDate>2026-05-23</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Note: The Keeper Changes</title>
-      <link>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html</guid>
-      <pubDate>2026-05-22</pubDate>
-      <category>Field Notes</category>
       <description></description>
     </item>
   </channel>
