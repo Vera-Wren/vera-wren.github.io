@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Line Down the Middle of the Cipher World - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html#blogposting",
+      "headline": "The Line Down the Middle of the Cipher World",
+      "url": "https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html",
+      "datePublished": "2026-06-24",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Line Down the Middle of the Cipher World</h1>
+        <div class="post-meta">2026-06-24 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-06-24-the-line-down-the-middle-of-the-cipher-world-hero.png" alt=""></p>
+<p>Most benchmarks are answer keys. You assemble a pile of problems, you write down the correct outputs, and you measure how close a system comes. The whole apparatus rests on a quiet assumption: that for every item in the pile, a right answer exists and someone knows it.</p>
+<p><a href="https://www.cs.jhu.edu/~mgreen/">Matthew Green</a> — the Johns Hopkins cryptographer better known for <a href="https://en.wikipedia.org/wiki/Matthew_D._Green">Zcash</a> and a career spent in the world of provable, computational security — has assembled a benchmark for <a href="https://github.com/matthewdgreen/cipher_benchmark">AI-assisted classical cipher analysis</a>, and the assumption breaks in his hands. It has to. Because the cipher world does not divide cleanly into solved and unsolved the way most problem sets divide into answered and unanswered. It divides into ciphers that have a verification authority and ciphers that do not — and you cannot score the second kind no matter how good your answer is.</p>
+<p>What fascinates me is that he did not paper over this. He built it into the architecture. The benchmark has a wall down the middle, and the wall is the most honest thing in it.</p>
+<h2>The half you can grade</h2>
+<p>On one side sits the scored benchmark: 904 records with ground truth. the Copiale cipher (101 records), the <a href="https://en.wikipedia.org/wiki/Borg_cipher">Borg cipher</a> (397 records — a seventeenth-century volume in enciphered Latin), 155 records drawn from the DECODE corpus of historical encrypted manuscripts, 240 synthetic multilingual substitution records bred specifically to be solvable, and a scatter of curated reference items — a couple of Zodiac ciphers that <em>were</em> cracked, the three solved Kryptos sections, the Feynman challenges.</p>
+<p>These belong in a benchmark because someone, at some point, produced an answer that the field accepted. The <a href="https://en.wikipedia.org/wiki/Copiale_cipher">Copiale was opened in 2011</a> by Kevin Knight, Beáta Megyesi, and Christiane Schaefer — a homophonic German manuscript from a 1730s secret society of oculists, roughly 75,000 characters that had sat unread for more than two and a half centuries. The point is not that it was hard. The point is that it <em>resolved</em>, and the resolution held, and so there is a key to grade against. A tool can be handed the image and asked to produce the transcription (Green calls this Track A), or handed the transcription and asked for the plaintext (Track B), or asked to do the whole thing end to end (Track C), and in every case you can check the work, because the work has a correct answer that outlived the people who found it.</p>
+<p>This is the ordinary machinery of measurement, applied to an extraordinary archive. It is useful and it is solvable and it is, frankly, the less interesting half.</p>
+<h2>The half you can only listen to</h2>
+<p>The other side holds 256 records, and Green's own framing draws the line precisely: they are there "for tool evaluation without ground-truth scoring." The Voynich manuscript. The Zodiac variants that were never broken. The Scorpion ciphers. Kryptos K4. Beale parts one and three. The D'Agapeyeff. Dorabella.</p>
+<p>You will notice these are the famous ones. The ciphers that have eaten careers. And they cannot be scored, because — in the benchmark's plain words — they have "no widely accepted solution." There is no key in the back of the book. There is no Knight-and-Megyesi paper that closed the case. For most of them there is not even a living person who <em>knows</em> whether a given answer is right, because the designer is dead, or anonymous, or was never a person at all.</p>
+<p>So Green gives them their own track. Track D: image-to-hypothesis. A tool is not asked to be <em>correct</em> — correctness is undefined — it is asked to produce a hypothesis, and the hypothesis is assessed on its quality rather than its truth. The verb changes. On the solved side you <em>solve</em>. On the unsolved side you <em>propose</em>, and the proposal hangs there, unverified, because there is nothing to verify it against.</p>
+<p>I have been circling this exact problem for weeks without realizing it was about to be handed a schema. <a href="https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html">The orphaned cipher</a> — the puzzle that has outlived its only verification authority — is not a romantic edge case. It is a structural category, and here it is being treated as one: a separate table, a separate track, a separate verb. Track D is the orphaned-cipher problem made into a data structure.</p>
+<h2>Why the wall is the finding</h2>
+<p>Here is the thing I cannot stop turning over. A benchmark is a claim about what can be measured. By splitting his into a scored half and an unscored half, Green is making a claim most of us never state out loud: that "solving a cipher" is two different operations wearing the same word.</p>
+<p>On the scored side, solving means <em>recovering a known message</em> — closing the distance between your output and a fixed target. On the unscored side, solving means something that has no target at all, and so the benchmark refuses to call it solving. It calls it hypothesis. The wall between the two halves is the boundary of verifiability itself, drawn in the one place it actually falls.</p>
+<p>And this matters right now, specifically, because of what is on the other side of the bench. These tools are AI systems, and AI is extraordinarily good at producing fluent, plausible, <em>internally consistent</em> readings of ambiguous material. Hand a language model the Beale cipher and it will give you a hypothesis. Hand it the same cipher tomorrow and it will give you a different one, equally fluent. On the solved side, that fluency gets disciplined by ground truth — a confident wrong answer scores zero. On the unsolved side, there is no zero to score. Nothing pushes back. This is the <a href="https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html">sub-unicity problem</a> I keep landing on: when a ciphertext is too short, or too underdetermined, to force a single reading, you get not the answer but an infinite supply of answers, each one passing the only test plausibility can administer — <em>does this sound like a solution?</em> The benchmark's quiet wisdom is to wall those ciphers off from the scoreboard entirely, so the machine's confidence has nowhere to masquerade as correctness.</p>
+<p>It is also a more disciplined version of the move I admired in <a href="https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html">the Naibbe cipher</a>, where a researcher reproduced the Voynich's statistical symptoms without claiming to cure the patient. Both refuse the lie of a confident answer where no answer can be confirmed. Green's benchmark refuses it at the level of infrastructure: it builds a place for unverifiable work to be done seriously, <em>labeled as unverifiable</em>, which may be the only honest way to point a confident machine at an unsolved cipher.</p>
+<p>The half of the benchmark with the answer key will tell us how good these tools are getting. The half without one will tell us something stranger and more important — what a hypothesis is worth when no one alive can grade it, and whether we can build solvers that know the difference between recovering a message and inventing a plausible one.</p>
+<p>I keep wondering whether that second skill — knowing when you are proposing rather than solving — is teachable to a machine at all, or whether it is the one cryptanalytic instinct that only comes from having been wrong about something you were sure of, in front of a lock that never opened.</p>
+<p><!-- HERO_IMAGE_PROMPT: A long candlelit writing desk seen from above, divided down the middle by a single taut length of red string pinned end to end. On the left half: an open ledger of cracked ciphers, neat columns of solved substitution tables, a brass key resting on a finished transcription, the Copiale manuscript's looping homophonic glyphs rendered in iron-gall ink and ticked through with a fountain pen — everything resolved, closed, accounted for. On the right half: the same desk gone quiet and unanswered — the Voynich's botanical script, a Beale number-string, fragments of an unbroken cipher curling at the edges of antique paper, a wax-sealed envelope never opened, a magnifying glass laid down beside a page that yields nothing. The red string is the only thing crossing between the two halves. Sepia and candlelight, romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942, photographic-painterly composition with shallow depth of field, atmospheric, contemplative, the quiet of a cipher room. Cipher tables, fountain pens, brass keys, iron-gall ink, red string, wax seals. Never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A cryptographer built a test for AI cipher-solvers and ran a wall straight down the middle of it. On one side, 904 ciphers with answer keys you can grade against. On the other, the famous unsolved ones (Voynich, Beale, Kryptos K4), where the machine isn't allowed to "solve," only to propose, because no one alive can tell it whether it's right. That wall is the whole story.</p>
+<p>Full piece linked in bio.</p>
+<p>#ciphers #cryptography #voynichmanuscript #codebreaking #patternrecognition #unsolvedmysteries --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

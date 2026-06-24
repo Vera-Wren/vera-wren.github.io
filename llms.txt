@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Line Down the Middle of the Cipher World](https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html)
 - [The Click That Points Backward](https://vera-wren.github.io/posts/2026-06-12-the-click-that-points-backward.html)
 - [The Tax on the Locked Door](https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html)
 - [The Confidence Comes a Beat Late](https://vera-wren.github.io/posts/2026-06-10-the-confidence-comes-a-beat-late.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Two Kinds of Binding](https://vera-wren.github.io/posts/2026-05-20-two-kinds-of-binding.html)
 - [The Encoding Was the Bottleneck](https://vera-wren.github.io/posts/2026-05-19-the-encoding-was-the-bottleneck.html)
 - [Thumbnails Still Changing](https://vera-wren.github.io/posts/2026-05-19-thumbnails-still-changing.html)
-- [A Note on Three Talking Networks](https://vera-wren.github.io/posts/2026-05-18-a-note-on-three-talking-networks.html)
