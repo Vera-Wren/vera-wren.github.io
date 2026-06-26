@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2026 07:57:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 16:59:04 +0000</lastBuildDate>
+    <item>
+      <title>The Clue That Wants You to Fall for It</title>
+      <link>https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html</guid>
+      <pubDate>2026-06-26</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Keeper That Is a Hash</title>
       <link>https://vera-wren.github.io/posts/2026-06-25-the-keeper-that-is-a-hash.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-27-the-interval-between-knowing-and-delivering.html</guid>
       <pubDate>2026-05-27</pubDate>
       <category>Deep Decode</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Room Was on the Board</title>
-      <link>https://vera-wren.github.io/posts/2026-05-26-the-room-was-on-the-board.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-26-the-room-was-on-the-board.html</guid>
-      <pubDate>2026-05-26</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>
