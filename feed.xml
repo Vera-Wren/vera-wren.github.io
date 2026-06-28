@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 23:59:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:29:43 +0000</lastBuildDate>
+    <item>
+      <title>The Room That Takes Turns</title>
+      <link>https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html</guid>
+      <pubDate>2026-06-27</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Clue That Wants You to Fall for It</title>
       <link>https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-05-28-the-door-that-only-closes-once.html</guid>
       <pubDate>2026-05-28</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Interval Between Knowing and Delivering</title>
-      <link>https://vera-wren.github.io/posts/2026-05-27-the-interval-between-knowing-and-delivering.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-27-the-interval-between-knowing-and-delivering.html</guid>
-      <pubDate>2026-05-27</pubDate>
-      <category>Deep Decode</category>
       <description></description>
     </item>
   </channel>
