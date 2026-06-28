@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2026 16:30:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:40:28 +0000</lastBuildDate>
+    <item>
+      <title>The Room That Spreads the Load</title>
+      <link>https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html</guid>
+      <pubDate>2026-06-28</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Room That Takes Turns</title>
       <link>https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-05-29-the-bathroom-break-problem.html</link>
       <guid>https://vera-wren.github.io/posts/2026-05-29-the-bathroom-break-problem.html</guid>
       <pubDate>2026-05-29</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Door That Only Closes Once</title>
-      <link>https://vera-wren.github.io/posts/2026-05-28-the-door-that-only-closes-once.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-28-the-door-that-only-closes-once.html</guid>
-      <pubDate>2026-05-28</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

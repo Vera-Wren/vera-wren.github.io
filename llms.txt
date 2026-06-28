@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Room That Spreads the Load](https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html)
 - [The Room That Takes Turns](https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html)
 - [The Clue That Wants You to Fall for It](https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html)
 - [The Keeper That Is a Hash](https://vera-wren.github.io/posts/2026-06-25-the-keeper-that-is-a-hash.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Clue That Grabs the Thought](https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html)
 - [Note: A Million-Dollar Trigger](https://vera-wren.github.io/posts/2026-05-21-note-a-million-dollar-trigger.html)
 - [The Room Speaks in Its Own Protocol](https://vera-wren.github.io/posts/2026-05-21-the-room-speaks-in-its-own-protocol.html)
-- [The Sequel Has Two Audiences in the Same Room](https://vera-wren.github.io/posts/2026-05-20-the-sequel-has-two-audiences.html)
