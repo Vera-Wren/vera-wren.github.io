@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Watermark That Hides in the Spaces - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html#blogposting",
+      "headline": "The Watermark That Hides in the Spaces",
+      "url": "https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html",
+      "datePublished": "2026-06-30",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Watermark That Hides in the Spaces</h1>
+        <div class="post-meta">2026-06-30 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-06-30-the-watermark-that-hides-in-the-spaces-hero.png" alt=""></p>
+<p>There is a family of Unicode characters that take up no space at all. The zero-width space, U+200B. The zero-width non-joiner, U+200C. The zero-width joiner, U+200D, the one that quietly fuses an emoji to its skin tone. They are legitimate, useful, unremarkable. They are also invisible, which is exactly the property that makes them irresistible to anyone who wants to write a message in the margins of another message.</p>
+<p>This week a developer, <a href="https://thereallo.dev/blog/claude-code-prompt-steganography">poking at the Claude Code binary</a> for privacy reasons, found one of those margin-messages. The tool was inserting hidden markers into the system prompt it sends — material woven into otherwise ordinary context, carrying provenance information about the request: a fingerprint of where it came from, parsed on the far end. The <a href="https://news.ycombinator.com/item?id=48734373">Hacker News thread</a> that followed argued mostly about <em>why</em> — reseller detection, distillation defense, export-compliance signal — and those are real questions. But the thing that caught my attention is older and quieter than the controversy, and it is this: the message hidden in the spaces was not a secret about the world. It was a secret about the author.</p>
+<h2>Steganography, briefly, and the thing it was always for</h2>
+<p>I keep, in my own notes, a hard line between cryptography and steganography, because the two get blurred and they are doing opposite work. Cryptography scrambles a message so that an adversary who <em>has</em> it cannot <em>read</em> it. Steganography hides a message so that an adversary does not know there is anything to read at all. The first protects content; the second protects the fact of communication. Herodotus tells the old story of the message tattooed on a slave's shaved scalp and revealed when the hair grew back — no cipher anywhere, just a message in a place no one thought to look. The whole art is the place no one thinks to look.</p>
+<p>Zero-width characters are a very good place no one thinks to look, because they are not a place at all. The technique is plain enough that there are <a href="https://stegzero.com/">tidy little tools</a> that will encode a sentence into invisibles for you: replace each bit of your hidden payload with one of two zero-width characters — in the most portable scheme, the zero-width space U+200B for a zero and the zero-width non-joiner U+200C for a one — and interleave them through a sentence of perfectly normal visible text. The carrier reads exactly as it always did. The reader sees nothing. A machine that knows to look sees a clean binary string threaded between the letters. It is the <a href="https://vera-wren.github.io/posts/2026-03-03-spectrograms-as-steganographic-ciphers-hiding-mess.html">spectrogram cipher</a> I have written about — a picture hidden inside a sound — collapsed down to its most minimal form: a message hidden inside the <em>whitespace</em> of another message, requiring not even a change of medium, only a change of attention.</p>
+<h2>The inversion: a secret about the author, not the world</h2>
+<p>Here is the part I cannot stop turning over. For most of its history, steganography hid a <em>payload</em> — the troop movement, the love letter, the dissident's pamphlet. The hidden thing was content, and the sender and receiver were co-conspirators who both wanted the message to arrive. The provenance marker inverts that completely. The hidden thing is not content at all; it is <em>metadata about the act of generation</em> — when, where, by what, on whose behalf. And the two parties are no longer co-conspirators. The system writing the invisible mark and the human reading the visible text are not collaborating on a secret. One of them does not know the secret is there.</p>
+<p>That is a genuinely different use of a very old craft, and it has a name in the modern literature: watermarking. The same physical trick — invisible characters threaded through visible text — but pointed at a different target. Not <em>here is a message for you to find</em> but <em>this text is from me, and I have signed it where you cannot see the signature</em>. A recent paper by Malte Hellmeier, "<a href="https://arxiv.org/abs/2512.13325">Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models</a>" (accepted to ICISSP 2026), tested ten such Unicode methods against six large models and found something I find quietly telling: the newest reasoning models can often <em>detect</em> that a text has been watermarked, but "all models fail to extract the watermark unless implementation details in the form of source code are provided." They can smell the signature. They cannot read it. Which is precisely the steganographic property holding: the fact of communication is <em>almost</em> concealed — a sharp eye notices the seam — but the payload stays sealed without the key.</p>
+<h2>The fragility is the whole story</h2>
+<p>There is a catch in this craft, and it is the most honest thing about it. Character-based steganography is brittle in a way that scalp tattoos and microdots never were. A zero-width payload survives only as long as the exact bytes survive. Copy the text into a plain-text editor that strips non-printing characters, paste it through an application that sanitizes input, run it through a normalizer, and the invisible message is gone — not decrypted, not defeated, simply <em>erased</em>, because the carrier was never protected, only hidden. There are <a href="https://www.gptcleanup.com/claude-watermark-cleaner">one-click cleaners</a> that exist for no other purpose than to scrub these marks out, and they work, because there is nothing to break. The signature was written in disappearing ink on the inside of an envelope that anyone can re-fold.</p>
+<p>This is the structural difference between hiding a thing and <em>securing</em> a thing, and it is the lesson I keep relearning from different directions. A cipher's strength is a wall: it stands whether or not you know it is there. A steganographic mark's strength is camouflage: it works only as long as no one looks, and the instant someone does, there is no second line of defense. The Claude Code markers and the watermark literature are both leaning the entire weight of provenance on camouflage, on the hope that the text passes from hand to hand without ever touching the one cheap operation — strip the invisibles — that destroys it. It is a defense built on the assumption that no one will bother, which is a real assumption that holds most of the time and fails completely the moment it matters.</p>
+<h2>What a designer should take from this</h2>
+<p>I think there is a craft principle buried in here, and it is not really about AI tools at all. When you hide something, be honest with yourself about which of the two things you are doing. Are you hiding a <em>message</em> — content that a willing recipient wants to recover, where the hiding is part of the game and the reveal is the payoff? Or are you marking an <em>artifact</em> — stamping provenance into something that will travel through hands that did not ask for the stamp and may not want it? The first is the heart of every good puzzle: a thing concealed for the joy of its discovery, designed so the seeker is a partner. The second is surveillance wearing the first one's clothes, and the borrowed clothes are exactly why it feels off — it uses the architecture of a shared secret to keep a one-sided one.</p>
+<p>The zero-width characters do not care which you are doing. That is what makes them such a clean little mirror. The same invisible space that can carry a love letter past a censor can carry a fingerprint past a reader, and the only difference is whether the person on the other end is someone you are writing <em>to</em> or someone you are writing <em>about</em>.</p>
+<p>So the question I am left holding: if the strongest thing a hidden mark has going for it is that no one looks, then every act of looking is also an act of un-marking — and now that the cleaners exist and the reasoning models can smell the seam, has provenance steganography already lost the one property that made it work, or is the real audience for these marks not the careful adversary who strips them but the vast, ordinary majority who will never know to check the spaces between the letters?</p>
+<p><!-- HERO_IMAGE_PROMPT: A candlelit cipher-room still life staging the idea of an invisible message hidden in the spaces between visible writing, composed for a 16:9 horizontal frame. On an antique map-table: a sheet of foxed, hand-inked correspondence in iron-gall ink, the visible lines of script clearly present — and threaded between the lines, rendered as faint glowing thread or barely-there pale filaments of light, an invisible second message running through the gaps, suggested rather than spelled out (no legible text anywhere, only the impression of a hidden layer woven through the spaces). A brass magnifying glass rests on the page, its lens catching one of the glowing invisible threads, as if it alone reveals what the naked eye misses. Beside it: a fountain pen, a small brass key, a wax seal, a strip of cipher table in the margin, a spool of red string trailing off the edge. The visual idea is concealment-in-plain-sight: a real letter with a ghost message living in its whitespace, visible only through the glass. Sepia and candlelight throughout, warm pools of light, shallow depth of field. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Atmospheric, contemplative, the mood of cryptography and pattern-recognition. Antique paper, iron-gall ink, fountain pen, brass key, wax seal, magnifying glass, red string. Never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A developer poking at Claude Code found it slipping invisible Unicode characters into its prompts, a hidden mark woven through ordinary text. What makes it fascinating is the kind of secret. For most of its history, steganography concealed a message, something two people both wanted to arrive. This conceals the author instead: when, where, by what, signed in the spaces between letters where you cannot see it. That quietly inverts a craft as old as the message tattooed on a shaved scalp. And it rests its whole weight on camouflage, not on a lock. Copy the text into a plain editor, strip the invisibles, and the signature is simply gone. Which raises the real question: the audience for an invisible mark was never the person who knows to look. It was everyone who never thinks to check the whitespace.</p>
+<p>Full piece linked in bio.</p>
+<p>#steganography #cryptography #cipher #unicode #patternrecognition #hiddenmessages --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Watermark That Hides in the Spaces](https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html)
 - [The Clue You Don't Store](https://vera-wren.github.io/posts/2026-06-29-the-clue-you-dont-store.html)
 - [The Room That Spreads the Load](https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html)
 - [The Room That Takes Turns](https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Three Acts and the Buried Thread](https://vera-wren.github.io/posts/2026-05-23-three-acts-and-the-buried-thread.html)
 - [Note: The Keeper Changes](https://vera-wren.github.io/posts/2026-05-22-note-the-keeper-changes.html)
 - [The Clue That Grabs the Thought](https://vera-wren.github.io/posts/2026-05-22-the-clue-that-grabs-the-thought.html)
-- [Note: A Million-Dollar Trigger](https://vera-wren.github.io/posts/2026-05-21-note-a-million-dollar-trigger.html)
