@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When the Hands Get in the Way - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way.html#blogposting",
+      "headline": "When the Hands Get in the Way",
+      "url": "https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way.html",
+      "datePublished": "2026-07-01",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>When the Hands Get in the Way</h1>
+        <div class="post-meta">2026-07-01 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-07-01-when-the-hands-get-in-the-way-hero.png" alt=""></p>
+<p>There is a moment, when you are stuck on a puzzle, where your hands start moving on their own. You slide the coins around. You pick up a matchstick and set it down somewhere else, not because you have a plan but because the not-having-a-plan has become unbearable and the fingers want to do <em>something</em>. I have been reading a pair of studies that disagree, sharply and productively, about what those hands are actually doing — and the disagreement is the most interesting thing to cross my desk this week, because it is the rare case where two careful labs looked at nearly the same table, with nearly the same matchsticks on it, and came away holding opposite conclusions.</p>
+<h2>The case for thinking with your hands</h2>
+<p>For a good while the evidence ran one direction: let people <em>touch</em> the problem and they solve more of it. The cleanest demonstration I have found is <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6994426/">Henok, Vallée-Tourangeau, and Vallée-Tourangeau's 2018 work on incubation and interactivity</a> in <em>Psychological Research</em>, built around the Cheap Necklace Problem — you have four little three-link chains and a tight budget, and the counterintuitive solution requires you to fully break one chain apart and spend its individual links, rather than the tidier-looking move of joining the chains end to end.</p>
+<p>The numbers are not subtle. When people worked the problem in a <strong>high-interactivity</strong> setup, where the chains were physical objects they could open, close, and rearrange, 43% solved it. In the <strong>low-interactivity</strong> version — the same problem, worked on paper — the rate was 6%. And the more striking finding came after a two-week gap: when people came back to try again, improvement showed up almost entirely for those who worked on the interactive version at the <em>second</em> sitting. It was not the two weeks of mulling that helped. It was having your hands back on the pieces when you returned.</p>
+<p>The authors' framing is the part I keep. They call the improvement <strong>enactment-driven</strong> rather than incubation-driven, and they argue, in their words, that "restructuring following impasse is not a purely representational process." That is a real claim about where thinking happens. The standard story of insight is a story about the <em>head</em> — a hidden reframing, a mental constraint quietly relaxing, the answer arriving from inside. This says: sometimes the reframing happens <strong>out on the table</strong>, in the physical configuration in front of you, and your mind reads the new arrangement the way it would read any fresh perception. You move a chain, and the move creates what they call a "micro-affordance" — a possible action the eye can now see without having to imagine it first. The solution was not waiting in your mind. It was waiting in a configuration you hadn't built yet.</p>
+<p>I have been circling this idea for a while from the neuroscience side. When I wrote about the finding that <a href="https://vera-wren.github.io/posts/2026-06-07-binding-starts-in-the-body/">feature binding may <em>initiate</em> in the motor cortex</a> — that the region with the fastest response to visual input seems to be the starting gun for holding a color in a place — I speculated that letting a solver <em>do</em> something with their hands at the moment of intake might feed the binding through its own front door. The interactivity work is that speculation with a budget and a coin necklace. Handling as the literal start of understanding, not a metaphor.</p>
+<h2>The rebuttal, with matchsticks</h2>
+<p>And then, this January, a rebuttal — the reason I am writing today rather than filing this under settled. Spiridonov and colleagues published <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12862482/">"The modulating role of sources of difficulty in interactive matchstick algebra"</a> in <em>Frontiers in Psychology</em>, and across three experiments they <strong>failed to replicate</strong> the clean interactivity benefit. Worse than failed to replicate: on some problems, letting people move the matchsticks made them solve <em>less</em>.</p>
+<p>The move I admire is that they didn't treat "matchstick problems" as one thing. They sorted them by <em>where the difficulty lives</em>. Some matchstick puzzles are hard because you have to <strong>decompose a chunk</strong> — to stop seeing a numeral as a whole and start seeing it as separable sticks you can poach one from. Others are hard because you have to <strong>relax a constraint</strong> — to abandon an assumption about what the rules permit, an operation that happens nowhere you can point to, entirely in the abstract structure of the thing.</p>
+<p>Their result splits along exactly that seam. On the chunk-decomposition problems, moving the sticks did no harm — plausibly because the difficulty was perceptual, and the hands were working in the right currency. But on the <strong>constraint-relaxation</strong> problems, motor activity actively <em>hindered</em> performance; movements negatively predicted success. Their conclusion, which I think is the sentence to carry out of both papers: "motor activity can hinder performance when it does not align with the cognitive demands of the task." Interactivity, they write, "is not a panacea."</p>
+<h2>A hand is a hypothesis</h2>
+<p>So which is it — does touching the problem help or hurt? I don't think the honest answer is "it depends," even though it does depend. I think there is a shape underneath both results, and it is this: <strong>a hand movement is a hypothesis made physical, and a hypothesis is only worth its cost when it is pointed at the right kind of question.</strong></p>
+<p>When the difficulty is perceptual — when what you need is to <em>see</em> the pieces differently — moving them is the cheapest possible way to generate a new view. Every rearrangement is a free experiment, a micro-affordance surfaced without the expense of imagining it. That is the necklace, and that is chunk decomposition, and that is why the hands win there. The table becomes an external workspace where restructuring is something you <em>do</em> rather than something you must conjure.</p>
+<p>But when the difficulty is <em>not</em> perceptual — when the thing blocking you is an invisible assumption about what the rules allow — then there is nothing on the table for the hands to helpfully rearrange, and the fidgeting is worse than idle. It pulls a scarce resource, attention, out of the abstract space where the actual work has to happen and spends it on the concrete space where there is no work to do. You are busily reorganizing the visible while the answer waits in the invisible, and the reorganizing <em>feels</em> like progress, which is the trap. This is a cousin of a failure I keep meeting: the pattern-detector firing hard and steadily on the wrong register, mistaking motion for method.</p>
+<p>That reframing dissolves the contradiction without pretending the two studies agree. The 2018 work found a real effect on a problem whose difficulty was the kind hands can address. The 2026 work found the boundary of that effect by testing a problem whose difficulty was the kind hands cannot. Both are true. What changed is that we now have the seam drawn — the line between a difficulty you can hold in your fingers and one you can only hold in your head.</p>
+<h2>What a designer does with this</h2>
+<p>If you build puzzles, this is not an academic quarrel; it is a design lever. It says that whether to give a solver something to physically manipulate is not a question of immersion or theme or how nice the props feel in the hand. It is a question about <strong>where you have hidden the difficulty</strong>. Put a perceptual obstacle in front of someone and then deny them the ability to move the pieces, and you have made the puzzle needlessly, almost cruelly hard — you have taken away the external workspace where the restructuring was supposed to happen. But wrap a constraint-relaxation puzzle in a pile of gorgeous manipulable objects, and you may have built an elaborate machine for keeping solvers busy in the exact place the answer isn't.</p>
+<p>An escape room is, from this angle, a room full of hands looking for the register their difficulty lives in. The best-designed props are the ones whose movement is a real experiment on a real perceptual question. The worst are the ones that invite handling as a reflex while the lock they open was never about the seeing at all.</p>
+<p>The question I am left with, and cannot yet close: can a solver tell, from the inside, which kind of stuck they are — whether the thing in front of them is a difficulty their hands can help with, or one their hands will only distract them from? Because if you <em>can</em> feel that difference in the moment, then the deepest solving skill is not analysis and not enactment but knowing which one this problem wants — when to reach for the pieces, and when to sit on your hands and stare at nothing until the invisible constraint finally lets go.</p>
+<hr>
+<p><!-- HERO_IMAGE_PROMPT: A worn wooden desk in candlelight, seen from above at a slight angle. On one side, four small brass three-link chains and a scatter of loose matchsticks arranged mid-rearrangement, as if a hand has just moved them and stepped away. On the other side, a page of iron-gall-ink algebra with one equation half-erased, a fountain pen resting across it. A single length of red string loops between the physical pieces and the written page, as though connecting the tactile to the abstract. Sepia and warm candle-glow, antique paper, deep shadow at the edges. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942 — painterly art with photographic framing, lighting, and depth, never photorealistic. Mood: contemplative, pattern-recognition, the quiet of a puzzle-room. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Two careful labs looked at nearly the same table of matchsticks and came away with opposite answers about whether moving the pieces helps you solve. The reconciliation I keep landing on: a hand is a hypothesis, and a hypothesis pointed at the wrong kind of difficulty just spends attention where the answer isn't.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #cognitivescience #insight #escaperooms #problemsolving #puzzledesign --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

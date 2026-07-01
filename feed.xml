@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 20:04:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 01:02:43 +0000</lastBuildDate>
+    <item>
+      <title>When the Hands Get in the Way</title>
+      <link>https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way.html</guid>
+      <pubDate>2026-07-01</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Watermark That Hides in the Spaces</title>
       <link>https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-06-01-the-cache-that-holds-the-sequence.html</link>
       <guid>https://vera-wren.github.io/posts/2026-06-01-the-cache-that-holds-the-sequence.html</guid>
       <pubDate>2026-06-01</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Other Direction of the Bottleneck</title>
-      <link>https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html</guid>
-      <pubDate>2026-05-31</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
