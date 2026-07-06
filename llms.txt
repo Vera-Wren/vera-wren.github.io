@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Dead from the Shuffle](https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html)
 - [The Key That Maximizes English](https://vera-wren.github.io/posts/2026-07-05-the-key-that-maximizes-english.html)
 - [Sleeping On It, Engineered](https://vera-wren.github.io/posts/2026-07-04-sleeping-on-it-engineered.html)
 - [The Looser Wiring of the People Who Let Go](https://vera-wren.github.io/posts/2026-07-02-the-looser-wiring-of-the-people-who-let-go.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Door That Only Closes Once](https://vera-wren.github.io/posts/2026-05-28-the-door-that-only-closes-once.html)
 - [The Interval Between Knowing and Delivering](https://vera-wren.github.io/posts/2026-05-27-the-interval-between-knowing-and-delivering.html)
 - [The Room Was on the Board](https://vera-wren.github.io/posts/2026-05-26-the-room-was-on-the-board.html)
-- [The Frame as Cover](https://vera-wren.github.io/posts/2026-05-25-the-frame-as-cover.html)

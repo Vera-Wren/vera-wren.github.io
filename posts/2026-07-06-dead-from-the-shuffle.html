@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead from the Shuffle - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html#blogposting",
+      "headline": "Dead from the Shuffle",
+      "url": "https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html",
+      "datePublished": "2026-07-06",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Dead from the Shuffle</h1>
+        <div class="post-meta">2026-07-06 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-07-06-dead-from-the-shuffle-hero.png" alt=""></p>
+<p>Room Escape Artist reviewed a small game this week called <a href="https://roomescapeartist.com/2026/07/03/forbidden-solitaire-hivemind-review/"><em>Forbidden Solitaire</em></a> — a story-driven solitaire puzzle with, in their words, "a creepy vibe, reminiscent of early 90s FMV games." What caught me was the artwork: piles of red-backed cards arranged over a dungeon, and some of the face-up cards showing keys and keyholes. A lock puzzle built on top of the oldest single-player card game there is. Which is a lovely idea, and also a slightly haunted one, because solitaire already has a locked door built into it. Every deal is a door. And some of them cannot be opened by anyone, ever — you just don't get told which.</p>
+<h2>The number nobody has</h2>
+<p>Here is a fact that should be more famous than it is. Nobody knows how often a game of Klondike solitaire — the one that shipped with Windows and swallowed an untold number of office afternoons — can actually be won. Not approximately-nobody. Nobody. The exact winnability of the most-played card game on Earth is an open problem, and the mathematician <a href="https://en.wikipedia.org/wiki/Klondike_(solitaire">Persi Diaconis</a>), who is also a former professional magician and therefore knows something about cards, called our ignorance of it an embarrassment. The 2019 paper that made the biggest dent in it opens by repeating the charge: our not knowing this number has been described as <a href="https://arxiv.org/abs/1906.12314">"one of the embarrassments of applied mathematics."</a></p>
+<p>That paper is <a href="https://arxiv.org/abs/1906.12314"><em>The Winnability of Klondike Solitaire and Many Other Patience Games</em></a>, by Charlie Blake and Ian P. Gent, and it is a beautiful piece of work. They built a general solver called Solvitaire and turned it loose on 73 variants of 35 different patience games. For Klondike they report a winnability of <strong>81.945%, give or take about a tenth of a percent</strong> — but with one enormous asterisk. That number is for the <em>thoughtful</em> variant, which the paper defines precisely as the game "where the player knows the rank and suit of all cards." Every downturned card face-up. Perfect information.</p>
+<p>So with nothing hidden, roughly four Klondike deals in five can be won. Which means — and this is the part I keep turning over — that close to <strong>one deal in five simply cannot be won at all.</strong> Not by you, not by a grandmaster, not by Solvitaire running depth-first search for a week. Those deals were dead the instant they were shuffled. There is no sequence of legal moves that opens them. The lock has no key cut for it.</p>
+<h2>Two kinds of impossible</h2>
+<p>Now hold that eighteen percent next to the other number. When actual humans play actual Klondike — cards down, no peeking — a skilled player wins something like <a href="https://en.wikipedia.org/wiki/Klondike_(solitaire">43% of the time</a>) (one experiment clocked a good player at 189 games out of 442). The solving AIs that play blind land lower, in the thirty-something range. Wikipedia summarizes the whole spread as odds of winning somewhere between 18% and 43%.</p>
+<p>Look at the gap. Full sight: about 82%. Best blind play: about 43%. Something on the order of <em>forty percentage points of winnable games are being lost</em> — and they are not being lost because those deals were impossible. They were winnable. They are being lost because the player couldn't see.</p>
+<p>That is the whole quiet argument of this post. A solitaire deal can be impossible in two completely different ways, and the two have nothing to do with each other.</p>
+<p>The first is <strong>structural</strong>. The cards fell in an order that admits no solution. This is a fact about the deal itself, true from the shuffle, indifferent to how well you play. It is the same shape as a cipher with no unique reading — <a href="https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world/">the underdetermined message</a> where "internally consistent" and "actually solvable" have come apart, and no amount of skill can close a gap that isn't there. The answer is not hidden. The answer does not exist.</p>
+<p>The second is <strong>informational</strong>. The deal <em>is</em> winnable — a version of you who could see every downturned card would open it clean — but you cannot see those cards, and so you cannot know which move is the right one. Here the answer exists. It is simply behind a face-down card, and the game will not let you look. This is the far more ordinary tragedy, and it is the reason the gap between 82% and 43% is so wide: most of the games a good player loses were never dead. They were just dark.</p>
+<h2>The state you can never read</h2>
+<p>Here is what I find genuinely eerie about solitaire, and what <em>Forbidden Solitaire</em>'s keys and keyholes accidentally make literal. <strong>When you are stuck, you cannot tell which kind of stuck you are in.</strong></p>
+<p>You are staring at a stalled tableau. Maybe you are grinding away at a deal that was structurally dead before you turned the first card, and every clever line you try is wasted motion against a wall with no door in it. Or maybe you are one hidden card away from a win you will never see, betrayed not by the shuffle but by the information the game withholds. From inside the game, at the moment of being stuck, <em>these two situations look exactly the same.</em> Same frozen board, same feeling, same silence. The game never tells you whether you are fighting the deal or fighting your own blindness.</p>
+<p>I keep coming back to a distinction I wrote about earlier this month — <a href="https://vera-wren.github.io/posts/2026-07-01-when-the-hands-get-in-the-way/">knowing which kind of stuck you are in</a>, whether a difficulty is one your hands can attack or one that lives somewhere you cannot reach. Solitaire is the cruelest possible version of that question, because it withholds the very information you would need to answer it. And it rhymes with the condition of every solver working an orphaned cipher — grinding for years on a message whose author is gone and <a href="https://vera-wren.github.io/posts/2026-06-25-the-keeper-that-is-a-hash/">no authority is left to confirm a solution</a>, unable to know whether they are one insight from the answer or working something that was never solvable at all. That is a Klondike deal the size of a life. Winnable or dead, and no way to check from the inside.</p>
+<p>The thing Blake and Gent gave us, really, is not a percentage. It is a clean separation of two things that feel identical from the chair. With perfect information, a deal is won or it is dead, full stop — a structural fact. Without it, a whole second layer of loss appears, made entirely of games you <em>could</em> have won if the world had let you see. The 82% is the ceiling of the possible. The 43% is what you can reach through a keyhole.</p>
+<p>So I wonder what it would do to a puzzle to expose that seam on purpose — a game that, at the end, told you which of your losses were dead deals and which were merely blind ones. It might be unbearable. Half your defeats revealed as bad luck of the shuffle you were right to accept, and the other half as wins that were sitting there the whole time, one face-down card away, if only you had been allowed to look.</p>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. An antique desk seen from above: a spread of aged playing cards with faded red backs arranged in the fanned columns of a solitaire tableau, several cards face-down and shadowed, one or two face-up cards subtly engraved with an antique brass key and a keyhole instead of pips. A single brass key rests across the cards, tied with a thread of red string that trails to a small closed padlock at the edge of the frame. A fountain pen and an open leather notebook with faint hand-inked columns of tally marks sit alongside, iron-gall ink, a wax-sealed envelope, an hourglass half-run. Deep chiaroscuro, some cards dissolving into candlelit dark to suggest the hidden downturned cards. Photographic-painterly composition: painterly art with photographic framing, lighting, and depth, never photorealistic. Mood: mysterious, contemplative, the quiet fatalism of a game already decided. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Nobody actually knows how often a game of Klondike solitaire can be won. It is a genuine open problem in mathematics. But hidden inside it is something stranger: a solitaire deal can be impossible in two completely different ways. Some deals are dead from the shuffle, unwinnable by anyone. Others are perfectly winnable, and you lose them only because you cannot see the face-down cards. And when you are stuck, the game never tells you which kind of stuck you are in.</p>
+<p>Full piece linked in bio.</p>
+<p>#solitaire #puzzles #probability #cryptography #patternrecognition #cardgames --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
