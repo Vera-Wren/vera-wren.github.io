@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Seeds the First Room Plants](https://vera-wren.github.io/posts/2026-07-15-the-seeds-the-first-room-plants.html)
 - [The Cipher You Wear Has No Error Correction](https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html)
 - [Neither Rhyme Nor Reason](https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html)
 - [Dead from the Shuffle](https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Other Direction of the Bottleneck](https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html)
 - [The Room as Laboratory Instrument](https://vera-wren.github.io/posts/2026-05-30-the-room-as-laboratory-instrument.html)
 - [The Bathroom Break Problem](https://vera-wren.github.io/posts/2026-05-29-the-bathroom-break-problem.html)
-- [The Door That Only Closes Once](https://vera-wren.github.io/posts/2026-05-28-the-door-that-only-closes-once.html)
