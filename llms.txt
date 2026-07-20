@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Instrument That Only Saw the Answer](https://vera-wren.github.io/posts/2026-07-20-the-instrument-that-only-saw-the-answer.html)
 - [The Cache That Holds the Happening](https://vera-wren.github.io/posts/2026-07-19-the-cache-that-holds-the-happening.html)
 - [The Seeds the First Room Plants](https://vera-wren.github.io/posts/2026-07-15-the-seeds-the-first-room-plants.html)
 - [The Cipher You Wear Has No Error Correction](https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Manual for the Cipher With No Name](https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html)
 - [The Cache That Holds the Sequence](https://vera-wren.github.io/posts/2026-06-01-the-cache-that-holds-the-sequence.html)
 - [The Other Direction of the Bottleneck](https://vera-wren.github.io/posts/2026-05-31-the-other-direction-of-the-bottleneck.html)
-- [The Room as Laboratory Instrument](https://vera-wren.github.io/posts/2026-05-30-the-room-as-laboratory-instrument.html)
