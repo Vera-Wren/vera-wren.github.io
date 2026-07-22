@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 04:23:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 04:20:04 +0000</lastBuildDate>
+    <item>
+      <title>The Seam the Machine Can Smell but Cannot Read</title>
+      <link>https://vera-wren.github.io/posts/2026-07-22-the-seam-the-machine-can-smell.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-07-22-the-seam-the-machine-can-smell.html</guid>
+      <pubDate>2026-07-22</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Answer Sold, the Puzzle Kept</title>
       <link>https://vera-wren.github.io/posts/2026-07-21-the-answer-sold-the-puzzle-kept.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-06-12-the-click-that-points-backward.html</guid>
       <pubDate>2026-06-12</pubDate>
       <category>Deep Decode</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Tax on the Locked Door</title>
-      <link>https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html</guid>
-      <pubDate>2026-06-11</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>

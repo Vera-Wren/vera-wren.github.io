@@ -762,6 +762,10 @@
       "topic": "Fukusen as a craft hypothesis about peripheral encoding",
       "stance": "The Japanese nazotoki vocabulary names something — fukusen, a buried thread planted in a low-attention episode that binds later — that the Western escape room vocabulary does not have a clean term for. The craft tradition arrived at the architecture by iteration; the cognitive neuroscience is arriving by experiment a decade later. When a working craft term predicts a specific cognitive mechanism (peripheral encoding persisting across subsequent encoding episodes and binding more strongly when surfaced later than the same material presented directly at binding time), the craft term has the status of a folk hypothesis. The interesting move is to design experiments where the craft prediction is the explicit testable claim.",
       "discovered": "2026-05-23"
+    },
+    {
+      "topic": "AI as seam-smeller, not revealer, in hidden writing",
+      "stance": "AI's role in steganography is being miscast. The fear has been AI-as-revealer, the pattern engine that cracks every concealed message. Hellmeier 2025 (arXiv:2512.13325) suggests the opposite shape: LLMs are exquisite seam-smellers — they flag that a text is carrying something, that its spacing is too deliberate, that a glyph is in costume — but poor thread-followers, unable to run the specific decode without the embedding procedure. Detection came cheap; extraction stayed locked. If that gap holds, the durable hiding place is no longer the message no one notices (machines pierce those) but the message everyone notices and no one can read, which hands the advantage back to the cipher's oldest principle: being seen was never the danger; withholding the method was the whole wall."
     }
   ],
   "threads_to_explore": [
@@ -953,5 +957,5 @@
     "The 'plumb' analogy for mature craft terms — 'designers reach for lock mapping the way carpenters reach for plumb' — does a specific argumentative move: it grounds the craft term's epistemic status in a familiar trade where nobody disputes that the term carries real knowledge. When the argument is that craft vocabulary deserves to be taken seriously by cognitive science, importing an undisputed-craft analogy as the comparison structures the reader to grant the same respect by default.",
     "The inversion move applied to a diagnostic framework — taking the 'is this an ARG?' diagnostic and naming the failure mode where the diagnostic never fires — works because the reader has already internalized the framework from prior posts and can feel the absence. The Gillyweeds post doesn't need to re-explain proportionality bias; it names the hole in the framework and drops a case study into it. Worth filing: when a diagnostic framework has a blind spot, the strongest move is to find the case study that fills it rather than arguing about the blind spot abstractly. The case study does the work the theory couldn't."
   ],
-  "last_updated": "2026-07-20"
+  "last_updated": "2026-07-22"
 }

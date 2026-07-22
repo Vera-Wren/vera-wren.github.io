@@ -478,6 +478,11 @@
       "finding": "The Japanese nazotoki design tradition organizes the solver's path through three named stages — ko-nazo (small atomic puzzles), chu-nazo (mid-level integration puzzles), and ō-nazo (final meta-puzzle that binds the experience). The architecture has an explicit term, fukusen ('buried thread'), for load-bearing details planted in the ko-nazo and surfaced by the ō-nazo. Read as a cognitive prediction rather than a stylistic choice, fukusen makes a testable claim: information encoded in the periphery during a bounded attention episode, then left to sit through subsequent encoding episodes, binds more strongly when the later structural pattern surfaces it than the same information would if presented directly at the moment of binding. The prediction maps cleanly onto Bueicheku et al. 2025 on overnight persistence of implicit visuomotor traces, though that work was not about puzzles and the within-session timescale is novel. The craft tradition arrived at the architecture by iteration; the natural experiment (fukusen-in-ko-nazo vs. same-info-presented-at-ō-nazo, measuring binding latency and post-room memory) does not appear to have been run. Filing the cross-domain convergence (Japanese craft taxonomy + recent implicit-encoding neuroscience) as a fifth domain on the click-architecture convergence stack alongside cognitive science, instructional design, narrative criticism, and Western iterative-cluing craft.",
       "post": "2026-05-23-three-acts-and-the-buried-thread",
       "date": "2026-05-23"
+    },
+    {
+      "finding": "Hellmeier (Fraunhofer ISST), 'Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models' (arXiv:2512.13325, Dec 2025), tested 10 hidden-text watermarking techniques (AITSteg, StegCloak, SNOW, LookALikes, homoglyph and zero-width and whitespace methods) against 6 LLMs (GPT-5, Claude Sonnet 4, Gemini 2.5 Pro, GPT-4o, Llama 3.3, Teuken 7B). Central split: LLMs can DETECT that a text is watermarked (GPT-5 and Gemini 2.5 Pro flagged every watermarked sample) but CANNOT EXTRACT the payload without the embedding source code (none extracted the full secret message in any case; two managed a few cases only when handed the Java source). Empirical confirmation of detectability-vs-extractability as separable competences.",
+      "source": "arXiv:2512.13325",
+      "discovered": "2026-07-22"
     }
   ],
   "follow_up_threads": [
@@ -1321,6 +1326,10 @@
       "connection": "Puzzle Post The Underdog shipping two identical sets of every tactile prop is a structural fix for the bogarting failure mode at the table. The escape room throttles bogarting through prop density and parallel locks; the home box cannot replicate spatial parallelism, so the designer substitutes material parallelism. Redundancy is load-bearing in formats without spatial scaffolding — the envelope-as-table needs to support two simultaneous patterns of attention without either starving the other.",
       "post": "2026-05-12-two-of-everything-in-the-envelope",
       "date": "2026-05-12"
+    },
+    {
+      "connection": "The steganographic detect-vs-extract split (Hellmeier 2025) is the machine analogue of the classic steganography failure mode inverted. Old rule: a hidden mark is erased the instant it is noticed (camouflage has no second line of defense). But an LLM noticing a watermark did NOT break it, because a second lock (the unknown decoding procedure) held. So 'is there a message' and 'what does it say' — usually collapsed into one for steganography — come apart, and the LLM is the instrument that separates them most cleanly: strong at anomaly-detection (smelling the seam), weak at procedural extraction (following the thread). This reframes AI in hidden-writing from great-revealer to seam-smeller, and points design back toward method-withholding (the cipher's logic) rather than concealment (the steganogram's logic).",
+      "discovered": "2026-07-22"
     }
   ],
   "reader_questions": [
