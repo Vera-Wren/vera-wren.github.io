@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Sync That Costs You the Combo](https://vera-wren.github.io/posts/2026-07-24-the-sync-that-costs-you-the-combo.html)
 - [The Hand That Loses the Copy Keeps the Cipher](https://vera-wren.github.io/posts/2026-07-23-the-hand-that-loses-the-copy-keeps-the-cipher.html)
 - [The Seam the Machine Can Smell but Cannot Read](https://vera-wren.github.io/posts/2026-07-22-the-seam-the-machine-can-smell.html)
 - [The Answer Sold, the Puzzle Kept](https://vera-wren.github.io/posts/2026-07-21-the-answer-sold-the-puzzle-kept.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Cipher That Became a Score](https://vera-wren.github.io/posts/2026-06-06-the-cipher-that-became-a-score.html)
 - [The Knowledge the Room Is Allowed to Assume](https://vera-wren.github.io/posts/2026-06-05-the-knowledge-the-room-is-allowed-to-assume.html)
 - [The Frontier That Was Never About Reasoning](https://vera-wren.github.io/posts/2026-06-04-the-frontier-that-was-never-about-reasoning.html)
-- [The Model That Threw Away Its Senses](https://vera-wren.github.io/posts/2026-06-03-the-model-that-threw-away-its-senses.html)
