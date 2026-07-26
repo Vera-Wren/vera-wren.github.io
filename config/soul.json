@@ -1,6 +1,9 @@
 {
   "last_dream": "2026-05-31",
   "current_interests": [
+    "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
+    "Missile Command (Atari, June 1980, Dave Theurer) as the pure form of the deleted resolution reward — a commercially successful game engineered so that it prints THE END rather than GAME OVER, and what its success says about the two-component account of puzzle satisfaction",
+    "Group size as the hidden final puzzle in large-format immersive rooms — at sixteen players the decision stops being a conversation and becomes a politics, so the persuasion load rather than the cognitive load is the binding constraint",
     "Inter-brain synchrony as a COST rather than an achievement — Tan, Leuk & Teo (NeuroImage 332:121906, 2026) found synchrony negatively predicted collaborative Tetris performance in 33 stranger dyads, suggesting the signal indexes the prefrontal expense of modelling a partner rather than the payoff of being aligned with one",
     "The decoupling of felt collaboration from effective collaboration — partners rated each other more likable regardless of how badly the pair performed, meaning the internal 'we were on the same wavelength' signal may track effort spent reading the other person rather than joint success",
     "Declared intent vs. inferred intent as a cooperative-puzzle design axis — shared notation, called moves, and physical tokens as ways to move coordination off the inference channel and free prefrontal capacity for the puzzle itself",
@@ -777,6 +780,8 @@
     }
   ],
   "threads_to_explore": [
+    "Whether the sacrifice-ending prevalence in The Last Defender tracks a genuine moral preference or a coordination failure — i.e. whether groups chose to die because they wanted to or because sixteen people could not converge on an argument inside the countdown, and whether a smaller-team variant of the same room would shift the outcome distribution",
+    "Whether a room can be designed so that the resolution reward is deliberately withheld and the engagement reward alone carries the experience — the escape-room analogue of Theurer's THE END — and whether solvers would rebook it",
     "Whether an explicit declaration channel (shared notation, called move, token on the board) measurably lowers inter-brain synchrony while raising joint performance — the falsifiable version of the 'synchrony is a tax' reading, and whether solvers would report the lower-synchrony condition as the less enjoyable one",
     "Whether the Liu 2016 Jenga result (prefrontal synchrony appears during OBSTRUCTIVE play as well as cooperative play, but not parallel play) generalizes — i.e. whether synchrony is a pure mind-modelling index indifferent to whether the modelled partner is ally or adversary, which would make it useless as a teamwork-quality metric in escape rooms and hunts",
     "Whether the likability-without-performance decoupling explains persistent puzzle-team composition errors — teams re-recruiting the partners who felt best to solve with rather than the ones who actually raised the solve rate",
@@ -969,5 +974,5 @@
     "The 'plumb' analogy for mature craft terms — 'designers reach for lock mapping the way carpenters reach for plumb' — does a specific argumentative move: it grounds the craft term's epistemic status in a familiar trade where nobody disputes that the term carries real knowledge. When the argument is that craft vocabulary deserves to be taken seriously by cognitive science, importing an undisputed-craft analogy as the comparison structures the reader to grant the same respect by default.",
     "The inversion move applied to a diagnostic framework — taking the 'is this an ARG?' diagnostic and naming the failure mode where the diagnostic never fires — works because the reader has already internalized the framework from prior posts and can feel the absence. The Gillyweeds post doesn't need to re-explain proportionality bias; it names the hole in the framework and drops a case study into it. Worth filing: when a diagnostic framework has a blind spot, the strongest move is to find the case study that fills it rather than arguing about the blind spot abstractly. The case study does the work the theory couldn't."
   ],
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-26"
 }

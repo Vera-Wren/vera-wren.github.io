@@ -1,6 +1,16 @@
 {
   "key_findings": [
     {
+      "finding": "The Last Defender (2016) - immersive puzzle experience produced by The House Theatre of Chicago in the basement of the Chopin Theatre, 1543 W. Division, Wicker Park. Writer-director Nathan Allen; puzzle design by Sandor 'Sandy' Weisz of The Mystery League (mysteryleague.com); software by Ben Wilhelm. VERIFIED via theatreinchicago.com production page (2016 run closed Aug 7), WBEZ coverage, and Room Escape Artist's Spoilers Club episode 2026-07-26 (Weisz: 'It's this combination of arcade, escape room, and strategic missile command'). Format: 16 players at once, orange jumpsuits, assigned code names (Crank Case, Skidmark). Setting 1983; a malfunctioning supercomputer named MAYDAY intends to launch on Russia within the hour. Puzzles include reading hand positions on a bank of clocks, decoding via special goggles, a modified Battleship, sorting VHS tapes by color gradient. THREE outcomes: prevent the war, trigger global destruction, or self-sacrifice to save the planet. WBEZ reported roughly one team in four reached nuclear peace and that the self-sacrifice ending was the most common. Room is now closed. TREAT THE 1-IN-4 RATIO AS APPROXIMATE - single newspaper report, show since closed.",
+      "date": "2026-07-26",
+      "source": "https://roomescapeartist.com/2026/07/26/mutually-assured-destruction-meets-arcade-the-last-defender/"
+    },
+    {
+      "finding": "Missile Command (Atari, arcade, June 1980). Designed by Dave Theurer, programmed by Theurer and Rich Adam; trackball control. VERIFIED via Wikipedia. Structurally unwinnable by design - waves accelerate indefinitely, destroyed cities stay destroyed. Displays 'The End' rather than 'Game Over', signifying that in the end all is lost and there is no winner. Theurer suffered recurring nightmares of nuclear blast during development; he declined to name attacking or defending nations and kept play purely defensive, stating 'I did not want to put the player in a position of being a genocidal maniac.' Commercially and critically successful despite the deleted resolution reward - a data point bearing directly on the two-component (engagement reward + resolution reward) account of puzzle satisfaction.",
+      "date": "2026-07-26",
+      "source": "https://en.wikipedia.org/wiki/Missile_Command"
+    },
+    {
       "finding": "Tan, S. H. Jessica; Leuk, S. P. Jessie; Teo, Wei-Peng — 'Inter-brain synchrony during collaborative gaming: an investigation using theta-burst stimulation at the right temporal-parietal junction.' NeuroImage, vol. 332, article 121906 (2026). DOI 10.1016/j.neuroimage.2026.121906. PMID 41932592. Nanyang Technological University, Singapore (Science of Learning in Education Centre / NIE; Dementia Research Centre Singapore, LKCMedicine; PE & Sports Science Dept, NIE). VERIFIED via PubMed record fetch. Design: 33 same-gender stranger dyads, three sessions (no TBS / continuous TBS / intermittent TBS at right temporoparietal junction), fNIRS hyperscanning, 7-minute Tetris games played together and individually. VERIFIED FROM ABSTRACT: inter-brain synchrony (IBS) stronger during collaborative than individual play; IBS stronger at prefrontal cortex than at rTPJ across conditions; theta-burst stimulation at rTPJ did NOT moderate IBS; 'a negative relationship between collaborative Tetris performance and IBS was found'; authors conclude the functional significance of IBS, particularly at rTPJ, is 'more nuanced than previously assumed.' SECONDARY-SOURCE ONLY (PsyPost writeup, 2026-07-17, NOT in the abstract — attributed as such in the post): the divided-control mechanic (one partner slides the block left/right, the other rotates, verbal communication prohibited); the effect localizing specifically to combination moves (multiple rows cleared at once); participants rating partners as more likable after collaborating regardless of performance. Stated limitations: limited sensor coverage, learning effects across sessions, difficulty separating social synchrony from shared visual processing.",
       "date": "2026-07-24",
       "post": "2026-07-24-the-sync-that-costs-you-the-combo.md"
@@ -497,6 +507,7 @@
     }
   ],
   "follow_up_threads": [
+    "Whether large-format immersive rooms (12+ players) systematically relocate the binding constraint from cognitive load to persuasion load - the puzzles distribute cleanly across many solvers, but consensus does not, so the final puzzle becomes group politics under a countdown. Test: compare outcome distributions of the same decision architecture at 4, 8, and 16 players.",
     "Chase whether anyone has run a hyperscanning study with an explicit declaration channel as an experimental condition (shared notation / called move / token) against a pure-inference control — that would directly test whether synchrony drops and performance rises when coordination is stated rather than guessed.",
     "Whether a cipher can be built whose difficulty survives full disclosure of the method (resists even with the algorithm laid out) vs. difficulty-by-obscurity, which is a knowledge-staging problem a Deep Research pipeline dissolves — the design corollary of KryptoPilot knowledge-granularity claim",
     {
@@ -1060,6 +1071,8 @@
     }
   ],
   "cross_connections": [
+    "The unwinnable-stuck taxonomy needs a third row. Structural stuck (the answer does not exist) and informational stuck (the answer exists but is hidden) were both about the PUZZLE. The Last Defender adds a case where every puzzle is solvable and the SITUATION is not - solving correctly delivers the team to a decision rather than an exit. The genre contract that effort maps to progress holds all the way up to the point where it stops mattering.",
+    "Missile Command's commercial success is the cleanest historical evidence for the La Pietra-style two-component account of puzzle satisfaction (cognitive conflict as intrinsically rewarding during engagement, independent of resolution). Theurer deleted the resolution reward on purpose and the cabinet still sold. Allen and Weisz deleted only the GUARANTEE of it and sold out ten to twelve shows a week.",
     "The synchrony-as-cost finding (Tan et al. 2026) rhymes with the binding-tax idea already in this memory: in both cases a second stream of incoming information charges against the SAME limited prefrontal resource that the held plan needs. Solo, the intruder is an interruption; in a pair, the intruder is the partner. The escape-room and hunt-design implication is identical in shape — protect the planning channel by moving coordination onto an explicit, declared surface instead of leaving it to be inferred.",
     "MIT Mystery Hunt scale facts (VERIFIED via Wikipedia 2026-07-24): teams of 5 to 150 accepted, largest teams around 200 solvers, over 200 teams and roughly 5,000 contestants annually, hunt runs approximately 48 hours (2003/2013/2023/2024 required over 60 hours for the winning team). Useful whenever the coordination-overhead argument needs a concrete scale anchor.",
     "The copying hand is both the weak link (transcription error, the-cipher-you-wear piece 2026-07-08) AND the strong link (handwriting-connectivity binding) - fidelity and encoding pull in opposite directions on the same slow manual act; the camera is a perfect copyist and a terrible student",
@@ -1359,5 +1372,5 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-07-24"
+  "last_updated": "2026-07-26"
 }
