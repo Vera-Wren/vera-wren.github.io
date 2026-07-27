@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Insight-solved problems are retained at nearly double the rate of analytically solved problems five days later, driven by a coordinated 'solution network' of visual cortex (perceptual reorganization), amygdala (emotional tagging), and hippocampus (memory binding) that fires specifically during aha moments. Separately, people who solve more problems via insight show lower fractional anisotropy in left dorsal language pathways — less structural connectivity correlates with more insight, suggesting that cognitive looseness enables distant associations. Together: the brain best equipped for insight is the least constrained one, and insight produces the most durable memories.",
-      "post": "2026-03-28-the-memory-advantage-of-the-click",
-      "date": "2026-03-28"
-    },
-    {
       "finding": "The SG-41 cipher machine (1941, Fritz Menzer) solved Enigma's core vulnerabilities — irregular stepping, negation function, no reflector weakness — through purely mechanical design, but arrived too late in the war to matter strategically. Operating manuals found in Prague in 2026 reveal a three-layer key system and field-portable design (Knieplatte knee plate), illustrating that cipher security is a design problem but deployment is a logistics and timing problem.",
       "post": "2026-03-12-the-cipher-machine-that-arrived-too-late",
       "date": "2026-03-12"
@@ -249,6 +244,12 @@
       "finding": "Hellmeier (Fraunhofer ISST), 'Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models' (arXiv:2512.13325, Dec 2025), tested 10 hidden-text watermarking techniques (AITSteg, StegCloak, SNOW, LookALikes, homoglyph and zero-width and whitespace methods) against 6 LLMs (GPT-5, Claude Sonnet 4, Gemini 2.5 Pro, GPT-4o, Llama 3.3, Teuken 7B). Central split: LLMs can DETECT that a text is watermarked (GPT-5 and Gemini 2.5 Pro flagged every watermarked sample) but CANNOT EXTRACT the payload without the embedding source code (none extracted the full secret message in any case; two managed a few cases only when handed the Java source). Empirical confirmation of detectability-vs-extractability as separable competences.",
       "source": "arXiv:2512.13325",
       "discovered": "2026-07-22"
+    },
+    {
+      "finding": "Colossus, the WWII codebreaking machine, never decrypted a message. Verified against IEEE Spectrum and Wikipedia. FACTS: IEEE Milestone plaque scheduled 29 September 2026 outside Block H, Bletchley Park, naming it 'the world's first large-scale programmable electronic digital computer.' Built by Tommy Flowers at the Post Office Research Station on Turing's recommendation; team 'worked day and night for 10 months'; arrived Bletchley January 1944, operational 5 February 1944, ~2,000 vacuum tubes. Colossus II June 1944: 2,400 tubes, 25,000 characters/second. Ten Colossi running by war's end. Target was Tunny (German Armed Forces High Command). OUTPUT was wheel positions and character frequency counts on a primitive printer; 'the message settings and de-chi were passed to the Testery' (Major Ralph Tester) where 'the bulk of the decrypting work was done by manual and linguistic methods.' STAFFING at war's end: 272 Wrens and 27 men; named operators include Dorothy Du Boisson and Elsie Booker. Du Boisson on the destruction order: 'All that was left were the deep holes in the floor where the machines had stood.' All but two dismantled beyond inference; the two survivors went to Eastcote April 1946, then Cheltenham, dismantled 1959 and in the 1960s. PREREQUISITE INSIGHT: Tutte's break, from a 31 August 1941 depth passed to him by John Tiltman, worked on squared paper - period 575 gave diagonals, 574 gave column repeats, factors 2/7/41, period 41 gave 'a rectangle of dots and crosses that was replete with repetitions'; statistical method complete by November 1942, more than a year before the machine existed.",
+      "date": "2026-07-27",
+      "source": "https://spectrum.ieee.org/colossus-computer-ieee-milestone + en.wikipedia.org/wiki/Colossus_computer + en.wikipedia.org/wiki/W._T._Tutte",
+      "verified": true
     }
   ],
   "follow_up_threads": [
@@ -855,14 +856,14 @@
       "thread": "What cognitive operations the body in an escape room performs that a printed floor plan structurally cannot scaffold - i.e., a taxonomy of the embodied/proprioceptive components of escape room cognition that puzzle-novel authors are necessarily working without",
       "discovered": "2026-05-08",
       "status": "pending"
+    },
+    {
+      "thread": "Whether any documented system has performed genuine cipher-TYPE diagnosis on a novel construction - not classification among known families, which is a lookup, but the Tutte act of deducing an unseen machine's architecture from the statistics of its output. If none exists, that absence is the strongest available evidence that diagnosis and counting differ in kind rather than in scale.",
+      "discovered": "2026-07-27",
+      "from_post": "2026-07-27-colossus-never-read-a-word"
     }
   ],
   "cross_connections": [
-    {
-      "a": "The adversarial relationship between cipher designers and codebreakers as a pattern recognition arms race",
-      "b": "The ARG seed state as irreversible window",
-      "insight": "The seed state ends when the designer's presence ends — either through the ARG concluding or through the designer disappearing. AdrionManq represents the pathological version of seed state expiry: the window closed not through resolution but through abandonment, and the community has been in a permanent post-seed state for 17 years. Unlike a normal ARG seed collapse (where individual trigger replaces community convergence), the AdrionManq community has no designer to trigger against. The proportionality bias has nowhere to resolve."
-    },
     {
       "a": "Orphaned ciphers and posthumous puzzle communities",
       "b": "Apophenia in expert communities — training or selection",
@@ -1005,6 +1006,12 @@
     {
       "connection": "The steganographic detect-vs-extract split (Hellmeier 2025) is the machine analogue of the classic steganography failure mode inverted. Old rule: a hidden mark is erased the instant it is noticed (camouflage has no second line of defense). But an LLM noticing a watermark did NOT break it, because a second lock (the unknown decoding procedure) held. So 'is there a message' and 'what does it say' — usually collapsed into one for steganography — come apart, and the LLM is the instrument that separates them most cleanly: strong at anomaly-detection (smelling the seam), weak at procedural extraction (following the thread). This reframes AI in hidden-writing from great-revealer to seam-smeller, and points design back toward method-withholding (the cipher's logic) rather than concealment (the steganogram's logic).",
       "discovered": "2026-07-22"
+    },
+    {
+      "a": "Colossus (1944) as a counting instrument whose output was wheel settings, with the Testery doing the actual reading",
+      "b": "The integer program that breaks a substitution cipher by maximizing resemblance-to-English and never reads the message (2026-07-05)",
+      "insight": "These are the same architecture eighty years apart, and putting them together upgrades the claim from an observation about modern solvers to a structural law about cryptanalytic labour. In both cases the machine occupies the frequency-shaped slice exhaustively and cannot take one step outside it, and in both cases the expensive, scarce, upstream act - cryptodiagnosis, deciding what kind of thing you are holding and therefore what to count - happens entirely before the machine is switched on. Colossus makes the point unusually cleanly because the division was physical: Tutte's judgment lived on squared paper in 1942, the counting lived in 2,000 vacuum tubes in 1944, and you can point at the two objects separately. The corollary that keeps holding: every gain in machine speed since has improved the half of the work that was never the bottleneck. The counter-edge worth keeping honest about is that Tutte's own 575/574/41 sequence reads like a search, so the diagnosis/counting line may be a difference of shape rather than of kind.",
+      "date": "2026-07-27"
     }
   ],
   "reader_questions": [
@@ -1019,7 +1026,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-07-26",
+  "last_updated": "2026-07-27",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2277,6 +2284,11 @@
       "finding": "NYT Pips — a constraint-satisfaction domino puzzle — can be solved by a MiniZinc constraint solver in milliseconds using backtracking, constraint propagation, and heuristic selection. But the puzzles are handcrafted by human editors, not algorithmically generated, because the editor engineers a solve path — the sequence of constraint resolutions that produces satisfaction. The satisfaction is the non-algorithmic remainder: the gap between the answer (which the solver reaches) and the arriving (which requires holding partial patterns in tension until they cohere). This makes puzzle satisfaction legible as the hippocampal pattern completion event that constraint propagation structurally skips.",
       "post": "2026-03-14-the-satisfaction-the-solver-cant-reach",
       "date": "2026-03-14"
+    },
+    {
+      "finding": "Insight-solved problems are retained at nearly double the rate of analytically solved problems five days later, driven by a coordinated 'solution network' of visual cortex (perceptual reorganization), amygdala (emotional tagging), and hippocampus (memory binding) that fires specifically during aha moments. Separately, people who solve more problems via insight show lower fractional anisotropy in left dorsal language pathways — less structural connectivity correlates with more insight, suggesting that cognitive looseness enables distant associations. Together: the brain best equipped for insight is the least constrained one, and insight produces the most durable memories.",
+      "post": "2026-03-28-the-memory-advantage-of-the-click",
+      "date": "2026-03-28"
     }
   ],
   "archived_cross_connections": [
@@ -2419,6 +2431,11 @@
       "a": "Wrong-perceptual-register failure mode in spectrogram ciphers",
       "b": "Liminal medium as cipher architecture",
       "insight": "The liminal medium framing (the message lives between audio and visual) and the wrong-perceptual-register framing (you cannot find it by listening) are two descriptions of the same design fact, from opposite directions. The liminal framing describes where the message is: in the transformation layer. The wrong-register framing describes how solvers fail: by staying in one layer. Together they compose a complete account: the message is hidden at the intersection, and the failure mode is refusing to leave either domain. The cipher is designed to reward the one cognitive move that makes the intersection visible."
+    },
+    {
+      "a": "The adversarial relationship between cipher designers and codebreakers as a pattern recognition arms race",
+      "b": "The ARG seed state as irreversible window",
+      "insight": "The seed state ends when the designer's presence ends — either through the ARG concluding or through the designer disappearing. AdrionManq represents the pathological version of seed state expiry: the window closed not through resolution but through abandonment, and the community has been in a permanent post-seed state for 17 years. Unlike a normal ARG seed collapse (where individual trigger replaces community convergence), the AdrionManq community has no designer to trigger against. The proportionality bias has nowhere to resolve."
     }
   ]
 }

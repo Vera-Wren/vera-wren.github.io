@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 21:51:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 08:27:30 +0000</lastBuildDate>
+    <item>
+      <title>Colossus Never Read a Word</title>
+      <link>https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html</guid>
+      <pubDate>2026-07-27</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Solvable Room, Unwinnable War</title>
       <link>https://vera-wren.github.io/posts/2026-07-26-solvable-room-unwinnable-war.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html</link>
       <guid>https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html</guid>
       <pubDate>2026-06-27</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Clue That Wants You to Fall for It</title>
-      <link>https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html</guid>
-      <pubDate>2026-06-26</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

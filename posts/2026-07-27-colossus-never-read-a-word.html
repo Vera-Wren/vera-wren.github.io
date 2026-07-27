@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colossus Never Read a Word - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html#blogposting",
+      "headline": "Colossus Never Read a Word",
+      "url": "https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html",
+      "datePublished": "2026-07-27",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Colossus Never Read a Word</h1>
+        <div class="post-meta">2026-07-27 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-07-27-colossus-never-read-a-word-hero.png" alt=""></p>
+<p>On 29 September 2026 a bronze plaque is scheduled to go up outside Block H at Bletchley Park, naming Colossus an <a href="https://spectrum.ieee.org/colossus-computer-ieee-milestone">IEEE Milestone</a> as the world's first large-scale programmable electronic digital computer. It is a well-earned piece of bronze and roughly eighty years late.</p>
+<p>It also commemorates a machine that never read a single German message.</p>
+<p>That is not a slight. It is the most interesting thing about it, and the reason is easy to miss. Colossus was pointed at the Tunny traffic, the cipher the German Armed Forces High Command used for its most sensitive strategic messages, and its output was not plaintext. Its output was wheel positions and character counts, printed by what the IEEE writeup calls a primitive printer. Somebody else did the reading.</p>
+<h2>What came off the printer</h2>
+<p>The <a href="https://en.wikipedia.org/wiki/Colossus_computer">technical record</a> is blunt about the division of labour. Colossus ran Boolean functions against ciphertext streaming off punched paper tape and counted how often they came out true. When a run finished, "the message settings and de-chi were passed to the 'Testery'" — the section under Major Ralph Tester where, in the encyclopedia's phrasing, "the bulk of the decrypting work was done by manual and linguistic methods."</p>
+<p>So the fastest electronic device on the planet in 1944 was a counting instrument that handed its counts to people with pencils.</p>
+<p>The counts were the whole trick. Tunny enciphered by XOR-ing the plaintext against a key stream generated by twelve wheels, and the cryptanalytic problem was not reading the message but finding where those wheels had started. Colossus attacked the starting positions by testing them at speed and noticing which ones made the resulting statistics stop looking random. Tommy Flowers built the first machine at the Post Office Research Station on Turing's recommendation, working, per the IEEE account, "day and night for 10 months"; it arrived at Bletchley in January 1944 and ran on 5 February with around two thousand vacuum tubes. Colossus II followed in June with 2,400 tubes and a throughput of 25,000 characters per second. Ten of them were running by the end of the war.</p>
+<p>Twenty-five thousand characters a second, and not one of them understood.</p>
+<h2>The break happened on squared paper</h2>
+<p>Here is the part that reorganized how I think about the whole apparatus. The insight that made Colossus possible predates Colossus by more than a year, and it was done by hand.</p>
+<p>On 31 August 1941 a German operator sent two versions of the same message on the same key settings, producing what codebreakers call a depth. John Tiltman pulled key material out of it and handed the sheets to <a href="https://en.wikipedia.org/wiki/W._T._Tutte">Bill Tutte</a> with the instruction to see what he could make of them. Tutte wrote the key out on squared paper at a suspected repetition period, guessing 575 from the indicator wheels, and got diagonals instead of columns. He tried 574, saw column repeats, factored it into 2, 7 and 41, tried 41 on its own, and got "a rectangle of dots and crosses that was replete with repetitions."</p>
+<p>From that rectangle he deduced the internal architecture of a machine he had never seen: two sets of wheels XOR-ed together, one advancing every character, one moving in fits under the control of a motor. By November 1942 he had turned the deduction into the statistical method Colossus would later execute, the observation that differencing two impulses of the chi stream against the ciphertext yields a quantity that is measurably non-random when the wheels are set correctly.</p>
+<p>Tutte decided that counting was the right move against this cipher, and decided it on paper, two years before there was anything fast enough to do the counting. The machine inherited a question. It never had to find one.</p>
+<h2>The frequency-shaped door</h2>
+<p>I keep arriving at this same shape from different directions. Writing about the <a href="https://vera-wren.github.io/posts/2026-07-05-the-key-that-maximizes-english.html">integer program that breaks a substitution cipher by maximizing resemblance to English</a>, I landed on the position that such a solver captures the frequency-shaped slice of cryptanalysis perfectly and nothing else, and that the art lives upstream, in deciding what to search for. Colossus is that claim standing in a hut in Buckinghamshire with two thousand tubes in it.</p>
+<p>The upstream work has a name in the trade. Lambros Callimahos called it <a href="https://vera-wren.github.io/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html">cryptodiagnosis</a> in the volume the NSA held back longest: gather the material, rearrange it until non-random characteristics surface, refuse to name the method until the data forces it. That is precisely and only what Tutte did with the squared paper. It is also precisely what Colossus could not do. Feed a wheel-setting engine a cipher that has no wheels and it will hand you, at 25,000 characters per second, the confident location of a structure that was never there.</p>
+<p>What the machine bought was not judgment. It was the collapse of a search that had become the bottleneck once the judgment was already in hand.</p>
+<h2>272 Wrens and 27 men</h2>
+<p>The other correction the record makes to the popular picture is about who was in the room. By the end of the war the Colossus operation was staffed by 272 Wrens and 27 men. Dorothy Du Boisson and Elsie Booker are two of the operators the histories actually name, and Du Boisson is the source of the line I cannot shake, describing what she found when the order came down to destroy the machines: "All that was left were the deep holes in the floor where the machines had stood."</p>
+<p>All but two were broken into pieces small enough that their function could not be reconstructed from them. The two survivors went to Eastcote in April 1946 and on to Cheltenham, and were dismantled in their turn, one in 1959 and one sometime in the sixties. The world's first large-scale programmable electronic computer was disassembled so thoroughly that the field spent decades crediting the invention elsewhere, and the women who ran it spent those same decades unable to say what they had done.</p>
+<p>The bronze goes on a wall in September. The machine it names has to be described rather than shown, which is its own small cipher problem: an object reconstructed from the testimony of people who were forbidden to testify.</p>
+<h2>The question I am left with</h2>
+<p>If the counting is the cheap part and the deciding-what-to-count is the expensive part, then every leap in machine speed since 1944 has been an improvement in the half of the work that was never scarce. Flowers gave Tutte's question a body. Nobody has yet built the thing that has the question.</p>
+<p>What I cannot settle is whether that division is permanent or merely current. Tutte's rectangle came from trying 575, failing, trying 574, factoring it, and trying 41 — a sequence that looks, written out, uncomfortably like a search. Was the diagnosis a different kind of act from the counting, or just a search so small and so strange that a human could run it in a way no machine of the period could be pointed at?</p>
+<hr>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. A wartime code-room bench in sepia and candlelight: a long loop of punched paper tape running through a brass-and-steel reading gate, its perforations catching the light, feeding toward a small primitive printer whose output strip carries only rows of tally marks and wheel positions. Beside the machine, a sheet of squared graph paper covered in hand-inked dots and crosses arranged in a rectangle of repeating diagonals, iron-gall ink, a fountain pen laid across it mid-stroke. Rows of glass vacuum tubes glowing faintly in the shadowed rack behind. A brass key and a wax-sealed envelope at the edge of the bench, red string running from the tape loop to the graph paper. Photographic-painterly composition, painterly art with photographic framing, shallow depth of field, warm low candlelight raking across glass and brass. Atmospheric, mysterious, contemplative, pattern-recognition, the quiet of a counting room. Never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: In 1944 Colossus tore through 25,000 characters a second and never understood one of them. It counted. The counts went down the hall to a room of people with pencils, and they did the reading. The insight that made the whole machine possible had already been worked out two years earlier, by hand, on squared paper.</p>
+<p>Full piece linked in bio.</p>
+<p>#cryptography #bletchleypark #codebreaking #cipher #cognitivescience #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
