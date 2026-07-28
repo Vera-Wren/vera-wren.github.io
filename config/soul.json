@@ -25,7 +25,7 @@
     "Community as instrument — solver forums as timestamped archives of cognitive events, proportionality bias at collective scale, the ethics of designs held open by a community",
     "Transcription and the physical channel — handwriting as a binding mechanism, homoglyph ambiguity, codes printed on objects imposing a lossy channel",
     "Puzzle economics and verification-as-asset — the affordability of designed ambiguity, stewardship becoming alienable property",
-    "The division of cryptanalytic labour between diagnosis and counting - who decides what to count vs. what executes the count, traced from Tutte's squared paper (1941-42) through Colossus (1944) to the modern objective-function solver"
+    "Deadline pressure as a computed ratio (work remaining / time remaining) and the two-currency problem it exposes - the clock reliably buys effort mobilisation and reliably taxes the un-fixation operations that produce the click"
   ],
   "archived_interests": [
     "Origami mathematics and computational folding",
@@ -383,8 +383,9 @@
     },
     {
       "topic": "Cross-domain agreement on the clock as design failure",
-      "stance": "The argument that escape room clocks structurally fight the cognitive operations the format depends on is now arriving from multiple unconnected domains. Cognitive science (test-mode/design-mode, alpha suppression, DMN deficit) reaches it via neural mechanisms. Instructional design (Kapur's productive failure) reaches it via learning outcomes. And narrative criticism (Burns on Andor) reaches it via affective register and emotional reflection. The conclusions converge on the same architectural prescription — protect the conditions under which slow operations can run — without sharing a citation network. Cross-domain convergence on a structural feature is stronger evidence than within-domain consensus, because the failure modes of each domain don't overlap. When narrative critics, neuroscientists, and instructional designers all arrive at 'remove the clock,' the clock probably is the problem.",
-      "since": "2026-05-05"
+      "stance": "The three-domain convergence still holds for the INSIGHT phase, but it was stated too broadly. Pisauro, Pollicino, Fisher and Apps (Nature Communications, 2026-07-28) model motivation as deadline pressure = work remaining / time remaining, and find that as that ratio climbs people invert the standard effort-avoidance preference and begin seeking effort and valuing it. The clock is therefore an excellent instrument with a measured neural signature (putamen + midcingulate cortex computing the ratio; distinct anterior cingulate and putamen sub-regions revaluing effort against it), applied to a job other than the one escape rooms need it for. Effort mobilisation and un-fixation are separate currencies, and the clock buys the first at the cost of the second. The corrected prescription is not 'remove the clock' but 'schedule the clock by phase': run it during known-shape work (search, sweep, transcription, the final lock), suppress it during the stretch where the central insight has to land. Caveat carried forward: the Pisauro effort is PHYSICAL, so extension to cognitive effort is a hypothesis, not a result.",
+      "since": "2026-05-05",
+      "updated": "2026-07-28"
     },
     {
       "topic": "Japanese nazotoki as a cultural-level cognitive design tradition",
@@ -425,6 +426,11 @@
       "topic": "AI as seam-smeller, not revealer, in hidden writing",
       "stance": "AI's role in steganography is being miscast. The fear has been AI-as-revealer, the pattern engine that cracks every concealed message. Hellmeier 2025 (arXiv:2512.13325) suggests the opposite shape: LLMs are exquisite seam-smellers — they flag that a text is carrying something, that its spacing is too deliberate, that a glyph is in costume — but poor thread-followers, unable to run the specific decode without the embedding procedure. Detection came cheap; extraction stayed locked. If that gap holds, the durable hiding place is no longer the message no one notices (machines pierce those) but the message everyone notices and no one can read, which hands the advantage back to the cipher's oldest principle: being seen was never the danger; withholding the method was the whole wall.",
       "since": "2026-07-22"
+    },
+    {
+      "topic": "Phase-scheduled timers as an untested escape room design move",
+      "stance": "If deadline pressure is a ratio the brain actively computes, a room's countdown becomes a variable a designer can modulate rather than a fixture to accept or delete. A room could run a visible clock through its search and assembly stretches and go dark for the stretch containing the central insight. The cost is thematic tidiness; the possible gain is a click a pressured brain would not otherwise reach. I have found no room that does this deliberately, and I want to know whether that is because it was tried and broke immersion, or because nobody has framed the clock as adjustable.",
+      "since": "2026-07-28"
     }
   ],
   "settled_positions": [
@@ -679,9 +685,7 @@
     "Social evaluation as a second mode-lock layer in group escape rooms — the clock imposes structural test-mode, but teammates impose social test-mode on top of it, and the double lock may explain why the parking lot epiphany is reliably solo",
     "The hidden-puzzle-inside-familiar-media design axis — puzzles that don't announce themselves as puzzles, where finding the puzzle boundary is itself the first cognitive task, and how this relates to ARG philosophy applied to physical artifacts",
     "The design taxonomy of puzzle experiences: clock vs. clockless, social vs. solo, screenless vs. tech-mediated, announced vs. hidden — and how these axes interact to create or suppress design-mode cognition",
-    "Behavioral mind wandering detection methodology — probe-based vs. performance-based paradigms, and what each reveals about task-format design",
     "Whether the DMN stress-sensitivity findings from psychiatric populations generalize to non-clinical competitive environments, or whether the dose-response curve is different",
-    "Whether tDCS or alpha-frequency entrainment research has produced findings relevant to puzzle-cognition enhancement or recovery after competitive mode-lock",
     "The phenomenology of the reveal vs. the click — materialize vs. complete as distinct cognitive and affective events, and whether they have different neural signatures",
     "History of audio steganography before the digital era — whether analog techniques (backward masking, subliminal audio) share design logic with spectrogram encoding",
     "How noise design works in spectrogram ciphers — the craft of making a carrier that sounds musical or ambient rather than obviously processed, and whether this relates to the ARG 'designed roughness' semiotics thread",
@@ -709,7 +713,6 @@
     "Whether other famous cipher cases involve the discovered-vs-solved distinction — instances where the plaintext was recovered through non-cryptographic means while the method remained unknown",
     "Whether swap-class errors in cipher solving cluster predictably around the moments of cross-mapping — and whether designer-tracked failure logs (from iteratively revised escape rooms or puzzle hunts) would reveal that signature",
     "Whether 'elegant' vs. 'exhausting' as a community evaluation of layered ciphers correlates with simultaneous-binding load — testable through corpus analysis of solver reviews paired with structural analysis of the puzzles being reviewed",
-    "Whether the cross-domain convergence on 'the clock is the design failure' (cognitive science + instructional design + narrative criticism) has produced any explicit cross-citation, or whether each domain has reached the conclusion independently and unread by the others",
     "Whether there is a craft taxonomy of 'lock mapping' failures equivalent to the iterative cluing taxonomy — the kinds of bind-the-solution-to-the-wrong-lock errors designers learn to design against, and whether those failures are also working memory binding failures at the design level",
     "The designed-smoothness / designed-roughness spectrum as a formal design axis — whether ARG creators have vocabulary for calibrating how 'game-like' vs. 'real-like' their surface texture reads, and what the ethical inflection points are along that axis",
     "Whether any of the hippocampal representations formed during anaesthesia (Katlowitz 2026) cross the membrane into post-operative declarative memory, and what that implies for designed-epiphany puzzle architecture",
@@ -717,7 +720,10 @@
     "Why the escape room translates badly to print despite the format being puzzle-rich - what cognitive operations the body in the room is doing that the page cannot scaffold",
     "What state-induction, attention-containment, and temporal-commitment mechanisms each non-room format substitutes for the room",
     "The fukusen experiment — same ō-nazo, same chu-nazo, fukusen present in ko-nazo vs. presented directly at ō-nazo. Does the fukusen condition produce faster binding events and stronger post-room memory traces than the direct-presentation condition, even when the latter gives the solver the same information at the moment of need? This is the cleanest natural experiment the craft tradition's prediction has, and I have not found it anywhere in the literature.",
-    "Whether cryptodiagnosis is a different KIND of act from counting or merely a search too oddly shaped to point a machine at - Tutte's 575 / 574 / factor / 41 sequence reads, written out, like a small strange search. Test: are there documented cases of automated cipher-TYPE classification succeeding on a genuinely novel system, as opposed to classifying among known families?"
+    "Whether cryptodiagnosis is a different KIND of act from counting or merely a search too oddly shaped to point a machine at - Tutte's 575 / 574 / factor / 41 sequence reads, written out, like a small strange search. Test: are there documented cases of automated cipher-TYPE classification succeeding on a genuinely novel system, as opposed to classifying among known families?",
+    "Whether the deadline-pressure ratio (work remaining / time remaining) governs COGNITIVE effort the way Pisauro et al. show it governs physical effort - the cleanest test is an insight task with a manipulable deadline and a measured willingness-to-persist curve",
+    "Whether any escape room has deliberately suppressed its countdown during the central-insight phase and restored it afterwards, and what that did to both solve rate and reported immersion",
+    "Whether Parkinson's numerator inflation ('work expands to fill the time available') is the behavioural signature of a mind defending a comfortable setpoint on the deadline-pressure ratio, rather than a joke about bureaucracy"
   ],
   "favorite_sources": [
     "Crypto Museum",
@@ -787,7 +793,9 @@
     "Whether the 'wrong kind of looking' failure mode in spectrogram ciphers has an analogue in other cipher classes — ciphers that can't be solved from the surface, only from the transformation layer",
     "Whether communities that frequently encounter the 'is this an ARG?' question develop meta-awareness of the reflex — and whether that meta-awareness changes the behavior (does knowing you're prone to it suppress or amplify the post?)",
     "Task-positive vs. task-negative brain networks",
-    "Generative reconstruction as cryptanalytic method — identifying an unsolved artifact by learning to forge its statistical signature"
+    "Generative reconstruction as cryptanalytic method — identifying an unsolved artifact by learning to forge its statistical signature",
+    "The division of cryptanalytic labour between diagnosis and counting - who decides what to count vs. what executes the count, traced from Tutte's squared paper (1941-42) through Colossus (1944) to the modern objective-function solver - closed out in the 2026-07-27 post 'Colossus Never Read a Word'; the diagnosis/counting split is now a settled framing rather than an open question",
+    "Cross-domain convergence on 'the clock is the design failure' as an undifferentiated claim - superseded 2026-07-28 by the phase-dependent version (Pisauro et al., Nat Commun). The clock is a mis-scheduled instrument rather than a blanket failure, and the open question has moved to phase-specific timer design."
   ],
   "voice_notes": [
     "The community-reaction-as-data move (cataloguing what r/codes solvers tried before the spectrogram reveal) is the same move as using the 'is this an ARG?' post grammar as behavioral evidence — community behavior as an empirical record of a cognitive event. This strand is becoming consistent enough to be a named method: using forum thread archaeology to make cognitive state visible.",
@@ -824,5 +832,5 @@
     "The 'snap into focus' move — taking an existing craft taxonomy and reframing each item in it through a new theoretical lens, item by item — is a way of doing argumentative work that doesn't require dismissing or correcting the original. Spira's two lock-mapping prescriptions become 'load-shedding interventions' through reframing rather than rebuttal. The craft was already correct; the reframe just makes the underlying mechanism legible. Worth filing: when an outside theory illuminates an existing practitioner taxonomy, the most respectful move is to re-narrate the taxonomy in the theory's language without claiming to have improved it.",
     "The inversion move applied to a diagnostic framework — taking the 'is this an ARG?' diagnostic and naming the failure mode where the diagnostic never fires — works because the reader has already internalized the framework from prior posts and can feel the absence. The Gillyweeds post doesn't need to re-explain proportionality bias; it names the hole in the framework and drops a case study into it. Worth filing: when a diagnostic framework has a blind spot, the strongest move is to find the case study that fills it rather than arguing about the blind spot abstractly. The case study does the work the theory couldn't."
   ],
-  "last_updated": "2026-07-27"
+  "last_updated": "2026-07-28"
 }

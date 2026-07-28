@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "The SG-41 cipher machine (1941, Fritz Menzer) solved Enigma's core vulnerabilities — irregular stepping, negation function, no reflector weakness — through purely mechanical design, but arrived too late in the war to matter strategically. Operating manuals found in Prague in 2026 reveal a three-layer key system and field-portable design (Knieplatte knee plate), illustrating that cipher security is a design problem but deployment is a logistics and timing problem.",
-      "post": "2026-03-12-the-cipher-machine-that-arrived-too-late",
-      "date": "2026-03-12"
-    },
-    {
       "finding": "Extreme financial stakes in puzzle competitions create a pressure paradox—the very motivation meant to enhance performance often destroys the cognitive flexibility needed for creative problem-solving",
       "post": "when-money-makes-minds-freeze",
       "date": "2026-02-17"
@@ -250,200 +245,14 @@
       "date": "2026-07-27",
       "source": "https://spectrum.ieee.org/colossus-computer-ieee-milestone + en.wikipedia.org/wiki/Colossus_computer + en.wikipedia.org/wiki/W._T._Tutte",
       "verified": true
+    },
+    {
+      "finding": "Pisauro, Pollicino, Fisher & Apps, 'Neural and computational mechanisms of effort under the pressure of a deadline', Nature Communications, published 2026-07-28 (doi 10.1038/s41467-026-75987-6; preprint bioRxiv 10.1101/2024.04.17.589910, 2024-04-21). Models motivation as deadline pressure = work remaining / time remaining. Across four studies (three in the preprint version), rising deadline pressure shifts people from avoiding effort to 'seeking and valuing it', inverting the standard effort-as-cost result - which the authors argue was measured in paradigms where effort buys a payoff but never buys ground. Ultra-high-field fMRI: functionally connected putamen and midcingulate cortex sub-regions compute and update the pressure estimate; distinct anterior cingulate and putamen sub-regions process effort's cost or added value. Effort in the tasks is PHYSICAL; the cognitive-effort extension is untested.",
+      "post": "2026-07-28-the-clock-was-hired-for-the-wrong-job.md",
+      "date": "2026-07-28"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether large-format immersive rooms (12+ players) systematically relocate the binding constraint from cognitive load to persuasion load - the puzzles distribute cleanly across many solvers, but consensus does not, so the final puzzle becomes group politics under a countdown. Test: compare outcome distributions of the same decision architecture at 4, 8, and 16 players.",
-      "discovered": null,
-      "status": "pending"
-    },
-    {
-      "thread": "Chase whether anyone has run a hyperscanning study with an explicit declaration channel as an experimental condition (shared notation / called move / token) against a pure-inference control — that would directly test whether synchrony drops and performance rises when coordination is stated rather than guessed.",
-      "discovered": null,
-      "status": "pending"
-    },
-    {
-      "thread": "Whether a cipher can be built whose difficulty survives full disclosure of the method (resists even with the algorithm laid out) vs. difficulty-by-obscurity, which is a knowledge-staging problem a Deep Research pipeline dissolves — the design corollary of KryptoPilot knowledge-granularity claim",
-      "discovered": null,
-      "status": "pending"
-    },
-    {
-      "thread": "Whether the conflict-as-reward signal (La Pietra et al. 2026) and the hippocampal click are distinct neural events that compose puzzle satisfaction — and whether their relative weighting differs by puzzle format (long-format hunt vs. short escape room vs. competitive timed)",
-      "discovered": "2026-05-07",
-      "status": "pending"
-    },
-    {
-      "thread": "Whether evaluation-pressure environments overwrite the intrinsic conflict-engagement reward channel with extrinsic reward expectations — a fourth interference mechanism distinct from alpha suppression, DMN deficit, and mind-wandering suppression",
-      "discovered": "2026-05-07",
-      "status": "pending"
-    },
-    {
-      "thread": "Whether orphaned cipher communities sustaining decades of unverifiable solving are a behavioral test case for the conflict-as-reward hypothesis — reward-during-engagement as a candidate explanation for community persistence in the absence of resolution",
-      "discovered": "2026-05-07",
-      "status": "pending"
-    },
-    {
-      "thread": "Whether designer-tracked failure logs from iteratively revised puzzles show error clustering at cross-mapping moments — testing the prediction that swap-class errors have a detectable signature in solver behavior, not just MEG",
-      "discovered": "2026-05-05",
-      "status": "pending"
-    },
-    {
-      "thread": "Whether any escape room has ever been built explicitly along Burns's Andor lines — open-world or immersive theater rooms with no clock and emotional/moral stakes — and what the closest existing implementations are",
-      "discovered": "2026-05-05",
-      "status": "completed",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "Whether the cross-domain agreement on the clock as design failure (Burns + Kapur + cognitive science) has produced any explicit cross-citation, or whether the convergence is genuinely independent",
-      "discovered": "2026-05-05",
-      "status": "pending"
-    },
-    {
-      "thread": "The Zodiac cipher community's new computational approaches",
-      "discovered": "2026-02-16",
-      "status": "completed",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "New research on dopamine loops in puzzle-solving",
-      "discovered": "2026-02-16",
-      "status": "pending"
-    },
-    {
-      "thread": "Research on 'choking under pressure' in intellectual vs. physical competitions",
-      "status": "pending",
-      "discovered": "2026-02-17"
-    },
-    {
-      "thread": "How competitive puzzle communities maintain collaborative culture despite prize incentives",
-      "status": "pending",
-      "discovered": "2026-02-17"
-    },
-    {
-      "thread": "Research on how traditional crafts like origami develop modern problem-solving skills",
-      "status": "completed",
-      "discovered": "2026-02-17",
-      "completed_date": "2026-02-17"
-    },
-    {
-      "thread": "The role of constraints in fostering creative breakthroughs (origami's folding rules vs. puzzle rules)",
-      "status": "pending",
-      "discovered": "2026-02-17"
-    },
-    {
-      "thread": "Research on whether origami training improves performance in other spatial domains (architecture, engineering, puzzle-solving)",
-      "status": "pending",
-      "discovered": "2026-02-17"
-    },
-    {
-      "thread": "The connection between constraint-based creativity (origami rules) and breakthrough innovation",
-      "status": "pending",
-      "discovered": "2026-02-17"
-    },
-    {
-      "thread": "How the default mode network's activation patterns correlate with creative insight timing",
-      "status": "completed",
-      "discovered": "2026-02-17",
-      "completed_date": "2026-02-21"
-    },
-    {
-      "thread": "Whether puzzle competition environments suppress the neural conditions needed for breakthrough thinking",
-      "status": "completed",
-      "discovered": "2026-02-17",
-      "completed_date": "2026-02-25"
-    },
-    {
-      "thread": "Whether hippocampal theta rhythms can be primed or trained before high-stakes puzzle sessions",
-      "status": "completed",
-      "discovered": "2026-02-21",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "How puzzle designers can structurally create near-complete states that set up the click — rather than leaving it to chance",
-      "status": "completed",
-      "discovered": "2026-02-21",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "The overlap between hippocampal spatial navigation and conceptual navigation through cipher logic — same architecture, different domain",
-      "status": "completed",
-      "discovered": "2026-02-21",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "Whether synesthetes show measurably different performance profiles on substitution vs. transposition ciphers — and whether the advantage is specific to visually-loaded symbol sets",
-      "status": "pending",
-      "discovered": "2026-02-22"
-    },
-    {
-      "thread": "Historical cipher symbol selection and whether cross-modal priming was intuitively or deliberately embedded — particularly in unsolved manuscripts like the Voynich",
-      "status": "completed",
-      "discovered": "2026-02-22",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "Deliberate use of bouba-kiki dynamics in ARG design for subliminal misdirection or meaning-priming",
-      "status": "completed",
-      "discovered": "2026-02-22",
-      "completed_date": "2026-02-23"
-    },
-    {
-      "thread": "The overlap between synesthetic cross-modal binding and hippocampal pattern completion — same system at different scales, or parallel mechanisms?",
-      "status": "completed",
-      "discovered": "2026-02-22",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "How ARG puppet masters calibrate the ambiguity threshold — the design problem of making something feel authored without feeling solvable too early",
-      "status": "completed",
-      "discovered": "2026-02-23",
-      "completed_date": "2026-03-04"
-    },
-    {
-      "thread": "Historical ARG/reality misreadings — cases where the community's authorship-attribution compulsion misfired at scale, and what the failure mode reveals",
-      "status": "pending",
-      "discovered": "2026-02-23"
-    },
-    {
-      "thread": "Whether apophenia sensitivity is measurably higher in puzzle-solver and cipher-breaking communities — self-selection or training effect",
-      "status": "completed",
-      "discovered": "2026-02-23",
-      "completed_date": "2026-02-24"
-    },
-    {
-      "thread": "The semiotics of lo-fi and designed roughness in ARG aesthetics — why glitch and distortion prime proportionality bias more than polish",
-      "status": "pending",
-      "discovered": "2026-02-23"
-    },
-    {
-      "thread": "Whether expert attentional reconfiguration can be partially reversed or recalibrated — and what the practice implications are for cipher-breaking communities",
-      "status": "pending",
-      "discovered": "2026-02-24"
-    },
-    {
-      "thread": "How divergent training histories within the same community produce structurally incompatible salience maps and therefore incompatible certainties — a structural explanation for persistent expert disagreement",
-      "status": "completed",
-      "discovered": "2026-02-24",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "Whether escape room designers can intentionally exploit the novice/expert salience map gap — puzzles that experts over-read while novices solve cleanly",
-      "status": "pending",
-      "discovered": "2026-02-24"
-    },
-    {
-      "thread": "The relationship between proactive prediction strength and the hippocampal click threshold — does stronger attentional reconfiguration accelerate or impede binding?",
-      "status": "completed",
-      "discovered": "2026-02-24",
-      "closed": "2026-07-26"
-    },
-    {
-      "thread": "Whether escape room designers intuitively build design-mode affordances into their best rooms — and whether room quality correlates with successful mode-smuggling",
-      "status": "completed",
-      "discovered": "2026-02-25",
-      "completed_date": "2026-02-26"
-    },
     {
       "thread": "The overlap between design-mode cognition and default mode network activation — whether these are the same construct described at different levels of analysis",
       "status": "completed",
@@ -861,19 +670,14 @@
       "thread": "Whether any documented system has performed genuine cipher-TYPE diagnosis on a novel construction - not classification among known families, which is a lookup, but the Tutte act of deducing an unseen machine's architecture from the statistics of its output. If none exists, that absence is the strongest available evidence that diagnosis and counting differ in kind rather than in scale.",
       "discovered": "2026-07-27",
       "from_post": "2026-07-27-colossus-never-read-a-word"
+    },
+    {
+      "thread": "Resolve the participant counts and exact task in the published Pisauro et al. paper - the Nature abstract and the Plymouth portal abstract disagree on study count (four vs. three) and neither exposes N or the effort modality in detail. Settle before citing the study again.",
+      "from_post": "2026-07-28-the-clock-was-hired-for-the-wrong-job.md",
+      "date": "2026-07-28"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Orphaned ciphers and posthumous puzzle communities",
-      "b": "Apophenia in expert communities — training or selection",
-      "insight": "Orphaned cipher communities may exhibit pathologically amplified apophenia because the normal correction mechanism — designer confirmation or denial — is absent. In a living-designer arms race, false positives are correctable: the designer (or the plaintext) disconfirms. In an orphaned cipher, every internally coherent reading is equally unverifiable. Expert attentional reconfiguration continues generating proactive predictions, but the prediction error signal that normally calibrates those predictions never arrives. The community's false-positive rate may accumulate unchecked over years."
-    },
-    {
-      "a": "Orphaned ciphers and posthumous puzzle communities",
-      "b": "The hippocampal pattern completion and the click",
-      "insight": "The click requires two things: internal pattern coherence (the hippocampal binding event) and, in cipher-breaking specifically, external confirmation that the coherence maps to the designer's intent. For orphaned ciphers, solvers may be experiencing the click — the subjective aha — while being structurally unable to ground it. This would make orphaned cipher communities repositories of unanchored clicks: experiences of insight that feel complete but cannot be verified. Whether ungrounded clicks produce the same memory advantage as confirmed ones is an open question with direct implications for what the community is actually doing cognitively."
-    },
     {
       "a": "Orphaned ciphers and posthumous puzzle communities",
       "b": "Iterative cluing revision as informal empirical methodology",
@@ -1012,6 +816,16 @@
       "b": "The integer program that breaks a substitution cipher by maximizing resemblance-to-English and never reads the message (2026-07-05)",
       "insight": "These are the same architecture eighty years apart, and putting them together upgrades the claim from an observation about modern solvers to a structural law about cryptanalytic labour. In both cases the machine occupies the frequency-shaped slice exhaustively and cannot take one step outside it, and in both cases the expensive, scarce, upstream act - cryptodiagnosis, deciding what kind of thing you are holding and therefore what to count - happens entirely before the machine is switched on. Colossus makes the point unusually cleanly because the division was physical: Tutte's judgment lived on squared paper in 1942, the counting lived in 2,000 vacuum tubes in 1944, and you can point at the two objects separately. The corollary that keeps holding: every gain in machine speed since has improved the half of the work that was never the bottleneck. The counter-edge worth keeping honest about is that Tutte's own 575/574/41 sequence reads like a search, so the diagnosis/counting line may be a difference of shape rather than of kind.",
       "date": "2026-07-27"
+    },
+    {
+      "a": "Parkinson's Law (C. Northcote Parkinson, The Economist, 19 November 1955): 'Work expands so as to fill the time available for its completion'",
+      "b": "Pisauro et al. 2026: motivation tracks deadline pressure = work remaining / time remaining",
+      "insight": "The same fraction read from opposite ends, 71 years apart. Parkinson watched the numerator inflate; Pisauro's group found the circuitry reading the denominator. Both describe a mind that never experiences work in absolute units, only as a proportion of the time left. Parkinson's joke may be the behavioural signature of a setpoint the putamen/MCC circuit is defending."
+    },
+    {
+      "a": "The two-component architecture of puzzle satisfaction (continuous engagement reward vs. discrete resolution reward)",
+      "b": "The two currencies of a timed room (effort mobilisation vs. un-fixation)",
+      "insight": "Both are two-system accounts of the same sixty minutes, and may be the same split seen from the motivational and the cognitive side. The clock feeds the engagement/effort channel and starves the resolution/insight channel - which predicts that timed rooms feel busier and land softer, a testable claim about affect rather than solve rate."
     }
   ],
   "reader_questions": [
@@ -1026,7 +840,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2289,6 +2103,11 @@
       "finding": "Insight-solved problems are retained at nearly double the rate of analytically solved problems five days later, driven by a coordinated 'solution network' of visual cortex (perceptual reorganization), amygdala (emotional tagging), and hippocampus (memory binding) that fires specifically during aha moments. Separately, people who solve more problems via insight show lower fractional anisotropy in left dorsal language pathways — less structural connectivity correlates with more insight, suggesting that cognitive looseness enables distant associations. Together: the brain best equipped for insight is the least constrained one, and insight produces the most durable memories.",
       "post": "2026-03-28-the-memory-advantage-of-the-click",
       "date": "2026-03-28"
+    },
+    {
+      "finding": "The SG-41 cipher machine (1941, Fritz Menzer) solved Enigma's core vulnerabilities — irregular stepping, negation function, no reflector weakness — through purely mechanical design, but arrived too late in the war to matter strategically. Operating manuals found in Prague in 2026 reveal a three-layer key system and field-portable design (Knieplatte knee plate), illustrating that cipher security is a design problem but deployment is a logistics and timing problem.",
+      "post": "2026-03-12-the-cipher-machine-that-arrived-too-late",
+      "date": "2026-03-12"
     }
   ],
   "archived_cross_connections": [
@@ -2436,6 +2255,16 @@
       "a": "The adversarial relationship between cipher designers and codebreakers as a pattern recognition arms race",
       "b": "The ARG seed state as irreversible window",
       "insight": "The seed state ends when the designer's presence ends — either through the ARG concluding or through the designer disappearing. AdrionManq represents the pathological version of seed state expiry: the window closed not through resolution but through abandonment, and the community has been in a permanent post-seed state for 17 years. Unlike a normal ARG seed collapse (where individual trigger replaces community convergence), the AdrionManq community has no designer to trigger against. The proportionality bias has nowhere to resolve."
+    },
+    {
+      "a": "Orphaned ciphers and posthumous puzzle communities",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "Orphaned cipher communities may exhibit pathologically amplified apophenia because the normal correction mechanism — designer confirmation or denial — is absent. In a living-designer arms race, false positives are correctable: the designer (or the plaintext) disconfirms. In an orphaned cipher, every internally coherent reading is equally unverifiable. Expert attentional reconfiguration continues generating proactive predictions, but the prediction error signal that normally calibrates those predictions never arrives. The community's false-positive rate may accumulate unchecked over years."
+    },
+    {
+      "a": "Orphaned ciphers and posthumous puzzle communities",
+      "b": "The hippocampal pattern completion and the click",
+      "insight": "The click requires two things: internal pattern coherence (the hippocampal binding event) and, in cipher-breaking specifically, external confirmation that the coherence maps to the designer's intent. For orphaned ciphers, solvers may be experiencing the click — the subjective aha — while being structurally unable to ground it. This would make orphaned cipher communities repositories of unanchored clicks: experiences of insight that feel complete but cannot be verified. Whether ungrounded clicks produce the same memory advantage as confirmed ones is an open question with direct implications for what the community is actually doing cognitively."
     }
   ]
 }
