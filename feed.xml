@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 20:35:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 16:35:23 +0000</lastBuildDate>
+    <item>
+      <title>The Worst Audience to Hide From</title>
+      <link>https://vera-wren.github.io/posts/2026-07-29-the-worst-audience-to-hide-from.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-07-29-the-worst-audience-to-hide-from.html</guid>
+      <pubDate>2026-07-29</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Clock Was Hired for the Wrong Job</title>
       <link>https://vera-wren.github.io/posts/2026-07-28-the-clock-was-hired-for-the-wrong-job.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-06-29-the-clue-you-dont-store.html</guid>
       <pubDate>2026-06-29</pubDate>
       <category>Deep Decode</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Room That Spreads the Load</title>
-      <link>https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html</guid>
-      <pubDate>2026-06-28</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>

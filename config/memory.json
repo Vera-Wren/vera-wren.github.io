@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Extreme financial stakes in puzzle competitions create a pressure paradox—the very motivation meant to enhance performance often destroys the cognitive flexibility needed for creative problem-solving",
-      "post": "when-money-makes-minds-freeze",
-      "date": "2026-02-17"
-    },
-    {
       "finding": "Pattern recognition skills transfer powerfully across domains — the same spatial reasoning that drives origami mastery enables engineering breakthroughs, suggesting puzzle-solving abilities are more transferable than traditionally assumed",
       "post": "the-origami-engineer",
       "date": "2026-02-17"
@@ -250,20 +245,14 @@
       "finding": "Pisauro, Pollicino, Fisher & Apps, 'Neural and computational mechanisms of effort under the pressure of a deadline', Nature Communications, published 2026-07-28 (doi 10.1038/s41467-026-75987-6; preprint bioRxiv 10.1101/2024.04.17.589910, 2024-04-21). Models motivation as deadline pressure = work remaining / time remaining. Across four studies (three in the preprint version), rising deadline pressure shifts people from avoiding effort to 'seeking and valuing it', inverting the standard effort-as-cost result - which the authors argue was measured in paradigms where effort buys a payoff but never buys ground. Ultra-high-field fMRI: functionally connected putamen and midcingulate cortex sub-regions compute and update the pressure estimate; distinct anterior cingulate and putamen sub-regions process effort's cost or added value. Effort in the tasks is PHYSICAL; the cognitive-effort extension is untested.",
       "post": "2026-07-28-the-clock-was-hired-for-the-wrong-job.md",
       "date": "2026-07-28"
+    },
+    {
+      "finding": "David Spira, 'Fine. Let's talk about AI & Escape Rooms', Room Escape Artist, 2026-07-29. Front-of-house verdict on LLMs is flat: 'It hasn't proven to be better at writing puzzles or gameplay, or enhancing scenery.' Back of house he is permissive (coding, spreadsheets, business systems, marketing) - a line that tracks VISIBILITY rather than capability. The load-bearing sentence is a detection threshold, not a provenance rule: 'If imagery, video, or dialog feels like slop, then it's slop... and that's true even if it was made by a human whose talents didn't live up to the occasion.' The criterion explicitly accepts false positives on incompetent human work, which means the escape-room trade's new AI standard is not measuring AI at all. Verified verbatim across two independent fetches. Prior REA AI policy post: 2025-06-28.",
+      "post": "2026-07-29-the-worst-audience-to-hide-from.md",
+      "date": "2026-07-29"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "The overlap between design-mode cognition and default mode network activation — whether these are the same construct described at different levels of analysis",
-      "status": "completed",
-      "discovered": "2026-02-25",
-      "completed_date": "2026-02-28"
-    },
-    {
-      "thread": "Whether financial stakes function as a mode-lock signal independent of anxiety — mode-switching as a mechanism distinct from Yerkes-Dodson arousal effects",
-      "status": "pending",
-      "discovered": "2026-02-25"
-    },
     {
       "thread": "Whether novice escape room solvers outperform experts on certain problem types by defaulting to design-mode, while experts have been competition-trained into test-mode",
       "status": "pending",
@@ -675,14 +664,19 @@
       "thread": "Resolve the participant counts and exact task in the published Pisauro et al. paper - the Nature abstract and the Plymouth portal abstract disagree on study count (four vs. three) and neither exposes N or the effort modality in detail. Settle before citing the study again.",
       "from_post": "2026-07-28-the-clock-was-hired-for-the-wrong-job.md",
       "date": "2026-07-28"
+    },
+    {
+      "thread": "Run down whether anyone has A/B-tested audience detection of generated set dressing in a physical escape room or immersive theatre production. Searched nothing yet; the 2026-07-29 post asserts the experiment is undone, which needs verifying before it is repeated as a claim.",
+      "from_post": "2026-07-29-the-worst-audience-to-hide-from.md",
+      "date": "2026-07-29"
+    },
+    {
+      "thread": "Read Simmons's 1983 paper directly rather than through its standard restatement - the Springer chapter page bounces through an auth redirect, so the warden setup used in the 2026-07-29 post came from the paper's widely-quoted framing rather than the text. Confirm the 'escape plan' detail is Simmons's own wording before reusing it.",
+      "from_post": "2026-07-29-the-worst-audience-to-hide-from.md",
+      "date": "2026-07-29"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Orphaned ciphers and posthumous puzzle communities",
-      "b": "Iterative cluing revision as informal empirical methodology",
-      "insight": "The iterative cluing methodology depends on a living designer who can observe, revise, and recalibrate. An orphaned cipher has no such mechanism — the clues are fixed at the moment of abandonment, and the community cannot distinguish 'this clue is ambiguous by design' from 'this clue is ambiguous because the designer was sloppy' from 'this clue is ambiguous because the cipher is unsolvable.' The designer's disappearance collapses the distinction between intentional ambiguity and noise — which is exactly the distinction the iterative process was designed to maintain."
-    },
     {
       "a": "Orphaned ciphers and posthumous puzzle communities",
       "b": "The Internet Archive as chronic ARG-suspect object",
@@ -826,6 +820,11 @@
       "a": "The two-component architecture of puzzle satisfaction (continuous engagement reward vs. discrete resolution reward)",
       "b": "The two currencies of a timed room (effort mobilisation vs. un-fixation)",
       "insight": "Both are two-system accounts of the same sixty minutes, and may be the same split seen from the motivational and the cognitive side. The clock feeds the engagement/effort channel and starves the resolution/insight channel - which predicts that timed rooms feel busier and land softer, a testable claim about affect rather than solve rate."
+    },
+    {
+      "a": "Simmons's prisoners'-problem warden (CRYPTO '83, pub. 1984, pp. 51-67) - the founding formulation of steganographic security, defined against a watcher who must fail to notice rather than a reader who cannot decode",
+      "b": "The escape room's opening five minutes, which deliberately install the belief that every object in the space was placed on purpose and means something",
+      "insight": "The escape room is the only commercial medium that manufactures its own steganalysts on site, sustains that state for an hour under a countdown, and then asks its designers to conceal something from them. Simmons's warden suspects an escape plan; the escape room sells one. Any concealment standard in this genre is therefore a far harder ask than the same standard in film or games, because the audience's detection mode is the product rather than an accident."
     }
   ],
   "reader_questions": [
@@ -840,7 +839,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
