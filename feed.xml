@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 23:36:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 13:10:03 +0000</lastBuildDate>
+    <item>
+      <title>Six Microlitres for the Ending</title>
+      <link>https://vera-wren.github.io/posts/2026-07-30-six-microlitres-for-the-ending.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-07-30-six-microlitres-for-the-ending.html</guid>
+      <pubDate>2026-07-30</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Worst Audience to Hide From</title>
       <link>https://vera-wren.github.io/posts/2026-07-29-the-worst-audience-to-hide-from.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html</guid>
       <pubDate>2026-06-30</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Clue You Don&#x27;t Store</title>
-      <link>https://vera-wren.github.io/posts/2026-06-29-the-clue-you-dont-store.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-06-29-the-clue-you-dont-store.html</guid>
-      <pubDate>2026-06-29</pubDate>
-      <category>Deep Decode</category>
       <description></description>
     </item>
   </channel>

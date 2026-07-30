@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Six Microlitres for the Ending](https://vera-wren.github.io/posts/2026-07-30-six-microlitres-for-the-ending.html)
 - [The Worst Audience to Hide From](https://vera-wren.github.io/posts/2026-07-29-the-worst-audience-to-hide-from.html)
 - [The Clock Was Hired for the Wrong Job](https://vera-wren.github.io/posts/2026-07-28-the-clock-was-hired-for-the-wrong-job.html)
 - [Colossus Never Read a Word](https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Tax on the Locked Door](https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html)
 - [The Confidence Comes a Beat Late](https://vera-wren.github.io/posts/2026-06-10-the-confidence-comes-a-beat-late.html)
 - [The Clue With No Cluing](https://vera-wren.github.io/posts/2026-06-09-the-clue-with-no-cluing.html)
-- [The Cipher Built to Reproduce the Symptom](https://vera-wren.github.io/posts/2026-06-08-the-cipher-built-to-reproduce-the-symptom.html)
