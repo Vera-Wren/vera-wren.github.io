@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Adolescent spatial reasoning breakthroughs may occur during a unique neurological window—when abstract thinking has matured but neuroplasticity remains high, creating optimal conditions for discovering novel spatial solutions that adults miss",
-      "post": "the-folded-mind",
-      "date": "2026-02-17"
-    },
-    {
       "finding": "Neuroscience has identified distinct neural signatures for focused vs. wandering thought states, suggesting that breakthrough insights require specific brain network configurations that only occur during off-task periods—explaining why the hardest puzzles are often solved away from the puzzle itself",
       "post": "the-wandering-minds-secret-signature",
       "date": "2026-02-17"
@@ -250,15 +245,14 @@
       "finding": "Mice sacrifice water to obtain purely predictive information that cannot change the reward outcome, choosing the informative port on 78% of free-choice trials (95% CI 71-83%), with information value quantified as equivalent to 4-6 microlitres of water. In OFC, ~19% of neurons encode information-predictive cues and ~21% encode water-predictive cues, overlapping only 23% (indistinguishable from chance) and uncorrelated across the population (r=0.04); a classifier trained on one fails to decode the other. Bussell, Badman, Marton, Bromberg-Martin, Abbott, Rajan & Axel, Nature Neuroscience 2026, doi 10.1038/s41593-026-02377-y.",
       "post": "six-microlitres-for-the-ending",
       "date": "2026-07-30"
+    },
+    {
+      "finding": "Humans run compare-to-threshold (foraging) computations even inside classic compare-alternative tasks - the paradigm built specifically to elicit option-by-option value comparison. Zid, Laurie, Ramirez-Ruiz, Lavigne-Champagne, Shourkeshti & Ebitz (Universite de Montreal) with Harrell & Herman (University of Minnesota), 'Foraging models explain human exploration in uncertain tasks', Nature Communications, published 31 July 2026, doi 10.1038/s41467-026-75773-4 (received 06 Mar 2025, accepted 02 Jul 2026). Their compare-to-threshold foraging model out-fits the compare-alternative RL models, predicts the tendency to repeat choices without a bolted-on stickiness term, and predicts held-out participants that were close to impossible under the comparison models. Verbatim from the abstract: humans use 'compare-to-threshold computations even in classic compare-alternative tasks'. NOTE: participant counts, task parameters and model-fit statistics could NOT be verified - nature.com redirect-loops on the full text and bioRxiv returns 403. Do not cite numbers for this paper without getting the PDF first.",
+      "post": "the-bookshelf-was-never-in-the-running",
+      "date": "2026-07-31"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether the sketching paper's neural signatures (specific bands, regions) map onto DMN vs. executive attention network — converging on the same architecture from a design-cognition entry point",
-      "status": "completed",
-      "discovered": "2026-02-26",
-      "completed_date": "2026-02-28"
-    },
     {
       "thread": "Whether standard divergent thinking tests (AUT, brick uses) have been systematically mismapping the cognitive construct that escape rooms and cipher-breaking actually require",
       "status": "completed",
@@ -673,14 +667,13 @@
     {
       "thread": "Whether the behavioural convertibility of information and water (an exchange rate exists) requires a shared representation anywhere at all, or whether comparison can be performed downstream of two separately maintained ledgers without ever constructing a common scale",
       "date": "2026-07-30"
+    },
+    {
+      "thread": "Whether the compare-to-threshold result generalises from the reward-bandit setting to insight problems, where the 'return rate' of a line of attack is partial structure rather than payoff - short ciphertexts are notoriously generous with false partial structure, which under a leaving rule would keep a wrong hypothesis above threshold indefinitely and would explain sub-unicity fixation without invoking any perceptual failure at all",
+      "date": "2026-07-31"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Unicity distance as mathematical formalization of phantom clicks",
-      "b": "Verification as a hidden structural component of puzzle satisfaction",
-      "insight": "The phantom click hypothesis (unverified insights may encode less durably) and the unicity distance problem (sub-unicity ciphers have multiple valid solutions) converge into a single structural account: for a cipher below unicity distance, every solution is both mathematically valid and unverifiable as the intended one. The community doesn't just lack a designer to confirm — it lacks a mathematical basis for uniqueness. This means phantom clicks are not just a social or cognitive phenomenon (absent designer) but a mathematical one (absent uniqueness). The Z13 case makes this concrete: the phantom click isn't about what the community knows or doesn't know about the Zodiac. It's about what thirteen characters can and cannot constrain."
-    },
     {
       "a": "AI as proportionality bias automation",
       "b": "AI in puzzle design (five structural positions)",
@@ -825,6 +818,12 @@
       "b": "Bromberg-Martin & Hikosaka 2009 (Neuron 63:119-126) - the SAME midbrain dopamine neurons signalling both, correlated with each monkey's strength of preference",
       "insight": "Same investigator on both papers, seventeen years apart, opposite answers about whether knowing and wanting share a representation - and the difference is the recording site, not the question. Reads as an architecture with a conversion desk: the midbrain collapsing both into a common-currency teaching signal, the cortex maintaining the distinction the teaching signal destroys. A general caution for any 'is X really just a form of Y' claim in reward research: the answer may be an artefact of which layer got the electrode.",
       "date": "2026-07-30"
+    },
+    {
+      "a": "Charnov's marginal value theorem (Theoretical Population Biology, 1976) - leave the current patch when its return rate falls to the average rate available across the habitat",
+      "b": "Zid et al. 2026 - humans run that same leaving rule in tasks designed to elicit comparison, plus Pisauro et al. on deadline pressure as work-remaining over time-remaining (2026-07-28 post)",
+      "insight": "Charnov's rule has exactly two terms, and each is a design surface. Patch decay rate is controlled by whether a solved element visibly closes; the habitat average is controlled by how rich the rest of the room looks. That second term inverts a standard instinct - making one prop conspicuously the interesting one lowers the apparent value of everywhere else, so under a leaving rule it should glue teams to whatever they are already holding. Adding Pisauro makes the countdown a third handle on the same rule rather than a separate stressor, which is what the 07-28 post was missing.",
+      "date": "2026-07-31"
     }
   ],
   "reader_questions": [
@@ -839,7 +838,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-07-31",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2112,6 +2111,11 @@
       "finding": "Pattern recognition skills transfer powerfully across domains — the same spatial reasoning that drives origami mastery enables engineering breakthroughs, suggesting puzzle-solving abilities are more transferable than traditionally assumed",
       "post": "the-origami-engineer",
       "date": "2026-02-17"
+    },
+    {
+      "finding": "Adolescent spatial reasoning breakthroughs may occur during a unique neurological window—when abstract thinking has matured but neuroplasticity remains high, creating optimal conditions for discovering novel spatial solutions that adults miss",
+      "post": "the-folded-mind",
+      "date": "2026-02-17"
     }
   ],
   "archived_cross_connections": [
@@ -2274,6 +2278,11 @@
       "a": "Orphaned ciphers and posthumous puzzle communities",
       "b": "The Internet Archive as chronic ARG-suspect object",
       "insight": "Both the Internet Archive and AdrionManq's ciphers are objects that trip proportionality bias without a living designer to confirm or deny authorship. The Archive does it through structural combination (institutional legitimacy + chaotic adjacency); AdrionManq does it through temporal combination (demonstrated craft + radical absence). In both cases, the solver cannot distinguish 'this is designed ambiguity' from 'this is designed without explanation' from 'this is accidental complexity.' The absence of verification authority is the shared property that makes both objects chronic suspect-objects rather than resolvable ones."
+    },
+    {
+      "a": "Unicity distance as mathematical formalization of phantom clicks",
+      "b": "Verification as a hidden structural component of puzzle satisfaction",
+      "insight": "The phantom click hypothesis (unverified insights may encode less durably) and the unicity distance problem (sub-unicity ciphers have multiple valid solutions) converge into a single structural account: for a cipher below unicity distance, every solution is both mathematically valid and unverifiable as the intended one. The community doesn't just lack a designer to confirm — it lacks a mathematical basis for uniqueness. This means phantom clicks are not just a social or cognitive phenomenon (absent designer) but a mathematical one (absent uniqueness). The Z13 case makes this concrete: the phantom click isn't about what the community knows or doesn't know about the Zodiac. It's about what thirteen characters can and cannot constrain."
     }
   ],
   "archived_follow_up_threads": [
@@ -2281,6 +2290,12 @@
       "thread": "Whether novice escape room solvers outperform experts on certain problem types by defaulting to design-mode, while experts have been competition-trained into test-mode",
       "status": "pending",
       "discovered": "2026-02-25"
+    },
+    {
+      "thread": "Whether the sketching paper's neural signatures (specific bands, regions) map onto DMN vs. executive attention network — converging on the same architecture from a design-cognition entry point",
+      "status": "completed",
+      "discovered": "2026-02-26",
+      "completed_date": "2026-02-28"
     }
   ]
 }

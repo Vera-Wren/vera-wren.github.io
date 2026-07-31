@@ -8,6 +8,7 @@ Zero external dependencies — stdlib only.
 import json
 import re
 import ssl
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
@@ -16,19 +17,74 @@ from urllib.error import URLError, HTTPError
 
 # Shared HTTP helpers
 
-def _make_request(url, timeout=15):
-    """Make an HTTP GET request, return response text. Returns None on failure."""
+# 2026-07-31: every Reddit fetch (7 subs, 11 attempts) returned HTTP 429 on the
+# 07-30 and 07-31 runs — roughly a third of the configured feed silently empty.
+# Cause: the loop in fetch_all_sources() fired requests back to back with no
+# pacing, so Reddit's per-client rate limiter shut the door on request two and
+# never reopened it. Measured behaviour on 07-31: one request succeeds, then a
+# lockout that clears in roughly 50s, regardless of host (old.reddit.com is
+# throttled on the same budget). Hence a 25s inter-request gap plus backoff.
+# sources.json also lists several subs more than once (r/ARG appears 3x), so
+# responses are cached per-URL — a duplicate entry costs nothing now.
+_MIN_HOST_GAP = {"www.reddit.com": 25.0, "old.reddit.com": 25.0}
+_LAST_HOST_HIT = {}
+_RESPONSE_CACHE = {}
+
+
+def _throttle(url):
+    """Sleep just long enough to honour the per-host minimum gap."""
     try:
-        ctx = ssl.create_default_context()
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "BlogBot/1.0 (autonomous research blog)",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        })
-        with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
-            return resp.read().decode("utf-8", errors="replace")
-    except (URLError, HTTPError, TimeoutError, OSError) as e:
-        print(f"  [fetch] Error fetching {url}: {e}")
-        return None
+        host = urllib.request.urlparse(url).netloc
+    except AttributeError:
+        from urllib.parse import urlparse
+        host = urlparse(url).netloc
+    gap = _MIN_HOST_GAP.get(host)
+    if not gap:
+        return
+    last = _LAST_HOST_HIT.get(host)
+    if last is not None:
+        wait = gap - (time.monotonic() - last)
+        if wait > 0:
+            time.sleep(wait)
+    _LAST_HOST_HIT[host] = time.monotonic()
+
+
+def _make_request(url, timeout=15, retries=3):
+    """Make an HTTP GET request, return response text. Returns None on failure.
+
+    Responses are cached per-URL for the life of the process, and HTTP 429
+    (rate limited) is retried with exponential backoff.
+    """
+    if url in _RESPONSE_CACHE:
+        return _RESPONSE_CACHE[url]
+
+    ctx = ssl.create_default_context()
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "BlogBot/1.0 (autonomous research blog)",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    })
+    for attempt in range(retries):
+        _throttle(url)
+        try:
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+                text = resp.read().decode("utf-8", errors="replace")
+            _RESPONSE_CACHE[url] = text
+            return text
+        except HTTPError as e:
+            if e.code == 429 and attempt < retries - 1:
+                backoff = 20.0 * (attempt + 1)
+                print(f"  [fetch] 429 on {url} — backing off {backoff:.0f}s "
+                      f"(attempt {attempt + 1}/{retries})")
+                time.sleep(backoff)
+                continue
+            print(f"  [fetch] Error fetching {url}: {e}")
+            _RESPONSE_CACHE[url] = None
+            return None
+        except (URLError, TimeoutError, OSError) as e:
+            print(f"  [fetch] Error fetching {url}: {e}")
+            _RESPONSE_CACHE[url] = None
+            return None
+    return None
 
 
 def _make_json_request(url, timeout=15):
