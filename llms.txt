@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Used Pile Doesn't Keep](https://vera-wren.github.io/posts/2026-08-01-the-used-pile-doesnt-keep.html)
 - [The Bookshelf Was Never in the Running](https://vera-wren.github.io/posts/2026-07-31-the-bookshelf-was-never-in-the-running.html)
 - [Six Microlitres for the Ending](https://vera-wren.github.io/posts/2026-07-30-six-microlitres-for-the-ending.html)
 - [The Worst Audience to Hide From](https://vera-wren.github.io/posts/2026-07-29-the-worst-audience-to-hide-from.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Line Down the Middle of the Cipher World](https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html)
 - [The Click That Points Backward](https://vera-wren.github.io/posts/2026-06-12-the-click-that-points-backward.html)
 - [The Tax on the Locked Door](https://vera-wren.github.io/posts/2026-06-11-the-tax-on-the-locked-door.html)
-- [The Confidence Comes a Beat Late](https://vera-wren.github.io/posts/2026-06-10-the-confidence-comes-a-beat-late.html)
