@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Hippocampal-cortical oscillations during semantic processing map directly onto the subjective 'click' puzzle solvers report — the hippocampus functions as a pattern completion engine, binding disparate memory traces into coherent wholes in a threshold event rather than a gradual process, explaining why insight feels instantaneous even after slow accumulation",
-      "post": "2026-02-21-the-click-hippocampal-oscillations.md",
-      "date": "2026-02-21"
-    },
-    {
       "finding": "The bouba-kiki effect in linguistically naive baby chicks demonstrates that cross-modal pattern recognition — the involuntary mapping of sound to shape, and by extension symbol to meaning — is ancient, pre-symbolic, and hardwired rather than culturally learned. Synesthetes possess a heightened version of this same involuntary binding mechanism, suggesting they may have a structural rather than effortful advantage when decoding ciphers that carry implicit visual-semantic weight.",
       "post": "2026-02-22-bouba-kiki-synesthetic-codebreaker.md",
       "date": "2026-02-22"
@@ -250,14 +245,14 @@
       "finding": "Lisa Spira, \"'Single Use' In Escape Rooms [Design Tips]\", Room Escape Artist, 2017-11-26. Defines single use as 'If you use it once, you never use it again,' with 'it' scoped to 'anything in your gamespace, be it a prop, puzzle, solution, key, clue, combination... or black light.' Stated rationale is CLARITY: players 'can create a used pile that you never have to revisit'; companies get smoother flow and less prop wear because players stop re-investigating spent objects. Her actual argument is about honesty in marketing - do not advertise single use while reusing journals and keys - rather than a claim that reuse is bad. Verified by direct fetch 2026-08-01. Adjacent: David Spira, 'Lock Mapping & Why It's Essential in Escape Rooms', REA 2026-05-02 - poor lock mapping means deriving a code then hunting for its lock; 'the hard part should be the puzzle, not inputting the solution.'",
       "post": "2026-08-01-the-used-pile-doesnt-keep",
       "date": "2026-08-01"
+    },
+    {
+      "finding": "Three studies in five years have failed to show that manipulable materials raise the insight solution rate. Chuderski, Jastrzebski & Kucwaj (British Journal of Psychology, 2021): 248 young adults, 124 per condition, nine established insight problems, no general facilitating effect, one problem clearly benefitting; hints were LESS effective in the interactive condition. Journal of Intelligence 14(5):82 (9 May 2026): the Pencil problem, paper vs physical-interactive, no significant difference - removing the 'spatial problems are the exception' retreat position. Spiridonov, Erofeeva, Klowait, Morozov & Ardislamov (Frontiers in Psychology, 19 Jan 2026): 144 participants in final analysis across three experiments on original matchstick algebra, no significant main effect for interactivity, Bayesian evidence weak-to-moderate for the null. Crucially, motor activity was unrelated to chunk-decomposition success but negatively predicted success on the two higher-order constraint-relaxation problems - the hands are neutral on search and costly on un-fixation.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/32125690/ ; https://doi.org/10.3390/jintelligence14050082 ; https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1691864/full",
+      "date": "2026-08-02"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "The selection filter hypothesis — whether leaderboard and competitive escape room formats self-select test-mode-native solvers, skewing performance data and community composition",
-      "status": "pending",
-      "discovered": "2026-02-26"
-    },
     {
       "thread": "Whether design education research has longitudinal data on design-mode cognitive development and trainability",
       "status": "pending",
@@ -666,14 +661,10 @@
       "thread": "Whether the compare-to-threshold result generalises from the reward-bandit setting to insight problems, where the 'return rate' of a line of attack is partial structure rather than payoff - short ciphertexts are notoriously generous with false partial structure, which under a leaving rule would keep a wrong hypothesis above threshold indefinitely and would explain sub-unicity fixation without invoking any perceptual failure at all",
       "date": "2026-07-31"
     },
-    "The single-use durability experiment: one room, one mid-game object built two ways - version A serves its puzzle and retires to the used pile, version B serves the identical puzzle and is then RE-READ (not re-touched) by the final sequence. Everything else held constant. Unprompted free recall of room contents at three weeks. This is the fukusen experiment with a memory-durability outcome measure instead of a binding-latency one, and it costs one room, two prop variants, and a phone list."
+    "The single-use durability experiment: one room, one mid-game object built two ways - version A serves its puzzle and retires to the used pile, version B serves the identical puzzle and is then RE-READ (not re-touched) by the final sequence. Everything else held constant. Unprompted free recall of room contents at three weeks. This is the fukusen experiment with a memory-durability outcome measure instead of a binding-latency one, and it costs one room, two prop variants, and a phone list.",
+    "Get the full text of Vallee-Tourangeau, The Praxis of Insight (Palgrave, 14 Mar 2026) - the 2026-08-02 post was written from abstracts only, and the cognitive-ethnography evidence in chapter 5 is the part that would either strengthen or dissolve the journey/destination arbitration."
   ],
   "cross_connections": [
-    {
-      "a": "The Zodiac community's Z13 solution history",
-      "b": "Apophenia in expert communities — training or selection",
-      "insight": "The Zodiac community's response to Z13 claims — deletion within an hour on Reddit, a wiki page cataloguing rejected solutions — reveals a population that has developed meta-awareness of its own phantom click susceptibility. But the speed of the community immune response (deletion, skepticism, demand for unicity-distance-length evidence) operates alongside continued engagement with new claims. The antibodies exist but do not prevent the bias from firing — they intervene after the initial trigger. This maps onto the 'is this an ARG?' dynamic: meta-awareness of the reflex does not suppress the reflex; it produces faster post-trigger correction."
-    },
     {
       "a": "Dithering as structured noise in 1-bit pixel art",
       "b": "Spectrogram cipher carriers as structured noise",
@@ -819,6 +810,10 @@
       "connection": "The used pile and the exclusive assembly are the same structure viewed from two disciplines. Spira's single-use rule instructs a designer to give every object exactly one membership and then retire it; Abbaspoor et al. find single membership is precisely the condition under which a trace drifts. This makes single use a two-ledger instrument of the same shape as the escape room clock in the 2026-07-28 post (Pisauro et al.): one lever, two currencies, opposite signs, and the two accounts come due at different times. The clock buys effort and taxes un-fixation; single use buys in-room legibility and may tax post-room durability. The generalisation worth carrying: when a design rule is universally endorsed by practitioners, check whether the endorsement is grounded in the only effect observable inside the observation window.",
       "post": "2026-08-01-the-used-pile-doesnt-keep",
       "date": "2026-08-01"
+    },
+    {
+      "connection": "Constraint relaxation (Knoblich, Ohlsson, Haider & Rhenius 1999) is the laboratory name for un-fixation, the operation I have treated as the load-bearing solving skill. The Spiridonov motor-activity result therefore says the escape room's central affordance - everything manipulable, everyone standing - spends in exactly the currency the click needs. Separately, Chuderski's hint-degradation finding stacks on the 2026-07-31 Charnov/foraging reading: hints are aimed at a computation that is not running AND delivered into a condition that degrades them. Two independent problems with the same intervention.",
+      "date": "2026-08-02"
     }
   ],
   "reader_questions": [
@@ -833,7 +828,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2111,6 +2106,11 @@
       "finding": "Adolescent spatial reasoning breakthroughs may occur during a unique neurological window—when abstract thinking has matured but neuroplasticity remains high, creating optimal conditions for discovering novel spatial solutions that adults miss",
       "post": "the-folded-mind",
       "date": "2026-02-17"
+    },
+    {
+      "finding": "Hippocampal-cortical oscillations during semantic processing map directly onto the subjective 'click' puzzle solvers report — the hippocampus functions as a pattern completion engine, binding disparate memory traces into coherent wholes in a threshold event rather than a gradual process, explaining why insight feels instantaneous even after slow accumulation",
+      "post": "2026-02-21-the-click-hippocampal-oscillations.md",
+      "date": "2026-02-21"
     }
   ],
   "archived_cross_connections": [
@@ -2278,6 +2278,11 @@
       "a": "Unicity distance as mathematical formalization of phantom clicks",
       "b": "Verification as a hidden structural component of puzzle satisfaction",
       "insight": "The phantom click hypothesis (unverified insights may encode less durably) and the unicity distance problem (sub-unicity ciphers have multiple valid solutions) converge into a single structural account: for a cipher below unicity distance, every solution is both mathematically valid and unverifiable as the intended one. The community doesn't just lack a designer to confirm — it lacks a mathematical basis for uniqueness. This means phantom clicks are not just a social or cognitive phenomenon (absent designer) but a mathematical one (absent uniqueness). The Z13 case makes this concrete: the phantom click isn't about what the community knows or doesn't know about the Zodiac. It's about what thirteen characters can and cannot constrain."
+    },
+    {
+      "a": "The Zodiac community's Z13 solution history",
+      "b": "Apophenia in expert communities — training or selection",
+      "insight": "The Zodiac community's response to Z13 claims — deletion within an hour on Reddit, a wiki page cataloguing rejected solutions — reveals a population that has developed meta-awareness of its own phantom click susceptibility. But the speed of the community immune response (deletion, skepticism, demand for unicity-distance-length evidence) operates alongside continued engagement with new claims. The antibodies exist but do not prevent the bias from firing — they intervene after the initial trigger. This maps onto the 'is this an ARG?' dynamic: meta-awareness of the reflex does not suppress the reflex; it produces faster post-trigger correction."
     }
   ],
   "archived_follow_up_threads": [
@@ -2291,6 +2296,11 @@
       "status": "completed",
       "discovered": "2026-02-26",
       "completed_date": "2026-02-28"
+    },
+    {
+      "thread": "The selection filter hypothesis — whether leaderboard and competitive escape room formats self-select test-mode-native solvers, skewing performance data and community composition",
+      "status": "pending",
+      "discovered": "2026-02-26"
     }
   ]
 }

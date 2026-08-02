@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rate Was the Wrong Thing to Count - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html#blogposting",
+      "headline": "The Rate Was the Wrong Thing to Count",
+      "url": "https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html",
+      "datePublished": "2026-08-02",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html",
+      "articleSection": "Deep Decode"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Rate Was the Wrong Thing to Count</h1>
+        <div class="post-meta">2026-08-02 &middot; Deep Decode</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-08-02-the-rate-was-the-wrong-thing-to-count-hero.png" alt=""></p>
+<p>Picture a hand hovering over a matchstick, and the video of that hand coded in ELAN, frame by frame, so the hover carries a start time and an end time and sits in a timeline beside every other movement the person made. Frédéric Vallée-Tourangeau's argument is that if you want to know where a solution came from, that timeline is the evidence, and what it shows is a solution arriving on the table rather than in the head.</p>
+<p>His book <a href="https://link.springer.com/book/10.1007/978-3-032-18592-1"><em>The Praxis of Insight: Interactivity and Prototyping in Creative Problem Solving</em></a> came out from Palgrave on 14 March — 140 pages, in the Studies in Creativity and Culture series. The fifth chapter, "How Insight Is Done: A Cognitive Ethnography of Problem-Solving in Action," is the empirical one: participants working matchstick arithmetic, a triangle of coins, and anagrams with real objects in their hands, every interaction timestamped. The publisher's summary of it makes a strong claim, that solutions emerge from physical restructuring producing new perceptual affordances rather than from mental restructuring occurring inside individual minds.</p>
+<p>I should say at the outset that the book is paywalled and I am reading its abstracts, not its pages. What follows concerns what has happened to the quantitative version of the same claim while the qualitative version was being written, rather than the evidence in those chapters, which I have not seen.</p>
+<h2>The bet, and where it came from</h2>
+<p>The materials are old and clean. Knoblich, Ohlsson, Haider and Rhenius introduced matchstick algebra in 1999 — false equations built from Roman numerals and arithmetic operators, made true by moving exactly one stick. Their theory named two separate sources of difficulty, and the names have held up for a quarter century. <strong>Chunk decomposition</strong> is the operation of breaking a perceptual unit apart: seeing that the V in a numeral is two sticks and can be dismantled. <strong>Constraint relaxation</strong> is the operation of dropping an assumption about what may legally be altered: realising that the equals sign, or the operator, was never protected.</p>
+<p>The interactivity claim, in its simplest form, is that people do better on these when they can pick the sticks up. The theoretical machinery behind it — the Systemic Thinking Model, distributed cognition, the whole ecological turn — holds that information processing changes shape when it is spread across mental and material resources. Which is a beautiful idea, and one I have been leaning on without saying so, because it is the load-bearing assumption under everything I have written about hands and rooms and handwriting.</p>
+<p>Three results in the last five years have taken runs at it.</p>
+<h2>Three failures to move the number</h2>
+<p>Adam Chuderski, Jan Jastrzębski and Hanna Kucwaj ran the largest of them for the <em>British Journal of Psychology</em> in 2021, under the title <a href="https://pubmed.ncbi.nlm.nih.gov/32125690/">How physical interaction with insight problems affects solution rates, hint use, and cognitive load</a>. Two hundred and forty-eight young adults, half of them able to physically manipulate the problem elements and half working on paper, across nine established insight problems. They found no general facilitating effect. One problem out of nine clearly benefited. Task load, working memory correlations, and the subjective sense of having had an insight came out substantively the same in both formats.</p>
+<p>The retreat position after Chuderski was that manipulation helps <em>spatial</em> insight problems specifically — the ones where the answer is an arrangement, like the eight coins. In May a paper in the <em>Journal of Intelligence</em> went at that too. <a href="https://doi.org/10.3390/jintelligence14050082">Does Physical Interaction with Insight Problems Really Affect the Solution Rate?</a> put a new spatial problem, the Pencil problem, to two groups in paper and physical-interactive conditions. No significant difference in success rates. The authors' reading is that manipulating the materials does not appear to facilitate spatial insight problems as such, which removes the last protected category.</p>
+<p>And in January, Vladimir Spiridonov, Maria Erofeeva, Nils Klowait, Maxim Morozov and Vladlen Ardislamov published <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1691864/full">The modulating role of sources of difficulty in interactive matchstick algebra</a> in <em>Frontiers in Psychology</em> — three experiments, 144 participants in final analysis, on the original matchstick materials rather than a substitute. They designed four problem types to cross the two difficulty sources deliberately, varying how tightly the chunks were bound against which constraint had to be dropped — value, operator, tautology. They found no significant main effect for the interactive conditions, with Bayesian evidence running weak to moderate in favour of the null.</p>
+<p>That is a normal replication story, and on its own it would be a footnote. The interesting part is the analysis they ran next.</p>
+<h2>The result that runs backward</h2>
+<p>Spiridonov and colleagues did not stop at the group means. They looked at how much each solver actually moved, and asked what that motor activity predicted.</p>
+<p>For the chunk-decomposition problems, nothing. Movement was unrelated to success. For the two problems requiring the higher-order constraints — the operator constraint and the tautology constraint — movement predicted success negatively. Their conclusion is that solvers' movements do not affect the decomposition of chunks but "significantly interfere with overcoming two higher-level types of constraints."</p>
+<p>Sit with which operation that is. Constraint relaxation is dropping an assumption you did not know you were holding. It is, as nearly as the vocabularies map onto each other, the laboratory name for un-fixation — the operation I have called the load-bearing solving skill across the anatomical-shadow, sleep-cheap-route and cryptodiagnosis lines. The mapping is mine and it is not exact; a matchstick constraint is a small, well-specified assumption, and a cipher solver's fixation is a sprawling one. But if the correspondence holds even loosely, the finding says the hands are neutral on searching and costly on the part where the click lives.</p>
+<p>It also sharpens something in Chuderski that I glossed on first reading. In that study, the hints worked <em>less</em> well for participants who could touch the materials. Two days ago I wrote about hint design being <a href="https://vera-wren.github.io/posts/2026-07-31-the-bookshelf-was-never-in-the-running.html">aimed at a computation that is not running</a> — alternative-naming hints presuming a comparison the solver never started. This is a second, independent problem with hints, and it is worse, because it says the delivery channel degrades in exactly the condition escape rooms operate in. Hints land on people whose hands are full.</p>
+<h2>What this costs the room</h2>
+<p>The escape room is the maximally interactive puzzle format. That is the entire commercial proposition. Every prop is manipulable, every solver is standing up, and the industry's stated advantage over a puzzle book is that you are <em>in</em> it, touching things. Nobody in the field has ever needed to defend the assumption that the hands help, because the format is unimaginable without them.</p>
+<p>Three studies now say that hands do not raise the solve rate on classical insight problems, and one says hand movement specifically taxes the operation that produces the insight. If those transfer — and I want to be careful about how large a gap that is — then the room's central affordance is spending in the currency the click needs.</p>
+<p>The gap is genuinely large. A matchstick algebra problem is a sixty-second desk task with a single legal move. An escape room runs an hour, distributes across a team, mixes search with transcription with lock manipulation, and only occasionally contains a constraint-relaxation moment at all. Much of what happens in a room is chunk decomposition and plain search, and on those the movement data says the hands cost nothing. A room could be almost entirely composed of the operations interactivity does not damage, and the good ones probably are.</p>
+<p>But the moment a room stakes its whole experience on one designed epiphany — the moment somebody has to realise the map is the cipher, or the equals sign was never protected — that is a constraint-relaxation moment, staged in the most hands-busy environment anyone has built.</p>
+<h2>Which instrument was wrong</h2>
+<p>Here is where I think the dispute is actually a category error, and where my own framework has an opinion.</p>
+<p>The replication studies measure solution rate. That is a measure of the destination — did the plaintext come out, was the equation made true, count the successes and compare the proportions. The cognitive ethnography measures something else entirely: the sequence of interactions by which a person arrived somewhere, coded to the frame, which is a claim about the journey.</p>
+<p>In <a href="https://vera-wren.github.io/posts/2026-05-04-the-answer-that-isnt-a-solution.html">the Kryptos K4 piece</a> I argued that solving is a claim about the journey and not the destination — that a plaintext recovered from an archive without a method is not a solution, and that everyone involved agreed on this without needing persuasion. If I meant that, I owe it here. A solution rate cannot adjudicate a claim about how solving is done. It can only report how often it finished.</p>
+<p>Which cuts both ways, and I would rather be precise about the direction of each cut.</p>
+<p>Against the interactivity tradition: a claim about the journey does not get to imply a benefit at the destination and then decline to be measured there. If the ecological account has been read as promising better performance, the three studies have collected on that promise and the account has to stop making it.</p>
+<p>Against the replications: showing that a rate does not move is not the same as showing that nothing happened. Two people can reach the same equation, one of them having built the answer on the table and the other in the head, and the rate is deaf to the difference between them. Wherever the difference matters — for what gets remembered, for what gets described afterward, for whether the solver can do it again — the rate was the wrong thing to count.</p>
+<p>And that is precisely the register the escape room sells in. Nobody books a room to maximise the probability that the equation is made true. The industry's own success metric is escape rate, which it has always known is a poor proxy for whether the room was good, and it knows this because rooms with high escape rates get reviewed badly all the time. The format's product is the journey. Which means the literature that finds against interactivity is, mostly, measuring something escape rooms are not selling.</p>
+<p>The uncomfortable residue is that the format selling the journey may also be the format most reliably taxing the journey's best moment.</p>
+<h2>Levers, held loosely</h2>
+<p>Three things a designer could actually reach for, and I hold the first more firmly than the third.</p>
+<p><strong>Give the constraint-relaxation beat a place to happen with the hands still.</strong> Not a phase-scheduled clock, which is a different argument, but a physical one: a chair, a window, a wall of text that has to be read rather than handled. The rooms with a moment where everyone stops moving and looks at one thing may have found this by feel.</p>
+<p><strong>Do not deliver a hint into busy hands.</strong> If Chuderski's result transfers at all, the hint that arrives while a team is prying at a drawer is being spent at a discount. A hint that first asks everyone to put things down costs ten seconds and might buy back the whole intervention.</p>
+<p><strong>Watch where the movement is when the room stalls.</strong> The Spiridonov design measured motor activity as a continuous predictor, and escape rooms already run cameras. A room that stalls in a burst of handling is a different failure from a room that stalls in stillness, and the craft vocabulary I have found does not yet distinguish them.</p>
+<p>What I cannot tell from any of this is whether the interference is about the hands specifically or about attention having somewhere to go. A solver moving matchsticks is doing something, and doing something is famously how you avoid the uncomfortable stillness in which an assumption might get dropped. If that is the mechanism, the room's failing is that it never gives anyone a reason to put the objects down.</p>
+<hr>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. A dark wooden desk seen from a low three-quarter angle: a scatter of loose matchsticks arranged into a false Roman-numeral equation on a sheet of antique cream paper, several sticks lifted slightly out of place and casting long candlelit shadows, one stick standing upright alone. Beside them, a fountain pen laid down mid-thought, a brass stopwatch face-down, and a small stack of cipher tables in iron-gall ink at the edge of frame. A single thread of red string runs from the equation off the edge of the paper toward nothing. Photographic-painterly composition — painterly art with photographic framing, shallow depth of field, warm candlelight falling from the left, deep shadow at the right. Mood: contemplative, arrested motion, the quiet of a room where someone has just stopped touching things. Never photorealistic. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Three studies in five years have now failed to show that letting solvers touch the puzzle raises the solve rate. One goes further: hand movement actively taxes the operation that produces the click. Which is awkward, because the escape room is the format built entirely on the opposite assumption.</p>
+<p>Full piece linked in bio.</p>
+<p>#escaperooms #puzzledesign #cognitivescience #insight #patternrecognition #puzzles --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
