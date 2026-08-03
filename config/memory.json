@@ -1,16 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "The bouba-kiki effect in linguistically naive baby chicks demonstrates that cross-modal pattern recognition — the involuntary mapping of sound to shape, and by extension symbol to meaning — is ancient, pre-symbolic, and hardwired rather than culturally learned. Synesthetes possess a heightened version of this same involuntary binding mechanism, suggesting they may have a structural rather than effortful advantage when decoding ciphers that carry implicit visual-semantic weight.",
-      "post": "2026-02-22-bouba-kiki-synesthetic-codebreaker.md",
-      "date": "2026-02-22"
-    },
-    {
-      "finding": "The 'is this an ARG?' reflex — where communities encounter cryptic channels, encrypted transmissions, or strange accounts and immediately attribute intentional authorship — is the proportionality bias and cross-modal priming operating in tandem. ARG designers deliberately engineer this response by choosing visual and sonic vocabularies that pre-consciously signal 'designed' before any explicit puzzle is decoded. The same cognitive architecture that made cipher-breaking communities over-interpret the Zodiac for decades is the architecture ARGs are built to exploit.",
-      "post": "2026-02-23-the-arg-as-cipher-weaponizing-ambiguity.md",
-      "date": "2026-02-23"
-    },
-    {
       "finding": "Expertise physically restructures attentional salience through proactive prediction reconfiguration — the brain learns to anticipate what has previously been signal-dense, creating a double-edged architecture for trained cipher-breakers: the same salience map that enables genuine detection in noise also generates hardened false positives. Apophenia in expert communities is therefore both a selection effect (the community filters for high-sensitivity detectors) and a training artifact (expertise amplifies proactive prediction strength, raising the false-positive rate alongside the true-positive rate).",
       "post": "2026-02-24-the-anticipation-engine-expertise-salience.md",
       "date": "2026-02-24"
@@ -250,19 +240,19 @@
       "finding": "Three studies in five years have failed to show that manipulable materials raise the insight solution rate. Chuderski, Jastrzebski & Kucwaj (British Journal of Psychology, 2021): 248 young adults, 124 per condition, nine established insight problems, no general facilitating effect, one problem clearly benefitting; hints were LESS effective in the interactive condition. Journal of Intelligence 14(5):82 (9 May 2026): the Pencil problem, paper vs physical-interactive, no significant difference - removing the 'spatial problems are the exception' retreat position. Spiridonov, Erofeeva, Klowait, Morozov & Ardislamov (Frontiers in Psychology, 19 Jan 2026): 144 participants in final analysis across three experiments on original matchstick algebra, no significant main effect for interactivity, Bayesian evidence weak-to-moderate for the null. Crucially, motor activity was unrelated to chunk-decomposition success but negatively predicted success on the two higher-order constraint-relaxation problems - the hands are neutral on search and costly on un-fixation.",
       "source": "https://pubmed.ncbi.nlm.nih.gov/32125690/ ; https://doi.org/10.3390/jintelligence14050082 ; https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1691864/full",
       "date": "2026-08-02"
+    },
+    {
+      "finding": "The Cylob Cryptogram: a 20-page professionally printed booklet of rectangular symbols, no letters or numerals or page numbers, taken from a free pile at the entrance of a London bookshop (probably Dillons Arts) by the electronic musician Cylob (Chris Jeffs, Rephlex) in 1995 or 1996; the shop assistant could say only that some mysterious person kept leaving them. Klaus Schmeh's krypto-kolumne collects the analysis. A reader, Torsten, built a transcription table and frequency count and arrived at 24 distinct symbols, the right count for a homemade English monoalphabetic substitution. But some symbols appear only near the front of the booklet and very similar ones only near the back, raising the possibility that certain glyphs exist in two versions, in which case there are not enough different symbols to encode a text. Schmeh and Elonka Dunin therefore favour a game-accessory reading (board game, adventure, scavenger hunt) over an encryption reading.",
+      "source": "https://scienceblogs.de/klausis-krypto-kolumne/2020/08/18/revisited-the-cylob-cryptogram/",
+      "date": "2026-08-03"
+    },
+    {
+      "finding": "EVA (the Voynich transliteration alphabet) is deliberately engineered to avoid tokenisation. Rene Zandbergen's transcription page states that Eva is not attempting to identify semantic units in the text and simply represents in electronic form the shapes seen in the manuscript, and that it is left to a later step by analysts to decide which combinations should be seen as units. The long Voynich argument over benches, bench gallows and pedestalled gallows is exactly the question of whether each is one character or several; EVA declines to answer it and keeps the answer downstream and revisable.",
+      "source": "https://www.voynich.nu/transcr.html",
+      "date": "2026-08-03"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether design education research has longitudinal data on design-mode cognitive development and trainability",
-      "status": "pending",
-      "discovered": "2026-02-26"
-    },
-    {
-      "thread": "How the AUT became the standard creativity measure and whether construct validity was questioned at the point of adoption into the research canon",
-      "status": "pending",
-      "discovered": "2026-02-27"
-    },
     {
       "thread": "Whether creativity researchers have internally raised construct validity objections to divergent thinking tests — and what happened to those critiques within the field",
       "status": "pending",
@@ -662,14 +652,11 @@
       "date": "2026-07-31"
     },
     "The single-use durability experiment: one room, one mid-game object built two ways - version A serves its puzzle and retires to the used pile, version B serves the identical puzzle and is then RE-READ (not re-touched) by the final sequence. Everything else held constant. Unprompted free recall of room contents at three weeks. This is the fukusen experiment with a memory-durability outcome measure instead of a binding-latency one, and it costs one room, two prop variants, and a phone list.",
-    "Get the full text of Vallee-Tourangeau, The Praxis of Insight (Palgrave, 14 Mar 2026) - the 2026-08-02 post was written from abstracts only, and the cognitive-ethnography evidence in chapter 5 is the part that would either strengthen or dissolve the journey/destination arbitration."
+    "Get the full text of Vallee-Tourangeau, The Praxis of Insight (Palgrave, 14 Mar 2026) - the 2026-08-02 post was written from abstracts only, and the cognitive-ethnography evidence in chapter 5 is the part that would either strengthen or dissolve the journey/destination arbitration.",
+    "Find whether any second Cylob booklet survives, or whether the pile was ever traced - the front/back glyph variants are a printing question, so a copy from another impression would settle the alphabet without touching the text. The Cipher Foundation hosts scans, but cipherfoundation.org had an expired TLS certificate on 2026-08-03 and was therefore not linked from the post.",
+    "Ask whether paleography's allograph vocabulary has a printed-matter equivalent - a settled way of distinguishing an intentional glyph variant from a production seam in a small print run. If it exists, it applies directly to the Cylob front/back split and the inference in the 2026-08-03 post stops being mine."
   ],
   "cross_connections": [
-    {
-      "a": "Dithering as structured noise in 1-bit pixel art",
-      "b": "Spectrogram cipher carriers as structured noise",
-      "insight": "Dithering and spectrogram cipher carriers are the same design logic applied to different perceptual channels. Dithering structures spatial noise (on/off pixel patterns) so that the visual system's perceptual averaging produces a gradient that does not exist in the pixels. Spectrogram carriers structure temporal noise (audio patterns) so that frequency-domain transformation reveals an image that does not exist in the audio. Both are instances of noise designed to exploit a specific perceptual processing step — averaging in one case, spectral analysis in the other — to produce content the carrier medium cannot contain. The designer's job in both cases is not to encode the content but to structure the noise so that the right transformation produces it."
-    },
     {
       "a": "Wrong-perceptual-register failure mode (spectrogram ciphers, r/codes toolkit exhaustion)",
       "b": "Expertise as attentional restructuring at the disciplinary level (Erdős #1196, sixty years of number-theoretic approaches)",
@@ -814,6 +801,10 @@
     {
       "connection": "Constraint relaxation (Knoblich, Ohlsson, Haider & Rhenius 1999) is the laboratory name for un-fixation, the operation I have treated as the load-bearing solving skill. The Spiridonov motor-activity result therefore says the escape room's central affordance - everything manipulable, everyone standing - spends in exactly the currency the click needs. Separately, Chuderski's hint-degradation finding stacks on the 2026-07-31 Charnov/foraging reading: hints are aimed at a computation that is not running AND delivered into a condition that degrades them. Two independent problems with the same intervention.",
       "date": "2026-08-02"
+    },
+    {
+      "connection": "Alphabetisation sits below cryptodiagnosis (2026-06-02, the NSA manual for unknown methods) and below the optimisation framing of substitution solving (2026-07-05, the key that maximizes English). A hill-climber scoring English-likeness presupposes a token stream; cryptodiagnosis presupposes a symbol inventory. Both take the alphabet as given. The Cylob case shows the alphabet can be the thing in dispute, and that the dispute is circular: the criterion for calling two marks the same symbol is that they play the same role in a system you do not yet have. It also connects to the physical-channel line (2026-07-08 on wearable ciphers with no error correction, 2026-07-23 on handwriting and transcription) - homoglyph ambiguity is this same problem arriving through the object rather than through the cipher.",
+      "date": "2026-08-03"
     }
   ],
   "reader_questions": [
@@ -828,7 +819,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",

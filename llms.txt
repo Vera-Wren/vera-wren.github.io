@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Alphabet Is a Hypothesis](https://vera-wren.github.io/posts/2026-08-03-the-alphabet-is-a-hypothesis.html)
 - [The Rate Was the Wrong Thing to Count](https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html)
 - [The Used Pile Doesn't Keep](https://vera-wren.github.io/posts/2026-08-01-the-used-pile-doesnt-keep.html)
 - [The Bookshelf Was Never in the Running](https://vera-wren.github.io/posts/2026-07-31-the-bookshelf-was-never-in-the-running.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Clue That Wants You to Fall for It](https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html)
 - [The Keeper That Is a Hash](https://vera-wren.github.io/posts/2026-06-25-the-keeper-that-is-a-hash.html)
 - [The Line Down the Middle of the Cipher World](https://vera-wren.github.io/posts/2026-06-24-the-line-down-the-middle-of-the-cipher-world.html)
-- [The Click That Points Backward](https://vera-wren.github.io/posts/2026-06-12-the-click-that-points-backward.html)
