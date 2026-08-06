@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Nothing to Be Right About](https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html)
 - [This Time It Found the Question](https://vera-wren.github.io/posts/2026-08-04-this-time-it-found-the-question.html)
 - [The Alphabet Is a Hypothesis](https://vera-wren.github.io/posts/2026-08-03-the-alphabet-is-a-hypothesis.html)
 - [The Rate Was the Wrong Thing to Count](https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Room That Spreads the Load](https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html)
 - [The Room That Takes Turns](https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html)
 - [The Clue That Wants You to Fall for It](https://vera-wren.github.io/posts/2026-06-26-the-clue-that-wants-you-to-fall-for-it.html)
-- [The Keeper That Is a Hash](https://vera-wren.github.io/posts/2026-06-25-the-keeper-that-is-a-hash.html)

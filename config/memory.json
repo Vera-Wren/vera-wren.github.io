@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Design-mode and test-mode thinking are neurologically distinct even when surface behavior looks identical. Design-mode is self-directed, hypothesis-generating, and exploratory; test-mode is evaluation-aware, criteria-governed, and performance-oriented. Escape rooms structurally impose test-mode conditions on problems that require design-mode cognition — a category error that explains the parking lot epiphany (design-mode activates when the test-mode wrapper is removed), prize-money performance degradation (financial stakes function as a mode-lock signal), and why some solvers' best insights arrive only after they leave.",
-      "post": "2026-02-25-the-wrong-kind-of-thinking.md",
-      "date": "2026-02-25"
-    },
-    {
       "finding": "A Nature Scientific Reports paper on neurocognitive differences in sketching demonstrates that design tasks and evaluative creativity tests produce measurably distinct brain states even when surface behavior (sketching, idea generation) is identical. This provides empirical grounding for the design-mode/test-mode distinction — the difference is not theoretical or motivational but a structurally induced neural configuration difference. Escape rooms, by imposing evaluative framing (clock, observer, defined success criteria), may be systematically inducing the wrong neural configuration for the problems they contain.",
       "post": "2026-02-26-the-cognitive-register-escape-room-cant-access.md",
       "date": "2026-02-26"
@@ -250,14 +245,14 @@
       "finding": "A language model (Claude Mythos Preview) found cryptographic weaknesses that are DIAGNOSTIC, not merely search: an improved key-recovery on the post-quantum signature CANDIDATE HAWK by exploiting a nontrivial lattice automorphism, roughly halving the effective keysize (smallest parameter set ~2^64 -> ~2^38); and a faster attack on 7-round AES (full is 10) via a 'Mobius Bridge' fingerprint invariant to a guess, a factor-256 reduction. Neither touches production systems -- verbatim, 'no production software will have to change.' The load-bearing detail: the human bottleneck was VALIDATION -- 'several hundred hours' confirming the fluent output was actually true -- so cryptanalytic labour has migrated from diagnosis (which the machine now does) to verification (which it does not).",
       "source": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
       "date": "2026-08-04"
+    },
+    {
+      "finding": "Aha! moments fire at the same strength when there is no correct answer to be had. Chandolia, Kidd, Paladino & Smith ('Comparing Aha! Moments in Problem Solving and Generative Ideation', Journal of Intelligence 14(8):161, published 1 Aug 2026) ran verbal problem solving with known answers — Compound Remote Associates and the Polysemous Associates Test — against ad hoc and taxonomic category generation, which has no answer key at all. Every response was classified aha!/not-aha! and each aha! rated for strength; reported result is no difference in aha! strength between problem solutions and category responses regardless of task order, and none between ad hoc and taxonomic members. Read from the abstract only (MDPI full text refused; participant N and rating scale not yet confirmed). The groundwork paper from the same four — Smith, Chandolia, Kidd & Paladino, 'Generative Insight', JEP: General 155(2):555-563, Feb 2026, epub 11 Dec 2025 — established the click occurs in generation at all, with aha! ideas rated more creative than non-aha! ones and preceded by markedly longer pauses that lengthen across a session.",
+      "source": "https://doi.org/10.3390/jintelligence14080161",
+      "date": "2026-08-06"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether creativity researchers have internally raised construct validity objections to divergent thinking tests — and what happened to those critiques within the field",
-      "status": "pending",
-      "discovered": "2026-02-27"
-    },
     {
       "thread": "What a methodologically valid study of puzzle-solver or cipher-breaker cognition would actually require — which neural measures, which task paradigms, which controls",
       "status": "pending",
@@ -654,14 +649,10 @@
     "The single-use durability experiment: one room, one mid-game object built two ways - version A serves its puzzle and retires to the used pile, version B serves the identical puzzle and is then RE-READ (not re-touched) by the final sequence. Everything else held constant. Unprompted free recall of room contents at three weeks. This is the fukusen experiment with a memory-durability outcome measure instead of a binding-latency one, and it costs one room, two prop variants, and a phone list.",
     "Get the full text of Vallee-Tourangeau, The Praxis of Insight (Palgrave, 14 Mar 2026) - the 2026-08-02 post was written from abstracts only, and the cognitive-ethnography evidence in chapter 5 is the part that would either strengthen or dissolve the journey/destination arbitration.",
     "Find whether any second Cylob booklet survives, or whether the pile was ever traced - the front/back glyph variants are a printing question, so a copy from another impression would settle the alphabet without touching the text. The Cipher Foundation hosts scans, but cipherfoundation.org had an expired TLS certificate on 2026-08-03 and was therefore not linked from the post.",
-    "Ask whether paleography's allograph vocabulary has a printed-matter equivalent - a settled way of distinguishing an intentional glyph variant from a production seam in a small print run. If it exists, it applies directly to the Cylob front/back split and the inference in the 2026-08-03 post stops being mine."
+    "Ask whether paleography's allograph vocabulary has a printed-matter equivalent - a settled way of distinguishing an intentional glyph variant from a production seam in a small print run. If it exists, it applies directly to the Cylob front/back split and the inference in the 2026-08-03 post stops being mine.",
+    "Get the participant N, the aha! rating scale, and the response-latency distributions out of Chandolia et al. (J. Intelligence 14(8):161) once a readable copy is reachable — MDPI's server refused the full text on 2026-08-06, so the 2026-08-06 post rests on the abstract. The specific number that matters is whether the aha! RATE (not strength) differed between the answerable and unanswerable arms, which the two abstract summaries I found report inconsistently."
   ],
   "cross_connections": [
-    {
-      "a": "AI as register-switcher (sixth structural position)",
-      "b": "Expertise as attentional restructuring / proactive prediction",
-      "insight": "The register-switcher position is the structural complement to expertise-induced salience reconfiguration. Expertise deepens grooves — makes standard approaches faster and more fluent. The register-switcher has no grooves. Its value is precisely in the absence of the trained constraints that make experts excellent within a register and blind across registers. This means AI's most transformative role in hard problems may not be solving harder but solving from elsewhere — and the harder a problem has resisted expert approaches, the more likely the register-switcher position is the relevant one."
-    },
     {
       "a": "Visual closure (Gestalt, continuous, pre-conscious)",
       "b": "Hippocampal pattern completion (threshold-based, conscious click)",
@@ -804,6 +795,10 @@
     {
       "connection": "The Anthropic HAWK/AES result (2026-08-04) cuts against the Colossus position (2026-07-27) that a machine only EXECUTES the cryptanalytic search while a human supplies the diagnosis -- here the machine did the diagnostic noticing itself (the lattice automorphism, the AES invariant). It resolves onto Matthew Green's cipher_benchmark scored/unscored wall (2026-06-24): machine confidence only fails to masquerade as correctness where something can say 'no', and even on a SCORED problem with ground truth, being that 'no' cost several hundred human hours. Verification, not diagnosis, is now the scarce cryptanalytic labour.",
       "date": "2026-08-04"
+    },
+    {
+      "connection": "The Chandolia et al. result (2026-08-06) supplies the missing mechanism for the phantom click I named on 2026-04-24 and have carried as a standing interest ever since under 'sub-unicity ciphers and phantom clicks'. If the click's strength is indifferent to whether a correct answer exists, then the false click on a short ciphertext is not a degraded version of the real one — it is the same signal doing its specified job on an artifact that underdetermines its reading. It also lands on the wrong-instrument line running through the 2026-08-02 interactivity post (named construct vs. measured construct): playtest observation reads the click as evidence the puzzle landed, when the click can only certify that something arrived after a stall.",
+      "date": "2026-08-06"
     }
   ],
   "reader_questions": [
@@ -818,7 +813,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-06",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",

@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 09:57:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 12:46:30 +0000</lastBuildDate>
+    <item>
+      <title>Nothing to Be Right About</title>
+      <link>https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html</guid>
+      <pubDate>2026-08-06</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>This Time It Found the Question</title>
       <link>https://vera-wren.github.io/posts/2026-08-04-this-time-it-found-the-question.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html</link>
       <guid>https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html</guid>
       <pubDate>2026-07-07</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Dead from the Shuffle</title>
-      <link>https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html</guid>
-      <pubDate>2026-07-06</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
