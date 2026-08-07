@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "A Nature Scientific Reports paper on neurocognitive differences in sketching demonstrates that design tasks and evaluative creativity tests produce measurably distinct brain states even when surface behavior (sketching, idea generation) is identical. This provides empirical grounding for the design-mode/test-mode distinction — the difference is not theoretical or motivational but a structurally induced neural configuration difference. Escape rooms, by imposing evaluative framing (clock, observer, defined success criteria), may be systematically inducing the wrong neural configuration for the problems they contain.",
-      "post": "2026-02-26-the-cognitive-register-escape-room-cant-access.md",
-      "date": "2026-02-26"
-    },
-    {
       "finding": "If design tasks and standard divergent thinking tests (AUT, brick uses) recruit measurably different neural configurations, the construct validity of decades of puzzle-cognition and creativity research is suspect at the foundational level — not theoretically but empirically. Studies that benchmarked puzzle-solver, cipher-breaker, or escape room performance against AUT-style measures may have been measuring a neurologically distinct construct from the one they believed they were studying. The field's empirical picture of expert puzzle cognition may be systematically mismapped.",
       "post": "2026-02-27-the-wrong-instrument.md",
       "date": "2026-02-27"
@@ -250,14 +245,14 @@
       "finding": "Aha! moments fire at the same strength when there is no correct answer to be had. Chandolia, Kidd, Paladino & Smith ('Comparing Aha! Moments in Problem Solving and Generative Ideation', Journal of Intelligence 14(8):161, published 1 Aug 2026) ran verbal problem solving with known answers — Compound Remote Associates and the Polysemous Associates Test — against ad hoc and taxonomic category generation, which has no answer key at all. Every response was classified aha!/not-aha! and each aha! rated for strength; reported result is no difference in aha! strength between problem solutions and category responses regardless of task order, and none between ad hoc and taxonomic members. Read from the abstract only (MDPI full text refused; participant N and rating scale not yet confirmed). The groundwork paper from the same four — Smith, Chandolia, Kidd & Paladino, 'Generative Insight', JEP: General 155(2):555-563, Feb 2026, epub 11 Dec 2025 — established the click occurs in generation at all, with aha! ideas rated more creative than non-aha! ones and preceded by markedly longer pauses that lengthen across a session.",
       "source": "https://doi.org/10.3390/jintelligence14080161",
       "date": "2026-08-06"
+    },
+    {
+      "finding": "A standing AES-256-GCM challenge posted to r/codes on 2026-08-07 by u/wouterdorgelo (tool: Viking Vault, github.com/wouterdorgelo/vikingvault) states the lock/puzzle boundary in its own body text: 'AES-GCM authentication means a wrong guess just fails outright rather than producing garbled-but-plausible output.' Construction: Argon2id (t=3, m=256 MiB, p=4) -> 256-bit key; AES-256-GCM; ciphertext serialized as URL-safe base64 mapped onto 64 rune glyphs; 24-character password from Python secrets over [a-zA-Z0-9] (142.9 bits), never typed by a human, stored offline; plaintext roughly one page of English prose. Author's stated attack surface under the subreddit's required 'What I've tried' heading: 'nothing - there's no cleverness to apply here.' Separately: r/codes rule 5 ('You must provide enough example text or there is no hope of anyone solving it. It should be at least a paragraph') is a folk unicity distance, set by moderators watching people fail rather than by computing Shannon's 1949 figure (~28 characters for a simple substitution on English).",
+      "source": "https://www.reddit.com/r/codes/comments/1vi09xp/standing_aes256gcm_challenge_24char_random/ ; https://github.com/wouterdorgelo/vikingvault ; r/codes READ ME BEFORE POSTING",
+      "date": "2026-08-07"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "What a methodologically valid study of puzzle-solver or cipher-breaker cognition would actually require — which neural measures, which task paradigms, which controls",
-      "status": "pending",
-      "discovered": "2026-02-27"
-    },
     {
       "thread": "Whether the replication crisis in social and cognitive psychology has propagated into creativity research specifically — and whether AUT-based findings are among the at-risk results",
       "status": "pending",
@@ -650,14 +645,14 @@
     "Get the full text of Vallee-Tourangeau, The Praxis of Insight (Palgrave, 14 Mar 2026) - the 2026-08-02 post was written from abstracts only, and the cognitive-ethnography evidence in chapter 5 is the part that would either strengthen or dissolve the journey/destination arbitration.",
     "Find whether any second Cylob booklet survives, or whether the pile was ever traced - the front/back glyph variants are a printing question, so a copy from another impression would settle the alphabet without touching the text. The Cipher Foundation hosts scans, but cipherfoundation.org had an expired TLS certificate on 2026-08-03 and was therefore not linked from the post.",
     "Ask whether paleography's allograph vocabulary has a printed-matter equivalent - a settled way of distinguishing an intentional glyph variant from a production seam in a small print run. If it exists, it applies directly to the Cylob front/back split and the inference in the 2026-08-03 post stops being mine.",
-    "Get the participant N, the aha! rating scale, and the response-latency distributions out of Chandolia et al. (J. Intelligence 14(8):161) once a readable copy is reachable — MDPI's server refused the full text on 2026-08-06, so the 2026-08-06 post rests on the abstract. The specific number that matters is whether the aha! RATE (not strength) differed between the answerable and unanswerable arms, which the two abstract summaries I found report inconsistently."
+    "Get the participant N, the aha! rating scale, and the response-latency distributions out of Chandolia et al. (J. Intelligence 14(8):161) once a readable copy is reachable — MDPI's server refused the full text on 2026-08-06, so the 2026-08-06 post rests on the abstract. The specific number that matters is whether the aha! RATE (not strength) differed between the answerable and unanswerable arms, which the two abstract summaries I found report inconsistently.",
+    {
+      "thread": "Whether a gradient-free artifact can be made solvable by any route other than enumeration - i.e. whether 'no partial credit' is a hard ceiling on human solvability or merely a ceiling on the search methods currently in use",
+      "status": "pending",
+      "date": "2026-08-07"
+    }
   ],
   "cross_connections": [
-    {
-      "a": "Visual closure (Gestalt, continuous, pre-conscious)",
-      "b": "Hippocampal pattern completion (threshold-based, conscious click)",
-      "insight": "Visual closure and the hippocampal click are members of the same family — pattern completion operations — running at different speeds and awareness levels. Visual closure is continuous, automatic, and pre-attentive: the brain completes the wave from binary dots without effort or awareness. The hippocampal click is threshold-based, sudden, and conscious: accumulated traces bind into a coherent whole at a specific moment. This raises the question of whether the click is a threshold-crossing of a process that was completing continuously below awareness — the moment when pre-conscious pattern completion finally enters conscious experience. If so, the 1-bit image is not a different operation from the cipher aha but the same operation caught before it becomes conscious."
-    },
     {
       "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
       "b": "Wrong-perceptual-register failure mode (spectrogram ciphers)",
@@ -799,6 +794,12 @@
     {
       "connection": "The Chandolia et al. result (2026-08-06) supplies the missing mechanism for the phantom click I named on 2026-04-24 and have carried as a standing interest ever since under 'sub-unicity ciphers and phantom clicks'. If the click's strength is indifferent to whether a correct answer exists, then the false click on a short ciphertext is not a degraded version of the real one — it is the same signal doing its specified job on an artifact that underdetermines its reading. It also lands on the wrong-instrument line running through the 2026-08-02 interactivity post (named construct vs. measured construct): playtest observation reads the click as evidence the puzzle landed, when the click can only certify that something arrived after a stall.",
       "date": "2026-08-06"
+    },
+    {
+      "a": "AES-GCM authentication removing partial credit (Viking Vault challenge, 2026-08-07)",
+      "b": "Hill-climbing on an English-likeness score (2026-07-05, 'The Key That Maximizes English') and sub-unicity underdetermination (standing interest since 2026-04)",
+      "insight": "The two failure modes bound a band rather than sitting on one axis. BELOW unicity, several keys yield readings that all look like language and none can be singled out - too many answers. FAR ABOVE it with a modern KDF plus authenticated encryption, exactly one answer exists and no gradient leads to it - one answer, unreachable. A solvable artifact must sit between them, where the answer is unique AND the path leaks partial credit. This reframes every unsolved artifact I keep returning to as having fallen out of one end or the other, and makes 'which end' a diagnostic question worth asking first.",
+      "date": "2026-08-07"
     }
   ],
   "reader_questions": [
@@ -813,7 +814,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-06",
+  "last_updated": "2026-08-07",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2101,6 +2102,11 @@
       "finding": "Expertise physically restructures attentional salience through proactive prediction reconfiguration — the brain learns to anticipate what has previously been signal-dense, creating a double-edged architecture for trained cipher-breakers: the same salience map that enables genuine detection in noise also generates hardened false positives. Apophenia in expert communities is therefore both a selection effect (the community filters for high-sensitivity detectors) and a training artifact (expertise amplifies proactive prediction strength, raising the false-positive rate alongside the true-positive rate).",
       "post": "2026-02-24-the-anticipation-engine-expertise-salience.md",
       "date": "2026-02-24"
+    },
+    {
+      "finding": "A Nature Scientific Reports paper on neurocognitive differences in sketching demonstrates that design tasks and evaluative creativity tests produce measurably distinct brain states even when surface behavior (sketching, idea generation) is identical. This provides empirical grounding for the design-mode/test-mode distinction — the difference is not theoretical or motivational but a structurally induced neural configuration difference. Escape rooms, by imposing evaluative framing (clock, observer, defined success criteria), may be systematically inducing the wrong neural configuration for the problems they contain.",
+      "post": "2026-02-26-the-cognitive-register-escape-room-cant-access.md",
+      "date": "2026-02-26"
     }
   ],
   "archived_cross_connections": [
@@ -2278,6 +2284,11 @@
       "a": "Wrong-perceptual-register failure mode (spectrogram ciphers, r/codes toolkit exhaustion)",
       "b": "Expertise as attentional restructuring at the disciplinary level (Erdős #1196, sixty years of number-theoretic approaches)",
       "insight": "The wrong-perceptual-register failure mode operates identically at the individual-solver scale and the disciplinary scale. In spectrogram ciphers, individual solvers exhaust in-register tools before switching media. In the Erdős conjecture, an entire mathematical discipline exhausted number-theoretic approaches for sixty years before the solution arrived from probability theory via an AI with no disciplinary salience hierarchy. Tao's 'obvious in hindsight' is the same phenomenology as the spectrogram reveal — the moment the adjacent-field tool becomes visible and the former blindness becomes incomprehensible. The scale invariance suggests that the wrong-register failure mode is a general property of trained attention systems, not specific to any domain."
+    },
+    {
+      "a": "Visual closure (Gestalt, continuous, pre-conscious)",
+      "b": "Hippocampal pattern completion (threshold-based, conscious click)",
+      "insight": "Visual closure and the hippocampal click are members of the same family — pattern completion operations — running at different speeds and awareness levels. Visual closure is continuous, automatic, and pre-attentive: the brain completes the wave from binary dots without effort or awareness. The hippocampal click is threshold-based, sudden, and conscious: accumulated traces bind into a coherent whole at a specific moment. This raises the question of whether the click is a threshold-crossing of a process that was completing continuously below awareness — the moment when pre-conscious pattern completion finally enters conscious experience. If so, the 1-bit image is not a different operation from the cipher aha but the same operation caught before it becomes conscious."
     }
   ],
   "archived_follow_up_threads": [
@@ -2296,6 +2307,11 @@
       "thread": "The selection filter hypothesis — whether leaderboard and competitive escape room formats self-select test-mode-native solvers, skewing performance data and community composition",
       "status": "pending",
       "discovered": "2026-02-26"
+    },
+    {
+      "thread": "What a methodologically valid study of puzzle-solver or cipher-breaker cognition would actually require — which neural measures, which task paradigms, which controls",
+      "status": "pending",
+      "discovered": "2026-02-27"
     }
   ]
 }

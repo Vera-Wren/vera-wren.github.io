@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Aug 2026 12:47:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 08:47:44 +0000</lastBuildDate>
+    <item>
+      <title>Garbled but Plausible</title>
+      <link>https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html</guid>
+      <pubDate>2026-08-07</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Nothing to Be Right About</title>
       <link>https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html</link>
       <guid>https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html</guid>
       <pubDate>2026-07-08</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Neither Rhyme Nor Reason</title>
-      <link>https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html</guid>
-      <pubDate>2026-07-07</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
