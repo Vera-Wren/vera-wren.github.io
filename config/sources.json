@@ -67,9 +67,11 @@
     {
       "type": "webpage",
       "url": "https://postcurious.com/blogs/news",
-      "enabled": true,
+      "enabled": false,
       "name": "PostCurious Blog",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "postcurious.com AND getpostcurious.com both 404/ERR on every path tried (2026-08-07)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "reddit",
@@ -104,9 +106,11 @@
     {
       "type": "rss",
       "name": "ASU Origami Research",
-      "enabled": true,
+      "enabled": false,
       "url": "https://origami.asu.edu/news-events",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "origami.asu.edu no longer resolves (DNS failure)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -118,9 +122,11 @@
     {
       "type": "rss",
       "name": "Nature Cognitive Neuroscience",
-      "enabled": true,
+      "enabled": false,
       "url": "https://www.nature.com/subjects/cognitive-neuroscience.rss",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "exact duplicate URL of an earlier enabled row (dedup 2026-08-07)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -134,29 +140,40 @@
       "type": "rss",
       "name": "Nature Neuroscience",
       "enabled": true,
-      "url": "https://www.nature.com/nneurosci.rss",
-      "_last_success": true
+      "url": "https://www.nature.com/neuro.rss",
+      "_last_success": true,
+      "_previous_url": "https://www.nature.com/nneurosci.rss",
+      "_fixed_reason": "nneurosci.rss 404; correct slug is neuro.rss (verified 200, 8 items)",
+      "_fixed_date": "2026-08-07"
     },
     {
       "type": "rss",
       "name": "Neuron (Cell Press)",
       "enabled": true,
-      "url": "https://www.cell.com/neuron/rss/current.xml",
-      "_last_success": true
+      "url": "https://www.cell.com/neuron/inpress.rss",
+      "_last_success": true,
+      "_previous_url": "https://www.cell.com/neuron/rss/current.xml",
+      "_fixed_reason": "rss/current.xml 403; inpress.rss verified 200, 90 items",
+      "_fixed_date": "2026-08-07"
     },
     {
-      "type": "journal",
+      "type": "rss",
       "name": "Science (AAAS)",
       "enabled": true,
-      "url": "https://www.science.org/journal/science",
-      "_last_success": true
+      "url": "https://www.science.org/rss/news_current.xml",
+      "_last_success": true,
+      "_previous_url": "https://www.science.org/journal/science",
+      "_fixed_reason": "journal landing page was not a feed; verified 200, 10 items",
+      "_fixed_date": "2026-08-07"
     },
     {
       "type": "rss",
       "name": "The Conversation – Cognitive Science",
-      "enabled": true,
+      "enabled": false,
       "url": "https://theconversation.com/us/cognitive-science",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "HTML topic page, never a feed; theconversation.com atom variants also fail",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -167,10 +184,11 @@
     },
     {
       "type": "rss",
-      "name": "Nature Cognitive Neuroscience — RSS",
+      "name": "Nature Cell Biology (was mislabeled 'Cognitive Neuroscience')",
       "enabled": true,
       "url": "https://www.nature.com/ncb/rss/current",
-      "_last_success": true
+      "_last_success": true,
+      "_renamed_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -182,23 +200,30 @@
     {
       "type": "rss",
       "name": "Design Research Society",
-      "enabled": true,
+      "enabled": false,
       "url": "https://designresearchsociety.org/feed/",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "designresearchsociety.org/feed 404",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
       "name": "Nature Scientific Reports",
-      "enabled": true,
+      "enabled": false,
       "url": "https://www.nature.com/srep.rss",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "exact duplicate URL of an earlier enabled row (dedup 2026-08-07)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
       "name": "Design Studies Journal",
       "enabled": true,
-      "url": "https://www.sciencedirect.com/journal/design-studies/rss",
-      "_last_success": true
+      "url": "https://rss.sciencedirect.com/publication/science/0142694X",
+      "_last_success": true,
+      "_previous_url": "https://www.sciencedirect.com/journal/design-studies/rss",
+      "_fixed_reason": "sciencedirect /rss 403; rss. subdomain verified 200, 7 items",
+      "_fixed_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -217,9 +242,11 @@
     {
       "type": "rss",
       "name": "Sonic Visualiser News",
-      "enabled": true,
+      "enabled": false,
       "url": "https://www.sonicvisualiser.org/news.xml",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "sonicvisualiser.org news.xml + feed.xml both 404",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -232,22 +259,29 @@
       "type": "rss",
       "name": "CTFtime.org — Capture the Flag competition feed",
       "enabled": true,
-      "url": "https://ctftime.org/feed",
-      "_last_success": true
+      "url": "https://ctftime.org/event/list/upcoming/rss/",
+      "_last_success": true,
+      "_previous_url": "https://ctftime.org/feed",
+      "_fixed_reason": "ctftime.org/feed 404; upcoming-events feed verified 200, 48 items",
+      "_fixed_date": "2026-08-07"
     },
     {
       "type": "rss",
       "name": "r/ARG feed",
-      "enabled": true,
+      "enabled": false,
       "url": "https://www.reddit.com/r/ARG/.rss",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "exact duplicate URL of an earlier enabled row (dedup 2026-08-07)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
       "name": "r/ARG feed",
-      "enabled": true,
+      "enabled": false,
       "url": "https://www.reddit.com/r/ARG/.rss",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "exact duplicate URL of an earlier enabled row (dedup 2026-08-07)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
@@ -259,9 +293,11 @@
     {
       "type": "rss",
       "name": "Room Escape Artist (already favorited — confirm RSS active)",
-      "enabled": true,
+      "enabled": false,
       "url": "https://roomescapeartist.com/feed/",
-      "_last_success": true
+      "_last_success": true,
+      "_disabled_reason": "exact duplicate URL of an earlier enabled row (dedup 2026-08-07)",
+      "_disabled_date": "2026-08-07"
     },
     {
       "type": "rss",
