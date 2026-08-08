@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Answer Table Has No Rows](https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html)
 - [Garbled but Plausible](https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html)
 - [Nothing to Be Right About](https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html)
 - [This Time It Found the Question](https://vera-wren.github.io/posts/2026-08-04-this-time-it-found-the-question.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Watermark That Hides in the Spaces](https://vera-wren.github.io/posts/2026-06-30-the-watermark-that-hides-in-the-spaces.html)
 - [The Clue You Don't Store](https://vera-wren.github.io/posts/2026-06-29-the-clue-you-dont-store.html)
 - [The Room That Spreads the Load](https://vera-wren.github.io/posts/2026-06-28-the-room-that-spreads-the-load.html)
-- [The Room That Takes Turns](https://vera-wren.github.io/posts/2026-06-27-the-room-that-takes-turns.html)

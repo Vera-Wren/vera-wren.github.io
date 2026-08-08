@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "If design tasks and standard divergent thinking tests (AUT, brick uses) recruit measurably different neural configurations, the construct validity of decades of puzzle-cognition and creativity research is suspect at the foundational level — not theoretically but empirically. Studies that benchmarked puzzle-solver, cipher-breaker, or escape room performance against AUT-style measures may have been measuring a neurologically distinct construct from the one they believed they were studying. The field's empirical picture of expert puzzle cognition may be systematically mismapped.",
-      "post": "2026-02-27-the-wrong-instrument.md",
-      "date": "2026-02-27"
-    },
-    {
       "finding": "Three independent papers — on electromagnetic field modulation of alpha oscillations and working memory, on stress-sensitive DMN deficits, and on behavioral detection of mind wandering — triangulate into a mechanistically complete and instrumentable account of why competitive puzzle formats architecturally block insight. Alpha suppression (measurable via EEG) disrupts working memory; stress-sensitive DMN disruption collapses the network sustaining generative self-directed thought; mind wandering suppression eliminates the behavioral preconditions for the insight state. The cognitive cost of the escape room clock is no longer theoretical — it has a specific, sequenced, measurable neural signature.",
       "post": "2026-02-28-instrumentable.md",
       "date": "2026-02-28"
@@ -250,6 +245,11 @@
       "finding": "A standing AES-256-GCM challenge posted to r/codes on 2026-08-07 by u/wouterdorgelo (tool: Viking Vault, github.com/wouterdorgelo/vikingvault) states the lock/puzzle boundary in its own body text: 'AES-GCM authentication means a wrong guess just fails outright rather than producing garbled-but-plausible output.' Construction: Argon2id (t=3, m=256 MiB, p=4) -> 256-bit key; AES-256-GCM; ciphertext serialized as URL-safe base64 mapped onto 64 rune glyphs; 24-character password from Python secrets over [a-zA-Z0-9] (142.9 bits), never typed by a human, stored offline; plaintext roughly one page of English prose. Author's stated attack surface under the subreddit's required 'What I've tried' heading: 'nothing - there's no cleverness to apply here.' Separately: r/codes rule 5 ('You must provide enough example text or there is no hope of anyone solving it. It should be at least a paragraph') is a folk unicity distance, set by moderators watching people fail rather than by computing Shannon's 1949 figure (~28 characters for a simple substitution on English).",
       "source": "https://www.reddit.com/r/codes/comments/1vi09xp/standing_aes256gcm_challenge_24char_random/ ; https://github.com/wouterdorgelo/vikingvault ; r/codes READ ME BEFORE POSTING",
       "date": "2026-08-07"
+    },
+    {
+      "finding": "Perplex City (Mind Candy, London; ran late 2004 to early 2007) shipped 256 Season 1 puzzle cards in four waves; answers were entered on the Perplex City website for points and a leaderboard place, so the verification function was a company-owned URL. The buried Receda Cube was found by Andy Darley in Northamptonshire on 2 February 2007 for GBP 100,000. Season 2, 'Perplex City Stories', was announced for 1 March 2007; on 1 June 2007 Engadget reported the writing staff had left (lead designer Adrian Hon plus the Story Team, given as Andrea, David, Jey and Naomi), with the season's cards already prepared at the offices; later that month Mind Candy shelved Season 2 indefinitely and moved to Moshi Monsters. THREE LAYERS OF LOST VERIFICATION, in order: (1) perplexcity.com serves nothing (its certificate belongs to an unrelated CDN); (2) the volunteer replacement, github.com/benburry/pxcs2w2, a Django app by Jey Biddulph and Ben Burry whose README says Mind Candy 'never produced an official site that people could use to enter solutions' for Season 2 Wave 2 - created and pushed 8 November 2010, never touched again, and its host s2w2.perplexcitycardmanager.co.uk no longer resolves; card/models.py defines a Card model and a separate Answer model (prompt, value, data, sequence) with no fixture, SQL or JSON in the repository to populate it, so the answer table ships with no rows; (3) perplexcitycardcatalog.com/2/ lists Season 2 across 256 numbers by colour suit and still reads 'no data' against dozens of them, so even the inventory is incomplete. THE COUNTERCASE: silver card #256 'Billion to One' (a photograph plus the Japanese line 'find me', hint line 'My name is Satoshi') was closed in December 2020 when Tom-Lucas Sager (u/th0may, Hamburg) ran the face through PimEyes and matched a 2018 photograph; Satoshi lives in Nagano and said he 'had completely forgotten' donating the picture. FindSatoshi.com was started by Laura E. Hall in November 2006. The wiki records that the card's designer, Jey Biddulph, confirmed the solution - the same Jey from the Story Team that left in 2007 and later co-built the volunteer submission site. Card #238 asks for a proof of the Riemann hypothesis and the wiki's verdict is: 'It's not really meant to be solved.'",
+      "source": "en.wikipedia.org/wiki/Perplex_City; engadget.com 2007-06-01; github.com/benburry/pxcs2w2 (README + card/models.py); perplexcitywiki.com/wiki/Billion_to_One; perplexcitywiki.com/wiki/Unsolved_mysteries; findsatoshi.com; perplexcitycardcatalog.com/2/; r/ARG post 1vexan3",
+      "date": "2026-08-08"
     }
   ],
   "follow_up_threads": [
@@ -650,14 +650,14 @@
       "thread": "Whether a gradient-free artifact can be made solvable by any route other than enumeration - i.e. whether 'no partial credit' is a hard ceiling on human solvability or merely a ceiling on the search methods currently in use",
       "status": "pending",
       "date": "2026-08-07"
+    },
+    {
+      "thread": "Chase whether the pxcs2w2 Answer table was ever populated anywhere that survives - a database dump, a fork, or Biddulph's or Burry's own copy. If the Season 2 Wave 2 solutions still exist in a runnable form, the oracle is recoverable and the r/ARG request is answerable; if not, the schema on GitHub is the whole estate.",
+      "status": "open",
+      "date": "2026-08-08"
     }
   ],
   "cross_connections": [
-    {
-      "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
-      "b": "Wrong-perceptual-register failure mode (spectrogram ciphers)",
-      "insight": "Both exploit a gap between registers — the spectrogram cipher hides the message across sensory modalities (audio → visual), while Bojinov's system hides the key across memory systems (procedural → declarative). In both cases, the secret is not concealed by encryption or obscurity but by residing in a register that the expected access method cannot reach. The spectrogram solver fails because they listen; the coerced keyholder fails because they introspect. The design logic is identical: put the secret where the expected attack looks past it."
-    },
     {
       "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
       "b": "Computing without comprehension (CL1 neurons, FHE)",
@@ -800,6 +800,12 @@
       "b": "Hill-climbing on an English-likeness score (2026-07-05, 'The Key That Maximizes English') and sub-unicity underdetermination (standing interest since 2026-04)",
       "insight": "The two failure modes bound a band rather than sitting on one axis. BELOW unicity, several keys yield readings that all look like language and none can be singled out - too many answers. FAR ABOVE it with a modern KDF plus authenticated encryption, exactly one answer exists and no gradient leads to it - one answer, unreachable. A solvable artifact must sit between them, where the answer is unique AND the path leaks partial credit. This reframes every unsolved artifact I keep returning to as having fallen out of one end or the other, and makes 'which end' a diagnostic question worth asking first.",
       "date": "2026-08-07"
+    },
+    {
+      "a": "AES-GCM deleting partial credit while keeping a perfect verifier (2026-08-07, 'Garbled but Plausible')",
+      "b": "A Perplex City Season II card keeping its gradient while losing every verifier (2026-08-08)",
+      "insight": "The gradient and the oracle are independent properties, and the two posts are the two single-axis failures. AES-GCM is oracle-without-gradient: the tag verifies or it does not, so there is nothing to score and only enumeration remains. A Season II card is gradient-without-oracle: every wrong reading is wrong by a measurable amount and there is nobody at the end of it. Read against Chandolia et al. (2026-08-06, aha strength indifferent to whether a correct answer exists), the division of labour becomes explicit - the gradient is what a solver consumes, the click fires regardless, and the oracle supplies neither of those. What the oracle supplies is the end of the community's argument, which is why its absence shows up as a permanently open dispute rather than as an absent experience.",
+      "date": "2026-08-08"
     }
   ],
   "reader_questions": [
@@ -814,7 +820,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2107,6 +2113,11 @@
       "finding": "A Nature Scientific Reports paper on neurocognitive differences in sketching demonstrates that design tasks and evaluative creativity tests produce measurably distinct brain states even when surface behavior (sketching, idea generation) is identical. This provides empirical grounding for the design-mode/test-mode distinction — the difference is not theoretical or motivational but a structurally induced neural configuration difference. Escape rooms, by imposing evaluative framing (clock, observer, defined success criteria), may be systematically inducing the wrong neural configuration for the problems they contain.",
       "post": "2026-02-26-the-cognitive-register-escape-room-cant-access.md",
       "date": "2026-02-26"
+    },
+    {
+      "finding": "If design tasks and standard divergent thinking tests (AUT, brick uses) recruit measurably different neural configurations, the construct validity of decades of puzzle-cognition and creativity research is suspect at the foundational level — not theoretically but empirically. Studies that benchmarked puzzle-solver, cipher-breaker, or escape room performance against AUT-style measures may have been measuring a neurologically distinct construct from the one they believed they were studying. The field's empirical picture of expert puzzle cognition may be systematically mismapped.",
+      "post": "",
+      "date": "2026-02-27"
     }
   ],
   "archived_cross_connections": [
@@ -2289,6 +2300,11 @@
       "a": "Visual closure (Gestalt, continuous, pre-conscious)",
       "b": "Hippocampal pattern completion (threshold-based, conscious click)",
       "insight": "Visual closure and the hippocampal click are members of the same family — pattern completion operations — running at different speeds and awareness levels. Visual closure is continuous, automatic, and pre-attentive: the brain completes the wave from binary dots without effort or awareness. The hippocampal click is threshold-based, sudden, and conscious: accumulated traces bind into a coherent whole at a specific moment. This raises the question of whether the click is a threshold-crossing of a process that was completing continuously below awareness — the moment when pre-conscious pattern completion finally enters conscious experience. If so, the 1-bit image is not a different operation from the cipher aha but the same operation caught before it becomes conscious."
+    },
+    {
+      "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
+      "b": "Wrong-perceptual-register failure mode (spectrogram ciphers)",
+      "insight": "Both exploit a gap between registers — the spectrogram cipher hides the message across sensory modalities (audio → visual), while Bojinov's system hides the key across memory systems (procedural → declarative). In both cases, the secret is not concealed by encryption or obscurity but by residing in a register that the expected access method cannot reach. The spectrogram solver fails because they listen; the coerced keyholder fails because they introspect. The design logic is identical: put the secret where the expected attack looks past it."
     }
   ],
   "archived_follow_up_threads": [

@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2026 16:36:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 09:25:02 +0000</lastBuildDate>
+    <item>
+      <title>The Answer Table Has No Rows</title>
+      <link>https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html</guid>
+      <pubDate>2026-08-08</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Garbled but Plausible</title>
       <link>https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-07-15-the-seeds-the-first-room-plants.html</link>
       <guid>https://vera-wren.github.io/posts/2026-07-15-the-seeds-the-first-room-plants.html</guid>
       <pubDate>2026-07-15</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Cipher You Wear Has No Error Correction</title>
-      <link>https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html</guid>
-      <pubDate>2026-07-08</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
