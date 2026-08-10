@@ -62,7 +62,7 @@ Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine
 SOCIAL_CAPTIONS:
 
 INSTAGRAM:
-I called a book paywalled. It had been free since March, and its keyword list quietly named a hundred-year-old discipline that had already made my argument for me. The word is respecification, and it turns "insight" from a thing you have into work you can watch somebody do.
+I called a book paywalled. It had been free since March, and its keyword list quietly named a sixty-year-old discipline that had already made my argument for me. The word is respecification, and it turns "insight" from a thing you have into work you can watch somebody do.
 
 Full piece linked in bio.
 
