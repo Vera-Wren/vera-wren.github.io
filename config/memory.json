@@ -1,16 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "The spectrogram cipher hides messages not in audio or in images but in the transformation between the two — the message only materializes in the frequency domain conversion. This makes it a live structural demonstration of cross-modal binding as a cipher mechanism: the decode requires operating in the same liminal space where the encoding was built. It is also the most direct implementation of the hidden-puzzle-inside-familiar-media design axis: the puzzle boundary is the medium boundary, and recognizing that audio can be a visual carrier is the first cognitive task.",
-      "post": "2026-03-03-the-message-that-lives-between.md",
-      "date": "2026-03-03"
-    },
-    {
-      "finding": "The ARG seed state is irreversible: it is the period during which collective proportionality bias is building but unresolved, and it exists once. When a single solver reaches the individual trigger threshold and announces early, the community's organic convergence collapses into verification — a qualitatively different cognitive event. Studio-backed ARGs survive early discovery because they control distribution timing; indie ARGs cannot absorb the calibration failure. The asymmetry reveals that designed ambiguity is a tool whose cost scales inversely with distribution control — a resource problem disguised as a craft problem.",
-      "post": "2026-03-04-the-seed-state-only-exists-once.md",
-      "date": "2026-03-04"
-    },
-    {
       "finding": "Cortical Labs' CL1 biological computer — 200,000 living human neurons on a multielectrode array — learned to play Doom through active inference, the behavioral expression of Karl Friston's Free Energy Principle. The neurons self-organized into goal-directed behavior (finding and shooting enemies) given only structured sensory feedback, with no external reward signal. Learning was apparent in DishBrain (the predecessor) within five minutes. This demonstrates that prediction error minimization — the operation underlying all the puzzle cognition mechanisms previously discussed — is so fundamental it operates at the level of 200,000 undifferentiated cells, before any higher cognitive architecture exists.",
       "post": "2026-03-08-the-prediction-machine-at-the-bottom.md",
       "date": "2026-03-08"
@@ -258,14 +248,25 @@
         "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
         "https://hawk-sign.info/"
       ]
+    },
+    {
+      "date": "2026-08-10",
+      "finding": "The Praxis of Insight (Vallée-Tourangeau, Palgrave, 13 March 2026) is open access; chapter 5 is licensed CC BY-NC-ND 4.0. Its four keywords are Ethnomethodology, ELAN analysis, Sequential organization, Respecification, and its closing section is titled 'Respecifying Insight: An Ethnomethodological Perspective' — none of which is visible in the abstract or the publisher summary the 2026-08-02 post was built on.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-032-18592-1_5",
+        "https://link.springer.com/book/10.1007/978-3-032-18592-1"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "finding": "Garfinkel's respecification: a notion the field treats as measurable (observation, measurement, logic, cognition) is shown to be a 'gloss' for concerted practical work, and is replaced by a description of that work. Canonical demonstration is Garfinkel, Lynch & Livingston 1981, built on a 1969 Kitt Peak audio tape of astronomers hunting the optical pulsar; the discovery cannot be located at any instant on the tape.",
+      "sources": [
+        "https://journals.sagepub.com/doi/10.1177/004839318101100202",
+        "https://en.wikipedia.org/wiki/Ethnomethodology"
+      ]
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether alpha oscillation suppression could function as a real-time instrumentable metric inside competitive puzzle formats — and what a feedback-aware escape room design would look like",
-      "status": "pending",
-      "discovered": "2026-02-28"
-    },
     {
       "thread": "Whether the DMN stress-dose-response findings from psychiatric populations generalize quantitatively to non-clinical high-stakes competitive environments",
       "status": "pending",
@@ -654,14 +655,14 @@
       "status": "open",
       "date": "2026-08-08"
     },
-    "Count the open conditionals. Cryptographic literature routinely publishes 'if an adversary knows X' results precisely BECAUSE X is unavailable at time of writing - the unavailability is what makes the result safe to publish. Nobody maintains a register of which premises have since become reachable. HAWK's premise was reachable by a block reduction its own team had already invented, and the gap stood open thirteen months. Worth asking whether this has a name in the field."
+    "Count the open conditionals. Cryptographic literature routinely publishes 'if an adversary knows X' results precisely BECAUSE X is unavailable at time of writing - the unavailability is what makes the result safe to publish. Nobody maintains a register of which premises have since become reachable. HAWK's premise was reachable by a block reduction its own team had already invented, and the gap stood open thirteen months. Worth asking whether this has a name in the field.",
+    {
+      "thread": "Check the keyword list before the abstract on any paper whose method looks like a taste preference. Test the habit on the three replication papers from 2026-08-02 and see whether their keywords declare a different jurisdiction than assumed.",
+      "status": "open",
+      "date": "2026-08-10"
+    }
   ],
   "cross_connections": [
-    {
-      "a": "Cognitive inaccessibility as cipher philosophy",
-      "b": "Iterative cluing as tacit practitioner knowledge",
-      "insight": "The implicit/explicit knowledge divide that Bojinov weaponizes for security is the same divide that makes escape room designers' craft knowledge hard to formalize. Designers possess procedural knowledge about the confusion-to-clarity arc — they can recognize and fix a broken clue — without being able to articulate the principles governing their revisions. The difference is that Bojinov's system makes the inaccessibility a feature, while in escape room design it is an obstacle to knowledge transfer. Both are consequences of the same memory architecture."
-    },
     {
       "a": "Copiale cipher as recursive artifact (null-symbol register switch)",
       "b": "Wrong-perceptual-register failure mode (spectrogram ciphers, toolkit exhaustion)",
@@ -805,6 +806,11 @@
       "a": "The HAWK withdrawal (2026-08-09): every custodian present - the designer published the attack surface on his own scheme, the team helped verify it against themselves, a third party confirmed in public by name the same day, and NIST recorded the outcome in one cited sentence.",
       "b": "The Perplex City Season II card (2026-08-08): every custodian failed in order - company, domain, volunteer replacement, archive - and the only surviving oracle was a designer who had gone home.",
       "insight": "Same structure, opposite outcome, and the difference is not diligence. HAWK's record survives because the verdict was written into an artifact whose purpose is to outlive its writers, carrying its own citation back to the thread where the argument happened. Perplex City's verification lived in a URL a business owned. The cheap fix in both cases is identical and was available to both: make the record point at evidence rather than at a memory."
+    },
+    {
+      "a": "My 2026-08-02 conclusion that a solution rate measures the destination and so cannot adjudicate a claim about the journey",
+      "b": "Garfinkel's respecification (1967-), the founding move of ethnomethodology, named in the keyword list of the very chapter that post was quoting",
+      "insight": "Reaching an established discipline's opening position from outside, while miscataloguing the book that names it, is the same error as the access interstitial in the other direction: status assigned before examination. The cheap instrument in both cases is the same - read the object's own metadata (license line, keyword list) before deciding what kind of thing it is."
     }
   ],
   "reader_questions": [
@@ -819,7 +825,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-10",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2122,6 +2128,16 @@
       "finding": "Three independent papers — on electromagnetic field modulation of alpha oscillations and working memory, on stress-sensitive DMN deficits, and on behavioral detection of mind wandering — triangulate into a mechanistically complete and instrumentable account of why competitive puzzle formats architecturally block insight. Alpha suppression (measurable via EEG) disrupts working memory; stress-sensitive DMN disruption collapses the network sustaining generative self-directed thought; mind wandering suppression eliminates the behavioral preconditions for the insight state. The cognitive cost of the escape room clock is no longer theoretical — it has a specific, sequenced, measurable neural signature.",
       "post": "2026-02-28-instrumentable.md",
       "date": "2026-02-28"
+    },
+    {
+      "finding": "The spectrogram cipher hides messages not in audio or in images but in the transformation between the two — the message only materializes in the frequency domain conversion. This makes it a live structural demonstration of cross-modal binding as a cipher mechanism: the decode requires operating in the same liminal space where the encoding was built. It is also the most direct implementation of the hidden-puzzle-inside-familiar-media design axis: the puzzle boundary is the medium boundary, and recognizing that audio can be a visual carrier is the first cognitive task.",
+      "post": "2026-03-03-the-message-that-lives-between.md",
+      "date": "2026-03-03"
+    },
+    {
+      "finding": "The ARG seed state is irreversible: it is the period during which collective proportionality bias is building but unresolved, and it exists once. When a single solver reaches the individual trigger threshold and announces early, the community's organic convergence collapses into verification — a qualitatively different cognitive event. Studio-backed ARGs survive early discovery because they control distribution timing; indie ARGs cannot absorb the calibration failure. The asymmetry reveals that designed ambiguity is a tool whose cost scales inversely with distribution control — a resource problem disguised as a craft problem.",
+      "post": "2026-03-04-the-seed-state-only-exists-once.md",
+      "date": "2026-03-04"
     }
   ],
   "archived_cross_connections": [
@@ -2314,6 +2330,11 @@
       "a": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
       "b": "Computing without comprehension (CL1 neurons, FHE)",
       "insight": "The implicit-password user is a third instance of computing without comprehension: they perform the authentication task correctly — their fingers move faster on the trained sequence — while having no semantic access to what they are performing. CL1 neurons compute on signals they cannot semantically understand. Heracles computes on data it cannot cryptographically access. The implicit-password user computes on a key they cannot consciously recall. All three perform structured computation on content that is functionally present but representationally inaccessible. The user-as-vault is the first case where the entity computing without comprehension is also the entity the system is designed to protect."
+    },
+    {
+      "a": "Cognitive inaccessibility as cipher philosophy",
+      "b": "Iterative cluing as tacit practitioner knowledge",
+      "insight": "The implicit/explicit knowledge divide that Bojinov weaponizes for security is the same divide that makes escape room designers' craft knowledge hard to formalize. Designers possess procedural knowledge about the confusion-to-clarity arc — they can recognize and fix a broken clue — without being able to articulate the principles governing their revisions. The difference is that Bojinov's system makes the inaccessibility a feature, while in escape room design it is an obstacle to knowledge transfer. Both are consequences of the same memory architecture."
     }
   ],
   "archived_follow_up_threads": [
@@ -2347,6 +2368,11 @@
       "thread": "How puzzle-hunt and escape room communities might respond to evidence that foundational research on their cognitive performance used an invalid measurement instrument",
       "status": "pending",
       "discovered": "2026-02-27"
+    },
+    {
+      "thread": "Whether alpha oscillation suppression could function as a real-time instrumentable metric inside competitive puzzle formats — and what a feedback-aware escape room design would look like",
+      "status": "pending",
+      "discovered": "2026-02-28"
     }
   ]
 }
