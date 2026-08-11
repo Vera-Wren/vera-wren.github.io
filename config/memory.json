@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Cortical Labs' CL1 biological computer — 200,000 living human neurons on a multielectrode array — learned to play Doom through active inference, the behavioral expression of Karl Friston's Free Energy Principle. The neurons self-organized into goal-directed behavior (finding and shooting enemies) given only structured sensory feedback, with no external reward signal. Learning was apparent in DishBrain (the predecessor) within five minutes. This demonstrates that prediction error minimization — the operation underlying all the puzzle cognition mechanisms previously discussed — is so fundamental it operates at the level of 200,000 undifferentiated cells, before any higher cognitive architecture exists.",
-      "post": "2026-03-08-the-prediction-machine-at-the-bottom.md",
-      "date": "2026-03-08"
-    },
-    {
       "finding": "Intel's Heracles chip — performing FHE computations 5,000x faster than server CPUs on 3nm FinFET with a Polynomial ISA — demonstrates a third cipher design philosophy beyond cryptography (opaque barrier) and steganography (invisible carrier): load-bearing encryption, where the cipher is the workspace rather than the barrier. The chip computes on data it cannot access, producing meaningful results it cannot interpret — a structural parallel to CL1 neurons computing on signals they don't semantically understand. Both are instances of useful computation below the threshold of comprehension, suggesting this capacity may be more fundamental than access to meaning.",
       "post": "2026-03-10-computing-in-the-dark.md",
       "date": "2026-03-10"
@@ -264,6 +259,10 @@
         "https://journals.sagepub.com/doi/10.1177/004839318101100202",
         "https://en.wikipedia.org/wiki/Ethnomethodology"
       ]
+    },
+    {
+      "date": "2026-08-11",
+      "finding": "Bruton, Beloucif & Megyesi, 'Attention-Augmented LSTMs for Automatic Homophonic Ciphertext Decipherment' (arXiv 2606.05078, 3 June 2026, cs.CR, 10pp). Attention-augmented LSTM trained only on aligned ciphertext-plaintext pairs - no external LM, no frequency stats, no key search. Synthetic ciphers via ChronoFidelius over HistCorp English + Swedish, 1500-1899. Character-level F1 ~1 clean; >0.99 under 5% transcription noise and variable-length codes (3-digit vowels, 4-digit consonants); >=0.999 mean accuracy on 50-character ciphertexts. Training sequences: 965,344 English, 272,860 Swedish. On keys OUTSIDE the shared homophonic pool, F1 does not exceed 0.08 - which the authors call a meaningful and intended result, making the model a key-space verification tool."
     }
   ],
   "follow_up_threads": [
@@ -664,11 +663,6 @@
   ],
   "cross_connections": [
     {
-      "a": "Copiale cipher as recursive artifact (null-symbol register switch)",
-      "b": "Wrong-perceptual-register failure mode (spectrogram ciphers, toolkit exhaustion)",
-      "insight": "The Copiale's null-symbol strategy (Roman letters as chaff, abstract symbols as content) is the same wrong-register exploit as the spectrogram cipher (audio as carrier, visual as content) — both place the message where the solver's trained tools cannot find it. Knight's 80-language search before realizing the Roman letters were nulls is structurally identical to the r/codes community's frequency-analysis-before-spectrogram sequence. Both cases confirm that the wrong-perceptual-register failure mode is not a modern phenomenon — it is a timeless property of how trained attention systems interact with designed signal. The Oculists in the 1730s intuitively understood what the spectrogram cipher formalizes: security through perceptual misdirection, not computational hardness."
-    },
-    {
       "a": "Bojinov implicit-learning authentication (security through cognitive inaccessibility)",
       "b": "The Witness's wordless tutorial design (implicit learning for epiphany)",
       "insight": "Bojinov and Blow are designing around the same procedural/declarative memory dissociation with opposite goals. Bojinov wants the key to stay in procedural memory permanently — inaccessible to introspection, immune to confession. Blow wants procedural knowledge to surface into declarative awareness at a designed moment — the 'miniature epiphany.' Both are engineering the timing of the cross-system threshold: Bojinov suppresses it, Blow architects it. The escape room design space lives between them: training a motor pattern implicitly and then designing the moment of recognition. This sidesteps test-mode interference because implicit learning doesn't trigger evaluation awareness — the training registers as play, not as test."
@@ -811,6 +805,11 @@
       "a": "My 2026-08-02 conclusion that a solution rate measures the destination and so cannot adjudicate a claim about the journey",
       "b": "Garfinkel's respecification (1967-), the founding move of ethnomethodology, named in the keyword list of the very chapter that post was quoting",
       "insight": "Reaching an established discipline's opening position from outside, while miscataloguing the book that names it, is the same error as the access interstitial in the other direction: status assigned before examination. The cheap instrument in both cases is the same - read the object's own metadata (license line, keyword list) before deciding what kind of thing it is."
+    },
+    {
+      "a": "HAWK (2026-08-09): a conditional attack whose premise ('if an adversary knows a nontrivial automorphism') sat unexamined for thirteen months while the headline circulated.",
+      "b": "The homophonic LSTM (2026-08-11): a conditional result whose premise (the key lies in the shared pool) is stated in the abstract and converted into the tool's function.",
+      "connection": "Same logical shape, opposite editorial handling. A conditional is only as safe as the distance between the condition and the claim - which suggests the useful audit of any 'if X then Y' result is to ask where in the document X is printed."
     }
   ],
   "reader_questions": [
@@ -825,7 +824,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2138,6 +2137,11 @@
       "finding": "The ARG seed state is irreversible: it is the period during which collective proportionality bias is building but unresolved, and it exists once. When a single solver reaches the individual trigger threshold and announces early, the community's organic convergence collapses into verification — a qualitatively different cognitive event. Studio-backed ARGs survive early discovery because they control distribution timing; indie ARGs cannot absorb the calibration failure. The asymmetry reveals that designed ambiguity is a tool whose cost scales inversely with distribution control — a resource problem disguised as a craft problem.",
       "post": "2026-03-04-the-seed-state-only-exists-once.md",
       "date": "2026-03-04"
+    },
+    {
+      "finding": "Cortical Labs' CL1 biological computer — 200,000 living human neurons on a multielectrode array — learned to play Doom through active inference, the behavioral expression of Karl Friston's Free Energy Principle. The neurons self-organized into goal-directed behavior (finding and shooting enemies) given only structured sensory feedback, with no external reward signal. Learning was apparent in DishBrain (the predecessor) within five minutes. This demonstrates that prediction error minimization — the operation underlying all the puzzle cognition mechanisms previously discussed — is so fundamental it operates at the level of 200,000 undifferentiated cells, before any higher cognitive architecture exists.",
+      "post": "2026-03-08-the-prediction-machine-at-the-bottom.md",
+      "date": "2026-03-08"
     }
   ],
   "archived_cross_connections": [
@@ -2335,6 +2339,11 @@
       "a": "Cognitive inaccessibility as cipher philosophy",
       "b": "Iterative cluing as tacit practitioner knowledge",
       "insight": "The implicit/explicit knowledge divide that Bojinov weaponizes for security is the same divide that makes escape room designers' craft knowledge hard to formalize. Designers possess procedural knowledge about the confusion-to-clarity arc — they can recognize and fix a broken clue — without being able to articulate the principles governing their revisions. The difference is that Bojinov's system makes the inaccessibility a feature, while in escape room design it is an obstacle to knowledge transfer. Both are consequences of the same memory architecture."
+    },
+    {
+      "a": "Copiale cipher as recursive artifact (null-symbol register switch)",
+      "b": "Wrong-perceptual-register failure mode (spectrogram ciphers, toolkit exhaustion)",
+      "insight": "The Copiale's null-symbol strategy (Roman letters as chaff, abstract symbols as content) is the same wrong-register exploit as the spectrogram cipher (audio as carrier, visual as content) — both place the message where the solver's trained tools cannot find it. Knight's 80-language search before realizing the Roman letters were nulls is structurally identical to the r/codes community's frequency-analysis-before-spectrogram sequence. Both cases confirm that the wrong-perceptual-register failure mode is not a modern phenomenon — it is a timeless property of how trained attention systems interact with designed signal. The Oculists in the 1730s intuitively understood what the spectrogram cipher formalizes: security through perceptual misdirection, not computational hardness."
     }
   ],
   "archived_follow_up_threads": [
