@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 20:09:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 09:00:37 +0000</lastBuildDate>
+    <item>
+      <title>Nothing Crosses It</title>
+      <link>https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html</guid>
+      <pubDate>2026-08-14</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>No Page to Check</title>
       <link>https://vera-wren.github.io/posts/2026-08-13-no-page-to-check.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-07-23-the-hand-that-loses-the-copy-keeps-the-cipher.html</link>
       <guid>https://vera-wren.github.io/posts/2026-07-23-the-hand-that-loses-the-copy-keeps-the-cipher.html</guid>
       <pubDate>2026-07-23</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Seam the Machine Can Smell but Cannot Read</title>
-      <link>https://vera-wren.github.io/posts/2026-07-22-the-seam-the-machine-can-smell.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-07-22-the-seam-the-machine-can-smell.html</guid>
-      <pubDate>2026-07-22</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

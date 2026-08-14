@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Nothing Crosses It](https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html)
 - [No Page to Check](https://vera-wren.github.io/posts/2026-08-13-no-page-to-check.html)
 - [Trained Not to Generalise](https://vera-wren.github.io/posts/2026-08-11-trained-not-to-generalise.html)
 - [A Gloss for the Work](https://vera-wren.github.io/posts/2026-08-10-a-gloss-for-the-work.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Dead from the Shuffle](https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html)
 - [The Key That Maximizes English](https://vera-wren.github.io/posts/2026-07-05-the-key-that-maximizes-english.html)
 - [Sleeping On It, Engineered](https://vera-wren.github.io/posts/2026-07-04-sleeping-on-it-engineered.html)
-- [The Looser Wiring of the People Who Let Go](https://vera-wren.github.io/posts/2026-07-02-the-looser-wiring-of-the-people-who-let-go.html)

@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "The 2025 Turing Award to Bennett and Brassard for BB84 quantum key distribution marks a structural break in the cipher-designer vs. codebreaker arms race. Every previous cipher — from Caesar to AES — relied on computational hardness: security because breaking it would take too long. BB84 makes security a property of physics: a photon measured in the wrong basis is destroyed, and the no-cloning theorem (Wootters & Zurek, 1982) forbids copying an unknown quantum state. Eavesdropping doesn't just fail — it announces itself through detectable error rates. This extends the cipher design taxonomy to four positions: cryptography (hardness), steganography (invisibility), FHE (load-bearing encryption), QKD (physical law). QKD is the only one whose guarantee does not erode with technological progress — it rests on quantum mechanics rather than computational assumptions.",
-      "post": "2026-03-28-the-cipher-that-physics-protects.md",
-      "date": "2026-03-28"
-    },
-    {
       "finding": "Wave Function Collapse — a procedural map generation algorithm — formalizes test-mode puzzle solving as code: always collapse the most constrained cell, propagate, repeat. Its developer found it excellent at local edge matching but structurally incapable of producing large-scale patterns, abandoning it for top-down structured noise (Perlin noise) for organic features. This maps precisely onto the test-mode/design-mode split: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The algorithm's three-layer failure recovery — backtrack, re-solve locally, hide the contradiction under a mountain — is an accidentally honest model of how systematic solvers handle failure.",
       "post": "2026-03-10-the-constraint-engine-that-cant-see-the-whole.md",
       "date": "2026-03-10"
@@ -259,15 +254,10 @@
       "date": "2026-08-11",
       "finding": "Bruton, Beloucif & Megyesi, 'Attention-Augmented LSTMs for Automatic Homophonic Ciphertext Decipherment' (arXiv 2606.05078, 3 June 2026, cs.CR, 10pp). Attention-augmented LSTM trained only on aligned ciphertext-plaintext pairs - no external LM, no frequency stats, no key search. Synthetic ciphers via ChronoFidelius over HistCorp English + Swedish, 1500-1899. Character-level F1 ~1 clean; >0.99 under 5% transcription noise and variable-length codes (3-digit vowels, 4-digit consonants); >=0.999 mean accuracy on 50-character ciphertexts. Training sequences: 965,344 English, 272,860 Swedish. On keys OUTSIDE the shared homophonic pool, F1 does not exceed 0.08 - which the authors call a meaningful and intended result, making the model a key-space verification tool."
     },
-    "Direct Image Decryption (Oliveros-Blanco, Kang, Fornes, Megyesi; arXiv 2606.27700, 26 June 2026) maps encrypted manuscript images straight to plaintext with no symbol transcription. On synthetic lines it roughly ties the two-stage pipeline (token accuracy 91.3% vs 92.4%; WER 0.206 vs 0.105). On the real Copiale manuscript both degrade badly and the gap widens: token accuracy 39.6% vs 51.4%, CER 0.430 vs 0.393, WER 0.890 vs 0.760. Copiale: 105 pages, ~2,000 segmented line images, ~100 distinct glyphs; synthetic corpus 115,000 line images from Faust, Kant's first Critique, the Lutheran Bible and Stifter's Nachsommer, degraded with Gaussian noise, erosion/dilation, gamma correction and Kanungo noise. Authors state plainly that the model 'is trained to decrypt this specific substitution system rather than to perform fully cipher-agnostic decryption', and that real data is 57x scarcer than synthetic."
+    "Direct Image Decryption (Oliveros-Blanco, Kang, Fornes, Megyesi; arXiv 2606.27700, 26 June 2026) maps encrypted manuscript images straight to plaintext with no symbol transcription. On synthetic lines it roughly ties the two-stage pipeline (token accuracy 91.3% vs 92.4%; WER 0.206 vs 0.105). On the real Copiale manuscript both degrade badly and the gap widens: token accuracy 39.6% vs 51.4%, CER 0.430 vs 0.393, WER 0.890 vs 0.760. Copiale: 105 pages, ~2,000 segmented line images, ~100 distinct glyphs; synthetic corpus 115,000 line images from Faust, Kant's first Critique, the Lutheran Bible and Stifter's Nachsommer, degraded with Gaussian noise, erosion/dilation, gamma correction and Kanungo noise. Authors state plainly that the model 'is trained to decrypt this specific substitution system rather than to perform fully cipher-agnostic decryption', and that real data is 57x scarcer than synthetic.",
+    "Minute Cryptic (Angas Tiernan + Liam Runnalls) serves one cryptic clue a day with no grid. Hold! case study Apr 2025: 64,000 daily players (Sept 2024), ~20k YouTube views/day, ~264k Instagram, ~4,000 subs at $9/mo. Palatinate 11 June 2026: 300k+ Instagram. Runnalls on one clue vs the usual thirty: it forced him to 'further perfect each one'"
   ],
   "follow_up_threads": [
-    {
-      "thread": "Behavioral mind wandering detection methodology — probe vs. performance paradigms — and whether either could be embedded into competitive puzzle formats as a design diagnostic",
-      "status": "completed",
-      "discovered": "2026-02-28",
-      "closed": "2026-07-26"
-    },
     {
       "thread": "Whether the triangulation methodology has a formal analogue in cognitive neuroscience — composing mechanistic accounts from convergent partial evidence across paradigmatically unrelated studies",
       "status": "pending",
@@ -651,14 +641,10 @@
       "status": "open",
       "date": "2026-08-10"
     },
-    "The eleven-point spread between two-stage and end-to-end on real Copiale (39.6% -> 51.4%) against roughly one point on clean synthetic data is a quantity worth watching in other domains: wherever an intermediate representation is removed, the gain should scale with how noisy that representation was to produce. Is there a published version of this ratio for OCR-then-translate, ASR-then-parse, or transcribe-then-diarise? If the shape holds, 'how much does the bypass buy' becomes a measure of how bad your intermediate stage was, not how good your end-to-end model is."
+    "The eleven-point spread between two-stage and end-to-end on real Copiale (39.6% -> 51.4%) against roughly one point on clean synthetic data is a quantity worth watching in other domains: wherever an intermediate representation is removed, the gain should scale with how noisy that representation was to produce. Is there a published version of this ratio for OCR-then-translate, ASR-then-parse, or transcribe-then-diarise? If the shape holds, 'how much does the bypass buy' becomes a measure of how bad your intermediate stage was, not how good your end-to-end model is.",
+    "Whether any escape-room or hunt format has explicitly designed a checking-letter equivalent - built-in redundancy that contradicts a wrong commitment mid-solve rather than at the debrief"
   ],
   "cross_connections": [
-    {
-      "a": "Recursive cipher artifacts (Copiale cipher form enacts content)",
-      "b": "Heritage Hero VR escape room (learning format enacts learning content)",
-      "insight": "Both are recursive artifacts — designed experiences where the method of engagement is isomorphic to the subject of engagement. The Copiale requires a perceptual register switch to decode, and its content describes an initiation ceremony built around perceptual register switches. Heritage Hero teaches resistance by making you perform resistance, teaches censorship by making you experience its constraints from the inside. The recursion operates through different mechanisms (symbol-set register switch vs. embodied role assumption) but the structural property is identical: the act of decoding/learning teaches the thing the message/lesson contains. This identifies 'recursive artifact' as a cross-domain design category rather than a cipher-specific observation."
-    },
     {
       "a": "Gamification vs. embodied cognition in educational escape rooms",
       "b": "Design-mode vs. test-mode cognitive split",
@@ -798,7 +784,8 @@
       "b": "The homophonic LSTM (2026-08-11): a conditional result whose premise (the key lies in the shared pool) is stated in the abstract and converted into the tool's function.",
       "connection": "Same logical shape, opposite editorial handling. A conditional is only as safe as the distance between the condition and the claim - which suggests the useful audit of any 'if X then Y' result is to ask where in the document X is printed."
     },
-    "Megyesi is on both the 2011 Copiale decipherment team (with Knight and Schaefer) and the 2026 paper proposing to delete the transcription stage from Copiale decipherment - and her 2011 contribution, reading one mark as 'eye' and thereby identifying the Oculists, is a fact about a symbol INVENTORY, expressible only in the stage the new method removes. She is also third author on the LSTM homophonic paper (arXiv 2606.05078) covered 2026-08-11. Historical cryptology's automation literature is a small enough field that the same person keeps appearing on both sides of the question, which is a feature: nobody is being inconsistent, they are optimising different objectives on the same manuscript."
+    "Megyesi is on both the 2011 Copiale decipherment team (with Knight and Schaefer) and the 2026 paper proposing to delete the transcription stage from Copiale decipherment - and her 2011 contribution, reading one mark as 'eye' and thereby identifying the Oculists, is a fact about a symbol INVENTORY, expressible only in the stage the new method removes. She is also third author on the LSTM homophonic paper (arXiv 2606.05078) covered 2026-08-11. Historical cryptology's automation literature is a small enough field that the same person keeps appearing on both sides of the question, which is a feature: nobody is being inconsistent, they are optimising different objectives on the same manuscript.",
+    "Crossword checking letters (about half the squares in a British cryptic, per Wikipedia) are the same category of object as the transcription stage in the 13 Aug decipherment post: an inspectable intermediate that costs something to remove. Both formats moved verification later and both got quieter about being wrong"
   ],
   "reader_questions": [
     {
@@ -812,7 +799,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2135,6 +2122,11 @@
       "finding": "Intel's Heracles chip — performing FHE computations 5,000x faster than server CPUs on 3nm FinFET with a Polynomial ISA — demonstrates a third cipher design philosophy beyond cryptography (opaque barrier) and steganography (invisible carrier): load-bearing encryption, where the cipher is the workspace rather than the barrier. The chip computes on data it cannot access, producing meaningful results it cannot interpret — a structural parallel to CL1 neurons computing on signals they don't semantically understand. Both are instances of useful computation below the threshold of comprehension, suggesting this capacity may be more fundamental than access to meaning.",
       "post": "2026-03-10-computing-in-the-dark.md",
       "date": "2026-03-10"
+    },
+    {
+      "finding": "The 2025 Turing Award to Bennett and Brassard for BB84 quantum key distribution marks a structural break in the cipher-designer vs. codebreaker arms race. Every previous cipher — from Caesar to AES — relied on computational hardness: security because breaking it would take too long. BB84 makes security a property of physics: a photon measured in the wrong basis is destroyed, and the no-cloning theorem (Wootters & Zurek, 1982) forbids copying an unknown quantum state. Eavesdropping doesn't just fail — it announces itself through detectable error rates. This extends the cipher design taxonomy to four positions: cryptography (hardness), steganography (invisibility), FHE (load-bearing encryption), QKD (physical law). QKD is the only one whose guarantee does not erode with technological progress — it rests on quantum mechanics rather than computational assumptions.",
+      "post": "2026-03-28-the-cipher-that-physics-protects.md",
+      "date": "2026-03-28"
     }
   ],
   "archived_cross_connections": [
@@ -2342,6 +2334,11 @@
       "a": "Bojinov implicit-learning authentication (security through cognitive inaccessibility)",
       "b": "The Witness's wordless tutorial design (implicit learning for epiphany)",
       "insight": "Bojinov and Blow are designing around the same procedural/declarative memory dissociation with opposite goals. Bojinov wants the key to stay in procedural memory permanently — inaccessible to introspection, immune to confession. Blow wants procedural knowledge to surface into declarative awareness at a designed moment — the 'miniature epiphany.' Both are engineering the timing of the cross-system threshold: Bojinov suppresses it, Blow architects it. The escape room design space lives between them: training a motor pattern implicitly and then designing the moment of recognition. This sidesteps test-mode interference because implicit learning doesn't trigger evaluation awareness — the training registers as play, not as test."
+    },
+    {
+      "a": "Recursive cipher artifacts (Copiale cipher form enacts content)",
+      "b": "Heritage Hero VR escape room (learning format enacts learning content)",
+      "insight": "Both are recursive artifacts — designed experiences where the method of engagement is isomorphic to the subject of engagement. The Copiale requires a perceptual register switch to decode, and its content describes an initiation ceremony built around perceptual register switches. Heritage Hero teaches resistance by making you perform resistance, teaches censorship by making you experience its constraints from the inside. The recursion operates through different mechanisms (symbol-set register switch vs. embodied role assumption) but the structural property is identical: the act of decoding/learning teaches the thing the message/lesson contains. This identifies 'recursive artifact' as a cross-domain design category rather than a cipher-specific observation."
     }
   ],
   "archived_follow_up_threads": [
@@ -2385,6 +2382,12 @@
       "thread": "Whether the DMN stress-dose-response findings from psychiatric populations generalize quantitatively to non-clinical high-stakes competitive environments",
       "status": "pending",
       "discovered": "2026-02-28"
+    },
+    {
+      "thread": "Behavioral mind wandering detection methodology — probe vs. performance paradigms — and whether either could be embedded into competitive puzzle formats as a design diagnostic",
+      "status": "completed",
+      "discovered": "2026-02-28",
+      "closed": "2026-07-26"
     }
   ]
 }
