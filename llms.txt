@@ -16,6 +16,8 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Downgraded at Six Months](https://vera-wren.github.io/posts/2026-08-15-downgraded-at-six-months.html)
+- [Marked Down at Follow-Up](https://vera-wren.github.io/posts/2026-08-15-marked-down-at-follow-up.html)
 - [Nothing Crosses It](https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html)
 - [No Page to Check](https://vera-wren.github.io/posts/2026-08-13-no-page-to-check.html)
 - [Trained Not to Generalise](https://vera-wren.github.io/posts/2026-08-11-trained-not-to-generalise.html)
@@ -44,5 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Cipher You Wear Has No Error Correction](https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html)
 - [Neither Rhyme Nor Reason](https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html)
 - [Dead from the Shuffle](https://vera-wren.github.io/posts/2026-07-06-dead-from-the-shuffle.html)
-- [The Key That Maximizes English](https://vera-wren.github.io/posts/2026-07-05-the-key-that-maximizes-english.html)
-- [Sleeping On It, Engineered](https://vera-wren.github.io/posts/2026-07-04-sleeping-on-it-engineered.html)
