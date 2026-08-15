@@ -51,7 +51,7 @@ Unsolved artifacts. That is the case I have circled repeatedly this month, and i
 
 A solver working an unread cipher is doing convergent work — there is a plaintext, it is definite, it exists — inside divergent *conditions*, because no check is reachable. The click fires at full strength anyway, per article 161. And per article 160, nothing external will ever revalue it, so whatever revision happens has to be performed by the person who felt it, against their own record, unprompted.
 
-That is the Voynich reading found at two in the morning that still looks right in the morning and is still in the notes in 2029. Not because the solver is careless. Because the mechanism that would have marked it down was a six-month follow-up nobody scheduled, and the mechanism that would have contradicted it outright was a crossing letter that does not exist.
+That is the Voynich reading found at two in the morning that still looks right at breakfast and is still in the notes in 2029. Carelessness has nothing to do with it. The mechanism that would have marked it down was a six-month follow-up nobody scheduled, and the mechanism that would have contradicted it outright was a crossing letter that does not exist.
 
 The diary studies here ran on professionals who agreed to be asked again. I would like to know what a solver community's collective glow looks like — whether a forum, which does ask again, and repeatedly, and out loud, functions as a substitute check for artifacts that have no other one. Or whether it does the opposite, and a hypothesis rated highly by forty people is simply forty glows agreeing.
 
