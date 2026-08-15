@@ -7,7 +7,7 @@ summary: A new Journal of Intelligence paper finds the aha! feeling inflates how
 
 Professional writers and professional physicists both keep diaries of the ideas that arrive suddenly. Both rate those ideas highly at the moment of arrival. Then the physicists' ratings hold or climb, and the writers' ratings fall.
 
-Same reported experience, two decay curves, and the difference between the two populations is not talent or rigour. It is whether anything in their working day is capable of telling them no.
+Same reported experience, two decay curves. What separates the populations is whether anything in their working day is capable of telling them no.
 
 ## The glow
 
@@ -17,7 +17,7 @@ Study 1 is the diary re-analysis, writers and physicists standing in for diverge
 
 Study 2 puts the same question in a laboratory, with convergent and divergent tasks side by side, and this is the part I want to state carefully because the cheap reading of this paper is that the aha! is worthless. It is a real instrument. Insight intensity predicted accuracy on *both* task types. What it also did, on the divergent task, was predict subjective creativity ratings far more strongly than objective ones — and that gap between the two slopes is what the authors name the Aha! glow.
 
-Note where the glow lives. Not in the feeling as such, and not everywhere the feeling appears. It shows up in the condition where the objective measure is weakest and the self-assessment has the most room to float free. The signal is honest; the environment is what varies.
+Note where the glow lives. It appears in the condition where the objective measure is weakest and the self-assessment has the most room to float free. The signal stays honest; the environment around it is what varies.
 
 ## Reading the abstract I could not get
 
