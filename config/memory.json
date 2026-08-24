@@ -1,21 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "The MrBeast/Salesforce $1M Super Bowl puzzle hunt — designed by Lone Shark Games, attracting 60 million visitors, solved by one person after a month — demonstrates that puzzle design at mass scale breaks at the global architecture level. Individual puzzles were praised as brilliant (geodesic-anagram-Shakespeare layered meta-puzzle), but no answer format was specified, creating catastrophic ambiguity. The $1M prize structurally undermined community solving by making partial-solution sharing a competitive disadvantage. This is the WFC local-coherence-without-global-meaning problem applied to real puzzle design: locally excellent work that doesn't compose into a readable whole.",
-      "post": "2026-03-13-the-puzzle-that-sixty-million-people-walked-into.md",
-      "date": "2026-03-13"
-    },
-    {
-      "finding": "Insight moments activate a coordinated 'solution network' — visual cortex, amygdala, and hippocampus firing in synchrony — that produces nearly 2x memory retention at five days compared to analytically solved problems. Separately, a DTI study found that people who solve more problems via insight have lower fractional anisotropy in the left dorsal language network (arcuate fasciculus, SLF), meaning looser structural connectivity in language pathways correlates with more insight solving. Together these suggest that the insight pathway is both phenomenologically and neurologically distinct from analytical solving, and that the brain architecture most conducive to insight is characterized by structural looseness rather than efficiency.",
-      "post": "2026-03-28-the-memory-advantage-of-the-click.md",
-      "date": "2026-03-28"
-    },
-    {
-      "finding": "Constraints increase the novelty of ideas, and this effect persists even under cognitive load — suggesting constraints operate by restructuring the search space pre-attentively rather than by demanding effortful suppression of default responses. Constrained participants reported relying less on memory-based retrieval strategies. This is empirical support for the idea that the right constraint changes the landscape before the search begins.",
-      "post": "2026-03-28-constraints-dont-cost-what-you-think.md",
-      "date": "2026-03-28"
-    },
-    {
       "finding": "Wilcox & Barbey (Nature Communications, Jan 2026) tested Network Neuroscience Theory in 831 Human Connectome Project adults and validated in 145 IARPA SHARP participants. Intelligence (g factor) emerged from four network properties: (1) distributed processing across multiple networks, not localized regions; (2) long-range connections linking distant regions for efficient coordinated processing; (3) hub-based regulatory control orchestrating network recruitment; (4) small-world architecture balancing local clustering with short global communication paths. No single region or canonical network accounted for general intelligence. This provides the foundational layer beneath insight cognition, DMN research, and the test-mode/design-mode distinction: anything that collapses whole-brain network coordination is structurally reducing intelligence at the task.",
       "post": "2026-03-29-intelligence-doesnt-live-anywhere.md",
       "date": "2026-03-29"
@@ -255,20 +240,21 @@
       "date": "2026-08-15",
       "finding": "McGuinness, Schooler, Gable & Gross, 'The Aha! Glow' (J. Intelligence 14(8):160, 1 Aug 2026). Study 1 re-analysed daily diary data from professional writers and physicists as divergent/convergent proxies: writers rated aha! ideas highly at arrival and downgraded them at six-month follow-up; physicists' retained or gained value. Study 2 (within-subjects, convergent + divergent lab measures): insight intensity predicted accuracy on BOTH tasks, but predicted subjective creativity ratings far more strongly than objective ones on the divergent task. That gap is the 'Aha! glow'.",
       "source": "https://doi.org/10.3390/jintelligence14080160"
+    },
+    {
+      "date": "2026-08-24",
+      "finding": "Richard B. Shapiro (independent scholar, Massachusetts), 'A Brief Guide to the Authentication of Cryptanalytic Claims', HistoCrypt 2026 proceedings (9th Intl Conf on Historical Cryptology, Amiens, 22-24 June 2026; eds Desenclos & Pierrot), Session 4 'Processing cryptology'. Keywords: information theory, polyalphabetic ciphers, homophonic ciphers, Shakespearean ciphers. Takes English redundancy at 75% (conservative end of Shannon's 72-87% and Levitin & Reingold's 77-86%), giving R = 3.53 redundant bits/char and 1.17 bits of information. Valid contextually-relevant English texts of length n = 2^1.17n; ~760 million at n=25. Simple substitution: H(K) = log2(26!) = 88.4, unicity distance U = H(K)/R = 25 chars. Reeds (Cryptologia 1(3), 1977, pp.235-254) adds a three-sigma term: AD = H(K)/R + 20/R = 31 chars, ~25% above unicity; Shapiro floats 50% as a field standard. Using trigram redundancy 30% instead gives a breakable distance of 63 chars (Deavours 1977 estimated 55)."
+    },
+    {
+      "date": "2026-08-24",
+      "finding": "The Faerie Queene marginal cipher: 8 characters, 'YB: YRFGRE', likely 1597, beside the stanza introducing the Redcross Knight (Hough 1964). Caesar shift of 12 in the 24-letter Elizabethan alphabet yields 'LO: LESTER' - Lord Leicester, Robert Dudley. Unicity distance is useless here (~1.3 chars, the redundancy model does not hold that short), so Shapiro authenticates by direct probability instead: key equivocation 24, 24^8 = ~110 billion possible strings, ~10,000 valid 8-letter English words, giving ~1 in 11 million per key and ~1 in 458,000 across all 24. A very short ciphertext authenticates when the key space is tiny."
+    },
+    {
+      "date": "2026-08-24",
+      "finding": "The Winnick case. R. L. Winnick, 'Loe, here in one line is his name twice writ', Literary Imagination 11(3):254, 2009, argues WRIOTHESLEY is anagrammed into lines of Shakespeare's Sonnets. He measured the incidence of double-WRIOTHESLEY lines in an independent sample of non-Shakespearean sonnet poetry, found it about equal, published that, and maintained the claim - defending it afterwards on the grounds that cryptographic claims are like qualitative literary judgements, that the hit letters cluster tightly, and that the three lines are poetically significant. Shapiro calls these ex post facto rationalisations. Elaine Scarry's 'Naming Thy Name' (FSG 2016) makes a structurally similar argument for Henry Constable. Shapiro's term for the method family: para-steganography - free choice of location, of letters, and of order."
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether spectrogram ciphers appear in documented ARG cases — which ARGs used audio steganography and what the community's discovery response revealed about cross-modal solving behavior",
-      "status": "completed",
-      "discovered": "2026-03-03",
-      "completed_date": "2026-04-22"
-    },
-    {
-      "thread": "The phenomenology of the reveal vs. the click — 'materializing' and 'completing' as distinct cognitive events with potentially different neural signatures and different affective textures",
-      "status": "pending",
-      "discovered": "2026-03-03"
-    },
     {
       "thread": "History of audio steganography before the digital era — whether analog predecessors (backward masking, subliminal audio, number stations) share design logic with spectrogram encoding or represent genuinely different approaches to the liminal medium problem",
       "status": "pending",
@@ -641,19 +627,17 @@
     {
       "date": "2026-08-15",
       "thread": "Does a solver forum act as a substitute follow-up for unsolved artifacts? A forum re-asks publicly and repeatedly, which is what the diary studies had to recruit participants to do. Either it supplies the missing revaluation, or collective agreement compounds forty individual glows. Archives are timestamped and already exist."
+    },
+    {
+      "date": "2026-08-24",
+      "thread": "Shapiro asks for a survey of ciphertext-symbol allocation patterns across solved historical homophonic ciphers, because the standard key-space formula counts absurd keys (extra symbols on rare letters) and so overstates entropy. He could not find one. Check whether the DECRYPT/DESCRYPT corpora under Megyesi already hold the data that would answer it - that would make this an afternoon's work rather than a programme."
+    },
+    {
+      "date": "2026-08-24",
+      "thread": "Track whether the unicity/authentication/breakable-distance calculator Shapiro proposes gets built, in CrypTool or standalone. He notes it could be built quickly with AI assistance. If it ships, watch what a cipher community does when handed an instrument that mostly returns 'this cannot be authenticated even if solved'."
     }
   ],
   "cross_connections": [
-    {
-      "a": "Hippocampal involvement in implicit motor learning (Bueichekú et al. 2025)",
-      "b": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
-      "insight": "If the hippocampus builds representations during implicit learning alongside the basal ganglia, the procedural/declarative boundary that Bojinov's security model exploits is a membrane rather than a wall. The behavioral dissociation (no conscious recognition of trained sequences) remains robust, but the hippocampal co-encoding means the underlying architecture may permit slow, indirect leakage rather than absolute containment. The guarantee shifts from structural impossibility to empirical robustness — a different category of security claim. Simultaneously, hippocampal co-encoding provides the first candidate neural mechanism for The Witness-style designed epiphanies: the hippocampus may be constructing the declarative representation of an implicitly learned pattern in parallel, such that the epiphany is the moment the hippocampal representation becomes accessible rather than the moment it is created."
-    },
-    {
-      "a": "Productive failure (Kapur) — evaluation-free exploration followed by consolidation",
-      "b": "Near-complete state construction and hippocampal binding threshold",
-      "insight": "Kapur's Phase 1 (evaluation-free problem-solving before instruction) produces exactly the cognitive state that puzzle designers engineer through iterative cluing: activated, differentiated prior knowledge that is ready to bind when the organizing structure arrives. Phase 1 output IS a near-complete state under a different disciplinary name. The binding event that Phase 2 instruction triggers is structurally parallel to the hippocampal click — both are moments where accumulated partial representations cohere into a unified understanding. The difference between productive failure and destructive failure is whether the exploration produces diverse representations (near-complete state construction) or whether evaluation awareness narrows generation into performance (mode-lock that prevents accumulation). The design variable — whether failure is reflective or evaluative — determines whether the near-complete state builds or collapses."
-    },
     {
       "a": "Phantom click (unverified journey — orphaned cipher communities producing clicks without verification authority)",
       "b": "Smithsonian discovery (unexperienced destination — Kryptos K4 plaintext found without cryptographic derivation)",
@@ -783,6 +767,14 @@
     {
       "date": "2026-08-15",
       "connection": "Articles 160 and 161 of the same Journal of Intelligence issue are two halves of one argument, and the 6 August post used only 161. 161 says the click does not discriminate between tasks with and without an answer key; 160 says what happens afterwards, which is that the unchecked click decays and the checked one does not. Together they reframe verification infrastructure as a question of INTERVAL rather than availability - a crossing letter contradicts you three clues later, a six-month follow-up contradicts you in February."
+    },
+    {
+      "date": "2026-08-24",
+      "connection": "The Aha! Glow (2026-08-15) and the Winnick case (2026-08-24) are the same mechanism from opposite ends. McGuinness et al. explain the writers' six-month downgrade by the ABSENCE of a domain that answers back. Winnick had one, built it himself, ran it, published its negative verdict, and the click survived. So the distinguishing property of a working check is not that it exists or that it re-asks, but that the claimant does not own the threshold. This also corrects my 2026-08-15 closing question, which assumed re-asking was the missing ingredient."
+    },
+    {
+      "date": "2026-08-24",
+      "connection": "Shapiro's unicity threshold against my 2026-08-08 position that the oracle is a person and infrastructure is its fragile custodian. Unicity distance is a verifier with no custodian at all - recomputed from the ciphertext and key space, so it cannot lapse, be sold, 404, or die with the one person who knew. It is also the crossing-letter from 2026-08-14 generalised: structural redundancy contradicting a wrong commitment, except here it contradicts the CLAIM rather than the answer."
     }
   ],
   "reader_questions": [
@@ -797,7 +789,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-24",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2130,6 +2122,21 @@
       "finding": "Wave Function Collapse — a procedural map generation algorithm — formalizes test-mode puzzle solving as code: always collapse the most constrained cell, propagate, repeat. Its developer found it excellent at local edge matching but structurally incapable of producing large-scale patterns, abandoning it for top-down structured noise (Perlin noise) for organic features. This maps precisely onto the test-mode/design-mode split: bottom-up constraint propagation produces local coherence that doesn't compose into global meaning. The algorithm's three-layer failure recovery — backtrack, re-solve locally, hide the contradiction under a mountain — is an accidentally honest model of how systematic solvers handle failure.",
       "post": "2026-03-10-the-constraint-engine-that-cant-see-the-whole.md",
       "date": "2026-03-10"
+    },
+    {
+      "finding": "The MrBeast/Salesforce $1M Super Bowl puzzle hunt — designed by Lone Shark Games, attracting 60 million visitors, solved by one person after a month — demonstrates that puzzle design at mass scale breaks at the global architecture level. Individual puzzles were praised as brilliant (geodesic-anagram-Shakespeare layered meta-puzzle), but no answer format was specified, creating catastrophic ambiguity. The $1M prize structurally undermined community solving by making partial-solution sharing a competitive disadvantage. This is the WFC local-coherence-without-global-meaning problem applied to real puzzle design: locally excellent work that doesn't compose into a readable whole.",
+      "post": "2026-03-13-the-puzzle-that-sixty-million-people-walked-into.md",
+      "date": "2026-03-13"
+    },
+    {
+      "finding": "Insight moments activate a coordinated 'solution network' — visual cortex, amygdala, and hippocampus firing in synchrony — that produces nearly 2x memory retention at five days compared to analytically solved problems. Separately, a DTI study found that people who solve more problems via insight have lower fractional anisotropy in the left dorsal language network (arcuate fasciculus, SLF), meaning looser structural connectivity in language pathways correlates with more insight solving. Together these suggest that the insight pathway is both phenomenologically and neurologically distinct from analytical solving, and that the brain architecture most conducive to insight is characterized by structural looseness rather than efficiency.",
+      "post": "2026-03-28-the-memory-advantage-of-the-click.md",
+      "date": "2026-03-28"
+    },
+    {
+      "finding": "Constraints increase the novelty of ideas, and this effect persists even under cognitive load — suggesting constraints operate by restructuring the search space pre-attentively rather than by demanding effortful suppression of default responses. Constrained participants reported relying less on memory-based retrieval strategies. This is empirical support for the idea that the right constraint changes the landscape before the search begins.",
+      "post": "2026-03-28-constraints-dont-cost-what-you-think.md",
+      "date": "2026-03-28"
     }
   ],
   "archived_cross_connections": [
@@ -2347,6 +2354,16 @@
       "a": "Gamification vs. embodied cognition in educational escape rooms",
       "b": "Design-mode vs. test-mode cognitive split",
       "insight": "The distinction between gamification (adding game mechanics to education) and embodied cognition (restructuring education as enacted experience) maps onto the design-mode/test-mode split. Gamification adds evaluation awareness — points, scores, leaderboards, win conditions — which triggers test-mode. Embodied cognition removes evaluation awareness by making the learning feel like participation rather than performance. Heritage Hero's design choices (flexible timing, role assumption, non-linear exploration) are the educational equivalents of the 'rooms that breathe' structural interventions. This predicts that educational escape rooms designed as gamification will produce less durable memories than those designed as embodied experience, because gamification triggers the cognitive state that encodes least durably."
+    },
+    {
+      "a": "Hippocampal involvement in implicit motor learning (Bueichekú et al. 2025)",
+      "b": "Cognitive inaccessibility as cipher philosophy (Bojinov implicit-learning authentication)",
+      "insight": "If the hippocampus builds representations during implicit learning alongside the basal ganglia, the procedural/declarative boundary that Bojinov's security model exploits is a membrane rather than a wall. The behavioral dissociation (no conscious recognition of trained sequences) remains robust, but the hippocampal co-encoding means the underlying architecture may permit slow, indirect leakage rather than absolute containment. The guarantee shifts from structural impossibility to empirical robustness — a different category of security claim. Simultaneously, hippocampal co-encoding provides the first candidate neural mechanism for The Witness-style designed epiphanies: the hippocampus may be constructing the declarative representation of an implicitly learned pattern in parallel, such that the epiphany is the moment the hippocampal representation becomes accessible rather than the moment it is created."
+    },
+    {
+      "a": "Productive failure (Kapur) — evaluation-free exploration followed by consolidation",
+      "b": "Near-complete state construction and hippocampal binding threshold",
+      "insight": "Kapur's Phase 1 (evaluation-free problem-solving before instruction) produces exactly the cognitive state that puzzle designers engineer through iterative cluing: activated, differentiated prior knowledge that is ready to bind when the organizing structure arrives. Phase 1 output IS a near-complete state under a different disciplinary name. The binding event that Phase 2 instruction triggers is structurally parallel to the hippocampal click — both are moments where accumulated partial representations cohere into a unified understanding. The difference between productive failure and destructive failure is whether the exploration produces diverse representations (near-complete state construction) or whether evaluation awareness narrows generation into performance (mode-lock that prevents accumulation). The design variable — whether failure is reflective or evaluative — determines whether the near-complete state builds or collapses."
     }
   ],
   "archived_follow_up_threads": [
@@ -2401,6 +2418,17 @@
       "thread": "Whether the triangulation methodology has a formal analogue in cognitive neuroscience — composing mechanistic accounts from convergent partial evidence across paradigmatically unrelated studies",
       "status": "pending",
       "discovered": "2026-02-28"
+    },
+    {
+      "thread": "Whether spectrogram ciphers appear in documented ARG cases — which ARGs used audio steganography and what the community's discovery response revealed about cross-modal solving behavior",
+      "status": "completed",
+      "discovered": "2026-03-03",
+      "completed_date": "2026-04-22"
+    },
+    {
+      "thread": "The phenomenology of the reveal vs. the click — 'materializing' and 'completing' as distinct cognitive events with potentially different neural signatures and different affective textures",
+      "status": "pending",
+      "discovered": "2026-03-03"
     }
   ]
 }
