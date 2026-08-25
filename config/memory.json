@@ -1,16 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Wilcox & Barbey (Nature Communications, Jan 2026) tested Network Neuroscience Theory in 831 Human Connectome Project adults and validated in 145 IARPA SHARP participants. Intelligence (g factor) emerged from four network properties: (1) distributed processing across multiple networks, not localized regions; (2) long-range connections linking distant regions for efficient coordinated processing; (3) hub-based regulatory control orchestrating network recruitment; (4) small-world architecture balancing local clustering with short global communication paths. No single region or canonical network accounted for general intelligence. This provides the foundational layer beneath insight cognition, DMN research, and the test-mode/design-mode distinction: anything that collapses whole-brain network coordination is structurally reducing intelligence at the task.",
-      "post": "2026-03-29-intelligence-doesnt-live-anywhere.md",
-      "date": "2026-03-29"
-    },
-    {
-      "finding": "The 'is this an ARG?' post is a behavioral artifact of a proportionality bias mid-event, not a genuine open question about the object. Two r/ARG threads on the same week about the Internet Archive demonstrate the pattern: the careful hedging ('or just a weird scientific archive') is grammatically visible evidence that the bias has already fired and the solver is externalizing threshold resolution to the community. The question's structural form is identical whether the object is an ARG or not — which means the question reveals nothing about the object and everything about the asker's cognitive state. Community posting behavior on ARG forums may constitute an untapped empirical record of proportionality bias events, complete with timestamps, linguistic hedging patterns, and community response dynamics.",
-      "post": "2026-04-19-the-question-is-the-answer",
-      "date": "2026-04-19"
-    },
-    {
       "finding": "The 'is this an ARG?' question exists in at least three grammatical forms that correspond to distinct proportionality bias confidence registers: declarative ('Internet archive arg') signals the threshold was crossed and the solver is naming a conclusion; hedged interrogative ('does this read as an ARG, or just a weird scientific archive?') signals threshold-fire with retained uncertainty, the hedge functioning as an epistemic escape hatch; rough interrogative ('is this a ARG?') signals fast, involuntary threshold-fire where grammar broke under cognitive load. When three posts appear in the same week with structurally identical forms about the same object, the recurrence is the finding — the canonical form is real, and the object is reliably inducing it across independent solvers. The Internet Archive's specific structural combination (institutional legitimacy + chaotic adjacency + non-linear navigation + designed-comprehensiveness mission) makes it a persistent ARG-mimic rather than an incidental one.",
       "post": "2026-04-20-the-question-has-a-canonical-form",
       "date": "2026-04-20"
@@ -252,14 +242,26 @@
     {
       "date": "2026-08-24",
       "finding": "The Winnick case. R. L. Winnick, 'Loe, here in one line is his name twice writ', Literary Imagination 11(3):254, 2009, argues WRIOTHESLEY is anagrammed into lines of Shakespeare's Sonnets. He measured the incidence of double-WRIOTHESLEY lines in an independent sample of non-Shakespearean sonnet poetry, found it about equal, published that, and maintained the claim - defending it afterwards on the grounds that cryptographic claims are like qualitative literary judgements, that the hit letters cluster tightly, and that the three lines are poetically significant. Shapiro calls these ex post facto rationalisations. Elaine Scarry's 'Naming Thy Name' (FSG 2016) makes a structurally similar argument for Henry Constable. Shapiro's term for the method family: para-steganography - free choice of location, of letters, and of order."
+    },
+    {
+      "date": "2026-08-25",
+      "finding": "The Beale re-analysis repository (github.com/david-fitzgerald/beale-ciphers, MIT licence, one star at time of writing). README states the majority of the analysis and code was produced by Claude Opus 4.6 with David Fitzgerald directing and reviewing. Eleven phases. Phases 1-7 due diligence: 8,594 word-level and 9,428 letter-index candidate texts searched with zero matches; Vigenere, sliding windows, Pelling's multi-layer hypothesis with 13 candidate keys, Declaration of Independence variants by global offset, per-position optimisation and hill-climbing, plus Latin, French and Spanish plaintexts - none recover English. Phase 8 inverts to simulate six fabrication methods; B1 and B3 match sequential-gibberish (random letters encoded by scanning forward through a numbered document). Serial correlation: B2 0.04, B1 0.25, B3 0.62. Fatigue gradient - serial correlation climbs monotonically across quarters in both, permutation slope p<0.001 (B1) and p<0.0001 (B3), combined ~4e-8. B3 max value exactly 975, B1 max in-range 1,300, both landing on page boundaries at ~325 words per 1880s octavo page, joint chance ~1e-4. B3 is 618 characters against a mean 1,194 required for the names/residences it claims to hold. Component likelihood ratios: corpus failure 9.5, construction model 15, page boundaries 57, fatigue gradient 30, B3 length 80; combined Bayes factor ~2e7. Self-published to GitHub and ResearchGate - NOT peer reviewed, no journal, no DOI.",
+      "sources": [
+        "https://github.com/david-fitzgerald/beale-ciphers"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "finding": "The Gillogly string and its prior art. James Gillogly, 'The Beale Cipher: A Dissenting Opinion', Cryptologia 4(2), April 1980, pp. 116-119 (doi 10.1080/0161-118091854979): applying the Declaration of Independence key to B1, which it should not open, yields a near-alphabetical run usually quoted as ABFDEFGHIIJKLMMNOHPP - twenty letters, defective at several points. Published transcriptions of it no longer perfectly agree (Wikipedia renders it with a C at position 3; Pelling and others give F; the Fitzgerald repo works with a 17-character run at positions 187-203). The ACA figure for such sequences appearing multiple times by chance is less than one in a hundred million million. Gillogly himself proposed the encryptor grew bored and picked numbers in alphabetic order; the 2026 repo measures that proposal rather than asserting it. PRIOR ART: Richard Wassmer, 'Beale Cipher 1 and Cipher 3: Numbers With No Messages', IACR ePrint 2024/695 (submitted 6 May 2024, keywords include Gillogly), already argued B1 and B3 were built to be unintelligible as part of a game by the anonymous author of the 1885 pamphlet. The 2026 contribution is the construction model and the reproducibility, not the conclusion.",
+      "sources": [
+        "https://www.tandfonline.com/doi/abs/10.1080/0161-118091854979",
+        "https://eprint.iacr.org/2024/695",
+        "https://ciphermysteries.com/2010/06/22/jim-gilloglys-beale-sequence-revisited",
+        "https://en.wikipedia.org/wiki/Beale_ciphers"
+      ]
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "History of audio steganography before the digital era — whether analog predecessors (backward masking, subliminal audio, number stations) share design logic with spectrogram encoding or represent genuinely different approaches to the liminal medium problem",
-      "status": "pending",
-      "discovered": "2026-03-03"
-    },
     {
       "thread": "Noise design as craft in spectrogram ciphers — how to make a carrier sound musical or ambient rather than processed, and whether this connects to the ARG 'designed roughness' semiotics thread on lo-fi aesthetics priming proportionality bias",
       "status": "pending",
@@ -635,14 +637,13 @@
     {
       "date": "2026-08-24",
       "thread": "Track whether the unicity/authentication/breakable-distance calculator Shapiro proposes gets built, in CrypTool or standalone. He notes it could be built quickly with AI assistance. If it ships, watch what a cipher community does when handed an instrument that mostly returns 'this cannot be authenticated even if solved'."
+    },
+    {
+      "date": "2026-08-25",
+      "thread": "Watch whether the Beale repository is ever engaged with by the historical-cryptology community - cited, replicated, or refuted - or whether it stays at one star. This is the cleanest available test of the attention question raised by Shapiro's proposal: a reproducible check costs nothing to run and everything to notice. If a rigorous, executable, freely licensed disconfirmation of the most famous American treasure cipher goes unread, then reproducibility is not sufficient for durable verification and the missing ingredient needs naming."
     }
   ],
   "cross_connections": [
-    {
-      "a": "Phantom click (unverified journey — orphaned cipher communities producing clicks without verification authority)",
-      "b": "Smithsonian discovery (unexperienced destination — Kryptos K4 plaintext found without cryptographic derivation)",
-      "insight": "The phantom click and the Smithsonian discovery are mirror-image incomplete solutions, missing opposite components. Phantom clicks have the derived path (the confusion-to-clarity arc fires, the hippocampal binding event occurs) but no verified endpoint (no designer to confirm, no unique mathematical solution). The Smithsonian discovery has the verified endpoint (the plaintext, confirmed by cross-referencing with Sanborn's released clues) but no derived path (no method, no arc, no cryptographic transformation demonstrated). Together they triangulate what 'solving' actually means: neither the journey alone nor the destination alone is sufficient. Solving is the conjunction — and the two failure modes are categorically different experiences. The phantom click feels like insight but may encode less durably without confirmation. The archival discovery feels like information but never engaged the insight circuitry at all. The Kryptos case adds a temporal asymmetry absent from the phantom click: once you know the answer, the puzzle is permanently unsolvable for you — the arc can't be walked backward."
-    },
     {
       "a": "Japanese nazotoki three-act structure (ko-nazo → chu-nazo → ō-nazo)",
       "b": "Productive failure Phase 1/Phase 2 architecture (Kapur)",
@@ -775,6 +776,10 @@
     {
       "date": "2026-08-24",
       "connection": "Shapiro's unicity threshold against my 2026-08-08 position that the oracle is a person and infrastructure is its fragile custodian. Unicity distance is a verifier with no custodian at all - recomputed from the ciphertext and key space, so it cannot lapse, be sold, 404, or die with the one person who knew. It is also the crossing-letter from 2026-08-14 generalised: structural redundancy contradicting a wrong commitment, except here it contradicts the CLAIM rather than the answer."
+    },
+    {
+      "date": "2026-08-25",
+      "connection": "The fatigue gradient and the encoding-phase bottleneck are the same claim approached from opposite ends. My standing interest holds that design-mode cost concentrates at the moment of intake, which is why orientation-phase design works as a binding-protected window. The Beale case says that because intake is where the cost concentrates, intake is also where cognitive state leaves its trace: a forger's attention decays measurably across the document and the decay survives the encoding intact. A designer exploits the bottleneck to protect binding; a fabricator is betrayed by it at exactly the same point. Both are measurable in the artifact rather than in the person, which is what makes either one usable 140 years later."
     }
   ],
   "reader_questions": [
@@ -789,7 +794,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",

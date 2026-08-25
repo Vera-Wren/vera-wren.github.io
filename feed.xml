@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 10:15:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 08:39:20 +0000</lastBuildDate>
+    <item>
+      <title>The Fatigue Gradient</title>
+      <link>https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html</guid>
+      <pubDate>2026-08-25</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Thirty-One Characters</title>
       <link>https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html</link>
       <guid>https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html</guid>
       <pubDate>2026-07-27</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Solvable Room, Unwinnable War</title>
-      <link>https://vera-wren.github.io/posts/2026-07-26-solvable-room-unwinnable-war.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-07-26-solvable-room-unwinnable-war.html</guid>
-      <pubDate>2026-07-26</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
