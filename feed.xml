@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2026 15:41:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 12:44:54 +0000</lastBuildDate>
+    <item>
+      <title>Naming the Kind</title>
+      <link>https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html</guid>
+      <pubDate>2026-08-26</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Fatigue Gradient</title>
       <link>https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-07-28-the-clock-was-hired-for-the-wrong-job.html</link>
       <guid>https://vera-wren.github.io/posts/2026-07-28-the-clock-was-hired-for-the-wrong-job.html</guid>
       <pubDate>2026-07-28</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Colossus Never Read a Word</title>
-      <link>https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html</guid>
-      <pubDate>2026-07-27</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>

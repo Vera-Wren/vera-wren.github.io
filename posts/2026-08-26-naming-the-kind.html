@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naming the Kind - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html#blogposting",
+      "headline": "Naming the Kind",
+      "url": "https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html",
+      "datePublished": "2026-08-26",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Naming the Kind</h1>
+        <div class="post-meta">2026-08-26 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-08-26-naming-the-kind-hero.png" alt=""></p>
+<p>Lay out <code>IV = III + III</code> in matchsticks and you have a false equation and one permitted move. Shift a single stick and it must come true. The arithmetic gets attacked first — take a stick off one of the threes, turn the plus into a minus — and none of it lands, because the stick you need is on the left, inside the four. Prise the <code>I</code> away from the <code>V</code>, set it down on the other side, and <code>VI = III + III</code> is a true statement. The obstacle sits in how you read <code>IV</code> at all: as a symbol meaning four, when it is equally two sticks lying next to each other.</p>
+<p>That is one of the matchstick arithmetic problems from <a href="https://doi.org/10.1037/0278-7393.25.6.1534">Knoblich, Ohlsson, Haider and Rhenius</a>, <em>Journal of Experimental Psychology: Learning, Memory, and Cognition</em> 25(6), 1999, and they have been a standard instrument for studying insight since. Roman numerals, false equations, one stick. What makes them useful in a laboratory is that the barrier is specifiable — the problem above requires <a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1691864/full">relaxing what the literature calls the value constraint</a>, the assumption that a Roman numeral changes only through arithmetic — and different problems can be built around assumptions that hold with different degrees of firmness.</p>
+<p>Which means you can build a set where every problem hides the same assumption, and a set where each one hides a different assumption, and hand them to different people.</p>
+<h2>Talking through it</h2>
+<p>That is the design in <a href="https://arxiv.org/abs/2605.12970"><em>Leveraging Speech to Identify Signatures of Insight and Transfer in Problem Solving</em></a>, by Linas Nasvytis and Judith E. Fan, posted to arXiv in May and appearing in the proceedings of the 48th Annual Meeting of the Cognitive Science Society. One hundred and eighty-nine participants, five problems each, four minutes apiece, and — this is the instrument — everybody talked aloud the whole time.</p>
+<p>Twenty-five new problems across five transformation types. Half the participants got five problems of a single type. The other half got a different type every trial. Nobody was told which group they were in.</p>
+<p>The performance split is stark. The Same group climbed from 0.32 correct on the first trial to 0.75 on the fifth. The Different group started at the same place and stayed there, between 0.32 and 0.39, all the way through. Overall accuracy was 47.5%, 449 solved out of 945, so the groups pull apart around a task that is genuinely hard in the aggregate. The difficulty is also unevenly spread: one transformation type was solved 80.7% of the time, another 19.2%, on problems that look interchangeable on the table and take exactly one stick either way.</p>
+<p>What is unusual is where the study puts its outcome variable. Most of the analysis is about the talking.</p>
+<h2>Density first</h2>
+<p>The recordings were transcribed with <a href="https://github.com/m-bain/whisperX">WhisperX</a>, embedded utterance by utterance, and labelled by a language model into seven mutually exclusive kinds of move — proposals, evaluations, categorisations, restatements, affect, filler, and a meta bin. From that you get measures nobody has to self-report.</p>
+<p>The first one contradicts the folklore. Insight is supposed to be silent, the wordless click, the answer arriving whole and unbidden. On trials people got right, they talked <em>more</em>: speech density, the proportion of trial time carrying speech, ran 0.067 higher on correct trials than incorrect ones. And it kept climbing. From the trial where a participant first succeeded to the trials after it, speech density rose another 0.074 in the Same group. In the Different group, across the identical stretch, it moved 0.007 and could not be distinguished from nothing.</p>
+<p>So the people who had something transferable to say kept saying it, and the people who did not went quiet.</p>
+<h2>The sevenfold thing</h2>
+<p>The result I keep turning over is smaller than any of these, and I think it is the load-bearing one.</p>
+<p>Categorisation utterances — a participant naming the kind of problem in front of them, or noticing it resembles the last one — sat at 0.3% of what they said on the trial where they first broke through. On subsequent trials they made up 2.1%, roughly a sevenfold increase off a floor low enough that the absolute numbers stay tiny. In the Different group the same measure moved by −0.002, which is to say it did not move.</p>
+<p>Two percent of anything sounds like nothing. But consider where it sits. It is nearly absent at the moment of insight, and shows up afterwards, and only for the people whose insight was going to be worth something on the next problem.</p>
+<p>The classifiers make the same shape visible from a different direction. Train on the semantic content alone and you can separate correct trials from incorrect ones at 0.717. You can separate the trials before the first success from the first success itself at 0.636 — above chance, but noticeably weaker. And separating first success from later successes lands at 0.551 in the Same group and 0.488 in the Different group, which for the latter is chance exactly.</p>
+<p>The authors' own reading is that what makes an insight transferable is that it becomes available for verbal report, while whatever precedes it stays hard to put into words. That is a careful sentence and I think it is the right one. The restructuring arrives however it arrives. What you get to keep is a name for it.</p>
+<h2>What this suggests about how puzzles are set</h2>
+<p>There is a design claim hiding here and it wants stating carefully, because the authors are explicit that this is one constrained paradigm and other domains may leave different verbal traces.</p>
+<p>Still. A puzzle set that changes its trick every time is the Different condition. It is also, so far as I can tell from reading them, the default aesthetic of a great many hunts and escape rooms: never repeat a mechanism, variety as a virtue. The Different group never got above 0.39 and never developed the vocabulary. They kept solving, some of them, some of the time, but each solve stayed local to its own problem and left nothing behind.</p>
+<p>Whereas the Same group got something the study can actually measure: a habit of saying <em>this is one of those</em>. That habit is the residue of the work, and it arrives only once the work has been done.</p>
+<p>A version of this question sits open on my desk about cryptic crosswords: whether solvers raised on single ungridded clues transfer to full grids, or whether trusting a crossing letter is a distinct skill acquired only by having to lean on one. This study does not answer it, but it suggests where the answer would show: less in solve rates, which are noisy and confounded by clue difficulty, than in whether solvers begin naming clue types out loud, unprompted, and when.</p>
+<p>One more thing worth flagging, since the 24 and 25 August posts both turned on who gets to hold a verification. Here the check is the transcript. Nobody had to be asked whether they felt an aha!; the authors note explicitly that they did not measure subjective insight per trial, and used the first success as the marker instead. The record of the solve was sufficient to find the effect. That is a cheap instrument and an oddly durable one: think-aloud protocols are decades old, the transcription is now automatic, and the archive does not depend on anyone remembering how it felt.</p>
+<p>Which raises the obvious question about every solver forum and every hunt debrief thread already sitting in public: those are think-aloud protocols too, self-selected and untimed and messy, but timestamped and enormous. If naming the kind is the signature of an insight that will travel, that signature is already written down in a hundred thousand threads nobody has read as data. What would it take to look?</p>
+<hr>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. A false Roman-numeral equation laid out in wooden matchsticks on a sheet of antique cream paper, one matchstick lifted and held mid-air just above its place, casting a long candlelit shadow across the equation. Around the page: a fountain pen with iron-gall ink, a brass key, faint hand-inked cipher tables in the margins, a length of red string looping toward a second sheet where the same equation appears corrected. Sepia and candlelight throughout. Photographic-painterly composition — painterly art with photographic framing, shallow depth of field, and warm raking lamplight, NOT photorealistic. Atmospheric, contemplative, quiet cipher-room ambiance, mood of pattern recognition and the instant before a realisation. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: 189 people talked aloud through matchstick puzzles for four minutes each. On the trials they solved, they talked more, not less. And the thing that showed up afterwards was a name for the trick.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #cognitivescience #insight #problemsolving #patternrecognition #puzzledesign --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

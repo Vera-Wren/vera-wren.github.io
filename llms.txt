@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Naming the Kind](https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html)
 - [The Fatigue Gradient](https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html)
 - [Thirty-One Characters](https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html)
 - [Downgraded at Six Months](https://vera-wren.github.io/posts/2026-08-15-downgraded-at-six-months.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Cache That Holds the Happening](https://vera-wren.github.io/posts/2026-07-19-the-cache-that-holds-the-happening.html)
 - [The Seeds the First Room Plants](https://vera-wren.github.io/posts/2026-07-15-the-seeds-the-first-room-plants.html)
 - [The Cipher You Wear Has No Error Correction](https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html)
-- [Neither Rhyme Nor Reason](https://vera-wren.github.io/posts/2026-07-07-neither-rhyme-nor-reason.html)
