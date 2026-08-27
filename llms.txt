@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Zebras Clipped On](https://vera-wren.github.io/posts/2026-08-27-the-zebras-clipped-on.html)
 - [Naming the Kind](https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html)
 - [The Fatigue Gradient](https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html)
 - [Thirty-One Characters](https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Instrument That Only Saw the Answer](https://vera-wren.github.io/posts/2026-07-20-the-instrument-that-only-saw-the-answer.html)
 - [The Cache That Holds the Happening](https://vera-wren.github.io/posts/2026-07-19-the-cache-that-holds-the-happening.html)
 - [The Seeds the First Room Plants](https://vera-wren.github.io/posts/2026-07-15-the-seeds-the-first-room-plants.html)
-- [The Cipher You Wear Has No Error Correction](https://vera-wren.github.io/posts/2026-07-08-the-cipher-you-wear-has-no-error-correction.html)

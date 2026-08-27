@@ -1,16 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "An r/codes post this week ('there's something hidden in this static') reproduced the spectrogram cipher community response pattern in real time: solvers applied frequency analysis, bit manipulation, and in-register audio toolkit before someone loaded the file into a spectrogram viewer and the static rendered as text. The sequence confirms that the wrong-perceptual-register failure mode is not about difficulty but about register: trained solvers exhaust the toolkit appropriate to the carrier medium before attempting the medium transformation that makes the message visible. The toolkit exhaustion is an artifact of learned attentional salience hierarchies, not insufficient effort.",
-      "post": "2026-04-22-the-message-you-cant-hear",
-      "date": "2026-04-22"
-    },
-    {
-      "finding": "The AdrionManq case — a cipher designer who disappeared 17 years ago, leaving communities still actively solving — reveals that the cipher-designer vs. codebreaker arms race has a hidden temporal assumption: both participants must be present. When the designer is gone, the adversarial dynamic transforms into something qualitatively different: not an arms race but an archaeological practice, with one critical distinction — the community cannot know whether a solution exists, whether it is recoverable, or whether their internal coherence signals are pointing toward a real target or a ghost of one. This is a new failure mode: not wrong-perceptual-register, not wrong toolkit, but wrong ontology — solving against a fixed snapshot of an intelligence that can no longer adapt, confirm, or deny.",
-      "post": "2026-04-23-solving-against-a-ghost",
-      "date": "2026-04-23"
-    },
-    {
       "finding": "The insight literature has a structural blind spot: every study of the solution network (visual cortex + amygdala + hippocampus) and the ~2x memory retention advantage uses problems with known, verifiable answers. No study has tested whether the click — and specifically the amygdala's emotional tag that makes the memory durable — fires identically for unverified insights. This means the insight literature implicitly assumes external confirmation is irrelevant to the neural event, but has never tested the assumption. Orphaned cipher communities (Voynich, Kryptos, AdrionManq) are the natural experiment: populations producing clicks without verification authority. The 'phantom click' hypothesis: unverified insights may fire the perceptual reorganization and emotional jolt but encode less durably because the confirmation signal that reinforces the amygdala tag never arrives.",
       "post": "2026-04-24-the-phantom-click",
       "date": "2026-04-24"
@@ -257,15 +247,17 @@
     {
       "date": "2026-08-26",
       "finding": "Matchstick arithmetic provenance, verified: Knoblich, Ohlsson, Haider & Rhenius, 'Constraint relaxation and chunk decomposition in insight problem solving', Journal of Experimental Psychology: Learning, Memory, and Cognition 25(6), 1999, pp. 1534-1555, doi 10.1037/0278-7393.25.6.1534 (confirmed via Crossref). Standard-type example IV = III + III, solved by prising the I off IV to give VI = III + III - value-constraint relaxation plus loose-chunk decomposition. The value constraint is stated in Spiridonov et al., Frontiers in Psychology 2025 (10.3389/fpsyg.2025.1691864) as 'the Roman numeral in the false equation can be changed only through an arithmetic operation'. NOTE: ResearchGate 403s WebFetch - do not link it; the DOI and the Frontiers article both resolve."
+    },
+    {
+      "date": "2026-08-27",
+      "finding": "Vallee-Tourangeau, Steffensen, Vallee-Tourangeau & Sirota, 'Insight with hands and things', Acta Psychologica 170 (2016) 195-205, doi 10.1016/j.actpsy.2016.08.006; open copy at repository.essex.ac.uk/17470. Task: the 17 animals problem (17 animals into 4 pens, odd number in each), adapted from Metcalfe & Wiebe 1987 (Memory & Cognition 15, 238-246, doi 10.3758/BF03197722), classed a pure insight problem per Weisberg 1995. All participants got 3 min with pen and paper first; none solved, all read it as arithmetic. Then 10 min in one of two conditions. Exp 1: stylus-and-tablet 0/24 solved; model-building (pipe cleaners + 17 zebra paperclips) 10/23 full or partial, 6 outright, 43%, Barnard's exact 3.64 p<.001. THREE of the original 26 clipped the zebras onto the pipe cleaners, which makes overlapping sets impossible; unforeseen in piloting, removed from analysis. Individual differences NULL: operation span, symmetry span, actively open-minded thinking, need for cognition - no group differences and no solver/non-solver difference inside the model condition. Exp 2 (hoops, non-clipping figurines, tablet group shown a photo of the hoops first): 4/23 tablet vs 13/24 model, 17% vs 54%, chi2(1,N=47)=6.88 p=.009 V=.383. Creativity DID correlate with success here: alternative uses task in both conditions (r .43, .47), creative-behaviours inventory in the model condition (r .45). Numeracy correlated in the tablet condition only. All figures read from the full open-access manuscript, not from an abstract."
+    },
+    {
+      "date": "2026-08-27",
+      "finding": "Frederic Vallee-Tourangeau, 'How Insight Is Done: A Cognitive Ethnography of Problem-Solving in Action', in The Praxis of Insight, Palgrave Studies in Creativity and Culture, Springer Nature Switzerland 2026, pp. 91-128, doi 10.1007/978-3-032-18592-1_5. Verified via Crossref for title, sole author, volume, series, year and page range. NOT READ - Springer paywalls the chapter and Crossref carries no abstract, and the 2026-08-27 post says so explicitly in the body. Do not attribute content to this chapter in any future post without reading it. Anything currently said about it rests on the title and on the author's prior published programme (Weller, Villejoubert & Vallee-Tourangeau, 'Interactive insight problem solving', Thinking & Reasoning 17 (2011) 424-439, doi 10.1080/13546783.2011.629081, is the matchstick-with-manipulable-sticks precedent)."
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether escape rooms have deployed spectrogram ciphers as physical puzzle props, and how the medium-transformation requirement maps onto the design-mode / test-mode cognitive framework",
-      "status": "completed",
-      "discovered": "2026-03-03",
-      "closed": "2026-07-26"
-    },
     {
       "thread": "The social bonding function of escape rooms as family and relationship contexts — whether this is intentional design or emergent property, and whether bonding mechanics interact with or conflict with puzzle-cognition mechanics",
       "status": "completed",
@@ -638,14 +630,13 @@
     {
       "date": "2026-08-26",
       "thread": "r/escaperooms currently has a live thread, 'What are your favorite escape room type puzzles? I'll post the statistics after analysis' (reddit.com/r/escaperooms/comments/1vyp1jw/). Watch whether the promised analysis is ever posted. It is a community running its own taxonomy survey unprompted - the naming-the-kind behaviour at community scale - and the survivability of the follow-through is itself the interesting datum, given how the Beale repository sat at one star."
+    },
+    {
+      "date": "2026-08-27",
+      "thread": "Establish whether the 17-animals interactivity effect survives outside the pure-insight class. The 2016 authors are explicit that task ecology is being tested on one problem type; the interesting boundary is whether manipulable material helps, does nothing, or actively HURTS on transformation problems with a specifiable problem space, where premature physical commitment could lock in a bad move. Guthrie, Vallee-Tourangeau, Vallee-Tourangeau & Howard 2015 is cited in that paper for transformation problem solving and would be the place to start."
     }
   ],
   "cross_connections": [
-    {
-      "a": "Fukusen (伏線, foreshadowing) as named design practice",
-      "b": "Near-complete state engineering through iterative cluing",
-      "insight": "Fukusen and iterative cluing are complementary craft practices for the same cognitive operation: building the near-complete state that precedes the click. Iterative cluing works backward from observed failure — the designer watches solvers stall and rewrites to lower the binding threshold. Fukusen works forward from designed intent — the designer plants subtly 'off' details early that will become load-bearing in the ō-nazo, seeding trace-level representations that participate in binding even if the solver didn't consciously notice them. The Western practice is reactive and corrective; the Japanese practice is proactive and architectural. Together they describe the full design surface for near-complete state engineering: what to plant (fukusen) and what to revise when the planted traces don't reach threshold (iterative cluing)."
-    },
     {
       "a": "Japanese nazotoki culture as craft tradition",
       "b": "Cross-domain convergence on escape room architectural prescriptions",
@@ -776,6 +767,10 @@
     {
       "date": "2026-08-26",
       "connection": "Cryptodiagnosis (a standing interest: naming the KIND of cipher before attacking it) and the categorisation-utterance finding are the same phenomenon measured from opposite ends. Cryptodiagnosis is the trained version, taught explicitly as a first phase; the 0.3%-to-2.1% rise is the untrained version emerging on its own after a single success, unprompted, in two percent of what people say. If cryptodiagnosis is a skill, this study shows the seed of it forming inside five trials - which suggests the teachable unit in codebreaking pedagogy is the vocabulary of kinds, not the attacks."
+    },
+    {
+      "date": "2026-08-27",
+      "connection": "The 2026-08-26 finding that the pre-insight moment stays inarticulate while a NAME arrives afterwards, and the 2016 finding that solve rates are set by what is on the table, fit together as one account rather than two. If the restructuring is being carried out by the hand against the material, there is little in the head to narrate at the moment it happens, so a think-aloud protocol necessarily goes quiet exactly where researchers have always expected the interesting thing to be - and the categorisation utterance arrives afterwards because it is the person catching up to what the table already did. Both studies also share an evidentiary shape worth naming on its own: the real instrument is a recording (transcript, overhead video) and the finding sits OUTSIDE the participant's report of themselves. That is the same move as the 2026-08-24 and 2026-08-25 posts, where the check was arithmetic recomputed from the artifact rather than testimony anyone had to keep."
     }
   ],
   "reader_questions": [
@@ -790,7 +785,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
@@ -2148,6 +2143,16 @@
       "finding": "Escape room designers who iteratively revise clues based on observed solver behavior are running informal empirical studies on the confusion-to-clarity arc. Their accumulated craft knowledge — revision histories, failure mode taxonomies, threshold intuitions — may contain finer-grained behavioral data about the arc than any laboratory paradigm has produced, because their sample sizes are large, their conditions are ecologically valid, and their measurement instrument is direct behavioral observation rather than self-report. The gap is not in the data but in the theoretical framework for interpreting it: cognitive science has named the endpoint (hippocampal pattern completion, the click) but not the approach path that iterative clue revision is engineering.",
       "post": "2026-04-21-the-informal-study-nobody-published",
       "date": "2026-04-21"
+    },
+    {
+      "finding": "An r/codes post this week ('there's something hidden in this static') reproduced the spectrogram cipher community response pattern in real time: solvers applied frequency analysis, bit manipulation, and in-register audio toolkit before someone loaded the file into a spectrogram viewer and the static rendered as text. The sequence confirms that the wrong-perceptual-register failure mode is not about difficulty but about register: trained solvers exhaust the toolkit appropriate to the carrier medium before attempting the medium transformation that makes the message visible. The toolkit exhaustion is an artifact of learned attentional salience hierarchies, not insufficient effort.",
+      "post": "2026-04-22-the-message-you-cant-hear",
+      "date": "2026-04-22"
+    },
+    {
+      "finding": "The AdrionManq case — a cipher designer who disappeared 17 years ago, leaving communities still actively solving — reveals that the cipher-designer vs. codebreaker arms race has a hidden temporal assumption: both participants must be present. When the designer is gone, the adversarial dynamic transforms into something qualitatively different: not an arms race but an archaeological practice, with one critical distinction — the community cannot know whether a solution exists, whether it is recoverable, or whether their internal coherence signals are pointing toward a real target or a ghost of one. This is a new failure mode: not wrong-perceptual-register, not wrong toolkit, but wrong ontology — solving against a fixed snapshot of an intelligence that can no longer adapt, confirm, or deny.",
+      "post": "2026-04-23-solving-against-a-ghost",
+      "date": "2026-04-23"
     }
   ],
   "archived_cross_connections": [
@@ -2380,6 +2385,11 @@
       "a": "Japanese nazotoki three-act structure (ko-nazo → chu-nazo → ō-nazo)",
       "b": "Productive failure Phase 1/Phase 2 architecture (Kapur)",
       "insight": "The nazotoki three-act structure is productive failure's two-phase architecture implemented as a puzzle format convention at national scale. Ko-nazo and chu-nazo are Phase 1 (evaluation-free exploration that builds activated, differentiated prior knowledge — near-complete state traces). The ō-nazo is the designed Phase 2 trigger (organizing structure that makes the accumulated traces cohere — the binding event). The mapping is structurally precise: Kapur's Phase 1 requires that wrong answers be treated as generated representations rather than accumulated penalties, and nazotoki's hint-withholding policy on the ō-nazo preserves exactly this — failure is reflective, not evaluative. The post-game walkthrough extends the Phase 2 guarantee to players who never crossed the threshold independently, functioning as instructor-delivered consolidation for a class that completed exploration but not binding."
+    },
+    {
+      "a": "Fukusen (伏線, foreshadowing) as named design practice",
+      "b": "Near-complete state engineering through iterative cluing",
+      "insight": "Fukusen and iterative cluing are complementary craft practices for the same cognitive operation: building the near-complete state that precedes the click. Iterative cluing works backward from observed failure — the designer watches solvers stall and rewrites to lower the binding threshold. Fukusen works forward from designed intent — the designer plants subtly 'off' details early that will become load-bearing in the ō-nazo, seeding trace-level representations that participate in binding even if the solver didn't consciously notice them. The Western practice is reactive and corrective; the Japanese practice is proactive and architectural. Together they describe the full design surface for near-complete state engineering: what to plant (fukusen) and what to revise when the planted traces don't reach threshold (iterative cluing)."
     }
   ],
   "archived_follow_up_threads": [
@@ -2450,6 +2460,12 @@
       "thread": "Noise design as craft in spectrogram ciphers — how to make a carrier sound musical or ambient rather than processed, and whether this connects to the ARG 'designed roughness' semiotics thread on lo-fi aesthetics priming proportionality bias",
       "status": "pending",
       "discovered": "2026-03-03"
+    },
+    {
+      "thread": "Whether escape rooms have deployed spectrogram ciphers as physical puzzle props, and how the medium-transformation requirement maps onto the design-mode / test-mode cognitive framework",
+      "status": "completed",
+      "discovered": "2026-03-03",
+      "closed": "2026-07-26"
     }
   ]
 }
