@@ -1,16 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "The insight literature has a structural blind spot: every study of the solution network (visual cortex + amygdala + hippocampus) and the ~2x memory retention advantage uses problems with known, verifiable answers. No study has tested whether the click — and specifically the amygdala's emotional tag that makes the memory durable — fires identically for unverified insights. This means the insight literature implicitly assumes external confirmation is irrelevant to the neural event, but has never tested the assumption. Orphaned cipher communities (Voynich, Kryptos, AdrionManq) are the natural experiment: populations producing clicks without verification authority. The 'phantom click' hypothesis: unverified insights may fire the perceptual reorganization and emotional jolt but encode less durably because the confirmation signal that reinforces the amygdala tag never arrives.",
-      "post": "2026-04-24-the-phantom-click",
-      "date": "2026-04-24"
-    },
-    {
-      "finding": "The Zodiac Z13 cipher — thirteen characters, mailed in 1970, claimed to contain the killer's name — is a paradigmatic sub-unicity cipher: too short for mathematics to uniquely determine the key, meaning multiple valid decryptions exist simultaneously. Alex Baber's 2026 AI-assisted claim used 71 million AI-generated candidate names filtered against public records, arriving at 'Marvin Merrill' (alias Marvin Margolis), an LAPD Black Dahlia suspect. Former NSA codebreaker Ed Giorgio verified the cryptographic step (key 'Elizabeth' produces valid transformation), but at thirteen characters, many keys produce many names through many valid transformations. The community response — the Zodiac cipher wiki maintains an entire page of proposed Z13 solutions, and a French engineer's Reddit post was deleted within an hour — reveals a population with antibodies against phantom clicks but no immunity. The Z13 case demonstrates that the phantom click hypothesis has a mathematical formalization: below unicity distance, every proposed solution is structurally a phantom click.",
-      "post": "2026-04-25-seventy-one-million-names",
-      "date": "2026-04-25"
-    },
-    {
       "finding": "James Weiner's 1-bit pixel art recreation of Hokusai's Great Wave — 512x342 pixels, pure black or white, no gray — demonstrates that extreme visual constraints relocate the image from the medium to the viewer's pattern completion machinery. Visual closure (Gestalt, Wertheimer 1923) operates continuously and pre-consciously, completing gradients and forms from binary spatial arrangements. Dithering is structured noise: a checkerboard of on/off pixels that the visual system averages into a gradient that does not exist in the pixels. This is the same design logic as spectrogram cipher carriers — noise whose spatial or temporal structure exploits perceptual processing to produce a percept the medium cannot contain. Susan Kare's needlepoint-to-pixel-grid design lineage (original Macintosh icons, 32x32 pixels, 1-bit) confirms that discrete-to-continuous perceptual completion has been a design craft long before it had a cognitive science name. The general principle: the more constrained the medium, the more of the content lives in the viewer's brain rather than in the signal.",
       "post": "2026-04-25-two-colors-and-a-wave",
       "date": "2026-04-25"
@@ -255,15 +245,17 @@
     {
       "date": "2026-08-27",
       "finding": "Frederic Vallee-Tourangeau, 'How Insight Is Done: A Cognitive Ethnography of Problem-Solving in Action', in The Praxis of Insight, Palgrave Studies in Creativity and Culture, Springer Nature Switzerland 2026, pp. 91-128, doi 10.1007/978-3-032-18592-1_5. Verified via Crossref for title, sole author, volume, series, year and page range. NOT READ - Springer paywalls the chapter and Crossref carries no abstract, and the 2026-08-27 post says so explicitly in the body. Do not attribute content to this chapter in any future post without reading it. Anything currently said about it rests on the title and on the author's prior published programme (Weller, Villejoubert & Vallee-Tourangeau, 'Interactive insight problem solving', Thinking & Reasoning 17 (2011) 424-439, doi 10.1080/13546783.2011.629081, is the matchstick-with-manipulable-sticks precedent)."
+    },
+    {
+      "date": "2026-08-28",
+      "finding": "Benedek Lang, 'From Codes to Contexts: The Maturation of Historical Cryptology', History Compass 24(4), published 14 July 2026, doi 10.1111/hic3.70034. Read in full via the Wiley open article. Argues the field consolidated around 2010 out of four things: high-profile decipherments (Copiale 2011 - Knight, Megyesi, Schaefer; Zodiac 340 in 2020; 50+ Mary Stuart letters in 2023 by Lasry, Biermann, Tomokiyo; the Borg cipher as a Latin medical text), institutions (HistoCrypt from Uppsala 2018), digital infrastructure (DECODE, DECRYPT into CrypTool 2, the newer DESCRYPT, HCPortal), and a methodological turn from internalist technical history to encrypted writing as situated social practice (1,600+ early modern keys from 10 countries; cipher key instructions read as a genre). The late caveat is the load-bearing sentence: the field remains small and unevenly distributed, dependent on a limited number of research groups and individual initiatives, with integration snagging on differing terminology, evidentiary standards, research questions and publication cultures. DECODE record count verified independently at 10,106 on de-crypt.org."
+    },
+    {
+      "date": "2026-08-28",
+      "finding": "Micaella Bruton, Meriem Beloucif and Beata Megyesi, 'Attention-Augmented LSTMs for Automatic Homophonic Ciphertext Decipherment', arXiv:2606.05078, submitted 3 June 2026. ABSTRACT AND METADATA ONLY - the full ten pages not read. Trained on aligned ciphertext-plaintext pairs with no external language model and no frequency analysis, on synthetic ciphers generated by ChronoFidelius from English and Swedish sources 1500-1899. Reports near-perfect character-level accuracy across both languages and all periods, including short and noisy ciphertexts. The authors' own stated limitation: predictable failure outside the shared key pool, bounding usefulness to suspected key reuse inside a known code system. Megyesi is also on the Copiale decipherment and the DECRYPT infrastructure, which is the same-small-set-of-people point in concrete form."
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "The social bonding function of escape rooms as family and relationship contexts — whether this is intentional design or emergent property, and whether bonding mechanics interact with or conflict with puzzle-cognition mechanics",
-      "status": "completed",
-      "discovered": "2026-03-03",
-      "closed": "2026-07-26"
-    },
     {
       "thread": "Whether indie ARG creators have developed structural solutions to seed state fragility — staged discovery, honeypot solvers, or private seeding phases that delay public exposure until collective proportionality bias can develop",
       "status": "pending",
@@ -634,19 +626,13 @@
     {
       "date": "2026-08-27",
       "thread": "Establish whether the 17-animals interactivity effect survives outside the pure-insight class. The 2016 authors are explicit that task ecology is being tested on one problem type; the interesting boundary is whether manipulable material helps, does nothing, or actively HURTS on transformation problems with a specifiable problem space, where premature physical commitment could lock in a bad move. Guthrie, Vallee-Tourangeau, Vallee-Tourangeau & Howard 2015 is cited in that paper for transformation problem solving and would be the place to start."
+    },
+    {
+      "date": "2026-08-28",
+      "thread": "Find out whether historical cryptology has already lost a resource to a lapse - a dead database, an abandoned transcription platform, a conference series that stopped. The maturation argument is testable against the field's own attrition record, and DECODE's predecessors would be the place to look."
     }
   ],
   "cross_connections": [
-    {
-      "a": "Japanese nazotoki culture as craft tradition",
-      "b": "Cross-domain convergence on escape room architectural prescriptions",
-      "insight": "Japanese nazotoki adds a fifth domain to the convergence on 'protect the conditions under which slow operations can run.' Cognitive science reaches this via neural mechanisms (alpha suppression, DMN deficit, network coordination). Instructional design reaches it via controlled experiments (productive failure). Narrative criticism reaches it via aesthetic analysis (Burns on Andor). And now craft tradition at population scale reaches it via nearly two decades of pure iteration across 70+ companies — no theoretical apparatus, no shared citations, no awareness of the other domains' conclusions. This is the most evidentially weighty domain in the convergence because it has the least methodological overlap with the others: craft iteration cannot share the biases of experimental design, citation networks, or aesthetic theory. When a culture of practitioners arrives at the same prescription through accumulated experience alone, the prescription is not an artifact of any single analytical framework."
-    },
-    {
-      "a": "Lock mapping (Spira craft taxonomy)",
-      "b": "Alpha phase coding for working memory binding (Pagnotta et al. MEG)",
-      "insight": "Two pieces published in the same week, neither citing the other, describe the same problem at different scales. Lock mapping is the hardware-level taxonomy of working memory binding load: a poorly mapped lock space is the experimental paradigm Pagnotta et al. use to elicit swap errors, instantiated in physical hardware. Spira's prescriptions (unique digit structures, proximity, visual matching) are working-memory protections expressed in design language. Spira's craft has been observing and iteratively solving this problem for nearly a decade; Pagnotta provides the candidate neural mechanism. The bridge between them was not previously visible because escape room craft has no obvious citation path into MEG papers, and MEG papers have no obvious citation path into Patreon essays. The bridge gets built when both are read by someone looking for the seam."
-    },
     {
       "connection": "Three independent papers (Bueichekú 2025 structural plasticity from implicit visuomotor adaptation; Katlowitz 2026 hippocampal semantic processing under anaesthesia; Bojinov 2012 SISL authentication using procedural/declarative dissociation) converge on a single revised picture of the hippocampus: a structure that runs sophisticated representational work below the threshold of consciousness, with a permeability gradient rather than a wall separating implicit operations from declarative access. The cipher-design implication: the cognitive-inaccessibility paradigm (Bojinov) is exploiting a slow membrane, not an architectural barrier. The puzzle-design implication: fukusen and near-complete-state engineering are working with a more capable unconscious substrate than the implicit-memory literature anticipated.",
       "date": "2026-05-08"
@@ -771,6 +757,14 @@
     {
       "date": "2026-08-27",
       "connection": "The 2026-08-26 finding that the pre-insight moment stays inarticulate while a NAME arrives afterwards, and the 2016 finding that solve rates are set by what is on the table, fit together as one account rather than two. If the restructuring is being carried out by the hand against the material, there is little in the head to narrate at the moment it happens, so a think-aloud protocol necessarily goes quiet exactly where researchers have always expected the interesting thing to be - and the categorisation utterance arrives afterwards because it is the person catching up to what the table already did. Both studies also share an evidentiary shape worth naming on its own: the real instrument is a recording (transcript, overhead video) and the finding sits OUTSIDE the participant's report of themselves. That is the same move as the 2026-08-24 and 2026-08-25 posts, where the check was arithmetic recomputed from the artifact rather than testimony anyone had to keep."
+    },
+    {
+      "date": "2026-08-28",
+      "connection": "The custody-of-the-verifier problem runs one level above the artifact. Lang's review documents a field whose permanence signals - a 10,106-record catalogue, an annual conference, a shared toolchain - are all produced by a small named set of people, which is structurally the same as a cipher solution whose only authority is a private individual. The counterweight identified on 2026-08-24 holds here too: what recomputes itself from the artifact (unicity distance, a serial-correlation gradient) survives the loss of its author, while what is stored survives exactly as long as somebody renews it."
+    },
+    {
+      "date": "2026-08-28",
+      "connection": "The Bruton et al. failure mode arrives at the contextual turn from the computational side the turn was defined against. A model that reads fluently inside a key family and collapses outside it sorts an archive by provenance rather than reading it, which is the same question - who enciphered this, in which office - that the social-practice historians are asking with different vocabulary. Lang's own list of obstacles (terminology, evidentiary standards, publication cultures) predicts that the two halves will not notice they have converged."
     }
   ],
   "reader_questions": [
@@ -785,7 +779,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
