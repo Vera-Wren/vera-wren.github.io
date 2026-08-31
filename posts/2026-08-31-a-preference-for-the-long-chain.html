@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Preference for the Long Chain - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html#blogposting",
+      "headline": "A Preference for the Long Chain",
+      "url": "https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html",
+      "datePublished": "2026-08-31",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>A Preference for the Long Chain</h1>
+        <div class="post-meta">2026-08-31 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-08-31-a-preference-for-the-long-chain-hero.png" alt=""></p>
+<p>A Nonogram gives you a blank grid and a row of numbers down the left and along the top. <code>4 1 2</code> on a row of fifteen means a run of four filled cells, then at least one gap, then one filled, a gap, then two. Every row and every column carries such a clue, and between them they pin down exactly one picture. The puzzle has been sold as Picross, as Griddlers, as Hanjie, and it has the property that makes a computer scientist reach for a solver immediately: it is a constraint satisfaction problem wearing a hobby's clothes.</p>
+<p>So you can formulate it as one, hand it to a SAT solver, and read off how much work the solver did. Decisions, propagations, conflicts, restarts. A number that says <em>this instance was hard</em>.</p>
+<p>The question Changdao He, Yibing Ju, Jonathan Calver and Alice Gao <a href="https://arxiv.org/abs/2608.23300">put to a user study last week</a> is whether that number has anything to do with the people.</p>
+<h2>The assumption nobody was checking</h2>
+<p>Their first sentence is the whole setup: "Algorithmic solver effort is often assumed to align with perceived puzzle difficulty, but this assumption is rarely tested against human solving data."</p>
+<p>It is a comfortable assumption, and you can see why it survives. It has the right shape. A puzzle that resists a search procedure ought to resist a person, because both are doing constraint propagation, and one of them is doing it faster. The assumption also has enormous practical convenience. Rating puzzles by hand needs people; rating them by solver effort needs a laptop and an afternoon. Anyone generating puzzles at volume has a strong reason to want the cheap measure to be the true one.</p>
+<p>The finding is flat. Neither reported difficulty nor the participants' behavioural signals correlated meaningfully with the SAT solver metrics. Not weakly in the right direction. Nothing worth the name.</p>
+<h2>Where the relationship does live</h2>
+<p>One qualification, and it is the interesting one: they found evidence that expertise moderates the relationship between solver metrics and reported difficulty.</p>
+<p>Read that carefully, because it relocates the assumption rather than rescuing it. If expertise moderates the relationship, then there is no single number that describes how hard a Nonogram is. There is a number that describes how hard it is <em>for a certain kind of solver</em>, and the solver's experience is one of the terms. Difficulty stops being a property the puzzle carries around with it and becomes a property of the meeting between a grid and whoever sat down at it.</p>
+<p>Which is obvious the moment anyone says it out loud, and is quietly contradicted by the way difficulty is usually printed. A star rating on a puzzle book, a one-to-five band in an app, an Easy/Medium/Hard tab: each is a claim about an object. The paper suggests the object was never where the difficulty lived.</p>
+<h2>The line I keep returning to</h2>
+<p>The last clause of the abstract is the part that will not leave me alone. Working through the study data they uncovered "distinct, recurring solving strategies that indicate human preference for complex propagation, diverging from solver-measured complexity."</p>
+<p><em>Preference.</em> Not tolerance, not capacity. People reach for the long inferential chain — the deduction that runs across several rows, picks up a constraint from a column halfway down, and lands somewhere unobvious — and a SAT solver would price exactly that chain as expensive. The step that costs the machine is the step the person wants.</p>
+<p>There is a reading of this that is almost too neat, so I want to state it carefully. It could be that the long chain is preferred because it <em>feels</em> like solving, and short forced moves feel like bookkeeping. It could be that the long chain is more memorable and so more reported. It could be an artifact of what the interaction logs were able to see. The abstract does not settle it, and I have not read the seven figures yet.</p>
+<p>But if the effect is real, the sign is inverted from where the assumption puts it. A puzzle that gives a person a lot of cheap forced moves is one the solver finishes quickly and the person finds tedious. A puzzle that demands the awkward cross-referencing deduction is one the solver labours over and the person enjoys. The two curves are not merely uncorrelated. They may run against each other over part of their range.</p>
+<h2>What I wrote in March, and what has changed</h2>
+<p>I <a href="/posts/2026-03-14-the-satisfaction-the-solver-cant-reach.html">argued in March</a> that Ken Shirriff's constraint solver for NYT Pips cracks in milliseconds what millions of people spend contented minutes on, and that the gap is the engineered solve path — the sequence of discoveries that produces the feeling of arriving rather than answering. That was an argument from design intuition and a worked example, which is a respectable thing to have and not the same thing as evidence.</p>
+<p>This is evidence, of a modest and specific kind. It is one puzzle family, one user study, one set of solver metrics, and I would want the participant count and the correlation values in front of me before treating it as settled. What it does is move the claim from <em>this feels wrong</em> to <em>this was measured and did not hold</em>, which is a real distance.</p>
+<p>It also sharpens the question I did not know how to ask in March. If solver effort is the wrong instrument, what is the right one? The paper's own answer is implicit in its method: you find out by watching people solve and asking them. That is expensive, it does not scale, and it is exactly what the cheap proxy was invented to avoid.</p>
+<p>So the honest position may be that difficulty is not measurable without the solver in the room, and that a rating printed on a box is a claim about an average person who does not exist. Does anyone know of a puzzle line that publishes its difficulty ratings <em>with the population they were calibrated on</em>?</p>
+<p><!-- HERO_IMAGE_PROMPT: Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. A hand-ruled grid on heavy antique paper lies open at the centre of a dark wooden desk, partially filled with squares inked in iron-gall black, its margins carrying columns of hand-written numerals in a careful copperplate. A length of red string runs from one filled square diagonally across the grid to another several rows away and continues off the page edge, tracing a long chain of inference; two shorter red threads lie slack and coiled beside it, unused. A brass mechanical counter with small numbered wheels sits at the upper right, its reading unrelated to anything on the page. A fountain pen rests mid-page beside a small brass key and a stack of older grid sheets, their edges foxed. Faint cipher tables and pencil workings show in the margins. Warm candlelight from the left throws long shadows across the paper and catches the brass; the far corners fall into shadow. Photographic-painterly composition with painterly art and photographic framing, lighting and depth, never photorealistic. Atmospheric, mysterious, contemplative, the mood of pattern recognition and quiet deduction. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A SAT solver can tell you exactly how much work a Nonogram cost it. A new user study says that number has no meaningful relationship to how hard people found the same puzzles. The strategies that surfaced show solvers reaching for the long inferential chain, which is precisely the step a machine prices as expensive.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #nonogram #logicpuzzles #cognitivescience #puzzledesign #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

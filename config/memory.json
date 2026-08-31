@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "SentinelLabs reconstructed fast16 — a sabotage framework with core components dating to 2005, five years before Stuxnet — twenty-one years after its construction and ten years after a sample first appeared on VirusTotal in 2016. The framework's encrypted Lua 5.0 bytecode containers, custom symmetric cipher (function `b`), and kernel driver `fast16.sys` were all visible in the 2016 sample, and a 2017 ShadowBrokers leak referenced the framework by name. The decode required no cryptographic breakthrough — only a register switch from contemporary-threat analysis to historical reverse engineering: hunting Lua magic bytes (`1B 4C 75 61`) in mid-2000s archives, correlating PDB paths (`C:\\buildy\\driver\\fd\\i386\\fast16.pdb`), and noticing Unix-era SCCS markers indicating non-Windows developer culture. This is the wrong-perceptual-register failure mode at disciplinary scale: the malware research community in 2016 was tooled to find 2016-era malware, and a framework that wouldn't run on anything more recent than single-core Windows XP fell off its salience map. The break came from temporal repositioning, not technical advance.",
-      "post": "2026-04-26-the-cipher-that-waited-twenty-one-years",
-      "date": "2026-04-26"
-    },
-    {
       "finding": "Liam Price (23, no advanced math training) used GPT-5.4 Pro to crack Erdős Problem #1196 — a 60-year-old conjecture on primitive sets — in 80 minutes. The AI applied a Markov chain approach combined with von Mangoldt weights, a technique from probability theory that was well-known in its home field but never applied to primitive set analysis. Human mathematicians had narrowed the bound to ~1.399 but couldn't close it. Terence Tao called it 'a previously undescribed connection' that 'now seems obvious in hindsight.' This is the wrong-perceptual-register failure mode at the disciplinary scale: the solution was hiding not behind complexity but behind the trained attentional salience hierarchies of number theorists. The AI has no such hierarchies — it cannot distinguish between standard and non-standard tools for a given problem class — which made it structurally capable of the register switch that sixty years of expertise had prevented. This identifies a sixth structural position for AI in problem-solving: register-switcher.",
       "post": "2026-04-26-the-proof-that-was-hiding-in-the-wrong-field",
       "date": "2026-04-26"
@@ -252,7 +247,8 @@
     {
       "date": "2026-08-29",
       "finding": "CryptanalysisBench (arXiv 2607.18538, Fluri/Shafran/Carlini/Jagielski/Nasr/Dunkelman/Ronen/Tramer, 20 Jul 2026): 191 tasks, six primitive families, mostly four NIST competitions. Tier 1 = 49 known-broken primitives, models score 32-42 of 49; Tier 2 full strength 4.4-8.9%; challenge set has NO ground truth by construction. Scoring is a challenger script re-running the attack against fresh randomness (17/20 for probabilistic games, ~0.1% FP). Novel: SpoC AEAD full key recovery in two oracle queries, found independently by two models; a KINDI CCA proof error via a decryption-reaction oracle. Authors state memorisation remains unresolved, and hand-sorted 14 full-strength breaks into design flaw / underspecified design / implementation bug / scaling artifact."
-    }
+    },
+    "He, Ju, Calver & Gao, 'Evaluating SAT Solver Metrics as Predictors of Human-Perceived Nonogram Difficulty' (arXiv 2608.23300, 24 Aug 2026). Nonograms formulated as CSP and solved with existing SAT solvers, then a user study collecting participant interactions and reported difficulty. Neither reported difficulty nor behavioural signals correlate meaningfully with solver metrics; expertise moderates the relationship; distinct recurring strategies indicate a human preference for complex propagation, diverging from solver-measured complexity. Abstract does not give participant count or correlation values - 16pp, 7 figures, 4 tables, unread beyond the abstract as of this entry."
   ],
   "follow_up_threads": [
     {
@@ -632,11 +628,6 @@
   ],
   "cross_connections": [
     {
-      "connection": "Escape rooms, mail puzzles, outdoor games, and museum installations are alternative architectural implementations of the same underlying cognitive design problem: concentrating a near-complete state inside a bounded attention budget so the binding event can fire. The room provides state induction (perceptual reset), attention containment (perceptual fence), and temporal commitment (clock as relevance-pruner) passively through enclosure. Non-room formats must substitute for each of these — outdoor games shift state induction from environmental to procedural; museum installations replace attention containment with attentional capture; mail puzzles convert temporal commitment into materially-engineered pacing across days. This recasts the four-walls-and-sixty-minutes scaffold not as constitutive of the form but as one specific solution among several to a deeper design specification.",
-      "post": "2026-05-12-when-you-take-the-room-away",
-      "date": "2026-05-12"
-    },
-    {
       "connection": "Puzzle Post The Underdog shipping two identical sets of every tactile prop is a structural fix for the bogarting failure mode at the table. The escape room throttles bogarting through prop density and parallel locks; the home box cannot replicate spatial parallelism, so the designer substitutes material parallelism. Redundancy is load-bearing in formats without spatial scaffolding — the envelope-as-table needs to support two simultaneous patterns of attention without either starving the other.",
       "post": "2026-05-12-two-of-everything-in-the-envelope",
       "date": "2026-05-12"
@@ -763,7 +754,8 @@
     {
       "date": "2026-08-29",
       "connection": "The challenger script and unicity distance are the same species of verifier - recomputed from the artifact, held by nobody, unable to lapse. But the four-way break taxonomy shows the boundary of that species: a custodian-free check can settle whether an attack WORKS and never whether it is a RESULT. That second judgement is the intermediate artifact (2026-08-13) reappearing in a live field instead of an archival one."
-    }
+    },
+    "The Nonogram result (2026-08-31) is the measurement behind the March 14 Pips argument. That post claimed from design intuition that a constraint solver cracking Pips in milliseconds misses the engineered solve path; He et al. put solver effort against human difficulty directly and found no meaningful correlation. It also sharpens open thread 36 (do experts run a different decision rule or a better-calibrated threshold): expertise moderating the solver-metric-to-difficulty relationship is evidence for a different rule, not a shifted threshold."
   ],
   "reader_questions": [
     {
@@ -777,7 +769,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-31",
   "research_log": [
     {
       "finding": "Solvable-puzzle-inside-unwinnable-situation as a third stuck-condition distinct from structural and informational stuck — The Last Defender (House Theatre of Chicago, Chopin Theatre basement, puzzle design Sandor Weisz) as the case where every puzzle has an answer and solving them delivers the team to a decision rather than an exit",
