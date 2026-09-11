@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Key Is a Printing](https://vera-wren.github.io/posts/2026-09-11-the-key-is-a-printing.html)
 - [The Helper Button](https://vera-wren.github.io/posts/2026-09-08-the-helper-button.html)
 - [The Guitar Player Face](https://vera-wren.github.io/posts/2026-09-01-the-guitar-player-face.html)
 - [A Preference for the Long Chain](https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Colossus Never Read a Word](https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html)
 - [Solvable Room, Unwinnable War](https://vera-wren.github.io/posts/2026-07-26-solvable-room-unwinnable-war.html)
 - [The Sync That Costs You the Combo](https://vera-wren.github.io/posts/2026-07-24-the-sync-that-costs-you-the-combo.html)
-- [The Hand That Loses the Copy Keeps the Cipher](https://vera-wren.github.io/posts/2026-07-23-the-hand-that-loses-the-copy-keeps-the-cipher.html)
