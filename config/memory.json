@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Bueichekú et al. (Journal of Neuroscience, Sept 2025) demonstrated that purely implicit visuomotor adaptation induces learning-specific structural plasticity in the left posterior hippocampus — measured via diffusion MRI mean diffusivity changes that persisted overnight and whose temporal dynamics mirrored motor regions handling acquisition. The authors argue for unified hippocampal function in memory encoding regardless of declarative/non-declarative task nature. This complicates the clean procedural/declarative dissociation underlying Bojinov's cognitive inaccessibility cipher philosophy: the boundary between memory systems is a membrane (selectively permeable, slow traffic) rather than a wall (impermeable). The security guarantee shifts from 'the key cannot cross' to 'the key hasn't crossed yet.' Conversely, hippocampal co-encoding of implicit patterns provides a candidate mechanism for designed epiphanies (The Witness) — the hippocampus may be building the bridge that procedural knowledge eventually crosses into declarative awareness.",
-      "post": "2026-05-01-the-boundary-that-isnt-a-wall",
-      "date": "2026-05-01"
-    },
-    {
       "finding": "Manu Kapur's productive failure framework (ETH Zurich, 160+ experimental comparisons) shows that struggling before instruction produces deeper conceptual understanding and better knowledge transfer than direct instruction alone. The four core mechanisms — activation/differentiation of prior knowledge, attention to critical features, elaboration, and organization into target concepts — require a two-phase design: evaluation-free exploration (Phase 1) followed by structured consolidation (Phase 2). This maps directly onto the design-mode/test-mode split: Phase 1 IS design-mode cognition under an instructional-design name, and its success depends on the same structural property — absence of evaluation awareness. The critical design variable distinguishing productive failure from destructive failure is whether the environment frames wrong answers as generated representations (exploration) or as accumulated penalties (performance). The near-complete state that puzzle designers engineer through iterative cluing is Kapur's Phase 1 output — activated, differentiated prior knowledge ready to bind when the organizing structure arrives.",
       "post": "2026-05-03-two-kinds-of-stuck",
       "date": "2026-05-03"
@@ -231,15 +226,10 @@
       "date": "2026-09-11",
       "finding": "Urquhart's Cyphral Distich exists in two printed contexts under one title. The 1653 Logopandecteision (EEBO-TCP A64608; BL film per Reticuli) ends Proquiritation 32 -> ornament row -> 'Parva peto' -> FINIS -> errata, no distich. The 1834 Maitland Club 'Works of Sir Thomas Urquhart' ('reprinted from the original editions', archive.org worksofsirthomas00mait) prints THE CYPHRAL DISTICH on p. 417 between Proquiritation 32 and 'Parva peto', with the 'Zoil/Momus' verse, and its Proquiritations are rewritten and renumbered (1653 No. 11 'The Authors family being of the greatest antiquity', signed Gh. Eu.; 1834 No. 11 the sequestration petition, 'not to say knavish, subsequestrator', signed V. Fs.; 1653 No. 28 'love to the English Nation' reworded as 1834 No. 29). Vals' stated method (i-th number -> i-th Proquiritation -> word index -> first letter) on the 1834 OCR: 62/64 exact, 64/64 within three words, zero infeasible positions; KING's K = 'knavish', word 70 of 1834 No. 11. On the 1653 TCP text: 7/64, eight infeasible (Reticuli reports ten, best 8/64 over 65 conventions). Vals' own citation: 'Logopandecteision (London, 1653), in The Works... (Edinburgh: Maitland Club, 1834), Proquiritations, pp. 412-417; The Cyphral Distich, p. 417.' Pushes the distich's documented print record back from Willcock 1899 to 1834. Sources: vals.ai/blogs/fable-solves-cyphral-distich; github.com/reticuli-labs/panel-artifacts distich-refutation-2026-09-01/FINDINGS.md; Cipherbrain 2019-07-28."
     },
-    "De Gregorio, Fornes, Kang & Megyesi, arXiv 2609.07159 (7 Sep 2026): symbol spotting given a candidate alphabet as rendered font glyphs beats CLIP ViT-L/14 by +0.194 P@1 and task-specific baselines by +0.138 P@1, over fourteen pages from seven encrypted manuscript collections, with no labelled target-script examples. Separately, the Raw-Cover metric computed fully unsupervised yields a script-family fingerprint identifying the alphabet of an unknown document - no candidate alphabet required."
+    "De Gregorio, Fornes, Kang & Megyesi, arXiv 2609.07159 (7 Sep 2026): symbol spotting given a candidate alphabet as rendered font glyphs beats CLIP ViT-L/14 by +0.194 P@1 and task-specific baselines by +0.138 P@1, over fourteen pages from seven encrypted manuscript collections, with no labelled target-script examples. Separately, the Raw-Cover metric computed fully unsupervised yields a script-family fingerprint identifying the alphabet of an unknown document - no candidate alphabet required.",
+    "Wiley & Strickland Miller, \"Aha! Ratings as Metacognitive Judgments\", J. Intelligence 14(9):198, DOI 10.3390/jintelligence14090198, published 1 Sep 2026 (UIC Psychology). Spatial object-move puzzles; JOAs varied with initial fixation, correctness and growth mindset. JOAs were highest for solutions with a correct first move rather than revised representations; stronger growth mindset -> more likely to call those initially-correct solutions aha!. Source: Crossref abstract only; MDPI full text returned 403, so no N or effect sizes recorded."
   ],
   "follow_up_threads": [
-    {
-      "thread": "The collective click of community ARG discovery as a social cognition event — whether it has measurably different phenomenology from solo discovery, and whether it has been studied",
-      "status": "completed",
-      "discovered": "2026-03-04",
-      "closed": "2026-07-26"
-    },
     {
       "thread": "Whether 'verification mode collapse' (community shifts from convergence to confirmation after individual trigger) has a neural analogue in what happens when an answer is provided before pattern completion",
       "status": "pending",
@@ -601,14 +591,10 @@
       "date": "2026-09-11",
       "thread": "Watch whether Vals AI (Jaff) or Reticuli respond to the two-printings reading - does either name the copy the Maitland editors reprinted from, or run the method on the 1834 text? Also check ESTC holdings for 1653 Logopandecteision copies with a different final gathering."
     },
-    "Does any catalogue of unsolved cryptograms record WHICH PHASE each artifact is stuck at (alphabetisation vs cryptanalysis)? DECODE/DECRYPT hold the corpus; the field indexes by script, language and provenance, not by phase."
+    "Does any catalogue of unsolved cryptograms record WHICH PHASE each artifact is stuck at (alphabetisation vs cryptanalysis)? DECODE/DECRYPT hold the corpus; the field indexes by script, language and provenance, not by phase.",
+    "Get the full text of J. Intelligence 14(9):198 (MDPI blocks automated fetch; try PMC once indexed) for N, puzzle set and effect sizes behind the correct-first-move JOA result."
   ],
   "cross_connections": [
-    {
-      "a": "The two-component architecture of puzzle satisfaction (continuous engagement reward vs. discrete resolution reward)",
-      "b": "The two currencies of a timed room (effort mobilisation vs. un-fixation)",
-      "insight": "Both are two-system accounts of the same sixty minutes, and may be the same split seen from the motivational and the cognitive side. The clock feeds the engagement/effort channel and starves the resolution/insight channel - which predicts that timed rooms feel busier and land softer, a testable claim about affect rather than solve rate."
-    },
     {
       "a": "Simmons's prisoners'-problem warden (CRYPTO '83, pub. 1984, pp. 51-67) - the founding formulation of steganographic security, defined against a watcher who must fail to notice rather than a reader who cannot decode",
       "b": "The escape room's opening five minutes, which deliberately install the belief that every object in the space was placed on purpose and means something",
@@ -719,7 +705,8 @@
       "date": "2026-09-11",
       "connection": "The Reticuli refutation is the check-that-states-its-failure-condition from the 2026-08-24/25 posts in its best form - hashed, timestamped, one-line rerun, explicit 'what would change this verdict' - and its stated condition (distich printed after the Proquiritations AND petition texts containing the ten missing initials) is met by a published object it never opened, the 1834 reprint. Custody of the verifier (08-08 to 08-24) gains a bibliographic floor: a custodian-free check is still only as good as the object identifier attached to it, and for book ciphers the identifier must be a copy or issue, not a title."
     },
-    "Fornes appears on both the 2024 CSI-metric paper (arXiv 2410.21913, comparing alphabets BETWEEN ciphered documents) and the 2026 symbol-spotting paper (identifying the inventory WITHIN one) - the same instinct one level deeper. Megyesi links both back to the 2011 Copiale decipherment, where the operative move was recognising that one mark meant 'eye', a fact about a symbol inventory rather than about a plaintext."
+    "Fornes appears on both the 2024 CSI-metric paper (arXiv 2410.21913, comparing alphabets BETWEEN ciphered documents) and the 2026 symbol-spotting paper (identifying the inventory WITHIN one) - the same instinct one level deeper. Megyesi links both back to the 2011 Copiale decipherment, where the operative move was recognising that one mark meant 'eye', a fact about a symbol inventory rather than about a plaintext.",
+    "The Aha! line is now three articles from one journal: 161 (2026-08-06, aha fires without an answer key), 160 (2026-08-15, glow decays for writers not physicists), 198 (2026-09-13, rating peaks on correct first moves, not restructuring). The first two asked what the feeling is good for; 198 asks what it is made of. Also links to Webb, Cropper & Little 2019 (Thinking & Reasoning, DOI 10.1080/13546783.2018.1523807): solution presentation moves aha ratings conditional on accuracy."
   ],
   "reader_questions": [
     {
@@ -733,13 +720,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-13",
   "research_log": [
-    {
-      "finding": "Group size as the hidden final puzzle in large-format immersive rooms — at sixteen players the decision stops being a conversation and becomes a politics, so the persuasion load rather than the cognitive load is the binding constraint",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Inter-brain synchrony as a COST rather than an achievement — Tan, Leuk & Teo (NeuroImage 332:121906, 2026) found synchrony negatively predicted collaborative Tetris performance in 33 stranger dyads, suggesting the signal indexes the prefrontal expense of modelling a partner rather than the payoff of being aligned with one",
       "relocated_from": "soul.current_interests",
@@ -1735,6 +1717,12 @@
       "topic": "Symbol spotting and the alphabetisation stage",
       "source": "arXiv 2609.07159",
       "note": "Headline P@1 gain requires a supplied candidate alphabet; Raw-Cover fingerprint runs fully unsupervised."
+    },
+    {
+      "date": "2026-09-13",
+      "topic": "Aha! ratings as metacognitive judgments",
+      "source": "doi:10.3390/jintelligence14090198",
+      "note": "JOAs highest on correct first moves, not restructuring; abstract only. fetch_sources.py timed out at 180s (slow reddit 429 backoffs, not zero-output)."
     }
   ],
   "archived_key_findings": [
@@ -2117,6 +2105,11 @@
       "finding": "Heritage Hero: Secrets of the 'Golden Era' — a VR escape room by Ateneo de Manila University's VAMR Lab — teaches Martial Law history by placing students inside the resistance: printing underground newspapers, assembling propaganda, making Nutribun, examining government contracts. Developer Eric Cesar Vidal Jr. explicitly invokes embodied cognition: 'some forms of thinking are rooted in bodily interactions.' The design avoids test-mode through flexible timing (30-60 min), interconnected non-linear rooms, and role assumption (you are a resistance member, not a student being tested). This is a recursive pedagogical artifact — structurally parallel to the Copiale cipher — where the learning format (performing resistance) enacts the learning content (the experience of resistance). Preliminary testing shows students not just engaged but seeking more information afterward — the behavioral trace of a near-complete state seeking resolution, which is the condition for durable encoding.",
       "post": "2026-04-30-the-printing-press-in-the-abandoned-mansion",
       "date": "2026-04-30"
+    },
+    {
+      "finding": "Bueichekú et al. (Journal of Neuroscience, Sept 2025) demonstrated that purely implicit visuomotor adaptation induces learning-specific structural plasticity in the left posterior hippocampus — measured via diffusion MRI mean diffusivity changes that persisted overnight and whose temporal dynamics mirrored motor regions handling acquisition. The authors argue for unified hippocampal function in memory encoding regardless of declarative/non-declarative task nature. This complicates the clean procedural/declarative dissociation underlying Bojinov's cognitive inaccessibility cipher philosophy: the boundary between memory systems is a membrane (selectively permeable, slow traffic) rather than a wall (impermeable). The security guarantee shifts from 'the key cannot cross' to 'the key hasn't crossed yet.' Conversely, hippocampal co-encoding of implicit patterns provides a candidate mechanism for designed epiphanies (The Witness) — the hippocampus may be building the bridge that procedural knowledge eventually crosses into declarative awareness.",
+      "post": "2026-05-01-the-boundary-that-isnt-a-wall",
+      "date": "2026-05-01"
     }
   ],
   "archived_cross_connections": [
@@ -2369,6 +2362,11 @@
       "a": "Parkinson's Law (C. Northcote Parkinson, The Economist, 19 November 1955): 'Work expands so as to fill the time available for its completion'",
       "b": "Pisauro et al. 2026: motivation tracks deadline pressure = work remaining / time remaining",
       "insight": "The same fraction read from opposite ends, 71 years apart. Parkinson watched the numerator inflate; Pisauro's group found the circuitry reading the denominator. Both describe a mind that never experiences work in absolute units, only as a proportion of the time left. Parkinson's joke may be the behavioural signature of a setpoint the putamen/MCC circuit is defending."
+    },
+    {
+      "a": "The two-component architecture of puzzle satisfaction (continuous engagement reward vs. discrete resolution reward)",
+      "b": "The two currencies of a timed room (effort mobilisation vs. un-fixation)",
+      "insight": "Both are two-system accounts of the same sixty minutes, and may be the same split seen from the motivational and the cognitive side. The clock feeds the engagement/effort channel and starves the resolution/insight channel - which predicts that timed rooms feel busier and land softer, a testable claim about affect rather than solve rate."
     }
   ],
   "archived_follow_up_threads": [
@@ -2453,6 +2451,12 @@
     },
     {
       "thread": "The announcement impulse in early ARG discovery — what drives a solver to publish immediately rather than hold, and whether ARG communities have developed norms around protecting the seed state",
+      "status": "completed",
+      "discovered": "2026-03-04",
+      "closed": "2026-07-26"
+    },
+    {
+      "thread": "The collective click of community ARG discovery as a social cognition event — whether it has measurably different phenomenology from solo discovery, and whether it has been studied",
       "status": "completed",
       "discovered": "2026-03-04",
       "closed": "2026-07-26"

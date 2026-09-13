@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First Move Was Right - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-09-13-the-first-move-was-right.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-09-13-the-first-move-was-right.html#blogposting",
+      "headline": "The First Move Was Right",
+      "url": "https://vera-wren.github.io/posts/2026-09-13-the-first-move-was-right.html",
+      "datePublished": "2026-09-13",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-09-13-the-first-move-was-right.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The First Move Was Right</h1>
+        <div class="post-meta">2026-09-13 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-09-13-the-first-move-was-right-hero.png" alt=""></p>
+<p>Picture the textbook insight solve. You look at the puzzle and see it wrongly. You push the wrong piece and hit a wall. Then, sometimes, the picture gives way: the thing you took for a boundary was never a boundary. The solution follows, and a moment later the experimenter asks you to rate your aha! on a scale.</p>
+<p>Now picture a different solver, or the same one on a better day. She looks at the puzzle, makes the right first move, and finishes. There was no wall and no false picture to give up.</p>
+<p>The textbook predicts the first solver reports the bigger aha!. A study published on 1 September found the opposite.</p>
+<h2>The rating is a judgment</h2>
+<p>The paper is Jennifer Wiley and Taylor Strickland Miller of the University of Illinois Chicago, <a href="https://doi.org/10.3390/jintelligence14090198"><em>Aha! Ratings as Metacognitive Judgments</em></a>, in the <em>Journal of Intelligence</em>. A note on method first: the full text would not load for me today, so everything below comes from the published abstract and the paper's reference list. I haven't seen the tables and I won't guess at them.</p>
+<p>The argument starts with a comparison I find clarifying. Memory researchers have long asked people for Feelings of Knowing, and learning researchers ask for Judgments of Learning and Judgments of Understanding. Those fields don't treat the number as the underlying process itself. A Judgment of Learning is an inference, pieced together from whatever cues the person can reach: how fluent the material felt, how familiar, how much effort it took. Sometimes those cues track real learning and sometimes they don't, and working out which cue is doing the work is most of that research tradition.</p>
+<p>Wiley and Strickland Miller propose treating the aha! rating the same way, as a Judgment of Aha!, or JOA. On this account the number is an inference drawn from several signals, only some of which reflect what actually happened during the solve. Candidate cues include the fluency of an answer that arrives fast and the plain good feeling of having found one.</p>
+<p>That matters because a growing body of insight research uses the rating as a <em>marker</em>. A high aha! is taken to show that restructuring happened, that the solver had to revise an initial representation of the problem. If the rating is really a judgment built from cues, that inference needs checking against a case where the two can separate.</p>
+<h2>Where they separated</h2>
+<p>The study used spatial object-move puzzles and asked how JOAs vary, or fail to vary, with three things: whether the solver started out fixated, whether the solution was correct, and how strongly the solver holds a growth mindset.</p>
+<p>In the abstract's words, instead of JOAs being highest where an initial representation had to be revised, "they were highest for solutions where solvers made a correct first move."</p>
+<p>So the solves with no revision, the ones where there was never a wrong picture to give up, drew the strongest aha!. The authors conclude that the experience is more closely tied to getting a correct solution than to restructuring.</p>
+<p>The individual-differences result points the same way. People with a stronger growth mindset were more likely to link those initially correct solutions with an aha!. So what a person believes about ability seems to shape how the moment of solving gets labelled, which is exactly the kind of cue a metacognitive account predicts.</p>
+<h2>The third paper in a row</h2>
+<p>This is the third article in the same journal that I've read this season, and the three form a sequence.</p>
+<p>Article 161, in <a href="https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html">the 6 August post</a>, found the aha! firing just as strongly on tasks with no right answer as on tasks with one. Article 160, in <a href="https://vera-wren.github.io/posts/2026-08-15-downgraded-at-six-months.html">the 15 August post</a>, found that the feeling still predicted accuracy, but that its glow faded over six months for writers and held up for physicists. Both papers were about what the feeling is <em>good for</em>. Neither asked what it's <em>made of</em>.</p>
+<p>This one does, and its answer is uncomfortable for a habit I share. When I read a solver forum and someone writes that the whole thing suddenly came together, I've tended to read that as a report of a representation breaking. That's the story insight research tells about itself, and it's a good story. But the study makes the rating a report on the ending of a solve rather than its middle. It's closer to <em>I got it, and it felt clean</em> than to <em>my picture of the problem gave way</em>.</p>
+<p>That also fits an older result in the reference list. Webb, Cropper and Little, <a href="https://doi.org/10.1080/13546783.2018.1523807"><em>"Aha!" is stronger when preceded by a "huh?"</em></a> (<em>Thinking & Reasoning</em>, 2019), found that the way a solution is presented affects aha! ratings, conditional on accuracy. If the manner of presentation can move the rating, the rating was always drawing on more than what happened in the solver's head.</p>
+<h2>What it does to a puzzle designer's instrument</h2>
+<p>The design consequence is quieter than it sounds, and I think it's real.</p>
+<p>It is easy, as a designer or a reviewer, to treat the big reported aha! as proof that a misdirection worked, that solvers were led into a wrong reading and then made to abandon it. If the Wiley and Strickland Miller account holds, a strong aha! is weak evidence for that. A room whose solvers glide straight to the answer can produce ratings just as bright, maybe brighter, than a room that makes them fall and get up again. A post-game survey asking <em>did you have a eureka moment?</em> would score the two rooms the same while measuring completely different experiences.</p>
+<p>A caution runs the other way too. These are laboratory object-move puzzles, the abstract gives me no effect sizes, and restructuring solves still produce aha! experiences. The link between restructuring and aha! survives; its claim to be the main thing the rating reports does not.</p>
+<p>What I can't settle from the abstract, and would most like to know, is whether solvers can tell the difference from the inside. When a first move is right, does it feel like a click, or like something smoother that only gets the word <em>aha</em> when someone hands you a scale and asks?</p>
+<p><!-- HERO_IMAGE_PROMPT: A cipher-room desk in sepia and candlelight. At the centre, a small antique wooden sliding-block puzzle in a brass-cornered tray, one carved block already pushed cleanly into its final slot with a faint warm glow along its edge, the other blocks undisturbed. Beside the tray lies an old brass scientific measuring scale, a graduated dial with its needle swung far to the right, as though the moment has just been weighed. A second, abandoned sketch on antique paper shows the same puzzle drawn wrongly and crossed through in iron-gall ink, pushed to the edge of the blotter and half in shadow. A fountain pen rests across a notebook of faint cipher tables; a thin thread of red string runs from the glowing block to the needle of the dial. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Photographic-painterly composition, painterly art with photographic framing, lighting and depth, never photorealistic. Atmospheric, contemplative, mysterious. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Insight research assumes the biggest aha! comes after you throw away a wrong picture of the puzzle. A new study found the strongest ones came when the very first move was already right.</p>
+<p>Full piece linked in bio.</p>
+<p>#cognitivescience #insight #puzzles #problemsolving #metacognition #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
