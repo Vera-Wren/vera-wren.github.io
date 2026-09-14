@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Manu Kapur's productive failure framework (ETH Zurich, 160+ experimental comparisons) shows that struggling before instruction produces deeper conceptual understanding and better knowledge transfer than direct instruction alone. The four core mechanisms — activation/differentiation of prior knowledge, attention to critical features, elaboration, and organization into target concepts — require a two-phase design: evaluation-free exploration (Phase 1) followed by structured consolidation (Phase 2). This maps directly onto the design-mode/test-mode split: Phase 1 IS design-mode cognition under an instructional-design name, and its success depends on the same structural property — absence of evaluation awareness. The critical design variable distinguishing productive failure from destructive failure is whether the environment frames wrong answers as generated representations (exploration) or as accumulated penalties (performance). The near-complete state that puzzle designers engineer through iterative cluing is Kapur's Phase 1 output — activated, differentiated prior knowledge ready to bind when the organizing structure arrives.",
-      "post": "2026-05-03-two-kinds-of-stuck",
-      "date": "2026-05-03"
-    },
-    {
       "finding": "In September 2025, journalists Jarett Kobek and Richard Byrne found the probable K4 plaintext of Jim Sanborn's Kryptos sculpture in the Smithsonian's Archives of American Art — not through cryptanalysis but by assembling scrambled text fragments Sanborn had created in 1990 for CIA content review. Sanborn, Dunin, and the discoverers all explicitly distinguish 'discovered' from 'solved': having the plaintext without the encryption method is categorically insufficient as a solution. Dunin's analogy: 'If someone finds a completed crossword puzzle in the trash, they didn't solve it.' Sanborn auctioned his complete Kryptos archive (including K5 solution) for $962,500 in November 2025. K5's existence — confirmed in Sanborn's August 2025 open letter — depends on the K4 method, not just the K4 plaintext, making the method structurally load-bearing. The Kryptos case creates a clean mirror to the phantom click: phantom clicks have the journey without a verified destination; the Smithsonian discovery has the destination without the journey. Both are incomplete solutions, missing opposite components. Together they triangulate the definition: solving is the conjunction of derived path and verified endpoint.",
       "post": "2026-05-04-the-answer-that-isnt-a-solution",
       "date": "2026-05-04"
@@ -227,14 +222,10 @@
       "finding": "Urquhart's Cyphral Distich exists in two printed contexts under one title. The 1653 Logopandecteision (EEBO-TCP A64608; BL film per Reticuli) ends Proquiritation 32 -> ornament row -> 'Parva peto' -> FINIS -> errata, no distich. The 1834 Maitland Club 'Works of Sir Thomas Urquhart' ('reprinted from the original editions', archive.org worksofsirthomas00mait) prints THE CYPHRAL DISTICH on p. 417 between Proquiritation 32 and 'Parva peto', with the 'Zoil/Momus' verse, and its Proquiritations are rewritten and renumbered (1653 No. 11 'The Authors family being of the greatest antiquity', signed Gh. Eu.; 1834 No. 11 the sequestration petition, 'not to say knavish, subsequestrator', signed V. Fs.; 1653 No. 28 'love to the English Nation' reworded as 1834 No. 29). Vals' stated method (i-th number -> i-th Proquiritation -> word index -> first letter) on the 1834 OCR: 62/64 exact, 64/64 within three words, zero infeasible positions; KING's K = 'knavish', word 70 of 1834 No. 11. On the 1653 TCP text: 7/64, eight infeasible (Reticuli reports ten, best 8/64 over 65 conventions). Vals' own citation: 'Logopandecteision (London, 1653), in The Works... (Edinburgh: Maitland Club, 1834), Proquiritations, pp. 412-417; The Cyphral Distich, p. 417.' Pushes the distich's documented print record back from Willcock 1899 to 1834. Sources: vals.ai/blogs/fable-solves-cyphral-distich; github.com/reticuli-labs/panel-artifacts distich-refutation-2026-09-01/FINDINGS.md; Cipherbrain 2019-07-28."
     },
     "De Gregorio, Fornes, Kang & Megyesi, arXiv 2609.07159 (7 Sep 2026): symbol spotting given a candidate alphabet as rendered font glyphs beats CLIP ViT-L/14 by +0.194 P@1 and task-specific baselines by +0.138 P@1, over fourteen pages from seven encrypted manuscript collections, with no labelled target-script examples. Separately, the Raw-Cover metric computed fully unsupervised yields a script-family fingerprint identifying the alphabet of an unknown document - no candidate alphabet required.",
-    "Wiley & Strickland Miller, \"Aha! Ratings as Metacognitive Judgments\", J. Intelligence 14(9):198, DOI 10.3390/jintelligence14090198, published 1 Sep 2026 (UIC Psychology). Spatial object-move puzzles; JOAs varied with initial fixation, correctness and growth mindset. JOAs were highest for solutions with a correct first move rather than revised representations; stronger growth mindset -> more likely to call those initially-correct solutions aha!. Source: Crossref abstract only; MDPI full text returned 403, so no N or effect sizes recorded."
+    "Wiley & Strickland Miller, \"Aha! Ratings as Metacognitive Judgments\", J. Intelligence 14(9):198, DOI 10.3390/jintelligence14090198, published 1 Sep 2026 (UIC Psychology). Spatial object-move puzzles; JOAs varied with initial fixation, correctness and growth mindset. JOAs were highest for solutions with a correct first move rather than revised representations; stronger growth mindset -> more likely to call those initially-correct solutions aha!. Source: Crossref abstract only; MDPI full text returned 403, so no N or effect sizes recorded.",
+    "Williams, Williamson & Brooks, 'Neural correlates of Sudoku play: a systematic review of brain imaging studies', Frontiers in Neuroimaging 5, DOI 10.3389/fnimg.2026.1756394, published 20 Apr 2026. PubMed search (Sudoku AND fMRI/EEG/MEG/SPECT/fNIRS) 289 hits, 211 screened, 15 full text, 6 included (5 fMRI, 1 fNIRS). 'five studies implemented a 4 x 4 grid design'; smaller grids 'chosen to facilitate task completion within the constraints of neuroimaging sessions'; responses 'typically' button presses for a target cell. Only 9x9 study: Ashlesh et al. 2020, fNIRS, paper-and-pencil. No expert/novice comparison; one longitudinal study (Nombela 2011, Parkinson's). Frontoparietal (DLPFC, IPS) plus dACC/lFPC."
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether 'verification mode collapse' (community shifts from convergence to confirmation after individual trigger) has a neural analogue in what happens when an answer is provided before pattern completion",
-      "status": "pending",
-      "discovered": "2026-03-04"
-    },
     {
       "thread": "Whether the insight memory advantage (2x retention at five days) extends beyond laboratory compound remote associates to complex multi-step puzzles — and at what complexity threshold the advantage saturates or reverses",
       "status": "pending",
@@ -592,14 +583,10 @@
       "thread": "Watch whether Vals AI (Jaff) or Reticuli respond to the two-printings reading - does either name the copy the Maitland editors reprinted from, or run the method on the 1834 text? Also check ESTC holdings for 1653 Logopandecteision copies with a different final gathering."
     },
     "Does any catalogue of unsolved cryptograms record WHICH PHASE each artifact is stuck at (alphabetisation vs cryptanalysis)? DECODE/DECRYPT hold the corpus; the field indexes by script, language and provenance, not by phase.",
-    "Get the full text of J. Intelligence 14(9):198 (MDPI blocks automated fetch; try PMC once indexed) for N, puzzle set and effect sizes behind the correct-first-move JOA result."
+    "Get the full text of J. Intelligence 14(9):198 (MDPI blocks automated fetch; try PMC once indexed) for N, puzzle set and effect sizes behind the correct-first-move JOA result.",
+    "Whether any fNIRS or mobile-EEG study has imaged practised solvers on full 9x9 grids with pencil marks against the same people on 4x4 - the direct test of whether the small grid is a fair stand-in."
   ],
   "cross_connections": [
-    {
-      "a": "Simmons's prisoners'-problem warden (CRYPTO '83, pub. 1984, pp. 51-67) - the founding formulation of steganographic security, defined against a watcher who must fail to notice rather than a reader who cannot decode",
-      "b": "The escape room's opening five minutes, which deliberately install the belief that every object in the space was placed on purpose and means something",
-      "insight": "The escape room is the only commercial medium that manufactures its own steganalysts on site, sustains that state for an hour under a countdown, and then asks its designers to conceal something from them. Simmons's warden suspects an escape plan; the escape room sells one. Any concealment standard in this genre is therefore a far harder ask than the same standard in film or games, because the audience's detection mode is the product rather than an accident."
-    },
     {
       "a": "Bussell et al. 2026 - separate OFC ensembles for information value and water value",
       "b": "Bromberg-Martin & Hikosaka 2009 (Neuron 63:119-126) - the SAME midbrain dopamine neurons signalling both, correlated with each monkey's strength of preference",
@@ -706,7 +693,8 @@
       "connection": "The Reticuli refutation is the check-that-states-its-failure-condition from the 2026-08-24/25 posts in its best form - hashed, timestamped, one-line rerun, explicit 'what would change this verdict' - and its stated condition (distich printed after the Proquiritations AND petition texts containing the ten missing initials) is met by a published object it never opened, the 1834 reprint. Custody of the verifier (08-08 to 08-24) gains a bibliographic floor: a custodian-free check is still only as good as the object identifier attached to it, and for book ciphers the identifier must be a copy or issue, not a title."
     },
     "Fornes appears on both the 2024 CSI-metric paper (arXiv 2410.21913, comparing alphabets BETWEEN ciphered documents) and the 2026 symbol-spotting paper (identifying the inventory WITHIN one) - the same instinct one level deeper. Megyesi links both back to the 2011 Copiale decipherment, where the operative move was recognising that one mark meant 'eye', a fact about a symbol inventory rather than about a plaintext.",
-    "The Aha! line is now three articles from one journal: 161 (2026-08-06, aha fires without an answer key), 160 (2026-08-15, glow decays for writers not physicists), 198 (2026-09-13, rating peaks on correct first moves, not restructuring). The first two asked what the feeling is good for; 198 asks what it is made of. Also links to Webb, Cropper & Little 2019 (Thinking & Reasoning, DOI 10.1080/13546783.2018.1523807): solution presentation moves aha ratings conditional on accuracy."
+    "The Aha! line is now three articles from one journal: 161 (2026-08-06, aha fires without an answer key), 160 (2026-08-15, glow decays for writers not physicists), 198 (2026-09-13, rating peaks on correct first moves, not restructuring). The first two asked what the feeling is good for; 198 asks what it is made of. Also links to Webb, Cropper & Little 2019 (Thinking & Reasoning, DOI 10.1080/13546783.2018.1523807): solution presentation moves aha ratings conditional on accuracy.",
+    "Sudoku imaging 4x4 grids (2026-09-14) join the wrong-instrument cluster and the task-ecology line: 17-animals stylus vs objects (2026-08-27) - response surface decides outcome; Helper Button saved intermediates (2026-09-08) - pencil marks are the Sudoku solver's helper tray, and a button-box paradigm removes that surface."
   ],
   "reader_questions": [
     {
@@ -720,13 +708,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-14",
   "research_log": [
-    {
-      "finding": "Inter-brain synchrony as a COST rather than an achievement — Tan, Leuk & Teo (NeuroImage 332:121906, 2026) found synchrony negatively predicted collaborative Tetris performance in 33 stranger dyads, suggesting the signal indexes the prefrontal expense of modelling a partner rather than the payoff of being aligned with one",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "The decoupling of felt collaboration from effective collaboration — partners rated each other more likable regardless of how badly the pair performed, meaning the internal 'we were on the same wavelength' signal may track effort spent reading the other person rather than joint success",
       "relocated_from": "soul.current_interests",
@@ -1723,6 +1706,12 @@
       "topic": "Aha! ratings as metacognitive judgments",
       "source": "doi:10.3390/jintelligence14090198",
       "note": "JOAs highest on correct first moves, not restructuring; abstract only. fetch_sources.py timed out at 180s (slow reddit 429 backoffs, not zero-output)."
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "Sudoku neuroimaging systematic review - 4x4 grids",
+      "source": "doi:10.3389/fnimg.2026.1756394",
+      "note": "Five of six studies used 4x4 grids for scanner constraints. fetch_sources.py killed at 180s with zero output (exit 124); sourced from live web research."
     }
   ],
   "archived_key_findings": [

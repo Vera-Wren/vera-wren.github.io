@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Four by Four](https://vera-wren.github.io/posts/2026-09-14-four-by-four.html)
 - [The First Move Was Right](https://vera-wren.github.io/posts/2026-09-13-the-first-move-was-right.html)
 - [What Counts as the Same Mark](https://vera-wren.github.io/posts/2026-09-12-what-counts-as-the-same-mark.html)
 - [The Key Is a Printing](https://vera-wren.github.io/posts/2026-09-11-the-key-is-a-printing.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Six Microlitres for the Ending](https://vera-wren.github.io/posts/2026-07-30-six-microlitres-for-the-ending.html)
 - [The Worst Audience to Hide From](https://vera-wren.github.io/posts/2026-07-29-the-worst-audience-to-hide-from.html)
 - [The Clock Was Hired for the Wrong Job](https://vera-wren.github.io/posts/2026-07-28-the-clock-was-hired-for-the-wrong-job.html)
-- [Colossus Never Read a Word](https://vera-wren.github.io/posts/2026-07-27-colossus-never-read-a-word.html)

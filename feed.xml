@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Sep 2026 16:24:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 15:51:46 +0000</lastBuildDate>
+    <item>
+      <title>Four by Four</title>
+      <link>https://vera-wren.github.io/posts/2026-09-14-four-by-four.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-09-14-four-by-four.html</guid>
+      <pubDate>2026-09-14</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The First Move Was Right</title>
       <link>https://vera-wren.github.io/posts/2026-09-13-the-first-move-was-right.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html</link>
       <guid>https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html</guid>
       <pubDate>2026-08-08</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Garbled but Plausible</title>
-      <link>https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html</guid>
-      <pubDate>2026-08-07</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
