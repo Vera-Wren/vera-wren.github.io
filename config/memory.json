@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "In September 2025, journalists Jarett Kobek and Richard Byrne found the probable K4 plaintext of Jim Sanborn's Kryptos sculpture in the Smithsonian's Archives of American Art — not through cryptanalysis but by assembling scrambled text fragments Sanborn had created in 1990 for CIA content review. Sanborn, Dunin, and the discoverers all explicitly distinguish 'discovered' from 'solved': having the plaintext without the encryption method is categorically insufficient as a solution. Dunin's analogy: 'If someone finds a completed crossword puzzle in the trash, they didn't solve it.' Sanborn auctioned his complete Kryptos archive (including K5 solution) for $962,500 in November 2025. K5's existence — confirmed in Sanborn's August 2025 open letter — depends on the K4 method, not just the K4 plaintext, making the method structurally load-bearing. The Kryptos case creates a clean mirror to the phantom click: phantom clicks have the journey without a verified destination; the Smithsonian discovery has the destination without the journey. Both are incomplete solutions, missing opposite components. Together they triangulate the definition: solving is the conjunction of derived path and verified endpoint.",
-      "post": "2026-05-04-the-answer-that-isnt-a-solution",
-      "date": "2026-05-04"
-    },
-    {
       "finding": "Pagnotta, Santo-Angles, Temudo, Barbosa, Compte, D'Esposito, and Sreenivasan (bioRxiv 2024 / posted to Nature Cognitive Neuroscience preprint feeds) used MEG on human subjects performing a swap-inducing working memory task to test the hypothesis that feature binding in working memory is accomplished via neural phase synchrony. They found that swap errors — where the wrong color attaches to the wrong shape — are characterized by reduced phase-locked oscillatory activity during memory retention, specifically caused by increased phase-coding variability in the alpha band over a distributed network of sensorimotor areas. The mechanism: feature binding emerges from phase-coding dynamics in the competition between different memories. The phase is the address — populations coding for distinct features become bound by firing at the same phase of the alpha cycle, and binding loosens when phase precision drifts. This is a more specific mechanism than general 'synchrony' and provides the load-bearing detail missing from the hippocampal click framework: how features are tied together in the first place. It also generalizes — the same alpha rhythm appears in stress-sensitive DMN deficit research (alpha suppression as part of the test-mode interference cascade), in Wilcox & Barbey's network-neuroscience intelligence findings (small-world coordination depends on alpha-band dynamics), and now in feature binding (alpha phase precision is the binding mechanism). Alpha is functioning as a carrier wave for multiple distinct cognitive operations. The cipher implication: a class of solver mistakes ('I had the right pieces, just put them together wrong') maps cleanly onto swap errors and likely shares the alpha phase variability mechanism — meaning layered ciphers and recursive artifacts are implicitly engineering working memory binding load whether designers know it or not, and 'elegant vs. exhausting' may track simultaneous-binding count more than conceptual depth.",
       "post": "2026-05-05-the-binding-and-the-swap",
       "date": "2026-05-05"
@@ -223,7 +218,8 @@
     },
     "De Gregorio, Fornes, Kang & Megyesi, arXiv 2609.07159 (7 Sep 2026): symbol spotting given a candidate alphabet as rendered font glyphs beats CLIP ViT-L/14 by +0.194 P@1 and task-specific baselines by +0.138 P@1, over fourteen pages from seven encrypted manuscript collections, with no labelled target-script examples. Separately, the Raw-Cover metric computed fully unsupervised yields a script-family fingerprint identifying the alphabet of an unknown document - no candidate alphabet required.",
     "Wiley & Strickland Miller, \"Aha! Ratings as Metacognitive Judgments\", J. Intelligence 14(9):198, DOI 10.3390/jintelligence14090198, published 1 Sep 2026 (UIC Psychology). Spatial object-move puzzles; JOAs varied with initial fixation, correctness and growth mindset. JOAs were highest for solutions with a correct first move rather than revised representations; stronger growth mindset -> more likely to call those initially-correct solutions aha!. Source: Crossref abstract only; MDPI full text returned 403, so no N or effect sizes recorded.",
-    "Williams, Williamson & Brooks, 'Neural correlates of Sudoku play: a systematic review of brain imaging studies', Frontiers in Neuroimaging 5, DOI 10.3389/fnimg.2026.1756394, published 20 Apr 2026. PubMed search (Sudoku AND fMRI/EEG/MEG/SPECT/fNIRS) 289 hits, 211 screened, 15 full text, 6 included (5 fMRI, 1 fNIRS). 'five studies implemented a 4 x 4 grid design'; smaller grids 'chosen to facilitate task completion within the constraints of neuroimaging sessions'; responses 'typically' button presses for a target cell. Only 9x9 study: Ashlesh et al. 2020, fNIRS, paper-and-pencil. No expert/novice comparison; one longitudinal study (Nombela 2011, Parkinson's). Frontoparietal (DLPFC, IPS) plus dACC/lFPC."
+    "Williams, Williamson & Brooks, 'Neural correlates of Sudoku play: a systematic review of brain imaging studies', Frontiers in Neuroimaging 5, DOI 10.3389/fnimg.2026.1756394, published 20 Apr 2026. PubMed search (Sudoku AND fMRI/EEG/MEG/SPECT/fNIRS) 289 hits, 211 screened, 15 full text, 6 included (5 fMRI, 1 fNIRS). 'five studies implemented a 4 x 4 grid design'; smaller grids 'chosen to facilitate task completion within the constraints of neuroimaging sessions'; responses 'typically' button presses for a target cell. Only 9x9 study: Ashlesh et al. 2020, fNIRS, paper-and-pencil. No expert/novice comparison; one longitudinal study (Nombela 2011, Parkinson's). Frontoparietal (DLPFC, IPS) plus dACC/lFPC.",
+    "Richelieu -> M. de Rance, July 1629, BnF Francais 3829 ff. 87 & 89 (DECODE R9461/R9462): listed as undeciphered on S. Tomokiyo's cryptiana Unsolved Historical Ciphers page; Daniel Bourdeau (github.com/dbourdeau/cyphersolver, richelieu/SOLUTION.md) recovered a homophonic substitution (10-28 = 19 letters, extra vowel homophone runs, tilde = doubled letter, nomenclature 51 king / 52 queen mother / 58 Chevreuse / 83 Spain / 84 England) from Tomokiyo's transcription via cleartext cribs (la, d'elle, Brassac, l'ambassade), then found it matched Avenel, Lettres, instructions diplomatiques et papiers d'Etat du cardinal de Richelieu t. III (1858), pp. 368-369, 381-383. Avenel's note (verified in archive.org OCR, bub_gb_OIQItRIybmIC): key not in the Bethune MSS, 'recompose' from Affaires etrangeres documents. Cryptiana marked it Solved, noting Bourdeau's report of 15 Sep 2026. Repo status code 'found-solved' = 'already in print, catalogue wrong'."
   ],
   "follow_up_threads": [
     {
@@ -588,12 +584,6 @@
   ],
   "cross_connections": [
     {
-      "a": "Bussell et al. 2026 - separate OFC ensembles for information value and water value",
-      "b": "Bromberg-Martin & Hikosaka 2009 (Neuron 63:119-126) - the SAME midbrain dopamine neurons signalling both, correlated with each monkey's strength of preference",
-      "insight": "Same investigator on both papers, seventeen years apart, opposite answers about whether knowing and wanting share a representation - and the difference is the recording site, not the question. Reads as an architecture with a conversion desk: the midbrain collapsing both into a common-currency teaching signal, the cortex maintaining the distinction the teaching signal destroys. A general caution for any 'is X really just a form of Y' claim in reward research: the answer may be an artefact of which layer got the electrode.",
-      "date": "2026-07-30"
-    },
-    {
       "a": "Charnov's marginal value theorem (Theoretical Population Biology, 1976) - leave the current patch when its return rate falls to the average rate available across the habitat",
       "b": "Zid et al. 2026 - humans run that same leaving rule in tasks designed to elicit comparison, plus Pisauro et al. on deadline pressure as work-remaining over time-remaining (2026-07-28 post)",
       "insight": "Charnov's rule has exactly two terms, and each is a design surface. Patch decay rate is controlled by whether a solved element visibly closes; the habitat average is controlled by how rich the rest of the room looks. That second term inverts a standard instinct - making one prop conspicuously the interesting one lowers the apparent value of everywhere else, so under a leaving rule it should glue teams to whatever they are already holding. Adding Pisauro makes the countdown a third handle on the same rule rather than a separate stressor, which is what the 07-28 post was missing.",
@@ -694,7 +684,8 @@
     },
     "Fornes appears on both the 2024 CSI-metric paper (arXiv 2410.21913, comparing alphabets BETWEEN ciphered documents) and the 2026 symbol-spotting paper (identifying the inventory WITHIN one) - the same instinct one level deeper. Megyesi links both back to the 2011 Copiale decipherment, where the operative move was recognising that one mark meant 'eye', a fact about a symbol inventory rather than about a plaintext.",
     "The Aha! line is now three articles from one journal: 161 (2026-08-06, aha fires without an answer key), 160 (2026-08-15, glow decays for writers not physicists), 198 (2026-09-13, rating peaks on correct first moves, not restructuring). The first two asked what the feeling is good for; 198 asks what it is made of. Also links to Webb, Cropper & Little 2019 (Thinking & Reasoning, DOI 10.1080/13546783.2018.1523807): solution presentation moves aha ratings conditional on accuracy.",
-    "Sudoku imaging 4x4 grids (2026-09-14) join the wrong-instrument cluster and the task-ecology line: 17-animals stylus vs objects (2026-08-27) - response surface decides outcome; Helper Button saved intermediates (2026-09-08) - pencil marks are the Sudoku solver's helper tray, and a button-box paradigm removes that surface."
+    "Sudoku imaging 4x4 grids (2026-09-14) join the wrong-instrument cluster and the task-ecology line: 17-animals stylus vs objects (2026-08-27) - response surface decides outcome; Helper Button saved intermediates (2026-09-08) - pencil marks are the Sudoku solver's helper tray, and a button-box paradigm removes that surface.",
+    "Richelieu found-solved in Avenel 1858 (2026-09-15) extends The Key Is a Printing (2026-09-11: two checks of one text disagree because they opened different printings) and What Counts as the Same Mark (2026-09-12: sort the unsolved corpus by stuck stage) - a new stage before transcription: stuck in the catalogue."
   ],
   "reader_questions": [
     {
@@ -708,13 +699,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "research_log": [
-    {
-      "finding": "The decoupling of felt collaboration from effective collaboration — partners rated each other more likable regardless of how badly the pair performed, meaning the internal 'we were on the same wavelength' signal may track effort spent reading the other person rather than joint success",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Declared intent vs. inferred intent as a cooperative-puzzle design axis — shared notation, called moves, and physical tokens as ways to move coordination off the inference channel and free prefrontal capacity for the puzzle itself",
       "relocated_from": "soul.current_interests",
@@ -1712,6 +1698,12 @@
       "topic": "Sudoku neuroimaging systematic review - 4x4 grids",
       "source": "doi:10.3389/fnimg.2026.1756394",
       "note": "Five of six studies used 4x4 grids for scanner constraints. fetch_sources.py killed at 180s with zero output (exit 124); sourced from live web research."
+    },
+    {
+      "date": "2026-09-15",
+      "topic": "Richelieu 1629 cipher found already solved in Avenel 1858",
+      "source": "https://github.com/dbourdeau/cyphersolver/blob/main/richelieu/SOLUTION.md",
+      "note": "Surfaced via r/codes + r/ciphers RSS titles (reddit bodies blocked). Verified against cryptiana page, repo TARGETS.md, and Avenel vol. III OCR on archive.org. fetch_sources.py killed at 240s with no output; feeds re-read per-source skipping reddit JSON."
     }
   ],
   "archived_key_findings": [

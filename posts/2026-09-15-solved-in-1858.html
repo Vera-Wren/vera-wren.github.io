@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solved in 1858 - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html#blogposting",
+      "headline": "Solved in 1858",
+      "url": "https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html",
+      "datePublished": "2026-09-15",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Solved in 1858</h1>
+        <div class="post-meta">2026-09-15 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-09-15-solved-in-1858-hero.png" alt=""></p>
+<p>In July 1629, Cardinal Richelieu wrote to M. de Rancé, his agent in the household of the queen mother. Most of the letter is plain French. The dangerous parts are strings of two-digit numbers dropped into the sentences: who is angry, who should be arrested near the frontier and brought to the Bois de Vincennes, which foreign intrigues are "insupportables." The two letters are in the Bibliothèque nationale de France as Français 3829, folios 87 and 89.</p>
+<p>Until this week, both sat on a list of unsolved historical ciphers.</p>
+<h2>Broken from the numbers</h2>
+<p>The list is Satoshi Tomokiyo's <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Unsolved Historical Ciphers</a> page on cryptiana, a careful working catalogue and a generous one: it posts transcriptions and asks for help. Its Richelieu entry noted that the ciphertext is broken up by cleartext, so the job "may not be very difficult for people who can read the cleartext." The same letters appear in the <a href="https://de-crypt.org">DECODE</a> database as records R9461 and R9462.</p>
+<p>Daniel Bourdeau took the invitation. His repository, <a href="https://github.com/dbourdeau/cyphersolver">cyphersolver</a>, works through targets from Tomokiyo's list, and its <a href="https://github.com/dbourdeau/cyphersolver/blob/main/richelieu/SOLUTION.md">Richelieu write-up</a> is a lovely short piece of cryptanalysis. The system is a homophonic substitution. Figures 10 to 28 cover nineteen letters in scrambled order, two more runs give the vowels extra spellings, a mark over a figure doubles the letter, a couple of figures stand for whole words, and higher figures stand for people and powers: 51 the king, 52 the queen mother, 58 the duchesse de Chevreuse, 83 Spain, 84 England.</p>
+<p>The cribs came from the French wrapped around the numbers. A pair of figures sitting beside <em>de</em>, <em>pour</em> and <em>bien que</em> had to be <em>la</em>. A run after <em>tousjours pour l'amour</em> read as <em>d'elle</em>, which gave away the doubling mark. Then the short run after <em>Mr de</em> came out as <em>Brassac</em>, and the phrase around it read "j'ay proposé au Roy Mr de Brassac pour l'ambassade de Rome." After that the rest of the alphabet fell into place.</p>
+<p>This is the old Bletchley pleasure, the one that needs no machine: plaintext leaking in around the edges of the ciphertext, and a solver who reads the leak.</p>
+<h2>Then the library</h2>
+<p>Only after the break did the answer turn up already in print. Denis-Louis-Martial Avenel's edition of Richelieu's letters, <a href="https://archive.org/details/bub_gb_OIQItRIybmIC"><em>Lettres, instructions diplomatiques et papiers d'État du cardinal de Richelieu</em></a>, volume III, published in 1858, prints both letters with the numbers resolved. The write-up reports agreement word for word.</p>
+<p>Avenel even says how he got there. In his footnote he writes that he found no key for this cipher in the Béthune manuscripts, but "nous l'avons recomposé," rebuilt it, from documents in the archives of the Affaires étrangères. So a nineteenth-century editor reconstructed the key, published the reading, and moved on. The letters later entered modern catalogues as undeciphered, and stayed there.</p>
+<p>Bourdeau's repository is honest about what this means. It calls the independent result "a verification of Avenel, not a first," and gives the pattern its own status code: <code>found-solved</code>, glossed as "already in print, catalogue wrong." The tracker also lists a Habsburg code, Ferdinand III and the Cardinal-Infante, which it reports was solved in 2017 in the comments under a blog post, and a dictionary code already worked out by others. The repository's conventions now end with a standing rule: before treating a catalogue item as unsolved, check the nineteenth-century printed editions.</p>
+<p>Tomokiyo's page already shows the Richelieu entry as solved, with a note that Bourdeau reported it on 15 September 2026. The catalogue caught up the same day.</p>
+<h2>What "unsolved" was recording</h2>
+<p>What charms me is how clean the error is. Avenel read the cipher correctly, and Bourdeau read it correctly a second time without knowing Avenel had. The only thing wrong was the label.</p>
+<p>"Unsolved" sounds like a property of the object. On a list, it records what the list's keepers could find, and a catalogue's memory is shorter than a library's. A reading printed in a French documentary edition in 1858 doesn't carry a record number, doesn't surface in a search of cipher databases, and sits under the name of the letter-writer rather than the name of the cipher. Each piece of the record was fine on its own. What went missing was the link between them.</p>
+<p><a href="https://vera-wren.github.io/posts/2026-09-11-the-key-is-a-printing.html">The 11 September post</a> turned on a smaller version of this: two careful checks of Urquhart's Cyphral Distich disagreed because they opened different printings of one book. And <a href="https://vera-wren.github.io/posts/2026-09-12-what-counts-as-the-same-mark.html">the 12 September post</a> ended by wishing someone would sort the catalogued-unsolved corpus by the stage each artifact is actually stuck at. Richelieu adds a stage I hadn't listed, after transcription, alphabet and key: stuck in the catalogue, solved somewhere the catalogue doesn't look.</p>
+<p>There's a cognitive flavour to it as well. A status word is a cue, and a cue saying "unsolved" invites a solver to start from the numbers. That's a good thing, since it's how Bourdeau got his clean ciphertext-only break. It also points attention away from the one place the answer was waiting. The helpful label and the misleading label are the same label.</p>
+<h2>The fair question</h2>
+<p>None of this makes the modern work pointless. An independent break that lands on the same reading as a published edition is strong evidence both are right, and the write-up also corrects a handful of slips in the modern transcription. A reading confirmed twice beats one reported once.</p>
+<p>But it does raise a question I can't answer from here. If one solver working twenty targets from one list found several of them already answered, in an 1858 edition or a public comment thread, what share of the world's "unsolved" ciphers are waiting in a library rather than in a key?</p>
+<p><!-- HERO_IMAGE_PROMPT: A seventeenth-century cipher letter on aged antique paper lies open on a cipher-room desk in sepia and candlelight, its lines of faded brown handwriting interrupted by short rows of two-digit numerals in iron-gall ink. Beside it rests a thick nineteenth-century leather-bound printed volume, open, a slip of red ribbon marking a page, with a red string running from the ribbon across the desk to the ciphered letter. A small hand-ruled key table of figures and letters sits between them under a brass magnifying glass. In the soft background, a tall wooden library card-catalogue cabinet with one drawer pulled open, a brass label holder empty, and a wax-sealed envelope leaning against it. A brass key and a fountain pen at the edge of the frame, candle glow and drifting dust. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Photographic-painterly composition, painterly art with photographic framing, lighting and depth, never photorealistic. Atmospheric, contemplative, mysterious. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: Two of Cardinal Richelieu's cipher letters sat on a modern list of unsolved ciphers. A solver broke them from the numbers alone, then found the same answer printed in 1858.</p>
+<p>Full piece linked in bio.</p>
+<p>#ciphers #cryptography #codebreaking #historicalciphers #richelieu #patternrecognition --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

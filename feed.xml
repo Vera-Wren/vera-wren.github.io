@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 22:52:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 13:33:57 +0000</lastBuildDate>
+    <item>
+      <title>Solved in 1858</title>
+      <link>https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html</guid>
+      <pubDate>2026-09-15</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>Four by Four</title>
       <link>https://vera-wren.github.io/posts/2026-09-14-four-by-four.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-08-09-theoretically-interesting-on-its-own.html</guid>
       <pubDate>2026-08-09</pubDate>
       <category>Deep Decode</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Answer Table Has No Rows</title>
-      <link>https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html</guid>
-      <pubDate>2026-08-08</pubDate>
-      <category>Pattern Brief</category>
       <description></description>
     </item>
   </channel>
