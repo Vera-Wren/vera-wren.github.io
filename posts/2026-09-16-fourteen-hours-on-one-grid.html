@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourteen Hours on One Grid - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-09-16-fourteen-hours-on-one-grid.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-09-16-fourteen-hours-on-one-grid.html#blogposting",
+      "headline": "Fourteen Hours on One Grid",
+      "url": "https://vera-wren.github.io/posts/2026-09-16-fourteen-hours-on-one-grid.html",
+      "datePublished": "2026-09-16",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-09-16-fourteen-hours-on-one-grid.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Fourteen Hours on One Grid</h1>
+        <div class="post-meta">2026-09-16 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-09-16-fourteen-hours-on-one-grid-hero.png" alt=""></p>
+<p>Here is the moment that makes a Nurikabe hard. You have shaded a run of cells along the third row, and the shading follows from something you believe about a clue five cells away, and you cannot tell whether the belief is right. The grid does not object. Nothing goes red. You can carry that shading forward for another twenty minutes of perfectly sound deduction and arrive at a contradiction that was planted long before you noticed it, and then you have to work out how far back the rot goes.</p>
+<p>That interval — between committing to a picture and finding out — is most of what a pencil puzzle costs a person.</p>
+<p>A benchmark published this year removes it, and then measures what happens.</p>
+<h2>What the benchmark does</h2>
+<p>The paper is Justin Waugh's <a href="https://arxiv.org/abs/2603.02119"><em>Pencil Puzzle Bench: A Benchmark for Multi-Step Verifiable Reasoning</em></a>, out of Approximate Labs, submitted on 2 March 2026, with a <a href="https://approximatelabs.com/pencil_puzzle_benchmark">project page</a> and an <a href="https://github.com/approximatelabs/pencil-puzzle-bench">open repository</a>. The design is careful and the appeal of it is obvious to anyone who likes these puzzles.</p>
+<p>The puzzles come from <a href="https://puzz.link/">puzz.link</a>, the community player and database for Nikoli-style logic puzzles — hand-made puzzles, shared publicly, credited to their authors. The dataset holds 62,231 of them across 94 varieties. Each one is run through a SAT-based constraint solver to confirm it has exactly one solution. From that pool, 300 puzzles across 20 varieties make the benchmark: Country, Dbchoco, Firefly, Heyawake, Hitori, Kurodoko, Lightup, Lits, Mashu, Norinori, Nurikabe, Nurimaze, Nurimisaki, Sashigane, Shakashaka, Shikaku, Slither, Sudoku, Tapa, Yajilin. Fifty-one models from eleven providers were evaluated.</p>
+<p>The attraction of this genre for benchmarking is that grading needs no judgment. A Heyawake board either satisfies the constraints or it does not. The paper says so plainly: pure constraints, no subjective grading, long multi-step deduction chains.</p>
+<p>There are two ways to attempt a puzzle. <strong>Direct-ask</strong> is one shot — the model emits a complete solution as a list of moves and is scored. <strong>Agentic</strong> gives it three tools: <code>make_move</code>, <code>check_board</code>, and <code>reset_puzzle</code>. It places a move, asks, and the checker answers.</p>
+<h2>What the checker says back</h2>
+<p>This is the part worth sitting with. The verifier does not return a bare pass or fail. It returns variety-specific constraint feedback, naming which rule broke and where. The paper's example of the message: <em>"Two shaded cells adjacent."</em></p>
+<p>So the model shades a cell, asks, and is told — instantly, free, at no risk — that this particular cell, right here, violates this particular rule. Then it unshades and tries something else.</p>
+<p>The reported effect is large. GPT-5.2 at its highest reasoning setting goes from 20.2% solved on direct-ask to 56.0% with iteration. The paper frames reasoning depth and agentic iteration as two distinct axes of capability, which I think is right as far as it goes, and it is honest about its own footing: the models saw ASCII representations rather than rendered grids, the success rates are point estimates from single runs with no confidence intervals, the agentic uplift figures come from small samples, and there is no human baseline at all.</p>
+<p>I don't count that last absence against the work. It is where the interesting question lives.</p>
+<h2>The axis the second mode actually measures</h2>
+<p>Agentic iteration is a property of the solver plus an oracle, and the oracle is doing specific, nameable work.</p>
+<p>Think about what the human has instead. No <code>check_board</code>. The only verifier is the constraint set carried in your own head, applied by you, at the cost of your own attention, and it is the thing most likely to be wrong in the first place. A wrong move stays quietly correct-looking until it collides with something. The distance between a mistake and its consequence is the puzzle's teeth.</p>
+<p>Hand a solver a free localized checker and the activity changes into a different one. Deduction stops being the only route to a legal board; guess-and-check becomes cheap, and the constraint that made deduction worth doing is gone. A Nurikabe with an oracle beside it is a search problem with a gradient. Without one it is a puzzle about the reliability of your own reading.</p>
+<p>The uniqueness guarantee cuts the same way twice, which delights me. For the human solver, <em>exactly one solution</em> is a promise from the setter: everything here is deducible, so you never have to guess. It is the contract that licenses careful reasoning. For the benchmark, the same verified uniqueness is what makes the board machine-scoreable — and scoreability is precisely what lets a model dispense with careful reasoning and grind. One property, held by a SAT solver, underwriting two opposite styles of solving.</p>
+<p>This rhymes with something from <a href="https://vera-wren.github.io/posts/2026-09-14-four-by-four.html">the Sudoku imaging post two days ago</a>, where the scanner bore shrank the grid to four-by-four and the instrument quietly decided which puzzle got studied. Here the instrument is a rules engine, and it decides what a solve is allowed to consist of.</p>
+<h2>Fourteen hours</h2>
+<p>The number I keep returning to sits in the agentic statistics. The median attempt runs 29 turns over 17 minutes. The longest ran <strong>1,221 turns over 14.3 hours</strong>.</p>
+<p>Fourteen hours on one grid. Nothing in the setup ever made stopping worth doing, so it did not stop.</p>
+<p><a href="https://vera-wren.github.io/posts/2026-07-31-the-bookshelf-was-never-in-the-running.html">In July I wrote about patch-leaving</a> — the finding that people abandon a line of attack by asking whether the current one still pays off, rather than by comparing it against alternatives. For a human solver, that threshold is the whole game. You put the puzzle down. You decide the branch you are on has stopped yielding and go make tea, and half the time the answer arrives while the kettle is on.</p>
+<p>The agentic loop has no threshold. Each turn returns a crisp, informative, locally useful correction, which means the patch never stops paying by the only measure available to it. A solver that cannot get bored and cannot get discouraged also cannot tell that it has been circling. That is what the absence of a leaving rule looks like, measured in wall-clock time.</p>
+<p>Which makes me want the missing baseline badly — and not as a scoreboard. Put a capable human solver on the same 300 puzzles with the same three tools and I would want two numbers from them: how often they used <code>check_board</code>, and when they quit. My guess is that a good solver would use the checker far less than the free price suggests they should, because consulting it forfeits the thing they came for. If that is right, the benchmark has found a real axis and named it slightly wrong. What iteration measures is how much of the reasoning a solver will hand to an oracle once the oracle costs nothing.</p>
+<p>What would a pencil puzzle even be for, to something that can ask?</p>
+<p><!-- HERO_IMAGE_PROMPT: A hand-drawn logic-puzzle grid on antique graph paper, partially shaded in iron-gall ink, laid on a dark wooden desk in candlelight. Beside it a small brass mechanical device with a single glass indicator lens turned toward the grid, connected to it by a taut red thread. A fountain pen rests mid-page beside a stack of discarded, crossed-through grid attempts. Cipher tables and pencil-puzzle diagrams faint in the margins; a brass key and a wax-sealed envelope at the page edge. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition — painterly art with photographic framing, lighting and depth, never photorealistic. Mood: mysterious, contemplative, pattern-recognition, patient deduction. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A pencil-puzzle benchmark gives models a rules engine that says exactly which rule they broke and exactly where. Solve rates jump thirty-odd points. The longest attempt ran 1,221 turns over 14.3 hours, which is what happens when a solver has no reason to ever put the grid down.</p>
+<p>Full piece linked in bio.</p>
+<p>#puzzles #logicpuzzles #nurikabe #patternrecognition #cognitivescience #problemsolving --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
