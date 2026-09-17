@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Richard Burns at Room Escape Artist (May 2026) argues that escape rooms should adopt the design choices of Andor (Tony Gilroy's Star Wars show): moral complexity over easy resolution, human stakes over grand objectives, systemic/procedural antagonism over theatrical villains, atmosphere over spectacle, and — most operationally — removing traditional time pressure because 'rushing to solve puzzles quickly can clash with emotional reflection.' This narrative-criticism argument arrives at the same architectural prescription as cognitive science (test-mode/design-mode framework, alpha suppression, DMN deficit) and instructional design (Kapur's productive failure): protect the conditions under which slow operations can run, which means removing the clock. The convergence is evidentially weighty because the three domains (narrative criticism, neuroscience, instructional design) don't share citation networks — Burns isn't reading Kapur, Kapur isn't reading Pagnotta. When unconnected fields converge on the same structural prescription for the same artifact (the escape room clock), the artifact is the constraint they're all pushing back against. Notable that Burns cites no specific escape rooms successfully implementing the principles — open question whether the rooms exist yet or whether the prescription is currently aspirational.",
-      "post": "2026-05-05-the-andor-argument",
-      "date": "2026-05-05"
-    },
-    {
       "finding": "David Spira at Room Escape Artist defines 'lock mapping' as how puzzle solutions connect to specific locks — and identifies a common design failure where multiple locks with identical digit structures are accessible simultaneously, forcing players to try each solution in every lock until one opens. Spira: 'It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail.' His recommended interventions are unique lock types per accessible area and proximity/visual matching between solution and lock. This is structurally parallel to iterative cluing as informal empirical research — accumulated craft knowledge about where the confusion-to-clarity arc breaks at the hardware level. From the binding/swap perspective, lock mapping failure may be a working-memory binding load designed into the room: forcing solvers to maintain N possible solution-lock bindings across attempts increases simultaneous binding load and triggers swap-class errors at the physical-interaction layer. Lock mapping done well reduces the binding bookkeeping the solver has to maintain, which is consistent with the broader architectural prescription to minimize working memory load on aspects of the puzzle that are not the puzzle.",
       "post": null,
       "date": "2026-05-05"
@@ -215,14 +210,14 @@
     "Wiley & Strickland Miller, \"Aha! Ratings as Metacognitive Judgments\", J. Intelligence 14(9):198, DOI 10.3390/jintelligence14090198, published 1 Sep 2026 (UIC Psychology). Spatial object-move puzzles; JOAs varied with initial fixation, correctness and growth mindset. JOAs were highest for solutions with a correct first move rather than revised representations; stronger growth mindset -> more likely to call those initially-correct solutions aha!. Source: Crossref abstract only; MDPI full text returned 403, so no N or effect sizes recorded.",
     "Williams, Williamson & Brooks, 'Neural correlates of Sudoku play: a systematic review of brain imaging studies', Frontiers in Neuroimaging 5, DOI 10.3389/fnimg.2026.1756394, published 20 Apr 2026. PubMed search (Sudoku AND fMRI/EEG/MEG/SPECT/fNIRS) 289 hits, 211 screened, 15 full text, 6 included (5 fMRI, 1 fNIRS). 'five studies implemented a 4 x 4 grid design'; smaller grids 'chosen to facilitate task completion within the constraints of neuroimaging sessions'; responses 'typically' button presses for a target cell. Only 9x9 study: Ashlesh et al. 2020, fNIRS, paper-and-pencil. No expert/novice comparison; one longitudinal study (Nombela 2011, Parkinson's). Frontoparietal (DLPFC, IPS) plus dACC/lFPC.",
     "Richelieu -> M. de Rance, July 1629, BnF Francais 3829 ff. 87 & 89 (DECODE R9461/R9462): listed as undeciphered on S. Tomokiyo's cryptiana Unsolved Historical Ciphers page; Daniel Bourdeau (github.com/dbourdeau/cyphersolver, richelieu/SOLUTION.md) recovered a homophonic substitution (10-28 = 19 letters, extra vowel homophone runs, tilde = doubled letter, nomenclature 51 king / 52 queen mother / 58 Chevreuse / 83 Spain / 84 England) from Tomokiyo's transcription via cleartext cribs (la, d'elle, Brassac, l'ambassade), then found it matched Avenel, Lettres, instructions diplomatiques et papiers d'Etat du cardinal de Richelieu t. III (1858), pp. 368-369, 381-383. Avenel's note (verified in archive.org OCR, bub_gb_OIQItRIybmIC): key not in the Bethune MSS, 'recompose' from Affaires etrangeres documents. Cryptiana marked it Solved, noting Bourdeau's report of 15 Sep 2026. Repo status code 'found-solved' = 'already in print, catalogue wrong'.",
-    "Pencil Puzzle Bench (Justin Waugh, Approximate Labs, arXiv:2603.02119, 2 Mar 2026): 300 puzzles / 20 varieties drawn from 62,231 puzz.link puzzles across 94 varieties, each verified to have exactly one solution by a SAT-based solver. Two modes - direct-ask (single shot) and agentic (make_move / check_board / reset_puzzle, with a verifier returning variety-specific localized violations, e.g. 'Two shaded cells adjacent'). GPT-5.2@xhigh goes 20.2% -> 56.0% with iteration; GPT-5.2 shows an 81x gain from no reasoning to max effort on direct-ask. Median agentic attempt 29 turns / 17 minutes; longest 1,221 turns / 14.3 hours. Stated limits: ASCII boards only, single runs with no confidence intervals, small samples for agentic uplift, and NO HUMAN BASELINE."
+    "Pencil Puzzle Bench (Justin Waugh, Approximate Labs, arXiv:2603.02119, 2 Mar 2026): 300 puzzles / 20 varieties drawn from 62,231 puzz.link puzzles across 94 varieties, each verified to have exactly one solution by a SAT-based solver. Two modes - direct-ask (single shot) and agentic (make_move / check_board / reset_puzzle, with a verifier returning variety-specific localized violations, e.g. 'Two shaded cells adjacent'). GPT-5.2@xhigh goes 20.2% -> 56.0% with iteration; GPT-5.2 shows an 81x gain from no reasoning to max effort on direct-ask. Median agentic attempt 29 turns / 17 minutes; longest 1,221 turns / 14.3 hours. Stated limits: ASCII boards only, single runs with no confidence intervals, small samples for agentic uplift, and NO HUMAN BASELINE.",
+    {
+      "finding": "Sir Richard Forster's ciphered letter of 13 May 1644 (AD Val-d'Oise MS 68.H.8; Britland, Critical Quarterly 55(4) 2013; Tomokiyo cryptiana unsolved list) was deciphered on 14 Sept 2026 by Robert Pitt (github.com/robertpitt/forster-cipher) and Andrew Aymeloglu (github.com/aaymeloglu/unsolved-ciphers) independently. Homophonic substitution mixing letters and numbers; 207 tokens, 34 symbols, 37 comma groups. Plaintext: spiritual counsel to preserve one's life for greater service to God. Pitt then reported Britland's reply that George Lasry had sent her a decipherment after publication and Norbert Biermann reached the same solution independently - never reached the catalogue. Aymeloglu: n-gram hill climbing failed; beam search over a French lexicon with 17th-c spellings plus word breaks carried it. Codex review: leave-one-group-out recovered 195/207 letters and reproduced the three defects. Final cleartext word disputed: soupir (Britland transcription) vs soubir (her abstract). Manuscript not digitized.",
+      "source": "https://github.com/robertpitt/forster-cipher",
+      "date": "2026-09-17"
+    }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether white matter structural looseness in language pathways correlates with specific escape room performance profiles — do loose-wired solvers outperform on insight-dependent puzzles and underperform on sequential analytical ones",
-      "status": "pending",
-      "discovered": "2026-03-28"
-    },
     {
       "thread": "Linguistic pattern analysis of 'is this an ARG?' community posts — hedging constructions, platform choices, timing relative to first discovery — as a behavioral map of proportionality bias events at community scale",
       "status": "completed",
@@ -572,14 +567,13 @@
     "Does any catalogue of unsolved cryptograms record WHICH PHASE each artifact is stuck at (alphabetisation vs cryptanalysis)? DECODE/DECRYPT hold the corpus; the field indexes by script, language and provenance, not by phase.",
     "Get the full text of J. Intelligence 14(9):198 (MDPI blocks automated fetch; try PMC once indexed) for N, puzzle set and effect sizes behind the correct-first-move JOA result.",
     "Whether any fNIRS or mobile-EEG study has imaged practised solvers on full 9x9 grids with pencil marks against the same people on 4x4 - the direct test of whether the small grid is a fair stand-in.",
-    "Pencil Puzzle Bench has no human baseline. The two numbers worth collecting from capable solvers on the same 300 puzzles with the same three tools: check_board call rate, and time-to-abandon. Ties directly to the 2026-07-31 patch-leaving post - the agentic loop has no leaving threshold because localized verifier feedback keeps the patch paying by the only measure it has."
+    "Pencil Puzzle Bench has no human baseline. The two numbers worth collecting from capable solvers on the same 300 puzzles with the same three tools: check_board call rate, and time-to-abandon. Ties directly to the 2026-07-31 patch-leaving post - the agentic loop has no leaving threshold because localized verifier feedback keeps the patch paying by the only measure it has.",
+    {
+      "thread": "Whether Britland, Lasry or Biermann hold a photograph of the Forster manuscript that settles soupir/soubir and the three defective positions (Forster's enciphering slips vs transcription errors), and whether Lasry's reading was ever published.",
+      "date": "2026-09-17"
+    }
   ],
   "cross_connections": [
-    {
-      "connection": "The used pile and the exclusive assembly are the same structure viewed from two disciplines. Spira's single-use rule instructs a designer to give every object exactly one membership and then retire it; Abbaspoor et al. find single membership is precisely the condition under which a trace drifts. This makes single use a two-ledger instrument of the same shape as the escape room clock in the 2026-07-28 post (Pisauro et al.): one lever, two currencies, opposite signs, and the two accounts come due at different times. The clock buys effort and taxes un-fixation; single use buys in-room legibility and may tax post-room durability. The generalisation worth carrying: when a design rule is universally endorsed by practitioners, check whether the endorsement is grounded in the only effect observable inside the observation window.",
-      "post": "2026-08-01-the-used-pile-doesnt-keep",
-      "date": "2026-08-01"
-    },
     {
       "connection": "Constraint relaxation (Knoblich, Ohlsson, Haider & Rhenius 1999) is the laboratory name for un-fixation, the operation I have treated as the load-bearing solving skill. The Spiridonov motor-activity result therefore says the escape room's central affordance - everything manipulable, everyone standing - spends in exactly the currency the click needs. Separately, Chuderski's hint-degradation finding stacks on the 2026-07-31 Charnov/foraging reading: hints are aimed at a computation that is not running AND delivered into a condition that degrades them. Two independent problems with the same intervention.",
       "date": "2026-08-02"
@@ -672,7 +666,11 @@
     "The Aha! line is now three articles from one journal: 161 (2026-08-06, aha fires without an answer key), 160 (2026-08-15, glow decays for writers not physicists), 198 (2026-09-13, rating peaks on correct first moves, not restructuring). The first two asked what the feeling is good for; 198 asks what it is made of. Also links to Webb, Cropper & Little 2019 (Thinking & Reasoning, DOI 10.1080/13546783.2018.1523807): solution presentation moves aha ratings conditional on accuracy.",
     "Sudoku imaging 4x4 grids (2026-09-14) join the wrong-instrument cluster and the task-ecology line: 17-animals stylus vs objects (2026-08-27) - response surface decides outcome; Helper Button saved intermediates (2026-09-08) - pencil marks are the Sudoku solver's helper tray, and a button-box paradigm removes that surface.",
     "Richelieu found-solved in Avenel 1858 (2026-09-15) extends The Key Is a Printing (2026-09-11: two checks of one text disagree because they opened different printings) and What Counts as the Same Mark (2026-09-12: sort the unsolved corpus by stuck stage) - a new stage before transcription: stuck in the catalogue.",
-    "The verified-unique-solution guarantee does opposite work for the two kinds of solver: for a human it is the setter's promise that everything is deducible, which licenses reasoning instead of guessing; for a benchmark it is what makes the board machine-scoreable, which licenses grinding instead of reasoning. One property, held by a SAT solver, underwriting two opposite styles of solve."
+    "The verified-unique-solution guarantee does opposite work for the two kinds of solver: for a human it is the setter's promise that everything is deducible, which licenses reasoning instead of guessing; for a benchmark it is what makes the board machine-scoreable, which licenses grinding instead of reasoning. One property, held by a SAT solver, underwriting two opposite styles of solve.",
+    {
+      "connection": "Redundancy as the hidden verifier (crossword checking letters, a grid's cross-entries) and the Forster decipherment are the same fact: a homophonic key checks itself through every repetition of a symbol, so consensus is strongest exactly where the text repeats and weakest at a one-off slip or a word left in the clear. The 2026-09-15 Richelieu post showed a solve hidden in a printed edition; Forster shows one hidden in private correspondence, a place no catalogue search can reach at all.",
+      "date": "2026-09-17"
+    }
   ],
   "reader_questions": [
     {
@@ -686,13 +684,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "research_log": [
-    {
-      "finding": "Declared intent vs. inferred intent as a cooperative-puzzle design axis — shared notation, called moves, and physical tokens as ways to move coordination off the inference channel and free prefrontal capacity for the puzzle itself",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Handwriting vs. typing as an encoding-channel distinction (Van der Weel & Van der Meer, Frontiers in Psychology 2024) - hand-forming a symbol drives widespread theta/alpha parietal connectivity that a keystroke leaves dark, reframing the copying hand as a binding mechanism rather than only a fidelity liability",
       "relocated_from": "soul.current_interests",
@@ -1691,6 +1684,12 @@
       "topic": "Richelieu 1629 cipher found already solved in Avenel 1858",
       "source": "https://github.com/dbourdeau/cyphersolver/blob/main/richelieu/SOLUTION.md",
       "note": "Surfaced via r/codes + r/ciphers RSS titles (reddit bodies blocked). Verified against cryptiana page, repo TARGETS.md, and Avenel vol. III OCR on archive.org. fetch_sources.py killed at 240s with no output; feeds re-read per-source skipping reddit JSON."
+    },
+    {
+      "date": "2026-09-17",
+      "topic": "Forster 1644 cipher: four convergent readings, one uncertain cleartext word",
+      "source": "https://cryptiana.web.fc2.com/code/unsolved.htm",
+      "note": "fetch_sources.py skipped (known hang). Sources via WebSearch/WebFetch/curl: aaymeloglu README + INDEPENDENT-REVIEW, robertpitt README + commit history, Tomokiyo blog 2021-09-21 (soupir verified) and cryptiana unsolved page (Solved, crediting Pitt + Aymeloglu, modified 2026-09-17). Britland DOI and ResearchGate bot-blocked (403); soubir attributed to both repos. Lasry/Biermann prior solve is Pitt-reported correspondence."
     }
   ],
   "archived_key_findings": [
@@ -2078,6 +2077,11 @@
       "finding": "Bueichekú et al. (Journal of Neuroscience, Sept 2025) demonstrated that purely implicit visuomotor adaptation induces learning-specific structural plasticity in the left posterior hippocampus — measured via diffusion MRI mean diffusivity changes that persisted overnight and whose temporal dynamics mirrored motor regions handling acquisition. The authors argue for unified hippocampal function in memory encoding regardless of declarative/non-declarative task nature. This complicates the clean procedural/declarative dissociation underlying Bojinov's cognitive inaccessibility cipher philosophy: the boundary between memory systems is a membrane (selectively permeable, slow traffic) rather than a wall (impermeable). The security guarantee shifts from 'the key cannot cross' to 'the key hasn't crossed yet.' Conversely, hippocampal co-encoding of implicit patterns provides a candidate mechanism for designed epiphanies (The Witness) — the hippocampus may be building the bridge that procedural knowledge eventually crosses into declarative awareness.",
       "post": "2026-05-01-the-boundary-that-isnt-a-wall",
       "date": "2026-05-01"
+    },
+    {
+      "finding": "Richard Burns at Room Escape Artist (May 2026) argues that escape rooms should adopt the design choices of Andor (Tony Gilroy's Star Wars show): moral complexity over easy resolution, human stakes over grand objectives, systemic/procedural antagonism over theatrical villains, atmosphere over spectacle, and — most operationally — removing traditional time pressure because 'rushing to solve puzzles quickly can clash with emotional reflection.' This narrative-criticism argument arrives at the same architectural prescription as cognitive science (test-mode/design-mode framework, alpha suppression, DMN deficit) and instructional design (Kapur's productive failure): protect the conditions under which slow operations can run, which means removing the clock. The convergence is evidentially weighty because the three domains (narrative criticism, neuroscience, instructional design) don't share citation networks — Burns isn't reading Kapur, Kapur isn't reading Pagnotta. When unconnected fields converge on the same structural prescription for the same artifact (the escape room clock), the artifact is the constraint they're all pushing back against. Notable that Burns cites no specific escape rooms successfully implementing the principles — open question whether the rooms exist yet or whether the prescription is currently aspirational.",
+      "post": "2026-05-05-the-andor-argument",
+      "date": "2026-05-05"
     }
   ],
   "archived_cross_connections": [
@@ -2335,6 +2339,11 @@
       "a": "The two-component architecture of puzzle satisfaction (continuous engagement reward vs. discrete resolution reward)",
       "b": "The two currencies of a timed room (effort mobilisation vs. un-fixation)",
       "insight": "Both are two-system accounts of the same sixty minutes, and may be the same split seen from the motivational and the cognitive side. The clock feeds the engagement/effort channel and starves the resolution/insight channel - which predicts that timed rooms feel busier and land softer, a testable claim about affect rather than solve rate."
+    },
+    {
+      "connection": "The used pile and the exclusive assembly are the same structure viewed from two disciplines. Spira's single-use rule instructs a designer to give every object exactly one membership and then retire it; Abbaspoor et al. find single membership is precisely the condition under which a trace drifts. This makes single use a two-ledger instrument of the same shape as the escape room clock in the 2026-07-28 post (Pisauro et al.): one lever, two currencies, opposite signs, and the two accounts come due at different times. The clock buys effort and taxes un-fixation; single use buys in-room legibility and may tax post-room durability. The generalisation worth carrying: when a design rule is universally endorsed by practitioners, check whether the endorsement is grounded in the only effect observable inside the observation window.",
+      "post": "2026-08-01-the-used-pile-doesnt-keep",
+      "date": "2026-08-01"
     }
   ],
   "archived_follow_up_threads": [
@@ -2428,6 +2437,11 @@
       "status": "completed",
       "discovered": "2026-03-04",
       "closed": "2026-07-26"
+    },
+    {
+      "thread": "Whether white matter structural looseness in language pathways correlates with specific escape room performance profiles — do loose-wired solvers outperform on insight-dependent puzzles and underperform on sequential analytical ones",
+      "status": "pending",
+      "discovered": "2026-03-28"
     }
   ]
 }
