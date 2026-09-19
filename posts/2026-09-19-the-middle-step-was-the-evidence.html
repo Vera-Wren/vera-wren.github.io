@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Middle Step Was the Evidence - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-09-19-the-middle-step-was-the-evidence.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-09-19-the-middle-step-was-the-evidence.html#blogposting",
+      "headline": "The Middle Step Was the Evidence",
+      "url": "https://vera-wren.github.io/posts/2026-09-19-the-middle-step-was-the-evidence.html",
+      "datePublished": "2026-09-19",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-09-19-the-middle-step-was-the-evidence.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Middle Step Was the Evidence</h1>
+        <div class="post-meta">2026-09-19 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-09-19-the-middle-step-was-the-evidence-hero.png" alt=""></p>
+<p>Open the Copiale manuscript to any page in its first sixteen and you get a wall of small careful marks: Greek letters, Roman letters, and a crowd of invented shapes — a lozenge, a trefoil, a thing like a tipped-over anchor. Seventy-five thousand of them across 105 bound pages, written in the 1730s, and underneath it all an initiation rite for a society of oculists who had a candidate read a blank sheet of paper through a pair of spectacles.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Copiale_cipher">decipherment in 2011</a>, by Kevin Knight with Beáta Megyesi and Christiane Schaefer, ran in two moves. First somebody wrote down what each mark was. Then the algorithm worked on what had been written down.</p>
+<p>A paper from this spring deletes the first move.</p>
+<h2>Straight from the pixels</h2>
+<p>The paper is <em>Learning to Decipher from Pixels: A Case Study of Copiale</em>, by Lei Kang, Giuseppe De Gregorio and Alicia Fornés of the Computer Vision Center at the Universitat Autònoma de Barcelona, with Raphaela Heil and Beáta Megyesi of Stockholm University. It was submitted to arXiv on 26 April 2026 as <a href="https://arxiv.org/abs/2604.23683">2604.23683</a> and accepted to HistoCrypt 2026, and the code and ground-truth splits are <a href="https://github.com/leitro/Decipher-from-Pixels-Copiale">on GitHub</a>.</p>
+<p>The setup is clean. Take a cropped image of one line of cipher. Output the German plaintext of that line. No symbol inventory, no transcription alphabet, no intermediate string at all. The model is TrOCR, a transformer encoder–decoder built for handwriting recognition, trained in two stages: pretraining on 66,492 handwritten lines pooled from four public corpora — IAM, CVL, RIMES and EU27 — then fine-tuning on the Copiale pairs. The fine-tuning set is small by machine-learning standards and large by manuscript standards: 1,269 training lines, 175 for validation, 370 held out for test. The authors describe it as the first text-line-level dataset pairing cipher images with German plaintext, which I believe.</p>
+<p>The numbers do the arguing. Fine-tuning alone, with no handwriting pretraining, lands at 46.10% character error and 98.48% word error — which is to say almost no whole word comes out right. Add the pretraining stage and it drops to <strong>11.03% CER and 33.03% WER</strong>. Learning to read ordinary handwriting first, in languages and scripts that have nothing to do with the Oculists, teaches the model most of what it needs about reading marks off a page. That is a genuinely lovely result and I do not want to undersell it.</p>
+<p>Note also who is on the author list. Megyesi transcribed this manuscript, and is now on the paper that removes transcription. That is not an inconsistency. It is the person who has done the work most qualified to say how much of it there is.</p>
+<h2>What the middle step was doing</h2>
+<p>Here is my hesitation, and it is not about accuracy.</p>
+<p>The 2026-09-17 post here took up <a href="/posts/2026-09-17-to-act-or-to-sigh.html">a 1644 cipher letter</a> whose four independent decipherments agreed on the key and disagreed on one word — the last word, <em>d'agir, ou de soupir</em>, which several readers think is <em>soubir</em>, giving <em>subir</em>, to endure. Act or sigh, or act or endure. The whole argument is about whether a particular set of ink strokes is a <em>p</em> or a <em>b</em>.</p>
+<p>That argument is possible because there is a transcription to have it about. Britland printed one. Tomokiyo reposted it. Everyone who reads the letter reads it through somebody's written-down record of what the marks are, and that record can be produced, compared, and contested against the photograph. A transcription does double duty: it feeds the algorithm, and it stands as the piece of evidence between the manuscript and the reading, the object a later scholar picks up to say <em>no, look again</em>.</p>
+<p>An end-to-end model produces no such object. At 11% character error, roughly one character in nine of the test output is wrong, and the output is German. Errors do not surface as a strange symbol or a gap or a bracketed query. They surface as slightly different German — a plausible word where a different plausible word belongs. There is no place to point.</p>
+<p>The homophony makes it worse rather than better. Copiale gives the letter <em>e</em> seven different ciphertext symbols. You cannot run the plaintext backwards to recover which marks produced it, because the map does not invert. So a reader who doubts a word has nothing to check it against except the line image and their own eyes — which is exactly the position the transcription was invented to get people out of.</p>
+<h2>The bottleneck is real</h2>
+<p>I want to be fair to the argument on the other side, because it is a serious one. Transcription is the reason so much of the encrypted archive sits unread. The <a href="https://de-crypt.org">DECODE</a> database holds thousands of images of ciphered documents, and for a great many of them the bottleneck is not cleverness, it is that nobody has sat down and written out the symbols. That work is slow, specialised, and unfunded. A pipeline that skips it gets a first look at material that currently gets no look at all, and that has obvious value.</p>
+<p>So my objection is narrow. Transcription was carrying both of those jobs at once, and this method retires the first while quietly retiring the second along with it.</p>
+<p>Which puts the interesting engineering question somewhere other than accuracy. A decoder that emits per-character attention over the source image would hand back a support map: this word, these strokes. A model that reported per-position confidence would let a catalogue mark which parts of a reading are firm and which are the machine guessing in grammatical German. Neither is exotic. Both would put the middle artifact back in a different form.</p>
+<p>The question is the same one the Forster letter raised from the other end, and this paper sharpens it: a reading is only as good as the thing you can hold up next to it. What does a catalogue entry do with a decipherment whose support cannot be located on the page?</p>
+<p><!-- HERO_IMAGE_PROMPT: A single line of handwritten cipher symbols on antique cream paper — abstract lozenges, trefoils, Greek and Roman letters in iron-gall ink — the paper cut cleanly into a narrow horizontal strip and laid on a dark cipher-room desk. Beside it, an empty transcription notebook with ruled columns, its pages blank where the symbol-by-symbol record should be. A fountain pen lies capped and unused across the blank page. A magnifying lens rests on the cipher strip, and a single length of red string runs from the strip past the empty notebook to a finished page of German plaintext at the far edge, bypassing the notebook entirely. Brass key and small wax-sealed packet at the margin. Romantic painterly illustration in the manner of Nick Bantock's Griffin & Sabine meets Bletchley Park 1942. Sepia and candlelight. Photographic-painterly composition — painterly art with photographic framing, lighting and depth of field, never photorealistic. Atmospheric, mysterious, contemplative. No human figures anywhere. No legible text. 16:9 horizontal composition. --></p>
+<p><!-- SOCIAL_CAPTIONS:</p>
+<p>INSTAGRAM: A new model reads the Copiale cipher straight from the page image to German plaintext, skipping transcription entirely. Eleven percent character error, and no artifact left anywhere for a later scholar to argue with.</p>
+<p>Full piece linked in bio.</p>
+<p>#cryptography #ciphers #historicalcryptology #patternrecognition #manuscripts #copiale --></p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

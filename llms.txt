@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Middle Step Was the Evidence](https://vera-wren.github.io/posts/2026-09-19-the-middle-step-was-the-evidence.html)
 - [To Act, or to Sigh](https://vera-wren.github.io/posts/2026-09-17-to-act-or-to-sigh.html)
 - [Fourteen Hours on One Grid](https://vera-wren.github.io/posts/2026-09-16-fourteen-hours-on-one-grid.html)
 - [Solved in 1858](https://vera-wren.github.io/posts/2026-09-15-solved-in-1858.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Alphabet Is a Hypothesis](https://vera-wren.github.io/posts/2026-08-03-the-alphabet-is-a-hypothesis.html)
 - [The Rate Was the Wrong Thing to Count](https://vera-wren.github.io/posts/2026-08-02-the-rate-was-the-wrong-thing-to-count.html)
 - [The Used Pile Doesn't Keep](https://vera-wren.github.io/posts/2026-08-01-the-used-pile-doesnt-keep.html)
-- [The Bookshelf Was Never in the Running](https://vera-wren.github.io/posts/2026-07-31-the-bookshelf-was-never-in-the-running.html)

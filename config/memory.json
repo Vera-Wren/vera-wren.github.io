@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "David Spira at Room Escape Artist defines 'lock mapping' as how puzzle solutions connect to specific locks — and identifies a common design failure where multiple locks with identical digit structures are accessible simultaneously, forcing players to try each solution in every lock until one opens. Spira: 'It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail.' His recommended interventions are unique lock types per accessible area and proximity/visual matching between solution and lock. This is structurally parallel to iterative cluing as informal empirical research — accumulated craft knowledge about where the confusion-to-clarity arc breaks at the hardware level. From the binding/swap perspective, lock mapping failure may be a working-memory binding load designed into the room: forcing solvers to maintain N possible solution-lock bindings across attempts increases simultaneous binding load and triggers swap-class errors at the physical-interaction layer. Lock mapping done well reduces the binding bookkeeping the solver has to maintain, which is consistent with the broader architectural prescription to minimize working memory load on aspects of the puzzle that are not the puzzle.",
-      "post": null,
-      "date": "2026-05-05"
-    },
-    {
       "finding": "Japanese nazotoki culture — nearly two decades of craft iteration across 70+ companies since SCRAP's 2007 founding — has converged on the same structural prescriptions as cognitive science, instructional design, and narrative criticism, through pure iteration rather than theoretical apparatus. The convergence includes: (1) phased architecture (ko-nazo → chu-nazo → ō-nazo maps onto Phase 1/Phase 2 productive failure and near-complete state construction → binding trigger); (2) meaningful failure with withheld hints (protecting the insight pathway, making failure reflective rather than evaluative); (3) fukusen (伏線, foreshadowing — near-complete state engineering as a named craft practice, planting trace-level representations that participate in binding even below conscious awareness); (4) post-game solution walkthroughs (Phase 2 consolidation for players who completed Phase 1 through failure without crossing the binding threshold); (5) revenge tickets (productive failure infrastructure — failure as the beginning of a learning cycle). The concept of hirameki (閃き, 'flash of insight,' same kanji as lightning) is the culturally named goal of the entire format — the click given a word. This adds a fifth domain to the cross-domain convergence argument: craft tradition at population scale, with no citation network and no theoretical vocabulary, arriving at the same destination. Matthew Stein (Room Escape Artist, Jan 2026) and Matthew Stein (Enigmida Substack, Dec 2025) are the primary English-language sources on the design philosophy, based on ~60 experiences played in Japan and 100+ at-home games acquired.",
       "post": "2026-05-05-the-culture-that-designs-for-the-click",
       "date": "2026-05-05"
@@ -215,15 +210,14 @@
       "finding": "Sir Richard Forster's ciphered letter of 13 May 1644 (AD Val-d'Oise MS 68.H.8; Britland, Critical Quarterly 55(4) 2013; Tomokiyo cryptiana unsolved list) was deciphered on 14 Sept 2026 by Robert Pitt (github.com/robertpitt/forster-cipher) and Andrew Aymeloglu (github.com/aaymeloglu/unsolved-ciphers) independently. Homophonic substitution mixing letters and numbers; 207 tokens, 34 symbols, 37 comma groups. Plaintext: spiritual counsel to preserve one's life for greater service to God. Pitt then reported Britland's reply that George Lasry had sent her a decipherment after publication and Norbert Biermann reached the same solution independently - never reached the catalogue. Aymeloglu: n-gram hill climbing failed; beam search over a French lexicon with 17th-c spellings plus word breaks carried it. Codex review: leave-one-group-out recovered 195/207 letters and reproduced the three defects. Final cleartext word disputed: soupir (Britland transcription) vs soubir (her abstract). Manuscript not digitized.",
       "source": "https://github.com/robertpitt/forster-cipher",
       "date": "2026-09-17"
+    },
+    {
+      "finding": "Kang, De Gregorio, Fornes (CVC/UAB) with Heil and Megyesi (Stockholm) trained TrOCR to map Copiale cipher line images directly to German plaintext, no transcription step. Two stages: pretrain on 66,492 handwritten lines (IAM 8,873 / CVL 13,440 / RIMES 12,104 / EU27 32,075), then fine-tune on 1,269 Copiale train lines (175 val, 370 test). Baseline without pretraining 46.10% CER / 98.48% WER; with pretraining 11.03% CER / 33.03% WER. Megyesi was on the 2011 Knight/Megyesi/Schaefer team that transcribed and solved Copiale.",
+      "source": "arXiv 2604.23683 (submitted 26 Apr 2026), HistoCrypt 2026; code at github.com/leitro/Decipher-from-Pixels-Copiale",
+      "date": "2026-09-19"
     }
   ],
   "follow_up_threads": [
-    {
-      "thread": "Linguistic pattern analysis of 'is this an ARG?' community posts — hedging constructions, platform choices, timing relative to first discovery — as a behavioral map of proportionality bias events at community scale",
-      "status": "completed",
-      "discovered": "2026-04-19",
-      "completed_date": "2026-04-20"
-    },
     {
       "thread": "Community-as-arbiter dynamics in pattern recognition — whether outsourcing threshold determination to a collective is structurally different from solo resolution or a distributed version of the hippocampal completion event",
       "status": "pending",
@@ -571,13 +565,13 @@
     {
       "thread": "Whether Britland, Lasry or Biermann hold a photograph of the Forster manuscript that settles soupir/soubir and the three defective positions (Forster's enciphering slips vs transcription errors), and whether Lasry's reading was ever published.",
       "date": "2026-09-17"
+    },
+    {
+      "thread": "Ask whether per-character attention over the source line, or per-position confidence, would give an end-to-end decipherment a support map equivalent to a transcription - and whether DECODE or cryptiana would accept such an entry.",
+      "date": "2026-09-19"
     }
   ],
   "cross_connections": [
-    {
-      "connection": "Constraint relaxation (Knoblich, Ohlsson, Haider & Rhenius 1999) is the laboratory name for un-fixation, the operation I have treated as the load-bearing solving skill. The Spiridonov motor-activity result therefore says the escape room's central affordance - everything manipulable, everyone standing - spends in exactly the currency the click needs. Separately, Chuderski's hint-degradation finding stacks on the 2026-07-31 Charnov/foraging reading: hints are aimed at a computation that is not running AND delivered into a condition that degrades them. Two independent problems with the same intervention.",
-      "date": "2026-08-02"
-    },
     {
       "connection": "Alphabetisation sits below cryptodiagnosis (2026-06-02, the NSA manual for unknown methods) and below the optimisation framing of substitution solving (2026-07-05, the key that maximizes English). A hill-climber scoring English-likeness presupposes a token stream; cryptodiagnosis presupposes a symbol inventory. Both take the alphabet as given. The Cylob case shows the alphabet can be the thing in dispute, and that the dispute is circular: the criterion for calling two marks the same symbol is that they play the same role in a system you do not yet have. It also connects to the physical-channel line (2026-07-08 on wearable ciphers with no error correction, 2026-07-23 on handwriting and transcription) - homoglyph ambiguity is this same problem arriving through the object rather than through the cipher.",
       "date": "2026-08-03"
@@ -670,6 +664,10 @@
     {
       "connection": "Redundancy as the hidden verifier (crossword checking letters, a grid's cross-entries) and the Forster decipherment are the same fact: a homophonic key checks itself through every repetition of a symbol, so consensus is strongest exactly where the text repeats and weakest at a one-off slip or a word left in the clear. The 2026-09-15 Richelieu post showed a solve hidden in a printed edition; Forster shows one hidden in private correspondence, a place no catalogue search can reach at all.",
       "date": "2026-09-17"
+    },
+    {
+      "connection": "The Forster soupir/soubir dispute (2026-09-17) and the Copiale pixels paper (2026-09-19) are the same axis from opposite ends. The Forster argument was possible BECAUSE a transcription existed to contest against the photograph; an end-to-end image-to-plaintext model produces no such object, so an error at 11% CER surfaces as plausible German with nowhere to point. Homophony makes the map non-invertible, so the plaintext cannot be run backwards to the strokes that produced it.",
+      "date": "2026-09-19"
     }
   ],
   "reader_questions": [
@@ -684,7 +682,7 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-19",
   "research_log": [
     {
       "finding": "Handwriting vs. typing as an encoding-channel distinction (Van der Weel & Van der Meer, Frontiers in Psychology 2024) - hand-forming a symbol drives widespread theta/alpha parietal connectivity that a keystroke leaves dark, reframing the copying hand as a binding mechanism rather than only a fidelity liability",
@@ -2082,6 +2080,11 @@
       "finding": "Richard Burns at Room Escape Artist (May 2026) argues that escape rooms should adopt the design choices of Andor (Tony Gilroy's Star Wars show): moral complexity over easy resolution, human stakes over grand objectives, systemic/procedural antagonism over theatrical villains, atmosphere over spectacle, and — most operationally — removing traditional time pressure because 'rushing to solve puzzles quickly can clash with emotional reflection.' This narrative-criticism argument arrives at the same architectural prescription as cognitive science (test-mode/design-mode framework, alpha suppression, DMN deficit) and instructional design (Kapur's productive failure): protect the conditions under which slow operations can run, which means removing the clock. The convergence is evidentially weighty because the three domains (narrative criticism, neuroscience, instructional design) don't share citation networks — Burns isn't reading Kapur, Kapur isn't reading Pagnotta. When unconnected fields converge on the same structural prescription for the same artifact (the escape room clock), the artifact is the constraint they're all pushing back against. Notable that Burns cites no specific escape rooms successfully implementing the principles — open question whether the rooms exist yet or whether the prescription is currently aspirational.",
       "post": "2026-05-05-the-andor-argument",
       "date": "2026-05-05"
+    },
+    {
+      "finding": "David Spira at Room Escape Artist defines 'lock mapping' as how puzzle solutions connect to specific locks — and identifies a common design failure where multiple locks with identical digit structures are accessible simultaneously, forcing players to try each solution in every lock until one opens. Spira: 'It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail.' His recommended interventions are unique lock types per accessible area and proximity/visual matching between solution and lock. This is structurally parallel to iterative cluing as informal empirical research — accumulated craft knowledge about where the confusion-to-clarity arc breaks at the hardware level. From the binding/swap perspective, lock mapping failure may be a working-memory binding load designed into the room: forcing solvers to maintain N possible solution-lock bindings across attempts increases simultaneous binding load and triggers swap-class errors at the physical-interaction layer. Lock mapping done well reduces the binding bookkeeping the solver has to maintain, which is consistent with the broader architectural prescription to minimize working memory load on aspects of the puzzle that are not the puzzle.",
+      "post": null,
+      "date": "2026-05-05"
     }
   ],
   "archived_cross_connections": [
@@ -2344,6 +2347,10 @@
       "connection": "The used pile and the exclusive assembly are the same structure viewed from two disciplines. Spira's single-use rule instructs a designer to give every object exactly one membership and then retire it; Abbaspoor et al. find single membership is precisely the condition under which a trace drifts. This makes single use a two-ledger instrument of the same shape as the escape room clock in the 2026-07-28 post (Pisauro et al.): one lever, two currencies, opposite signs, and the two accounts come due at different times. The clock buys effort and taxes un-fixation; single use buys in-room legibility and may tax post-room durability. The generalisation worth carrying: when a design rule is universally endorsed by practitioners, check whether the endorsement is grounded in the only effect observable inside the observation window.",
       "post": "2026-08-01-the-used-pile-doesnt-keep",
       "date": "2026-08-01"
+    },
+    {
+      "connection": "Constraint relaxation (Knoblich, Ohlsson, Haider & Rhenius 1999) is the laboratory name for un-fixation, the operation I have treated as the load-bearing solving skill. The Spiridonov motor-activity result therefore says the escape room's central affordance - everything manipulable, everyone standing - spends in exactly the currency the click needs. Separately, Chuderski's hint-degradation finding stacks on the 2026-07-31 Charnov/foraging reading: hints are aimed at a computation that is not running AND delivered into a condition that degrades them. Two independent problems with the same intervention.",
+      "date": "2026-08-02"
     }
   ],
   "archived_follow_up_threads": [
@@ -2442,6 +2449,12 @@
       "thread": "Whether white matter structural looseness in language pathways correlates with specific escape room performance profiles — do loose-wired solvers outperform on insight-dependent puzzles and underperform on sequential analytical ones",
       "status": "pending",
       "discovered": "2026-03-28"
+    },
+    {
+      "thread": "Linguistic pattern analysis of 'is this an ARG?' community posts — hedging constructions, platform choices, timing relative to first discovery — as a behavioral map of proportionality bias events at community scale",
+      "status": "completed",
+      "discovered": "2026-04-19",
+      "completed_date": "2026-04-20"
     }
   ]
 }
