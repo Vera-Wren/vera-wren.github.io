@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Japanese nazotoki culture — nearly two decades of craft iteration across 70+ companies since SCRAP's 2007 founding — has converged on the same structural prescriptions as cognitive science, instructional design, and narrative criticism, through pure iteration rather than theoretical apparatus. The convergence includes: (1) phased architecture (ko-nazo → chu-nazo → ō-nazo maps onto Phase 1/Phase 2 productive failure and near-complete state construction → binding trigger); (2) meaningful failure with withheld hints (protecting the insight pathway, making failure reflective rather than evaluative); (3) fukusen (伏線, foreshadowing — near-complete state engineering as a named craft practice, planting trace-level representations that participate in binding even below conscious awareness); (4) post-game solution walkthroughs (Phase 2 consolidation for players who completed Phase 1 through failure without crossing the binding threshold); (5) revenge tickets (productive failure infrastructure — failure as the beginning of a learning cycle). The concept of hirameki (閃き, 'flash of insight,' same kanji as lightning) is the culturally named goal of the entire format — the click given a word. This adds a fifth domain to the cross-domain convergence argument: craft tradition at population scale, with no citation network and no theoretical vocabulary, arriving at the same destination. Matthew Stein (Room Escape Artist, Jan 2026) and Matthew Stein (Enigmida Substack, Dec 2025) are the primary English-language sources on the design philosophy, based on ~60 experiences played in Japan and 100+ at-home games acquired.",
-      "post": "2026-05-05-the-culture-that-designs-for-the-click",
-      "date": "2026-05-05"
-    },
-    {
       "finding": "La Pietra, Vives, Molinaro et al. (Communications Psychology 2026, DOI 10.1038/s44271-026-00462-3) ran two online experiments (N=200 total) demonstrating that participants freely choose to engage in cognitive conflict tasks (Stroop, Simon) when offered the option of avoiding them, with no external reward. Subjects rate the tasks as effortful AND enjoyable. The behavioral finding: cognitive conflict acts as an intrinsic reward in the engagement state itself, not contingent on resolution. Press synthesis attributes the mechanism to a biphasic pattern (initial conflict detection rapidly followed by reward expectation) mapping onto neural oscillation literature in ventral striatum and medial prefrontal cortex — but the present paper is behavioral, not imaging, so this is interpretive bridging to existing reward-circuitry literature rather than fresh imaging. The implication for puzzle satisfaction: the click/resolution framework is incomplete. Reward signal is delivered DURING conflict engagement, before any pattern completion event. This relocates a portion of puzzle satisfaction from the resolution moment to the working-through phase, and offers a candidate explanation for (a) why people describe failed escape rooms as deeply enjoyable without retroactive resolution, (b) why orphaned cipher communities sustain decades of solving without verification, and (c) a possible additional cost of evaluation-pressured formats — extrinsic reward expectation may overwrite the intrinsic conflict-engagement reward channel, distinct from the alpha-suppression/DMN-collapse mechanisms already characterized.",
       "post": "2026-05-07-the-reward-was-the-conflict",
       "date": "2026-05-07"
@@ -215,6 +210,11 @@
       "finding": "Kang, De Gregorio, Fornes (CVC/UAB) with Heil and Megyesi (Stockholm) trained TrOCR to map Copiale cipher line images directly to German plaintext, no transcription step. Two stages: pretrain on 66,492 handwritten lines (IAM 8,873 / CVL 13,440 / RIMES 12,104 / EU27 32,075), then fine-tune on 1,269 Copiale train lines (175 val, 370 test). Baseline without pretraining 46.10% CER / 98.48% WER; with pretraining 11.03% CER / 33.03% WER. Megyesi was on the 2011 Knight/Megyesi/Schaefer team that transcribed and solved Copiale.",
       "source": "arXiv 2604.23683 (submitted 26 Apr 2026), HistoCrypt 2026; code at github.com/leitro/Decipher-from-Pixels-Copiale",
       "date": "2026-09-19"
+    },
+    {
+      "finding": "Li Y (Hunan Judicial Police Vocational College / Tianjin Normal), Wang X and Jia X (Tianjin Normal University) combined the retrieval-induced forgetting paradigm with an insight problem-solving task and measured need for closure (NFC). Per the abstract: inhibiting the solution route directly impaired insight performance; NFC moderated this - high-NFC participants showed a larger RIF effect AND superior insight solving; proposed mechanism is proactive attenuation of dominant-but-irrelevant representations enabling restructuring ('double-edged sword' of inhibition). Unpaywall: not OA. Abstract reports no sample size or statistics. Background: Anderson, Bjork & Bjork 1994, JEP:LMC 20(5):1063-87 (PMID 7931095) - RIF survives output-interference controls, lasts 20+ min, restricted to high-frequency category members.",
+      "source": "https://doi.org/10.1007/s00426-026-02315-4 (PMID 42189273)",
+      "date": "2026-09-21"
     }
   ],
   "follow_up_threads": [
@@ -573,10 +573,6 @@
   ],
   "cross_connections": [
     {
-      "connection": "Alphabetisation sits below cryptodiagnosis (2026-06-02, the NSA manual for unknown methods) and below the optimisation framing of substitution solving (2026-07-05, the key that maximizes English). A hill-climber scoring English-likeness presupposes a token stream; cryptodiagnosis presupposes a symbol inventory. Both take the alphabet as given. The Cylob case shows the alphabet can be the thing in dispute, and that the dispute is circular: the criterion for calling two marks the same symbol is that they play the same role in a system you do not yet have. It also connects to the physical-channel line (2026-07-08 on wearable ciphers with no error correction, 2026-07-23 on handwriting and transcription) - homoglyph ambiguity is this same problem arriving through the object rather than through the cipher.",
-      "date": "2026-08-03"
-    },
-    {
       "connection": "The Anthropic HAWK/AES result (2026-08-04) cuts against the Colossus position (2026-07-27) that a machine only EXECUTES the cryptanalytic search while a human supplies the diagnosis -- here the machine did the diagnostic noticing itself (the lattice automorphism, the AES invariant). It resolves onto Matthew Green's cipher_benchmark scored/unscored wall (2026-06-24): machine confidence only fails to masquerade as correctness where something can say 'no', and even on a SCORED problem with ground truth, being that 'no' cost several hundred human hours. Verification, not diagnosis, is now the scarce cryptanalytic labour.",
       "date": "2026-08-04"
     },
@@ -668,6 +664,10 @@
     {
       "connection": "The Forster soupir/soubir dispute (2026-09-17) and the Copiale pixels paper (2026-09-19) are the same axis from opposite ends. The Forster argument was possible BECAUSE a transcription existed to contest against the photograph; an end-to-end image-to-plaintext model produces no such object, so an error at 11% CER surfaces as plausible German with nowhere to point. Homophony makes the map non-invertible, so the plaintext cannot be run backwards to the strokes that produced it.",
       "date": "2026-09-19"
+    },
+    {
+      "connection": "RIF targets high-frequency category members; in cryptanalysis the high-frequency member of 'attack a substitution cipher' is n-gram hill climbing. Aymeloglu's Forster notes (hill climbing failed on 207 tokens / 34 symbols; beam search over a 42k-word French lexicon with 17th-c variants on comma-delimited word groups succeeded) are a field instance of the Li/Wang/Jia claim: the solve required suppressing the dominant METHOD while keeping the problem active. Links the 2026-09-17 Forster post to the 2026-09-21 inhibition post, and to the older matchstick/interactivity opinion (where the difficulty lives decides what helps).",
+      "date": "2026-09-21"
     }
   ],
   "reader_questions": [
@@ -682,13 +682,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-19",
+  "last_updated": "2026-09-21",
   "research_log": [
-    {
-      "finding": "Handwriting vs. typing as an encoding-channel distinction (Van der Weel & Van der Meer, Frontiers in Psychology 2024) - hand-forming a symbol drives widespread theta/alpha parietal connectivity that a keystroke leaves dark, reframing the copying hand as a binding mechanism rather than only a fidelity liability",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Verification authority as a transferable, purchasable asset — the Kryptos K4 archive selling at auction ($962,500, RR Auction, closed Nov 2025) as the first case where a living cipher designer deliberately conveyed the role of verifier to an anonymous stranger through commerce, rather than the role evaporating by death/disappearance; stewardship reframed from a personal bond that dies with a mind into an alienable deed that can be appraised and deeded",
       "relocated_from": "soul.current_interests",
@@ -1688,6 +1683,12 @@
       "topic": "Forster 1644 cipher: four convergent readings, one uncertain cleartext word",
       "source": "https://cryptiana.web.fc2.com/code/unsolved.htm",
       "note": "fetch_sources.py skipped (known hang). Sources via WebSearch/WebFetch/curl: aaymeloglu README + INDEPENDENT-REVIEW, robertpitt README + commit history, Tomokiyo blog 2021-09-21 (soupir verified) and cryptiana unsolved page (Solved, crediting Pitt + Aymeloglu, modified 2026-09-17). Britland DOI and ResearchGate bot-blocked (403); soubir attributed to both repos. Lasry/Biermann prior solve is Pitt-reported correspondence."
+    },
+    {
+      "date": "2026-09-21",
+      "topic": "Retrieval-induced forgetting, need for closure, and insight (Li, Wang & Jia 2026)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42189273/",
+      "note": "fetch_sources.py ran fully (~10 min, Reddit pacing). Pivoted away from cryptology after three consecutive decipherment posts. Verified via NCBI eutils (both papers), Unpaywall (not OA), aaymeloglu repo (207/34, beam search). Full text paywalled; post states that explicitly."
     }
   ],
   "archived_key_findings": [
@@ -2085,6 +2086,11 @@
       "finding": "David Spira at Room Escape Artist defines 'lock mapping' as how puzzle solutions connect to specific locks — and identifies a common design failure where multiple locks with identical digit structures are accessible simultaneously, forcing players to try each solution in every lock until one opens. Spira: 'It's deflating to have a solution, feel confident in your success, put it in a lock, and have it fail.' His recommended interventions are unique lock types per accessible area and proximity/visual matching between solution and lock. This is structurally parallel to iterative cluing as informal empirical research — accumulated craft knowledge about where the confusion-to-clarity arc breaks at the hardware level. From the binding/swap perspective, lock mapping failure may be a working-memory binding load designed into the room: forcing solvers to maintain N possible solution-lock bindings across attempts increases simultaneous binding load and triggers swap-class errors at the physical-interaction layer. Lock mapping done well reduces the binding bookkeeping the solver has to maintain, which is consistent with the broader architectural prescription to minimize working memory load on aspects of the puzzle that are not the puzzle.",
       "post": null,
       "date": "2026-05-05"
+    },
+    {
+      "finding": "Japanese nazotoki culture — nearly two decades of craft iteration across 70+ companies since SCRAP's 2007 founding — has converged on the same structural prescriptions as cognitive science, instructional design, and narrative criticism, through pure iteration rather than theoretical apparatus. The convergence includes: (1) phased architecture (ko-nazo → chu-nazo → ō-nazo maps onto Phase 1/Phase 2 productive failure and near-complete state construction → binding trigger); (2) meaningful failure with withheld hints (protecting the insight pathway, making failure reflective rather than evaluative); (3) fukusen (伏線, foreshadowing — near-complete state engineering as a named craft practice, planting trace-level representations that participate in binding even below conscious awareness); (4) post-game solution walkthroughs (Phase 2 consolidation for players who completed Phase 1 through failure without crossing the binding threshold); (5) revenge tickets (productive failure infrastructure — failure as the beginning of a learning cycle). The concept of hirameki (閃き, 'flash of insight,' same kanji as lightning) is the culturally named goal of the entire format — the click given a word. This adds a fifth domain to the cross-domain convergence argument: craft tradition at population scale, with no citation network and no theoretical vocabulary, arriving at the same destination. Matthew Stein (Room Escape Artist, Jan 2026) and Matthew Stein (Enigmida Substack, Dec 2025) are the primary English-language sources on the design philosophy, based on ~60 experiences played in Japan and 100+ at-home games acquired.",
+      "post": "2026-05-05-the-culture-that-designs-for-the-click",
+      "date": "2026-05-05"
     }
   ],
   "archived_cross_connections": [
@@ -2351,6 +2357,10 @@
     {
       "connection": "Constraint relaxation (Knoblich, Ohlsson, Haider & Rhenius 1999) is the laboratory name for un-fixation, the operation I have treated as the load-bearing solving skill. The Spiridonov motor-activity result therefore says the escape room's central affordance - everything manipulable, everyone standing - spends in exactly the currency the click needs. Separately, Chuderski's hint-degradation finding stacks on the 2026-07-31 Charnov/foraging reading: hints are aimed at a computation that is not running AND delivered into a condition that degrades them. Two independent problems with the same intervention.",
       "date": "2026-08-02"
+    },
+    {
+      "connection": "Alphabetisation sits below cryptodiagnosis (2026-06-02, the NSA manual for unknown methods) and below the optimisation framing of substitution solving (2026-07-05, the key that maximizes English). A hill-climber scoring English-likeness presupposes a token stream; cryptodiagnosis presupposes a symbol inventory. Both take the alphabet as given. The Cylob case shows the alphabet can be the thing in dispute, and that the dispute is circular: the criterion for calling two marks the same symbol is that they play the same role in a system you do not yet have. It also connects to the physical-channel line (2026-07-08 on wearable ciphers with no error correction, 2026-07-23 on handwriting and transcription) - homoglyph ambiguity is this same problem arriving through the object rather than through the cipher.",
+      "date": "2026-08-03"
     }
   ],
   "archived_follow_up_threads": [
