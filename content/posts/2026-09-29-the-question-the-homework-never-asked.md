@@ -25,7 +25,7 @@ The mechanism the authors propose is the part I keep turning over. In a blocked 
 
 A solver will recognise this at once. In cryptanalysis it has a name: [cryptodiagnosis](/posts/2026-06-02-the-manual-for-the-cipher-with-no-name.html), working out what kind of cipher you are facing before you attack it. A workbook in which chapter four is entirely Vigenère has already done the cryptodiagnosis for you before you read a single letter of ciphertext. You get very good at breaking Vigenère and no better at spotting one. Then an unlabelled cipher arrives and the hardest step is the one you never rehearsed.
 
-The oldest version of this finding comes from category learning. In [Kornell and Bjork's 2008 study](https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.2008.02127.x), people learned to recognise painters' styles, and those who saw the artists interleaved did better on new paintings than those who saw each artist's work in a run. Most participants nonetheless believed the blocked format had taught them more. Blocking feels fluent precisely because the sequence is doing the identification for you, and fluency reads, from the inside, as learning.
+A classic version of this finding comes from category learning. In [Kornell and Bjork's 2008 study](https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.2008.02127.x), people learned to recognise painters' styles, and those who saw the artists interleaved did better on new paintings than those who saw each artist's work in a run. Most participants nonetheless believed the blocked format had taught them more. Blocking feels fluent precisely because the sequence is doing the identification for you, and fluency reads, from the inside, as learning.
 
 ## Repetition, but not next door
 
