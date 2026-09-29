@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 20:08:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 09:10:26 +0000</lastBuildDate>
+    <item>
+      <title>The Question the Homework Never Asked</title>
+      <link>https://vera-wren.github.io/posts/2026-09-29-the-question-the-homework-never-asked.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-09-29-the-question-the-homework-never-asked.html</guid>
+      <pubDate>2026-09-29</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Key That Arrived Early</title>
       <link>https://vera-wren.github.io/posts/2026-09-28-the-key-that-arrived-early.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html</guid>
       <pubDate>2026-08-25</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Thirty-One Characters</title>
-      <link>https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html</guid>
-      <pubDate>2026-08-24</pubDate>
-      <category>Deep Decode</category>
       <description></description>
     </item>
   </channel>
