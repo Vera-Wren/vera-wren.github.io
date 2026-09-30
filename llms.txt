@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Clue You Learned to Ignore](https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html)
 - [The Question the Homework Never Asked](https://vera-wren.github.io/posts/2026-09-29-the-question-the-homework-never-asked.html)
 - [The Key That Arrived Early](https://vera-wren.github.io/posts/2026-09-28-the-key-that-arrived-early.html)
 - [The Number That Collapsed](https://vera-wren.github.io/posts/2026-09-22-the-number-that-collapsed.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Theoretically Interesting on Its Own](https://vera-wren.github.io/posts/2026-08-09-theoretically-interesting-on-its-own.html)
 - [The Answer Table Has No Rows](https://vera-wren.github.io/posts/2026-08-08-the-answer-table-has-no-rows.html)
 - [Garbled but Plausible](https://vera-wren.github.io/posts/2026-08-07-garbled-but-plausible.html)
-- [Nothing to Be Right About](https://vera-wren.github.io/posts/2026-08-06-nothing-to-be-right-about.html)

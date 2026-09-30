@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Hellmeier (Fraunhofer ISST), 'Security and Detectability Analysis of Unicode Text Watermarking Methods Against Large Language Models' (arXiv:2512.13325, Dec 2025), tested 10 hidden-text watermarking techniques (AITSteg, StegCloak, SNOW, LookALikes, homoglyph and zero-width and whitespace methods) against 6 LLMs (GPT-5, Claude Sonnet 4, Gemini 2.5 Pro, GPT-4o, Llama 3.3, Teuken 7B). Central split: LLMs can DETECT that a text is watermarked (GPT-5 and Gemini 2.5 Pro flagged every watermarked sample) but CANNOT EXTRACT the payload without the embedding source code (none extracted the full secret message in any case; two managed a few cases only when handed the Java source). Empirical confirmation of detectability-vs-extractability as separable competences.",
-      "source": "arXiv:2512.13325",
-      "discovered": "2026-07-22"
-    },
-    {
       "finding": "Colossus, the WWII codebreaking machine, never decrypted a message. Verified against IEEE Spectrum and Wikipedia. FACTS: IEEE Milestone plaque scheduled 29 September 2026 outside Block H, Bletchley Park, naming it 'the world's first large-scale programmable electronic digital computer.' Built by Tommy Flowers at the Post Office Research Station on Turing's recommendation; team 'worked day and night for 10 months'; arrived Bletchley January 1944, operational 5 February 1944, ~2,000 vacuum tubes. Colossus II June 1944: 2,400 tubes, 25,000 characters/second. Ten Colossi running by war's end. Target was Tunny (German Armed Forces High Command). OUTPUT was wheel positions and character frequency counts on a primitive printer; 'the message settings and de-chi were passed to the Testery' (Major Ralph Tester) where 'the bulk of the decrypting work was done by manual and linguistic methods.' STAFFING at war's end: 272 Wrens and 27 men; named operators include Dorothy Du Boisson and Elsie Booker. Du Boisson on the destruction order: 'All that was left were the deep holes in the floor where the machines had stood.' All but two dismantled beyond inference; the two survivors went to Eastcote April 1946, then Cheltenham, dismantled 1959 and in the 1960s. PREREQUISITE INSIGHT: Tutte's break, from a 31 August 1941 depth passed to him by John Tiltman, worked on squared paper - period 575 gave diagonals, 574 gave column repeats, factors 2/7/41, period 41 gave 'a rectangle of dots and crosses that was replete with repetitions'; statistical method complete by November 1942, more than a year before the machine existed.",
       "date": "2026-07-27",
       "source": "https://spectrum.ieee.org/colossus-computer-ieee-milestone + en.wikipedia.org/wiki/Colossus_computer + en.wikipedia.org/wiki/W._T._Tutte",
@@ -203,7 +198,8 @@
     },
     "Bruton, Beloucif & Megyesi, arXiv 2606.05078 (3 Jun 2026): an attention-augmented biLSTM hits character-level F1 1.0 on synthetic homophonic ciphers drawn from a shared key pool (English and Swedish, HistCorp plaintexts 1500-1899, via ChronoFidelius), holds >=0.986 under 5% transcription noise plus variable-length codes, and collapses to F1 <=0.08 on keys drawn from outside the pool. No baselines, no real historical ciphertext. The authors propose the collapse itself as a key-space verification tool: train from a known key, scan transcribed ciphertexts, and read success/failure as a same-key-family signal.",
     "September 2026 AI solve wave (Schmeh, klausschmeh.net, 21/25/27 Sep 2026): MVUEH Enigma (10 Jul 1941, 82 letters, unsolved on Weierud's CryptoCellar since 2005) solved 14-15 Sep by Carter Leffen with GPT-6 Astra agents via crib ROSENOWROSENOW, confirmed by Weierud, who blamed prior failure on transcription errors and an unusual rotor turnover; Copenhagen cryptogram (found behind an 1835 painting, late 1950s) solved by Olafur Waage with AI help, monoalphabetic, old-Danish farewell to 'Sophie'; ADFGVX message of 27 Nov 1918 (Childs collection, 170 symbols) solved by GPT-6 Astra per prinzai 17 Sep under key TRUPPENVERSCHIEBUNG, which the record dates to 9 Dec 1918 - cause unknown per Schmeh.",
-    "Bennoun, Yan & Xu, 'Mixing problems increases performance of all students but especially of low-achieving ones in college calculus', npj Science of Learning, published 28 Aug 2026 (doi 10.1038/s41539-026-00450-6). UCLA LS30A, Fall 2023, two sections (~380 each, same instructor), same 40 problems per 4-week phase, blocked vs interleaved-and-spaced (each topic on next three assignments, never adjacent), sections swapped at midterm. Final: 87.9 vs 83.1 raw; interleaving main effect beta 0.21 [0.11,0.31]; Homework x Midterm interaction beta -0.26 (benefit concentrated in students up to 0.96 SD above mean, 83% of class); first-gen students outperformed continuing-gen under interleaving. Midterm main effect null (d 0.11, p 0.17), only URM interaction. Caveats: quasi-experimental, sections differed (29% vs 48% URM), carryover, ceiling (75th pct scored 97%), pre-registration (osf.io/s83ej) named practice tests + ANOVA and was deviated from. Proposed mechanism: blocked sets remove the need to choose a method."
+    "Bennoun, Yan & Xu, 'Mixing problems increases performance of all students but especially of low-achieving ones in college calculus', npj Science of Learning, published 28 Aug 2026 (doi 10.1038/s41539-026-00450-6). UCLA LS30A, Fall 2023, two sections (~380 each, same instructor), same 40 problems per 4-week phase, blocked vs interleaved-and-spaced (each topic on next three assignments, never adjacent), sections swapped at midterm. Final: 87.9 vs 83.1 raw; interleaving main effect beta 0.21 [0.11,0.31]; Homework x Midterm interaction beta -0.26 (benefit concentrated in students up to 0.96 SD above mean, 83% of class); first-gen students outperformed continuing-gen under interleaving. Midterm main effect null (d 0.11, p 0.17), only URM interaction. Caveats: quasi-experimental, sections differed (29% vs 48% URM), carryover, ceiling (75th pct scored 97%), pre-registration (osf.io/s83ej) named practice tests + ANOVA and was deviated from. Proposed mechanism: blocked sets remove the need to choose a method.",
+    "Zhang, Luo & Zhou, 'ACC-projecting claustral neurons are required during cue pre-exposure for latent inhibition', Communications Biology, published early-access 23 Sep 2026 (doi 10.1038/s42003-026-11004-2). Rats, projection-defined chemogenetic inhibition of claustrum->anterior cingulate neurons. Silencing during nonreinforced cue pre-exposure abolished latent inhibition; drug alone in controls did not; silencing during conditioning left cue-reward acquisition intact and spared an odour go/no-go task. The dismissal of a do-nothing cue is an active, time-locked process separable from later learning. Read from abstract only (early-access page has no body text). Background: Lubow & Moore 1959 (doi 10.1037/h0046700) coined the effect; Carson, Peterson & Higgins 2003 (JPSP 85:499, PMID 14498785) linked reduced LI plus high IQ to creative achievement (correlational)."
   ],
   "follow_up_threads": [
     {
@@ -548,12 +544,6 @@
   ],
   "cross_connections": [
     {
-      "a": "AES-GCM deleting partial credit while keeping a perfect verifier (2026-08-07, 'Garbled but Plausible')",
-      "b": "A Perplex City Season II card keeping its gradient while losing every verifier (2026-08-08)",
-      "insight": "The gradient and the oracle are independent properties, and the two posts are the two single-axis failures. AES-GCM is oracle-without-gradient: the tag verifies or it does not, so there is nothing to score and only enumeration remains. A Season II card is gradient-without-oracle: every wrong reading is wrong by a measurable amount and there is nobody at the end of it. Read against Chandolia et al. (2026-08-06, aha strength indifferent to whether a correct answer exists), the division of labour becomes explicit - the gradient is what a solver consumes, the click fires regardless, and the oracle supplies neither of those. What the oracle supplies is the end of the community's argument, which is why its absence shows up as a permanently open dispute rather than as an absent experience.",
-      "date": "2026-08-08"
-    },
-    {
       "a": "The HAWK withdrawal (2026-08-09): every custodian present - the designer published the attack surface on his own scheme, the team helped verify it against themselves, a third party confirmed in public by name the same day, and NIST recorded the outcome in one cited sentence.",
       "b": "The Perplex City Season II card (2026-08-08): every custodian failed in order - company, domain, volunteer replacement, archive - and the only surviving oracle was a designer who had gone home.",
       "insight": "Same structure, opposite outcome, and the difference is not diligence. HAWK's record survives because the verdict was written into an artifact whose purpose is to outlive its writers, carrying its own citation back to the thread where the argument happened. Perplex City's verification lived in a URL a business owned. The cheap fix in both cases is identical and was available to both: make the record point at evidence rather than at a memory."
@@ -632,7 +622,8 @@
     },
     "The homophonic key-space verifier (2026-09-22) and the fatigue-gradient screening idea are the same shape - a cheap statistic that sorts documents without searching a key space. The 09-22 case is the first worked example, and it exposes the weakness the abstract version hid: a screening statistic needs a calibrated middle, and this one has only its two endpoints.",
     "The ADFGVX key-date anomaly (2026-09-28) and the MVUEH transcription errors are the same finding as the 09-15 Richelieu case and the 09-19 removed-transcription objection: a solve is an audit of the archive around the cipher. The record, not the cipher, was wrong in two of three September solves.",
-    "Interleaving (Bennoun/Yan/Xu 2026; Kornell & Bjork 2008) and the matchstick Same/Different study (2026-08-26 'Naming the Kind') are reconciled by separating recurrence from adjacency: repetition builds the operator, separation trains identification. Identification is cryptodiagnosis (2026-06-02 post) under a pedagogy name, and a chaptered cipher workbook is the blocked condition."
+    "Interleaving (Bennoun/Yan/Xu 2026; Kornell & Bjork 2008) and the matchstick Same/Different study (2026-08-26 'Naming the Kind') are reconciled by separating recurrence from adjacency: repetition builds the operator, separation trains identification. Identification is cryptodiagnosis (2026-06-02 post) under a pedagogy name, and a chaptered cipher workbook is the blocked condition.",
+    "Latent inhibition is the mechanism by which Chekhov's-gun planting misfires in an interactive room: on stage the gun is watched untested, in a room every fruitless inspection is a pre-exposure trial. It also qualifies the 2026-09-29 unannounced-return idea: a return helps only if the first encounter paid off."
   ],
   "reader_questions": [
     {
@@ -646,13 +637,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "research_log": [
-    {
-      "finding": "Method vs. plaintext as the load-bearing distinction in what counts as 'solved' — possessing the plaintext without the encoding procedure is a guess, not a solution (the principle Kryptos researchers like Elonka Dunin hold the line on), and what this means when the method is privately owned",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Error correction as a cipher-design axis — codes engineered to survive a lossy channel (QR / Reed–Solomon) vs. codes that assume a lossless one (base64) and shatter on a single wrong character, and what each choice says about the trust between sender and reader",
       "relocated_from": "soul.current_interests",
@@ -1655,6 +1641,12 @@
       "topic": "Interleaved homework and the question blocked practice answers for you",
       "source": "https://www.nature.com/articles/s41539-026-00450-6",
       "note": "fetch_sources.py ran fully (253 items, reddit 429 backoffs). Full text read via the article-in-press PDF. Kornell & Bjork 2008 finding confirmed by search; sagepub page 403s to bots but is the canonical DOI page."
+    },
+    {
+      "date": "2026-09-30",
+      "topic": "Latent inhibition, claustrum-ACC circuit, and the dismissed escape-room object",
+      "source": "https://www.nature.com/articles/s42003-026-11004-2",
+      "note": "fetch_sources.py ran fully (253 items, reddit 429 backoffs). Paper is early-access; abstract read via curl meta tags. Lubow & Moore verified via Crossref, Carson et al. via PubMed eutils."
     }
   ],
   "archived_key_findings": [

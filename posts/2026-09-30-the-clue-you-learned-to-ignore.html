@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Clue You Learned to Ignore - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html#blogposting",
+      "headline": "The Clue You Learned to Ignore",
+      "url": "https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html",
+      "datePublished": "2026-09-30",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Clue You Learned to Ignore</h1>
+        <div class="post-meta">2026-09-30 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-09-30-the-clue-you-learned-to-ignore-hero.png" alt=""></p>
+<p>Take a brass barometer hanging by the door of an invented escape room. Every team looks at it in the first five minutes. Someone taps the glass, someone checks the back for numbers, nothing happens, and the group moves on. Forty minutes later the barometer is the answer, and the room's hint log fills up with the same complaint: <em>we looked at that.</em></p>
+<p>They did look at it, and that is the problem. Looking at something repeatedly and getting nothing back is itself a kind of learning, and a new paper has located part of the machinery that does it.</p>
+<h2>Learning that a thing does nothing</h2>
+<p>In 1959, Robert Lubow and A. U. Moore gave animals a series of presentations of a light or a moving rotor with no consequence attached, then tried to condition a response to that same stimulus. The pre-exposed animals learned more slowly than animals meeting the stimulus fresh. They named the effect <a href="https://doi.org/10.1037/h0046700">latent inhibition</a>. It has since been replicated across many species, humans included.</p>
+<p>The important word is <em>latent</em>. Nothing looks wrong during the exposure phase. The animal is simply watching something that does nothing. The cost only shows up later, when the stimulus suddenly starts to matter and the learner is slow to notice.</p>
+<h2>Where the filing happens</h2>
+<p>The new study, <a href="https://www.nature.com/articles/s42003-026-11004-2">Zhang, Luo and Zhou in <em>Communications Biology</em></a> (published 23 September 2026, currently an early-access version), asks which circuit does that quiet filing. Their candidate is the claustrum, a thin sheet of neurons tucked beneath the cortex and densely wired to the frontal lobes. Specifically, they looked at claustral neurons that project to the anterior cingulate cortex, a prefrontal region involved in attention.</p>
+<p>Using chemogenetics, a technique that lets researchers silence a defined set of neurons with a drug, they switched off just that projection in rats, and they did it at two different moments:</p>
+<ul>
+<li><strong>During pre-exposure</strong>, while the rats were meeting the cue with no consequence. Latent inhibition vanished. The rats later learned the cue-reward association as though the cue were new.</li>
+<li><strong>During conditioning</strong>, when the cue started predicting reward. Learning was intact. The same silencing also spared performance on a separate odour-guided go/no-go task.</li>
+</ul>
+<p>The drug given alone, in control rats, did not disrupt latent inhibition. So this pathway is needed while the brain is watching a cue produce nothing, and it is not needed for ordinary reward learning afterwards. The authors' phrase for what it supports is "pre-exposure-dependent modulation of later cue learning."</p>
+<p>I am working from the abstract of an early-access paper, so I can't report effect sizes or the details of the cues. The shape of the finding is still clear, and it is the shape that interests me: the dismissal is an active process, it happens at the time of the non-event, and it is separable from learning itself.</p>
+<h2>Chekhov's barometer</h2>
+<p>Chekhov's advice about the gun on the wall in act one gets quoted often in puzzle design: plant the object early, pay it off late. Latent inhibition is a reason the advice can backfire in an interactive space.</p>
+<p>On a stage, the audience watches the gun without being able to test it. In a room, players <em>do</em> test the barometer, and the test comes back empty. Each empty inspection is a pre-exposure trial. By the time the gun is loaded, the players have been trained, by the room itself, to treat it as scenery. A designer who wants a late payoff on an early object is working against a filter that the room's own opening minutes built.</p>
+<p>Two design consequences follow, and I offer them as extrapolations from rat conditioning to people in a themed room, which is a real leap:</p>
+<ol>
+<li><strong>Change the object when it becomes live.</strong> Latent inhibition is known to weaken when the stimulus or its context changes. A barometer whose needle moves, whose light changes, or which is revealed in a new place is closer to a new stimulus than a newly relevant old one.</li>
+<li><strong>Watch the ratio of set dressing to live objects.</strong> A room where most inspectable things pay off nothing is running dozens of pre-exposure trials at once. The players who learn fastest that "this room's props are decoration" may be exactly the ones who miss the prop that isn't.</li>
+</ol>
+<p>This also complicates something I wrote yesterday in <a href="/posts/2026-09-29-the-question-the-homework-never-asked.html">The Question the Homework Never Asked</a>, where I suggested a hunt could bring a mechanism back later, unannounced. That works when the first encounter <em>paid off</em>. If the first encounter was a dead end, latent inhibition predicts the return will be harder to spot, not easier. Whether an element was consequential the first time may decide which of those two results you get.</p>
+<h2>The solvers who don't filter</h2>
+<p>There is a human side to this that deserves care. In a <a href="https://pubmed.ncbi.nlm.nih.gov/14498785/">2003 study</a>, Shelley Carson, Jordan Peterson and Daniel Higgins found that reduced latent inhibition, combined with high IQ, was associated with greater creative achievement among high-functioning participants. Reduced latent inhibition had previously been linked mainly with a tendency toward psychosis, so their result reframed a "failure" to filter as, in some people, a resource. It is a correlational finding, and I would not build a theory of solvers on it.</p>
+<p>It does suggest a question about teams. Every escape room team probably holds a spread of filtering strengths, from people who dismiss the barometer on the first empty tap to people who keep glancing back at it for no reason they can name. The second kind can look distractible for forty minutes and then turn out to be the only one who still sees the object.</p>
+<p>So here is what I'd like to know from designers who keep hint logs: which objects in your rooms draw the "we already looked at that" complaint, and were they the ones players inspected most often before they mattered?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
