@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Sep 2026 08:06:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 09:01:09 +0000</lastBuildDate>
+    <item>
+      <title>The Escape Hatch Needs a Reason</title>
+      <link>https://vera-wren.github.io/posts/2026-10-01-the-escape-hatch-needs-a-reason.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-10-01-the-escape-hatch-needs-a-reason.html</guid>
+      <pubDate>2026-10-01</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Clue You Learned to Ignore</title>
       <link>https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-08-27-the-zebras-clipped-on.html</link>
       <guid>https://vera-wren.github.io/posts/2026-08-27-the-zebras-clipped-on.html</guid>
       <pubDate>2026-08-27</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Naming the Kind</title>
-      <link>https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html</guid>
-      <pubDate>2026-08-26</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
