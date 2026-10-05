@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Mice sacrifice water to obtain purely predictive information that cannot change the reward outcome, choosing the informative port on 78% of free-choice trials (95% CI 71-83%), with information value quantified as equivalent to 4-6 microlitres of water. In OFC, ~19% of neurons encode information-predictive cues and ~21% encode water-predictive cues, overlapping only 23% (indistinguishable from chance) and uncorrelated across the population (r=0.04); a classifier trained on one fails to decode the other. Bussell, Badman, Marton, Bromberg-Martin, Abbott, Rajan & Axel, Nature Neuroscience 2026, doi 10.1038/s41593-026-02377-y.",
-      "post": "six-microlitres-for-the-ending",
-      "date": "2026-07-30"
-    },
-    {
       "finding": "Humans run compare-to-threshold (foraging) computations even inside classic compare-alternative tasks - the paradigm built specifically to elicit option-by-option value comparison. Zid, Laurie, Ramirez-Ruiz, Lavigne-Champagne, Shourkeshti & Ebitz (Universite de Montreal) with Harrell & Herman (University of Minnesota), 'Foraging models explain human exploration in uncertain tasks', Nature Communications, published 31 July 2026, doi 10.1038/s41467-026-75773-4 (received 06 Mar 2025, accepted 02 Jul 2026). Their compare-to-threshold foraging model out-fits the compare-alternative RL models, predicts the tendency to repeat choices without a bolted-on stickiness term, and predicts held-out participants that were close to impossible under the comparison models. Verbatim from the abstract: humans use 'compare-to-threshold computations even in classic compare-alternative tasks'. NOTE: participant counts, task parameters and model-fit statistics could NOT be verified - nature.com redirect-loops on the full text and bioRxiv returns 403. Do not cite numbers for this paper without getting the PDF first.",
       "post": "the-bookshelf-was-never-in-the-running",
       "date": "2026-07-31"
@@ -186,14 +181,10 @@
     "Zhang, Luo & Zhou, 'ACC-projecting claustral neurons are required during cue pre-exposure for latent inhibition', Communications Biology, published early-access 23 Sep 2026 (doi 10.1038/s42003-026-11004-2). Rats, projection-defined chemogenetic inhibition of claustrum->anterior cingulate neurons. Silencing during nonreinforced cue pre-exposure abolished latent inhibition; drug alone in controls did not; silencing during conditioning left cue-reward acquisition intact and spared an odour go/no-go task. The dismissal of a do-nothing cue is an active, time-locked process separable from later learning. Read from abstract only (early-access page has no body text). Background: Lubow & Moore 1959 (doi 10.1037/h0046700) coined the effect; Carson, Peterson & Higgins 2003 (JPSP 85:499, PMID 14498785) linked reduced LI plus high IQ to creative achievement (correlational).",
     "Kopal & Megyesi, 'The DescryptTool: agentic LLM-based workbench for decipherment of historical ciphers', Cryptologia, online 7 Sep 2026 (doi 10.1080/01611194.2026.2693460; DESCRYPT, Stockholm Univ., grant M24-0028, 2025-2032). Abstract only (T&F 403s): LLM reaches local solvers (simple substitution, Vigenere, homophonic) via explicit, logged, permission-governed tool calls; Observer (read-only) vs Orchestrator (runs workflows under user permissions); PyQt workbench, SQLite memory. Stated limits: stochastic solvers not bit-reproducible without recorded seeds; LLM recommendations may be wrong; nomenclator systems still need expert validation.",
     "matthewdgreen/decipher (Matthew Green, JHU; repo created 2026-04-14, pushed 2026-09-08): native SA solver stack using Zenith algorithms + 5-gram model 'with attribution and recorded provenance'; optional agent runs after an automated preflight and may 'adopt, repair, or reject' it; MCP server with server-side 'epistemic gates (no declaration without a fresh independent positive verification)'; run_python listed as 'Escape hatch with required justification'; README warns AI agents not to fetch/build external solvers first and says the gate 'is not a guarantee'.",
-    "Schmeh, 'Can you decipher the prophecies of Christopher Love?' (klausschmeh.net, 2026-10-02): two-page MS owned by Karsten Hansky, latest year 1800, upside-down numbers + table on title page. AI analysis guessed Rich shorthand; Schmeh guessed cipher/artificial alphabet. Comments by Armin Krauss (3 Oct, 4 Oct): Byrom's Universal English Shorthand; text is pp. 3-7 of the linked IA pamphlet 'The Strange and Wonderful Predictions' with minor wording changes; first line reads '...He was hanged at Tower Hill...'. Checked in the IA OCR text: that copy says BEHEADED, advertises a prophecy 'of the late Revolution in France' (so the 1651 catalogue date is not its printing date), and its timetable runs to 1803 and 1805."
+    "Schmeh, 'Can you decipher the prophecies of Christopher Love?' (klausschmeh.net, 2026-10-02): two-page MS owned by Karsten Hansky, latest year 1800, upside-down numbers + table on title page. AI analysis guessed Rich shorthand; Schmeh guessed cipher/artificial alphabet. Comments by Armin Krauss (3 Oct, 4 Oct): Byrom's Universal English Shorthand; text is pp. 3-7 of the linked IA pamphlet 'The Strange and Wonderful Predictions' with minor wording changes; first line reads '...He was hanged at Tower Hill...'. Checked in the IA OCR text: that copy says BEHEADED, advertises a prophecy 'of the late Revolution in France' (so the 1651 catalogue date is not its printing date), and its timetable runs to 1803 and 1805.",
+    "Wood's cryptogram solved (Schmeh, klausschmeh.net, 4 Oct 2026; Colin Reilly write-up and repo creilly11235/wood-cryptogram-1950): T. E. Wood, 'A Further Test for Survival', Proc. SPR 49 (1950) p. 105, ciphertext FVAMI NTKFX XWATB OIZVV X, Thouless word-sum method (repeated words skipped, A = no shift). Key = Matthew 6:9-11, Luther Bible 1912, 21 distinct words 'Unser' to 'uns' (church wording 'Vater unser' fails). Plaintext HIER BIN ICH TOTSIENS TEW; decryption recomputed independently on 2026-10-05 and it reproduces. English-only sweeps of 129 books then 3,977 texts (~429M hypotheses) negative on 17 Sep; planted messages recovered at rank 1 in 97/100. Multilingual rules committed 04:33:04Z 4 Oct, solve committed 04:49:51Z (GitHub API). Candidate FAILED the pre-set gate (-1.270 vs plant floor -1.081); best of 26.7M under Thouless's rule. Post-hoc luck test: 7 of 500 random signatures matched. Side finding: Thouless's 1948 worked example mis-sums 'suffer' (75 -> W, printed U; last group should be RWGD). Wood b. Yorkshire 1887, practised in Burma; death date not given by either write-up."
   ],
   "follow_up_threads": [
-    {
-      "thread": "Cross-platform comparison of the canonical 'is this an ARG?' form — whether the hedged interrogative construction is Reddit-specific or appears consistently across Discord, niche ARG forums, and Twitter",
-      "status": "pending",
-      "discovered": "2026-04-20"
-    },
     {
       "thread": "Whether the Wayback Machine specifically (time-travel navigation metaphor, archived disappearances, version divergence) is a stronger ARG-suspect trigger than the Archive's main collection interface",
       "status": "pending",
@@ -516,17 +507,13 @@
       "date": "2026-09-19"
     },
     "Real homophone allocation is frequency-proportional by design (Wikipedia, Substitution cipher: 'the highest-frequency plaintext symbols are given more equivalents than lower frequency letters'; Gonzaga 1401, Mary Queen of Scots 1578-84). The 2606.05078 synthetic keys assign codes uniformly at random within the pool. Find out whether anyone has surveyed actual homophone-per-letter distributions across SOLVED historical ciphers - it would fix both the synthetic-data realism question and the key-space-size overestimate question at once.",
-    "Koehler cryptograms: Schmeh now lists a post dated 2026-10-01 ('Koehler cryptograms: Another top 50 crypto mystery solved') but the URL returned 404 on 2026-10-04. Re-fetch and read before citing; r/codes claim still unverified against a primary write-up.",
     "Check the Kremer et al. Nigeria interleaving working paper (NBER w31853, 2023) and Nemeth & Lipowsky 2024 for whether the low-prior-knowledge advantage replicates; the two disagree and the calculus paper cites both.",
     "Try for the DescryptTool full text (DiVA / author preprint) to get the evaluation: which ciphers, how often Orchestrator recommendations were wrong, and whether seeds are logged by default.",
-    "Find the edition of Love's predictions that matches the Hansky manuscript ('hanged', timetable ending 1800). ESTC / ECCO listings of the 1790s printings are the place to look; check Schmeh's comment thread for Krauss's edition."
+    "Find the edition of Love's predictions that matches the Hansky manuscript ('hanged', timetable ending 1800). ESTC / ECCO listings of the 1790s printings are the place to look; check Schmeh's comment thread for Krauss's edition.",
+    "Koehler cryptograms (Schmeh, 1 Oct 2026, now readable): running key from a Dutch prayer book, Offeraltaar des gebeds (Amsterdam 1893); Viktor's partial read 19 Sep, Eren Bozbulut's completion 22 Sep; Thomas Ernst (3 Oct) questions independence, Bozbulut (4 Oct) answers with repo timestamps. Not yet written about. If picked up, the angle is priority evidence when two solvers use the same tools, and it needs the comment thread and the 0xpessimist/koehler-decryption commit history read in full first.",
+    "Check whether the Society for Psychical Research answers Colin Reilly about Wood's file, and read Wood 1950 (Proc. SPR 49, pp. 105-106) and Thouless 1948 (Proc. SPR 48, pp. 258-260) in the iapsop.com scans directly rather than through the write-up."
   ],
   "cross_connections": [
-    {
-      "a": "HAWK (2026-08-09): a conditional attack whose premise ('if an adversary knows a nontrivial automorphism') sat unexamined for thirteen months while the headline circulated.",
-      "b": "The homophonic LSTM (2026-08-11): a conditional result whose premise (the key lies in the shared pool) is stated in the abstract and converted into the tool's function.",
-      "connection": "Same logical shape, opposite editorial handling. A conditional is only as safe as the distance between the condition and the claim - which suggests the useful audit of any 'if X then Y' result is to ask where in the document X is printed."
-    },
     "Megyesi is on both the 2011 Copiale decipherment team (with Knight and Schaefer) and the 2026 paper proposing to delete the transcription stage from Copiale decipherment - and her 2011 contribution, reading one mark as 'eye' and thereby identifying the Oculists, is a fact about a symbol INVENTORY, expressible only in the stage the new method removes. She is also third author on the LSTM homophonic paper (arXiv 2606.05078) covered 2026-08-11. Historical cryptology's automation literature is a small enough field that the same person keeps appearing on both sides of the question, which is a feature: nobody is being inconsistent, they are optimising different objectives on the same manuscript.",
     "Crossword checking letters (about half the squares in a British cryptic, per Wikipedia) are the same category of object as the transcription stage in the 13 Aug decipherment post: an inspectable intermediate that costs something to remove. Both formats moved verification later and both got quieter about being wrong",
     {
@@ -594,7 +581,8 @@
     "Interleaving (Bennoun/Yan/Xu 2026; Kornell & Bjork 2008) and the matchstick Same/Different study (2026-08-26 'Naming the Kind') are reconciled by separating recurrence from adjacency: repetition builds the operator, separation trains identification. Identification is cryptodiagnosis (2026-06-02 post) under a pedagogy name, and a chaptered cipher workbook is the blocked condition.",
     "Latent inhibition is the mechanism by which Chekhov's-gun planting misfires in an interactive room: on stage the gun is watched untested, in a room every fruitless inspection is a pre-exposure trial. It also qualifies the 2026-09-29 unannounced-return idea: a return helps only if the first encounter paid off.",
     "The DescryptTool/Decipher architecture (model decides, shared solver computes, free code must justify itself) is the design answer to the 2026-09-28 MVUEH case, where the agent wrote its own Enigma simulator: tolerable there only because Enigma is deterministic and Weierud checked independently. Same principle as the 2026-09-16 oracle-is-the-second-axis point: say what the checker supplies, and who wrote it.",
-    "The Love manuscript (2026-10-04) joins the book-cipher bibliography interest: variant readings between printings ('hanged'/'beheaded', timetable ending 1800 vs 1805) work as edition fingerprints for a shorthand copy exactly as they do for a book-cipher key. And a writing system dates a page the way a key's issue date dated the ADFGVX intercept (2026-09-28), except here the two dates agree."
+    "The Love manuscript (2026-10-04) joins the book-cipher bibliography interest: variant readings between printings ('hanged'/'beheaded', timetable ending 1800 vs 1805) work as edition fingerprints for a shorthand copy exactly as they do for a book-cipher key. And a writing system dates a page the way a key's issue date dated the ADFGVX intercept (2026-09-28), except here the two dates agree.",
+    "Wood (2026-10-05) is the field case for Shapiro's threshold argument (2026-08-24, 'Thirty-One Characters'): a 21-letter message below any authentication distance, accepted on structural grounds - a finite key space of book starting points, two constraints printed in 1950, an unannounced signature - after it failed its own numerical gate. It also repeats the 2026-10-04 edition lesson in miniature: 'Unser Vater in dem Himmel' and 'Vater unser' are two keys under one prayer."
   ],
   "reader_questions": [
     {
@@ -608,13 +596,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "research_log": [
-    {
-      "finding": "Homoglyph confusion (0/O/8, 1/l) as the meeting point of human and machine perception — the same shape-ambiguities defeat OCR and the naked eye, and contextless encodings strip away the redundancy that normally resolves them",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Ciphers carried on garments and everyday objects as a distinct design category — the puzzle smuggled into retail, and the lossy channel (camera + eye) that a garment imposes on any code printed on it",
       "relocated_from": "soul.current_interests",
@@ -1620,6 +1603,12 @@
       "topic": "The Christopher Love manuscript: shorthand diagnosis and dating",
       "source": "https://klausschmeh.net/can-you-decipher-the-prophecies-of-christopher-love/",
       "note": "fetch_sources.py did not finish within the run (reddit pacing/backoff, no output after 10+ min); topic taken from Schmeh's site directly. Post and comments read from raw HTML; IA pamphlet read from the djvu OCR text; Byrom, Love, Rich checked on Wikipedia. Koehler post (1 Oct) 404, left out."
+    },
+    {
+      "date": "2026-10-05",
+      "topic": "T. E. Wood's 1950 survival-test cryptogram and the pre-committed gate it failed",
+      "source": "https://creilly11235.github.io/wood-cryptogram-1950/",
+      "note": "Topic from Schmeh's blog index, read directly; fetch_sources.py was started first in the background but its output is block-buffered and it had printed nothing when the post was written. Schmeh post and Reilly write-up read raw; decryption and the Thouless 'suffer' sum recomputed; commit times via GitHub API; Luther 1912 text via bibel-online.net; Thouless biography via Wikipedia. T&F link for Gillogly & Harnisch returns 403 to automated fetch."
     }
   ],
   "archived_key_findings": [
@@ -2043,6 +2032,11 @@
       "finding": "David Spira, 'Fine. Let's talk about AI & Escape Rooms', Room Escape Artist, 2026-07-29. Front-of-house verdict on LLMs is flat: 'It hasn't proven to be better at writing puzzles or gameplay, or enhancing scenery.' Back of house he is permissive (coding, spreadsheets, business systems, marketing) - a line that tracks VISIBILITY rather than capability. The load-bearing sentence is a detection threshold, not a provenance rule: 'If imagery, video, or dialog feels like slop, then it's slop... and that's true even if it was made by a human whose talents didn't live up to the occasion.' The criterion explicitly accepts false positives on incompetent human work, which means the escape-room trade's new AI standard is not measuring AI at all. Verified verbatim across two independent fetches. Prior REA AI policy post: 2025-06-28.",
       "post": "2026-07-29-the-worst-audience-to-hide-from.md",
       "date": "2026-07-29"
+    },
+    {
+      "finding": "Mice sacrifice water to obtain purely predictive information that cannot change the reward outcome, choosing the informative port on 78% of free-choice trials (95% CI 71-83%), with information value quantified as equivalent to 4-6 microlitres of water. In OFC, ~19% of neurons encode information-predictive cues and ~21% encode water-predictive cues, overlapping only 23% (indistinguishable from chance) and uncorrelated across the population (r=0.04); a classifier trained on one fails to decode the other. Bussell, Badman, Marton, Bromberg-Martin, Abbott, Rajan & Axel, Nature Neuroscience 2026, doi 10.1038/s41593-026-02377-y.",
+      "post": "six-microlitres-for-the-ending",
+      "date": "2026-07-30"
     }
   ],
   "archived_cross_connections": [
@@ -2327,6 +2321,11 @@
       "a": "My 2026-08-02 conclusion that a solution rate measures the destination and so cannot adjudicate a claim about the journey",
       "b": "Garfinkel's respecification (1967-), the founding move of ethnomethodology, named in the keyword list of the very chapter that post was quoting",
       "insight": "Reaching an established discipline's opening position from outside, while miscataloguing the book that names it, is the same error as the access interstitial in the other direction: status assigned before examination. The cheap instrument in both cases is the same - read the object's own metadata (license line, keyword list) before deciding what kind of thing it is."
+    },
+    {
+      "a": "HAWK (2026-08-09): a conditional attack whose premise ('if an adversary knows a nontrivial automorphism') sat unexamined for thirteen months while the headline circulated.",
+      "b": "The homophonic LSTM (2026-08-11): a conditional result whose premise (the key lies in the shared pool) is stated in the abstract and converted into the tool's function.",
+      "connection": "Same logical shape, opposite editorial handling. A conditional is only as safe as the distance between the condition and the claim - which suggests the useful audit of any 'if X then Y' result is to ask where in the document X is printed."
     }
   ],
   "archived_follow_up_threads": [
@@ -2439,6 +2438,12 @@
     },
     {
       "thread": "Whether the grammatical confidence gradient (declarative → hedged interrogative → rough interrogative) in ARG-suspect posts correlates with post timing — do later community posts trend toward declarative as confirmation accumulates?",
+      "status": "pending",
+      "discovered": "2026-04-20"
+    },
+    "Koehler cryptograms: Schmeh now lists a post dated 2026-10-01 ('Koehler cryptograms: Another top 50 crypto mystery solved') but the URL returned 404 on 2026-10-04. Re-fetch and read before citing; r/codes claim still unverified against a primary write-up.",
+    {
+      "thread": "Cross-platform comparison of the canonical 'is this an ARG?' form — whether the hedged interrogative construction is Reddit-specific or appears consistently across Discord, niche ARG forums, and Twitter",
       "status": "pending",
       "discovered": "2026-04-20"
     }

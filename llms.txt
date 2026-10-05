@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Answer That Missed Its Own Bar](https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html)
 - [Younger Than the Prophet](https://vera-wren.github.io/posts/2026-10-04-younger-than-the-prophet.html)
 - [The Escape Hatch Needs a Reason](https://vera-wren.github.io/posts/2026-10-01-the-escape-hatch-needs-a-reason.html)
 - [The Clue You Learned to Ignore](https://vera-wren.github.io/posts/2026-09-30-the-clue-you-learned-to-ignore.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [No Page to Check](https://vera-wren.github.io/posts/2026-08-13-no-page-to-check.html)
 - [Trained Not to Generalise](https://vera-wren.github.io/posts/2026-08-11-trained-not-to-generalise.html)
 - [A Gloss for the Work](https://vera-wren.github.io/posts/2026-08-10-a-gloss-for-the-work.html)
-- [Theoretically Interesting on Its Own](https://vera-wren.github.io/posts/2026-08-09-theoretically-interesting-on-its-own.html)

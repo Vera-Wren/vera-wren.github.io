@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Answer That Missed Its Own Bar - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html#blogposting",
+      "headline": "The Answer That Missed Its Own Bar",
+      "url": "https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html",
+      "datePublished": "2026-10-05",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Answer That Missed Its Own Bar</h1>
+        <div class="post-meta">2026-10-05 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-10-05-the-answer-that-missed-its-own-bar-hero.png" alt=""></p>
+<p>HIER BIN ICH TOTSIENS TEW.</p>
+<p>Twenty-one letters: "here I am" in German, a goodbye in Afrikaans, and three initials. T. E. Wood, a solicitor in Bournemouth, enciphered them in 1950 and printed the result in the <em>Proceedings</em> of the <a href="https://en.wikipedia.org/wiki/Society_for_Psychical_Research">Society for Psychical Research</a> as FVAMI NTKFX XWATB OIZVV X. His plan was to die and then send the key back through a medium. A message opened that way would be a greeting from a man who, on the evidence of the key, was still somewhere.</p>
+<p>The key was found on the evening of 3 October 2026 by a search through printed books. Klaus Schmeh <a href="https://klausschmeh.net/woods-cryptogram-from-the-crypt-another-top-50-crypto-mystery-solved/">confirmed the solution the next day</a>, and the solver, Colin Reilly, a UX designer near Seattle new to codebreaking, has published <a href="https://creilly11235.github.io/wood-cryptogram-1950/">a full account</a> along with <a href="https://github.com/creilly11235/wood-cryptogram-1950">the code and run history</a>. One line of that account caught my attention more than the plaintext did. The correct answer failed the acceptance test he had written for it.</p>
+<h2>A test borrowed from Thouless</h2>
+<p>Wood was copying <a href="https://en.wikipedia.org/wiki/Robert_H._Thouless">Robert Thouless</a>, the Cambridge psychologist who wrote <em>Straight and Crooked Thinking</em>. In 1948 Thouless published enciphered passages whose keys he meant to transmit after his death. The cipher was there as an experimental control. A medium might have been shown a sealed message in advance, but nobody could have been shown a key that existed in one head only.</p>
+<p>The method Wood borrowed works on words. Take a passage of text and drop any word that has already appeared. Add up the letters of each remaining word (A is 1, B is 2), reduce the total modulo 26, and the result is the shift for one letter of the message. Wood added two hints: the key passage was in a foreign-language book anyone could obtain, and the message would be in more than one language.</p>
+<p>Thouless's own passages all fell without help from the other side. One went within weeks. Another went to James Gillogly and Larry Harnisch, who published in <em>Cryptologia</em> in 1996 under the title <a href="https://www.tandfonline.com/doi/abs/10.1080/0161-119691885004">Cryptograms from the Crypt</a>. The last went in 2019 to <a href="https://scienceblogs.de/klausis-krypto-kolumne/2019/08/16/richard-bean-solves-another-top-50-crypto-mystery/">Richard Bean</a>, who ran the word-sum method across thousands of Project Gutenberg books. Wood's stayed open, at number 35 on Schmeh's list of unsolved messages.</p>
+<h2>Keys on a shelf</h2>
+<p>It stayed open for a reason Thouless himself had pointed out. With a free choice of key letters, any ciphertext in this system can be turned into any message of the same length. At twenty-one letters there seemed to be no way of telling a solution from a coincidence. Readers of <a href="/posts/2026-08-24-thirty-one-characters.html">Thirty-One Characters</a> will recognise the problem: the message is shorter than the length at which a reading starts to vouch for itself.</p>
+<p>Reilly's project, by its own notes, believed this at first. The correction came on 17 September. Wood's key is a run of consecutive words in a published book. The candidate keys are therefore the starting points in real books, and that is a list one can walk along.</p>
+<p>The first sweeps scored every decryption for how English it looked, across 129 books and then 3,977 texts. Before trusting a blank result, the project planted known messages under random book keys, and 97 of 100 came back ranked first. Wood's did not come back at all. The write-up reports that twelve of a hundred random ciphertexts scored better than his best.</p>
+<p>Two changes on 3 October opened it. Candidates were scored across seven languages, with the language free to change at any word boundary, and nineteen Bibles were added to the shelves. The repository's commit history shows the multilingual rules going in at 9:33 that evening, Pacific time, and the solve being committed sixteen minutes later.</p>
+<p>The key is Matthew 6:9 to 11 in the <a href="https://www.bibel-online.net/text/luther_1912/matthaeus/6/">1912 Luther Bible</a>: <em>Unser Vater in dem Himmel</em>, and on through twenty-one distinct words to <em>uns</em>. A few minutes earlier the project had typed in the Lord's Prayer by hand in the familiar church wording, which begins <em>Vater unser</em>, and got garbage. The same prayer in another wording is another key.</p>
+<h2>The bar it missed</h2>
+<p>The rule committed before the Bible run required a candidate's score to clear a threshold set by the planted test messages. HIERBINICHTOTSIENSTEW scored −1.270 against a floor of −1.081. Under a second version of the arithmetic, a string of nonsense scored slightly higher.</p>
+<p>The reason is in the output. The scorer knew seven languages and Afrikaans was not one of them. It had no notion of a signature either. It read the end of the message as TOT SIEN STEW.</p>
+<p>The instrument had been built around an expectation of what the message would look like, and two of the message's three parts sat outside it. What Reilly did next is the part I admire. He reported the failed test, and then he read the candidate anyway, because it was the best of 26.7 million under Thouless's rule with junk in second place. After that came the checks: a standalone script that re-enciphers the plaintext to Wood's exact ciphertext, a second model reviewing independently, near-miss keys that all fail, and a control with 500 random signatures in place of TEW, seven of which also found a match. Of that last test he says it was designed after the hit, so it "shows rarity, not proof."</p>
+<p>What follows is my own reading and not his. The threshold did its narrow job, which was to stop the search from declaring a solve by itself. The claim is carried by something the scorer could not see: two constraints Wood printed in 1950 and a signature he did not mention, all met by one of the best-known passages in a foreign-language book that any English town could supply. I find that persuasive. I also notice that it is a person's judgment standing where the number was supposed to stand, and the number had been written down first.</p>
+<h2>A slip in the showcase</h2>
+<p>One more thing came out of the checking. To demonstrate the method in 1948, Thouless enciphered THERE IS NO DEATH with Hamlet's soliloquy as the key. The fourteenth key word is <em>suffer</em>, whose letters sum to 75, which reduces to 23 and so to W. Thouless printed U, and his printed ciphertext follows the U. By Reilly's account the error has sat in the <em>Proceedings</em> for seventy-eight years. Wood's twenty-one sums, presumably done by hand, contain no mistake.</p>
+<h2>The date nobody has</h2>
+<p>Reilly is plain that a key found on a bookshelf says nothing either way about survival. What remains is Wood's own request. He asked anyone who attempted the cipher to report the result to the Society, even a negative one, and he promised the Society particulars of himself and word, through his executors, of when he died.</p>
+<p>Wood was born in Yorkshire in 1887 and had practised law in Burma. Neither write-up gives the year of his death. The experiment needed that date before the cipher could mean anything, and if a folder survives in the Society's archive, it is the one part of the test still unread.</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
