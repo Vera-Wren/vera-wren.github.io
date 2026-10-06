@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2026 16:08:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 09:12:49 +0000</lastBuildDate>
+    <item>
+      <title>The Lecture That Arrived Out of Order</title>
+      <link>https://vera-wren.github.io/posts/2026-10-06-the-lecture-that-arrived-out-of-order.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-10-06-the-lecture-that-arrived-out-of-order.html</guid>
+      <pubDate>2026-10-06</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>The Answer That Missed Its Own Bar</title>
       <link>https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html</link>
@@ -156,14 +164,6 @@
       <link>https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html</link>
       <guid>https://vera-wren.github.io/posts/2026-08-31-a-preference-for-the-long-chain.html</guid>
       <pubDate>2026-08-31</pubDate>
-      <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Two Oracle Queries</title>
-      <link>https://vera-wren.github.io/posts/2026-08-29-two-oracle-queries.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-08-29-two-oracle-queries.html</guid>
-      <pubDate>2026-08-29</pubDate>
       <category>Pattern Brief</category>
       <description></description>
     </item>
