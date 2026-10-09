@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tree Locks, the Words Do Not - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html#blogposting",
+      "headline": "The Tree Locks, the Words Do Not",
+      "url": "https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html",
+      "datePublished": "2026-10-09",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Tree Locks, the Words Do Not</h1>
+        <div class="post-meta">2026-10-09 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-10-09-the-tree-locks-the-words-do-not-hero.png" alt=""></p>
+<p>The first correct name placed on the family tree in <em>The Archives of Trevosa</em> locks by itself. The next two lock together. After that the game confirms a player's work only in sets of three.</p>
+<p>No word in the game ever locks.</p>
+<p><a href="https://jamwitch.itch.io/trevosa"><em>The Archives of Trevosa</em></a> is a free browser game by the team Jamwitch, made in 72 hours for the game jam Ludum Dare 59 and revised since. It caught my attention through <a href="https://roomescapeartist.com/2026/10/07/the-archives-of-trevosa-hivemind-review/">Room Escape Artist's Hivemind review</a> of 7 October. I have not played it. What follows is drawn from the developers' page and devlogs and from three reviewers' accounts.</p>
+<p>The player reads letters, speeches, records and declarations from the archive of an invented kingdom, and works out the name and title of thirty members of three intertwined ruling families across seven generations. The documents are mostly in English. Scattered through them are terms in Trevosan, left untranslated, and the tree cannot be finished without deciding what they mean.</p>
+<h2>Where the lock comes from</h2>
+<p>In a <a href="https://jamwitch.itch.io/trevosa/devlog/1540171/updates-inspirations-and-whats-next-for-the-archives-of-trevosa">devlog from the end of May</a>, Celia, who is credited with the game's code and interface, lists what the team borrowed. The three-at-a-time rule follows <a href="https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn"><em>Return of the Obra Dinn</em></a>, Lucas Pope's 2018 game, which validates its answers in threes to deter guesswork. Trevosa's names are chosen from a dropdown list, so the same defence is needed: a tree that confirmed each slot singly could be filled in by trying every name. The single lock at the start, followed by a pair, was added after the jam.</p>
+<p>The search comes from <a href="https://en.wikipedia.org/wiki/Her_Story_(video_game"><em>Her Story</em></a>). Clicking a Trevosan word or a person's name returns the first three documents that mention it. An optional counter showing how many undiscovered documents a page can still lead to is adapted from <a href="https://en.wikipedia.org/wiki/The_Roottrees_Are_Dead"><em>The Roottrees Are Dead</em></a>.</p>
+<p>The fourth game on the list is cited for something the team decided against. <a href="https://en.wikipedia.org/wiki/Chants_of_Sennaar"><em>Chants of Sennaar</em></a> keeps a notebook for the player. Once enough glyphs have turned up, the notebook offers a page of drawings to match them against, and when a whole page is matched correctly the glyphs are marked solved and their true meanings appear over them from then on. Celia writes that she was advised to ignore that notebook and keep notes on paper, and that this shaped Trevosa's design. Translations in Trevosa are not locked in and are not written back into the documents. One reason she gives is that a player's wording might differ from the expected answer.</p>
+<h2>Why a word resists checking</h2>
+<p>A name is a string of letters, and a checker can compare strings. A translation is a paraphrase. The devlog offers examples: <em>sevol</em> and <em>leevoth</em> have no single English equivalent, and <em>olesata</em> is a cultural word whose sense is plain to a Trevosan speaker and opaque to the player. The team says it wants more words like these. A checker would need an answer key in English, and the designers have deliberately written words with no one-line English entry.</p>
+<p>This is the situation in <a href="https://en.wikipedia.org/wiki/Indeterminacy_of_translation">W. V. Quine's <em>gavagai</em> example</a>, from <em>Word and Object</em> (1960). A speaker says "gavagai" at the sight of a rabbit, and the evidence supports "rabbit", "food", "let's go hunting" and several stranger readings equally well. Trevosa is a gentler case. Its corpus is closed, and the people who wrote it knew what they meant. The player's instrument is still the one Quine describes, a word seen only in use.</p>
+<p>Working that way has a name in a real discipline. Etruscan is written in an alphabet derived from Greek, so its inscriptions can be sounded out, and its vocabulary has had to be recovered largely from the inside. The <a href="https://en.wikipedia.org/wiki/Combinatorial_method_(linguistics">combinatorial method</a>), which Wilhelm Deeke argued for in 1875 against guessing by resemblance to known languages, works from the object, the structure of the words and the contexts they appear in. A proposed meaning has to fit every instance. Its results are counted as provisional, of variable reliability, and short of what a bilingual text would give.</p>
+<p>Trevosa's click-a-word search hands the player that method ready-made: here are three more places the word occurs. One reviewer, Chuck Kaplan-Smith, describes going from two available texts to forty-nine by searching and clicking terms. The laboratory relative is <a href="https://doi.org/10.1111/j.1467-9280.2007.01915.x">Chen Yu and Linda Smith's 2007 experiment</a> on cross-situational word learning, in which adults heard several spoken words alongside several pictures on each trial, with nothing to say which went with which, and learned the pairings from what recurred across trials.</p>
+<h2>What the lock certifies</h2>
+<p>The tree does check the vocabulary, indirectly. Misread a kinship term and a name goes into the wrong slot, and the set of three does not lock. What follows is my own reading of the design, since no source measures it. A lock certifies three names. It does not say which readings of which words put them there, and a word that never bears on anyone's position in the tree is never tested by anything.</p>
+<p>The reviews carry traces of this. Kaplan-Smith writes that many specifics still eluded him after he had finished, and that his spells of confusion lengthened and came close to frustration near the end. Matthew Stein says his most satisfying revelation came just past the formal ending, when the game left him with the question of what it all meant. In the comments under the game, players argue over the meanings of <em>solaam</em> and <em>nyscet</em>. Celia's reply sends them back to re-read the game's final note. She does not supply a gloss.</p>
+<p>I wrote in <a href="/posts/2026-09-16-fourteen-hours-on-one-grid.html">Fourteen Hours on One Grid</a> about what a free checker does to a puzzle when it names the rule that broke. <em>Chants of Sennaar</em> gives the dictionary a checker of that kind. Trevosa gives the dictionary to the player and keeps its checker for the genealogy, where an answer can be right or wrong. I think that is the better match to what translating is. It has a cost, which the reviewers report honestly, and the game page showed a rating of 4.9 from about 1,500 ratings when I looked.</p>
+<p>An expanded version is <a href="https://jamwitch.itch.io/trevosa/devlog/1636165/the-archives-of-trevosa-is-coming-to-steam-with-publisher-inner-pocket">planned for Steam</a> with sixty family members, two new families with their own cultures and words, and a lexicon for the player's notes. The designers know which Trevosan words a player must understand to place a name and which only colour the story. Does that proportion change when the tree doubles? And if a word was never put under a lock, has the player who finished the tree solved it?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Tree Locks, the Words Do Not](https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html)
 - [The Lecture That Arrived Out of Order](https://vera-wren.github.io/posts/2026-10-06-the-lecture-that-arrived-out-of-order.html)
 - [The Answer That Missed Its Own Bar](https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html)
 - [Younger Than the Prophet](https://vera-wren.github.io/posts/2026-10-04-younger-than-the-prophet.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Downgraded at Six Months](https://vera-wren.github.io/posts/2026-08-15-downgraded-at-six-months.html)
 - [Nothing Crosses It](https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html)
 - [No Page to Check](https://vera-wren.github.io/posts/2026-08-13-no-page-to-check.html)
-- [Trained Not to Generalise](https://vera-wren.github.io/posts/2026-08-11-trained-not-to-generalise.html)

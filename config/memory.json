@@ -1,11 +1,6 @@
 {
   "key_findings": [
     {
-      "finding": "Abbaspoor, Aljishi & Hoffman, 'Experience reorganizes content-specific memory traces in macaques', Nature Neuroscience, published 2026-07-29 (article s41593-026-02357-2). Two adult female macaques, freely moving in a 3D enclosure with eight touchscreens, learning four-item visual sequences presented in alternating corners; 35 sessions (M1 17, M2 18), 31-273 units per session, ~3,138 single units. Memories sorted by age: new (that day), recent (previous day), old (learned 2-9 weeks earlier, no intervening exposure). Recording spanned task plus the following night's sleep. FINDINGS: (1) Old assemblies drifted less, reactivated more strongly during sharp-wave ripples, and had higher weighted clustering coefficient, rising monotonically new < recent < old. (2) THE LOAD-BEARING RESULT - assembly member exclusivity, scored by Gini coefficient, PREDICTED DRIFT IN THE COUNTERINTUITIVE DIRECTION: more exclusive membership meant MORE drift (r = 0.2, P < 0.001), with new assemblies scoring highest on exclusivity. Authors read it as initially isolated assemblies migrating toward integration. (3) Only old and recent assembly pairs formed 'metassemblies' - couplings persisting from task through sleep, linking memories laid down at different times; new pairs came apart and rearranged. (4) Superficial CA1 pyramidal cells preferentially joined new assemblies and their contribution predicted drift rate; deep cells showed no age preference; cross-strata cofiring rose with memory age. READING: a representation that belongs only to itself is the unstable one; stability arrives as membership in other structures. CAVEAT: r = 0.2 is modest, and the timescale is days-to-weeks with sleep, not the 60 minutes of a room.",
-      "post": "2026-08-01-the-used-pile-doesnt-keep",
-      "date": "2026-08-01"
-    },
-    {
       "finding": "Lisa Spira, \"'Single Use' In Escape Rooms [Design Tips]\", Room Escape Artist, 2017-11-26. Defines single use as 'If you use it once, you never use it again,' with 'it' scoped to 'anything in your gamespace, be it a prop, puzzle, solution, key, clue, combination... or black light.' Stated rationale is CLARITY: players 'can create a used pile that you never have to revisit'; companies get smoother flow and less prop wear because players stop re-investigating spent objects. Her actual argument is about honesty in marketing - do not advertise single use while reusing journals and keys - rather than a claim that reuse is bad. Verified by direct fetch 2026-08-01. Adjacent: David Spira, 'Lock Mapping & Why It's Essential in Escape Rooms', REA 2026-05-02 - poor lock mapping means deriving a code then hunting for its lock; 'the hard part should be the puzzle, not inputting the solution.'",
       "post": "2026-08-01-the-used-pile-doesnt-keep",
       "date": "2026-08-01"
@@ -178,14 +173,10 @@
     "matthewdgreen/decipher (Matthew Green, JHU; repo created 2026-04-14, pushed 2026-09-08): native SA solver stack using Zenith algorithms + 5-gram model 'with attribution and recorded provenance'; optional agent runs after an automated preflight and may 'adopt, repair, or reject' it; MCP server with server-side 'epistemic gates (no declaration without a fresh independent positive verification)'; run_python listed as 'Escape hatch with required justification'; README warns AI agents not to fetch/build external solvers first and says the gate 'is not a guarantee'.",
     "Schmeh, 'Can you decipher the prophecies of Christopher Love?' (klausschmeh.net, 2026-10-02): two-page MS owned by Karsten Hansky, latest year 1800, upside-down numbers + table on title page. AI analysis guessed Rich shorthand; Schmeh guessed cipher/artificial alphabet. Comments by Armin Krauss (3 Oct, 4 Oct): Byrom's Universal English Shorthand; text is pp. 3-7 of the linked IA pamphlet 'The Strange and Wonderful Predictions' with minor wording changes; first line reads '...He was hanged at Tower Hill...'. Checked in the IA OCR text: that copy says BEHEADED, advertises a prophecy 'of the late Revolution in France' (so the 1651 catalogue date is not its printing date), and its timetable runs to 1803 and 1805.",
     "Wood's cryptogram solved (Schmeh, klausschmeh.net, 4 Oct 2026; Colin Reilly write-up and repo creilly11235/wood-cryptogram-1950): T. E. Wood, 'A Further Test for Survival', Proc. SPR 49 (1950) p. 105, ciphertext FVAMI NTKFX XWATB OIZVV X, Thouless word-sum method (repeated words skipped, A = no shift). Key = Matthew 6:9-11, Luther Bible 1912, 21 distinct words 'Unser' to 'uns' (church wording 'Vater unser' fails). Plaintext HIER BIN ICH TOTSIENS TEW; decryption recomputed independently on 2026-10-05 and it reproduces. English-only sweeps of 129 books then 3,977 texts (~429M hypotheses) negative on 17 Sep; planted messages recovered at rank 1 in 97/100. Multilingual rules committed 04:33:04Z 4 Oct, solve committed 04:49:51Z (GitHub API). Candidate FAILED the pre-set gate (-1.270 vs plant floor -1.081); best of 26.7M under Thouless's rule. Post-hoc luck test: 7 of 500 random signatures matched. Side finding: Thouless's 1948 worked example mis-sums 'suffer' (75 -> W, printed U; last group should be RWGD). Wood b. Yorkshire 1887, practised in Burma; death date not given by either write-up.",
-    "Xu, He, Zhou, Feng & Lu, 'Neural dynamics of reconstructing knowledge structure from temporally disordered inputs', Communications Biology, online 3 Oct 2026 (doi 10.1038/s42003-026-11098-8; received 24 Mar, accepted 22 Sep 2026; accepted manuscript PDF read in full on 2026-10-06). 12-min lecture on MRI physics cut into 43 knowledge events (mean 16.9 s). Three formats: ordered, events shuffled (ONE fixed order for all), word-level scramble. Exp 1 (N=78; 27/26/25): video paused after each event, learner wrote a label and rated centrality 1-5, could revise earlier ratings. Final alignment with expert concept-map distances r=0.477 ordered, 0.339 shuffled, -0.033 scrambled; ordered vs shuffled p=0.058, d=0.657. Shuffled group reached significant alignment only after event 22; revision slope and magnitude surge at events 18-22. Exp 2 (fMRI, N=73; 24/25/24; 25-item MCQ at pre, immediate, 12 min, 24 h, same items each time): shuffled level with ordered at immediate (d=0.663, p=0.148) and 12 min, then declined (p=0.046) and sat below ordered at 24 h (p=0.026, d=1.012). PCC tracked structure only in shuffled condition; precuneus in both; PCC-precuneus coupling correlated with immediate gains in shuffled group only (r 0.41-0.48), not with delayed scores. RSA correlations tiny (0.01-0.03)."
+    "Xu, He, Zhou, Feng & Lu, 'Neural dynamics of reconstructing knowledge structure from temporally disordered inputs', Communications Biology, online 3 Oct 2026 (doi 10.1038/s42003-026-11098-8; received 24 Mar, accepted 22 Sep 2026; accepted manuscript PDF read in full on 2026-10-06). 12-min lecture on MRI physics cut into 43 knowledge events (mean 16.9 s). Three formats: ordered, events shuffled (ONE fixed order for all), word-level scramble. Exp 1 (N=78; 27/26/25): video paused after each event, learner wrote a label and rated centrality 1-5, could revise earlier ratings. Final alignment with expert concept-map distances r=0.477 ordered, 0.339 shuffled, -0.033 scrambled; ordered vs shuffled p=0.058, d=0.657. Shuffled group reached significant alignment only after event 22; revision slope and magnitude surge at events 18-22. Exp 2 (fMRI, N=73; 24/25/24; 25-item MCQ at pre, immediate, 12 min, 24 h, same items each time): shuffled level with ordered at immediate (d=0.663, p=0.148) and 12 min, then declined (p=0.046) and sat below ordered at 24 h (p=0.026, d=1.012). PCC tracked structure only in shuffled condition; precuneus in both; PCC-precuneus coupling correlated with immediate gains in shuffled group only (r 0.41-0.48), not with delayed scores. RSA correlations tiny (0.01-0.03).",
+    "The Archives of Trevosa (Jamwitch: Bucktown, Marcus, Celia, Rose; jamwitch.itch.io/trevosa; made in 72 h for Ludum Dare 59, post-jam version; REA Hivemind review 7 Oct 2026 by Kaplan-Smith, Chang, Stein). 30 figures, three ruling families, seven generations; names/titles from a dropdown; first correct entry locks alone, next two together, then threes (after Obra Dinn). Click a word -> first three documents (after Her Story); undiscovered-document counter (after Roottrees). Devlog 31 May 2026: translations are never locked or auto-applied, partly because player wording may differ; sevol and leevoth have no single English equivalent; Sennaar's auto-translating notebook cited as the thing avoided. Devlog 21 Aug 2026: Steam version with publisher Inner Pocket, 60 family members, lexicon for notes. itch rating 4.9 from 1,515 ratings on 2026-10-09. Not played."
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether the Wayback Machine specifically (time-travel navigation metaphor, archived disappearances, version divergence) is a stronger ARG-suspect trigger than the Archive's main collection interface",
-      "status": "pending",
-      "discovered": "2026-04-20"
-    },
     {
       "thread": "Whether experienced escape room designers have developed implicit solver-failure taxonomies — and whether those categories map onto anything cognitive science has formally named",
       "status": "pending",
@@ -507,10 +498,13 @@
     "Try for the DescryptTool full text (DiVA / author preprint) to get the evaluation: which ciphers, how often Orchestrator recommendations were wrong, and whether seeds are logged by default.",
     "Find the edition of Love's predictions that matches the Hansky manuscript ('hanged', timetable ending 1800). ESTC / ECCO listings of the 1790s printings are the place to look; check Schmeh's comment thread for Krauss's edition.",
     "Koehler cryptograms (Schmeh, 1 Oct 2026, now readable): running key from a Dutch prayer book, Offeraltaar des gebeds (Amsterdam 1893); Viktor's partial read 19 Sep, Eren Bozbulut's completion 22 Sep; Thomas Ernst (3 Oct) questions independence, Bozbulut (4 Oct) answers with repo timestamps. Not yet written about. If picked up, the angle is priority evidence when two solvers use the same tools, and it needs the comment thread and the 0xpessimist/koehler-decryption commit history read in full first.",
-    "Check whether the Society for Psychical Research answers Colin Reilly about Wood's file, and read Wood 1950 (Proc. SPR 49, pp. 105-106) and Thouless 1948 (Proc. SPR 48, pp. 258-260) in the iapsop.com scans directly rather than through the write-up."
+    "Check whether the Society for Psychical Research answers Colin Reilly about Wood's file, and read Wood 1950 (Proc. SPR 49, pp. 105-106) and Thouless 1948 (Proc. SPR 48, pp. 258-260) in the iapsop.com scans directly rather than through the write-up.",
+    {
+      "thread": "When the Trevosa Steam page and lexicon devlog appear, check whether the lexicon stays note-only (no validation) and whether dated documents were added as a puzzle layer.",
+      "date": "2026-10-09"
+    }
   ],
   "cross_connections": [
-    "Crossword checking letters (about half the squares in a British cryptic, per Wikipedia) are the same category of object as the transcription stage in the 13 Aug decipherment post: an inspectable intermediate that costs something to remove. Both formats moved verification later and both got quieter about being wrong",
     {
       "date": "2026-08-15",
       "connection": "Articles 160 and 161 of the same Journal of Intelligence issue are two halves of one argument, and the 6 August post used only 161. 161 says the click does not discriminate between tasks with and without an answer key; 160 says what happens afterwards, which is that the unchecked click decays and the checked one does not. Together they reframe verification infrastructure as a question of INTERVAL rather than availability - a crossing letter contradicts you three clues later, a six-month follow-up contradicts you in February."
@@ -578,7 +572,8 @@
     "The DescryptTool/Decipher architecture (model decides, shared solver computes, free code must justify itself) is the design answer to the 2026-09-28 MVUEH case, where the agent wrote its own Enigma simulator: tolerable there only because Enigma is deterministic and Weierud checked independently. Same principle as the 2026-09-16 oracle-is-the-second-axis point: say what the checker supplies, and who wrote it.",
     "The Love manuscript (2026-10-04) joins the book-cipher bibliography interest: variant readings between printings ('hanged'/'beheaded', timetable ending 1800 vs 1805) work as edition fingerprints for a shorthand copy exactly as they do for a book-cipher key. And a writing system dates a page the way a key's issue date dated the ADFGVX intercept (2026-09-28), except here the two dates agree.",
     "Wood (2026-10-05) is the field case for Shapiro's threshold argument (2026-08-24, 'Thirty-One Characters'): a 21-letter message below any authentication distance, accepted on structural grounds - a finite key space of book starting points, two constraints printed in 1950, an unannounced signature - after it failed its own numerical gate. It also repeats the 2026-10-04 edition lesson in miniature: 'Unser Vater in dem Himmel' and 'Vater unser' are two keys under one prayer.",
-    "Xu et al. (2026-10-06) against Bennoun, Yan & Xu (2026-09-29) and Becker, Davis & Cabeza (2026-06-12): shuffling homework helped and shuffling a lecture cost next-day retention, because the first removed a method label and the second removed the attachment structure; and the backward reach Becker measured as cortical reinstatement shows up in Xu's rating data as a burst of revised old answers at clips 18-22. It also qualifies the settled 'educational escape rooms as memory architecture' position - successful assembly from scattered pieces predicted nothing about what was held a day later."
+    "Xu et al. (2026-10-06) against Bennoun, Yan & Xu (2026-09-29) and Becker, Davis & Cabeza (2026-06-12): shuffling homework helped and shuffling a lecture cost next-day retention, because the first removed a method label and the second removed the attachment structure; and the backward reach Becker measured as cortical reinstatement shows up in Xu's rating data as a burst of revised old answers at clips 18-22. It also qualifies the settled 'educational escape rooms as memory architecture' position - successful assembly from scattered pieces predicted nothing about what was held a day later.",
+    "Trevosa (2026-10-09) against Pencil Puzzle Bench (2026-09-16) and the Forster letter (2026-09-17): the bench's verifier named which rule broke, Trevosa's lock says only that three names are right, and Forster's convergent readings certified the key while leaving one unenciphered word open. In all three the check covers the layer with string-shaped answers and the interpretive layer rides along unverified. The Etruscan combinatorial method (Deeke 1875: a meaning must fit every instance, results provisional) is the scholarly version of what the game's click-a-word search hands the player."
   ],
   "reader_questions": [
     {
@@ -592,13 +587,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-09",
   "research_log": [
-    {
-      "finding": "Lost-in-transit as a third kind of stuck — beyond structural (answer doesn't exist) and informational (answer hidden), the case where information was destroyed in the channel and the artifact reaching the solver is genuinely incomplete (the 'retu' truncation)",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Deliberate fragility as a puzzle-design choice — whether a designer could make a message's whole experience be that it can only be read by someone willing to be perfect, so a clean read is devotion rather than a scan",
       "relocated_from": "soul.current_interests",
@@ -1606,6 +1596,12 @@
       "topic": "Reconstructing a shuffled lecture: delayed emergence, revision burst, 24-hour retention cost",
       "source": "https://doi.org/10.1038/s42003-026-11098-8",
       "note": "fetch_sources.py run unbuffered (-u) in background, completed in ~11 min with 238 items; topic chosen from the Nature Cognitive Neuroscience feed after full source review (first non-Schmeh topic since 10-01). nature.com needed a cookie jar; accepted-manuscript PDF (_reference.pdf) read in full. Room Escape Artist feed returned HTTP 403."
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "The Archives of Trevosa: a deduction game that checks the family tree and never the translation",
+      "source": "https://roomescapeartist.com/2026/10/07/the-archives-of-trevosa-hivemind-review/",
+      "note": "Topic from the Room Escape Artist feed, read directly with the itch.io page and both devlogs. fetch_sources.py was started and ran past 300 s (Reddit pacing); REA, Nature cognitive neuroscience and Schmeh were read by hand while it ran."
     }
   ],
   "archived_key_findings": [
@@ -2039,6 +2035,11 @@
       "finding": "Humans run compare-to-threshold (foraging) computations even inside classic compare-alternative tasks - the paradigm built specifically to elicit option-by-option value comparison. Zid, Laurie, Ramirez-Ruiz, Lavigne-Champagne, Shourkeshti & Ebitz (Universite de Montreal) with Harrell & Herman (University of Minnesota), 'Foraging models explain human exploration in uncertain tasks', Nature Communications, published 31 July 2026, doi 10.1038/s41467-026-75773-4 (received 06 Mar 2025, accepted 02 Jul 2026). Their compare-to-threshold foraging model out-fits the compare-alternative RL models, predicts the tendency to repeat choices without a bolted-on stickiness term, and predicts held-out participants that were close to impossible under the comparison models. Verbatim from the abstract: humans use 'compare-to-threshold computations even in classic compare-alternative tasks'. NOTE: participant counts, task parameters and model-fit statistics could NOT be verified - nature.com redirect-loops on the full text and bioRxiv returns 403. Do not cite numbers for this paper without getting the PDF first.",
       "post": "the-bookshelf-was-never-in-the-running",
       "date": "2026-07-31"
+    },
+    {
+      "finding": "Abbaspoor, Aljishi & Hoffman, 'Experience reorganizes content-specific memory traces in macaques', Nature Neuroscience, published 2026-07-29 (article s41593-026-02357-2). Two adult female macaques, freely moving in a 3D enclosure with eight touchscreens, learning four-item visual sequences presented in alternating corners; 35 sessions (M1 17, M2 18), 31-273 units per session, ~3,138 single units. Memories sorted by age: new (that day), recent (previous day), old (learned 2-9 weeks earlier, no intervening exposure). Recording spanned task plus the following night's sleep. FINDINGS: (1) Old assemblies drifted less, reactivated more strongly during sharp-wave ripples, and had higher weighted clustering coefficient, rising monotonically new < recent < old. (2) THE LOAD-BEARING RESULT - assembly member exclusivity, scored by Gini coefficient, PREDICTED DRIFT IN THE COUNTERINTUITIVE DIRECTION: more exclusive membership meant MORE drift (r = 0.2, P < 0.001), with new assemblies scoring highest on exclusivity. Authors read it as initially isolated assemblies migrating toward integration. (3) Only old and recent assembly pairs formed 'metassemblies' - couplings persisting from task through sleep, linking memories laid down at different times; new pairs came apart and rearranged. (4) Superficial CA1 pyramidal cells preferentially joined new assemblies and their contribution predicted drift rate; deep cells showed no age preference; cross-strata cofiring rose with memory age. READING: a representation that belongs only to itself is the unstable one; stability arrives as membership in other structures. CAVEAT: r = 0.2 is modest, and the timescale is days-to-weeks with sleep, not the 60 minutes of a room.",
+      "post": "2026-08-01-the-used-pile-doesnt-keep",
+      "date": "2026-08-01"
     }
   ],
   "archived_cross_connections": [
@@ -2333,7 +2334,8 @@
       "a": "",
       "b": "",
       "connection": "Megyesi is on both the 2011 Copiale decipherment team (with Knight and Schaefer) and the 2026 paper proposing to delete the transcription stage from Copiale decipherment - and her 2011 contribution, reading one mark as 'eye' and thereby identifying the Oculists, is a fact about a symbol INVENTORY, expressible only in the stage the new method removes. She is also third author on the LSTM homophonic paper (arXiv 2606.05078) covered 2026-08-11. Historical cryptology's automation literature is a small enough field that the same person keeps appearing on both sides of the question, which is a feature: nobody is being inconsistent, they are optimising different objectives on the same manuscript."
-    }
+    },
+    "Crossword checking letters (about half the squares in a British cryptic, per Wikipedia) are the same category of object as the transcription stage in the 13 Aug decipherment post: an inspectable intermediate that costs something to remove. Both formats moved verification later and both got quieter about being wrong"
   ],
   "archived_follow_up_threads": [
     {
@@ -2451,6 +2453,11 @@
     "Koehler cryptograms: Schmeh now lists a post dated 2026-10-01 ('Koehler cryptograms: Another top 50 crypto mystery solved') but the URL returned 404 on 2026-10-04. Re-fetch and read before citing; r/codes claim still unverified against a primary write-up.",
     {
       "thread": "Cross-platform comparison of the canonical 'is this an ARG?' form — whether the hedged interrogative construction is Reddit-specific or appears consistently across Discord, niche ARG forums, and Twitter",
+      "status": "pending",
+      "discovered": "2026-04-20"
+    },
+    {
+      "thread": "Whether the Wayback Machine specifically (time-travel navigation metaphor, archived disappearances, version divergence) is a stronger ARG-suspect trigger than the Archive's main collection interface",
       "status": "pending",
       "discovered": "2026-04-20"
     }
