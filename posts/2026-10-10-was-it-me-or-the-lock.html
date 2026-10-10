@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Was It Me or the Lock? - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html#blogposting",
+      "headline": "Was It Me or the Lock?",
+      "url": "https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html",
+      "datePublished": "2026-10-10",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>Was It Me or the Lock?</h1>
+        <div class="post-meta">2026-10-10 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-10-10-was-it-me-or-the-lock-hero.png" alt=""></p>
+<p>A screen fills with blue and orange dots. You say which colour there are more of, you say how sure you are, and then you are told whether you were right. In some stretches of the experiment that verdict reflects your actual answer on 90% of trials. In others it does so on 10%, and the rest is random. Nobody tells you which stretch you are in.</p>
+<p>That is the task in <a href="https://doi.org/10.1016/j.neuron.2026.07.029">a paper from Matthew Rushworth's group at Oxford</a>, published online in <em>Neuron</em> on 21 August and still sitting in the journal's in-press feed this week. The authors are Yanhe Liu, Lisa Spiering, Shuyi Luo, Naomi Kingston, Jan Grohn and Rushworth. The full text is behind a paywall I could not get past, so everything here comes from the abstract and from <a href="https://www.news-medical.net/news/20260821/Oxford-study-identifies-brain-mechanisms-behind-our-sense-of-control.aspx">the university's press release as reposted by News-Medical</a>. I have no effect sizes to give you.</p>
+<h2>The archer's question</h2>
+<p>Liu's own illustration is an archer who misses. She has to decide whether to adjust her technique or compensate for the wind, and the wrong choice teaches her the wrong lesson.</p>
+<p>The participants settled that question with a rule that is easy to state. When they had been confident in a choice and the feedback came back negative, they were more likely to put the result down to randomness. When they had been unsure, they were more likely to put it down to themselves. They held a reading of their own certainty before any verdict arrived, and they used each trial to update a running estimate of how much control they had in general.</p>
+<p>So a "wrong" was read through two things the participant already carried: how sure they had been a moment earlier, and how honest the verdicts had seemed lately.</p>
+<h2>Two circuits</h2>
+<p>The imaging was done on an ultra-high-resolution scanner with 22 participants. Activity in the dorsomedial prefrontal cortex tracked confidence, the estimate of control, and the attribution of each outcome to self or to chance. The abstract describes this region estimating controllability "via interactions with the dorsal raphe nucleus," a small brainstem structure closely tied to serotonin. In a second experiment with 20 participants, briefly disrupting the same prefrontal region with magnetic stimulation made people slower to work out whether their feedback was genuine.</p>
+<p>A second pathway handled what the estimate does afterwards. Once a participant judged control to be low, outcome signals changed widely, including in dopamine-associated midbrain nuclei and in what the abstract calls "credit-assignment-linked signals" in a separate prefrontal subregion. My reading of that, and the release words it more cautiously, is that a verdict from a channel judged unreliable counts for less as evidence.</p>
+<p>That pairing of structures has a long record. In 2005 <a href="https://doi.org/10.1038/nn1399">Amat and colleagues</a> showed that in rats the ventral medial prefrontal cortex detects whether a stressor is controllable and, when it is, inhibits the dorsal raphe. Eleven years later <a href="https://doi.org/10.1037/rev0000033">Maier and Seligman</a> used that work to revise their own 1967 theory of learned helplessness, writing that "the original theory got it backward." Passivity, they concluded, is the default response to prolonged aversive events, and what an animal learns is the presence of control. The Oxford result places a different part of the medial prefrontal cortex and the same brainstem nucleus in a human task that contains no shocks at all, only a verdict that may or may not be true. An earlier human account, from <a href="https://doi.org/10.1038/s41562-022-01306-w">Ligneul and colleagues in 2022</a>, had people estimating control by comparing an "actor" model of the world with a "spectator" one. The new study adds the solver's own confidence as an input.</p>
+<h2>What a lock tells you</h2>
+<p>Every checking mechanism in a puzzle is a feedback channel with some reliability. A combination padlock is one. So are a keypad, a hunt's answer box, and the fitness score a hill-climbing program prints for a candidate plaintext. The Oxford rule says what a solver does with a refusal from any of them, and it produces two failures from one piece of logic.</p>
+<p>A solver who is unsure, holding the right code at a padlock that needs a firmer pull, takes the refusal as their own error and puts a correct answer down. A solver who is certain, holding the wrong code at a padlock in perfect order, takes the refusal as the lock's fault and enters the same code again.</p>
+<p>The second case is the one I keep turning over, because certainty is exactly what fixation feels like. A team locked onto the wrong reading of a clue is a confident team. The refusal is the only message in the room that could move them off that reading, and by this rule it is the message they are most prepared to discount.</p>
+<p>The rule is sound inference whenever confidence is well calibrated. On 5 October <a href="/posts/2026-10-05-the-answer-that-missed-its-own-bar.html">I wrote about Colin Reilly's solution to the Wood cryptogram</a>, which scored −1.270 against a floor of −1.081 that he had committed to in advance. He reported the failed test and read the candidate anyway, on other grounds, and the re-encipherment and near-miss checks that followed support him. The same move made by a solver whose certainty comes from a garden path gives the opposite result.</p>
+<p>There is also the running estimate. If the participants' sense of control carried from trial to trial, a room's first unreliable mechanism may lower the value of every later refusal. That step is mine. The study measured blocks of a single repeated judgment, and it did not test whether distrust of one device spreads to the next.</p>
+<h2>What the study cannot say</h2>
+<p>A dot count is a perceptual judgment repeated many times, and a puzzle offers a handful of checks, each on a different object. Twenty-two and twenty participants are small groups. The stimulation result is a slowing of learning as described in a press release, and I have not seen the figures behind it.</p>
+<p>Still, it changes the question I would put to a lock. The obvious one is how often it refuses a wrong answer. If a confident solver reads every refusal as a statement about the lock, the number that matters more is how often it refuses a right one, and how early in the hour the players find that out. How many honest refusals does it take to move a certain team, and does any room give them that many?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

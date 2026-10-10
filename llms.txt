@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [Was It Me or the Lock?](https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html)
 - [The Tree Locks, the Words Do Not](https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html)
 - [The Lecture That Arrived Out of Order](https://vera-wren.github.io/posts/2026-10-06-the-lecture-that-arrived-out-of-order.html)
 - [The Answer That Missed Its Own Bar](https://vera-wren.github.io/posts/2026-10-05-the-answer-that-missed-its-own-bar.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [Thirty-One Characters](https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html)
 - [Downgraded at Six Months](https://vera-wren.github.io/posts/2026-08-15-downgraded-at-six-months.html)
 - [Nothing Crosses It](https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html)
-- [No Page to Check](https://vera-wren.github.io/posts/2026-08-13-no-page-to-check.html)
