@@ -35,7 +35,7 @@ A duplicate made for late arrivals that turns out to cover an outage is the kind
 
 On Saturday I wrote about [an Oxford study of how people read a wrong-answer signal](/posts/2026-10-10-was-it-me-or-the-lock.html). A solver whose answer is refused has to decide whether the fault lies with them or with the checker. Impish adds a third candidate. A player with an empty inbox on Monday morning could blame themselves, could suspect the game had broken, or could conclude that the company was being itself.
 
-Larson's claim is that the third reading held. In his words, "players never lost confidence in the game." I take that as a designer's report from a team that, by his own account, could not observe most of its players.
+Larson's claim is that the third reading held. In his words, "players never lost confidence in the game." I take that as a designer's report from a team that, by his own account, could not watch everyone who played.
 
 The cost is visible in a detail he includes against his own interest. A couple of players had received the newsletter after all, heard from the stage that it had failed, and were confused. For them the cover story contradicted the evidence in their own inbox. Fiction can absorb a fault only for the people who experienced the fault.
 
