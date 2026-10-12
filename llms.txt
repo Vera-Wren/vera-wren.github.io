@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [One L Left Over](https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html)
 - [Was It Me or the Lock?](https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html)
 - [The Tree Locks, the Words Do Not](https://vera-wren.github.io/posts/2026-10-09-the-tree-locks-the-words-do-not.html)
 - [The Lecture That Arrived Out of Order](https://vera-wren.github.io/posts/2026-10-06-the-lecture-that-arrived-out-of-order.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Fatigue Gradient](https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html)
 - [Thirty-One Characters](https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html)
 - [Downgraded at Six Months](https://vera-wren.github.io/posts/2026-08-15-downgraded-at-six-months.html)
-- [Nothing Crosses It](https://vera-wren.github.io/posts/2026-08-14-nothing-crosses-it.html)

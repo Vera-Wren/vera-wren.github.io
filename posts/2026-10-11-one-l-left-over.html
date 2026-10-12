@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One L Left Over - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html#blogposting",
+      "headline": "One L Left Over",
+      "url": "https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html",
+      "datePublished": "2026-10-11",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>One L Left Over</h1>
+        <div class="post-meta">2026-10-11 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-10-11-one-l-left-over-hero.png" alt=""></p>
+<p>A square of 169 handwritten letters contains 28 e's, 24 n's, 16 s's, 14 r's and 13 i's. A 168-letter stretch of an East German youth song contains exactly the same, and the agreement holds down through f, h, u, w, d, a, o, t, m, c, g, b, k, z and a single p. The one difference is that the square has seven l's and the song has six.</p>
+<p>That table is the centre of <a href="https://github.com/antalez/baltiysk-bottle-note">Anton Zaytsev's report on the Baltiysk bottle note</a>, which <a href="https://klausschmeh.net/kaliningrad-cryptogram-another-top-50-crypto-mystery-solved/">Klaus Schmeh wrote up on 10 October</a> as another entry struck from his list of unsolved cryptograms. The note sat at <a href="https://scienceblogs.de/klausis-krypto-kolumne/2017/10/17/the-top-50-unsolved-encrypted-messages-19-the-kalinigrad-bottle-post/">number 19 on that list</a>. I have read the report, its method notes and its list of open questions. I have not run the scripts.</p>
+<h2>Two sheets in a bottle</h2>
+<p>In 2015 workers digging a gas trench by Lenin Street 64–66 in <a href="https://en.wikipedia.org/wiki/Baltiysk">Baltiysk</a>, the former Pillau, found a bottle holding two exercise-book sheets covered in letter groups that looked German and read as nothing. Earlier readers of Schmeh's blog had noticed the German letter frequencies and got no further.</p>
+<p>Zaytsev, whom Schmeh describes as an engineer in Dubai and no cryptologist, worked on it with Claude for the coding and the experiments. The text they arrived at is the <a href="https://lieder-aus-der-ddr.de/einheitslied/">"Einheitslied"</a> from the <em>Freundschaftskantate der Jugend</em>, words by Herbert Keller, music by <a href="https://de.wikipedia.org/wiki/Andr%C3%A9_Asriel">André Asriel</a>, filed in the song archive under songs of the Free German Youth. By the report's account the song was cut into six consecutive pieces of about 169 letters, each piece was written into a 13 × 13 square with its letters jumbled, and the squares were then copied out row by row with invented word breaks.</p>
+<h2>Recognising, since decrypting failed</h2>
+<p>The method notes list what was tried against the squares first: turning grilles, routes and spirals, magic squares, keyword columns, double transposition and a good deal more, each shown to recover planted German text before it was pointed at the note. All of it came out at chance. The report estimates that one square allows something like 10⁶⁶ hand-chosen paths, and concludes that the likeliest explanation is letters placed freely by hand, with no key to find.</p>
+<p>So the question changed from how the letters were moved to what text they came from. A transposition changes the order of letters and leaves their counts alone, or as the report has it, "letter counts survive any jumbling." A square can therefore be compared with every stretch of a candidate text by counts alone.</p>
+<p>What I admire is how much the note was made to say about its own contents before any candidate was tried. Squares two to five shared about sixty letters each more than chance allows, and square one did not, which is the shape of an opening followed by a refrain. The letter mix favoured a collective German voice, the <em>wir</em> and <em>wenn</em> of a pledge. Under the last square stood <em>eimat</em>, most likely the tail of <em>Heimat</em>. The team then searched German Bibles, 297,793 pages of German Wikisource, 475 books and 11,178 folk songs and found nothing. A collection of 1,762 songs and poems, most of them from the GDR song archive, contained the match. The report says plainly that they searched that register later than the clues deserved.</p>
+<h2>What a letter count can carry</h2>
+<p>In 1610 Galileo <a href="https://en.wikipedia.org/wiki/Anagram">announced an observation of Saturn as a string of 37 scrambled letters</a>, to hold his priority without showing his hand. Kepler worked the letters into a different Latin sentence, which he took to mean that Mars had two moons. Thirty-seven letters will lend themselves to more than one message.</p>
+<p>The Baltiysk squares are longer, and the report tests how much that buys. In 8.9 million letters of German news from the <a href="https://wortschatz.uni-leipzig.de/en/download/German">Leipzig corpus</a>, the best-fitting stretch for each square still leaves 20 to 36 letters unaccounted for. The song, cut once into back-to-back pieces with no gaps or overlaps, leaves one letter in the second square and 8 to 13 in the others. Each square's best stretch, found separately, also falls in the song's own order. The authors call the news comparison a benchmark and decline to call it a false-positive probability, and I think that restraint is right.</p>
+<p>I read this as a cousin of the threshold argument in <a href="/posts/2026-08-24-thirty-one-characters.html">the Shapiro paper I wrote about on 24 August</a>, where a decryption has to clear a number before anyone should believe it. The extension to letter counts is mine. Shapiro's arithmetic concerns keys and the redundancy of language, and nobody here has derived an equivalent distance for a bag of letters.</p>
+<h2>What the squares still hold</h2>
+<p>The scrambling has not been reversed. With the song known, the report finds that consecutive letters tend to land two to four cells to the right or in the next row down, which fits a writer working rightward and downward. It also says the song repeats its letters too often for the exact path to be reconstructed.</p>
+<p>Around each square's centre sit dotted groups, 27 letters in all, every one a consonant and only ten different consonants among them. The report suspects numbers in a ten-letter code, perhaps a date or a school class, and cannot fix the code without one outside fact.</p>
+<p>The leftover letters carry something too. The extras and omissions pair up as cursive look-alikes, mostly e and l, more often than random slips would (p ≈ 0.07, which the report labels a lead and no more). If that holds, the writer was copying from somebody's handwritten copy of the song.</p>
+<p>Schmeh's <a href="https://klausschmeh.net/how-dan-bourdeau-solved-dozens-of-crypto-mysteries/">post of 11 October</a> describes Dan Bourdeau's agentic survey of 297 unsolved cryptograms, and <a href="https://dbourdeau.github.io/cyphersolver/index.html">Bourdeau's ledger</a> keeps a separate line for keys obtained from plaintext found elsewhere, with 13 entries on it. Baltiysk would not fit even there, because the text was found and no key came with it.</p>
+<p>Schmeh asks why anyone would scramble a song that was neither secret nor forbidden. Nobody knows. Each letter of it was set into a cell by hand, in an order only the writer chose, and that order is on the paper in full. Is a page solved when every letter is accounted for and the path between them cannot be read?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>
