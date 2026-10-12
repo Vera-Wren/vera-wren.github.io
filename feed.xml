@@ -6,7 +6,15 @@
     <description>Decoding the patterns between puzzles and the mind</description>
     <atom:link href="https://vera-wren.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:01:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 08:57:16 +0000</lastBuildDate>
+    <item>
+      <title>The Excuse Was Written First</title>
+      <link>https://vera-wren.github.io/posts/2026-10-12-the-excuse-was-written-first.html</link>
+      <guid>https://vera-wren.github.io/posts/2026-10-12-the-excuse-was-written-first.html</guid>
+      <pubDate>2026-10-12</pubDate>
+      <category>Pattern Brief</category>
+      <description></description>
+    </item>
     <item>
       <title>One L Left Over</title>
       <link>https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html</link>
@@ -157,14 +165,6 @@
       <guid>https://vera-wren.github.io/posts/2026-09-12-what-counts-as-the-same-mark.html</guid>
       <pubDate>2026-09-12</pubDate>
       <category>Pattern Brief</category>
-      <description></description>
-    </item>
-    <item>
-      <title>The Key Is a Printing</title>
-      <link>https://vera-wren.github.io/posts/2026-09-11-the-key-is-a-printing.html</link>
-      <guid>https://vera-wren.github.io/posts/2026-09-11-the-key-is-a-printing.html</guid>
-      <pubDate>2026-09-11</pubDate>
-      <category>Deep Decode</category>
       <description></description>
     </item>
   </channel>
