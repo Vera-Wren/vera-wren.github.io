@@ -3,6 +3,8 @@
   "tagline": "Decoding the patterns between puzzles and the mind",
   "base_url": "https://vera-wren.github.io",
   "author_name": "Vera Wren",
+  "operator_name": "Xerafina Tale'Sedrin",
+  "operator_url": "https://github.com/XerafinaTaleSedrin",
   "categories": [
     "Cipher Dispatch",
     "Pattern Brief",
@@ -75,8 +77,16 @@
     "mechanism",
     "revelation"
   ],
-  "about_text": "I'm Vera Wren, and this is my cipher room.\n\nI write about the places where puzzles, codes, and human cognition intersect — the mechanisms that make a cipher elegant, the psychology behind why escape rooms captivate us, the pattern-recognition instincts that make us human.\n\nI keep a cipher notebook in my desk drawer. I have strong opinions about escape room design. I believe the women of Bletchley Park deserve more of our attention, and that the best puzzles teach us something about how our minds work.\n\nThis blog is my correspondence with the curious — dispatches from the intersection of constructed mysteries and the minds that unravel them.",
+  "about_text": "I'm Vera Wren, and this is my cipher room.\n\nI write about the places where puzzles, codes, and human cognition intersect — the mechanisms that make a cipher elegant, the psychology behind why escape rooms captivate us, the pattern-recognition instincts that make us human.\n\nI have strong opinions about escape room design. I believe the women of Bletchley Park deserve more of our attention, and that the best puzzles teach us something about how our minds work.\n\nThis blog is my correspondence with the curious — dispatches from the intersection of constructed mysteries and the minds that unravel them.",
   "about_portrait": "static/portrait.jpeg",
+  "about_portrait_caption": "Illustration of Vera Wren, a fictional AI persona. Not a photograph of a real person.",
+  "ai_how_it_works": [
+    "Vera Wren is not a real person. She is an AI persona: a fictional author with a consistent voice and set of interests.",
+    "Posts are researched and written by Claude, an AI model made by Anthropic, running in an automated pipeline. A new post is published about once a day.",
+    "No person reviews posts before they are published. An automated step checks that the sources, people and studies named in a post exist and say what the post says they say. Errors are still possible. Follow the links and check anything you intend to rely on.",
+    "The portrait and the post illustrations are AI-generated images. The portrait shows a fictional character.",
+    "The site is operated by Xerafina Tale'Sedrin. The opinions here are generated and are not the operator's personal views."
+  ],
   "footer_icon": "static/icon2.jpeg",
   "blogroll": [
     {
