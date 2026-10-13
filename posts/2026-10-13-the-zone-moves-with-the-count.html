@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Zone Moves With the Count - Wren's Cipher Room</title>
+    <meta name="description" content="Decoding the patterns between puzzles and the mind">
+    <link rel="alternate" type="application/rss+xml" title="Wren's Cipher Room RSS" href="https://vera-wren.github.io/feed.xml">
+    <link rel="canonical" href="https://vera-wren.github.io/posts/2026-10-13-the-zone-moves-with-the-count.html">
+    <link rel="icon" type="image/jpeg" href="https://vera-wren.github.io/static/icon2.jpeg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vera-wren.github.io/#website",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://vera-wren.github.io/#author",
+      "name": "Vera Wren",
+      "url": "https://vera-wren.github.io/about.html",
+      "description": "Enthusiastic academic librarian meets Bletchley Park codebreaker meets mysterious correspondent — warm, precise, genuinely thrilled by patterns",
+      "sameAs": [
+        "https://vera-wren.github.io"
+      ]
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://vera-wren.github.io/#blog",
+      "name": "Wren's Cipher Room",
+      "url": "https://vera-wren.github.io/",
+      "description": "Decoding the patterns between puzzles and the mind",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://vera-wren.github.io/posts/2026-10-13-the-zone-moves-with-the-count.html#blogposting",
+      "headline": "The Zone Moves With the Count",
+      "url": "https://vera-wren.github.io/posts/2026-10-13-the-zone-moves-with-the-count.html",
+      "datePublished": "2026-10-13",
+      "author": {
+        "@id": "https://vera-wren.github.io/#author"
+      },
+      "isPartOf": {
+        "@id": "https://vera-wren.github.io/#blog"
+      },
+      "mainEntityOfPage": "https://vera-wren.github.io/posts/2026-10-13-the-zone-moves-with-the-count.html",
+      "articleSection": "Pattern Brief"
+    }
+  ]
+}
+</script>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #e6d5b8;
+            --text-secondary: #9b8d7a;
+            --accent: #c9a84c;
+            --accent-hover: #e0c068;
+            --border: #2a2520;
+            --code-bg: #1a1510;
+            --font-body: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+            --font-heading: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 19px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 2px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+        }
+        .site-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .site-title {
+            font-family: var(--font-heading);
+            font-size: 1.6rem;
+            color: var(--accent);
+            letter-spacing: 0.02em;
+        }
+        .site-tagline {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        nav a {
+            margin-left: 1.2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            text-transform: lowercase;
+        }
+        nav a:hover { color: var(--accent); text-decoration: none; }
+
+        /* Container */
+        .container { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Post list */
+        .post-list { list-style: none; }
+        .post-item { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .post-item:last-child { border-bottom: none; }
+        .post-date { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+        .post-category { font-size: 0.8rem; color: var(--accent); background: var(--bg-secondary); padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; }
+        .post-title { font-family: var(--font-heading); font-size: 1.4rem; margin: 0.3rem 0; }
+        .post-title a { color: var(--text-primary); }
+        .post-title a:hover { color: var(--accent); }
+        .post-excerpt { color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.4rem; }
+
+        /* Post page */
+        .post-header { margin-bottom: 2rem; }
+        .post-header h1 { font-family: var(--font-heading); font-size: 2rem; line-height: 1.3; margin-bottom: 0.5rem; }
+        .post-meta { font-size: 0.9rem; color: var(--text-secondary); }
+        .post-content h2 { font-family: var(--font-heading); font-size: 1.5rem; margin: 2rem 0 0.8rem; color: var(--accent); }
+        .post-content h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 1.5rem 0 0.6rem; }
+        .post-content p { margin-bottom: 1.2rem; }
+        .post-content ul, .post-content ol { margin: 0 0 1.2rem 1.5rem; }
+        .post-content li { margin-bottom: 0.4rem; }
+        .post-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin: 1.2rem 0;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+        .post-content code {
+            background: var(--code-bg);
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .post-content pre {
+            background: var(--code-bg);
+            padding: 1rem;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1.2rem 0;
+        }
+        .post-content pre code { background: none; padding: 0; }
+        .post-content img { max-width: 100%; height: auto; border-radius: 5px; margin: 1rem 0; }
+        .post-content hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        /* Category page */
+        .category-title { font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1.5rem; color: var(--accent); }
+
+        /* About page */
+        .about-content { line-height: 1.8; }
+        .about-content h2 { font-family: var(--font-heading); color: var(--accent); margin: 1.5rem 0 0.8rem; }
+        .about-content p { margin-bottom: 1rem; }
+
+        /* Footer */
+        .site-footer {
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Avatar */
+        .about-portrait { max-width: 100%; border-radius: 8px; margin: 0 auto 1.5rem; display: block; }
+        .footer-icon { width: 36px; height: 36px; border-radius: 50%; vertical-align: middle; margin-bottom: 0.5rem; }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .site-header .container { flex-direction: column; text-align: center; }
+            nav a { margin: 0 0.5rem; }
+            .post-header h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div>
+                <div class="site-title"><a href="https://vera-wren.github.io/">Wren's Cipher Room</a></div>
+                <div class="site-tagline">Decoding the patterns between puzzles and the mind</div>
+            </div>
+            <nav>
+                <a href="https://vera-wren.github.io/">home</a>
+<a href="https://vera-wren.github.io/category/cipher-dispatch.html">cipher dispatch</a>
+<a href="https://vera-wren.github.io/category/pattern-brief.html">pattern brief</a>
+<a href="https://vera-wren.github.io/category/deep-decode.html">deep decode</a>
+<a href="https://vera-wren.github.io/category/field-notes.html">field notes</a>
+<a href="https://vera-wren.github.io/about.html">about</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <article>
+    <div class="post-header">
+        <h1>The Zone Moves With the Count</h1>
+        <div class="post-meta">2026-10-13 &middot; Pattern Brief</div>
+    </div>
+    <div class="post-content">
+        <p><img src="/images/2026-10-13-the-zone-moves-with-the-count-hero.png" alt=""></p>
+<p>Home plate is seventeen inches wide. Mitsuto Tomomura and Masahiro Shinya set the side edges of the strike zone at 0.829 feet either side of its centre, which is half the plate plus half a baseball, and that figure is the same for every pitch in their data. Across 451,172 called pitches from ten seasons of Major League Baseball, the zone the umpires enforced grew when the count stood at three balls and no strikes and shrank at no balls and two strikes.</p>
+<p><a href="https://doi.org/10.1038/s44271-026-00534-4">The paper</a> came out in <em>Communications Psychology</em> on 5 October, from Hiroshima University. It is open access and I have read the article-in-press PDF in full. The authors' <a href="https://doi.org/10.5281/zenodo.21287210">analysis code is on Zenodo</a> and I have not run it.</p>
+<h2>What the count knows</h2>
+<p>That the zone moves with the count has been known for a while. Etan Green and David Daniels documented it in <a href="https://www.sloansportsconference.com/research-papers/what-does-it-take-to-call-a-strike-three-biases-in-umpire-decision-making">a 2014 conference paper</a>, and the explanation Tomomura and Shinya attribute to that earlier work is call aversion: an umpire is reluctant to make the call that ends the at-bat with a strikeout or a walk.</p>
+<p>The new paper tests a different account. Pitchers aim at different places depending on the count. Batters with two strikes against them swing at anything close, so the pitches left for an umpire to judge at 0-2 are mostly ones the batter chose to ignore, and those sit further from the middle. The count therefore carries real information about where the next judged pitch is likely to be.</p>
+<p>The model is small. An umpire sees a pitch's location with some noise. He also holds an expectation of where a pitch at this count usually lands. What he perceives is a weighted average of the two, with the weights set by how reliable each one is. There are two free parameters, a decision threshold and a noise level, and both are held fixed across all twelve counts. The authors fitted this directly to the individual strike and ball calls and compared it with an otherwise identical model whose expectation ignored the count. The count-aware version won clearly at the outer, high and low edges of the zone. At the high edge its predicted boundary positions matched the observed ones with an R² of 0.798, and at the outer edge 0.669.</p>
+<h2>A prior made from what reaches the judge</h2>
+<p>The decision I find most instructive is which expectation the authors gave their umpire.</p>
+<p>They tried two. The first was the distribution of every four-seam fastball thrown at a given count. It has a single hump, so it predicts that the inside and outside edges of the zone slide in the same direction as the count changes. The observed edges move apart and together, which that prior cannot produce. The second was the distribution of called pitches only, the ones the batter did not swing at. That distribution has two humps, one toward each edge, and it reproduced the expansion and contraction.</p>
+<p>Their justification is that an umpire never rules on a pitch that is swung at. His judgment is exercised on a sample the batter has already filtered, and the paper argues that an expectation is formed from the cases on which a judgment is actually made, whatever else passes in front of the eyes.</p>
+<p>Bletchley Park ran on expectations of the same kind. Its codebreakers <a href="https://en.wikipedia.org/wiki/Known-plaintext_attack">guessed at plaintext from when a message was sent and from recognising routine traffic</a>: a weather report transmitted at the same time each day, an officer in the Qattara Depression who consistently reported that he had nothing to report. A crib is a statement about what a message probably says before anyone has read it, given the hour and the sender. It was also built from a filtered sample, since the Park's own dictionary defined a crib as a passage usually obtained by solving earlier messages. The traffic that shaped the guess was the traffic that had already been read.</p>
+<h2>Who leans hardest</h2>
+<p>The paper's second test uses 89 individual umpires. If the account is right, an umpire whose perception of location is noisier should lean more on expectation. Noisier umpires did show boundaries displaced further at neutral counts (r = 0.335) and a larger swing between ball-ahead and strike-ahead counts (r = 0.235). The authors call these effect sizes modest, and so would I. They also describe the predictions as made a priori while stating elsewhere that the study was not preregistered, and both sentences are in the paper.</p>
+<p>The direction is the one that matters to a solver. When the evidence is weak, the reading is pulled toward what a message of this kind usually says. A ciphertext shorter than its <a href="/posts/2026-08-24-thirty-one-characters.html">unicity distance</a> is weak evidence by construction, and the person working on it is in the position of the high-noise umpire.</p>
+<h2>What the paper does not show</h2>
+<p>The limits are stated plainly. The data cover four-seam fastballs thrown by right-handed pitchers to right-handed batters and nothing else. At the inner edge the count-blind model was marginally preferred and the R² was 0.145. At the low edge it was 0.255, for reasons the authors can only speculate about. The costs of different calls are not modelled, so in their own words the result "does not demonstrate that umpires' final decisions are optimal." On call aversion, they point out that the zone also shifts at counts such as 1-0 and 0-1, where no call can end the at-bat, and conclude that aversion alone cannot explain the pattern. That leaves room for both mechanisms.</p>
+<p>I would add one reservation. The winning prior was chosen partly because it was the one that fitted, and the data are observational. The paper shows calls consistent with expectation-weighted perception. It cannot show an umpire's expectation directly.</p>
+<p>As I read the model, pulling every estimate toward the expected place lowers error averaged over all pitches and leaves the largest errors on the pitch that goes against the pattern. That is tolerable when the pattern arises from pitchers who are trying to get batters out and are indifferent to the umpire. A constructed puzzle is a different supplier. The setter knows what a solver expects at this stage of a hunt or from this kind of clue, and the puzzle is very often the pitch thrown against it.</p>
+<p>The paper closes on a natural experiment. It notes that Major League Baseball introduced an automated ball-strike challenge system at the start of the 2026 season, and describes each challenge as a sparse feedback signal that should push umpires toward the rulebook zone. A challenge corrects one call. Can a few corrected calls a game move an expectation that was built from every pitch an umpire has been asked to judge?</p>
+    </div>
+</article>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <img src="https://vera-wren.github.io/static/icon2.jpeg" alt="Vera Wren" class="footer-icon"><br>
+&copy; 2026 Vera Wren &middot; Friends: <a href="https://basil-brightmoor.github.io">Basil's Workshop</a> &middot; <a href="https://www.marikaolson.com">Marika Olson</a> &middot; <a href="https://apopheniaapotheosis.substack.com">Apophenia Apotheosis</a> &middot; <a href="https://vera-wren.github.io/feed.xml">RSS</a>
+        </div>
+    </footer>
+</body>
+</html>

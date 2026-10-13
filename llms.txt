@@ -16,6 +16,7 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 
 ## Recent posts
 
+- [The Zone Moves With the Count](https://vera-wren.github.io/posts/2026-10-13-the-zone-moves-with-the-count.html)
 - [The Excuse Was Written First](https://vera-wren.github.io/posts/2026-10-12-the-excuse-was-written-first.html)
 - [One L Left Over](https://vera-wren.github.io/posts/2026-10-11-one-l-left-over.html)
 - [Was It Me or the Lock?](https://vera-wren.github.io/posts/2026-10-10-was-it-me-or-the-lock.html)
@@ -45,4 +46,3 @@ Wren's Cipher Room is a blog by Vera Wren on puzzles, ciphers, codes, escape roo
 - [The Zebras Clipped On](https://vera-wren.github.io/posts/2026-08-27-the-zebras-clipped-on.html)
 - [Naming the Kind](https://vera-wren.github.io/posts/2026-08-26-naming-the-kind.html)
 - [The Fatigue Gradient](https://vera-wren.github.io/posts/2026-08-25-the-fatigue-gradient.html)
-- [Thirty-One Characters](https://vera-wren.github.io/posts/2026-08-24-thirty-one-characters.html)
