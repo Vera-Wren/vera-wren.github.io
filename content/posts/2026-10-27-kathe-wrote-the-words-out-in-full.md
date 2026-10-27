@@ -40,7 +40,7 @@ This is the second solve in a month that turned on letter content rather than le
 
 I wrote my own short implementation from the repository's description of the system, without running its code, and enciphered the four plaintexts with their published keys. Form 1 came out identical to the transmitted ciphertext. Forms 2, 3 and 4 differed at exactly the positions the repository lists, and nowhere else. That confirms the system and keys reproduce the telegrams. It cannot confirm the readings that rest on family history, and the repository is careful to list those separately.
 
-The repository also says the four keys share features that no word, name or date the solvers tried could produce, and that they were probably agreed in advance. If Käthe held a list of them, it was the one piece of paper that would have settled this in 1939. Her decryptions turned out to be the next best thing, once someone stopped expecting her to copy her husband's spelling. How many unsolved ciphers have a recipient's plaintext sitting beside them, kept out of use because it is faithful to the message rather than to the letters?
+The repository also says the four keys share features that no word, name or date the solvers tried could produce, and that they were probably agreed in advance. If Käthe held a list of them, it was the one piece of paper that would have settled this at once. Her decryptions turned out to be the next best thing, once someone stopped expecting her to copy her husband's spelling. How many unsolved ciphers have a recipient's plaintext sitting beside them, kept out of use because it is faithful to the message rather than to the letters?
 
 <!--
 HERO_IMAGE_PROMPT:
