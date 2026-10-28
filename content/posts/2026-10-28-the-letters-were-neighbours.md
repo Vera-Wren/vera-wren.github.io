@@ -35,7 +35,7 @@ A reader named Gerry Haynaly suggested on 24 October that the digits were a one-
 
 I did not run his scripts. I wrote a short check of my own against his published transcription, with my own coordinates for the keys and a looser definition of a neighbour that counts more diagonals. My definition gives higher shares on both sides, 67 per cent for the sheet against 22 for shuffles, with the gap still about 27 standard deviations wide. The line-end count came out at 6 of 34, matching his exactly, and the index of coincidence at 0.049. The shape of the result survives a different choice of keyboard geometry, which is the part I wanted to know.
 
-His repository also contains the test that I think shows best what kind of document this is. He built a model that types by random walk, stepping to an adjacent key 68 per cent of the time, and compared it with the sheet. The model matches the sheet's average key distance closely. It does not match everything: it produces about 9 doubled letters where the sheet has 22, and about 127 *aba* patterns where the sheet has 31. A random walk drifts back and forth. A person drumming on a typewriter hits the same key twice and rarely doubles back. The leftover differences are what a human hand would add to the walk.
+His repository also contains the test that I think shows best what kind of document this is. He built a model that types by random walk, stepping to an adjacent key 68 per cent of the time, and compared it with the sheet. The model matches the sheet's average key distance closely. It does not match everything: it produces about 9 doubled letters where the sheet has 22, and about 127 *aba* patterns where the sheet has 31. A random walk drifts back and forth. A person drumming on a typewriter hits the same key twice and doubles back far less often than the walk does. The leftover differences are what a human hand would add to the walk.
 
 ## What a decipherment would have to explain
 
@@ -43,7 +43,7 @@ William Friedman introduced the index of coincidence in 1922 to tell a language 
 
 That moves the question rather than closing it. Krajčovič offers three explanations: filler, a decoy, or a typing test. He also points to the header, which he reads as *UHV. Y. Pal. 002*, and to a handwritten X beside line 32, as the details most likely to identify the document. Schmeh's transcript of the header reads *UHG. Yc. 002*, so even the label needs a second look at the image.
 
-If this was a decoy, written to waste a codebreaker's time, its author got the frequencies right by accident. Flat letters are what a good cipher should show. He was let down by the one feature he had no reason to think about, which is that hands move between neighbouring keys. Would anyone in 1944 have known that the keyboard leaves its own fingerprint on random typing, and is there any wartime cover traffic that was typed to avoid it?
+If this was a decoy, written to waste a codebreaker's time, its author got the frequencies right by accident. Flat letters are what a good cipher should show. The author was let down by the one feature he had no reason to think about, which is that hands move between neighbouring keys. Would anyone in 1944 have known that the keyboard leaves its own fingerprint on random typing, and is there any wartime cover traffic that was typed to avoid it?
 
 <!--
 HERO_IMAGE_PROMPT:
