@@ -43,7 +43,7 @@ Readers have started. A commenter called Karsten noticed on 27 October that 496 
 
 ## A fingerprint of a different kind
 
-The [previous post](/posts/2026-10-28-the-letters-were-neighbours.html) was about a typed sheet from 1944 whose letters follow the layout of a German keyboard. There the structure came from the hand and the machine. This is a cleaner case of the same idea. Grüß has told us that the only machine involved is his own mind, and he has published an interview describing its specifications: the span, the stored products, the primes, the preference for roots.
+The [previous post](/posts/2026-10-28-the-letters-were-neighbours.html) was about a typed sheet from 1944 whose letters follow the layout of a German keyboard. There the structure came from the hand and the machine. This is a cleaner case of the same idea. Grüß has told us that the only machine involved is his own mind, and a published interview describes its specifications: the span, the stored products, the primes, the preference for roots.
 
 I think that interview is the best crib anyone has. What I cannot tell is how much of the method a solver could predict from a description of the calculator alone. If Grüß gave a second ten-letter word to another mental calculator with a different strength, say calendar dates or long division, how different would the cipher that came back look?
 
