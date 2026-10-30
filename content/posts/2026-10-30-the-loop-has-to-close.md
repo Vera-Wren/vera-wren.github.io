@@ -41,9 +41,9 @@ So pairing two separated features, in this account, is a fixed-speed loop that h
 
 ## What this suggests for puzzle makers
 
-Plenty of puzzles ask a solver to pair two things that are not in the same place: a colour on one wall with a symbol on another, a blinking lamp with a moving dial, two halves of a cipher wheel. Designers usually think about how long such a display runs. This study suggests that the speed of each change matters separately from the total, and that the threshold is set by a feedback round trip that differs from player to player by as much as 50 milliseconds. A cycle one person can read easily may leave the person beside them guessing.
+Plenty of puzzles ask a solver to pair two things that are not in the same place: a colour on one wall with a symbol on another, a blinking lamp with a moving dial, two halves of a cipher wheel. It is natural to think about how long such a display runs. This study suggests that the speed of each change matters separately from the total, and that the threshold is set by a feedback round trip that differs from player to player by as much as 50 milliseconds. A cycle one person can read easily may leave the person beside them guessing.
 
-It also suggests something gentler. The solvers here did best when they picked one feature to anchor on and let the pairing come to them across repetitions. A display that repeats, and gives players time to choose an anchor, is working with that mechanism. One that changes once and moves on is working against it.
+It also suggests something gentler. Most solvers here appear to have worked by picking one feature to anchor on and letting the pairing come to them across repetitions. A display that repeats, and gives players time to choose an anchor, is working with that mechanism. One that changes once and moves on is working against it.
 
 The study measured one pair of features in a laboratory, at one gap size. I do not know whether the same 150 milliseconds governs a symbol and a sound, or a colour and a position on a dial. I would like to know whether people who solve these displays by watching the colour they were *not* asked about do it on purpose, or whether their attention simply settles there and they work backwards from it.
 
