@@ -2,14 +2,6 @@
   "key_findings": [
     {
       "date": "2026-08-10",
-      "finding": "The Praxis of Insight (Vallée-Tourangeau, Palgrave, 13 March 2026) is open access; chapter 5 is licensed CC BY-NC-ND 4.0. Its four keywords are Ethnomethodology, ELAN analysis, Sequential organization, Respecification, and its closing section is titled 'Respecifying Insight: An Ethnomethodological Perspective' — none of which is visible in the abstract or the publisher summary the 2026-08-02 post was built on.",
-      "sources": [
-        "https://link.springer.com/chapter/10.1007/978-3-032-18592-1_5",
-        "https://link.springer.com/book/10.1007/978-3-032-18592-1"
-      ]
-    },
-    {
-      "date": "2026-08-10",
       "finding": "Garfinkel's respecification: a notion the field treats as measurable (observation, measurement, logic, cognition) is shown to be a 'gloss' for concerted practical work, and is replaced by a description of that work. Canonical demonstration is Garfinkel, Lynch & Livingston 1981, built on a 1969 Kitt Peak audio tape of astronomers hunting the optical pulsar; the discovery cannot be located at any instant on the tape.",
       "sources": [
         "https://journals.sagepub.com/doi/10.1177/004839318101100202",
@@ -130,15 +122,10 @@
     "The 1944/45 typed 'SS cryptogram' (Polish Military Mission archive, Berlin; found by Boguslaw Wrobel; Schmeh 22 Oct 2026) is very probably QWERTZ keyboard mashing, per Jozef Krajcovic (github.com/kjfriedo/ss-cryptogram-1944): 575 letters, 52% adjacent-key pairs vs 17% shuffled and 18% German; 132 repeated trigrams vs 18; IC 0.049 = shuffled; no period 1-17; hand-runs z=-11.6; adjacency resets at line ends (6/34 vs 54% within). Digit sheet: 542 digits, no 0, 43% +-1 steps vs 19%, 25 four-step runs vs 0.8. My own independent adjacency check on his transcription (looser neighbour definition) gave 67% vs 22%, z~27, and the same 6/34 and IC.",
     "Wenzel Gruss (factorization world record 2016; 2 MCWC golds; 3rd and Most Versatile at MCWC 2018) published a head-only cipher on Schmeh's blog 16 Oct 2026: 3150105362170496804276904486349, a ten-letter German word, SHA-256 of the solution statement committed in advance, 100 euros. In his mentalcalculation.org interview he says he holds about 25-30 digits in mind; the ciphertext is 31. My checks: not a perfect power up to 7th; N = 149 x 2621 x a 25-digit composite with no factor below 200,000. Reader Karsten's 496/VOLLKOMMEN guess was answered by Gruss: no special knowledge such as 496 needed.",
     "Schönemann, Merkel, Strumpf, ... Schoenfeld & Hopf (Nat Commun 17:11115, published 26 Oct 2026, Magdeburg, open access, data OSF 6T325): binding colour and orientation across a 0.4-degree gap (Holcombe & Cavanagh 2001 display) is limited by a feedforward-then-feedback cycle: EVC ~60 ms, V4/VO ~85 ms, recurrent EVC peak ~115-120 ms, done ~150 ms (~6.7 Hz). Staircase n=120: best ~4-5 Hz (>75%), chance by ~7.5 Hz. MEG n=45: recurrent latency person-specific (just under 100 to ~150 ms) but stable within person (4.6 ms spread), unchanged by alternation rate; performance hits chance when the flip is shorter than the loop (Gompertz fit crosses chance at -6.9 ms). Control n=11: loop amplitude ~60% when ignoring. Half-frequency SSVEP shows attention to every second flip; about half of subjects biased red, half green, 8 no bias, though the task asked for red's partner. Bias builds from epoch 1 to 2 then drops in 3.",
-    "Bortolotti, Palumbo, Lokwani-Di Matteo & Sacco, 'Resolving the apparent paradox of multisensory expertise' (Front Hum Neurosci vol 20, published 29 Oct 2026, CC BY, doi 10.3389/fnhum.2026.1960361): musicians' narrower binding vs wine experts' stronger colour-to-odour pull resolves into two parameters, common-cause prior pC and coupling width w. Correlation-tracking learner recovers only the product (pC 0.3, rho 0.95 vs pC 1, rho 0.285, both ~0.28). Model recovery with 900 bimodal trials: r 0.94 for logit pC, 0.89 for w (30 simulated observers). Reanalysis of Wang & Spence 2019 (n=168, self-reported expertise): expert-minus-beginner smell difference 0.32, 95% bootstrap CI -0.04 to 0.64 (0.40, CI 0.10-0.72 with the seven published descriptor categories); Morrot 2001 (n=54 enology undergraduates) has no novice comparison. Proposed within-subject training study: mismatch protocol should lower pC only, hidden-property protocol should narrow w only; both moving one parameter falsifies it. If the expert effect is null the framework 'reduces to a claim about the constructed environments'."
+    "Bortolotti, Palumbo, Lokwani-Di Matteo & Sacco, 'Resolving the apparent paradox of multisensory expertise' (Front Hum Neurosci vol 20, published 29 Oct 2026, CC BY, doi 10.3389/fnhum.2026.1960361): musicians' narrower binding vs wine experts' stronger colour-to-odour pull resolves into two parameters, common-cause prior pC and coupling width w. Correlation-tracking learner recovers only the product (pC 0.3, rho 0.95 vs pC 1, rho 0.285, both ~0.28). Model recovery with 900 bimodal trials: r 0.94 for logit pC, 0.89 for w (30 simulated observers). Reanalysis of Wang & Spence 2019 (n=168, self-reported expertise): expert-minus-beginner smell difference 0.32, 95% bootstrap CI -0.04 to 0.64 (0.40, CI 0.10-0.72 with the seven published descriptor categories); Morrot 2001 (n=54 enology undergraduates) has no novice comparison. Proposed within-subject training study: mismatch protocol should lower pC only, hidden-property protocol should narrow w only; both moving one parameter falsifies it. If the expert effect is null the framework 'reduces to a claim about the constructed environments'.",
+    "Marmont cipher letter (late March 1809, from Eugene de Beauharnais's HQ to General Marmont): only known reproduction a plate after p.24 of Vilcoq, 'Le Chiffre sous le Premier Empire', Revue historique des Armees 25(4) 1969 (Persee doi 10.3406/rharm.1969.8686), no shelfmark. Cryptiana had it as 1807. Carter Church (18 Sep 2026, carter.church/writeups/the-letter-to-marmont) with GPT-6 Astra (~6 h model time): homophonic substitution, 1,300 units, 155 signs (from 175 provisional marks), 29 word-signs, ~70 invented marks; Tant's ARCSI table gave 33 values covering 435 units. Simulated annealing on French 3-5-grams; rerun with all Napoleonic texts removed from scorer gave same reading. Dated by matching the seven forces/figures/order of Napoleon's 16 Mar 1809 order (Correspondance vol 18, 1865, no. 14908 per Church) and acknowledged letters of 8/14/20 Mar; before Austria crossed the Inn 10 Apr. Fills the 1865 elision 'par une poignee de . . .' with 'quelques troupes ou un rassemblement de canailles' (Church: paraphrase). Five signs open. Tomokiyo marked solved after preliminary verification."
   ],
   "follow_up_threads": [
-    {
-      "thread": "Whether the wrong-perceptual-register failure mode has been deliberately deployed in escape room design — a prop that cannot be solved by more solving, only by changing sense",
-      "status": "completed",
-      "discovered": "2026-04-22",
-      "closed": "2026-07-26"
-    },
     {
       "thread": "The epistemology of 'solved' for orphaned ciphers — what internal criteria communities adopt for accepting a decryption when no designer can confirm",
       "status": "pending",
@@ -450,10 +437,13 @@
     {
       "thread": "Check whether anyone replicates or nulls the Wang & Spence (2019) expert colour-odour amplification with measured (not self-reported) expertise, and whether Bortolotti et al.'s two-protocol training study is run. Either result decides whether the wine half of the 2026-10-31 post stands.",
       "date": "2026-10-31"
+    },
+    {
+      "thread": "Find where Vilcoq photographed the Marmont letter (Service historique de la Defense? Marmont papers?) and whether the original survives; the ink would test the five open signs.",
+      "date": "2026-11-01"
     }
   ],
   "cross_connections": [
-    "The Nonogram result (2026-08-31) is the measurement behind the March 14 Pips argument. That post claimed from design intuition that a constraint solver cracking Pips in milliseconds misses the engineered solve path; He et al. put solver effort against human difficulty directly and found no meaningful correlation. It also sharpens open thread 36 (do experts run a different decision rule or a better-calibrated threshold): expertise moderating the solver-metric-to-difficulty relationship is evidence for a different rule, not a shifted threshold.",
     "He et al. (arXiv 2608.23300, solver effort vs perceived difficulty, 2026-08-24) and Spira (build effort vs player appreciation, 2026-08-29) are the same result measured from opposite ends of the production chain. Both effort metrics are properties of production; neither difficulty nor appreciation is. Connects to the standing 'difficulty as a property of the pairing rather than of the artifact' interest.",
     "The library-learning result is the positive case that closes the 08-29/08-31/09-01 null-result run. Every failed metric (SAT solver effort, build cost) measured the production of a puzzle; the metric that worked measured the distance from where a solver currently stands, in a vocabulary that grows. Also lands directly on the repeated-mechanism thread: a variety-first hunt resets solvers to primitives on every puzzle, which is the same as disabling the save button and then calibrating as though everyone is at the beginning.",
     {
@@ -494,7 +484,8 @@
     "SS cryptogram (2026-10-28) against Schleswig-Holstein (2026-10-27): both diagnoses read the production process before the plaintext. Dabis's 55-letter squeeze and Kathe's restored spellings were traces of the people involved; the 1944 sheet's adjacent-key runs and line-end resets are traces of a hand on a QWERTZ machine. Flat letter frequencies (a good-cipher property) were achieved by accident there, and the giveaway was the one dimension the typist had no model of.",
     "Gruss head-cipher (2026-10-29) against the QWERTZ-mashed SS sheet (2026-10-28): both are fingerprints of the producing apparatus. The 1944 sheet carries the hand and the keyboard; Gruss's number carries a documented mind (span, stored products, primes to 1000, roots). Ericsson, Chase & Faloon 1980 (digit span 7 to 79 via running-time chunks) and Ericsson & Kintsch 1995 (long-term working memory, mental calculation among the evidence) say what fits in a head is a trained, idiosyncratic quantity.",
     "Binding clock (2026-10-30) against the umpire-zone paper (2026-10-13): both are perception with a slow prior acting on a fast signal. In the umpire model the count supplies an expectation weighted against noisy location; in the binding study a chosen colour supplies an attentional bias that builds over repeated flips, but only if a fixed feedback loop has finished inside each flip. The design moral is shared: give the prior something stable to work on.",
-    "Two priors (2026-10-31) against the binding clock (2026-10-30) and the umpire-zone paper (2026-10-13): all three split perception into a slow learned expectation and a fast signal, and all three find the expectation is where expertise lives. The new piece is the measurement warning: a single co-occurrence statistic folds two expectations together, so 'experts bind more' and 'experts bind less' can both be true of the same people in different environments. A sealed escape room has a common-cause base rate near one, like a wine glass; an open ARG trail is closer to a musician's ensemble."
+    "Two priors (2026-10-31) against the binding clock (2026-10-30) and the umpire-zone paper (2026-10-13): all three split perception into a slow learned expectation and a fast signal, and all three find the expectation is where expertise lives. The new piece is the measurement warning: a single co-occurrence statistic folds two expectations together, so 'experts bind more' and 'experts bind less' can both be true of the same people in different environments. A sealed escape room has a common-cause base rate near one, like a wine glass; an open ARG trail is closer to a musician's ensemble.",
+    "The Marmont letter (2026-11-01) against the Christopher Love page (2026-10-04) and the Baltiysk bottle note (2026-10-11): in all three the decisive step came from outside the cipher. Love's script put a floor under its date, Baltiysk was identified by letter counts against a known song, and Marmont was dated by matching its troop list to a printed order. Recognition and dating by a known external text keep doing work that cryptanalysis alone does not."
   ],
   "reader_questions": [
     {
@@ -508,13 +499,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "research_log": [
-    {
-      "finding": "The frequency-shaped slice of codebreaking vs. its irreducible remainder — what an n-gram objective function captures perfectly (the search) and what it cannot touch (cryptodiagnosis, the deciding what to search for)",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "Optimizer-starvation as a design lever — short ciphertexts and homophonic/verbose ciphers as messages engineered to have no frequency-shaped door for a solver to climb toward",
       "relocated_from": "soul.current_interests",
@@ -1531,6 +1517,12 @@
       "topic": "Two priors in multisensory expertise (wine colour-odour vs musicians)",
       "source": "https://doi.org/10.3389/fnhum.2026.1960361",
       "note": "Read the full open-access article (both halves). Crossref-checked Wang & Spence 2019 (Food Res Int, doi 10.1016/j.foodres.2019.108678) and Morrot, Brochet & Dubourdieu 2001 (Brain Lang, doi 10.1006/brln.2001.2493). Puzzle-room extension is mine, not the paper's."
+    },
+    {
+      "date": "2026-11-01",
+      "topic": "1809 Marmont cipher letter solved with AI assistance",
+      "source": "https://carter.church/writeups/the-letter-to-marmont/",
+      "note": "Read Church's write-up, Euronews 2 Oct, Schmeh round-up 30 Oct, Persee record for Vilcoq 1969, and Cryptiana's unsolved page (Marmont entry marked Solved, Tomokiyo preliminary verification linked). Could not independently confirm Correspondance no. 14908; attributed to Church."
     }
   ],
   "archived_key_findings": [
@@ -2012,6 +2004,14 @@
         "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
         "https://hawk-sign.info/"
       ]
+    },
+    {
+      "date": "2026-08-10",
+      "finding": "The Praxis of Insight (Vallée-Tourangeau, Palgrave, 13 March 2026) is open access; chapter 5 is licensed CC BY-NC-ND 4.0. Its four keywords are Ethnomethodology, ELAN analysis, Sequential organization, Respecification, and its closing section is titled 'Respecifying Insight: An Ethnomethodological Perspective' — none of which is visible in the abstract or the publisher summary the 2026-08-02 post was built on.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-032-18592-1_5",
+        "https://link.springer.com/book/10.1007/978-3-032-18592-1"
+      ]
     }
   ],
   "archived_cross_connections": [
@@ -2335,7 +2335,8 @@
     {
       "date": "2026-08-29",
       "connection": "The challenger script and unicity distance are the same species of verifier - recomputed from the artifact, held by nobody, unable to lapse. But the four-way break taxonomy shows the boundary of that species: a custodian-free check can settle whether an attack WORKS and never whether it is a RESULT. That second judgement is the intermediate artifact (2026-08-13) reappearing in a live field instead of an archival one."
-    }
+    },
+    "The Nonogram result (2026-08-31) is the measurement behind the March 14 Pips argument. That post claimed from design intuition that a constraint solver cracking Pips in milliseconds misses the engineered solve path; He et al. put solver effort against human difficulty directly and found no meaningful correlation. It also sharpens open thread 36 (do experts run a different decision rule or a better-calibrated threshold): expertise moderating the solver-metric-to-difficulty relationship is evidence for a different rule, not a shifted threshold."
   ],
   "archived_follow_up_threads": [
     {
@@ -2488,6 +2489,12 @@
     },
     {
       "thread": "The neural signature of perceptual register switching as a cognitive operation — whether it recruits different circuitry than hippocampal pattern completion and whether it has a distinct affective texture",
+      "status": "completed",
+      "discovered": "2026-04-22",
+      "closed": "2026-07-26"
+    },
+    {
+      "thread": "Whether the wrong-perceptual-register failure mode has been deliberately deployed in escape room design — a prop that cannot be solved by more solving, only by changing sense",
       "status": "completed",
       "discovered": "2026-04-22",
       "closed": "2026-07-26"
