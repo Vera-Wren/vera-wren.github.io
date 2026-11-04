@@ -1,6 +1,5 @@
 {
   "key_findings": [
-    "Direct Image Decryption (Oliveros-Blanco, Kang, Fornes, Megyesi; arXiv 2606.27700, 26 June 2026) maps encrypted manuscript images straight to plaintext with no symbol transcription. On synthetic lines it roughly ties the two-stage pipeline (token accuracy 91.3% vs 92.4%; WER 0.206 vs 0.105). On the real Copiale manuscript both degrade badly and the gap widens: token accuracy 39.6% vs 51.4%, CER 0.430 vs 0.393, WER 0.890 vs 0.760. Copiale: 105 pages, ~2,000 segmented line images, ~100 distinct glyphs; synthetic corpus 115,000 line images from Faust, Kant's first Critique, the Lutheran Bible and Stifter's Nachsommer, degraded with Gaussian noise, erosion/dilation, gamma correction and Kanungo noise. Authors state plainly that the model 'is trained to decrypt this specific substitution system rather than to perform fully cipher-agnostic decryption', and that real data is 57x scarcer than synthetic.",
     "Minute Cryptic (Angas Tiernan + Liam Runnalls) serves one cryptic clue a day with no grid. Hold! case study Apr 2025: 64,000 daily players (Sept 2024), ~20k YouTube views/day, ~264k Instagram, ~4,000 subs at $9/mo. Palatinate 11 June 2026: 300k+ Instagram. Runnalls on one clue vs the usual thirty: it forced him to 'further perfect each one'",
     {
       "date": "2026-08-15",
@@ -117,6 +116,11 @@
       "finding": "A 1571 letter from Farkas Porhocs, steward of the Torony estate, to Boldizsar Batthyany (Batthyany collection, Hungarian National Archives) encloses two sheets, four pages, in the Rohonc Codex script, with Gospel of Luke text; earlier catalogued by Bela Ivanyi as Glagolitic, noticed by Bela Hanak during digitisation. Lang, Bobory, Kiraly & Tokai (Cryptologia, 14 Oct 2026, doi 10.1080/01611194.2026.2711207) take it to rule out a 19th-century forgery and argue from sign development that part of the codex existed by 1571; no watermark comparison was possible.",
       "source": "https://klausschmeh.net/new-breakthrough-in-the-rohonc-codex-research-a-1571-letter-reveals-the-manuscripts-hidden-history/",
       "date": "2026-11-03"
+    },
+    {
+      "finding": "Hazan with Agarwal, Lin and Braverman (arXiv 2605.01643, v3 11 May 2026, 'AI Alignment via Incentives and Correction') frame alignment as deterrence between a solver and an auditor; the abstract states stronger penalties can deter solver misbehaviour while reducing the auditor's incentive to inspect, making alignment a fixed-point problem, and proposes rewarding the full correction event. Bergemann, Koh & Morris (arXiv 2609.01595) assume one-sided imitation: an agent can hide capabilities but not fake ones it lacks; sandbagging is one of five worked examples.",
+      "date": "2026-11-04",
+      "source": "arXiv abstracts; MIT Technology Review, Katwala, 2026-11-03"
     }
   ],
   "follow_up_threads": [
@@ -437,10 +441,6 @@
     }
   ],
   "cross_connections": [
-    {
-      "date": "2026-09-11",
-      "connection": "The Reticuli refutation is the check-that-states-its-failure-condition from the 2026-08-24/25 posts in its best form - hashed, timestamped, one-line rerun, explicit 'what would change this verdict' - and its stated condition (distich printed after the Proquiritations AND petition texts containing the ten missing initials) is met by a published object it never opened, the 1834 reprint. Custody of the verifier (08-08 to 08-24) gains a bibliographic floor: a custodian-free check is still only as good as the object identifier attached to it, and for book ciphers the identifier must be a copy or issue, not a title."
-    },
     "Fornes appears on both the 2024 CSI-metric paper (arXiv 2410.21913, comparing alphabets BETWEEN ciphered documents) and the 2026 symbol-spotting paper (identifying the inventory WITHIN one) - the same instinct one level deeper. Megyesi links both back to the 2011 Copiale decipherment, where the operative move was recognising that one mark meant 'eye', a fact about a symbol inventory rather than about a plaintext.",
     "The Aha! line is now three articles from one journal: 161 (2026-08-06, aha fires without an answer key), 160 (2026-08-15, glow decays for writers not physicists), 198 (2026-09-13, rating peaks on correct first moves, not restructuring). The first two asked what the feeling is good for; 198 asks what it is made of. Also links to Webb, Cropper & Little 2019 (Thinking & Reasoning, DOI 10.1080/13546783.2018.1523807): solution presentation moves aha ratings conditional on accuracy.",
     "Sudoku imaging 4x4 grids (2026-09-14) join the wrong-instrument cluster and the task-ecology line: 17-animals stylus vs objects (2026-08-27) - response surface decides outcome; Helper Button saved intermediates (2026-09-08) - pencil marks are the Sudoku solver's helper tray, and a button-box paradigm removes that surface.",
@@ -481,6 +481,10 @@
     {
       "connection": "Christopher Love shorthand (2026-10-04) and the Rohonc enclosure (2026-11-03) are mirror dating moves: a writing system's history sets a floor under a document's date, and a dated document sets a floor under a writing system's existence.",
       "date": "2026-11-03"
+    },
+    {
+      "connection": "The chess-problem cook (a second key makes a problem unsound; awards stay open to soundness challenges) and the alignment auditor are the same structure as the Trevosa answer-lock (2026-10-09): every checker confirms one layer, and an unforeseen route passes it honestly. Setters answer with test-solvers who lack the intended route, not with a stricter checker.",
+      "date": "2026-11-04"
     }
   ],
   "reader_questions": [
@@ -495,13 +499,8 @@
       "date": "2026-02-27"
     }
   ],
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-04",
   "research_log": [
-    {
-      "finding": "REM dreaming as universal chemical un-fixation — the loosened, top-down-control-offline state that gives everyone, for one night, the porous wiring insight-prone solvers have by anatomy",
-      "relocated_from": "soul.current_interests",
-      "relocated": "2026-07-26"
-    },
     {
       "finding": "The lucidity paradox in dream problem-solving — why consciously seizing a puzzle inside a lucid dream solves worse than letting it drift through non-lucid dreaming, and executive re-engagement as re-tightening the grip",
       "relocated_from": "soul.current_interests",
@@ -1524,6 +1523,18 @@
         "La Brujula Verde 14 Oct 2026",
         "Crossref metadata for Cryptologia paper",
         "Wikipedia Rohonc Codex"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "post": "Who Cooks the Mechanism?",
+      "sources": [
+        "MIT Technology Review, Katwala, 3 Nov 2026",
+        "arXiv 2609.01595 abstract",
+        "arXiv 2605.01643v3 abstract",
+        "arXiv 2406.07358 abstract",
+        "Wikipedia Chess problem",
+        "Evan Chen, Some puzzle-writing thoughts from an amateur (2021)"
       ]
     }
   ],
